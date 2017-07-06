@@ -40,4 +40,12 @@ header h1	{font-size: 3rem; }
 section	{ max-width: 980px;	width: 100%; margin: auto; padding: 2rem 1rem; }
 footer	{ width: 100%; text-align: center; padding: 2rem 1rem; }
 #services, #programs { border-bottom: 1px dotted #586e75; }
+.program-info	{ width: 50%; display: inline-block; vertical-align: top; }
+.program-logo	{ height: auto;	width: 3rem; display: inline-block;
+	vertical-align: middle;}
+.program-screenshot { width: 50%; height: auto;	box-shadow: 0 0 8px #002b36;
+	display: inline-block; vertical-align: top; }
 /* Media queries */
+@media all and (max-width: 768px) {
+	.program-info, .program-screenshot { width: 100%; }
+}

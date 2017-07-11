@@ -68,11 +68,6 @@ section h2 { color: #2aa198; }
 
 #services, #programs { border-bottom: 1px dotted #586e75; }
 
-.program-info {
-	display: inline-block;
-	vertical-align: top;
-	width: 50%;
-}
 
 .program-logo {
 	display: inline-block;
@@ -83,13 +78,15 @@ section h2 { color: #2aa198; }
 
 .program-screenshot {
 	box-shadow: 0 0 8px #002b36;
-	display: inline-block;
+	max-width: 100%;
 	height: auto;
-	vertical-align: top;
-	width: 50%;
 }
 
 /* Media queries */
-@media all and (max-width: 768px) {
-	.program-info, .program-screenshot { width: 100%; }
+@media all and (min-width: 768px) {
+	.program-info, .program-screenshot { 
+		display: inline-block;
+		vertical-align: top;
+		width: 50%;
+	}
 }

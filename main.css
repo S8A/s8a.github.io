@@ -21,13 +21,17 @@ h1, h2, h3 {
 }
 
 h1 {
+	color: #859900;
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+h2 {
 	font-size: 2rem;
 	text-align: center;
 }
 
-h2 { font-size: 1.5rem; }
-
-h3 { font-size: 1.25rem; }
+h3 { font-size: 1.5rem; }
 
 header {
 	background: #002b36;
@@ -35,12 +39,6 @@ header {
 	font-family: monospace;
 	padding: 4rem 1rem;
 	text-align: center;
-}
-
-header h1 {
-	color: #859900;
-	font-size: 3rem;
-	font-weight: 700;
 }
 
 section	{
@@ -59,9 +57,9 @@ footer {
 	width: 100%;
 }
 
-section h1 { color: #b58900; }
+section h2 { color: #b58900; }
 
-section h2 { color: #2aa198; }
+section h3 { color: #2aa198; }
 
 #services b { color: #93a1a1; }
 

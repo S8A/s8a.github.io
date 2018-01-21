@@ -65,17 +65,17 @@ section h3 { color: #2aa198; }
 
 #contact b { color: #d33682 }
 
-#services, #programs { border-bottom: 1px dotted #586e75; }
+#services, #projects { border-bottom: 1px dotted #586e75; }
 
 
-.program-logo {
+.project-logo {
   display: inline-block;
   height: auto;
   vertical-align: middle;
   width: 3rem;
 }
 
-.program-screenshot {
+.project-screenshot {
   box-shadow: 0 0 8px #002b36;
   max-width: 100%;
   height: auto;
@@ -83,7 +83,7 @@ section h3 { color: #2aa198; }
 
 /* Media queries */
 @media all and (min-width: 768px) {
-  .program-info, .program-screenshot { 
+  .project-info, .project-screenshot { 
     display: inline-block;
     vertical-align: top;
     width: 50%;

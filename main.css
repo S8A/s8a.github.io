@@ -67,12 +67,15 @@ section h3 { color: #2aa198; }
 
 #services, #projects { border-bottom: 1px dotted #586e75; }
 
-
 .project-logo {
   display: inline-block;
   height: auto;
   vertical-align: middle;
   width: 3rem;
+}
+
+.project {
+  margin: 2rem 0;
 }
 
 .project-screenshot {
@@ -87,5 +90,8 @@ section h3 { color: #2aa198; }
     display: inline-block;
     vertical-align: top;
     width: 50%;
+  }
+  .project-info {
+    padding-right: 1rem;
   }
 }

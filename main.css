@@ -63,15 +63,25 @@ section h3 { color: #2aa198; }
 
 #services b { color: #93a1a1; }
 
-#contact b { color: #d33682 }
+#contact b { color: #d33682; }
 
 #services, #projects { border-bottom: 1px dotted #586e75; }
+
+a[download] {
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0.5rem;
+  border: 2px solid #d33682;
+  color: #d33682;
+  margin-right: 2rem;
+}
 
 .project-logo {
   display: inline-block;
   height: auto;
   vertical-align: middle;
   width: 3rem;
+  margin-right: 0.25rem;
 }
 
 .project {

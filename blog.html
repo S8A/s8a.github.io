@@ -1,0 +1,33 @@
+---
+layout: default
+title: Blog - Samuel Ochoa
+---
+<section id="blog">
+  <h2>Blog</h2>
+  <p>In this blog I write mainly about two things: personal projects and political-economic analyses.</p>
+  <br>
+  <h3>Projects</h3>
+  <p>Latest updates on my projects and comments about programming articles related to them.</p>
+  <ul>
+    {% assign project_posts = site.posts | where: 'category', 'projects' %}
+    {%- for post in project_posts -%}
+      <li>
+        <b><a href="{{ post.url }}">{{ post.title }}</a></b>
+        <p>{{ post.excerpt }}</p>
+      </li>
+    {%- endfor -%}
+  </ul>
+  <br>
+  <h3>Political economy</h3>
+  <p>Analyses and opinions about articles and news related to political economy.</p>
+  <p>I'm a neoliberal: I promote free markets, individual liberty and the rule of law with a preference for pragmatism over ideological purity.</p>
+  <ul>
+    {% assign project_posts = site.posts | where: 'category', 'neoliberal' %}
+    {%- for post in project_posts -%}
+      <li>
+        <b><a href="{{ post.url }}">{{ post.title }}</a></b>
+        <p>{{ post.excerpt }}</p>
+      </li>
+    {%- endfor -%}
+  </ul>
+</section>

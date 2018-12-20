@@ -22,7 +22,7 @@ h1, h2, h3 {
 
 h1 {
   color: #859900;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
@@ -37,7 +37,7 @@ header {
   background: #002b36;
   color: #93a1a1;
   font-family: monospace;
-  padding: 4rem 1rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -92,6 +92,57 @@ a[download] {
   box-shadow: 0 0 8px #002b36;
   max-width: 100%;
   height: auto;
+}
+
+nav li {
+  margin: 0 0.25rem !important;
+  padding: 0 0.5rem !important;
+  text-transform: uppercase;
+}
+nav li.current {
+  background: #073642 !important;
+  font-weight: bold;
+}
+
+#post p.subtitle {
+  text-align: center;
+}
+
+/* PureCSS menus */
+.pure-menu-list, .pure-menu-item { position: relative; }
+
+.pure-menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pure-menu-item {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.pure-menu-link, .pure-menu-heading {
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.pure-menu-horizontal {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.pure-menu-horizontal .pure-menu-list {
+  display: inline-block;
+}
+
+.pure-menu-horizontal .pure-menu-item,
+.pure-menu-horizontal .pure-menu-heading,
+.pure-menu-horizontal .pure-menu-separator {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /* Media queries */

@@ -1,0 +1,14 @@
+<header>
+  <h1>Samuel Ochoa</h1>
+  <nav class="pure-menu pure-menu-horizontal">
+    <ul class="pure-menu-list">
+      {%- for item in site.data.navigation -%}
+        <li class="pure-menu-item {% if page.url == item.link %}current{% endif %}">
+          <a href="{{ item.link }}" class="pure-menu-link">
+            {{ item.name }}
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+</header>

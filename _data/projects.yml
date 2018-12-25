@@ -1,32 +1,32 @@
 - javacipher:
   name: JavaCipher
   icon: javacipher.svg
-  summary: Herramienta para encriptar y decriptar texto usando varios cifrados clásicos.
+  summary: Tool for encrypting and decrypting text using various classical ciphers.
   features:
-    - "Tres cifrados implementados: Atbash, Caesar y Vigenère."
-    - "Interfaz gráfica JavaFX separada de la lógica interna del programa."
-    - "Multiplataforma: Cualquier sistema operativo con Java 8."
-    - "Internacional: Interfaz disponible en español e inglés, según el idioma del sistema."
+    - "Three ciphers implemented: Atbash, Caesar y Vigenère."
+    - "Graphical user interface using JavaFX separated from the program's logic."
+    - "Multiplataform: Runs on any operating system with Java 8."
+    - "International: The GUI is in English or Spanish depending on the user's system."
   download: javacipher-latest.jar
   github: https://github.com/S8A/javacipher
   image: javacipher-screenshot.png
 - jnetchat:
   name: JNetChat
   icon: jnetchat.svg
-  summary: Chat de red local. Código original no disponible. Versión de octubre 2016.
+  summary: Local network chat. Source code not available. October 2016 version.
   download: jnetchat.old.jar
 - datacipher:
   name: DataCipher
   icon: datacipher.svg
-  summary: Utilidad de cifrado de texto.
+  summary: Text ciphering utility.
   features:
-    - ASCII binario, octal, decimal, y hexadecimal.
-    - Cifrado Atbash.
-    - Cifrado Caesar.
-    - Cifrado Vigenère.
-    - Transposición columnar (funcionamiento inadecuado).
+    - "ASCII: binary, octal, decimal, hexadecimal."
+    - "Atbash cipher."
+    - "Caesar cipher."
+    - "Vigenère cipher."
+    - "Columnar transposition (bad implementation)."
   image: datacipher-screenshot.png
 - osubfinder:
-  name: OSubFinder (incompleto)
-  summary: Herramienta para descargar subtítulos de series y películas usando la API XML-RPC de OpenSubtitles.org
+  name: OSubFinder (incomplete)
+  summary: Tool for downloading subtitles for shows and movies using OpenSubtitles.org's XML-RPC API.
   github: https://github.com/S8A/osubfinder

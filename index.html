@@ -3,7 +3,7 @@ layout: default
 title: Samuel Ochoa
 ---
 <section id="services">
-  <h2>Servicios</h2>
+  <h2>Services</h2>
   {%- for service in site.data.services -%}
     <h3>{{ service.title }}</h3>
     <ul>
@@ -16,7 +16,7 @@ title: Samuel Ochoa
 </section>
 
 <section id="projects">
-  <h2>Proyectos</h2>
+  <h2>Projects</h2>
   {%- for project in site.data.projects -%}
     <div class="project">
       <div class="project-info">
@@ -35,10 +35,10 @@ title: Samuel Ochoa
           </ul>
         {%- endif -%}
         {%- if project.download -%}
-          <p><a href="downloads/{{ project.download }}" download="">Descargar</a> 
+          <p><a href="downloads/{{ project.download }}" download="">Download</a> 
         {%- endif -%}
         {%- if project.github -%}
-          <a href="{{ project.github }}">Proyecto en GitHub</a></p>
+          <a href="{{ project.github }}">GitHub project</a></p>
         {%- endif -%}
       </div>
       {%- if project.image -%}
@@ -48,10 +48,14 @@ title: Samuel Ochoa
   {%- endfor -%}
 </section>
 <section id="contact">
-  <h2>Contacto</h2>
+  <h2>Contact</h2>
   <ul>
     <li>
-      <b>Correo:</b> <a href="mailto:samuelochoap@gmail.com">samuelochoap@gmail.com</a></li>
-      <li><b>Teléfono:</b> (+58) 414-2415927. Para llamadas, SMS y WhatsApp.</li>
+      <b>Email:</b> <a href="mailto:samuelochoap@gmail.com">samuelochoap@gmail.com</a>
+    </li>
+    <li><b>Phone:</b> (+58) 414-2415927.<br>
+      For national calls and text messages.<br>
+      Use WhatsApp for national and international messages.
+    </li>
   </ul>  
 </section>

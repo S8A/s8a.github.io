@@ -102,7 +102,7 @@ a[download] {
 }
 
 .project-screenshot {
-  box-shadow: 0 0 8px #002b36;
+  /* box-shadow: 0 0 8px #002b36; */
   max-width: 100%;
   height: auto;
 }

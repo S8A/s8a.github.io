@@ -121,9 +121,14 @@ nav li {
   display: inline-block;
   vertical-align: middle;
 }
+
 nav li.current {
   background: #073642 !important;
   font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
 }
 
 #post p.subtitle {

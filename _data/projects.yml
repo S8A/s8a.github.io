@@ -1,3 +1,15 @@
+- pdfmerger-kotlin:
+  name: PDFMerger (Kotlin)
+  icon: pdfmerger.svg
+  summary: Tool for merging PDF documents made in Kotlin.
+  features:
+    - "Split and order documents before merging."
+    - "Graphical user interface made with TornadoFX."
+    - "PDF handling with Apache PDFBox"
+    - "Multiplataform: Runs on any operating system with Java 8."
+    - "Soon: Internationalisation."
+  github: https://github.com/S8A/pdfmerger-kotlin
+  image: pdfmerger-kotlin-screenshot.png
 - javacipher:
   name: JavaCipher
   icon: javacipher.svg
@@ -25,6 +37,7 @@
     - "Caesar cipher."
     - "Vigenère cipher."
     - "Columnar transposition (bad implementation)."
+  github: https://github.com/S8A/datacipher
   image: datacipher-screenshot.png
 - osubfinder:
   name: OSubFinder (incomplete)

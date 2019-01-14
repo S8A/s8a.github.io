@@ -4,10 +4,11 @@
   summary: Tool for merging PDF documents made in Kotlin.
   features:
     - "Split and order documents before merging."
-    - "Graphical user interface made with TornadoFX."
-    - "PDF handling with Apache PDFBox"
+    - "TornadoFX graphical user interface."
+    - "PDF handling through Apache PDFBox"
     - "Multiplataform: Runs on any operating system with Java 8."
-    - "Soon: Internationalisation."
+    - "International: The GUI is in English or Spanish depending on the user's system."
+  download: https://github.com/S8A/pdfmerger-kotlin/releases/download/v1.0/pdfmerger-kotlin-1.0.jar
   github: https://github.com/S8A/pdfmerger-kotlin
   image: pdfmerger-kotlin-screenshot.png
 - javacipher:
@@ -16,17 +17,17 @@
   summary: Tool for encrypting and decrypting text using various classical ciphers.
   features:
     - "Three ciphers implemented: Atbash, Caesar y Vigenère."
-    - "Graphical user interface using JavaFX separated from the program's logic."
+    - "JavaFX graphical user interface separated from the program's logic."
     - "Multiplataform: Runs on any operating system with Java 8."
     - "International: The GUI is in English or Spanish depending on the user's system."
-  download: javacipher-latest.jar
+  download: https://github.com/S8A/javacipher/releases/download/v1.0/javacipher-1.0.jar
   github: https://github.com/S8A/javacipher
   image: javacipher-screenshot.png
 - jnetchat:
   name: JNetChat
   icon: jnetchat.svg
   summary: Local network chat. Source code not available. October 2016 version.
-  download: jnetchat.old.jar
+  download: assets/downloads/jnetchat.old.jar
 - datacipher:
   name: DataCipher
   icon: datacipher.svg

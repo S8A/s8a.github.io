@@ -1,3 +1,15 @@
+- pdfmerger-python:
+  name: PDFMerger (Python)
+  icon: pdfmerger.svg
+  summary: Tool for merging PDF documents made in Python.
+  features:
+    - "Split and order documents before merging."
+    - "PyQT5 graphical user interface."
+    - "PDF handling through PyPDF2"
+    - "Multiplataform: Runs on any system with Python 3."
+    - "International: Coming soon."
+  github: https://github.com/S8A/pdfmerger-python
+  image: pdfmerger-python-screenshot.png
 - pdfmerger-kotlin:
   name: PDFMerger (Kotlin)
   icon: pdfmerger.svg
@@ -6,7 +18,7 @@
     - "Split and order documents before merging."
     - "TornadoFX graphical user interface."
     - "PDF handling through Apache PDFBox"
-    - "Multiplataform: Runs on any operating system with Java 8."
+    - "Multiplataform: Runs on any system with Java 8."
     - "International: The GUI is in English or Spanish depending on the user's system."
   download: https://github.com/S8A/pdfmerger-kotlin/releases/download/v1.0/pdfmerger-kotlin-1.0.jar
   github: https://github.com/S8A/pdfmerger-kotlin

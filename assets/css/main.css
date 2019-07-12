@@ -135,6 +135,10 @@ nav a {
   text-align: center;
 }
 
+#post blockquote {
+  font-style: italic;
+}
+
 /* Media queries */
 @media all and (min-width: 768px) {
   .project-info, .project-screenshot { 

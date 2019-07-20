@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.min.css">
-    <title>{{ page.title }}</title>
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.og_desc}}">
+    <meta property="og:image" content="{{ page.og_image }}">
+    <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>{{ page.title }} - Samuel Ochoa</title>
   </head>
   <body>
     {% include header.html %}

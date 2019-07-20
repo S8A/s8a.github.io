@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Completed first chapter of SICP book"
+og_desc: Finished chapter one of a classic programming book.
+og_image: s8a-thumbnail.png
 date: 2019-07-12 12:00:00 -0400
 category: projects
 ---

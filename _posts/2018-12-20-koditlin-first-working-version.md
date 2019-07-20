@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Koditlin: First working version"
+og_desc: Created a simple text editor in Kotlin.
+og_image: s8a-thumbnail.png
 date: 2018-12-20 17:55:00 -0400
 category: projects
 ---

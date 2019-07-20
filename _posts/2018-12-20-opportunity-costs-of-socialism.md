@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "CEA Report: The Opportunity Costs of Socialism"
+og_desc: Socialism is always a very costly failure.
+og_image: s8a-thumbnail.png
 date: 2018-12-20 18:05:00 -0400
 category: neoliberal
 ---

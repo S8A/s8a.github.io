@@ -137,6 +137,9 @@ nav a {
 
 #post blockquote {
   font-style: italic;
+  background: #002b36;
+  margin: 0;
+  padding: 0.25rem 2.5rem;
 }
 
 /* Media queries */

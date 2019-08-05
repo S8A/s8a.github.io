@@ -4,19 +4,6 @@ title: Samuel Ochoa
 og_desc: Samuel Ochoa, programmer and computer engineering student.
 og_image: s8a-thumbnail.png
 ---
-<section id="services">
-  <h2>Services</h2>
-  {%- for service in site.data.services -%}
-    <h3>{{ service.title }}</h3>
-    <ul>
-      {%- for feature in service.features -%}
-        <li>{{ feature }}</li>
-      {%- endfor -%}
-    </ul>
-    <br>
-  {%- endfor -%}
-</section>
-
 <section id="projects">
   <h2>Projects</h2>
   {%- for project in site.data.projects -%}

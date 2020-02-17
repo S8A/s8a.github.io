@@ -98,16 +98,18 @@ a[download] {
 }
 
 #profile-pic-container, #about-text-container {
-  padding: 1rem;
-  flex: 1 100%;
+  flex: 1 1 auto;
 }
 
 #profile-pic-container {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #profile-pic {
-  max-width: 16rem;
+  max-width: 100%;
   height: auto;
 }
 
@@ -172,12 +174,13 @@ nav a {
 }
 @media all and (min-width: 600px) {
   #profile-pic-container {
-    flex: 0 auto;
+    flex: 1 1 20%;
     order: 1;
   }
   #about-text-container {
-    flex: 1 0;
+    flex: 1 0 60%;
     order: 2;
+    padding: 0 1rem;
   }
 }
 @media all and (min-width: 768px) {

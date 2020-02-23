@@ -38,7 +38,7 @@
 - jnetchat:
   name: JNetChat
   icon: jnetchat.svg
-  summary: Local network chat. Source code not available. October 2016 version.
+  summary: Local network chat. Source code lost. October 2016 version.
   download: assets/downloads/jnetchat.old.jar
 - datacipher:
   name: DataCipher
@@ -52,7 +52,3 @@
     - "Columnar transposition (bad implementation)."
   github: https://github.com/S8A/datacipher
   image: datacipher-screenshot.png
-- osubfinder:
-  name: OSubFinder (incomplete)
-  summary: Tool for downloading subtitles for shows and movies using OpenSubtitles.org's XML-RPC API.
-  github: https://github.com/S8A/osubfinder

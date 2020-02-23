@@ -1,0 +1,8 @@
+- umc-iaa-2019-02:
+  name: Analysis of academic scores UMC 2019-02
+  summary: 'I made a long statistical analysis of the accumulated academic 
+  scores published by the UMC for the 2019-02 period. I created it as a Jupyter 
+  notebook and exported it to HTML to publish it here.'
+  read-text: Read document (Spanish)
+  read-url: /umc-iaa-2019-02
+  image: umc-iaa-2019-02-thumbnail.png

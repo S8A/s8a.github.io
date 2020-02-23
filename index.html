@@ -8,7 +8,7 @@ og_image: s8a-thumbnail.png
   <div id="about-text-container">
     <h1>Samuel Ochoa</h1>
     <p>I'm a fast-learning computer engineering student from Venezuela whose interests include software development, economics and business. I taught myself to become <a href="https://www.efset.org/cert/eYSfA6">proficient in English</a> and to program in many languages since I was high school.</p>
-    <p>I want to work as a professional software engineer and eventually move abroad and run my own businesses. Below you can see my projects and my contact information.</p>
+    <p>I want to work as a professional software engineer and eventually move abroad and run my own businesses. Below you can see my programs and my contact information.</p>
   </div>
   <div id="profile-pic-container">
     <img id="profile-pic"
@@ -19,34 +19,57 @@ og_image: s8a-thumbnail.png
   </div>
 </section>
 
-<section id="projects">
-  <h2>Projects</h2>
-  {%- for project in site.data.projects -%}
+<section id="programs">
+  <h2>Desktop programs</h2>
+  {%- for program in site.data.programs -%}
     <div class="project">
       <div class="project-info">
         <h3>
-          {%- if project.icon -%}
-            <img class="project-logo" src="assets/img/{{ project.icon }}" alt="">
+          {%- if program.icon -%}
+            <img class="project-logo" alt="" 
+              src="assets/img/{{ program.icon }}">
           {%- endif -%}
-          {{ project.name}}
+          {{ program.name }}
         </h3>
-        <p>{{ project.summary}}</p>
-        {%- if project.features -%}
+        <p>{{ program.summary }}</p>
+        {%- if program.features -%}
           <ul>
-            {%- for feature in project.features -%}
+            {%- for feature in program.features -%}
               <li>{{ feature }}</li>
             {%- endfor -%}
           </ul>
         {%- endif -%}
-        {%- if project.download -%}
-          <p><a href="{{ project.download }}" download="">Download</a> 
+        {%- if program.download -%}
+          <p><a href="{{ program.download }}"
+               class="program-download" download>Download</a> 
         {%- endif -%}
-        {%- if project.github -%}
-          <a href="{{ project.github }}">GitHub project</a></p>
+        {%- if program.github -%}
+          <a href="{{ program.github }}">GitHub project</a></p>
         {%- endif -%}
       </div>
-      {%- if project.image -%}
-        <img class="project-screenshot" src="assets/img/{{ project.image }}" alt="">
+      <div class="project-image">
+        {%- if program.image -%}
+          <img src="assets/img/{{ program.image }}" alt="">
+        {%- endif -%}
+      </div>
+    </div>
+  {%- endfor -%}
+</section>
+
+<section id="documents">
+  <h2>Documents</h2>
+  {%- for document in site.data.documents -%}
+    <div class="project">
+      <div class="project-info">
+        <h3>{{ document.name }}</h3>
+        <p>{{ document.summary }}</p>
+        <p><a href="{{ document.read-url }}" class="document-read">
+             {{ document.read-text }}</a></p>
+      </div>
+      {%- if document.image -%}
+        <div class="project-image">
+          <img src="assets/img/{{ document.image }}" alt="">
+        </div>
       {%- endif -%}
     </div>
   {%- endfor -%}
@@ -58,9 +81,6 @@ og_image: s8a-thumbnail.png
     <li>
       <b>Email:</b> <a href="mailto:samuelochoap@gmail.com">samuelochoap@gmail.com</a>
     </li>
-    <li><b>Phone:</b> (+58) 414-2415927.<br>
-      For national calls and text messages.<br>
-      Use WhatsApp for national and international messages.
-    </li>
+    <li><b>WhatsApp:</b> (+58) 414-2415927.</li>
   </ul>  
 </section>

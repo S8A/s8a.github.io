@@ -1,0 +1,10 @@
+- id: projects
+  name: Projects
+  summary: 'Posts about my projects: software, university assignments, 
+  interactive documents, etc.'
+  url: /blog-projects.html
+- id: personal
+  name: Personal
+  summary: 'In this section I write about interesting things I read or think, 
+  or just whatever I want.'
+  url: /blog-personal.html

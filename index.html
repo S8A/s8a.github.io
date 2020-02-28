@@ -7,8 +7,14 @@ og_image: s8a-thumbnail.png
 <section id="about">
   <div id="about-text-container">
     <h1>Samuel Ochoa</h1>
-    <p>I'm a fast-learning computer engineering student from Venezuela whose interests include software development, economics and business. I taught myself to become <a href="https://www.efset.org/cert/eYSfA6">proficient in English</a> and to program in many languages since I was high school.</p>
-    <p>I want to work as a professional software engineer and eventually move abroad and run my own businesses. Below you can see my programs and my contact information.</p>
+    <p>I'm a fast-learning computer engineering student from Venezuela whose 
+      interests include software development, economics and business. I taught 
+      myself to become <a href="https://www.efset.org/cert/eYSfA6">proficient 
+      in English</a> and to program in many languages since I was high school.
+    </p>
+    <p>I want to work as a professional software engineer and eventually move 
+    abroad and run my own businesses. Below you can see my projects and my 
+    contact information.</p>
   </div>
   <div id="profile-pic-container">
     <img id="profile-pic"
@@ -68,7 +74,9 @@ og_image: s8a-thumbnail.png
       </div>
       {%- if document.image -%}
         <div class="project-image">
-          <img src="assets/img/{{ document.image }}" alt="">
+          <img src="assets/img/{{ document.image }}-defaultdpi.png"
+               srcset="assets/img/{{ document.image }}-hidpi.png 2x"
+               alt="">
         </div>
       {%- endif -%}
     </div>
@@ -79,7 +87,8 @@ og_image: s8a-thumbnail.png
   <h2>Contact</h2>
   <ul>
     <li>
-      <b>Email:</b> <a href="mailto:samuelochoap@gmail.com">samuelochoap@gmail.com</a>
+      <b>Email:</b> <a href="mailto:samuelochoap@gmail.com">
+      samuelochoap@gmail.com</a>
     </li>
     <li><b>WhatsApp:</b> (+58) 414-2415927.</li>
   </ul>  

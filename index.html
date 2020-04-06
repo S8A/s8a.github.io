@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Samuel Ochoa
+title: Home
 og_desc: Samuel Ochoa, programmer and computer engineering student.
 og_image: s8a-thumbnail.png
 ---
@@ -18,9 +18,9 @@ og_image: s8a-thumbnail.png
   </div>
   <div id="profile-pic-container">
     <img id="profile-pic"
-         src="assets/img/s8a-20200107-defaultdpi.jpg"
-         srcset="assets/img/s8a-20200107-hidpi.jpg 2x,
-                 assets/img/s8a-20200107-higherdpi.jpg 4x"
+         src="/assets/img/s8a-20200107-defaultdpi.jpg"
+         srcset="/assets/img/s8a-20200107-hidpi.jpg 2x,
+                 /assets/img/s8a-20200107-higherdpi.jpg 4x"
          alt="Picture of Samuel Ochoa on January 7th, 2020.">
   </div>
 </section>
@@ -33,7 +33,7 @@ og_image: s8a-thumbnail.png
         <h3>
           {%- if program.icon -%}
             <img class="project-logo" alt="" 
-              src="assets/img/{{ program.icon }}">
+              src="/assets/img/{{ program.icon }}">
           {%- endif -%}
           {{ program.name }}
         </h3>
@@ -55,7 +55,7 @@ og_image: s8a-thumbnail.png
       </div>
       <div class="project-image">
         {%- if program.image -%}
-          <img src="assets/img/{{ program.image }}" alt="">
+          <img src="/assets/img/{{ program.image }}" alt="">
         {%- endif -%}
       </div>
     </div>
@@ -74,8 +74,8 @@ og_image: s8a-thumbnail.png
       </div>
       {%- if document.image -%}
         <div class="project-image">
-          <img src="assets/img/{{ document.image }}-defaultdpi.png"
-               srcset="assets/img/{{ document.image }}-hidpi.png 2x"
+          <img src="/assets/img/{{ document.image }}-defaultdpi.png"
+               srcset="/assets/img/{{ document.image }}-hidpi.png 2x"
                alt="">
         </div>
       {%- endif -%}

@@ -1,12 +1,12 @@
 <header>
   <div id="header-content">
-    <img id="header-logo" src="/assets/img/s8a-logo.svg" alt="">
+    <img id="header-logo" src="{{- site.url -}}/assets/img/s8a-logo.svg" alt="">
     <nav>
       <ul>
         {%- for item in site.data.navigation -%}
           <li {% if page.url == item.link %}class="current"{% endif %}>
-            <a href="{{ item.link }}">
-              {{ item.name }}
+            <a href="{{- item.link -}}">
+              {{- item.name -}}
             </a>
           </li>
         {%- endfor -%}

@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Projects - Blog - Samuel Ochoa
+title: Projects – Blog
 og_desc: All blog posts in the Projects category.
 og_image: s8a-thumbnail.png
 ---
 <section id="blog">
-  <h2>Blog: Projects</h2>
+  <h1>Blog: Projects</h1>
   {% assign posts = site.posts | where: 'category', 'projects' %}
   {%- for post in posts -%}
     <li>
-      {{ post.date | date: "%Y/%m/%d" }} - <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.date | date: "%Y/%m/%d" }} – <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {%- endfor -%}
 </section>

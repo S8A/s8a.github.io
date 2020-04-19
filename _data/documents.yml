@@ -1,20 +1,47 @@
 - umc-iaa-2019-02:
   name: Analysis of academic scores UMC 2019-02
   date: 2020-02-21
-  summary: 'I made a long statistical analysis of the accumulated academic 
+  summary: "I made a long statistical analysis of the accumulated academic 
   scores published by the UMC for the 2019-02 period. I created it as a Jupyter 
-  notebook and exported it to HTML to publish it here.'
+  notebook and exported it to HTML to publish it here."
   read-text: Read document (Spanish)
   read-url: /umc-iaa-2019-02
   image: umc-iaa-2019-02
+- cal604-ecuaciones-diferenciales:
+  name: Numerical solution of ordinary differential equations
+  date: 2020-02-06
+  summary: "A set of Numerical Calculus exercises about approximating the 
+  solution of ordinary differential equations using Euler's method and the 
+  Runge-Kutta method. Made as a Jupyter notebook and exported to HTML."
+  read-text: Read document (Spanish)
+  read-url: /cal604-ecuaciones-diferenciales
+  image: cal604-ecuaciones-diferenciales
+- cal604-integracion-numerica:
+  name: Numerical integration
+  date: 2020-02-01
+  summary: "A Numerical Calculus assignment about solving integrals using 
+  numerical algorithms like the trapezoidal rule and Simpson's rule. Made as 
+  a Jupyter notebook and exported to HTML."
+  read-text: Read document (Spanish)
+  read-url: /cal604-integracion-numerica
+  image: cal604-integracion-numerica
+- cal604-resolucion-numerica:
+  name: Numerical solution of equations
+  date: 2020-01-26
+  summary: "An 11-exercise Numerical Calculus assignment about finding roots 
+  of equations using numerical algorithms like the Newton-Raphson method and 
+  the bisection method. Made as a Jupyter notebook and exported to HTML."
+  read-text: Read document (Spanish)
+  read-url: /cal604-resolucion-numerica
+  image: cal604-resolucion-numerica
 - solow-swan-growth-model:
   name: Solow-Swan growth model
   date: 2019-05-27
-  summary: 'A Calculus 4 assignment about the application of differential 
+  summary: "A Calculus 4 assignment about the application of differential 
   equations, made in Geogebra. In this interactive document I explored the 
   Solow-Swan economic growth model, which is a nonlinear system consisting 
   of a single ordinary differential equation that models the evolution of 
-  the per capita stock of capital.'
+  the per capita stock of capital."
   read-text: Read document (Spanish)
   read-url: https://www.geogebra.org/m/zrcqd8hq
   image: solow-swan-growth-model

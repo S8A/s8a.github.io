@@ -1,8 +1,8 @@
-- umc-pro633-crud:
+- id: umc-pro633-crud
   name: UMC Campus CRUD
   icon: umc-logo.png
   summary: "Tool for managing a database of UMC students and their grades. 
-  Made as an assignment for Programming 3 (PRO633)."
+  Made as an assignment for Programming 3."
   features:
     - "Made in Python 3 with the PyMySQL library."
     - "Only available in Spanish."
@@ -14,7 +14,7 @@
     update students' records, and delete students' records."
   github: https://github.com/S8A/umc-pro633-crud
   image: umc-pro633-crud-both-demo-diagonal.png
-- pdfmerger-python:
+- id: pdfmerger-python
   name: PDFMerger (Python)
   icon: pdfmerger.svg
   summary: Tool for merging PDF documents made in Python.
@@ -26,7 +26,7 @@
     - "Only available in Spanish."
   github: https://github.com/S8A/pdfmerger-python
   image: pdfmerger-python-screenshot.png
-- pdfmerger-kotlin:
+- id: pdfmerger-kotlin
   name: PDFMerger (Kotlin)
   icon: pdfmerger.svg
   summary: Tool for merging PDF documents made in Kotlin.
@@ -39,7 +39,7 @@
   download: https://github.com/S8A/pdfmerger-kotlin/releases/download/v1.0/pdfmerger-kotlin-1.0.jar
   github: https://github.com/S8A/pdfmerger-kotlin
   image: pdfmerger-kotlin-screenshot.png
-- javacipher:
+- id: javacipher
   name: JavaCipher
   icon: javacipher.svg
   summary: Tool for encrypting and decrypting text using various classical ciphers.
@@ -51,12 +51,12 @@
   download: https://github.com/S8A/javacipher/releases/download/v1.0/javacipher-1.0.jar
   github: https://github.com/S8A/javacipher
   image: javacipher-screenshot.png
-- jnetchat:
+- id: jnetchat
   name: JNetChat
   icon: jnetchat.svg
   summary: Local network chat. Source code lost. October 2016 version.
   download: assets/downloads/jnetchat.old.jar
-- datacipher:
+- id: datacipher
   name: DataCipher
   icon: datacipher.svg
   summary: Text ciphering utility.

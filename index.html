@@ -28,7 +28,7 @@ og_image: s8a-thumbnail.png
 <section id="programs">
   <h2>Desktop programs</h2>
   {%- for program in site.data.programs -%}
-    <div class="project">
+    <div class="project" id="{{ program.id }}">
       <div class="project-info">
         <h3>
           {%- if program.icon -%}
@@ -65,20 +65,34 @@ og_image: s8a-thumbnail.png
 <section id="documents">
   <h2>Documents</h2>
   {%- for document in site.data.documents -%}
-    <div class="project">
+    {%- if document.read-url -%}
+      {%- assign read-url = document.read-url -%}
+    {%- else -%}
+      {%- assign read-url = document.id | prepend: "/" -%}
+    {%- endif -%}
+    {%- if document.image -%}
+      {%- assign image = document.image -%}
+    {%- else -%}
+      {%- assign image = document.id -%}
+    {%- endif -%}
+    <div class="project" id="{{ document.id }}">
       <div class="project-info">
         <h3>{{ document.name }}</h3>
+        {%- if document.date -%}
+          <p style="font-style: italic;">
+            {{ document.date | date_to_string }}</p>
+        {%- endif -%}
         <p>{{ document.summary }}</p>
-        <p><a href="{{ document.read-url }}" class="document-read">
+        <p><a href="{{ read-url }}" class="document-read">
              {{ document.read-text }}</a></p>
       </div>
-      {%- if document.image -%}
-        <div class="project-image">
-          <img src="/assets/img/{{ document.image }}-defaultdpi.png"
-               srcset="/assets/img/{{ document.image }}-hidpi.png 2x"
-               alt="">
-        </div>
-      {%- endif -%}
+      <div class="project-image">
+        {%- if image != "" -%}
+          <img src="/assets/img/{{ image }}-defaultdpi.png"
+              srcset="/assets/img/{{ image }}-hidpi.png 2x"
+              alt="">
+        {%- endif -%}
+      </div>
     </div>
   {%- endfor -%}
 </section>

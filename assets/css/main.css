@@ -41,7 +41,6 @@ h3 { font-size: 1.5rem; }
 header {
   background: #002b36;
   color: #93a1a1;
-  font-family: monospace;
 }
 
 #header-content {
@@ -73,7 +72,6 @@ main > section~section, section > section {
 footer {
   background: #002b36;
   color: #586e75;
-  font-family: monospace;
   padding: 2rem 1rem;
   text-align: center;
   width: 100%;

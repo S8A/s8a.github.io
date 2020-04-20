@@ -201,6 +201,7 @@ nav a {
 
 #post pre {
   padding: 1rem;
+  overflow-x: auto;
 }
 
 /* Media queries */

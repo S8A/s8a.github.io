@@ -27,7 +27,8 @@ og_image: s8a-thumbnail.png
 
 <section id="programs">
   <h2>Desktop programs</h2>
-  {%- for program in site.data.programs -%}
+  {%- assign programs = site.data.programs | sort: "last-update" | reverse -%}
+  {%- for program in programs -%}
     <div class="project" id="{{ program.id }}">
       <div class="project-info">
         <h3>
@@ -37,6 +38,10 @@ og_image: s8a-thumbnail.png
           {%- endif -%}
           {{ program.name }}
         </h3>
+        {%- if program.last-update -%}
+          <p style="font-style: italic;">
+            Last update: {{ program.last-update | date: "%b %Y" }}</span>
+        {%- endif -%}
         <p>{{ program.summary }}</p>
         {%- if program.features -%}
           <ul>
@@ -64,7 +69,8 @@ og_image: s8a-thumbnail.png
 
 <section id="documents">
   <h2>Documents</h2>
-  {%- for document in site.data.documents -%}
+  {%- assign documents = site.data.documents | sort: "date" | reverse -%}
+  {%- for document in documents -%}
     {%- if document.read-url -%}
       {%- assign read-url = document.read-url -%}
     {%- else -%}

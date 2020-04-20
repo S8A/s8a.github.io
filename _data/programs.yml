@@ -14,6 +14,7 @@
     update students' records, and delete students' records."
   github: https://github.com/S8A/umc-pro633-crud
   image: umc-pro633-crud-both-demo-diagonal.png
+  last-update: 2020-04-03
 - id: pdfmerger-python
   name: PDFMerger (Python)
   icon: pdfmerger.svg
@@ -26,6 +27,7 @@
     - "Only available in Spanish."
   github: https://github.com/S8A/pdfmerger-python
   image: pdfmerger-python-screenshot.png
+  last-update: 2019-06-14
 - id: pdfmerger-kotlin
   name: PDFMerger (Kotlin)
   icon: pdfmerger.svg
@@ -39,6 +41,7 @@
   download: https://github.com/S8A/pdfmerger-kotlin/releases/download/v1.0/pdfmerger-kotlin-1.0.jar
   github: https://github.com/S8A/pdfmerger-kotlin
   image: pdfmerger-kotlin-screenshot.png
+  last-update: 2019-01-14
 - id: javacipher
   name: JavaCipher
   icon: javacipher.svg
@@ -51,11 +54,7 @@
   download: https://github.com/S8A/javacipher/releases/download/v1.0/javacipher-1.0.jar
   github: https://github.com/S8A/javacipher
   image: javacipher-screenshot.png
-- id: jnetchat
-  name: JNetChat
-  icon: jnetchat.svg
-  summary: Local network chat. Source code lost. October 2016 version.
-  download: assets/downloads/jnetchat.old.jar
+  last-update: 2018-03-06
 - id: datacipher
   name: DataCipher
   icon: datacipher.svg
@@ -68,3 +67,10 @@
     - "Columnar transposition (bad implementation)."
   github: https://github.com/S8A/datacipher
   image: datacipher-screenshot.png
+  last-update: 2017-07-06
+- id: jnetchat
+  name: JNetChat
+  icon: jnetchat.svg
+  summary: Local network chat. Source code lost.
+  download: assets/downloads/jnetchat.old.jar
+  last-update: 2016-10-31

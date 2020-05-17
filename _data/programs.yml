@@ -27,7 +27,7 @@
     - "Only available in Spanish."
   github: https://github.com/S8A/pdfmerger-python
   image: pdfmerger-python-screenshot.png
-  last-update: 2019-06-14
+  last-update: 2019-05-17
 - id: pdfmerger-kotlin
   name: PDFMerger (Kotlin)
   icon: pdfmerger.svg

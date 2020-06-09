@@ -8,33 +8,31 @@ category: personal
 
 Conversando entre amigos sobre el desastre socialista en el que vivimos, me pidieron que hiciera una lista completa de propuestas para resolver el problema. Bueno, no solo hice una lista de propuestas puntuales, sino que decidí desarrollar a fondo una **visión liberal del sistema político y económico de Venezuela**.
 
-Considero que esta visión liberal, en el sentido clásico de la palabra, contiene las mejores medidas para promover la libertad y la prosperidad en el mayor grado. Muchas de las ideas presentadas aquí son radicales, especialmente en comparación con la realidad socialista actual y el consenso de centro-izquierda que ha dominado la política y la cultura desde el siglo pasado, pero estoy convencido de que son ideas perfectamente razonables, y para probarlo ofrezco explicaciones de cada una a lo largo del documento.
+Considero que esta visión liberal, en el sentido clásico de la palabra, contiene las mejores medidas para promover la libertad y la prosperidad en el mayor grado. Muchas de las ideas presentadas aquí son radicales, especialmente en comparación con la realidad socialista actual y el consenso de centro-izquierda que ha dominado la política y la cultura desde el siglo pasado, pero estoy convencido de que son ideas perfectamente razonables, y para demostrarlo ofrezco explicaciones de cada una a lo largo del documento.
 
-Cabe destacar tres cosas importantes antes de empezar: primero, no soy economista ni me considero un experto en ninguna de estas áreas, pero sí he leído bastante, y proveo fundamentos y fuentes confiables para todo; segundo, no conozco de todos los temas por igual, así que profundizo más en algunos temas (política económica) que en otros; tercero, no tomo en cuenta la viabilidad política de implementar esta visión, simplemente anhelo que algún día podamos ver por lo menos las principales ideas hechas realidad.
+Cabe destacar tres cosas importantes antes de empezar: primero, no soy economista ni me considero un experto en ninguna de estas áreas, pero sí he leído bastante, y proveo fundamentos y fuentes confiables para todo; segundo, no conozco todos los temas por igual, así que profundizo más en algunos temas (política económica) que en otros; tercero, no tomo en cuenta la viabilidad política de implementar esta visión, simplemente anhelo que algún día podamos ver por lo menos las principales ideas hechas realidad.
 
 A continuación un resumen ejecutivo de mis propuestas, seguido de una explicación bastante extensa de los detalles y razonamientos detrás de cada una de ellas.
 
 
 ## Resumen ejecutivo
 
-1. **Reforma constitucional:**
-    - Constitución basada en el modelo estadounidense y enmarcada en el derecho anglosajón.
-    - Declaración explícita de principios: derechos individuales, gobierno limitado, federalismo, descentralización y subsidiariedad.
-    - Gobierno republicano de poderes limitados y explícitamente enumerados.
-    - Declaración explícita de la doctrina de no delegación.
-    - Declaración explícita del principio de inexistencia de poderes no otorgados.
-    - Requisitos estrictos para enmendar la constitución.
-    - Gobierno federal encargado de la política externa.
-    - Gobiernos estatales encargados de la política interna.
-    - Prohibición de barreras interestatales al movimiento y el comercio.
-    - Volver al nombre "Estados Unidos de Venezuela".
+1. **Constitución:**
+    - Basada en la constitución estadounidense y enmarcada en el derecho anglosajón.
+    - Declaración explícita de principios: derechos individuales, gobierno limitado, descentralización, federalismo, subsidiariedad, inexistencia de poderes no otorgados.
     - Protección absoluta de libertades políticas y civiles, incluyendo el porte de armas.
+    - Gobierno federal republicano encargado de la política externa y los territorios federales.
+    - Declaración explícita de la doctrina de no delegación.
+    - Gobiernos estatales y locales encargados de la política doméstica.
+    - Relaciones interjurisdiccionales: reconocimiento mutuo y federalismo competitivo.
+    - Requisitos estrictos para modificar la Constitución.
 2. **Política económica:**
     - **Objetivo:** Maximizar la libertad económica y minimizar la intervención gubernamental.
     - **Política fiscal:**
         - Reducción drástica del gasto público.
+        - Reestructuración y pago de la deuda pública existente.
         - Mecanismo constitucional de control presupuestario.
-        - Federalismo fiscal protegido por la constitución.
+        - Federalismo fiscal protegido por la Constitución.
         - Reducción y simplificación drástica de impuestos.
         - Impuesto Hall-Rabushka de 3% o menos para financiar el gobierno federal.
         - Impuesto al valor de la tierra para financiar los gobiernos estatales y locales.
@@ -47,22 +45,21 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
         - Objetivo: Desmantelamiento del Estado administrativo-regulatorio.
         - Prohibición constitucional de la regulación por parte del gobierno federal.
         - Separación de poderes estricta para impedir el surgimiento del Estado administrativo.
-        - Principio constitucional de la jurisdicción menos restrictiva, para forzar la competencia desregulatoria entre los estados.
+        - Principio constitucional de la jurisdicción menos restrictiva, para forzar la competencia desregulatoria entre los gobiernos estatales y locales.
     - **Privatización:**
         - Objetivo: Eliminación del Estado propietario-patrimonialista.
         - Protección constitucional de la propiedad privada y prohibición de los monopolios gubernamentales.
         - Privatización total de las empresas gubernamentales, en todos los sectores (incluyendo PDVSA).
-        - Devolución o indemnización de bienes y empresas robadas por el chavismo.
+        - Devolución o indemnización de empresas y bienes robados por el chavismo.
         - Privatización de tierras agrarias públicas.
         - Privatización de viviendas públicas.
-        - Privatización total de funciones innecesarias.
-        - Privatización total de la educación y la salud.
-        - Privatización de la infraestructura pública.
+        - Privatización de funciones no gubernamentales: educación, salud, infraestructura.
         - Privatización parcial de funciones gubernamentales.
 3. **Política externa:**
     - **Objetivo:** Garantizar la defensa nacional, el libre comercio y la movilidad internacional.
     - **Defensa nacional:**
-        - Fuerzas Armadas bajo la autoridad del Ejecutivo federal.
+        - Fuerzas Armadas bajo la autoridad del Ejecutivo.
+        - Poder de declarar guerras bajo la autoridad del Congreso.
         - Principio de no intervencionismo y neutralidad.
         - Alianzas limitadas solo con países libres y democráticos, especialmente Estados Unidos.
         - Lista pública de países enemigos: regímenes autoritarios y totalitarios.
@@ -71,12 +68,12 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
         - Liberalización unilateral total del comercio internacional de bienes y servicios.
         - Restricciones comerciales solo con países enemigos.
         - Tratados internacionales para pactar la liberalización mutua del comercio.
-        - Uso de los mecanismos de resolución de disputas de la OMC para promover el libre comercio.
         - Rechazo a los esquemas de harmonización de impuestos y regulaciones.
+        - Uso de los mecanismos de resolución de disputas de la OMC para promover el libre comercio.
     - **Migración internacional:**
         - Liberalización de la entrada y salida de personas.
         - Requerimiento de entrada único: proveer un documento de identificación o pasaporte.
-        - Restricciones de entrada solo con países enemigos.
+        - Restricciones de entrada adicionales solo con países enemigos.
         - Eliminación de restricciones al trabajo y la residencia.
         - Deportación permanente e inmediata de extranjeros que cometan crímenes en el país.
 4. **Política doméstica:**
@@ -90,51 +87,115 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
         - Reformar los cuerpos policiales para acabar con los abusos de poder.
         - Equilibrar los objetivos de la justicia criminal.
     - **Pobreza:**
-        - Es terrible
+        - Maximizar la libertad económica para que las personas surjan por sí solas.
+        - Preferencia por la caridad privada.
+        - Programas públicos de asistencia monetaria directa.
+    - **Educación:**
+        - Privatización total.
+        - Asistencia pública mediante subsidios directos a los individuos y familias.
+        - Modelos de asistencia alternativos: vouchers, cuentas de ahorro especiales, etc.
+    - **Salud:**
+        - Privatización total.
+        - Asistencia pública mediante subsidios directos a los individuos y familias.
+        - Modelos de asistencia alternativos: cuentas de ahorro especiales, seguro catastrófico universal, etc.
+    - **Infraestructura:**
+        - Privatización total o casi total.
+        - Alternativa: Contratación competitiva de empresas para proyectos públicos.
 
 
 &nbsp;
-## Reforma constitucional
+## Constitución
 
 > "Consideramos estas verdades como evidentes, que todos los hombres son creados iguales, que están dotados por su Creador de ciertos Derechos inalienables, que entre estos se encuentran la Vida, la Libertad, y la búsqueda de la Felicidad."
 >
 > – Thomas Jefferson, Declaración de Independencia de los Estados Unidos (1776)
 
 
-### Constitución
+### Bases
 
-La constitución debe basarse en la [Constitución de los Estados Unidos de América](http://constitutionus.com) y por lo tanto debe estar enmarcada en el [derecho anglosajón](https://en.wikipedia.org/wiki/Common_law). [Este artículo](https://www.downsizinggovernment.org/constitutional-basics) resume los principios y aspectos principales de la constitución estadounidense. Por supuesto, la constitución estadounidense no es perfecta, y es imprescindible aprender de sus errores para mejorarla y fortalecerla aun más.
+La Constitución debe basarse en la [Constitución de los Estados Unidos de América](http://constitutionus.com) y por lo tanto debe estar enmarcada en el [derecho anglosajón](https://en.wikipedia.org/wiki/Common_law). [Este artículo](https://www.downsizinggovernment.org/constitutional-basics) resume los principios y aspectos principales de la constitución estadounidense. Por supuesto, la constitución estadounidense no es perfecta, y es imprescindible aprender de sus errores para crear un documento incluso mejor.
 
-A continuación se presentan las características principales que debe tener la constitución ideal:
+También se debería volver al nombre **"Estados Unidos de Venezuela"**, porque suena muy bien y refleja la visión constitucional del país que se plantea: una unión de Estados con un gobierno federal pequeño.
 
-- Debe comenzar con una **declaración explícita de principios**: básicamente que los individuos tienen derechos naturales a la vida, libertad y propiedad, y que el gobierno debe limitarse a proteger esos derechos y deriva sus poderes del consentimiento de la población (no al revés).
-- Se debe consagrar el [federalismo](https://en.wikipedia.org/wiki/Federalism), que consiste en la división del gobierno en varios niveles, principalmente el gobierno federal y los gobiernos estatales, teniendo ambos niveles una relación de paridad.
-- La constitución también debe consagrar los principios de [descentralización](https://en.wikipedia.org/wiki/Decentralization) y [subsidiariedad](https://en.wikipedia.org/wiki/Subsidiarity): el primero consiste en la dispersión del poder, y el segundo se refiere a la preferencia de lidiar con los problemas en el nivel más bajo posible, empezando por el individuo y usando el gobierno nacional solo en última instancia.
-- Para lograr esto se debe establecer un gobierno federal republicano de **poderes limitados y explicitamente enumerados**, con separación en tres ramas: Legislativo (congreso bicameral), Ejecutivo (presidente y los departamentos bajo su autoridad), y Judicial (corte suprema y sistema de cortes inferiores). Lea la constitución de Estados Unidos para ahondar sobre esto.
-- La **separación de poderes** tiene el objetivo de que las tres ramas se frenen y hagan contrapeso entre sí, para garantizar el imperio de la ley y limitar los excesos de cada rama. Por eso la separación debe hacerse estricta, exponiendo explícitamente la **doctrina de no delegación**: "Ninguna rama del gobierno puede ceder sus poderes y responsabilidades a ninguna otra, ni se podrán crear nuevas ramas sin modificar este texto."
-- También debe reiterarse en letras mayúsculas la **inexistencia de poderes no otorgados**: "Ni el gobierno federal, ni los gobiernos de los estados, ni ningún gobierno local tienen absolutamente ningún poder que no se les haya otorgado explícitamente en su respectiva constitución mediante el proceso legal apropiado." Más adelante se hará evidente por qué es tan importante esto.
-- El **gobierno federal** debe encargarse exclusivamente de la defensa nacional y la politica externa en general, y la administración de los territorios especiales.
-- Para modificar la constitución o expandir la lista de poderes del gobierno federal se debe requerir una **enmienda constitucional con requisitos de aprobación estrictos**: supermayorias en ambas cámaras legislativas y supermayorías en la legislatura de cada estado. Estos requisitos deben cumplirse para cada artículo que se vaya a modificar o agregar.
-- Los **estados** también deberían empezar desde cero y adoptar una constitución de poderes limitados, separados y explícitamente otorgados, con requerimientos estrictos para modificarla. Luego los habitantes de cada estado decidirán qué otros poderes otorgarles o no, y qué otros cambios quieren realizar o no.
-- Los **gobiernos estatales** serán los encargados de la política doméstica en sus respectivas jurisdicciones, e idealmente deberían dedicarse exclusivamente a las [funciones básicas para proteger los derechos de los ciudadanos](https://en.wikipedia.org/wiki/Night-watchman_state): código penal, seguridad pública, y sistema judicial, en resumen.
-- Los gobiernos estatales en sus respectivas constituciones establecerán el nivel de **autonomía de los gobiernos locales** y sus respectivos poderes y responsabilidades. Lo ideal es mayor descentralización y delegación de poderes a las localidades.
-- Las **relaciones entre los estados** deben fundamentarse tanto en el respeto mutuo de su soberanía y leyes, como en la competencia entre ellos. Esto se desarrollará más adelante en varias secciones.
-- La constitución debe **prohibir las barreras interestatales** al libre movimiento e intercambio comercial.
-- Deberíamos volver al nombre **"Estados Unidos de Venezuela"**, porque suena excelente y es representativo de la visión constitucional que planteo.
+A continuación se presentan las características principales que debe tener la Constitución.
+
+
+### Declaración explícita de principios
+
+La Constitución debe empezar con una **declaración explícita de principios** para enmarcar adecuadamente los propósitos, ideales, y restricciones fundamentales de esta ley suprema. En resumen, esta declaración debe contener lo siguiente:
+
+- Los individuos tienen **derechos naturales inalienables** a la vida, la libertad, y la propiedad privada, que no deben ser infringidos sin el debido proceso. La mención de estos derechos en este documento no implica la inexistencia de otros derechos derivados de ellos.
+- El gobierno se establece para **proteger esos derechos** y **garantizar la justicia y la igualdad ante la ley**.
+- El gobierno debe derivar sus poderes del **consentimiento de la población** para tener legitimidad.
+- El gobierno es de por sí una amenaza a los derechos mencionados, por lo que debe **limitarse estrictamente**.
+- El poder debe dispersarse lo más posible para disminuir el peligro que representa (**[descentralización](https://en.wikipedia.org/wiki/Decentralization)**).
+- Los poderes y responsabilidades del gobierno deben dividirse en niveles separados y relativamente independientes (**[federalismo](https://en.wikipedia.org/wiki/Federalism)**): gobierno federal, gobiernos estatales, y gobiernos locales.
+- Los problemas se deben lidiar en el nivel más bajo posible, empezando por el individuo y usando el gobierno nacional solo en última instancia (**[subsidiariedad](https://en.wikipedia.org/wiki/Subsidiarity)**).
+- Para lograr la limitación de los poderes, debe hacerse explícita la **inexistencia de poderes no otorgados** para todos los niveles gubernamentales: "Ni el gobierno federal, ni los gobiernos estatales, ni ningún gobierno local tienen absolutamente ningún poder que no se le haya otorgado explícitamente en su respectiva constitución mediante el proceso legal apropiado."
 
 
 ### Libertades políticas/civiles
 
-Debe reiterarse explícitamente en la constitución que **ningún nivel de gobierno puede infringir** la libertad de expresión, religión, asociación, protesta, porte de armas, y demás, así como la seguridad sobre la persona y sus posesiones (cero cateos y arrestos sin orden judicial), derecho a juicios expéditos con jurado, derecho a enfrentar al acusante, etc. De nuevo, lea la constitución de Estados Unidos para más detalles.
+La Constitución debe declarar explícitamente que **ningún nivel de gobierno puede infringir** la libertad de expresión, religión, asociación, protesta, armas, y demás, así como la seguridad sobre la persona y sus posesiones (cero cateos y arrestos sin orden judicial), derecho a juicios expéditos con jurado, derecho a enfrentar al acusante, etc. La Constitución de Estados Unidos provee más detalles.
 
-Cabe destacar que no debería ser necesario hacer esta lista explícita porque se supone que el gobierno no tiene ningún poder que no esté enumerado, pero ya sabemos como son los políticos en la práctica.
+La libertad de expresión y la libertad de armas merecen un poco de atención extra, pues ambas son controversiales para muchas personas. La **[libertad de expresión](https://www.libertarianism.org/encyclopedia/freedom-speech)** es un componente fundamental de la libertad: cada persona debe poder **expresar lo que quiera**, sea bueno o malo, correcto o incorrecto, verdadero o falso, inofensivo u ofensivo, y sin estar limitado por la opinión de otros, ni mucho menos por la autoridad gubernamental. Las excepciones a este derecho son pocas y bien definidas, y corresponden a casos en los que se causa daño real demostrable a terceros: difamación, fraude, incitación a cometer delitos, y amenazas reales.
+
+La libertad de expresión no solo es un derecho individual fundamental, sino que es esencial para el libre intercambio de ideas en la sociedad civil y [el progreso humano](https://fee.org/articles/the-importance-of-free-speech-to-human-progress/). Pero el principal propósito de proteger absolutamente este derecho es impedir la [censura gubernamental](https://www.libertarianism.org/encyclopedia/censorship), un poder extremadamente [peligroso](https://fee.org/articles/without-free-speech-all-speech-becomes-government-speech/) y perjudicial, como la historia demuestra.
+
+Por otra parte, la **[libertad de armas](https://www.libertarianism.org/encyclopedia/right-bear-arms)** es un corolario al derecho natural de defensa propia, pues las armas son herramientas útiles y frecuentemente indispensables para que las personas defiendan su vida, libertad y propiedad contra [criminales](https://www.cato.org/publications/white-paper/tough-targets-when-criminals-face-armed-resistance-citizens), invasiones extranjeras, e incluso [contra el propio gobierno](https://thefederalist.com/2018/04/04/guns-help-americans-protect-abusive-government/) si se convierte en tiranía.
+
+Por esos motivos no se le debe ceder al gobierno **ningún poder de impedir o restringir la compra, venta, posesión y porte de armas** de cualquier tipo excepto explosivos y armas de destrucción masiva, los cuales sí pueden ser regulados (esta excepción debe ser explícita). No es coincidencia que los [regímenes autoritarios desarman a la población](https://mises.org/wire/brief-history-repressive-regimes-and-their-gun-laws), incluyendo el [caso de Venezuela](https://mises.org/wire/how-gun-control-became-instrument-tyranny-venezuela).
 
 
-### Libre porte de armas
+### Gobierno federal
 
-Esta libertad civil merece un poco de atención extra. Las armas no son solo objetos comerciables como cualquier otro, sino que tienen importancia especial como herramientas esenciales que tiene la población para defender su vida, libertad y propiedad contra [criminales](https://www.cato.org/publications/white-paper/tough-targets-when-criminals-face-armed-resistance-citizens), invasiones extranjeras, e incluso contra el propio gobierno.
+El **gobierno federal** debe ser de tipo **[republicano](https://en.wikipedia.org/wiki/Republicanism)**, con **poderes limitados y explicitamente enumerados**: debe ser el encargado exclusivo de la defensa nacional y la politica externa en general, así como la administración de los territorios federales.
 
-Las armas son la **última defensa real contra la tiranía**, por lo que no se le debe ceder al gobierno ningún poder de restringir o poner condiciones al comercio, adquisición, y porte de armas de cualquier tipo excepto explosivos y armas de destrucción masiva, los cuales sí pueden ser regulados (esta excepción debe ser explícita en la constitución). No es coincidencia que los [regímenes autoritarios desarman a la población](https://mises.org/wire/brief-history-repressive-regimes-and-their-gun-laws), incluyendo el [caso de Venezuela](https://mises.org/wire/how-gun-control-became-instrument-tyranny-venezuela).
+El gobierno federal debe separar sus poderes en tres ramas:
+
+- **Poder legislativo:** Otorgado al Congreso, que debe consistir de dos cámaras: el Senado, cuyos senadores deben ser elegidos por las legislaturas estatales para representar a los Estados; y la Asamblea, cuyos diputados deben ser elegidos por voto popular para representar a la población de los diferentes distritos electorales (redefinidos en cada censo).
+- **Poder ejecutivo:** Otorgado al Presidente, y por extensión al Vicepresidente y los departamentos bajo su autoridad.
+- **Poder judicial:** Otorgado a la Corte Suprema y el sistema de cortes inferiores.
+
+La constitución estadounidense explica los poderes, responsabilidades y funcionamiento de cada rama en detalle. La **separación de poderes** tiene el objetivo de que las tres ramas se frenen y hagan contrapeso entre sí, para garantizar el imperio de la ley y limitar los excesos de cada rama. Por eso la separación debe hacerse estricta, declarando explícitamente la **doctrina de no delegación**: "Ninguna rama del gobierno federal puede ceder sus poderes y responsabilidades a ninguna otra, ni se podrán crear nuevas ramas sin modificar este texto."
+
+El propósito y las actividades particulares de la política externa se explican más adelante en su propia sección. En cuanto a los **territorios federales**, estos incluyen las islas no incorporadas, los distritos minarquistas, y los distritos capitales:
+- **Islas no incorporadas:** Conocidas actualmente como "dependencias federales", son islas marítimas que no pertenecen a ningún gobierno estatal. Su administración será regida por la legislación del Congreso al respecto.
+- **Distritos minarquistas:** Concepto experimental de territorios pequeños regidos por un marco constitucional especial que garantice un gobierno estrictamente limitado sin interferencia política. El Congreso tendría el poder de crearlos, trasladarlos y eliminarlos, y su administración estaría bajo la autoridad del Ejecutivo, pero su rango de acción sería mínimo. Esto se explicará en la sección de política doméstica.
+- **Distritos capitales:** El Congreso, la sede principal del Ejecutivo, y la Corte Suprema deben instalarse en tres distritos minarquistas con dos condiciones adicionales: no pueden ser eliminados por el Congreso (pero sí trasladados), y tienen que estar separados entre sí por más de un Estado.
+
+
+### Gobiernos estatales
+
+Los **gobiernos de los Estados** serán los encargados exclusivos de la política doméstica en sus respectivas jurisdicciones, e idealmente deberían dedicarse exclusivamente a las [funciones básicas para proteger los derechos de los ciudadanos](https://en.wikipedia.org/wiki/Night-watchman_state): código penal, seguridad pública, y sistema judicial, en pocas palabras.
+
+Los **gobiernos estatales también deberían empezar desde cero** y adoptar una constitución de poderes limitados, separados y explícitamente otorgados. Luego los habitantes de cada Estado decidirán qué otros poderes otorgarles o no, y qué otros cambios quieren realizar o no.
+
+
+### Gobiernos locales
+
+Los gobiernos estatales en sus respectivas constituciones establecerán el nivel de **autonomía de los gobiernos locales** y sus respectivos poderes y responsabilidades. Lo ideal es mayor descentralización y delegación de poderes a las localidades, pero solo la experimentación y la competencia entre Estados determinará si es así.
+
+
+### Relaciones interjurisdiccionales
+
+Las **relaciones entre los Estados y localidades** deben fundamentarse en dos principios:
+1. **Reconocimiento mutuo entre Estados:**
+    - Cada gobierno estatal debe reconocer plenamente las leyes, documentos y procedimientos judiciales de los demás.
+    - Todos los privilegios e inmunidades de los ciudadanos de cada Estado deben aplicarse para los ciudadanos de los demás Estados.
+    - Cada gobierno estatal tiene la obligación de entregar los fugitivos de la justicia de otros Estados a su respectiva jurisdicción.
+2. **[Federalismo competitivo:](https://www.mercatus.org/publications/urban-economics/federalism-and-constitution-competition-versus-cartels)** El federalismo debe garantizar la competencia interjurisdiccional para atraer y conservar ciudadanos, promoviendo la descentralización, la responsabilidad, y la limitación de poderes. Esto implica lo siguiente:
+    - **Prohibición de barreras** a la libre entrada y salida de personas y el libre intercambio de bienes y servicios entre los Estados y localidades.
+    - **Federalismo fiscal:** El gobierno federal no puede usar sus fondos para financiar los gobierno estatales, ni viceversa.
+    - **Principio de la jurisdicción menos restrictiva** en cuanto a regulaciones de la actividad económica de los Estados y localidades.
+
+
+### Enmienda constitucional
+
+Para modificar la Constitución por cualquier motivo, pero especialmente para expandir la lista de poderes del gobierno federal, se debe realizar un proceso de **enmienda constitucional** de dos pasos con requisitos estrictos, parecido al proceso descrito en la constitución estadounidense:
+
+1. **Propuesta:** Una enmienda constitucional particular puede ser propuesta de dos formas: directamente por el Congreso, si es aprobada por mayorías de dos tercios en ambas cámaras; o si dos tercios de las legislaturas estatales solicitan una enmienda, el Congreso estará obligado a proponerla formalmente.
+2. **Ratificación:** Una vez realizada la propuesta formal, se tendrá un lapso de tiempo de 60 días para que tres cuartos de las legislaturas estatales ratifiquen la enmienda para que se haga oficial la modificación de la Constitución. Si al acabar los 60 días no se ha logrado el número de ratificaciones requeridas, la enmienda será cancelada y todas sus ratificaciones nulificadas, y no se podrá volver a proponer la misma enmienda hasta que transcurran 60 días más.
 
 
 &nbsp;
@@ -149,23 +210,31 @@ Las armas son la **última defensa real contra la tiranía**, por lo que no se l
 
 El gobierno debe hacer uno de sus objetivos explícitos garantizar el **mayor nivel de libertad económica posible**, protegiendo los derechos de propiedad y evitando en la mayor medida posible intervenir en el libre mercado.
 
-- El [libre mercado]((https://fee.org/articles/mises-hayek-and-the-market-process-an-introduction/)) no es un sistema que se impone, sino que es el proceso social mediante el cual los intercambios voluntarios e interacciones cooperativas y competitivas de los individuos, utilizando su conocimiento particular e incentivados por su interés propio, producen un **orden espontáneo** mucho más complejo, eficiente y beneficioso que cualquier sistema diseñado intencionalmente.
-- Conociendo la naturaleza del mercado, resulta evidente que cualquier **intervención o planificación gubernamental** resultará [inferior e incluso perjudicial](https://www.downsizinggovernment.org/central-planning), porque genera dos problemas fundamentales: el **problema de los incentivos**, puesto que los humanos nos guiamos principalmente por nuestros propios intereses, y solo el intercambio voluntario permite que esos intereses no entren en conflicto; y el **problema de la información o conocimiento**, pues esta se encuentra [dispersa a lo largo de la sociedad](https://www.econlib.org/library/Essays/hykKnw.html?chapter_num=1), es particular a la situación, tiempo y lugar en que se encuentra cada persona, y es imposible recopilarla y agregarla de forma coherente sin el orden espontáneo del mercado.
-- Por esos motivos el [socialismo no funciona](https://www.fff.org/explore-freedom/article/76833/), ya que consiste en poner los medios de producción bajo el control total del gobierno. Las [implementaciones parciales](https://www.fff.org/explore-freedom/article/f-hayek-government-cant-manage-society-part-ii/) del socialismo o planificación central también son dañinas, en mayor medida conforme la intervención gubernamental sea mayor.
-- Es importante destacar que en un mundo en el que el conocimiento está incompleto y disperso entre los miembros de la sociedad, los **precios de mercado** tienen la función esencial de comunicar información sobre la escasez relativa de los recursos y por lo tanto hacen posible la coordinación espontánea y eficiente de las actividades económicas. Por eso los **controles de precio** son intervenciones particularmente nefastas, que generan graves dislocaciones económicas y desequilibrios entre la oferta y la demanda, como la [experiencia venezolana demuestra](http://ifreetrade.org/article/how_price_controls_devastated_venezuelas_economy).
-- Los **beneficios** de la libertad económica no son solo teóricos, sino que están **demostrados empíricamente**. Los índices de libertad económica, como el [del Fraser Institute](https://www.fraserinstitute.org/studies/economic-freedom-of-the-world-2019-annual-report) o el [de la Heritage Foundation](https://www.heritage.org/index/), califican a los países según varias medidas objetivas del tamaño del gobierno, la calidad del sistema legal y los derechos de propiedad, la calidad de la política monetaria, la libertad de comercio internacional, y el grado de regulación económica de los países. Los países con mayor libertad económica tienen mejor calidad de vida, mayor crecimiento económico, menos pobreza, más libertades políticas, etc. Por el contrario, países como Venezuela, que lleva años entre los últimos tres puestos del ranking de libertad económica, sufren de pobreza y estancamiento en general.
-- En cuanto al **fracaso del socialismo en Venezuela**, el [Cato Institute](https://www.cato.org/publications/commentary/venezuela-verge-massive-humanitarian-economic-collapse-culprit-socialism) y [Reason](https://reason.com/2019/12/07/socialism-killed-my-father/) resumen la destrucción causada por el socialismo chavista, mientras que el [PanAm Post](https://es.panampost.com/emmanuel-rincon/2020/04/20/las-nefastas-politicas-economicas-de-ad-y-copei-que-propiciaron-la-llegada-del-chavismo-a-venezuela/) explica cómo el socialismo parcial de la Cuarta República llevó directamente al chavismo. El colapso reciente del socialismo chavista se expone en artículos de [AIER](https://www.aier.org/research/venezuela-socialism-hyperinflation-and-economic-collapse/), [Independent Institute](https://www.independent.org/news/article.asp?id=12876), [FEE](https://fee.org/articles/venezuelas-socialist-hellscape-captured-in-28-horrifying-headlines/), y [Reason](https://reason.com/2019/07/08/man-made-disaster-in-venezuela/), para empezar.
-- Para entender a fondo los argumentos sobre la superioridad filosófica y práctica del libre mercado, recomiendo leer todos los artículos de la serie [In Defense of Markets](https://www.nationalreview.com/magazine/2019/05/20/) de la revista National Review. De igual manera, para entender a fondo la perversión y el fracaso total del socialismo en todos sus aspectos filosóficos y prácticos, recomiendo leer todos los artículos de la serie [Against Socialism](https://www.nationalreview.com/magazine/2019/06/03/), también de National Review.
+El **[libre mercado](https://fee.org/articles/mises-hayek-and-the-market-process-an-introduction/)** no es un sistema que se impone o se diseña, sino que es el **proceso dinámico** mediante el cual los individuos, guiados por su **interés propio** y su **conocimiento particular**, realizan intercambios voluntarios y compiten unos con otros como productores y consumidores, generando un **orden espontáneo** mucho más complejo, eficiente y beneficioso que cualquier sistema diseñado intencionalmente.
+
+Dos mecanismos esenciales en el proceso de mercado son los precios y la función empresarial. Los **precios** se forman espontáneamente en las interacciones del mercado, y transmiten información sobre la **escasez relativa** de los recursos a lo largo del tiempo, incentivando a los agentes económicos a usarlos de la manera más eficiente. La **función empresarial** de los individuos consiste en descubrir oportunidades de ganancia que surgen en el entorno y aprovecharlas haciendo uso del **raciocinio** y la **creatividad**.
+
+Conociendo la naturaleza del mercado, resulta evidente que cualquier **intervención o planificación gubernamental** resultará [inferior e incluso perjudicial](https://www.downsizinggovernment.org/central-planning), porque genera dos problemas fundamentales: el **problema de los incentivos**, puesto que los humanos nos guiamos principalmente por nuestros propios intereses, y solo mediante el intercambio voluntario se concilian estos intereses de forma que todas las partes se benefician; y el **problema de la información o conocimiento**, pues este se encuentra [disperso a lo largo de la sociedad](https://www.econlib.org/library/Essays/hykKnw.html?chapter_num=1), es particular a la situación, tiempo y lugar particular de cada individuo, y es imposible recopilarlo o agregarlo de forma coherente sin el proceso de descubrimiento del mercado.
+
+Por esos motivos **[el socialismo no funciona](https://www.fff.org/explore-freedom/article/76833/)**, ya que consiste en poner los medios de producción bajo el control total del gobierno, [haciendo imposible el cálculo económico racional](https://mises.org/library/end-socialism-and-calculation-debate-revisited-0). Las [implementaciones parciales](https://www.fff.org/explore-freedom/article/f-hayek-government-cant-manage-society-part-ii/) del socialismo o planificación gubernamental también son dañinas, en mayor medida conforme la intervención gubernamental sea mayor. Los **controles de precios** son intervenciones particularmente nefastas, porque distorsionan la información esencial que transmiten los precios para la coordinación entre la oferta y la demanda de los diferentes recursos, como la [experiencia venezolana demuestra](http://ifreetrade.org/article/how_price_controls_devastated_venezuelas_economy).
+
+Los **beneficios** de la libertad económica no son solo teóricos, sino que están **demostrados empíricamente**. Los **índices de libertad económica**, como el [del Fraser Institute](https://www.fraserinstitute.org/studies/economic-freedom-of-the-world-2019-annual-report) o el [de la Heritage Foundation](https://www.heritage.org/index/), califican a los países según varias medidas objetivas del tamaño del gobierno, la calidad del sistema legal y los derechos de propiedad, la calidad de la política monetaria, la libertad de comercio internacional, y el grado de regulación económica. Sus estudios demuestran que los países con mayor libertad económica tienen mejor calidad de vida, mayor crecimiento económico, menos pobreza, más libertades políticas, etc. No es sorprendente que Venezuela actualmente esté en el penúltimo y último lugar de estos dos rankings, respectivamente.
+
+En cuanto al **fracaso del socialismo en Venezuela**, [este artículo del Cato Institute](https://www.cato.org/publications/commentary/venezuela-verge-massive-humanitarian-economic-collapse-culprit-socialism) y [este artículo de Reason](https://reason.com/2019/12/07/socialism-killed-my-father/) resumen la destrucción causada por el socialismo chavista, mientras que el [PanAm Post](https://es.panampost.com/emmanuel-rincon/2020/04/20/las-nefastas-politicas-economicas-de-ad-y-copei-que-propiciaron-la-llegada-del-chavismo-a-venezuela/) explica cómo el socialismo parcial de la Cuarta República llevó directamente al chavismo. El colapso reciente del socialismo chavista se expone en artículos de [AIER](https://www.aier.org/research/venezuela-socialism-hyperinflation-and-economic-collapse/), [Independent Institute](https://www.independent.org/news/article.asp?id=12876), [FEE](https://fee.org/articles/venezuelas-socialist-hellscape-captured-in-28-horrifying-headlines/), y [Reason](https://reason.com/2019/07/08/man-made-disaster-in-venezuela/), entre otros.
+
+Para entender a fondo los argumentos sobre la superioridad filosófica y práctica del libre mercado, recomiendo leer todos los artículos de la serie **[In Defense of Markets](https://www.nationalreview.com/magazine/2019/05/20/)** de la revista National Review. De igual manera, para entender a fondo la perversión y el fracaso total del socialismo en todos sus aspectos filosóficos y prácticos, recomiendo leer todos los artículos de la serie **[Against Socialism](https://www.nationalreview.com/magazine/2019/06/03/)**, también de National Review.
 
 
 ### Política fiscal
 
-Se refiere al gasto público y su financiamiento. Recomiendo enfáticamente leer el [Manual ciudadano de política fiscal](https://cedice.org.ve/observatoriogp/portfolio-items/manual-ciudadano-de-politica-fiscal-un-mapa-conceptual-para-el-gasto-publico-venezolano/) publicado por la fundación venezolana CEDICE Libertad, en el cual se explican los conceptos principales de la política fiscal, su relación con la política monetaria, y la realidad de ambas partes de la política macroeconómica venezolana. Para una lectura más corta recomiendo [El abuso del gasto público y cómo limitarlo](https://cedice.org.ve/observatoriogp/portfolio-items/investigacion-11-abuso-del-gasto-publico-limitarlo/), también de CEDICE Libertad.
+Se refiere al gasto público y su financiamiento. El [Manual ciudadano de política fiscal](https://cedice.org.ve/observatoriogp/portfolio-items/manual-ciudadano-de-politica-fiscal-un-mapa-conceptual-para-el-gasto-publico-venezolano/), publicado por la fundación venezolana CEDICE Libertad, explica los conceptos principales de la política fiscal, su relación con la política monetaria, y la realidad de ambas partes de la política macroeconómica venezolana. Para una lectura más corta recomiendo [El abuso del gasto público y cómo limitarlo](https://cedice.org.ve/observatoriogp/portfolio-items/investigacion-11-abuso-del-gasto-publico-limitarlo/), también de CEDICE Libertad.
 
 A continuación explico mis propuestas para el área de la política fiscal:
 
-- **Gasto público:** Debe **reducirse al mínimo**, reflejando los poderes y actividades limitados del gobierno. El gasto público además desplaza al sector privado, reduciendo el dinamismo y crecimiento económico a largo plazo. Este gasto solo puede ser financiado de tres maneras: mediante impuestos, que es dinero extorsionado por el gobierno de diferentes maneras; mediante deuda, que eventualmente son impuestos diferidos; y mediante la monetización de los déficits fiscales, es decir, que el banco central emita dinero masivamente para devaluar la deuda en moneda local, lo cual genera inflación que actúa como un impuesto sobre el dinero. El punto es que no hay "almuerzos gratis", todo se paga, así que hay que reducir la factura.
-- **Deuda pública:** Se refiere a las obligaciones de pago que adquiere el gobierno cuando gasta más de lo que recauda. Toda deuda se paga en algún momento y usualmente con intereses, por lo que se el gobierno debe **evitar endeudarse lo más posible**. Adquirir mucha deuda pública no solo es inmoral porque desplaza la responsabilidad de pago de gastos actuales a generaciones futuras, también tiene un gran efecto negativo sobre el crecimiento económico a largo plazo por varios motivos explicados en [este resumen del Fraser Institute](https://www.fraserinstitute.org/blogs/what-the-latest-research-says-about-government-debt-and-economic-growth).
+- **Reducción drástica del gasto público:** Esto debe ir ligado a la reducción de los poderes y actividades del gobierno a lo planteado en la visión constitucional explicada. Económicamente, el gasto público desplaza el consumo y la inversión privada, reduciendo el dinamismo y crecimiento económico a largo plazo. El gasto público se financia de tres maneras: mediante impuestos, que es dinero extorsionado por el gobierno; mediante deuda, que son cuentas por pagar con impuestos en el futuro; y mediante la monetización de los déficits fiscales, es decir, que el banco central emita dinero masivamente para devaluar la deuda en moneda local, lo cual genera inflación que actúa como un impuesto sobre el dinero. El punto es que no hay "almuerzos gratis": el gasto público se paga de una u otra forma, así que hay que reducir la factura.
+- **Reestructuración y pago de la deuda pública existente:**
+    - TODO
+    - Se trata de las obligaciones de pago pendientes adquiridas por el gobierno para gastar más de lo que recauda. Toda deuda se paga en algún momento y usualmente con intereses, por lo que se el gobierno debe **evitar endeudarse lo más posible**. Adquirir mucha deuda pública no solo es inmoral porque desplaza la responsabilidad de pago de gastos actuales a generaciones futuras, también tiene un gran efecto negativo sobre el crecimiento económico a largo plazo por varios motivos explicados en [este resumen del Fraser Institute](https://www.fraserinstitute.org/blogs/what-the-latest-research-says-about-government-debt-and-economic-growth).
 - **Responsabilidad fiscal:** Los políticos no son naturalmente responsables con el gasto público, por lo que su rango de acción debe limitarse. La constitución debe establecer un **mecanismo de control presupuestario** para obligar al congreso a mantener un presupuesto equilibrado o en superávit fiscal en tiempos de crecimiento económico, y minimizar los déficits durante las recesiones. Existen varios mecanismos exitosos como el de Chile o el de Suiza, los cuales son explicados en [este artículo del Cato Institute](https://www.cato.org/publications/tax-budget-bulletin/budget-restraints-work-lessons-chile-switzerland-united-kingdom).
 - **Federalismo fiscal:** La constitución debe **prohibir el uso de fondos federales para financiar el gasto de los estados y viceversa**, para promover la responsabilidad fiscal y la competencia entre estados, y desincentivar la centralización y la dependencia. En [este artículo del Cato Institute](https://www.cato.org/publications/policy-analysis/restoring-responsible-government-cutting-federal-aid-states) se explica en más detalle los beneficios del federalismo fiscal y los incentivos perversos y consecuencias negativas que ha generado su abandono en Estados Unidos.
 - **Impuestos:** Es el dinero que el gobierno extorsiona a la población y los métodos que usa para ello. Debe haber un requerimiento constitucional que todos los impuestos sean **simples, bajos, planos y certeros** (es decir, que no haya ambigüedad sobre quién o qué está sujeto a ellos) y que se deba enmendar la constitución para crear nuevos impuestos. En cuanto a cuáles impuestos establecer, hay que guiarse por la teoría económica de la recaudación óptima: básicamente evitar los impuestos sobre el capital y las transacciones, establecer tasas porcentuales bajas sobre bases imponibles amplias, y eliminar las excepciones y complejidades innecesarias.
@@ -177,8 +246,8 @@ A continuación explico mis propuestas para el área de la política fiscal:
     - El IVA, como se mencionó anteriormente, se va, por su complejidad de implementación, imposición de costos administrativos sobre los negocios, propensión a exceptuar ciertos rubros por consideraciones políticas, etc.
     - El [impuesto sobre la renta (ISLR)](https://en.wikipedia.org/wiki/Income_tax) se va porque su base (el ingreso) es difícil de definir de forma adecuada, recae excesivamente sobre la inversión si no se le hacen modificaciones, suele volverse bastante complicado y propenso a excepciones favoritistas, etc. Por [estos motivos los impuestos al consumo son superiores](https://www.cato.org/publications/policy-analysis/simplifying-federal-taxes-advantages-consumptionbased-taxation).
     - El [impuesto corporativo](https://en.wikipedia.org/wiki/Corporate_tax) (ISLR de personas jurídicas) se va, ya que genera demasiadas distorsiones, desincentiva la inversión, aumenta los precios y disminuye los salarios. [La tasa correcta del impuesto sobre los ingresos corporativos es cero](https://thehill.com/opinion/finance/420648-the-correct-corporate-tax-0). 
-    - Los [impuestos a la riqueza](https://en.wikipedia.org/wiki/Wealth_tax) son extremadamente distorsionarios y dañinos porque disminuyen el ahorro que alimenta la inversión, el crecimiento económico y la generación de empleos. En la práctica, casi todos los países europeos que tuvieron impuestos a la riqueza los abandonaron por sus efectos dañinos, dificultad de recaudación y el poco dinero que proveían. [No se debe establecer ningún tipo de impuesto sobre el capital](https://www.cato.org/publications/tax-budget-bulletin/taxing-wealth-capital-income).
-    - Los impuestos sobre las transacciones financieras son [extremadamente distorsionantes y dañinos](https://taxfoundation.org/financial-transaction-tax/).
+    - Los [impuestos a la riqueza](https://en.wikipedia.org/wiki/Wealth_tax) son extremadamente distorsionarios y dañinos porque disminuyen el ahorro que alimenta la inversión, el crecimiento económico y la generación de empleos. En la práctica, casi todos los países europeos que tuvieron impuestos a la riqueza los abandonaron por sus efectos negativos, dificultad de recaudación y el poco dinero que proveían. [No se debe establecer ningún tipo de impuesto sobre el capital](https://www.cato.org/publications/tax-budget-bulletin/taxing-wealth-capital-income).
+    - Los impuestos sobre las transacciones financieras son [extremadamente distorsionantes y perjudiciales](https://taxfoundation.org/financial-transaction-tax/).
     - El [impuesto sobre el carbono](https://www.taxpolicycenter.org/briefing-book/what-carbon-tax) tiene bastante apoyo entre los economistas como la manera más eficiente de reducir las emisiones de CO2, pero en la práctica su implementación es compleja y su justificación teórica y práctica [no es tan sólida como parece](https://www.cato.org/publications/policy-analysis/case-against-us-carbon-tax).
     - Los [aranceles](https://en.wikipedia.org/wiki/Tariff) son perjudiciales. Desarrollo esto en la sección de libre comercio.
     - Los [impuestos sobre los "malos hábitos"](https://en.wikipedia.org/wiki/Sin_tax) (cigarros, alcohol, bebidas azucaradas, etc) no solo son iliberales porque tratan a las personas como incapaces de tomar sus propias decisiones, sino que [son extremadamente regresivos y casi nunca logran reducir los "malos hábitos" que atacan](https://iea.org.uk/publications/of-course-sin-taxes-are-regressive/).
@@ -205,7 +274,7 @@ En resumen, la política cambiaria debe consistir en **no intervenir sobre las t
 El objetivo debe ser el **desmantelamiento total del Estado administrativo-regulatorio**. A continuación doy una explicación bastante larga sobre este tema, pero tiene la opción de ir directamente a mis [recomendaciones concretas](#propuestas-regulacion).
 
 - Las [regulaciones](https://www.econlib.org/library/Enc/Regulation.html) son requerimientos que impone el gobierno sobre las actividades de las empresas e individuos para lograr determinados objetivos. [Esta publicación del Mercatus Center](https://www.mercatus.org/publications/regulation/regulation-primer) explica detalladamente la teoría regulatoria, su análisis económico, y su realidad práctica en Estados Unidos.
-- Como cualquier intento de dirigir la economía, las regulaciones irrumpen y [distorsionan el proceso de descubrimiento espontáneo del mercado](https://www.cato.org/publications/policy-analysis/competition-regulation-market-process-austrian-perspective), generando costos invisibles enormes. Al reemplazar las acciones que tomarían libremente los individuos por las acciones que el ente regulatorio considera correctas, [se encuentran los problemas de incentivos y de información](https://www.fff.org/explore-freedom/article/three-jeers-for-government-regulation/) inherentes a la planificación central.
+- Como cualquier intento de dirigir la economía, las regulaciones irrumpen y [distorsionan el proceso dinámico del mercado](https://www.cato.org/publications/policy-analysis/competition-regulation-market-process-austrian-perspective), generando costos invisibles enormes. Al reemplazar las acciones que tomarían libremente los individuos por las acciones que el ente regulatorio considera correctas, [se encuentran los problemas de incentivos y de información](https://www.fff.org/explore-freedom/article/three-jeers-for-government-regulation/) inherentes a la planificación central.
 - El [crecimiento del Estado administrativo/regulatorio](https://cei.org/10kc2020) y la consecuente [acumulación monumental de regulaciones](https://www.mercatus.org/publications/regulation/regulatory-accumulation-1970) es quizás el fenómeno más corrosivo económicamente en los países desarrollados (y otros no tan desarrollados) hoy en día, disminuyendo su [crecimiento económico](https://www.mercatus.org/publications/regulation/cumulative-cost-regulations), [productividad](https://www.mercatus.org/publications/regulation/regulation-and-productivity), [grado de competencia y emprendimiento](https://www.mercatus.org/publications/regulation/regulating-away-competition-effect-regulation-entrepreneurship-and), y [calidad de vida de la población](https://www.heritage.org/government-regulation/report/costly-mistakes-how-bad-policies-raise-the-cost-living). Por eso reitero una y otra vez que no debemos cometer los mismos errores que [Estados Unidos](https://www.heritage.org/political-process/report/the-birth-the-administrative-state-where-it-came-and-what-it-means-limited) y la [Unión Europea](https://www.cato.org/publications/economic-development-bulletin/european-union-critical-assessment).
 - Un aspecto importante de las regulaciones gubernamentales es que suelen ser creadas y custodiadas por agencias regulatorias especializadas, que es a lo que me refiero arriba como "Estado administrativo". Estos entes regulatorios rompen el [principio de separación de poderes](https://www.nationalreview.com/2020/01/nondelegation-doctrine-debate-is-most-government-unconstitutional/), ya que en efecto combinan el poder de promulgar reglas (poder legislativo) y el poder de hacerlas cumplir y penalizar su incumplimiento (poder ejecutivo); en varios casos, llegan incluso a tener sistemas para adjudicar disputas (poder judicial) sobre sus propias reglas. Por si fuera poco, esto es [totalmente inconstitucional en los Estados Unidos](https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=2355&context=journal_articles).
 - El peligro que representa la [concentración de poderes](https://www.nationalreview.com/bench-memos/ending-administrative-state-uphill-necessary-battle-free-nation/) en las agencias administrativas es exacerbado por el hecho de que casi todos sus miembros son burócratas contratados, no elegidos por la población o sus representantes en el poder ejecutivo o legislativo, por lo que [no están sujetos a presiones democráticas](https://www.cato.org/publications/commentary/democracy-versus-bureaucracy). Usualmente los directivos de más alto nivel sí son seleccionados por representantes políticos, pero en la práctica suelen tener un amplio rango de autonomía y una influencia mínima sobre el status quo de la agencia (el famoso ["deep state"](https://www.aier.org/article/the-birth-of-the-deep-state-a-history/)).
@@ -286,7 +355,7 @@ En conclusión es evidente que esta concepción del Estado omnipotente, y en esp
     - Los problemas de la educación en el país han sido reportados por [Transparencia Venezuela](https://transparencia.org.ve/project/resumen-sobre-la-situacion-de-la-educacion-desde-la-perspectiva-de-transparencia-venezuela/), PanAm Post ([1](https://es.panampost.com/sabrina-martin/2019/07/18/venezuela-estudiantes-maestros/), [2](https://es.panampost.com/guillermo-rodriguez/2017/09/30/educacion-superior-en-venezuela/), [3](https://es.panampost.com/sabrina-martin/2016/12/15/regimen-ideologiza-educacion-vzla/)), [Infobae](https://www.infobae.com/america/venezuela/2020/02/20/los-numeros-de-la-crisis-educativa-en-venezuela-casi-700000-estudiantes-dejaron-la-escuela-y-cerraron-1275-colegios/), [El Carabobeño](https://www.el-carabobeno.com/alianza-del-lapiz-en-venezuela-la-educacion-colapso-hace-rato-video/), [El Nacional](https://www.elnacional.com/opinion/columnista/destruida-educacion-venezuela_266701/), [TalCual](https://talcualdigital.com/educacion-en-venezuela-retrocede-al-siglo-xix-segun-experto/), y muchos otros más.
     - La crisis sanitaria en Venezuela ha sido reportada en detalle por [Salud con lupa](https://saludconlupa.com/series/venezuela-un-pais-en-busca-de-alivio/la-magnitud-de-la-crisis-en-datos/), [Human Rights Watch](https://www.hrw.org/es/news/2018/11/15/venezuela-las-cifras-evidencian-una-crisis-de-salud), [Transparencia Venezuela](https://transparencia.org.ve/project/resumen-sobre-la-situacion-del-sector-salud-desde-la-perspectiva-de-transparencia-venezuela/), [PanAm Post](https://es.panampost.com/josefina-blanco/2019/04/07/salud-venezuela/), [New York Times](https://www.nytimes.com/es/2020/03/22/espanol/opinion/coronavirus-venezuela.html), [Prodavinci](https://prodavinci.com/10-datos-sobre-la-situacion-de-salud-en-venezuela-segun-la-ops/), [DW](https://www.dw.com/es/la-crisis-en-venezuela-es-un-riesgo-de-salud-p%C3%BAblica-para-am%C3%A9rica-latina/a-47860742), [El Universo](https://www.eluniverso.com/noticias/2020/03/15/nota/7781538/venezuela-enfrenta-virus-medio-severa-crisis-sanitaria), [Infobae](https://www.infobae.com/tag/crisis-sanitaria-en-venezuela/), y muchos otros más.
     - A pesar de esto, todavía el consenso de la opinión pública es que el gobierno debe proveer educación y salud pública, usualmente por creer que son "derechos" que el gobierno debe garantizar, o que el libre mercado es incapaz de proveer dichos servicios, o que sí es capaz pero que los pobres no serían capaces de pagar por ellos. A continuación proveo argumentos refutando las tres creencias.
-    - Primero, ni la educación ni la salud son "derechos", son servicios que alguien debe proveer y por lo tanto se tienen que pagar. Los derechos reales son ["derechos negativos"](https://en.wikipedia.org/wiki/Negative_and_positive_rights), que no implican obligaciones forzosas sobre los demás, sino simplemente que no se infrinjan, como por ejemplo la vida, libertad y propiedad.
+    - Primero, ni la educación ni la salud pública son "derechos", son servicios que alguien debe proveer y por lo tanto se tienen que pagar. Los derechos reales son ["derechos negativos"](https://en.wikipedia.org/wiki/Negative_and_positive_rights), que no implican obligaciones forzosas sobre los demás, sino simplemente que no se infrinjan, como por ejemplo la vida, libertad y propiedad.
     - Segundo, cualquier gobierno que intenta proveer estos servicios se enfrenta a los problemas de incentivos e información explorados repetidamente en varias secciones, y por lo tanto produce resultados subóptimos. Si recibir una buena educación o atención médica es de gran importancia, es ilógico y contraproducente dejar que el gobierno provea dichos servicios, mucho menos que sea su principal o único proveedor.
     - El libre mercado es perfectamente capaz de proveer tanto educación como servicios médicos, con múltiples proveedores compitiendo entre sí con diferentes ofertas de precio, calidad, servicios incluidos y demás, resultando en mayor calidad, eficiencia, e innovación, así como responsabilidad y frugalidad por parte de los consumidores. Esto no es solo teórico, sino que está evidenciado en la realidad actual y en la historia de diversos países.
     - Recursos recomendados: [Liberty to Learn](https://fee.org/resources/liberty-to-learn/) (FEE), [Center for Educational Freedom](https://www.cato.org/centers/center-educational-freedom) (Cato Institute), [The Struggle to Get Education Away from the State](https://www.aier.org/article/the-struggle-to-get-education-away-from-the-state/) (AIER), [Why education must be set free](https://iea.org.uk/blog/why-education-must-be-set-free) (IEA), [Education](https://www.econlib.org/library/Enc/Education.html) (EconLib), [Essential Guide to Health Care](https://fee.org/resources/fee-s-essential-guide-to-health-care/) (FEE), [Envisioning a Free Market in Health Care](https://www.realclearmarkets.com/blog/cj31n1-2.pdf) (Cato Institute), [Health Care Reform - A Free-Market Proposal](https://lawecommons.luc.edu/cgi/viewcontent.cgi?article=1585&context=lclr) (Loyola Consumer Law Review), [Why Not Try Free Market Health Care?](https://www.forbes.com/sites/johngoodman/2019/10/17/why-not-try-free-market-health-care/#33573f385358) (Forbes), [Health Care](https://www.econlib.org/library/Enc/HealthCare.html) (EconLib).

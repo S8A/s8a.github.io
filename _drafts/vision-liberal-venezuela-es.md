@@ -21,7 +21,7 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
     - Basada en la constitución estadounidense y enmarcada en el derecho anglosajón.
     - Declaración explícita de principios: derechos individuales, gobierno limitado, descentralización, federalismo, subsidiariedad, inexistencia de poderes no otorgados.
     - Protección absoluta de libertades políticas y civiles, incluyendo el porte de armas.
-    - Gobierno federal republicano encargado de la política externa y los territorios federales.
+    - Gobierno federal encargado de la política externa y los territorios federales.
     - Declaración explícita de la doctrina de no delegación.
     - Gobiernos estatales y locales encargados de la política doméstica.
     - Relaciones interjurisdiccionales: reconocimiento mutuo y federalismo competitivo.
@@ -124,14 +124,14 @@ A continuación se presentan las características principales que debe tener la 
 
 La Constitución debe empezar con una **declaración explícita de principios** para enmarcar adecuadamente los propósitos, ideales, y restricciones fundamentales de esta ley suprema. En resumen, esta declaración debe contener lo siguiente:
 
-- Los individuos tienen **derechos naturales inalienables** a la vida, la libertad, y la propiedad privada, que no deben ser infringidos sin el debido proceso. La mención de estos derechos en este documento no implica la inexistencia de otros derechos derivados de ellos.
-- El gobierno se establece para **proteger esos derechos** y **garantizar la justicia y la igualdad ante la ley**.
+- Todos los individuos poseen **[derechos naturales inalienables](https://www.libertarianism.org/encyclopedia/rights-natural)** a la vida, la libertad, y la propiedad privada, que no deben ser infringidos.
+- El [gobierno](https://www.libertarianism.org/encyclopedia/government) se establece para **proteger los derechos de las personas** y **garantizar la justicia y la igualdad ante la ley**.
 - El gobierno debe derivar sus poderes del **consentimiento de la población** para tener legitimidad.
-- El gobierno es de por sí una amenaza a los derechos mencionados, por lo que debe **limitarse estrictamente**.
+- El gobierno es de por sí una amenaza a los derechos mencionados, por lo que debe **[limitarse estrictamente](https://www.libertarianism.org/encyclopedia/limited-government)**.
 - El poder debe dispersarse lo más posible para disminuir el peligro que representa (**[descentralización](https://en.wikipedia.org/wiki/Decentralization)**).
 - Los poderes y responsabilidades del gobierno deben dividirse en niveles separados y relativamente independientes (**[federalismo](https://en.wikipedia.org/wiki/Federalism)**): gobierno federal, gobiernos estatales, y gobiernos locales.
 - Los problemas se deben lidiar en el nivel más bajo posible, empezando por el individuo y usando el gobierno nacional solo en última instancia (**[subsidiariedad](https://en.wikipedia.org/wiki/Subsidiarity)**).
-- Para lograr la limitación de los poderes, debe hacerse explícita la **inexistencia de poderes no otorgados** para todos los niveles gubernamentales: "Ni el gobierno federal, ni los gobiernos estatales, ni ningún gobierno local tienen absolutamente ningún poder que no se le haya otorgado explícitamente en su respectiva constitución mediante el proceso legal apropiado."
+- Para limitar el gobierno, debe hacerse explícita la **inexistencia de poderes no otorgados** para todos los niveles gubernamentales: "Ni el gobierno federal, ni ningún gobierno estatal o local tienen absolutamente ningún poder que no se le haya otorgado explícitamente en su respectiva constitución mediante el proceso legal apropiado."
 
 
 ### Libertades políticas/civiles
@@ -149,11 +149,11 @@ Por esos motivos no se le debe ceder al gobierno **ningún poder de impedir o re
 
 ### Gobierno federal
 
-El **gobierno federal** debe ser [republicano](https://en.wikipedia.org/wiki/Republicanism), con **poderes limitados y explicitamente enumerados**. El gobierno federal debe ser el encargado exclusivo de la defensa nacional y la politica externa en general, así como la administración de los territorios federales.
+El **gobierno federal** debe tener **poderes limitados y explicitamente enumerados**, y dedicarse únicamente a la política externa (defensa nacional, comercio y migración internacional) y la administración de los territorios federales. Además, debe ser el encargado exclusivo de la política externa, es decir, que la Constitución debe prohibirle a los Estados y localidades que interfieran en este ámbito.
 
 El gobierno federal debe separar sus poderes en tres ramas:
 
-- **Poder legislativo:** Otorgado al Congreso, que debe consistir de dos cámaras: el Senado, cuyos senadores deben ser elegidos por las legislaturas estatales para representar a los Estados; y la Asamblea, cuyos diputados deben ser elegidos por voto popular para representar a la población de los diferentes distritos electorales (redefinidos en cada censo).
+- **Poder legislativo:** Otorgado al Congreso, que debe consistir de dos cámaras: el Senado, cuyos senadores deben ser elegidos por las legislaturas estatales para representar a los Estados; y la Casa de Representantes, cuyos miembros deben ser elegidos por voto popular para representar a la población de los diferentes distritos electorales (redefinidos en cada censo).
 - **Poder ejecutivo:** Otorgado al Presidente, y por extensión al Vicepresidente y los departamentos bajo su autoridad.
 - **Poder judicial:** Otorgado a la Corte Suprema y el sistema de cortes inferiores.
 
@@ -167,14 +167,14 @@ El propósito y las actividades particulares de la política externa se explican
 
 ### Gobiernos estatales
 
-Los **gobiernos de los Estados** serán los encargados exclusivos de la política doméstica en sus respectivas jurisdicciones, e idealmente deberían dedicarse exclusivamente a las [funciones básicas para proteger los derechos de los ciudadanos](https://en.wikipedia.org/wiki/Night-watchman_state) (código penal, seguridad pública, y sistema judicial, en pocas palabras), y quizás también proveer asistencia para aliviar la pobreza.
+Los **gobiernos de los Estados** serán los encargados exclusivos de la política doméstica en sus respectivas jurisdicciones, e idealmente deberían dedicarse solamente a las [funciones básicas para proteger los derechos de los ciudadanos](https://en.wikipedia.org/wiki/Night-watchman_state) (seguridad y justicia pública, en resumen), la protección de la propiedad intelectual, y la provisión de asistencia pública limitada para aliviar la pobreza.
 
 Los **gobiernos estatales también deberían empezar desde cero** y adoptar una constitución de poderes limitados, separados y explícitamente otorgados. Luego los habitantes de cada Estado decidirán qué otros poderes otorgarles o no, y qué otros cambios quieren realizar o no.
 
 
 ### Gobiernos locales
 
-Los gobiernos estatales en sus respectivas constituciones establecerán el nivel de **autonomía de los gobiernos locales** y sus respectivos poderes y responsabilidades. Lo ideal es mayor descentralización y delegación de poderes a las localidades, pero solo la experimentación y la competencia entre Estados determinará si es así.
+Los gobiernos estatales en sus respectivas constituciones establecerán el nivel de **autonomía de los gobiernos locales** y sus respectivos poderes y responsabilidades. Lo ideal es mayor descentralización y delegación de poderes a las localidades, pero solo la experimentación y la competencia entre jurisdicciones determinará en qué grado se dé esto.
 
 
 ### Relaciones interjurisdiccionales
@@ -216,7 +216,7 @@ La libertad económica tiene **beneficios demostrados empíricamente**. Los índ
 
 El **[libre mercado](https://www.econlib.org/library/Enc/FreeMarket.html)** no es un sistema que se impone o se diseña, sino que es un [proceso dinámico](https://fee.org/articles/mises-hayek-and-the-market-process-an-introduction/) en cual las personas, de forma individual o asociados en grupos, realizan [intercambios voluntarios](https://www.libertarianism.org/encyclopedia/free-market-economy) sin inteferencia coercitiva del gobierno. Estas interacciones son motivadas por el **interés propio**, pues solo son realizadas cuando ambas partes consideran que se benefician, y se manifiesta en diversos tipos de actividades: asociación, contratación, compra, venta, consumo, ahorro, inversión y producción, principalmente.
 
-Los individuos poseen **conocimiento particular** que usan para descubrir oportunidades de ganancia que surgen en el entorno y aprovecharlas, haciendo uso del raciocinio y la creatividad; esto se conoce como la [función empresarial o emprendimiento](https://www.libertarianism.org/encyclopedia/entrepreneurship). La [competencia](https://www.econlib.org/library/Enc/Competition.html) es lo que surge por la rivalidad de los emprendedores, un proceso inagotable de creatividad y descubrimiento con el fin de aprovechar antes que los demás las oportunidades de ganancia.
+Los individuos poseen **conocimiento particular** que usan para descubrir oportunidades de ganancia que surgen en el entorno y aprovecharlas, haciendo uso del raciocinio y la creatividad; esto se conoce como la [función empresarial o emprendimiento](https://www.libertarianism.org/encyclopedia/entrepreneurship). La [competencia](https://www.econlib.org/library/Enc/Competition.html) es lo que surge por la rivalidad entre los emprendedores, un proceso inagotable de creatividad, experimentación y descubrimiento con el fin de aprovechar antes que los demás las oportunidades de ganancia.
 
 Las interacciones del mercado naturalmente dan lugar a los **precios**, que comunican información sobre la escasez relativa de los recursos a lo largo del tiempo, incentivando a los agentes económicos a usarlos de manera eficiente. Los precios son el mecanismo de coordinación del mercado, pues sintetizan y transmiten el [conocimiento disperso de la sociedad](https://www.econlib.org/library/Essays/hykKnw.html?chapter_num=1), lo cual permite que los diferentes agentes económicos actúen racionalmente y que se produzca el proceso de descubrimiento y experimentación. Esto da lugar a un [orden espontáneo](https://www.libertarianism.org/encyclopedia/spontaneous-order) mucho más complejo, eficiente y beneficioso que cualquier sistema diseñado intencionalmente.
 

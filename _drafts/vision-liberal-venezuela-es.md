@@ -20,7 +20,7 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
 1. **Constitución:**
     - Basada en la constitución estadounidense y enmarcada en el derecho anglosajón.
     - Declaración explícita de principios: derechos individuales, gobierno limitado, descentralización, federalismo, subsidiariedad, inexistencia de poderes no otorgados.
-    - Protección absoluta de libertades políticas y civiles, incluyendo el porte de armas.
+    - Protección absoluta de libertades civiles y garantías constitucionales.
     - Gobierno federal encargado de la política externa y los territorios federales.
     - Declaración explícita de la doctrina de no delegación.
     - Gobiernos estatales y locales encargados de la política doméstica.
@@ -124,21 +124,41 @@ A continuación se presentan las características principales que debe tener la 
 
 La Constitución debe empezar con una **declaración explícita de principios** para enmarcar adecuadamente los propósitos, ideales, y restricciones fundamentales de esta ley suprema. En resumen, esta declaración debe contener lo siguiente:
 
-- Todos los individuos poseen **[derechos naturales inalienables](https://www.libertarianism.org/encyclopedia/rights-natural)** a la vida, la libertad, y la propiedad privada, que no deben ser infringidos.
-- El [gobierno](https://www.libertarianism.org/encyclopedia/government) se establece para **proteger los derechos de las personas** y **garantizar la justicia y la igualdad ante la ley**.
+- Todos los individuos poseen **[derechos naturales inalienables](https://www.libertarianism.org/encyclopedia/rights-natural)** a la vida, la libertad, y la propiedad privada.
+- La existencia de estos derechos es **inherente a la naturaleza humana**, es decir que no son otorgados por el gobierno ni dependen de su reconocimiento para ser legítimos.
+- Los derechos naturales de cada persona son **inalienables**, es decir que no pueden ser infringidos, excepto cuando se demuestre por el debido proceso que las acciones de la persona infringen en los derechos de otros.
+- El [gobierno](https://www.libertarianism.org/encyclopedia/government) se establece para **proteger los derechos de las personas** y **garantizar la justicia, la igualdad ante la ley y el debido proceso**.
 - El gobierno debe derivar sus poderes del **consentimiento de la población** para tener legitimidad.
 - El gobierno es de por sí una amenaza a los derechos mencionados, por lo que debe **[limitarse estrictamente](https://www.libertarianism.org/encyclopedia/limited-government)**.
 - El poder debe dispersarse lo más posible para disminuir el peligro que representa (**[descentralización](https://en.wikipedia.org/wiki/Decentralization)**).
 - Los poderes y responsabilidades del gobierno deben dividirse en niveles separados y relativamente independientes (**[federalismo](https://en.wikipedia.org/wiki/Federalism)**): gobierno federal, gobiernos estatales, y gobiernos locales.
 - Los problemas se deben lidiar en el nivel más bajo posible, empezando por el individuo y usando el gobierno nacional solo en última instancia (**[subsidiariedad](https://en.wikipedia.org/wiki/Subsidiarity)**).
-- Para limitar el gobierno, debe hacerse explícita la **inexistencia de poderes no otorgados** para todos los niveles gubernamentales: "Ni el gobierno federal, ni ningún gobierno estatal o local tienen absolutamente ningún poder que no se le haya otorgado explícitamente en su respectiva constitución mediante el proceso legal apropiado."
+- Para limitar el gobierno, debe hacerse explícita la **inexistencia de poderes no otorgados** para todos los niveles gubernamentales: "Ni el gobierno federal, ni los gobiernos estatales y locales tienen absolutamente ningún poder que no se les haya otorgado explícitamente en su respectiva constitución mediante el proceso legal apropiado."
 
 
-### Libertades políticas/civiles
+### Libertades civiles y garantías constitucionales
 
-La Constitución debe declarar explícitamente que **ningún nivel de gobierno puede infringir** la libertad de expresión, religión, asociación, protesta, armas, y demás, así como la seguridad sobre la persona y sus posesiones (cero cateos y arrestos sin orden judicial), derecho a juicios expéditos con jurado, derecho a enfrentar al acusante, etc. La Constitución de Estados Unidos provee más detalles.
+La Constitución debe declarar explícitamente que **ningún nivel de gobierno puede infringir ciertas libertades civiles y garantías constitucionales** de ningún individuo, las cuales se listan a continuación:
+- Libertad de expresión.
+- Libertad de religión.
+- Prohibición del establecimiento gubernamental de cualquier religión.
+- Libertad de asociación.
+- Libertad de solicitar rendición de cuentas al gobierno pacíficamente.
+- Libertad de armas.
+- Prohibición del alojamiento forzoso de soldados en recintos privados.
+- Prohibición de cateos y decomisos irrazonables.
+- Prohibición de ordenes de cateo, decomiso y arresto sin aprobación judicial y causa razonable.
+- Garantía de selección de acusaciones penales por un gran jurado.
+- Garantía de no ser juzgado más de una vez por la misma ofensa.
+- Garantía de no ser testigo en contra de sí mismo.
+- Garantías de los acusados en procesamientos penales: de un juicio expédito y público con un jurado imparcial, de ser informado sobre los cargos, de confrontar a los testigos en su contra, de obligar a testigos a comparecer ante la corte, y de tener asistencia de un abogado.
+- Prohibición de fianzas y multas excesivas.
+- Prohibición de castigos crueles e inusuales, incluyendo la pena de muerte.
+- Prohibición de expropiaciones, por cualquier motivo.
+- Garantía de habeas corpus.
+- Prohibición de leyes ex post facto y decretos de condena sin juicio.
 
-La libertad de expresión y la libertad de armas merecen un poco de atención adicional, pues ambas son controversiales para muchas personas. La **[libertad de expresión](https://www.libertarianism.org/encyclopedia/freedom-speech)** es un componente fundamental de la libertad: **todas las personas deben poder expresar lo que quieran**, sea bueno o malo, correcto o incorrecto, verdadero o falso, inofensivo u ofensivo, y sin estar limitados por la opinión de otros, ni mucho menos por la autoridad gubernamental. Las excepciones a este derecho son muy pocas y bien definidas, y corresponden a casos en los que se causa daño real demostrable a terceros: difamación, fraude, incitación a cometer delitos, y amenazas reales.
+La libertad de expresión y la libertad de armas merecen un poco de atención adicional, pues ambas son controversiales para muchas personas, a pesar de ser extremadamente importantes. La **[libertad de expresión](https://www.libertarianism.org/encyclopedia/freedom-speech)** es un componente fundamental de la libertad: **todas las personas deben poder expresar lo que quieran**, sea bueno o malo, correcto o incorrecto, verdadero o falso, inofensivo u ofensivo, y sin estar limitados por la opinión o sensibilidad de otros, ni mucho menos por la autoridad gubernamental. Las excepciones a este derecho son muy pocas y bien definidas, y corresponden a casos en los que se causa daño real demostrable a terceros: difamación, fraude, incitación a cometer delitos, y amenazas reales.
 
 La libertad de expresión no solo es un derecho individual fundamental, sino que es esencial para el libre intercambio de ideas en la sociedad civil y [el progreso humano](https://fee.org/articles/the-importance-of-free-speech-to-human-progress/). Pero el principal propósito de proteger este derecho de forma absoluta es impedir la [censura gubernamental](https://www.libertarianism.org/encyclopedia/censorship), un poder extremadamente [peligroso](https://fee.org/articles/without-free-speech-all-speech-becomes-government-speech/) y perjudicial, como la historia demuestra.
 
@@ -153,28 +173,54 @@ El **gobierno federal** debe tener **poderes limitados y explicitamente enumerad
 
 El gobierno federal debe separar sus poderes en tres ramas:
 
-- **Poder legislativo:** Otorgado al Congreso, que debe consistir de dos cámaras: el Senado, cuyos senadores deben ser elegidos por las legislaturas estatales para representar a los Estados; y la Casa de Representantes, cuyos miembros deben ser elegidos por voto popular para representar a la población de los diferentes distritos electorales (redefinidos en cada censo).
-- **Poder ejecutivo:** Otorgado al Presidente, y por extensión al Vicepresidente y los departamentos bajo su autoridad.
-- **Poder judicial:** Otorgado a la Corte Suprema y el sistema de cortes inferiores.
+- **Poder legislativo:**
+    - Otorgado al Congreso, que debe consistir de dos cámaras: el Senado y la Casa de Representantes.
+    - El Congreso será el encargado de promulgar las leyes que considere necesarias y apropiadas para realizar las funciones del gobierno federal enumeradas en la Constitución, y bajo los límites adicionales definidos en ella.
+    - Cada cámara podrá determinar las reglas de sus procedimientos, castigar a sus miembros por conducta inapropiada, y expulsar un miembro con aprobación de dos tercios de los demás.
+    - Los senadores deben ser dos por cada Estado, y elegidos por su respectiva legislatura. Deben dividirse en tres grupos y ser elegidos para períodos intercalados de cuatro años. Es decir, tras la primera elección, al cuarto año se reemplaza el primer grupo, al octavo año se reemplaza el segundo grupo, al doceavo año se reemplaza el tercer grupo, y se repite el proceso. La reelección es permitida para un máximo de dos períodos consecutivos.
+    - Los representantes deben ser elegidos por los ciudadanos de los diferentes distritos electorales, para períodos concurrentes de tres años sin reelección consecutiva. Los distritos electorales deben ser definidos por la Casa de Representantes a partir de los datos del censo nacional cada diez años, siguiendo dos reglas: por lo menos un representante por Estado, y no más de un representante por cada 30 mil personas.
+    - El Vicepresidente debe ser Presidente del Senado, pero solo podrá votar para romper votaciones divididas a la mitad.
+    - El Congreso debe tener el poder de destituir oficiales civiles del gobierno federal, por motivos de traición, soborno, abuso de poder, y otros altos crímenes y delitos menores. La Casa de Representantes tendrá el poder de investigar y proponer la destitución, mientras que el Senado tendrá el poder de juzgar el caso y aprobar la destitución si dos tercios de los senadores están de acuerdo. Los oficiales civiles son el Presidente, el Vicepresidente, y los puestos ejecutivos y judiciales cuyos miembros son nominados por el Presidente.
+    - Todas las leyes deben ser aprobadas por ambas cámaras y enviadas al Presidente para su aprobación y promulgación, para lo cual tendrá diez días antes de que se promulgue directamente. Si el Presidente no la aprueba (veto presidencial), debe devolverla junto con sus objeciones para ser consideradas. Luego de la reconsideración, si dos tercios de ambas cámaras aprueban la ley, esta será promulgada directamente (anulación del veto).
+- **Poder ejecutivo:**
+    - Otorgado al Presidente, y extendido bajo su autoridad al Vicepresidente, a los departamentos y agencias federales definidos por el Congreso, y a los embajadores y cónsules.
+    - El Presidente debe ser Comandante en Jefe de las Fuerzas Armadas y el encargado de hacer cumplir la Constitución y las leyes promulgadas por el Congreso dentro de las funciones enumeradas del gobierno federal.
+    - El Presidente debe ser elegido para un período de cuatro años sin reelección, mediante voto popular de varias rondas: en cada ronda se hacen totales de votos por Estado y se elimina el candidato con menos votos en total, hasta que un candidato llegue a tener mayorías en dos tercios de los Estados y sea electo ganador, o hasta que queden solo dos candidatos, en cuyo caso el ganador será quien haya ganado en más Estados. El Vicepresidente debe ser elegido por el mismo proceso para el mismo período.
+    - El Presidente debe nominar los embajadores, jueces de la Corte Suprema, y los jefes de los departamentos federales, y estos deben ser aprobados por dos tercios del Senado obligatoriamente. Los jueces federales inferiores, los jefes de agencias federales y los cónsules también deben ser nominados por el Presidente, pero el Congreso podrá delegar la tarea de aprobación al mismo Presidente, a cortes de justicia, o a los jefes de los departamentos federales, dependiendo del caso.
+    - El Presidente debe tener el poder de hacer tratados internacionales, con la aprobación de dos tercios del Senado. También debe tener el poder unilateral de otorgar indultos, excepto en casos de destitución.
+- **Poder judicial:**
+    - Otorgado a la Corte Suprema, y a las cortes inferiores que establezca el Congreso.
+    - Los jueces federales ejercerán su cargo de forma vitalicia y durante el buen comportamiento.
+    - La Corte Suprema debe consistir de nueve jueces, uno de los cuales será designado como su Presidente. El único rol especial del Presidente de la Corte Suprema es presidir sobre los procesos de destitución del presidente o del vicepresidente, para evitar conflictos de interés.
+    - El poder judicial se debe extender a: los casos concernientes a la Constitución, las leyes federales y los tratados internacionales; casos que afecten a embajadores y consules; casos de jurisdicción marítima; disputas en las que Venezuela sea un participante; disputas entre dos o más Estados; disputas entre ciudadanos de diferentes Estados; disputas entre Estados o ciudadanos y países o personas extranjeros. La Corte Suprema debe tener jurisdicción original sobre los casos que involucren embajadores, cónsules y Estados; en los demás casos, debe tener jurisdicción apelativa.
 
-La constitución estadounidense explica los poderes, responsabilidades y funcionamiento de cada rama en detalle. La **separación de poderes** tiene el objetivo de que las tres ramas se frenen y hagan contrapeso entre sí, para garantizar el imperio de la ley y limitar los excesos de cada rama. Por eso la separación debe hacerse estricta, declarando explícitamente la **doctrina de no delegación**: "Ninguna rama del gobierno federal puede ceder sus poderes y responsabilidades a ninguna otra, ni se podrán crear nuevas ramas sin modificar este texto."
+La **separación de poderes** tiene el objetivo de que las tres ramas se frenen y hagan contrapeso entre sí, para garantizar el imperio de la ley y limitar los excesos de cada rama. El Congreso limita a las otras ramas promulgando leyes o destituyendo oficiales civiles; el Ejecutivo limita al Congreso mediante el veto, y aprovecha la discreción que permitan las leyes para librarse del escrutinio judicial; y el sistema Judicial limita a las otras ramas mediante su poder de interpretación de leyes y decretos, y derogación de aquellos que contravengan la ley existente.
 
-El propósito y las actividades particulares de la política externa se explican más adelante en su propio capítulo. En cuanto a los **territorios federales**, estos incluyen las islas no incorporadas, los distritos minarquistas, y los distritos capitales:
+Por eso la separación debe hacerse estricta, declarando explícitamente la **doctrina de no delegación**: "Ninguna rama del gobierno federal puede ceder sus poderes y responsabilidades a ninguna otra, ni se podrán crear nuevas ramas sin modificar este texto."
+
+El propósito y las actividades particulares de la política externa se explican más adelante en su propio capítulo. En cuanto a los **territorios federales**, estos incluyen las islas no incorporadas, los territorios minarquistas, y los distritos capitales:
 - **Islas no incorporadas:** Conocidas actualmente como "dependencias federales", son islas marítimas que no pertenecen a ningún gobierno estatal. Su administración será regida por la legislación del Congreso al respecto.
-- **Distritos minarquistas:** Concepto experimental de territorios pequeños regidos por un marco constitucional especial que garantice un gobierno estrictamente limitado sin interferencia política. El Congreso tendría el poder de crearlos, trasladarlos y eliminarlos, y su administración estaría bajo la autoridad del Ejecutivo, pero su rango de acción sería mínimo. Esto se explicará en el capítulo de política doméstica.
-- **Distritos capitales:** El Congreso, la sede principal del Ejecutivo, y la Corte Suprema deben instalarse en tres distritos minarquistas con dos condiciones adicionales: no pueden ser eliminados por el Congreso (pero sí trasladados), y tienen que estar separados entre sí por más de un Estado.
+- **Territorios minarquistas:** Concepto experimental de territorios pequeños regidos por un marco constitucional especial que garantice un gobierno estrictamente limitado sin interferencia política, con el objetivo de intensificar las presiones competitivas contra el crecimiento gubernamental de los Estados y localidades. El Congreso tendría el poder de crearlos, trasladarlos y eliminarlos, con aprobación de la legislatura del Estado donde se instalen. Las funciones y limitaciones de los territorios minarquistas deben ser las siguientes:
+    - El gobierno de cada territorio minarquista debe consistir de una legislatura, una fuerza policial, y un sistema judicial.
+    - La legislatura consistirá de miembros elegidos cada cuatro años por voto popular, cada uno representando uno de los distritos electorales, definidos por la Casa de Representantes, dentro del territorio. Sus únicas funciones son: definir el código penal, manejar el presupuesto, supervisar la fuerza policial, y establecer las cortes del sistema judicial.
+    - La fuerza policial se encargará de hacer cumplir el código penal y garantizar la seguridad pública básica. Sus miembros deben ser policías profesionales contratados
+    - El sistema judicial estará constituido por cortes para lidiar con los casos que surjan en el distrito, básicamente acusaciones criminales y demandas civiles. Sus miembros deben ser aprobados por supermayorías de tres cuartos en la asamblea legislativa.
+    - Primera limitante: El código penal solo puede definir como crímenes aquellos actos que infrinjan sobre los derechos de vida, libertad y propiedad privada ajenos.
+    - Segunda limitante: El gasto público no puede superar el monto recaudado, en otras palabras, la legislatura no tiene poder de adquirir deudas para financiar su gasto.
+    - Tercera limitante: El único impuesto permitido es un impuesto al valor de la tierra cobrado anualmente, y su tasa debe ser por lo menos 1% inferior a la tasa más baja entre los Estados y localidades.
+- **Distritos capitales:** El Congreso, la sede principal del Ejecutivo, y la Corte Suprema deben instalarse en tres distritos minarquistas con dos condiciones adicionales: no pueden ser eliminados por el Congreso (pero sí trasladados), y tienen que estar separados entre sí por más de dos Estados.
 
 
 ### Gobiernos estatales
 
-Los **gobiernos de los Estados** serán los encargados exclusivos de la política doméstica en sus respectivas jurisdicciones. Idealmente deberían dedicarse solamente a las [funciones básicas para proteger los derechos de los ciudadanos](https://en.wikipedia.org/wiki/Night-watchman_state) (seguridad y justicia pública, en resumen), la protección de la propiedad intelectual, y la provisión de asistencia pública limitada para aliviar la pobreza. La necesidad de estas dos últimas funciones en particular es debatible, pero eso está fuera del alcance de esta sección, y a fin de cuentas debe ser decisión de cada Estado.
+Los **gobiernos de los Estados** serán los encargados exclusivos de la política doméstica en sus respectivos territorios. Idealmente deberían dedicarse solamente a las [funciones básicas para proteger los derechos de los ciudadanos](https://en.wikipedia.org/wiki/Night-watchman_state) (seguridad y justicia pública, en resumen), la protección de la propiedad intelectual, y la provisión de asistencia pública limitada para aliviar la pobreza. La necesidad de estas dos últimas funciones en particular es debatible, pero eso está fuera del alcance de esta sección, y a fin de cuentas debe ser decisión de cada Estado.
 
 Los **gobiernos estatales también deberían empezar desde cero** y adoptar una constitución de poderes limitados, separados y explícitamente otorgados. Luego los habitantes de cada Estado decidirán qué otros poderes otorgarles o no, y qué otros cambios quieren realizar o no.
 
 
 ### Gobiernos locales
 
-Los gobiernos estatales en sus respectivas constituciones establecerán el nivel de **autonomía de los gobiernos locales** y sus respectivos poderes y responsabilidades. Lo ideal es mayor descentralización y delegación de poderes a las localidades, pero solo la experimentación y la competencia entre jurisdicciones determinará en qué grado se dé esto.
+Los gobiernos estatales en sus respectivas constituciones establecerán el nivel de **autonomía de los gobiernos locales** y sus respectivos poderes y responsabilidades. Lo ideal es mayor descentralización y delegación de poderes a las localidades, pero solo la experimentación y la competencia entre los territorios determinará en qué grado se dé esto.
 
 
 ### Relaciones interjurisdiccionales
@@ -183,8 +229,8 @@ Las **relaciones entre los Estados y localidades** deben fundamentarse en dos pr
 1. **Reconocimiento mutuo:**
     - Cada gobierno estatal o local debe reconocer plenamente las leyes, documentos y procedimientos judiciales de los demás.
     - Todos los privilegios e inmunidades de los ciudadanos de cada Estado o localidad deben aplicarse para los ciudadanos de los demás.
-    - Cada gobierno estatal o local tiene la obligación de entregar a la justicia de las otras jurisdicciones los fugitivos que se encuentren en su territorio.
-2. **[Federalismo competitivo:](https://www.mercatus.org/publications/urban-economics/federalism-and-constitution-competition-versus-cartels)** El federalismo debe garantizar la competencia interjurisdiccional para atraer y conservar ciudadanos, promoviendo la descentralización, la responsabilidad, y la limitación de poderes. Esto implica lo siguiente:
+    - Cada gobierno estatal o local tiene la obligación de entregar a la justicia de los otros gobiernos los fugitivos que se encuentren en su territorio.
+2. **[Federalismo competitivo:](https://www.mercatus.org/publications/urban-economics/federalism-and-constitution-competition-versus-cartels)** El federalismo debe garantizar la competencia entre los diferentes Estados y localidades para atraer y conservar ciudadanos, promoviendo la descentralización, la responsabilidad, y la limitación de poderes. Esto implica lo siguiente:
     - **Prohibición de barreras** a la libre entrada y salida de personas y el libre intercambio de bienes y servicios entre los Estados y localidades.
     - **Federalismo fiscal:** El gobierno federal no puede usar sus fondos para financiar los gobierno estatales y locales, ni viceversa.
     - **Principio de la jurisdicción menos restrictiva** en cuanto a regulaciones de la actividad económica de los Estados y localidades.

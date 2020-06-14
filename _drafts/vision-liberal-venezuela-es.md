@@ -200,48 +200,59 @@ Por eso la separación debe hacerse estricta, declarando explícitamente la **do
 
 El propósito y las actividades particulares de la política externa se explican más adelante en su propio capítulo. En cuanto a los **territorios federales**, estos incluyen las islas no incorporadas, los territorios minarquistas, y los distritos capitales:
 - **Islas no incorporadas:** Conocidas actualmente como "dependencias federales", son islas marítimas que no pertenecen a ningún gobierno estatal. Su administración será regida por la legislación del Congreso al respecto.
-- **Territorios minarquistas:** Concepto experimental de territorios pequeños regidos por un marco constitucional especial que garantice un gobierno estrictamente limitado sin interferencia política, con el objetivo de intensificar las presiones competitivas contra el crecimiento gubernamental de los Estados y localidades. El Congreso tendría el poder de crearlos, trasladarlos y eliminarlos, con aprobación de la legislatura del Estado donde se instalen. Las funciones y limitaciones de los territorios minarquistas deben ser las siguientes:
+- **Territorios minarquistas:** Concepto experimental de territorios pequeños regidos por un marco constitucional especial que garantice un gobierno estrictamente limitado sin interferencia política, con el objetivo de intensificar las presiones competitivas contra el crecimiento gubernamental de los Estados y localidades.
+    - El Congreso podrá crear territorios minarquistas, cuya superficie debe ser menor o igual a 2 km², en cualquier lugar del territorio nacional, con aprobación previa de la legislatura del Estado donde se instale el territorio.
+    - El Congreso podrá trasladar o eliminar los territorios minarquistas. En el caso de traslados, se debe tener aprobación previa de la legislatura del Estado donde se instale el territorio.
     - El gobierno de cada territorio minarquista debe consistir de una legislatura, una fuerza policial, y un sistema judicial.
-    - La legislatura consistirá de miembros elegidos cada cuatro años por voto popular, cada uno representando uno de los distritos electorales, definidos por la Casa de Representantes, dentro del territorio. Sus únicas funciones son: definir el código penal, manejar el presupuesto, supervisar la fuerza policial, y establecer las cortes del sistema judicial.
-    - La fuerza policial se encargará de hacer cumplir el código penal y garantizar la seguridad pública básica. Sus miembros deben ser policías profesionales contratados
+    - La legislatura consistirá de miembros elegidos cada cuatro años por voto popular, cada uno representando uno de los distritos electorales, definidos por la Casa de Representantes, dentro del territorio. Sus únicas funciones son: definir el código penal, manejar el presupuesto, administrar y supervisar la fuerza policial, y establecer las cortes del sistema judicial.
+    - La fuerza policial se encargará de hacer cumplir el código penal y garantizar la seguridad pública básica. Sus miembros deben ser policías profesionales contratados, y su estructura debe ser establecida por la legislatura.
     - El sistema judicial estará constituido por cortes para lidiar con los casos que surjan en el distrito, básicamente acusaciones criminales y demandas civiles. Sus miembros deben ser aprobados por supermayorías de tres cuartos en la asamblea legislativa.
     - Primera limitante: El código penal solo puede definir como crímenes aquellos actos que infrinjan sobre los derechos de vida, libertad y propiedad privada ajenos.
-    - Segunda limitante: El gasto público no puede superar el monto recaudado, en otras palabras, la legislatura no tiene poder de adquirir deudas para financiar su gasto.
-    - Tercera limitante: El único impuesto permitido es un impuesto al valor de la tierra cobrado anualmente, y su tasa debe ser por lo menos 1% inferior a la tasa más baja entre los Estados y localidades.
-- **Distritos capitales:** El Congreso, la sede principal del Ejecutivo, y la Corte Suprema deben instalarse en tres distritos minarquistas con dos condiciones adicionales: no pueden ser eliminados por el Congreso (pero sí trasladados), y tienen que estar separados entre sí por más de dos Estados.
+    - Segunda limitante: El gasto público no puede superar el monto recaudado, en otras palabras, la legislatura no tiene poder de adquirir deudas para financiar su gasto, ni puede usar fondos del gobierno federal.
+    - Tercera limitante: La única fuente de financiamiento para el gobierno del territorio será un impuesto al valor de la tierra (IVT) cobrado anualmente.
+    - Cuarta limitante: La tasa porcentual del IVT debe ajustarse cada año para garantizar que esté por debajo de la tasa más baja entre los Estados y localidades. Si ningún Estado o localidad tiene un IVT, la tasa de ese año debe establecerse por unanimidad en la legislatura.
+- **Distritos capitales:** El Congreso, la sede principal del Ejecutivo, y la Corte Suprema deben instalarse en tres distritos minarquistas con tres condiciones adicionales:
+    - El establecimiento de los distritos capitales no requiere autorización de la legislatura del Estado donde se instalarán.
+    - El Congreso no podrá eliminar ningún distrito capital, pero sí trasladarlos, para lo cual tampoco se requiere autorización de la legislatura del Estado donde se instalará.
+    - Los tres distritos capitales en todo caso deben estar separados entre sí por más de dos Estados.
 
 
 ### Gobiernos estatales
 
-Los **gobiernos de los Estados** serán los encargados exclusivos de la política doméstica en sus respectivos territorios. Idealmente deberían dedicarse solamente a las [funciones básicas para proteger los derechos de los ciudadanos](https://en.wikipedia.org/wiki/Night-watchman_state) (seguridad y justicia pública, en resumen), la protección de la propiedad intelectual, y la provisión de asistencia pública limitada para aliviar la pobreza. La necesidad de estas dos últimas funciones en particular es debatible, pero eso está fuera del alcance de esta sección, y a fin de cuentas debe ser decisión de cada Estado.
+Los **gobiernos de los Estados** serán los encargados exclusivos de la política doméstica en sus respectivos territorios. Deberían empezar desde cero con una constitución de poderes limitados y separación estricta en tres ramas, y en todo caso sus poderes deben ser explícitamente otorgados y enumerados en su constitución, para cumplir con el principio de inexistencia de poderes no otorgados mencionado anteriormente.
 
-Los **gobiernos estatales también deberían empezar desde cero** y adoptar una constitución de poderes limitados, separados y explícitamente otorgados. Luego los habitantes de cada Estado decidirán qué otros poderes otorgarles o no, y qué otros cambios quieren realizar o no.
+Idealmente deberían dedicarse solamente a las [funciones básicas para proteger los derechos de los ciudadanos](https://en.wikipedia.org/wiki/Night-watchman_state) (seguridad y justicia pública, en resumen), la protección de la propiedad intelectual, y la provisión de asistencia pública limitada para aliviar la pobreza. La necesidad de estas dos últimas funciones en particular es debatible, pero eso está fuera del alcance de esta sección, y a fin de cuentas debe ser decisión de cada Estado.
 
 
 ### Gobiernos locales
 
-Los gobiernos estatales en sus respectivas constituciones establecerán el nivel de **autonomía de los gobiernos locales** y sus respectivos poderes y responsabilidades. Lo ideal es mayor descentralización y delegación de poderes a las localidades, pero solo la experimentación y la competencia entre los territorios determinará en qué grado se dé esto.
+Los gobiernos estatales deben estar **subdivididos en por lo menos dos localidades**. Las constituciones estatales establecerán el nivel de **autonomía de los gobiernos locales** y sus respectivos poderes y responsabilidades. Lo ideal es mayor descentralización y delegación de poderes a las localidades, pero solo la experimentación y la competencia entre los territorios determinará en qué grado se dé esto.
 
 
 ### Relaciones interjurisdiccionales
 
-Las **relaciones entre los Estados y localidades** deben fundamentarse en dos principios:
+Las **relaciones entre los Estados, localidades y territorios federales** deben fundamentarse en dos principios:
 1. **Reconocimiento mutuo:**
-    - Cada gobierno estatal o local debe reconocer plenamente las leyes, documentos y procedimientos judiciales de los demás.
-    - Todos los privilegios e inmunidades de los ciudadanos de cada Estado o localidad deben aplicarse para los ciudadanos de los demás.
-    - Cada gobierno estatal o local tiene la obligación de entregar a la justicia de los otros gobiernos los fugitivos que se encuentren en su territorio.
-2. **[Federalismo competitivo:](https://www.mercatus.org/publications/urban-economics/federalism-and-constitution-competition-versus-cartels)** El federalismo debe garantizar la competencia entre los diferentes Estados y localidades para atraer y conservar ciudadanos, promoviendo la descentralización, la responsabilidad, y la limitación de poderes. Esto implica lo siguiente:
-    - **Prohibición de barreras** a la libre entrada y salida de personas y el libre intercambio de bienes y servicios entre los Estados y localidades.
-    - **Federalismo fiscal:** El gobierno federal no puede usar sus fondos para financiar los gobierno estatales y locales, ni viceversa.
-    - **Principio de la jurisdicción menos restrictiva** en cuanto a regulaciones de la actividad económica de los Estados y localidades.
+    - Cada uno de los gobiernos de los Estados, localidades y territorios federales debe reconocer plenamente las leyes, documentos y procedimientos judiciales de los demás.
+    - Todos los privilegios e inmunidades de los ciudadanos de cada Estado, localidad o territorio federal deben aplicarse para los ciudadanos de los demás.
+    - Cada uno de los gobiernos de los Estados, localidades y territorios federales tiene la obligación de entregar a la justicia de los otros gobiernos los fugitivos que se encuentren en su territorio.
+2. **[Federalismo competitivo:](https://www.mercatus.org/publications/urban-economics/federalism-and-constitution-competition-versus-cartels)** El federalismo debe garantizar la competencia interjurisdiccional para atraer y conservar ciudadanos y empresas, promoviendo la descentralización, la responsabilidad, y la limitación de poderes. Esto implica lo siguiente:
+    - **Prohibición de barreras** a la libre entrada y salida de personas y al libre intercambio de bienes y servicios entre los Estados, localidades y territorios federales.
+    - **Federalismo fiscal:** El gobierno federal no puede usar sus fondos para financiar los gobiernos estatales y locales, ni viceversa. Los territorios federales no están sujetos a esta regla.
+    - **Principio de la jurisdicción menos restrictiva** en cuanto a regulaciones de la actividad económica de los Estados, localidades y territorios federales.
+
+En cuanto a la **admisión de nuevos Estados** a la Unión:
+- El Congreso puede autorizar la admisión de nuevos Estados, con aprobación de dos tercios en ambas cámaras.
+- No se pueden formar nuevos Estados dentro del territorio de algún Estado existente.
+- No se pueden formar Estados por la combinación de dos o más Estados, ni partes de estos, sin la aprobación de las legislaturas de los Estados involucrados y la aprobación del Congreso.
 
 
 ### Enmienda constitucional
 
-Para modificar la Constitución por cualquier motivo, pero especialmente para expandir la lista de poderes del gobierno federal, se debe realizar un proceso de **enmienda constitucional** de dos pasos con requisitos estrictos, parecido al proceso descrito en la constitución estadounidense:
+Para modificar la Constitución por cualquier motivo, se debe realizar un proceso de **enmienda constitucional** de dos pasos con requisitos estrictos, parecido al proceso descrito en la constitución estadounidense:
 
 1. **Propuesta:** Una enmienda constitucional particular puede ser propuesta de dos formas: directamente por el Congreso, si es aprobada por mayorías de dos tercios en ambas cámaras; o si dos tercios de las legislaturas estatales solicitan una enmienda, el Congreso estará obligado a proponerla formalmente.
-2. **Ratificación:** Una vez realizada la propuesta formal, se tendrá un lapso de tiempo de 60 días para que tres cuartos de las legislaturas estatales ratifiquen la enmienda para que se haga oficial la modificación de la Constitución. Si al acabar los 60 días no se ha logrado el número de ratificaciones requeridas, la enmienda será cancelada y todas sus ratificaciones nulificadas, y no se podrá volver a proponer la misma enmienda hasta que transcurran 60 días más.
+2. **Ratificación:** Una vez realizada la propuesta formal, se tendrá un lapso de tiempo de 60 días para que tres cuartos de las legislaturas estatales ratifiquen la enmienda para que se haga oficial la modificación de la Constitución. Para enmendar la declaración de principios, se debe requerir que todas las legislaturas estatales ratifiquen la propuesta, no solo tres cuartos. Si al acabar los 60 días no se ha logrado el número de ratificaciones requeridas, la enmienda será cancelada y todas sus ratificaciones nulificadas, y no se podrá volver a proponer la misma enmienda hasta que transcurran 60 días más.
 
 
 &nbsp;

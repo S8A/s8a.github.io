@@ -6,11 +6,11 @@ og_image: s8a-thumbnail.png
 category: personal
 ---
 
-Conversando entre amigos sobre el desastre socialista en el que vivimos, me pidieron que hiciera una lista completa de propuestas para resolver el problema. Bueno, no solo hice una lista de propuestas puntuales, sino que decidí desarrollar a fondo una **visión liberal del sistema político y económico de Venezuela**.
+Conversando entre amigos sobre el desastre socialista en el que vivimos, me pidieron que hiciera una lista de propuestas para resolver la situación. Bueno, no solo hice una lista de propuestas puntuales, sino que decidí desarrollar a fondo una **visión liberal del sistema político y económico de Venezuela**. Este artículo fue escrito entre el 28 de mayo y el día de hoy.
 
 Considero que esta visión liberal, [en el sentido clásico de la palabra](https://www.libertarianism.org/encyclopedia/liberalism-classical), contiene las mejores medidas para promover la libertad y la prosperidad en el mayor grado. Muchas de las ideas presentadas aquí son radicales, especialmente en comparación con la realidad socialista actual y el consenso de centro-izquierda que ha dominado la política y la cultura desde el siglo pasado, pero estoy convencido de que son ideas perfectamente razonables, y para demostrarlo ofrezco explicaciones de cada una a lo largo del documento.
 
-Cabe destacar tres cosas importantes antes de empezar: primero, no soy economista ni me considero un experto en ninguna de estas áreas, pero sí he leído bastante, y proveo fundamentos y fuentes confiables para todo; segundo, no conozco todos los temas por igual, así que profundizo más en algunos temas (política económica) que en otros; tercero, no tomo en cuenta la viabilidad política de implementar esta visión, simplemente anhelo que algún día podamos ver por lo menos las principales ideas hechas realidad.
+Cabe destacar tres cosas importantes antes de empezar: primero, no soy economista ni me considero un experto en ninguna de estas áreas, pero sí he leído bastante, y proveo argumentos y fuentes confiables para todo; segundo, no conozco todos los temas por igual, así que profundizo más en algunos temas (política económica) que en otros; tercero, no tomo en cuenta la viabilidad política de implementar esta visión, simplemente anhelo que algún día podamos ver por lo menos las principales ideas hechas realidad.
 
 A continuación un resumen ejecutivo de mis propuestas, seguido de una explicación bastante extensa de los detalles y razonamientos detrás de cada una de ellas.
 
@@ -19,8 +19,9 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
 
 1. **Constitución:**
     - Basada en la constitución estadounidense y enmarcada en el derecho anglosajón.
-    - Declaración explícita de principios: derechos individuales, gobierno limitado, descentralización, federalismo, subsidiariedad, inexistencia de poderes no otorgados.
+    - Declaración explícita de principios: derechos individuales inalienables, gobierno limitado representativo, descentralización, federalismo, subsidiariedad, inexistencia de poderes no otorgados, separación de poderes.
     - Protección absoluta de libertades civiles y garantías constitucionales.
+    - Ciudadanía *jus soli* y privilegios asociados: derecho al voto y cargos públicos.
     - Gobierno federal encargado de la política externa y los territorios federales.
     - Declaración explícita de la doctrina de no delegación.
     - Gobiernos estatales y municipales encargados de la política doméstica.
@@ -58,11 +59,10 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
 3. **Política externa:**
     - **Objetivo:** Garantizar la defensa nacional, el libre comercio y la movilidad internacional.
     - **Defensa nacional:**
-        - Fuerzas Armadas bajo la autoridad del Ejecutivo.
-        - Poder de declarar guerras bajo la autoridad del Congreso.
+        - Separación del poder militar entre el Ejecutivo y el Congreso.
         - Principio de no intervencionismo y neutralidad.
-        - Alianzas limitadas solo con países libres y democráticos, especialmente Estados Unidos.
-        - Lista pública de países enemigos: regímenes autoritarios y totalitarios.
+        - Alianzas limitadas solo con países libres y democráticos.
+        - Lista pública de países hostiles: regímenes autoritarios y totalitarios.
         - Libertad de importación y exportación de armas, excepto con enemigos.
     - **Libre comercio:**
         - Liberalización unilateral total del comercio internacional de bienes y servicios.
@@ -125,15 +125,15 @@ A continuación se presentan las características principales que debe tener la 
 La Constitución debe empezar con una **declaración explícita de principios** para enmarcar adecuadamente los propósitos, ideales, y restricciones fundamentales de esta ley suprema. En resumen, esta declaración debe contener lo siguiente:
 
 - Todos los individuos poseen **[derechos naturales inalienables](https://www.libertarianism.org/encyclopedia/rights-natural)** a la vida, la libertad, y la propiedad privada.
-- La existencia de estos derechos es **inherente a la naturaleza humana**, es decir que no son otorgados por el gobierno ni dependen de su reconocimiento para ser legítimos.
-- Los derechos naturales de cada persona son **inalienables**, es decir que no pueden ser infringidos, excepto cuando se demuestre por el debido proceso que las acciones de la persona infringen en los derechos de otros.
-- El [gobierno](https://www.libertarianism.org/encyclopedia/government) se establece para **proteger los derechos de las personas** y **garantizar la justicia, la igualdad ante la ley y el debido proceso**.
-- El gobierno debe derivar sus poderes del **consentimiento de la población** para tener legitimidad.
-- El gobierno es de por sí una amenaza a los derechos mencionados, por lo que debe **[limitarse estrictamente](https://www.libertarianism.org/encyclopedia/limited-government)**.
+- La existencia de estos derechos es **inherente a la naturaleza humana**, es decir, que todas las personas los poseen por igual y que no son otorgados por el gobierno ni dependen de su reconocimiento para ser legítimos.
+- Los derechos naturales de cada persona son **inalienables**, es decir, que no pueden ser infringidos, excepto cuando se demuestre por el debido proceso que las acciones de la persona infringen en los derechos de otros.
+- El [gobierno](https://www.libertarianism.org/encyclopedia/government) se establece para **proteger los derechos de las personas**, derivando sus poderes del **consentimiento de la población** para tener legitimidad ([democracia liberal](https://en.wikipedia.org/wiki/Liberal_democracy)).
+- El gobierno debe **[limitarse estrictamente](https://www.libertarianism.org/encyclopedia/limited-government)** para evitar ser una amenaza a esos mismos derechos, y **garantizar la justicia, el imperio de la ley y el debido proceso**.
 - El poder debe dispersarse lo más posible para disminuir el peligro que representa (**[descentralización](https://en.wikipedia.org/wiki/Decentralization)**).
-- Los poderes y responsabilidades del gobierno deben dividirse en niveles separados y relativamente independientes (**[federalismo](https://en.wikipedia.org/wiki/Federalism)**): gobierno federal, gobiernos estatales, y gobiernos municipales.
+- Los poderes y responsabilidades del gobierno deben dividirse "verticalmente" en niveles separados y relativamente independientes (**[federalismo](https://en.wikipedia.org/wiki/Federalism)**): gobierno federal, gobiernos estatales, y gobiernos municipales.
 - Los problemas se deben lidiar en el nivel más bajo posible, empezando por el individuo y usando el gobierno nacional solo en última instancia (**[subsidiariedad](https://en.wikipedia.org/wiki/Subsidiarity)**).
-- Para limitar el gobierno, debe hacerse explícita la **inexistencia de poderes no otorgados** para todos los niveles gubernamentales: "Ni el gobierno federal, ni los gobiernos estatales y municipales tienen absolutamente ningún poder que no se les haya otorgado explícitamente en su respectiva constitución mediante el proceso legal apropiado."
+- Ni el gobierno federal, ni los gobiernos estatales y municipales tienen absolutamente ningún poder que no se les haya otorgado explícitamente en su respectiva constitución mediante el proceso legal apropiado (**inexistencia de poderes no otorgados**).
+- Los poderes de cada nivel de gobierno deben **separarse en tres ramas**: poder legislativo, poder ejecutivo, y poder judicial.
 
 
 ### Libertades civiles y garantías constitucionales
@@ -166,6 +166,17 @@ La libertad de expresión no solo es un derecho individual fundamental, sino que
 Por otra parte, la **[libertad de armas](https://www.libertarianism.org/encyclopedia/right-bear-arms)** es un corolario al derecho natural de defensa propia, pues las armas son herramientas útiles y frecuentemente indispensables para que las personas defiendan su vida, libertad y propiedad contra [criminales](https://www.cato.org/publications/white-paper/tough-targets-when-criminals-face-armed-resistance-citizens), invasiones extranjeras, e incluso [contra el propio gobierno](https://thefederalist.com/2018/04/04/guns-help-americans-protect-abusive-government/) si se convierte en tiranía.
 
 Por esos motivos no se le debe ceder al gobierno **ningún poder de impedir o restringir la compra, venta, posesión y porte de armas** de cualquier tipo excepto explosivos y armas de destrucción masiva, los cuales sí pueden ser regulados (esta excepción debe ser explícita). No es coincidencia que los [regímenes autoritarios desarman a la población](https://mises.org/wire/brief-history-repressive-regimes-and-their-gun-laws), incluyendo el [caso de Venezuela](https://mises.org/wire/how-gun-control-became-instrument-tyranny-venezuela).
+
+
+### Privilegios de la ciudadanía
+
+La Constitución debe tener una cláusula que establezca la **[ciudadanía *jus soli*](https://en.wikipedia.org/wiki/Jus_soli)**: "Todas las personas nacidas o naturalizadas en el territorio nacional, y sujetos a su jurisdicción, son ciudadanos de Venezuela y del estado en el que residen."
+
+Esa cláusula es idéntica a la 14va enmienda de la constitución estadounidense, y [significa](https://www.niskanencenter.org/reading-the-plain-text-of-the-birthright-clause-in-the-fourteenth-amendment/) que todas las personas nacidas en el territorio nacional son ciudadanos del país, sin importar la nacionalidad de sus padres, con dos excepciones: los hijos de diplomáticos extranjeros y de invasores militares. En cuanto a la naturalización de personas extranjeras, el Congreso será el encargado de establecer la legislación sobre los requisitos y pasos de dicho proceso.
+
+Todas las personas tienen los mismos derechos naturales reconocidos en la declaración de principios, pero solo los ciudadanos del país tienen ciertos **privilegios** adicionales, los cuales deben ser protegidos por la Constitución:
+- Derecho al voto para todos los ciudadanos mayores de 18 años, sin excepciones ni condiciones adicionales.
+- Solo los ciudadanos del país pueden asumir cargos en los diferentes niveles de gobierno.
 
 
 ### Gobierno federal
@@ -391,7 +402,7 @@ Antes de dar [propuestas concretas](#propuestas-regulacion), es necesario explic
 - El objetivo debe ser la **eliminación total del Estado administrativo-regulatorio**, por lo menos a nivel federal.
 - **Prohibición constitucional de la regulación por parte del gobierno federal:**
     - El **principio de inexistencia de poderes no otorgados** y los **limitados poderes enumerados del gobierno federal** (política externa y territorios federales) deberían dejar claro que no puede regular las actividades del sector privado.
-    - Sin embargo, no vendría mal eliminar totalmente cualquier ambigüedad al respecto, por lo que la Constitución debe hacer una **prohibición explícita**: "El gobierno federal no tiene ningún poder ni obligación de regular las actividades económicas del sector privado en los diferentes estados, municipios y territorios federales."
+    - Sin embargo, no vendría mal eliminar totalmente cualquier ambigüedad al respecto, por lo que la Constitución debe hacer una **prohibición explícita**: "El gobierno federal no tiene ningún poder ni obligación de regular las actividades económicas del sector privado en los diferentes estados, municipios y territorios federales, a excepción de las restricciones que puedan surgir de la legislación sobre el comercio internacional."
     - De esta forma se tendría una **barrera triple** impidiendo las regulaciones a nivel federal.
     - Si bien lo ideal sería que no existan regulaciones por parte de ningún nivel del gobierno, prohibirlas totalmente desde la Constitución probablemente crearía muchas presiones políticas para eliminar las restricciones completamente.
 - **Separación de poderes estricta para impedir el surgimiento del Estado administrativo:**
@@ -471,3 +482,44 @@ En resumen, es evidente que esta concepción del Estado omnipotente, y en especi
     - En cuanto a la seguridad pública, los cuerpos policiales privados han existido en diversos lugares a lo largo de la historia y siguen [existiendo en paralelo](https://www.policechiefmagazine.org/private-police-coming-to-a-neighborhood/) a los cuerpos policiales públicos, en diferentes medidas. Un buen ejemplo es el caso de la [fuerza policial privada de San Francisco](https://reason.com/2015/07/21/san-franciscos-private-police/), una red de empresas independientes que ha existido desde 1850, incluso antes que la policía pública, y hasta la actualidad sigue teniendo un mejor desempeño que esta.
     - Las [prisiones privadas](https://en.wikipedia.org/wiki/Private_prison) existen en diversos países, siendo contratadas usualmente para reducir costos, y han tenido [resultados variables](https://theconversation.com/private-prisons-explained-73038) dependiendo del caso. A final de cuentas los resultados positivos o negativos dependen de los [incentivos de los contratos](https://reason.com/2015/09/29/why-bernie-sanders-is-wrong-about-privat/): se debe pagar por resultados positivos en medidas adecuadas (reducción de recidivismo, por ejemplo), en lugar de pagar por número de prisioneros o tiempo de encarcelamiento (incentivo perverso para la industria).
     - El sistema judicial ha sido privatizado parcialmente de facto, por el surgimiento de empresas de [resolución alternativa de disputas](https://en.wikipedia.org/wiki/Alternative_dispute_resolution), que son contratadas por empresas e individuos para proveer diversos procesos y mecanismos de resolución de disputas entre las partes, sin tener que usar el costoso e ineficiente sistema de litigación gubernamental. Esto ha permitido reducir costos, facilitar soluciones, y reducir la carga sobre el sistema judicial público.
+
+
+&nbsp;
+## Política externa
+
+> "La armonía, las relaciones liberales con todas las naciones, son recomendadas por la política, la humanidad y el interés."
+>
+> – George Washington, Discurso de Despedida (1796)
+
+
+### Principios
+
+La **política externa** se trata de las relaciones del país con el resto del mundo, compuesto de naciones que tienen sus propios intereses y principios, por lo que dichas relaciones pueden ser mayormente pacíficas pero también competitivas e incluso conflictivas. Es un error pensar que las únicas opciones son un "idealismo" utópico o un "realismo" inescrupuloso, cuando es posible y deseable compaginar la realidad de las relaciones internacionales, la defensa del interés nacional, y la promoción de ideales más transcendentes.
+
+A pesar de sus desacuerdos en ciertas áreas, los Padres Fundadores de los Estados Unidos tenían un consenso en cuanto a la naturaleza de los Estados Unidos y por lo tanto sobre los [principios de su política externa](https://www.heritage.org/political-process/report/americas-founders-and-the-principles-foreign-policy-sovereign-independence), los cuales se pueden resumir en: libertad, independencia, paz, comercio, prudencia, justicia, y defensa propia. Esos principios deben ser la base filosófica de la política externa en general.
+
+En particular, la [política externa ideal](https://www.libertarianism.org/essays/libertarian-vision-for-foreign-policy-national-defense) debería usar la fuerza militar solo de forma defensiva, promover los intereses e ideales del país mediante la diplomacia internacional, y garantizar el libre movimiento internacional de bienes, servicios, capital y personas.
+
+### Defensa nacional
+
+En cuanto a la **defensa nacional**, esta se debe tratar precisamente de eso: defender la soberanía nacional, la integridad territorial, y la vida, libertad y propiedad de la población. El principio de prudencia y la historia demuestran que la guerra es corrosiva para la libertad y prosperidad, pero también que estar preparado para la guerra es una de las mejores garantías de la paz. Por eso se deben evitar los conflictos bélicos cuando sea posible, pero se debe estar dispuesto y preparado para utilizar la fuerza contra amenazas y ataques externos.
+
+- Separación del poder militar entre el Ejecutivo y el Congreso.
+- Principio de no intervencionismo y neutralidad.
+- Alianzas limitadas solo con países libres y democráticos.
+- Lista pública de países hostiles: regímenes autoritarios y totalitarios.
+- Libertad de importación y exportación de armas, excepto con enemigos.
+
+### Libre comercio
+- Liberalización unilateral total del comercio internacional de bienes y servicios.
+- Restricciones comerciales solo con países enemigos.
+- Tratados internacionales para pactar la liberalización mutua del comercio.
+- Rechazo a los esquemas de harmonización de impuestos y regulaciones.
+- Uso de los mecanismos de resolución de disputas de la OMC para promover el libre comercio.
+
+### Migración internacional
+- Liberalización de la entrada y salida de personas.
+- Requerimiento de entrada único: proveer un documento de identificación o pasaporte.
+- Restricciones de entrada adicionales solo con países enemigos.
+- Eliminación de restricciones al trabajo y la residencia.
+- Deportación permanente e inmediata de extranjeros que cometan crímenes en el país.

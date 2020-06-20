@@ -17,7 +17,7 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
 
 ## Resumen ejecutivo
 
-1. **Constitución:**
+1. **[Constitución](#constitución)**
     - Basada en la constitución estadounidense y enmarcada en el derecho anglosajón.
     - Declaración explícita de principios: derechos individuales inalienables, gobierno limitado representativo, descentralización, federalismo, subsidiariedad, inexistencia de poderes no otorgados, separación de poderes.
     - Protección absoluta de libertades civiles y garantías constitucionales.
@@ -27,9 +27,9 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
     - Gobiernos estatales y municipales encargados de la política doméstica.
     - Relaciones interjurisdiccionales: reconocimiento mutuo y federalismo competitivo.
     - Requisitos estrictos para modificar la Constitución.
-2. **Política económica:**
+2. **[Política económica](#política-económica)**
     - **Objetivo:** Maximizar la libertad económica y minimizar la intervención gubernamental.
-    - **Política fiscal:**
+    - **Política fiscal:** Reducción radical del gasto y recaudación del gobierno.
         - Reducción drástica del gasto público.
         - Reestructuración y pago de la deuda pública externa.
         - Mecanismo constitucional de control presupuestario.
@@ -42,13 +42,11 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
         - Opción 2: Monetarismo de mercado.
         - Opción 3: Dolarización.
     - **Política cambiaria:** No intervenir en las tasas de cambio.
-    - **Política regulatoria:**
-        - Objetivo: Desmantelamiento del Estado administrativo-regulatorio.
+    - **Política regulatoria:** Desmantelamiento del Estado administrativo-regulatorio.
         - Prohibición constitucional de la regulación por parte del gobierno federal.
         - Separación de poderes estricta para impedir el surgimiento del Estado administrativo.
         - Principio constitucional de competencia desregulatoria interjurisdiccional.
-    - **Privatización:**
-        - Objetivo: Eliminación del Estado propietario-patrimonialista.
+    - **Privatización:** Eliminación del Estado propietario-patrimonialista.
         - Protección constitucional de la propiedad privada y prohibición de los monopolios gubernamentales.
         - Privatización total de las empresas gubernamentales, en todos los sectores (incluyendo PDVSA).
         - Devolución o indemnización de empresas y bienes robados por el chavismo.
@@ -56,27 +54,27 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
         - Privatización de viviendas públicas.
         - Privatización de funciones no gubernamentales: educación, salud, infraestructura.
         - Privatización parcial de funciones gubernamentales.
-3. **Política externa:**
+3. **[Política externa](#política-externa)**
     - **Objetivo:** Garantizar la defensa nacional, el libre comercio y la movilidad internacional.
     - **Defensa nacional:**
         - Separación del poder militar entre el Ejecutivo y el Congreso.
         - Principio de no intervencionismo y neutralidad.
         - Alianzas limitadas solo con países libres y democráticos.
-        - Lista pública de países hostiles: regímenes autoritarios y totalitarios.
-        - Libertad de importación y exportación de armas, excepto con enemigos.
+        - Lista pública de países hostiles e iliberales.
+        - Libertad de importación y exportación de armas, excepto con países hostiles e iliberales.
     - **Libre comercio:**
         - Liberalización unilateral total del comercio internacional de bienes y servicios.
-        - Restricciones comerciales solo con países enemigos.
+        - Restricciones comerciales solo con países hostiles e iliberales.
         - Tratados internacionales para pactar la liberalización mutua del comercio.
         - Rechazo a los esquemas de harmonización de impuestos y regulaciones.
         - Uso de los mecanismos de resolución de disputas de la OMC para promover el libre comercio.
     - **Migración internacional:**
         - Liberalización de la entrada y salida de personas.
         - Requerimiento de entrada único: proveer un documento de identificación o pasaporte.
-        - Restricciones de entrada adicionales solo con países enemigos.
+        - Restricciones de entrada adicionales solo con países hostiles e iliberales.
         - Eliminación de restricciones al trabajo y la residencia.
         - Deportación permanente e inmediata de extranjeros que cometan crímenes en el país.
-4. **Política doméstica:**
+4. **Política doméstica**
     - **Objetivos:**
         - Proteger la vida, libertad, y propiedad de las personas.
         - Garantizar la justicia y la igualdad ante la ley.
@@ -319,7 +317,7 @@ Se refiere al gasto público y su financiamiento. El [Manual ciudadano de polít
         - La privatización total de PDVSA y otras empresas gubernamentales puede proveer el dinero necesario para pagar la mayor parte de la deuda, o incluso todo el monto. La deuda externa es de alrededor de [$160 mil millones](https://efectococuyo.com/economia/el-pago-de-deuda-externa-pasa-por-un-cambio-politico-afirmaron-especialistas/) (cifra de 2019), mientras que PDVSA posee alrededor de [$189 mil millones en activos](http://www.pdvsa.com/images/pdf/estado_financiero/pdvsa_ef_ingles_16.pdf) (cifra de 2016); incluso si a esa última cifra se le resta el monto de los pasivos, todavía quedan $87 mil millones, más de la mitad de la deuda actual. Esto reduciría la necesidad de términos de reestructuración excesivamente acomodativos, facilitando el proceso de negociación.
         - Se debería hacer un compromiso legal de no adquirir más deuda durante el período en que se esté pagando la deuda renegociada, por lo que durante ese plazo se tendrían que hacer presupuestos con superávits fiscales para mantener un margen de error y evitar los déficits.
 - **Mecanismo constitucional de control presupuestario:**
-    - Los políticos tienen la tendencia a gastar más de lo que recaudan, por lo que la Constitución debe establecer un **mecanismo para garantizar la responsabilidad fiscal** del gobierno federal, que equilibre el presupuesto, minimice los déficits y reduzca la proporción de endeudamiento a largo plazo. [Este artículo del Cato Institute](https://www.cato.org/publications/tax-budget-bulletin/budget-restraints-work-lessons-chile-switzerland-united-kingdom) las características de mecanismos exitosos, como los de Chile y Suiza.
+    - Los políticos tienen la tendencia a gastar más de lo que recaudan, por lo que la Constitución debe establecer un **mecanismo para garantizar la responsabilidad fiscal** del gobierno federal, que equilibre el presupuesto, minimice los déficits y reduzca la proporción de endeudamiento a largo plazo. [Este artículo del Cato Institute](https://www.cato.org/publications/tax-budget-bulletin/budget-restraints-work-lessons-chile-switzerland-united-kingdom) estudia las características de mecanismos exitosos, como los de Chile y Suiza.
     - Un modelo similar al suizo es lo ideal. El mecanismo debe establecer un **límite estricto pero flexible** al gasto público total, usando una **fórmula simple** basada en la recaudación de períodos anteriores y un factor de variación según el rendimiento económico esperado a corto plazo.
     - Los superávits y déficits se deben registrar en una **cuenta de compensación** como créditos y débitos respectivamente, y cuando estos últimos excedan un límite predeterminado se deben activar recortes de gasto obligatorios. De esta manera se corrigen las desviaciones del equilibrio a largo plazo.
     - El mecanismo debe tener una **cláusula de emergencia** para situaciones excepcionales, que solo pueda utilizarse con la aprobación de supermayorías en ambas cámaras legislativas. El gasto excepcional incurrido debe debitarse a una cuenta de compensación especial con un plazo más largo de reposición.
@@ -507,12 +505,12 @@ En cuanto a la **defensa nacional**, esta se debe tratar precisamente de eso: de
 - Separación del poder militar entre el Ejecutivo y el Congreso.
 - Principio de no intervencionismo y neutralidad.
 - Alianzas limitadas solo con países libres y democráticos.
-- Lista pública de países hostiles: regímenes autoritarios y totalitarios.
+- Lista pública de países hostiles e iliberales.
 - Libertad de importación y exportación de armas, excepto con enemigos.
 
 ### Libre comercio
 - Liberalización unilateral total del comercio internacional de bienes y servicios.
-- Restricciones comerciales solo con países enemigos.
+- Restricciones comerciales solo con países hostiles e iliberales.
 - Tratados internacionales para pactar la liberalización mutua del comercio.
 - Rechazo a los esquemas de harmonización de impuestos y regulaciones.
 - Uso de los mecanismos de resolución de disputas de la OMC para promover el libre comercio.
@@ -520,6 +518,6 @@ En cuanto a la **defensa nacional**, esta se debe tratar precisamente de eso: de
 ### Migración internacional
 - Liberalización de la entrada y salida de personas.
 - Requerimiento de entrada único: proveer un documento de identificación o pasaporte.
-- Restricciones de entrada adicionales solo con países enemigos.
+- Restricciones de entrada adicionales solo con países hostiles e iliberales.
 - Eliminación de restricciones al trabajo y la residencia.
 - Deportación permanente e inmediata de extranjeros que cometan crímenes en el país.

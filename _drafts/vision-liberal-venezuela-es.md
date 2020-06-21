@@ -58,15 +58,13 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
     - **Objetivo:** Garantizar la defensa nacional, el libre comercio y la movilidad internacional.
     - **Defensa nacional:**
         - Separación del poder militar entre el Ejecutivo y el Congreso.
-        - Principio de no intervencionismo y neutralidad.
+        - Principios de no intervención y neutralidad armada.
         - Alianzas limitadas solo con países libres y democráticos.
-        - Lista pública de países hostiles e iliberales.
-        - Libertad de importación y exportación de armas, excepto con países hostiles e iliberales.
     - **Libre comercio:**
         - Liberalización unilateral total del comercio internacional de bienes y servicios.
         - Restricciones comerciales solo con países hostiles e iliberales.
         - Tratados internacionales para pactar la liberalización mutua del comercio.
-        - Rechazo a los esquemas de harmonización de impuestos y regulaciones.
+        - Rechazo a los esquemas de armonización de impuestos y regulaciones.
         - Uso de los mecanismos de resolución de disputas de la OMC para promover el libre comercio.
     - **Migración internacional:**
         - Liberalización de la entrada y salida de personas.
@@ -120,18 +118,18 @@ A continuación se presentan las características principales que debe tener la 
 
 ### Declaración explícita de principios
 
-La Constitución debe empezar con una **declaración explícita de principios** para enmarcar adecuadamente los propósitos, ideales, y restricciones fundamentales de esta ley suprema. En resumen, esta declaración debe contener lo siguiente:
+La Constitución debe empezar con una **declaración explícita de principios** para enmarcar adecuadamente los propósitos, ideales, y restricciones fundamentales de esta ley suprema. En resumen, la declaración debe contener lo siguiente:
 
 - Todos los individuos poseen **[derechos naturales inalienables](https://www.libertarianism.org/encyclopedia/rights-natural)** a la vida, la libertad, y la propiedad privada.
 - La existencia de estos derechos es **inherente a la naturaleza humana**, es decir, que todas las personas los poseen por igual y que no son otorgados por el gobierno ni dependen de su reconocimiento para ser legítimos.
 - Los derechos naturales de cada persona son **inalienables**, es decir, que no pueden ser infringidos, excepto cuando se demuestre por el debido proceso que las acciones de la persona infringen en los derechos de otros.
-- El [gobierno](https://www.libertarianism.org/encyclopedia/government) se establece para **proteger los derechos de las personas**, derivando sus poderes del **consentimiento de la población** para tener legitimidad ([democracia liberal](https://en.wikipedia.org/wiki/Liberal_democracy)).
-- El gobierno debe **[limitarse estrictamente](https://www.libertarianism.org/encyclopedia/limited-government)** para evitar ser una amenaza a esos mismos derechos, y **garantizar la justicia, el imperio de la ley y el debido proceso**.
+- El [gobierno](https://www.libertarianism.org/encyclopedia/government) se establece para **proteger los derechos naturales de las personas**, derivando sus poderes del **consentimiento de la población** para tener legitimidad ([democracia liberal](https://en.wikipedia.org/wiki/Liberal_democracy)).
+- **[El gobierno debe limitarse estrictamente](https://www.libertarianism.org/encyclopedia/limited-government)** para evitar ser una amenaza a esos mismos derechos, y **garantizar la justicia, el imperio de la ley y el debido proceso**.
 - El poder debe dispersarse lo más posible para disminuir el peligro que representa (**[descentralización](https://en.wikipedia.org/wiki/Decentralization)**).
-- Los poderes y responsabilidades del gobierno deben dividirse "verticalmente" en niveles separados y relativamente independientes (**[federalismo](https://en.wikipedia.org/wiki/Federalism)**): gobierno federal, gobiernos estatales, y gobiernos municipales.
-- Los problemas se deben lidiar en el nivel más bajo posible, empezando por el individuo y usando el gobierno nacional solo en última instancia (**[subsidiariedad](https://en.wikipedia.org/wiki/Subsidiarity)**).
+- Debe haber tres niveles de gobierno, con poderes y responsabilidades diferentes: gobierno federal, gobiernos estatales, y gobiernos municipales. Los gobiernos estatales deben tener una relación de paridad con el gobierno federal (**[federalismo](https://en.wikipedia.org/wiki/Federalism)**).
+- Los problemas se deben lidiar en el nivel más bajo posible, empezando por el individuo y usando el gobierno federal solo en última instancia (**[subsidiariedad](https://en.wikipedia.org/wiki/Subsidiarity)**).
 - Ni el gobierno federal, ni los gobiernos estatales y municipales tienen absolutamente ningún poder que no se les haya otorgado explícitamente en su respectiva constitución mediante el proceso legal apropiado (**inexistencia de poderes no otorgados**).
-- Los poderes de cada nivel de gobierno deben **separarse en tres ramas**: poder legislativo, poder ejecutivo, y poder judicial.
+- Todos los niveles de gobierno deben tener el poder legislativo, el poder ejecutivo, y el poder judicial en ramas separadas (**[separación de poderes](https://en.wikipedia.org/wiki/Separation_of_powers)**).
 
 
 ### Libertades civiles y garantías constitucionales
@@ -181,13 +179,13 @@ Todas las personas tienen los mismos derechos naturales reconocidos en la declar
 
 El **gobierno federal** debe tener **poderes limitados y explicitamente enumerados**, y dedicarse únicamente a la política externa (defensa nacional, comercio y migración internacional) y la administración de los territorios federales. Además, debe ser el encargado exclusivo de la política externa, por lo que la Constitución debe prohibir que los estados y municipios que interfieran en este ámbito.
 
-El gobierno federal debe separar sus poderes en tres ramas:
+Las tres ramas del gobierno federal deben estructurarse de la siguiente manera:
 
 - **Poder legislativo:**
     - Otorgado al Congreso, que debe consistir de dos cámaras: el Senado y la Casa de Representantes.
     - El Congreso será el encargado de promulgar las leyes que considere necesarias y apropiadas para realizar las funciones del gobierno federal enumeradas en la Constitución, y bajo los límites adicionales definidos en ella.
     - Cada cámara podrá determinar las reglas de sus procedimientos, castigar a sus miembros por conducta inapropiada, y expulsar un miembro con aprobación de dos tercios de los demás.
-    - Los senadores deben ser dos por cada estado, y elegidos por su respectiva legislatura. Deben dividirse en tres grupos y ser elegidos para períodos intercalados de cuatro años. Es decir, tras la primera elección, al cuarto año se reemplaza el primer grupo, al octavo año se reemplaza el segundo grupo, al doceavo año se reemplaza el tercer grupo, y se repite el proceso. La reelección es permitida para un máximo de dos períodos consecutivos.
+    - Los senadores deben ser dos por cada estado, elegidos por su respectiva legislatura. Deben dividirse en tres grupos y ser elegidos para períodos intercalados de cuatro años. Es decir, tras la primera elección, al cuarto año se reemplaza el primer grupo, al octavo año se reemplaza el segundo grupo, al doceavo año se reemplaza el tercer grupo, y se repite el proceso. La reelección es permitida para un máximo de dos períodos consecutivos.
     - Los representantes deben ser elegidos por los ciudadanos de los diferentes distritos electorales, para períodos concurrentes de tres años sin reelección consecutiva. Los distritos electorales deben ser definidos por la Casa de Representantes a partir de los datos del censo nacional cada diez años, siguiendo dos reglas: por lo menos un representante por estado, y no más de un representante por cada 30 mil personas.
     - El Vicepresidente debe ser Presidente del Senado, pero solo podrá votar para romper votaciones divididas a la mitad.
     - El Congreso debe tener el poder de destituir oficiales civiles del gobierno federal, por motivos de traición, soborno, abuso de poder, y otros altos crímenes y delitos menores. La Casa de Representantes tendrá el poder de investigar y proponer la destitución, mientras que el Senado tendrá el poder de juzgar el caso y aprobar la destitución si dos tercios de los senadores están de acuerdo. Los oficiales civiles son el Presidente, el Vicepresidente, y los puestos ejecutivos y judiciales cuyos miembros son nominados por el Presidente.
@@ -214,7 +212,7 @@ El propósito y las actividades particulares de la política externa se explican
     - El Congreso podrá crear territorios minarquistas, cuya superficie debe ser menor o igual a 2 km², en cualquier lugar del territorio nacional, con aprobación previa de la legislatura del estado donde se instale el territorio.
     - El Congreso podrá trasladar o eliminar los territorios minarquistas. En el caso de traslados, se debe tener aprobación previa de la legislatura del estado donde se instale el territorio.
     - El gobierno de cada territorio minarquista debe consistir de una legislatura, una fuerza policial, y un sistema judicial.
-    - La legislatura consistirá de miembros elegidos cada cuatro años por voto popular, cada uno representando uno de los distritos electorales, definidos por la Casa de Representantes, dentro del territorio. Sus únicas funciones son: definir el código penal, manejar el presupuesto, administrar y supervisar la fuerza policial, y establecer las cortes del sistema judicial.
+    - La legislatura consistirá de miembros elegidos cada cuatro años por voto popular, cada uno representando uno de los distritos electorales, definidos por la Casa de Representantes, dentro del territorio. Sus únicas funciones deben ser: definir el código penal, manejar el presupuesto, administrar y supervisar la fuerza policial, y establecer las cortes del sistema judicial.
     - La fuerza policial se encargará de hacer cumplir el código penal y garantizar la seguridad pública básica. Sus miembros deben ser policías profesionales contratados, y su estructura debe ser establecida por la legislatura.
     - El sistema judicial estará constituido por cortes para lidiar con los casos que surjan en el distrito, básicamente acusaciones criminales y demandas civiles. Sus miembros deben ser aprobados por supermayorías de tres cuartos en la asamblea legislativa.
     - Primera limitante: El código penal solo puede definir como crímenes aquellos actos que infrinjan sobre los derechos de vida, libertad y propiedad privada ajenos.
@@ -229,14 +227,14 @@ El propósito y las actividades particulares de la política externa se explican
 
 ### Gobiernos estatales
 
-Los **gobiernos de los estados** serán los encargados exclusivos de la política doméstica en sus respectivos territorios. Deberían empezar desde cero con una constitución de poderes limitados y separación estricta en tres ramas, y en todo caso sus poderes deben ser explícitamente otorgados y enumerados en su constitución, para cumplir con el principio de inexistencia de poderes no otorgados mencionado anteriormente.
+Los **gobiernos de los estados** serán los encargados exclusivos de la política doméstica en sus respectivos territorios. Deben modificar o reescribir totalmente sus constituciones para que sus gobiernos estén divididos en tres ramas y sus poderes sean explícitamente otorgados y enumerados, para cumplir con la declaración de principios.
 
-Idealmente deberían dedicarse solamente a las [funciones básicas para proteger los derechos de los ciudadanos](https://en.wikipedia.org/wiki/Night-watchman_state) (seguridad y justicia pública, en resumen), la protección de la propiedad intelectual, y la provisión de asistencia pública limitada para aliviar la pobreza. La necesidad de estas dos últimas funciones en particular es debatible, pero eso está fuera del alcance de esta sección, y a fin de cuentas debe ser decisión de cada estado.
+Idealmente, sus constituciones deberían tener su propia doctrina de no delegación, y sus poderes deberían limitarse solamente a las [funciones básicas para proteger los derechos de los ciudadanos](https://en.wikipedia.org/wiki/Night-watchman_state) (seguridad y justicia pública, en resumen), la protección de la propiedad intelectual, y la provisión de asistencia pública limitada para aliviar la pobreza. La necesidad de estas dos últimas funciones en particular es debatible, pero eso está fuera del alcance de esta sección, y a fin de cuentas debe ser decisión de cada estado.
 
 
 ### Gobiernos municipales
 
-Los gobiernos estatales deben estar **subdivididos en por lo menos dos municipios**. Las constituciones estatales establecerán el nivel de **autonomía de los gobiernos municipales** y sus respectivos poderes y responsabilidades. Lo ideal es mayor descentralización y delegación de poderes a los municipios, pero solo la experimentación y la competencia entre los territorios determinará en qué grado se dé esto.
+Cada estado debe tener **por lo menos dos municipios**. Los estados establecerán el nivel de **autonomía de los gobiernos municipales**, y estos en sus constituciones establecerán su estructura, poderes y responsabilidades dentro de las limitaciones estatales y federales. Lo ideal es mayor descentralización y delegación de poderes a los municipios, pero solo la experimentación y la competencia entre los territorios determinará en qué grado se dé esto.
 
 
 ### Relaciones interjurisdiccionales
@@ -405,7 +403,7 @@ Antes de dar [propuestas concretas](#propuestas-regulacion), es necesario explic
     - Si bien lo ideal sería que no existan regulaciones por parte de ningún nivel del gobierno, prohibirlas totalmente desde la Constitución probablemente crearía muchas presiones políticas para eliminar las restricciones completamente.
 - **Separación de poderes estricta para impedir el surgimiento del Estado administrativo:**
     - **Quedaría en mano de los estados y municipios** decidir si quieren tener el poder de regular al sector privado, siempre y cuando enmienden sus constituciones para otorgar ese poder explícitamente (principio de inexistencia de poderes no otorgados).
-    - Si bien cada estado o municipio puede establecer la estructura de gobierno que quiera en su constitución, lo ideal es que tengan **separación de poderes estricta** con su propia **doctrina de no delegación**.
+    - Si bien depende de cada estado o municipio, lo ideal es que tengan su propia **doctrina de no delegación** en su constitución, para que **la separación de poderes sea estricta**.
     - De esta manera, si algún gobierno estatal o municipal tuviera el poder de regular las actividades del sector privado, estas regulaciones tendrían que ser promulgadas por la legislatura, hechas cumplir por el ejecutivo, y las disputas resueltas por el sistema judicial.
     - Entonces, la separación de poderes estricta **impediría el surgimiento del Estado administrativo en los gobiernos estatales y municipales**, protegiendo el imperio de la ley y ralentizando la creación de regulaciones por la naturaleza de las legislaturas.
 - **Principio constitucional de competencia desregulatoria interjurisdiccional:**
@@ -502,17 +500,23 @@ En particular, la [política externa ideal](https://www.libertarianism.org/essay
 
 En cuanto a la **defensa nacional**, esta se debe tratar precisamente de eso: defender la soberanía nacional, la integridad territorial, y la vida, libertad y propiedad de la población. El principio de prudencia y la historia demuestran que la guerra es corrosiva para la libertad y prosperidad, pero también que estar preparado para la guerra es una de las mejores garantías de la paz. Por eso se deben evitar los conflictos bélicos cuando sea posible, pero se debe estar dispuesto y preparado para utilizar la fuerza contra amenazas y ataques externos.
 
-- Separación del poder militar entre el Ejecutivo y el Congreso.
-- Principio de no intervencionismo y neutralidad.
-- Alianzas limitadas solo con países libres y democráticos.
-- Lista pública de países hostiles e iliberales.
-- Libertad de importación y exportación de armas, excepto con enemigos.
+- **Separación del poder militar entre el Ejecutivo y el Congreso:**
+    - El Congreso tiene el poder exclusivo de declarar la guerra, así como de financiar las Fuerzas Armadas, establecer su estructura, y promulgar reglas sobre su funcionamiento.
+    - El Presidente es el Comandante en Jefe de las Fuerzas Armadas, por lo que es el encargado de su dirección dentro de las limitaciones de la ley, y tiene la obligación de usarlas para defender al país de amenazas y ataques externos.
+    - Para controlar el poder discrecional del Presidente, el Congreso tiene que dar una autorización formal dentro de un plazo de 60 días para que sea válido continuar con cualquier uso de la fuerza militar. Esto equilibra la flexibilidad y rapidez de respuesta con la prudencia.
+- **Principios de no intervención y neutralidad armada:**
+    - El **[principio de no intervención](https://en.wikipedia.org/wiki/Non-interventionism)** se basa en el respeto a la soberanía y auto-determinación de los demás países, y consiste en evitar intervenir en sus asuntos y conflictos, en términos generales, pero seguir relacionándose con ellos mediante la diplomacia y el comercio (a diferencia del aislacionismo). Este principio debería guiar la política externa, especialmente en el ámbito militar.
+    - La **[neutralidad armada](https://en.wikipedia.org/wiki/Neutral_country#Armed_neutrality)**  consiste en que el país se declara neutral en todos los futuros conflictos externos, pero se reserva el derecho de defenderse contra cualquier ataque. Esta postura de no intervención extrema es aplicada en Suiza y Suecia desde hace siglos, y podría ser la doctrina de defensa nacional ideal.
+- **Alianzas limitadas solo con países libres y democráticos:**
+    - El principio de no intervención indica que se debe evitar formar alianzas permanentes con otros países para evitar ser arrastrados a sus conflictos y estar atados a sus asuntos políticos.
+    - Sin embargo, en ocasiones es necesario formar alianzas temporales para emergencias extraordinarias como luchar una guerra o defenderse de una amenaza común. También puede argumentarse que es apropiado formar alianzas limitadas con otros países para tratar intereses de seguridad comunes.
+    - En todo caso, las alianzas internacionales deben tener un ámbito limitado, y solo deberían formarse con otros países libres y democráticos.
 
 ### Libre comercio
 - Liberalización unilateral total del comercio internacional de bienes y servicios.
 - Restricciones comerciales solo con países hostiles e iliberales.
 - Tratados internacionales para pactar la liberalización mutua del comercio.
-- Rechazo a los esquemas de harmonización de impuestos y regulaciones.
+- Rechazo a los esquemas de armonización de impuestos y regulaciones.
 - Uso de los mecanismos de resolución de disputas de la OMC para promover el libre comercio.
 
 ### Migración internacional

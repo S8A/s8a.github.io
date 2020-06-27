@@ -6,11 +6,11 @@ og_image: s8a-thumbnail.png
 category: personal
 ---
 
-Conversando entre amigos sobre el desastre socialista en el que vivimos, me pidieron que hiciera una lista de propuestas para resolver la situación. Bueno, no solo hice una lista de propuestas puntuales, sino que decidí desarrollar a fondo una **visión liberal del sistema político y económico de Venezuela**. Este artículo fue escrito entre el 28 de mayo y el día de hoy.
+Tras varias conversaciones con amigos y familiares sobre el desastre socialista en el que vivimos, decidí desarrollar a fondo una **visión liberal del sistema político y económico de Venezuela**, sintetizando todo lo que pienso que está mal y cómo debería ser. Este artículo fue escrito entre el 28 de mayo y el día de hoy.
 
-Considero que esta visión liberal, [en el sentido clásico de la palabra](https://www.libertarianism.org/encyclopedia/liberalism-classical), contiene las mejores medidas para promover la libertad y la prosperidad en el mayor grado. Muchas de las ideas presentadas aquí son radicales, especialmente en comparación con la realidad socialista actual y el consenso de centro-izquierda que ha dominado la política y la cultura desde el siglo pasado, pero estoy convencido de que son ideas perfectamente razonables, y para demostrarlo ofrezco explicaciones de cada una a lo largo del documento.
+Considero que esta visión liberal, [en el sentido clásico de la palabra](https://www.libertarianism.org/encyclopedia/liberalism-classical), contiene las mejores medidas para promover la libertad y la prosperidad en el mayor grado. Muchas de las ideas presentadas aquí son radicales, especialmente en comparación con la realidad socialista actual y el consenso de centro-izquierda que ha dominado la política y la cultura desde el siglo pasado, pero estoy convencido de que son ideas perfectamente razonables, y para demostrarlo doy explicaciones a lo largo del documento.
 
-Cabe destacar tres cosas importantes antes de empezar: primero, no soy economista ni me considero un experto en ninguna de estas áreas, pero sí he leído bastante, y proveo argumentos y fuentes confiables para todo; segundo, no conozco todos los temas por igual, así que profundizo más en algunos temas (política económica) que en otros; tercero, no tomo en cuenta la viabilidad política de implementar esta visión, simplemente anhelo que algún día podamos ver por lo menos las principales ideas hechas realidad.
+Cabe destacar tres cosas importantes de antemano: primero, no soy economista ni me considero un experto en ninguna de estas áreas, pero sí he leído bastante, y proveo argumentos y fuentes confiables para todo; segundo, no conozco todos los temas por igual, así que profundizo más en algunos temas (política económica) que en otros; tercero, no tomo en cuenta la viabilidad política de implementar esta visión, simplemente anhelo que algún día podamos ver por lo menos las principales ideas hechas realidad.
 
 A continuación un resumen ejecutivo de mis propuestas, seguido de una explicación bastante extensa de los detalles y razonamientos detrás de cada una de ellas.
 
@@ -42,7 +42,7 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
         - Opción 2: Monetarismo de mercado.
         - Opción 3: Dolarización.
     - **Política cambiaria:** No intervenir en las tasas de cambio.
-    - **Política regulatoria:** Desmantelamiento del Estado administrativo-regulatorio.
+    - **Desregulación:** Eliminación del Estado administrativo-regulatorio.
         - Prohibición constitucional de la regulación por parte del gobierno federal.
         - Separación de poderes estricta para impedir el surgimiento del Estado administrativo.
         - Principio constitucional de competencia desregulatoria interjurisdiccional.
@@ -54,49 +54,52 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
         - Privatización de viviendas públicas.
         - Privatización de funciones no gubernamentales: educación, salud, infraestructura.
         - Privatización parcial de funciones gubernamentales.
-3. **[Política externa](#política-externa)**
-    - **Objetivo:** Garantizar la defensa nacional, el libre comercio y la movilidad internacional.
-    - **Defensa nacional:**
-        - Separación del poder militar entre el Ejecutivo y el Congreso.
-        - Principios de no intervención y neutralidad armada.
-        - Alianzas limitadas solo con países libres y democráticos.
-        - Designación de países hostiles por supermayorías en el Congreso.
     - **Libre comercio:**
         - Liberalización unilateral total del comercio y la inversión internacional.
         - Tratados internacionales para pactar una liberalización mutua verdadera.
         - Participación activa en la OMC para promover el libre comercio mundial.
         - Restricciones sobre empresas estatales extranjeras y países hostiles.
-    - **Migración internacional:**
+    - **Movilidad internacional:**
         - Liberalización de la entrada y salida de personas.
         - Requerimiento de entrada único: proveer un documento de identificación o pasaporte.
         - Restricciones de entrada adicionales solo con países hostiles.
-        - Eliminación de restricciones al trabajo y la residencia.
+        - Eliminación de restricciones al trabajo y la residencia .
         - Deportación permanente e inmediata de extranjeros que cometan crímenes en el país.
+3. **[Política externa](#política-externa)**
+    - **Objetivos:**
+        - Defender la soberanía e integridad territorial del país y los derechos de la población.
+        - Promover las relaciones pacíficas y la libertad internacionalmente.
+    - **Defensa nacional:**
+        - Separación del poder militar entre el Ejecutivo y el Congreso.
+        - Principios de no intervención y neutralidad armada.
+        - Alianzas limitadas solo con países libres y democráticos.
+        - Designación de países hostiles por supermayorías en el Congreso.
+    - **Relaciones internacionales:**
+        - Diplomacia internacional para promover la paz y la libertad en los demás países.
+        - Garantizar el libre comercio y la movilidad internacional.
+        - Rechazar la creación y expansión de organizaciones supranacionales.
 4. **Política doméstica**
     - **Objetivos:**
         - Proteger la vida, libertad, y propiedad de las personas.
         - Garantizar la justicia y la igualdad ante la ley.
         - Dejar que las personas encuentren soluciones privadas y voluntarias a sus problemas.
-    - **Seguridad y justicia criminal:**
+    - **Seguridad y justicia:**
         - Limitar el código penal a crímenes verdaderos.
         - Promover la posesión y el uso de armas para la defensa personal y la prevención del crimen.
         - Reformar los cuerpos policiales para acabar con los abusos de poder.
         - Equilibrar los objetivos de la justicia criminal.
     - **Pobreza:**
-        - Maximizar la libertad económica para que las personas surjan por sí solas.
-        - Preferencia por la caridad privada.
-        - Programas públicos de asistencia monetaria directa.
-    - **Educación:**
-        - Privatización total.
-        - Asistencia pública mediante subsidios directos a los individuos y familias.
-        - Modelos de asistencia alternativos: vouchers, cuentas de ahorro especiales, etc.
-    - **Salud:**
-        - Privatización total.
-        - Asistencia pública mediante subsidios directos a los individuos y familias.
-        - Modelos de asistencia alternativos: cuentas de ahorro especiales, seguro catastrófico universal, etc.
-    - **Infraestructura:**
-        - Privatización total o casi total.
-        - Alternativa: Contratación competitiva de empresas para proyectos públicos.
+        - Eliminar las medidas gubernamentales que obstaculizan la participación económica y el progreso individual.
+        - Preferencia por la caridad privada sobre la asistencia gubernamental.
+        - Programas públicos de asistencia monetaria directa, simple y con incentivos al trabajo.
+    - **Propiedad intelectual:**
+        - Proveer protección legal a los inventos y creaciones para promover la innovación.
+        - Evitar la sobreextensión de los privilegios legales y su duración.
+        - Experimentar con modelos alternativos.
+    - **Otros asuntos:**
+        - Dejar todo lo demás al libre mercado sin interferencia gubernamental.
+        - Medidas pro-mercado para garantizar el acceso a la educación: vouchers, cuentas de ahorro especiales.
+        - Medidas pro-mercado para garantizar el acceso a los servicios médicos: seguro catastrófico universal, vouchers, cuentas de ahorro especiales.
 
 
 &nbsp;
@@ -168,7 +171,7 @@ Por esos motivos no se le debe ceder al gobierno **ningún poder de impedir o re
 
 La Constitución debe tener una cláusula que establezca la **[ciudadanía *jus soli*](https://en.wikipedia.org/wiki/Jus_soli)**: "Todas las personas nacidas o naturalizadas en el territorio nacional, y sujetos a su jurisdicción, son ciudadanos de Venezuela y del estado en el que residen."
 
-Esa cláusula es idéntica a la 14va enmienda de la constitución estadounidense, y [significa](https://www.cato.org/publications/commentary/birthright-citizenship-constitutional-mandate) que todas las personas nacidas en el territorio nacional son ciudadanos del país, sin importar la nacionalidad de sus padres, con dos excepciones: los hijos de diplomáticos extranjeros y de invasores militares. En cuanto a la naturalización de personas extranjeras, el Congreso será el encargado de establecer la legislación sobre los requisitos y pasos de dicho proceso.
+Esta cláusula es idéntica a la 14va enmienda de la constitución estadounidense, y [significa](https://www.cato.org/publications/commentary/birthright-citizenship-constitutional-mandate) que todas las personas nacidas en el territorio nacional son ciudadanos del país, sin importar la nacionalidad de sus padres, con dos excepciones: los hijos de diplomáticos extranjeros y de invasores militares, ya que no están sujetos a la jurisdicción nacional. En cuanto a la naturalización de personas extranjeras, el Congreso será el encargado de establecer la legislación sobre los requisitos y pasos de dicho proceso.
 
 Todas las personas tienen los mismos derechos naturales reconocidos en la declaración de principios, pero solo los ciudadanos del país tienen ciertos **privilegios** adicionales, los cuales deben ser protegidos por la Constitución:
 - Derecho al voto para todos los ciudadanos mayores de 18 años, sin excepciones ni condiciones adicionales.
@@ -177,7 +180,7 @@ Todas las personas tienen los mismos derechos naturales reconocidos en la declar
 
 ### Gobierno federal
 
-El **gobierno federal** debe tener **poderes limitados y explicitamente enumerados**, y dedicarse únicamente a la política externa (defensa nacional, comercio y migración internacional) y la administración de los territorios federales. Además, debe ser el encargado exclusivo de la política externa, por lo que la Constitución debe prohibir que los estados y municipios que interfieran en este ámbito.
+El **gobierno federal** debe tener **poderes limitados y explicitamente enumerados**, y dedicarse únicamente a la política externa (defensa nacional y relaciones internacionales) y la administración de los territorios federales. Además, debe ser el encargado exclusivo de la política externa, por lo que la Constitución debe prohibir que los estados y municipios interfieran en este ámbito.
 
 Las tres ramas del gobierno federal deben estructurarse de la siguiente manera:
 
@@ -273,7 +276,7 @@ Para modificar la Constitución por cualquier motivo, se debe realizar un proces
 
 ### Libertad económica
 
-El gobierno debe hacer uno de sus objetivos explícitos garantizar el **mayor nivel de libertad económica posible**, protegiendo los derechos de propiedad y evitando en la mayor medida posible intervenir en el libre mercado.
+El gobierno debe garantizar el **mayor nivel de libertad económica posible**, protegiendo los derechos de propiedad y evitando en la mayor medida posible intervenir en el libre mercado.
 
 La libertad económica tiene **beneficios demostrados empíricamente**. Los índices de libertad económica, como el [del Fraser Institute](https://www.fraserinstitute.org/studies/economic-freedom-of-the-world-2019-annual-report) o el [de la Heritage Foundation](https://www.heritage.org/index/), cuantifican el grado de libertad económica de los países a partir de diversas medidas objetivas. Los estudios de ambas organizaciones demuestran que los países con mayor libertad económica tienen mejor calidad de vida, mayor crecimiento económico, menos pobreza, más libertades políticas, etc.
 
@@ -291,7 +294,7 @@ Por esos motivos **[el socialismo no funciona](https://www.fff.org/explore-freed
 
 Cabe destacar que los problemas de la intervención gubernamental no implican que la anarquía sea ideal. Un [gobierno mínimo](https://www.libertarianism.org/encyclopedia/minimal-state) es justificable por diversos argumentos filosóficos, y es lo más deseable en la práctica, para proveer el marco legal e institucional necesario para proteger el derecho de propiedad, entre otras funciones. Para financiarse y realizar sus funciones, el gobierno inevitablemente interfiere en el libre mercado; el punto es que **esta interferencia debe reducirse al mínimo**.
 
-En cuanto al **fracaso del socialismo en Venezuela**, [este artículo del Cato Institute](https://www.cato.org/publications/commentary/venezuela-verge-massive-humanitarian-economic-collapse-culprit-socialism) y [este artículo de Reason](https://reason.com/2019/12/07/socialism-killed-my-father/) resumen la destrucción causada por el socialismo chavista, mientras que el [PanAm Post explica](https://es.panampost.com/emmanuel-rincon/2020/04/20/las-nefastas-politicas-economicas-de-ad-y-copei-que-propiciaron-la-llegada-del-chavismo-a-venezuela/) cómo el socialismo parcial del siglo pasado llevó directamente al chavismo. El colapso reciente del socialismo chavista se expone en artículos de [AIER](https://www.aier.org/research/venezuela-socialism-hyperinflation-and-economic-collapse/), [Independent Institute](https://www.independent.org/news/article.asp?id=12876), [FEE](https://fee.org/articles/venezuelas-socialist-hellscape-captured-in-28-horrifying-headlines/), y [Reason](https://reason.com/2019/07/08/man-made-disaster-in-venezuela/), entre otros. A lo largo de este capítulo se darán más detalles de todo lo que se hizo mal.
+En cuanto al **fracaso del socialismo en Venezuela**, [este artículo del Cato Institute](https://www.cato.org/publications/commentary/venezuela-verge-massive-humanitarian-economic-collapse-culprit-socialism) y [este artículo de Reason](https://reason.com/2019/12/07/socialism-killed-my-father/) resumen la destrucción causada por el socialismo chavista, mientras que el [PanAm Post explica](https://es.panampost.com/emmanuel-rincon/2020/04/20/las-nefastas-politicas-economicas-de-ad-y-copei-que-propiciaron-la-llegada-del-chavismo-a-venezuela/) cómo el socialismo parcial del siglo pasado llevó directamente al chavismo. El colapso reciente del socialismo chavista se expone en artículos de [AIER](https://www.aier.org/research/venezuela-socialism-hyperinflation-and-economic-collapse/), [Independent Institute](https://www.independent.org/news/article.asp?id=12876), [FEE](https://fee.org/articles/venezuelas-socialist-hellscape-captured-in-28-horrifying-headlines/), [Reason](https://reason.com/2019/07/08/man-made-disaster-in-venezuela/), entre otros. A lo largo de este capítulo se darán más detalles de todo lo que se hizo mal.
 
 
 ### Política fiscal
@@ -312,21 +315,21 @@ Se refiere al gasto público y su financiamiento. El [Manual ciudadano de polít
     - Por estos motivos es necesario realizar un **proceso real de [reestructuración y pago de la deuda externa](https://prodavinci.com/deuda-externa-venezolana-un-mapa-de-propuestas/)**, de [magnitud y complejidad sin precedentes](https://contrapunto.com/economia/venezuela-debera-abordar-la-reestructuracion-de-deuda-mas-compleja-de-su-historia/) en la historia del país:
         - Se deberían negociar reducciones sustanciales en el monto de la deuda y las tasas de interés, así como una extensión en el plazo de pago.
         - Las políticas económicas planteadas en este artículo son un buen plan de reforma y recuperación macroeconómica para presentarle a los acreedores.
-        - La privatización total de PDVSA y otras empresas gubernamentales puede proveer el dinero necesario para pagar la mayor parte de la deuda, o incluso todo el monto. La deuda externa es de alrededor de [$160 mil millones](https://efectococuyo.com/economia/el-pago-de-deuda-externa-pasa-por-un-cambio-politico-afirmaron-especialistas/) (cifra de 2019), mientras que PDVSA posee alrededor de [$189 mil millones en activos](http://www.pdvsa.com/images/pdf/estado_financiero/pdvsa_ef_ingles_16.pdf) (cifra de 2016); incluso si a esa última cifra se le resta el monto de los pasivos, todavía quedan $87 mil millones, más de la mitad de la deuda actual. Esto reduciría la necesidad de términos de reestructuración excesivamente acomodativos, facilitando el proceso de negociación.
+        - La privatización total de PDVSA y otras empresas gubernamentales puede proveer el dinero necesario para pagar la mayor parte de la deuda, o incluso todo el monto. La deuda externa es de alrededor de [$160 mil millones](https://efectococuyo.com/economia/el-pago-de-deuda-externa-pasa-por-un-cambio-politico-afirmaron-especialistas/) (cifra de 2019), mientras que PDVSA posee alrededor de [$189 mil millones en activos](http://www.pdvsa.com/images/pdf/estado_financiero/pdvsa_ef_ingles_16.pdf) (cifra de 2016); incluso si a esa última cifra se le resta el monto de los pasivos, todavía quedan $87 mil millones, más de la mitad de la deuda actual. Esto reduciría la necesidad de términos de reestructuración excesivamente acomodativos, facilitando el proceso de negociación, y acortaría el plazo de pago dramáticamente.
         - Se debería hacer un compromiso legal de no adquirir más deuda durante el período en que se esté pagando la deuda renegociada, por lo que durante ese plazo se tendrían que hacer presupuestos con superávits fiscales para mantener un margen de error y evitar los déficits.
 - **Mecanismo constitucional de control presupuestario:**
     - Los políticos tienen la tendencia a gastar más de lo que recaudan, por lo que la Constitución debe establecer un **mecanismo para garantizar la responsabilidad fiscal** del gobierno federal, que equilibre el presupuesto, minimice los déficits y reduzca la proporción de endeudamiento a largo plazo. [Este artículo del Cato Institute](https://www.cato.org/publications/tax-budget-bulletin/budget-restraints-work-lessons-chile-switzerland-united-kingdom) estudia las características de mecanismos exitosos, como los de Chile y Suiza.
     - Un modelo similar al suizo es lo ideal. El mecanismo debe establecer un **límite estricto pero flexible** al gasto público total, usando una **fórmula simple** basada en la recaudación de períodos anteriores y un factor de variación según el rendimiento económico esperado a corto plazo.
     - Los superávits y déficits se deben registrar en una **cuenta de compensación** como créditos y débitos respectivamente, y cuando estos últimos excedan un límite predeterminado se deben activar recortes de gasto obligatorios. De esta manera se corrigen las desviaciones del equilibrio a largo plazo.
-    - El mecanismo debe tener una **cláusula de emergencia** para situaciones excepcionales, que solo pueda utilizarse con la aprobación de supermayorías en ambas cámaras legislativas. El gasto excepcional incurrido debe debitarse a una cuenta de compensación especial con un plazo más largo de reposición.
-    - De esta manera, el Congreso estaría obligado a equilibrar el presupuesto a lo largo del ciclo económico, pero retendría el poder de gestionar a qué se destina el gasto permitido, lo cual es deseable para que actúe como contrapeso al poder del Ejecutivo.
+    - El mecanismo debe tener una **cláusula de emergencia** para situaciones excepcionales, que solo pueda utilizarse con la aprobación de supermayorías de dos tercios en ambas cámaras legislativas. El gasto excepcional incurrido debe debitarse a una cuenta de compensación especial con un plazo más largo de reposición.
+    - De esta manera, el Congreso estaría obligado a equilibrar el presupuesto a lo largo del ciclo económico, pero retendría el poder de gestionar a qué se destina el gasto permitido, actuando como contrapeso al poder y discreción del Ejecutivo.
     - Los gobiernos estatales y municipales también deberían implementar mecanismos de control presupuestario similares, pero debe ser su decisión.
 - **Federalismo fiscal:**
     - Como se mencionó anteriormente, la Constitución debe **prohibir que el gobierno federal use sus fondos para financiar a los estados y municipios, y que estos tampoco financien al gobierno federal**.
     - El objetivo de esto es promover la responsabilidad fiscal y la competencia entre estados y municipios, y desincentivar la centralización y la dependencia.
     - En [este artículo del Cato Institute](https://www.cato.org/publications/policy-analysis/restoring-responsible-government-cutting-federal-aid-states) se explica en más detalle los beneficios del federalismo fiscal y los incentivos perversos y consecuencias negativas que ha generado su abandono en Estados Unidos.
 - **Reducción y simplificación drástica de impuestos:**
-    - Esto está relacionado directamente con la reducción drástica del gasto público. Idealmente, los impuestos deben ser **simples, bajos, planos y certeros**: para ser simples se deben eliminar las complejidades excesivas; deben ser bajos en sus tasas porcentuales; deben ser planos en el sentido de que las tasas porcentuales deben ser uniformes, no escalonadas o progresivas; y deben ser certeros, en el sentido que no haya ambigüedad sobre quiénes o qué está sujeto al impuesto y sobre cuándo debe ser pagado.
+    - Esto está relacionado directamente con la reducción drástica del gasto público. Idealmente, los impuestos deben ser **simples, bajos, planos y certeros**: para ser simples se deben eliminar las complejidades excesivas; deben ser bajos en sus tasas porcentuales y montos recaudados; deben ser planos en el sentido de que las tasas porcentuales deben ser uniformes, no escalonadas o progresivas; y deben ser certeros, en el sentido que no haya ambigüedad sobre quiénes o qué está sujeto al impuesto y sobre cuándo debe ser pagado.
     - La Constitución debe requerir que todos los niveles de gobierno **enumeren explícitamente los impuestos que pueden implementar** en la lista de poderes otorgados en su respectiva constitución. De esta forma se reduciría el número de impuestos diferentes en cada jurisdicción, y los ciudadanos tendrían claro cuáles son.
     - En cuanto a cuáles impuestos establecer, hay que guiarse por la [teoría económica de la recaudación óptima](https://www.aeaweb.org/articles?id=10.1257/jep.23.4.147) y la preferencia por impuestos simples, bajos, planos y certeros para reducir la influencia distorsionaria del gobierno en la economía. Entonces, se deben evitar los impuestos sobre el [capital](https://www.cato.org/publications/tax-budget-bulletin/taxing-wealth-capital-income) y las [transacciones](https://taxfoundation.org/financial-transaction-tax/), [preferir los impuestos sobre el consumo en lugar del ingreso](https://www.cato.org/publications/policy-analysis/simplifying-federal-taxes-advantages-consumptionbased-taxation), [establecer tasas porcentuales bajas sobre bases imponibles amplias](https://www.oecd-ilibrary.org/taxation/choosing-a-broad-base-low-rate-approach-to-taxation/broad-base-low-rate-approach-scope-and-limitations_9789264091320-4-en), y [reducir la complejidad y los costos administrativos](https://link.springer.com/article/10.1007/s11187-019-00195-0).
     - El **gobierno federal** puede ser financiado por un **[impuesto plano Hall-Rabushka](https://www.hoover.org/research/flat-tax)** de 3% o menos. Este impuesto es básicamente un impuesto al consumo que se recauda como un impuesto sobre la renta, mediante dos formularios simples, uno para individuos y uno para empresas. El impuesto individual solo grava los ingresos por sueldos, salarios y pensiones, mientras que el impuesto empresarial se cobra sobre el ingreso total de la empresa menos las compra de insumos, planta y equipamiento, y el pago de sueldos, salarios y pensiones a los empleados. De esta manera, los dos componentes en conjunto resultan equivalentes a un [impuesto al valor añadido (IVA)](https://en.wikipedia.org/wiki/Value_added_tax) pero [por sustracción](https://www.taxpolicycenter.org/briefing-book/how-would-vat-be-collected), con todos sus beneficios de eficiencia por recaer sobre el consumo y no en la inversión, pero sin la complejidad, opacidad y costos administrativos elevados del IVA tradicional.
@@ -358,10 +361,10 @@ Es esencial tomar en cuenta que [la banca central es planificación central del 
 
 ### Política cambiaria
 
-La política cambiaria **no debería existir**, es decir, debe consistir en **no intervenir sobre las tasas de cambio**, pues son como cualquier otro precio: información valiosa que refleja la demanda y oferta de diferentes monedas. Los múltiples sistemas de control cambiario que se han aplicado durante las últimas décadas en Venezuela, con el supuesto objetivo de controlar la inflación (un fenómeno monetario), han tenido siempre los [mismos efectos](https://www.investopedia.com/articles/forex/022415/impact-venezuelas-bolivar-exchange-rates.asp): arbitraje, corrupción, distorsiones, escasez de divisas, y el surgimiento de mercados negros.
+La política cambiaria **no debería existir**, es decir, debe consistir en **no intervenir sobre las tasas de cambio**, pues son como cualquier otro precio: información valiosa que refleja la demanda y oferta de diferentes monedas. Los múltiples sistemas de control cambiario que se han aplicado durante las últimas décadas en Venezuela, con el supuesto objetivo de controlar la inflación (algo absurdo, ya que es un fenómeno monetario), han tenido siempre los [mismos efectos](https://www.investopedia.com/articles/forex/022415/impact-venezuelas-bolivar-exchange-rates.asp): arbitraje, corrupción, distorsiones, escasez de divisas, y el surgimiento de mercados negros.
 
 
-### Política regulatoria
+### Desregulación
 
 Las [regulaciones](https://www.econlib.org/library/Enc/Regulation.html) son requerimientos que impone el gobierno sobre las actividades de las empresas e individuos para lograr determinados objetivos. [Esta guía del Mercatus Center](https://www.mercatus.org/publications/regulation/regulation-primer) explica detalladamente la teoría regulatoria, su análisis económico, y su realidad práctica en Estados Unidos.
 
@@ -389,13 +392,13 @@ Antes de dar [propuestas concretas](#propuestas-regulacion), es necesario explic
 - En general, las regulaciones para la "salud y seguridad pública" que se aplican principalmente en las industrias alimenticias y médicas son [innecesarias y contraproducentes](https://www.cato.org/cato-handbook-policymakers/cato-handbook-policy-makers-8th-edition-2017/health-safety-policy), suelen imponer [más costos que beneficios](https://www.nber.org/papers/w11934), y son propensas a basarse en [consideraciones políticas por encima de la evidencia científica](https://www.cato.org/sites/cato.org/files/serials/files/regulation/2012/8/v35n2-4.pdf). En el mercado las empresas no tienen el incentivo de proveer alimentos y medicamentos defectuosos, e incluso surgen industrias de [certificación](https://www.cato.org/sites/cato.org/files/serials/files/regulation/2013/9/regv36n3-4n.pdf) e [inspección](https://www.independent.org/publications/article.asp?id=190), sitios web de evaluaciones, garantías de calidad, y demás mecanismos de control de calidad voluntarios.
 - El punto mencionado anteriormente es válido en general para todas las industrias, pues en el proceso de descubrimiento del mercado surgen espontáneamente diversos métodos y sistemas de [regulación privada](https://www.cato.org/publications/policy-analysis/private-regulation-real-alternative-regulatory-reform) superiores a la regulación gubernamental, tanto en la teoría como en la práctica: estándares privados, certificaciones, monitoreo, aprobación de marcas respetadas, garantías, evaluaciones/reseñas, y arbitración de disputas. Estos mecanismos, junto con la presión de la competencia, hacen que el libre mercado ejerza una ["disciplina"](https://www.aei.org/carpe-diem/government-regulation-vs-regulation-market-forces-consumer-regulators/) que obliga a las empresas a ofrecer precios bajos, aumentar la calidad de los bienes y servicios, reducir las asimetrías de información con el consumidor, y seguir haciendo esto a largo plazo.
 - Las [regulaciones ambientales](https://www.libertarianism.org/encyclopedia/environment) suelen ser justificadas con argumentos sobre fallas de mercado, particularmente la existencia de [externalidades](https://www.libertarianism.org/encyclopedia/exernalities) como la contaminación del aire y el agua; sin embargo, como se explicó arriba, la existencia de externalidades por sí sola no justifica la intervención gubernamental para solventarlas. Las regulaciones sobre la [contaminación](https://www.econlib.org/library/Enc/PollutionControls.html) y el [uso de biocombustibles](https://www.cato.org/sites/cato.org/files/2019-10/regulation-v42n3-4-update.pdf) han tenido [mucho más costos que beneficios](https://www.cato.org/sites/cato.org/files/serials/files/regulation/2011/4/regv34n1-brieflynoted.pdf) en la práctica. El [libre mercado](https://www.econlib.org/library/Enc/FreeMarketEnvironmentalism.html) con [derechos de propiedad bien definidos](https://www.nationalreview.com/2020/05/property-rights-crucial-protecting-our-environment/) son esenciales y suficientes para incentivar la [protección ambiental](https://www.econlib.org/library/Enc/EnvironmentalQuality.html) y el [uso eficiente de los recursos naturales](https://www.econlib.org/library/Enc/NaturalResources.html).
-- Existen muchos otros tipos de regulaciones, pero exponer los efectos negativos de todas tomaría mucho más texto, por lo que dejo la lista hasta aquí.
+
+Existen muchos otros tipos de regulaciones, pero exponer los efectos negativos de todas tomaría mucho más texto. En resumen, el objetivo debe ser la **eliminación total del Estado administrativo-regulatorio**, por lo menos a nivel federal.
 
 <span id="propuestas-regulacion"></span>
 
 **Propuestas concretas:**
 
-- El objetivo debe ser la **eliminación total del Estado administrativo-regulatorio**, por lo menos a nivel federal.
 - **Prohibición constitucional de la regulación por parte del gobierno federal:**
     - El **principio de inexistencia de poderes no otorgados** y los **limitados poderes enumerados del gobierno federal** (política externa y territorios federales) deberían dejar claro que no puede regular las actividades del sector privado en general.
     - Sin embargo, no vendría mal eliminar totalmente cualquier ambigüedad al respecto, por lo que la Constitución debe hacer una **prohibición explícita**: "El gobierno federal no tiene ningún poder ni obligación de regular las actividades económicas del sector privado en los diferentes estados, municipios y territorios federales, a excepción de las restricciones que puedan surgir de la legislación sobre el comercio y la inversión internacional."
@@ -431,7 +434,7 @@ La nacionalización del BCV en 1974 y de la industria petrolera en 1976 fueron l
 
 <span id="propuestas-privatizacion"></span>
 
-En resumen, es evidente que esta concepción del Estado omnipotente, y en especial su encarnación actual socialista, es la causa fundamental del fracaso económico e institucional de Venezuela. Por lo tanto, el objetivo debe ser la **eliminación del Estado propietario-patrimonialista**, privatizando todas las empresas y funciones gubernamentales posibles hasta que el rol del gobierno federal sea solo la política externa, y los gobiernos estatales y municipales se dediquen a la seguridad y justicia pública.
+En resumen, es evidente que esta concepción del Estado omnipotente, y en especial su encarnación actual socialista, es la causa fundamental del fracaso económico e institucional de Venezuela. Por lo tanto, el objetivo debe ser la **eliminación del Estado propietario-patrimonialista**, privatizando todas las empresas y funciones gubernamentales posibles hasta que todos los niveles de gobierno se dediquen a las mínimas funcione esenciales que les corresponden.
 
 **Propuestas concretas:**
 
@@ -478,45 +481,6 @@ En resumen, es evidente que esta concepción del Estado omnipotente, y en especi
     - Las [prisiones privadas](https://en.wikipedia.org/wiki/Private_prison) existen en diversos países, siendo contratadas usualmente para reducir costos, y han tenido [resultados variables](https://theconversation.com/private-prisons-explained-73038) dependiendo del caso. A final de cuentas los resultados positivos o negativos dependen de los [incentivos de los contratos](https://reason.com/2015/09/29/why-bernie-sanders-is-wrong-about-privat/): se debe pagar por resultados positivos en medidas adecuadas (reducción de recidivismo, por ejemplo), en lugar de pagar por número de prisioneros o tiempo de encarcelamiento (incentivo perverso para la industria).
     - El sistema judicial ha sido privatizado parcialmente de facto, por el surgimiento de empresas de [resolución alternativa de disputas](https://en.wikipedia.org/wiki/Alternative_dispute_resolution), que son contratadas por empresas e individuos para proveer diversos procesos y mecanismos de resolución de disputas entre las partes, sin tener que usar el costoso e ineficiente sistema de litigación gubernamental. Esto ha permitido reducir costos, facilitar soluciones, y reducir la carga sobre el sistema judicial público.
 
-
-&nbsp;
-## Política externa
-
-> "La armonía, las relaciones liberales con todas las naciones, son recomendadas por la política, la humanidad y el interés."
->
-> – George Washington, Discurso de Despedida (1796)
-
-
-### Principios
-
-La **política externa** se trata de las relaciones del país con el resto del mundo, compuesto de naciones que tienen sus propios intereses y principios, por lo que dichas relaciones pueden ser mayormente pacíficas pero también competitivas e incluso conflictivas. Es un error pensar que las únicas opciones son un "idealismo" utópico o un "realismo" inescrupuloso, cuando es posible y deseable compaginar la realidad de las relaciones internacionales, la defensa del interés nacional, y la promoción de ideales más transcendentes.
-
-A pesar de sus desacuerdos en ciertas áreas, los Padres Fundadores de los Estados Unidos tenían un consenso en cuanto a la naturaleza de los Estados Unidos y por lo tanto sobre los [principios de su política externa](https://www.heritage.org/political-process/report/americas-founders-and-the-principles-foreign-policy-sovereign-independence), los cuales se pueden resumir en: libertad, independencia, paz, comercio, prudencia, justicia, y defensa propia. Esos principios deben ser la base filosófica de la política externa en general.
-
-En particular, la [política externa ideal](https://www.libertarianism.org/essays/libertarian-vision-for-foreign-policy-national-defense) debería usar la fuerza militar solo de forma defensiva, promover los intereses e ideales del país mediante la diplomacia internacional, y garantizar el libre movimiento internacional de bienes, servicios, capital y personas.
-
-### Defensa nacional
-
-En cuanto a la **defensa nacional**, esta se debe tratar precisamente de eso: defender la soberanía nacional, la integridad territorial, y la vida, libertad y propiedad de la población. El principio de prudencia y la historia demuestran que la guerra es corrosiva para la libertad y prosperidad, pero también que estar preparado para la guerra es una de las mejores garantías de la paz. Por eso se deben evitar los conflictos bélicos cuando sea posible, pero se debe estar dispuesto y preparado para utilizar la fuerza contra amenazas y ataques externos.
-
-**Propuestas concretas:**
-
-- **Separación del poder militar entre el Ejecutivo y el Congreso:**
-    - El Congreso tiene el poder exclusivo de declarar la guerra, así como de financiar las Fuerzas Armadas, establecer su estructura, y promulgar reglas sobre su funcionamiento.
-    - El Presidente es el Comandante en Jefe de las Fuerzas Armadas, por lo que es el encargado de su dirección dentro de las limitaciones de la ley, y tiene la obligación de usarlas para defender al país de amenazas y ataques externos.
-    - Para controlar el poder discrecional del Presidente, el Congreso tiene que dar una autorización formal dentro de un plazo de 60 días para que sea válido continuar con cualquier uso de la fuerza militar. Esto equilibra la flexibilidad y rapidez de respuesta con la prudencia.
-- **Principios de no intervención y neutralidad armada:**
-    - El **[principio de no intervención](https://en.wikipedia.org/wiki/Non-interventionism)** se basa en el respeto a la soberanía y auto-determinación de los demás países, y consiste en evitar intervenir en sus asuntos y conflictos, en términos generales, pero seguir relacionándose con ellos mediante la diplomacia y el comercio (a diferencia del aislacionismo). Este principio debería guiar la política externa, especialmente en el ámbito militar.
-    - La **[neutralidad armada](https://en.wikipedia.org/wiki/Neutral_country#Armed_neutrality)**  consiste en que el país se declara neutral en todos los futuros conflictos externos, pero se reserva el derecho de defenderse contra cualquier ataque. Esta postura de no intervención extrema es aplicada en Suiza y Suecia desde hace siglos, y podría ser la doctrina de defensa nacional ideal.
-- **Alianzas limitadas solo con países libres y democráticos:**
-    - El principio de no intervención indica que se debe evitar formar alianzas permanentes con otros países para evitar ser arrastrados a sus conflictos y estar atados a sus asuntos políticos.
-    - Sin embargo, en ocasiones es necesario formar alianzas temporales para emergencias extraordinarias como luchar una guerra o defenderse de una amenaza común. También puede argumentarse que es apropiado formar alianzas limitadas con otros países para tratar intereses de seguridad comunes.
-    - En todo caso, las alianzas internacionales deben tener un ámbito limitado, y solo deberían formarse con otros países libres y democráticos.
-- **Designación de países hostiles mediante supermayorías en el Congreso:**
-    - Los países que estén sujetos a una declaración de guerra y los que ataquen o intenten invadir militarmente al país son **automáticamente considerados como hostiles**.
-    - Además, el Congreso puede **designar formalmente a un gobierno extranjero como hostil** si dos tercios de ambas cámaras están de acuerdo que representa una amenaza directa a la soberanía e integridad territorial del país o a la seguridad de los ciudadanos. El Presidente puede solicitar la designación y el Congreso estará obligado a considerar dicha solicitud y realizar la votación lo más pronto posible, pero no podrá realizar la misma solicitud más de tres veces en una misma semana.
-    - Esta designación tiene la función de habilitar el establecimiento de restricciones especiales al comercio y la inversión con dicho país, así como a la entrada y permanencia de sus ciudadanos en territorio nacional. Esto se explica más adelante.
-    - La designación debe ser renovada cada año para evitar que expire, requiriendo la aprobación de dos tercios de ambas cámaras del Congreso.
 
 ### Libre comercio
 
@@ -574,9 +538,58 @@ El [libre comercio](https://www.libertarianism.org/encyclopedia/free-trade) cons
     - Las restricciones sobre los países hostiles deben variar según el nivel de amenaza que representan, pero en general deberían enfocarse en la importación y exportación de armas y otro equipamiento militar, la exportación de productos a dicho país, y la inversión desde y hacia sus empresas estatales y cuasi-estatales.
 
 
-### Migración internacional
+### Movilidad internacional
+
 - Liberalización de la entrada y salida de personas.
 - Requerimiento de entrada único: proveer un documento de identificación o pasaporte.
 - Restricciones de entrada adicionales solo con países hostiles e iliberales.
 - Eliminación de restricciones al trabajo y la residencia.
 - Deportación permanente e inmediata de extranjeros que cometan crímenes en el país.
+
+
+&nbsp;
+## Política externa
+
+> "La armonía, las relaciones liberales con todas las naciones, son recomendadas por la política, la humanidad y el interés."
+>
+> – George Washington, Discurso de Despedida (1796)
+
+
+### Principios
+
+La **política externa** se trata de las relaciones del país con el resto del mundo, compuesto de naciones que tienen sus propios intereses y principios, por lo que dichas relaciones pueden ser mayormente pacíficas pero también competitivas e incluso conflictivas. Es un error pensar que las únicas opciones son un "idealismo" utópico o un "realismo" inescrupuloso, cuando es posible y deseable compaginar la realidad de las relaciones internacionales, la defensa del interés nacional, y la promoción de ideales más transcendentes.
+
+A pesar de sus desacuerdos en ciertas áreas, los Padres Fundadores de los Estados Unidos tenían un consenso en cuanto a la naturaleza de los Estados Unidos y por lo tanto sobre los [principios de su política externa](https://www.heritage.org/political-process/report/americas-founders-and-the-principles-foreign-policy-sovereign-independence), los cuales se pueden resumir en: libertad, independencia, paz, comercio, prudencia, justicia, y defensa propia. Esos principios deben ser la base filosófica de la política externa en general.
+
+En particular, la [política externa ideal](https://www.libertarianism.org/essays/libertarian-vision-for-foreign-policy-national-defense) debería usar la fuerza militar solo de forma defensiva, promover los intereses e ideales del país mediante la diplomacia internacional, y garantizar el libre movimiento internacional de bienes, servicios, capital y personas.
+
+
+### Defensa nacional
+
+En cuanto a la **defensa nacional**, esta se debe tratar precisamente de eso: defender la soberanía nacional, la integridad territorial, y la vida, libertad y propiedad de la población. El principio de prudencia y la historia demuestran que la guerra es corrosiva para la libertad y prosperidad, pero también que estar preparado para la guerra es una de las mejores garantías de la paz. Por eso se deben evitar los conflictos bélicos cuando sea posible, pero se debe estar dispuesto y preparado para utilizar la fuerza contra amenazas y ataques externos.
+
+**Propuestas concretas:**
+
+- **Separación del poder militar entre el Ejecutivo y el Congreso:**
+    - El Congreso tiene el poder exclusivo de declarar la guerra, así como de financiar las Fuerzas Armadas, establecer su estructura, y promulgar reglas sobre su funcionamiento.
+    - El Presidente es el Comandante en Jefe de las Fuerzas Armadas, por lo que es el encargado de su dirección dentro de las limitaciones de la ley, y tiene la obligación de usarlas para defender al país de amenazas y ataques externos.
+    - Para controlar el poder discrecional del Presidente, el Congreso tiene que dar una autorización formal dentro de un plazo de 60 días para que sea válido continuar con cualquier uso de la fuerza militar. Esto equilibra la flexibilidad y rapidez de respuesta con la prudencia.
+- **Principios de no intervención y neutralidad armada:**
+    - El **[principio de no intervención](https://en.wikipedia.org/wiki/Non-interventionism)** se basa en el respeto a la soberanía y auto-determinación de los demás países, y consiste en evitar intervenir en sus asuntos y conflictos, en términos generales, pero seguir relacionándose con ellos mediante la diplomacia y el comercio (a diferencia del aislacionismo). Este principio debería guiar la política externa, especialmente en el ámbito militar.
+    - La **[neutralidad armada](https://en.wikipedia.org/wiki/Neutral_country#Armed_neutrality)**  consiste en que el país se declara neutral en todos los futuros conflictos externos, pero se reserva el derecho de defenderse contra cualquier ataque. Esta postura de no intervención extrema es aplicada en Suiza y Suecia desde hace siglos, y podría ser la doctrina de defensa nacional ideal.
+- **Alianzas limitadas solo con países libres y democráticos:**
+    - El principio de no intervención indica que se debe evitar formar alianzas permanentes con otros países para evitar ser arrastrados a sus conflictos y estar atados a sus asuntos políticos.
+    - Sin embargo, en ocasiones es necesario formar alianzas temporales para emergencias extraordinarias como luchar una guerra o defenderse de una amenaza común. También puede argumentarse que es apropiado formar alianzas limitadas con otros países para tratar intereses de seguridad comunes.
+    - En todo caso, las alianzas internacionales deben tener un ámbito limitado, y solo deberían formarse con otros países libres y democráticos.
+- **Designación de países hostiles mediante supermayorías en el Congreso:**
+    - Los países que estén sujetos a una declaración de guerra y los que ataquen o intenten invadir militarmente al país son **automáticamente considerados como hostiles**.
+    - Además, el Congreso puede **designar formalmente a un gobierno extranjero como hostil** si dos tercios de ambas cámaras están de acuerdo que representa una amenaza directa a la soberanía e integridad territorial del país o a la seguridad de los ciudadanos. El Presidente puede solicitar la designación y el Congreso estará obligado a considerar dicha solicitud y realizar la votación lo más pronto posible, pero no podrá realizar la misma solicitud más de tres veces en una misma semana.
+    - Esta designación tiene la función de habilitar el establecimiento de restricciones especiales al comercio y la inversión con dicho país, así como a la entrada y permanencia de sus ciudadanos en territorio nacional. Esto se explica más adelante.
+    - La designación debe ser renovada cada año para evitar que expire, requiriendo la aprobación de dos tercios de ambas cámaras del Congreso.
+
+
+### Relaciones internacionales
+
+- Diplomacia internacional para promover la paz y la libertad en los demás países.
+- Garantizar el libre comercio y la movilidad internacional.
+- Rechazar la creación y expansión de organizaciones supranacionales.

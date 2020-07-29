@@ -183,16 +183,17 @@ La [libertad de expresión](https://www.libertarianism.org/encyclopedia/freedom-
 Por otra parte, la [libertad de armas](https://www.libertarianism.org/encyclopedia/right-bear-arms) es un corolario al derecho de defensa propia, pues las armas son herramientas útiles y frecuentemente indispensables para que las personas defiendan su vida, libertad y propiedad contra [criminales](https://www.cato.org/publications/white-paper/tough-targets-when-criminals-face-armed-resistance-citizens), invasiones extranjeras, e incluso [contra el propio gobierno](https://thefederalist.com/2018/04/04/guns-help-americans-protect-abusive-government/) si se convierte en tiranía. No es coincidencia que los [regímenes autoritarios desarman a la población](https://mises.org/wire/brief-history-repressive-regimes-and-their-gun-laws), incluyendo el [caso actual de Venezuela](https://mises.org/wire/how-gun-control-became-instrument-tyranny-venezuela).
 
 
+### Ciudadanía
 
-### Privilegios de la ciudadanía
-
-La Constitución debe tener una cláusula que establezca la **[ciudadanía *jus soli*](https://en.wikipedia.org/wiki/Jus_soli)**: "Todas las personas nacidas o naturalizadas en el territorio nacional, y sujetas a su jurisdicción, son ciudadanos de Venezuela y del estado en el que residen."
-
-Esta cláusula es idéntica a la 14va enmienda de la constitución estadounidense, y [significa](https://www.cato.org/publications/commentary/birthright-citizenship-constitutional-mandate) que todas las personas nacidas en el territorio nacional son ciudadanos del país, sin importar la nacionalidad de sus padres, con dos excepciones: los hijos de diplomáticos extranjeros y de invasores militares, ya que no están sujetos a la jurisdicción nacional. En cuanto a la naturalización de personas extranjeras, el Congreso será el encargado de establecer la legislación sobre los requisitos y pasos de dicho proceso.
-
-Todas las personas tienen los mismos derechos naturales reconocidos en la declaración de principios y están protegidos por las libertades civiles y garantías mencionadas anteriormente, pero solo los ciudadanos del país tienen ciertos **privilegios** adicionales, los cuales deben ser protegidos por la Constitución:
-- Derecho al voto para todos los ciudadanos mayores de 18 años, sin excepciones, pagos ni condiciones adicionales.
-- Solo los ciudadanos del país pueden asumir cargos en los diferentes niveles de gobierno. Diferentes cargos pueden tiener diferentes requisitos adicionales de edad, antecedentes penales, experiencia, etc.
+- Son **venezolanos por nacimiento**:
+    - Todas las personas nacidas en el territorio de los Estados Unidos de Venezuela y [sujetas a su jurisdicción](https://www.cato.org/publications/commentary/birthright-citizenship-constitutional-mandate).
+    - Los hijos de padre o madre venezolanos nacidos en territorio extranjero.
+- Son **venezolanos por naturalización** todos los extranjeros que cumplan los requisitos y procedimientos formales de naturalización, los cuales serán definidos exclusivamente por la legislación federal al respecto.
+- **Ciudadanía múltiple:** Los venezolanos pueden tener o adquirir ciudadanías adicionales, excepto si alguna de estas implica juramentos de lealtad a monarquías, gobiernos o ejércitos extranjeros, o cualquier otra obligación que entre en conflicto con las leyes de Venezuela.
+- **Privación de ciudadanía:** Los venezolanos por nacimiento no podrán ser privados de su ciudadanía. La ciudadanía venezolana por naturalización solo podrá ser revocada mediante sentencia judicial, de acuerdo con la ley.
+- **Renuncia de ciudadanía:** Se puede renunciar libremente a la ciudadanía venezolana, sin penalizaciones adicionales. Quien renuncie a la ciudadanía venezolana por nacimiento podrá recuperarla si se domicilia en el territorio nacional por al menos dos años y manifiesta su voluntad de hacerlo. Quien renuncie a la ciudadanía venezolana por naturalización podrá recuperarla si se domicilia en el territorio nacional por al menos cinco años y luego realiza el proceso de naturalización nuevamente.
+- **Sufragio:** Todos los ciudadanos, ya sea por nacimiento o por naturalización, adquieren el derecho al sufragio si tienen 18 años de edad o más. El derecho al sufragio de cada ciudadano adulto podrá ser ejercido libremente en cualquier proceso electoral federal o del estado o municipio en que resida, mediante el voto gratuito, secreto y no discriminatorio. El derecho al sufragio no podrá ser revocado a ningún ciudadano, ni condicionado por tener antecedentes penales.
+- **Cargos públicos:** Solo los venezolanos, ya sea por nacimiento o por naturalización, que tengan edad para votar y no tengan antecedentes penales pueden optar por asumir cargos en los diferentes niveles de gobierno, siempre y cuando cumplan los requisitos particulares del cargo en cuestión.
 
 
 ### Gobierno federal

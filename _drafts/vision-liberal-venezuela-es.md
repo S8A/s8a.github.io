@@ -6,11 +6,11 @@ og_image: s8a-thumbnail.png
 category: personal
 ---
 
-Tras varias conversaciones con amigos y familiares sobre el desastre socialista en el que vivimos, decidí desarrollar a fondo una **visión liberal del sistema político y económico de Venezuela**, sintetizando todo lo que pienso que está mal y cómo debería ser. Este artículo fue escrito entre el 28 de mayo y el día de hoy.
+Tras varias conversaciones con amigos y familiares sobre el desastre socialista en el que vivimos, el 28 de mayo de este año decidí desarrollar a fondo una **visión liberal del sistema político y económico de Venezuela**, sintetizando todo lo que pienso que está mal y cómo debería ser.
 
-Considero que esta visión liberal, [en el sentido clásico de la palabra](https://www.libertarianism.org/encyclopedia/liberalism-classical), contiene las mejores medidas para promover la libertad y la prosperidad en el mayor grado. Muchas de las ideas presentadas aquí son radicales, especialmente en comparación con la realidad socialista actual y el consenso de centro-izquierda que ha dominado la política y la cultura desde el siglo pasado, pero estoy convencido de que son ideas perfectamente razonables, y para demostrarlo doy explicaciones a lo largo del documento.
+Considero que esta visión liberal, [en el sentido clásico de la palabra](https://www.libertarianism.org/encyclopedia/liberalism-classical), contiene las mejores medidas para promover la libertad y la prosperidad en el mayor grado. Muchas de las ideas presentadas aquí son radicales, especialmente en comparación con la realidad socialista actual y el consenso de centro-izquierda que ha dominado la política y la cultura desde el siglo pasado, pero estoy convencido de que son ideas perfectamente razonables.
 
-Cabe destacar tres cosas importantes de antemano: primero, no soy economista ni me considero un experto en ninguna de estas áreas, pero sí he leído bastante, y proveo argumentos y fuentes confiables para todo; segundo, no conozco todos los temas por igual, así que profundizo más en algunos temas (política económica) que en otros; tercero, no tomo en cuenta la viabilidad política de implementar esta visión, simplemente anhelo que algún día podamos ver por lo menos las principales ideas hechas realidad.
+Cabe destacar tres cosas importantes de antemano: primero, no soy economista ni me considero un experto en ninguna de estas áreas, pero sí he leído bastante, y proveo argumentos y fuentes confiables para todo; segundo, no conozco todos los temas por igual, así que profundizo más en algunos temas que en otros; tercero, no tomo en cuenta la viabilidad política de implementar esta visión, simplemente anhelo que algún día podamos ver por lo menos las principales ideas hechas realidad.
 
 A continuación un resumen ejecutivo de mis propuestas, seguido de una explicación bastante extensa de los detalles y razonamientos detrás de cada una de ellas.
 
@@ -19,14 +19,17 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
 
 1. **[Constitución](#constitución)**
     - Basada en la constitución estadounidense y enmarcada en el derecho anglosajón.
-    - Declaración de principios: derechos naturales inalienables, gobierno limitado y representativo, descentralización, federalismo, separación de poderes, inexistencia de poderes no otorgados, propósito de la Constitución.
-    - Protección absoluta de libertades civiles y garantías constitucionales.
-    - Ciudadanía *jus soli* y privilegios asociados: derecho al voto y cargos públicos.
+    - Declaración de principios: derechos fundamentales, justicia, imperio de la ley, gobierno limitado, descentralización, inexistencia de poderes no otorgados.
+    - Propósito de la Constitución: Establecer la ley suprema de los Estados Unidos de Venezuela en concordancia con la declaración de principios.
+    - Protección explícita de libertades civiles y garantías constitucionales.
+    - Ciudadanía *jus soli*, naturalización, y privilegios asociados (sufragio y cargos públicos).
     - Gobierno federal encargado de la política externa y los territorios federales.
-    - Declaración explícita de la doctrina de no delegación.
+    - Separación de poderes en tres ramas con doctrina de no delegación.
+    - Ramas del gobierno federal: Congreso, Consejo Ejecutivo, Corte Suprema.
     - Gobiernos estatales y municipales encargados de la política doméstica.
-    - Relaciones interjurisdiccionales: reconocimiento mutuo, federalismo competitivo, procesos de admisión de nuevos estados y secesión de estados existentes.
-    - Requisitos estrictos para modificar la Constitución.
+    - Federalismo competitivo como base de las relaciones interjurisdiccionales.
+    - Procedimientos formales de admisión de nuevos estados y secesión de estados existentes.
+    - Procedimiento de enmienda constitucional con requisitos estrictos.
 2. **[Política económica](#política-económica)**
     - **Objetivo:** Maximizar la libertad económica y minimizar la intervención gubernamental.
     - **Política fiscal:** Reducción radical del gasto y recaudación del gobierno.
@@ -109,18 +112,19 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
 > – Thomas Jefferson, Declaración de Independencia de los Estados Unidos (1776)
 
 
-### Bases
+### Introducción
 
-La Constitución venezolana debe basarse en la [Constitución de los Estados Unidos de América](http://constitutionus.com), mejorándola y aprendiendo de sus errores. [Este artículo](https://www.downsizinggovernment.org/constitutional-basics) resume los principios y aspectos principales de la constitución estadounidense.
+La principal guía teórica para la construcción de la Constitución ideal (o casi ideal, más precisamente) debe ser la [teoría de la elección pública (public choice)](https://www.econlib.org/library/Enc/PublicChoice.html), que consiste en el análisis de la política mediante la ciencia económica, estudiando a los agentes políticos como individuos motivados principalmente por su interés y preferencias individuales, que poseen información imperfecta e incompleta, y que actúan dentro de los incentivos y limitaciones de las instituciones en las que se encuentran.
 
-Al igual que la constitución estadounidense, la Constitución venezolana debería enmarcarse en el [derecho anglosajón](https://en.wikipedia.org/wiki/Common_law), el cual se basa en el análisis de las sentencias judiciales y en las interpetaciones que se dan en dichas sentencias sobre las leyes.
+Esta teoría provee una visión realista de los agentes, instituciones y procesos políticos, en contraste con idealizaciones ingenuas del gobierno como una entidad benévola y omnisciente que actúa por el "bien común", o de que el gobierno lograría ese ideal si tan solo se eligiera a las "personas correctas". En fin, las lecciones de la teoría de la elección pública se resumen en que el ámbito de las decisiones colectivas debe ser limitado y lo más local posible, que las instituciones deben tomar en cuenta los incentivos de los agentes políticos para que su interés propio promueva el bien común, y que debe haber competencia entre instituciones.
 
-A continuación se presentan las características principales que debe tener la Constitución.
+La Constitución venezolana debe basarse en la [Constitución de los Estados Unidos de América](http://constitutionus.com). Como se resume en [este artículo](https://www.downsizinggovernment.org/constitutional-basics), la constitución estadounidense es un documento extraordinariamente bien planificado y estructurado por los Padres Fundadores para limitar al gobierno y proteger los derechos individuales de la tiranía.
 
+A pesar de sus imperfecciones, la constitución estadounidense es [quizás la carta magna más liberal de la historia humana](https://www.cato.org/sites/cato.org/files/serials/files/supreme-court-review/2009/9/simonlecture-barnett_0.pdf), lo cual hace aun más trágico el gradual proceso de tergiversación, abandono y mutilación que ha sufrido a lo largo de sus más de dos siglos de existencia. Por esos motivos, la Constitución venezolana no solo debe basarse en la estadounidense, sino mejorarla en una dirección incluso más liberal y aprender de los errores históricos de los Estados Unidos para que se mantenga de esa manera.
 
-### Declaración de principios
+Al igual que la constitución estadounidense, la Constitución venezolana debería enmarcarse en el [derecho anglosajón](https://en.wikipedia.org/wiki/Common_law), aquel que se deriva de las sentencias judiciales y las interpetaciones que se dan en dichas sentencias sobre las leyes.
 
-La Constitución debe empezar con una **declaración explícita de principios** para enmarcar adecuadamente los propósitos, ideales, y restricciones fundamentales de esta ley suprema. En resumen, la declaración debe expresar lo siguiente:
+A continuación se expone el contenido que debe tener la Constitución venezolana ideal.
 
 - **Derechos naturales inalienables:** Todos los individuos poseen [derechos naturales](https://www.libertarianism.org/encyclopedia/rights-natural) a la vida, la libertad, y la propiedad privada. Estos derechos son universales e inherentes a la naturaleza humana, por lo que no son otorgados por el gobierno ni dependen de su reconocimiento para existir, y son inalienables, es decir, que no pueden ser enajenados. Los derechos naturales son ["derechos negativos"](https://en.wikipedia.org/wiki/Negative_and_positive_rights) porque implican solamente una obligación de no interferencia: cada quien puede hacer lo que quiera excepto infringir los derechos de los demás, es decir, no matar, no herir, no robar, no esclavizar, etc.
 - **Gobierno limitado y representativo:** Los [gobiernos](https://www.libertarianism.org/encyclopedia/government) se establecen para proteger los derechos naturales de todas las personas y garantizarles por igual la justicia, el imperio de la ley y el debido proceso. Para tener legitimidad, los gobiernos deben derivar sus poderes del consentimiento de la población, y deben [limitarse estrictamente](https://www.libertarianism.org/encyclopedia/limited-government) para cumplir los propósitos mencionados y no volverse una amenaza para ellos.

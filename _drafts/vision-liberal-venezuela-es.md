@@ -126,54 +126,62 @@ Al igual que la constitución estadounidense, la Constitución venezolana deber�
 
 A continuación se expone el contenido que debe tener la Constitución venezolana ideal.
 
-- **Derechos naturales inalienables:** Todos los individuos poseen [derechos naturales](https://www.libertarianism.org/encyclopedia/rights-natural) a la vida, la libertad, y la propiedad privada. Estos derechos son universales e inherentes a la naturaleza humana, por lo que no son otorgados por el gobierno ni dependen de su reconocimiento para existir, y son inalienables, es decir, que no pueden ser enajenados. Los derechos naturales son ["derechos negativos"](https://en.wikipedia.org/wiki/Negative_and_positive_rights) porque implican solamente una obligación de no interferencia: cada quien puede hacer lo que quiera excepto infringir los derechos de los demás, es decir, no matar, no herir, no robar, no esclavizar, etc.
-- **Gobierno limitado y representativo:** Los [gobiernos](https://www.libertarianism.org/encyclopedia/government) se establecen para proteger los derechos naturales de todas las personas y garantizarles por igual la justicia, el imperio de la ley y el debido proceso. Para tener legitimidad, los gobiernos deben derivar sus poderes del consentimiento de la población, y deben [limitarse estrictamente](https://www.libertarianism.org/encyclopedia/limited-government) para cumplir los propósitos mencionados y no volverse una amenaza para ellos.
+
+### Declaración de principios
+
+- **Derechos fundamentales:** Todas las personas poseen ciertos [derechos](https://www.libertarianism.org/publications/essays/rights) [naturales](https://www.libertarianism.org/topics/natural-rights) [individuales](https://www.libertarianism.org/topics/individual-rights) que son inherentes a la condición humana y permiten a cada uno perseguir sus propios fines sin interferencia de otros ni hacia otros. En particular, cada individuo posee derechos a la *vida*, la *libertad* y la *propiedad privada* con una fuerte presunción de inviolabilidad.
+- **Justicia:** La justicia se entiende como el respeto de los derechos fundamentales de todas las personas, así como el respeto y cumplimiento de los contratos o acuerdos voluntarios entre ellas, por lo que prohibe la iniciación de actos de coerción, fuerza, fraude y robo. También implica la existencia de derechos a la *defensa propia* mediante el uso proporcional de la fuerza contra la agresión, y a la *restitución* en caso de que los derechos fundamentales o contractuales de la persona hayan sido infringidos.
+- **Imperio de la ley:** Consiste en un [conjunto de principios formales](https://plato.stanford.edu/entries/rule-of-law/#FormAspe) sobre las normas que gobiernan a la sociedad. Establece que todas las personas por igual deben estar sujetas a códigos y procesos legales públicamente divulgados que sean generales, futuros en efecto, entendibles, consistentes, posibles de seguir, estables, y congruentes. La justicia debe estar enmarcada en el imperio de la ley, por lo que se establece que ninguna persona puede ser privada de sus derechos fundamentales sin el [debido proceso legal](https://en.wikipedia.org/wiki/Due_process), ni puede ser privada de la igual protección de las leyes.
+- **Gobierno limitado:** Los [gobiernos](https://www.libertarianism.org/encyclopedia/government) deben dedicarse a garantizar la justicia y el imperio de la ley, y deben [limitarse estrictamente](https://www.libertarianism.org/encyclopedia/limited-government) en cuanto a sus poderes, funciones y ámbito de acción para cumplir efectivamente con dichos propósitos legítimos y evitar que su propia naturaleza coercitiva rompa la presunción de no interferencia en los derechos de las personas.
 - **Descentralización:** El poder del gobierno debe [dispersarse lo más posible](https://en.wikipedia.org/wiki/Decentralization) para limitarlo efectivamente, reducir el riesgo de tiranía y promover la experimentación y competencia entre diferentes localidades.
-- **Federalismo:** El [federalismo](https://www.libertarianism.org/topics/federalism) es una forma de descentralización vertical del poder, intermedia entre la confederación y el unitarismo, que consiste en que haya un gobierno general y uno o más niveles inferiores con varios gobiernos, y que haya una relación de paridad entre el gobierno general y los demás niveles.
-- **Separación de poderes:** Es una forma de descentralización horizontal del poder, que consiste en que cada gobierno debe tener el poder legislativo, el poder ejecutivo, y el poder judicial en [tres ramas separadas](https://en.wikipedia.org/wiki/Separation_of_powers).
-- **Inexistencia de poderes no otorgados:** Ningún gobierno en ningún nivel tiene absolutamente ningún poder que no se le haya otorgado explícitamente en su respectiva constitución mediante el proceso legal apropiado.
-- **Propósito de la Constitución:** Esta Constitución tiene el propósito de declarar los principios mencionados y, en concordancia con ellos, establecer un gobierno federal pequeño y limitado para defender y representar internacionalmente a los **Estados Unidos de Venezuela**, así como limitaciones al poder de los gobiernos estatales y municipales, y reglas generales sobre las relaciones entre los diferentes gobiernos.
+- **Inexistencia de poderes no otorgados:** Ningún gobierno en ningún nivel tiene absolutamente ningún poder que no se le haya otorgado de forma explícita y específica en su respectiva constitución mediante el proceso legal apropiado.
+
+
+### Propósito de la Constitución
+
+El propósito de esta Constitución es establecerla como ley suprema de los **Estados Unidos de Venezuela** con la finalidad de: reconocer y aplicar la declaración de principios anterior como fundamento de todo el orden jurídico-político de Venezuela; crear un gobierno federal pequeño y limitado para defender y representar internacionalmente al país y sus habitantes; reconocer a los gobiernos de los estados y municipios que conforman al país; establecer obligaciones, restricciones y limitaciones generales sobre estos gobiernos; y definir reglas sobre las relaciones entre ellos.
 
 
 ### Libertades civiles y garantías constitucionales
 
-Además de proteger los mencionados derechos naturales de las personas y garantizar la justicia, el imperio de la ley y el debido proceso, la Constitución debe declarar ciertas libertades civiles y garantías adicionales que **aplican para todas las personas** y **no pueden ser infringidas por ningún nivel de gobierno**:
+Además de los derechos fundamentales y demás garantías de la declaración de principios, todos los niveles de gobierno deben respetar y cumplir plenamente las siguientes libertades civiles y garantías constitucionales:
 
 - **Libertades civiles:**
     - Libertad de expresión.
     - Libertad de religión.
     - Libertad de asociación.
     - Libertad de manifestación pacífica.
+    - Libertad de hacer peticiones y reclamos al gobierno.
     - Libertad de movimiento dentro del territorio nacional.
 - **Garantías de seguridad:**
-    - Libertad de armas: fabricación, compra, venta, posesión y porte de armas.
-    - Garantía del derecho de defensa propia del individuo, su familia, y su propiedad privada.
-    - Garantía de la inviolabilidad del hogar.
-    - Garantía de habeas corpus.
-    - Prohibición de cateos y decomisos irrazonables.
-    - Prohibición de ordenes de cateo, decomiso y arresto sin aprobación judicial y causa razonable.
-    - Prohibición de expropiaciones, por cualquier motivo.
+    - Libertad de posesión y porte de armas de cualquier tipo, excepto armas de destrucción masiva.
+    - Prohibición de pesquisas y aprehensiones arbitrarias de personas, propiedad y comunicaciones privadas.
+    - Garantías sobre pesquisas y aprehensiones: orden judicial, causa razonable, juramento de veracidad, especificidad.
+    - Prohibición al encuartelamiento forzoso de soldados en recintos privados.
 - **Garantías de justicia:**
-    - Garantía de selección de acusaciones penales por un gran jurado.
-    - Garantía de no ser juzgado más de una vez por la misma ofensa.
-    - Garantía de no ser testigo en contra de sí mismo.
-    - Garantías de los acusados en procesamientos penales: de un juicio expédito y público con un jurado local imparcial, de ser informado sobre los cargos, de confrontar a los testigos en su contra, de obligar a testigos a comparecer ante la corte, y de tener asistencia de un abogado.
+    - Presunción de inocencia hasta que se demuestre lo contrario.
+    - Garantía de no ser juzgado más de una vez por la misma causa.
+    - Garantía de no ser obligado a auto-incriminarse.
+    - Garantía de *habeas corpus*.
+    - Garantías de los acusados en procesamientos penales: de un juicio expédito y público por un jurado local imparcial, de ser informado sobre la naturaleza y causa de la acusación, de confrontar a los testigos en su contra, de un proceso compulsorio para obtener testigos a su favor, y de tener asistencia de un abogado.
     - Prohibición de fianzas y multas excesivas.
-    - Prohibición de castigos crueles e inusuales, incluyendo la pena de muerte.
+    - Prohibición de castigos crueles e inusuales.
+    - Prohibición a la pena de muerte.
     - Prohibición de leyes ex post facto y decretos de condena sin juicio.
-- **Otras limitaciones gubernamentales:**
-    - Prohibición de religiones gubernamentales.
+- **Otras limitaciones al gobierno:**
+    - Prohibición al establecimiento de religiones oficiales.
     - Prohibición a la segregación gubernamental.
-    - Prohibición al otorgamiento de títulos de nobleza.
+    - Prohibición al otorgamiento o recepción de títulos de nobleza.
+    - Prohibición a la recepción de emolumentos de gobiernos extranjeros y monarquías.
+    - Prohibición a la expropiación.
     - Prohibición al establecimiento de monopolios gubernamentales en cualquier industria.
 
-La libertad de expresión y la libertad de armas merecen un poco de atención adicional, pues ambas son controversiales para muchas personas, a pesar de ser extremadamente importantes. La **[libertad de expresión](https://www.libertarianism.org/encyclopedia/freedom-speech)** es un componente fundamental de la libertad: **todas las personas deben poder expresar lo que quieran**, sea bueno o malo, correcto o incorrecto, verdadero o falso, inofensivo u ofensivo, y sin estar limitados por la opinión o sensibilidad de otros, ni mucho menos por la autoridad gubernamental. Las excepciones a este derecho son muy pocas y bien definidas, y corresponden a casos en los que se causa daño real demostrable a terceros: difamación, fraude, incitación a cometer delitos, y amenazas reales.
+La libertad de expresión y la libertad de armas merecen un poco de atención adicional, pues ambas son controversiales para muchas personas, a pesar de ser extremadamente importantes.
 
-La libertad de expresión no solo es un derecho individual fundamental, sino que es esencial para el libre intercambio de ideas en la sociedad civil y [el progreso humano](https://fee.org/articles/the-importance-of-free-speech-to-human-progress/). Pero el principal propósito de proteger este derecho de forma absoluta es impedir la [censura gubernamental](https://www.libertarianism.org/encyclopedia/censorship), un poder extremadamente [peligroso](https://fee.org/articles/without-free-speech-all-speech-becomes-government-speech/) y perjudicial, como la historia demuestra.
+La [libertad de expresión](https://www.libertarianism.org/encyclopedia/freedom-speech) es un componente fundamental de la libertad en general, además de ser esencial para el libre intercambio de ideas en la sociedad civil y [el progreso humano](https://fee.org/articles/the-importance-of-free-speech-to-human-progress/). Pero el principal propósito de proteger este derecho estrictamente es impedir la [censura gubernamental](https://www.libertarianism.org/encyclopedia/censorship), un poder extremadamente [peligroso](https://fee.org/articles/without-free-speech-all-speech-becomes-government-speech/) y perjudicial, como la historia demuestra.
 
-Por otra parte, la **[libertad de armas](https://www.libertarianism.org/encyclopedia/right-bear-arms)** es un corolario al derecho natural de defensa propia, pues las armas son herramientas útiles y frecuentemente indispensables para que las personas defiendan su vida, libertad y propiedad contra [criminales](https://www.cato.org/publications/white-paper/tough-targets-when-criminals-face-armed-resistance-citizens), invasiones extranjeras, e incluso [contra el propio gobierno](https://thefederalist.com/2018/04/04/guns-help-americans-protect-abusive-government/) si se convierte en tiranía.
+Por otra parte, la [libertad de armas](https://www.libertarianism.org/encyclopedia/right-bear-arms) es un corolario al derecho de defensa propia, pues las armas son herramientas útiles y frecuentemente indispensables para que las personas defiendan su vida, libertad y propiedad contra [criminales](https://www.cato.org/publications/white-paper/tough-targets-when-criminals-face-armed-resistance-citizens), invasiones extranjeras, e incluso [contra el propio gobierno](https://thefederalist.com/2018/04/04/guns-help-americans-protect-abusive-government/) si se convierte en tiranía. No es coincidencia que los [regímenes autoritarios desarman a la población](https://mises.org/wire/brief-history-repressive-regimes-and-their-gun-laws), incluyendo el [caso actual de Venezuela](https://mises.org/wire/how-gun-control-became-instrument-tyranny-venezuela).
 
-Por esos motivos no se le debe ceder al gobierno **ningún poder de impedir o restringir la fabricación, compra, venta, posesión y porte de armas** de cualquier tipo, excepto armas de destrucción masiva, las cuales sí pueden ser reguladas (esta excepción debe ser explícita). No es coincidencia que los [regímenes autoritarios desarman a la población](https://mises.org/wire/brief-history-repressive-regimes-and-their-gun-laws), incluyendo el [caso de Venezuela](https://mises.org/wire/how-gun-control-became-instrument-tyranny-venezuela).
 
 
 ### Privilegios de la ciudadanía

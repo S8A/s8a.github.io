@@ -1,5 +1,7 @@
 * { box-sizing: border-box; }
 
+html { scroll-behavior: smooth; }
+
 a { color:#268bd2; }
 
 b { font-weight: bold; }
@@ -18,7 +20,7 @@ main {
   background: #073642;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   margin: 0;
   line-height: 1.2;
   font-weight: 400;
@@ -27,16 +29,15 @@ h1, h2, h3 {
 h1, h2 { text-align: center; }
 
 h1 {
-  color: #859900;
   font-size: 2.5rem;
   font-weight: 700;
 }
 
-h2 {
-  font-size: 2rem;
-}
+h2 { font-size: 2rem; }
 
 h3 { font-size: 1.5rem; }
+
+h4 { font-size: 1.25rem; }
 
 header {
   background: #002b36;
@@ -77,13 +78,13 @@ footer {
   width: 100%;
 }
 
+section h1 { color: #859900; }
+
 section h2 { color: #b58900; }
 
 section h3 { color: #2aa198; }
 
-#about b { color: #93a1a1; }
-
-#contact b { color: #d33682; }
+section h4 { color: #6c71c4; }
 
 a.program-download, a.document-read {
   text-decoration: none;

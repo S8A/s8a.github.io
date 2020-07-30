@@ -139,7 +139,7 @@ A continuación se expone el contenido que debe tener la Constitución venezolan
 
 ### Propósito de la Constitución
 
-El propósito de esta Constitución es establecerla como ley suprema de los **Estados Unidos de Venezuela** con la finalidad de: reconocer y aplicar la declaración de principios anterior como fundamento de todo el orden jurídico-político de Venezuela; crear un gobierno federal pequeño y limitado para defender y representar internacionalmente al país y sus habitantes; reconocer a los gobiernos de los estados y municipios que conforman al país; establecer obligaciones, restricciones y limitaciones generales sobre estos gobiernos; y definir reglas sobre las relaciones entre ellos.
+Esta Constitución se establece como ley suprema de los **Estados Unidos de Venezuela** con la finalidad de: reconocer y aplicar la declaración de principios anterior como base de todo el orden jurídico-político de Venezuela; crear un gobierno federal pequeño y limitado para defender y representar internacionalmente al país y sus habitantes; reconocer a los gobiernos de los estados y municipios que conforman al país; establecer obligaciones, restricciones y limitaciones generales sobre estos gobiernos; y definir reglas sobre las relaciones entre ellos.
 
 
 ### Libertades civiles y garantías constitucionales

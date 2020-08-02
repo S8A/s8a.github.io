@@ -22,10 +22,9 @@ A continuación un resumen ejecutivo de mis propuestas, seguido de una explicaci
     - Declaración de principios: derechos fundamentales, justicia, imperio de la ley, gobierno limitado, descentralización, inexistencia de poderes no otorgados.
     - Propósito de la Constitución: Establecer la ley suprema de los Estados Unidos de Venezuela en concordancia con la declaración de principios.
     - Protección explícita de libertades civiles y garantías constitucionales.
-    - Ciudadanía *jus soli*, naturalización, y privilegios asociados (sufragio y cargos públicos).
+    - Ciudadanía por nacimiento, naturalización, privilegios y protecciones asociadas.
     - Gobierno federal encargado de la política externa y los territorios federales.
     - Separación de poderes en tres ramas con doctrina de no delegación.
-    - Ramas del gobierno federal: Congreso, Consejo Ejecutivo, Corte Suprema.
     - Gobiernos estatales y municipales encargados de la política doméstica.
     - Federalismo competitivo como base de las relaciones interjurisdiccionales.
     - Procedimientos formales de admisión de nuevos estados y secesión de estados existentes.
@@ -150,7 +149,7 @@ Además de los derechos fundamentales y demás garantías de la declaración de 
     - Libertad de expresión.
     - Libertad de religión.
     - Libertad de asociación.
-    - Libertad de manifestación pacífica.
+    - Libertad de reunión y manifestación pacífica.
     - Libertad de hacer peticiones y reclamos al gobierno.
     - Libertad de movimiento dentro del territorio nacional.
 - **Garantías de seguridad:**
@@ -194,6 +193,7 @@ Por otra parte, la [libertad de armas](https://www.libertarianism.org/encycloped
 - **Renuncia de ciudadanía:** Se puede renunciar libremente a la ciudadanía venezolana, sin penalizaciones adicionales. Quien renuncie a la ciudadanía venezolana por nacimiento podrá recuperarla si se domicilia en el territorio nacional por al menos dos años y manifiesta su voluntad de recuperarla. Quien renuncie a la ciudadanía venezolana por naturalización podrá recuperarla si se domicilia en el territorio nacional por al menos cinco años y luego realiza el proceso de naturalización nuevamente.
 - **Sufragio:** Todos los venezolanos, ya sea por nacimiento o por naturalización, adquieren el derecho al sufragio al llegar a la adultez. El derecho al sufragio de cada venezolano adulto podrá ser ejercido libremente en cualquier proceso electoral federal o del estado o municipio en que resida, mediante el voto gratuito, secreto y no discriminatorio. El derecho al sufragio no podrá ser revocado a ningún venezolano, ni condicionado por tener antecedentes penales.
 - **Cargos públicos:** Solo los venezolanos, ya sea por nacimiento o por naturalización, que sean adultos y no tengan antecedentes penales pueden optar por asumir cargos en los diferentes niveles de gobierno, siempre y cuando cumplan los requisitos particulares del cargo en cuestión.
+- **Protección contra la expulsión o extradición:** Los venezolanos, ya sea por nacimiento o por naturalización, no podrán ser expulsados de Venezuela, y solo podrán ser extraditados a autoridades extranjeras con su consentimiento.
 
 
 ### Gobierno federal
@@ -208,7 +208,7 @@ A continuación se explica cada rama del gobierno federal.
 
 #### Poder legislativo federal
 
-Todos los poderes legislativos aquí otorgados están conferidos exclusivamente en el **Congreso de los Estados Unidos de Venezuela**, el cual debe consistir de dos cámaras: el Senado, que representa a los estados, y la Asamblea, que representa a la población.
+Todos los poderes legislativos aquí otorgados están conferidos exclusivamente en el **Congreso de los Estados Unidos de Venezuela**, conformado por dos cámaras: el Senado, que representa a los estados, y la Asamblea, que representa a la población.
 
 - **Senado:**
     - **Senadores:** El Senado debe estar compuesto por dos senadores de cada estado, elegidos por su respectiva legislatura para cumplir períodos de seis años, y cada senador debe tener un voto.
@@ -233,8 +233,9 @@ Todos los poderes legislativos aquí otorgados están conferidos exclusivamente 
     - Cada cámara debe juzgar las elecciones y cualificaciones de sus miembros.
 - **Reglas sobre procedimientos:**
     - El Congreso debe reunirse por lo menos una vez cada año, y tal reunión debe ser el primer lunes de enero, a menos que designen por ley un día diferente.
-    - El quórum necesario para deliberar en cada cámara estará constituido por la presencia de la mayoría de sus miembros; un número menor de senadores o diputados podrá aplazar la sesión de un día para otro, así como obligar la asistencia de miembros ausentes, en tal manera y con las penalizaciones tales que establezca cada cámara.
+    - Cada cámara necesita un quórum para poder deliberar, constituido por la presencia de la mayoría de sus miembros; un número menor de senadores o diputados podrá aplazar la sesión de un día para otro, así como obligar la asistencia de miembros ausentes, en tal manera y con las penalizaciones tales que establezca cada cámara.
     - Cada cámara podrá determinar las reglas de sus procedimientos y votaciones, castigar a sus miembros por conducta inapropiada, y expulsar un miembro si dos tercios de los demás están de acuerdo.
+    - Cada cámara podrá establecer diferentes requerimientos de aprobación para diferentes votaciones, pero ninguna decisión podrá ser aprobada con menos de la mayoría de los votos.
     - Cada cámara debe llevar un registro escrito de sus procedimientos y votaciones, y publicarlos regularmente.
     - Ninguna cámara podrá aplazar sus sesiones por más de tres días sin el consentimiento de la otra, ni reunirse en cualquier lugar que no sea el designado para ambas cámaras.
 - **Compensación, privilegios y restricciones:**
@@ -244,11 +245,11 @@ Todos los poderes legislativos aquí otorgados están conferidos exclusivamente 
     - Lo que digan o debatan los senadores y diputados en sesión no podrá ser base de ninguna acusación criminal.
     - Ningún senador o diputado podrá, durante el período para el cual fue elegido, tomar ningún cargo público que haya sido creado o cuya compensación se haya aumentado durante dicho período.
 - **Proceso de promulgación de leyes:**
-    - Todas las propuestas de ley aprobadas por ambas cámaras deben ser presentadas al Consejo Ejecutivo de los Estados Unidos de Venezuela. Si el Consejo Ejecutivo aprueba la propuesta por mayoría simple, sus miembros deberán firmarla y promulgarla como ley; en caso contrario, el Consejo Ejecutivo deberá devolver la propuesta junto con sus objeciones a la cámara del Congreso donde se originó, y esta deberá registrar sus objeciones y proceder a reconsiderar la propuesta.
+    - Todas las propuestas de ley aprobadas por ambas cámaras deben ser presentadas al Presidente de los Estados Unidos de Venezuela. Si el Presidente aprueba la propuesta, deberá firmarla y promulgarla como ley; en caso contrario, deberá devolver la propuesta junto con sus objeciones a la cámara del Congreso donde se originó, y esta deberá registrar sus objeciones y proceder a reconsiderar la propuesta.
     - Si tras la reconsideración dos tercios de la cámara están de acuerdo en aprobar la propuesta de ley, esta deberá ser enviada, junto a las objeciones, a la otra cámara, donde igualmente deberá ser reconsiderada y aprobada por dos tercios de sus miembros para ser promulgada como ley directamente.
-    - En todo caso, los votos de ambas cámaras deben ser determinados como Sí o No, y los nombres de las personas votando a favor o en contra de la propuesta de ley deben ser registrados por cada cámara respectivamente.
-    - Si el Consejo Ejecutivo no devuelve la propuesta de ley dentro de los catorce días después de recibirla, esta será promulgada como ley directamente, a menos que el Congreso impida la devolución a propósito, en cuyo caso la propuesta será anulada.
-    - Cualquier otra orden, resolución o votación que requiera la aprobación de ambas cámaras del Congreso, exceptuando aquellas sobre el aplazamiento de sesiones, deberá ser presentada al Consejo Ejecutivo y pasar por el mismo proceso que una propuesta de ley para hacerse efectiva.
+    - En todo caso, los votos de ambas cámaras deben ser determinados como Sí o No, y los nombres de los congresistas votando a favor o en contra de la propuesta de ley deben ser registrados por cada cámara respectivamente.
+    - Si el Presidente no devuelve la propuesta de ley dentro de los 14 días después de recibirla, esta será promulgada como ley directamente, a menos que el Congreso impida la devolución a propósito, en cuyo caso la propuesta será anulada.
+    - Cualquier otra orden, resolución o votación que requiera la aprobación de ambas cámaras del Congreso, exceptuando aquellas sobre el aplazamiento de sesiones, deberá ser presentada al Presidente y pasar por el mismo proceso que una propuesta de ley para hacerse efectiva.
 - **Poderes legislativos enumerados:** El Congreso podrá crear solo las leyes que sean apropiadas y necesarias para ejecutar sus funciones, limitadas estrictamente a los poderes enumerados explícitamente a continuación, y toda propuesta de ley debe indicar bajo cuáles poderes está autorizada:
     - Recolectar anualmente un porcentaje uniforme de los ingresos fiscales de cada estado, el cual no puede exceder del 20% y debe ser la única fuente de ingresos fiscales del gobierno federal.
     - Gestionar el presupuesto y la deuda federal, dentro de las restricciones del mecanismo de control presupuestario.
@@ -271,9 +272,10 @@ Todos los poderes legislativos aquí otorgados están conferidos exclusivamente 
     - Crear, trasladar y eliminar territorios minarquistas, con aprobación previa de la legislatura del estado donde se instale cada territorio.
     - Establecer o trasladar la ubicación de los tres distritos capitales.
 - **Poder de destitución:**
-    - La Asamblea tendrá el poder exclusivo de investigar y presentar cargos para la destitución de oficiales civiles de la rama ejecutiva y la rama judicial del gobierno federal, por motivos de traición, soborno, abuso de poder, u otros altos crímenes y delitos menores.
+    - Las dos cámaras del Congreso se dividen el poder de destitución de oficiales civiles de la rama ejecutiva y la rama judicial del gobierno federal, los cuales son el Presidente, el Vicepresidente, los jefes de departamentos y agencias federales, y los jueces federales.
+    - La Asamblea tendrá el poder exclusivo de investigar y presentar cargos para la destitución de oficiales civiles por motivos de traición, soborno, abuso de poder, u otros altos crímenes y delitos menores.
     - El Senado tendrá el poder exclusivo de juzgar todas las destituciones. Los senadores deben realizar el juicio bajo juramento, y solo se aprobará la destitución si al menos dos tercios de los senadores están de acuerdo.
-    - La sentencia en casos de destitución no debe extenderse más allá de remover al oficial del cargo y opcionalmente prohibir que ejerza cualquier otro cargo público en el futuro; sin embargo, el oficial destituido estará sujeto a la acusación, juicio, sentencia y castigo, de acuerdo con la ley.
+    - La sentencia en casos de destitución no debe extenderse más allá de remover al oficial del cargo y opcionalmente prohibir que ejerza cualquier otro cargo público en el futuro; sin embargo, el oficial destituido seguirá expuesto y sujeto a la acusación, juicio, sentencia y castigo, de acuerdo con la ley.
 
 
 ### Poder ejecutivo federal

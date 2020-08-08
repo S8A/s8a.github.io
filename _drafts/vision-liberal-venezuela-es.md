@@ -317,23 +317,28 @@ El poder ejecutivo del gobierno federal está conferido en el **Presidente de lo
     - **Comisiones:** El Presidente comisionará a todos los funcionarios de los Estados Unidos de Venezuela.
 
 
-### Poder judicial federal
+#### Poder judicial federal
 
-El poder judicial federal es otorgado a la Corte Suprema, y a las cortes inferiores que establezca el Congreso. El poder judicial en el derecho anglosajón implica la autoridad de interpretar y aplicar la ley a casos particulares, así como castigar, sentenciar y dirigir acciones futuras para resolver disputas.
+El poder judicial del gobierno federal es conferido en la **Corte Suprema de los Estados Unidos de Venezuela**, y extendido a las cortes inferiores que establezca el Congreso.
 
-- **Nominación y cargos vitalicios:** Como se explicó, los jueces federales deben ser nominados por el Presidente y aprobados por dos tercios del Senado. Los jueces federales tendrán cargos de por vida o hasta que se retiren voluntariamente, pero podrán ser destituidos apropiadamente por el Congreso de ser necesario.
-- **Requisitos de los cargos:** Todos los jueces federales deben ser mayores de edad sin antecedentes penales, ciudadanos del país desde hace al menos 20 años, y por lo menos cinco años de experiencia y buena reputación ejerciendo la profesión de abogado, docente en materias jurídicas, o juez estatal. En el caso de la Corte Suprema, ese último requisito debe extenderse a 10 años de experiencia mínima.
-- **Miembros de la Corte Suprema:** La Corte Suprema debe consistir de nueve jueces, uno de los cuales será designado como su Presidente. El único rol especial del Presidente de la Corte Suprema es presidir sobre los procesos de destitución del presidente o del vicepresidente, para evitar conflictos de interés.
-- **Jurisdicción**: El poder judicial federal se debe extender a:
-    - Todos los casos concernientes a la Constitución, las leyes federales y los tratados internacionales.
-    - Casos que afecten a embajadores y consules.
-    - Casos de jurisdicción marítima.
-    - Disputas en las que Venezuela sea un participante.
-    - Disputas entre dos o más estados.
-    - Disputas entre ciudadanos de diferentes estados.
-    - Disputas entre estados (o sus ciudadanos) y países extranjeros (o sus ciudadanos).
-    La Corte Suprema debe tener jurisdicción original sobre los casos que involucren embajadores, cónsules, estados y países extranjeros; en los demás casos, debe tener jurisdicción apelativa.
-- **Poder de revisión judicial:** Para ser un contrapeso efectivo contra las otras ramas, el sistema judicial debe tener el poder de [revisión judicial](https://en.wikipedia.org/wiki/Judicial_review), que consiste en revisar las leyes, actos y decisiones legislativas y ejecutivas, e invalidarlas si se determina que son ilegales o incompatibles con la Constitución. La revisión judicial se debe realizar intepretando la Constitución y las leyes tal como están escritas, y manteniendo una presunción de libertad sobre la autoridad gubernamental y enfatizando la inexistencia de poderes no otorgados explícitamente, para así proteger agresivamente los derechos naturales de las personas e impedir el expansionismo gubernamental fuera de sus límites estrictos.
+- **Jueces federales:**
+    - **Cargos vitalicios:** Los jueces federales tendrán cargos de por vida o hasta que se retiren voluntariamente, pero podrán ser destituidos apropiadamente por el Congreso de ser necesario.
+    - **Requisitos:** Todos los jueces federales deben ser venezolanos desde hace al menos cinco años, deben tener 30 años de edad o más, no deben tener antecedentes penales, y deben tener por lo menos 10 años de experiencia y buena reputación ejerciendo la profesión de abogado, docente en materias jurídicas, o juez estatal.
+    - **Compensación:** Los jueces federales deben recibir una compensación establecida por el Congreso, pero la compensación de cada juez no podrá ser disminuida mientras permanezca en su cargo.
+    - **Corte Suprema:** La Corte Suprema debe consistir de nueve jueces. Cada puesto vacante será llenado por un juez elegido por sorteo a partir de una lista de 20 candidatos que cumplan los requisitos mencionados y sean aprobados por el Senado y por el Presidente.
+    - **Jueces inferiores:** El nombramiento de los jueces federales inferiores a la Corte Suprema se realizará mediante el proceso explicado en la sección anterior.
+- **Casos y controversias**: El poder judicial se extenderá a:
+    - Todos los casos, tanto de derecho escrito como de equidad, que surjan de esta Constitución, las leyes de los Estados Unidos de Venezuela, y los tratados hechos, o que se harán, bajo su autoridad.
+    - Todos los casos que afecten a embajadores, cónsules y otros representantes diplomáticos.
+    - Todos los casos de jurisdicción marítima y almirantazgo.
+    - Controversias en las que Venezuela sea participante.
+    - Controversias entre dos o más estados.
+    - Controversias entre ciudadanos de diferentes estados.
+    - Controversias entre ciudadanos de un mismo estado que reclamen tierras por concesiones de diferentes estados.
+    - Controversias entre un estado, o los ciudadanos del mismo, y gobiernos extranjeros, o sus ciudadanos o súbditos.
+- **Jurisdicción:** En todos los casos que involucren embajadores, cónsules u otros representantes diplomáticos, y en aquellos en los que un estado sea participante, la Corte Suprema tendrá jurisdicción original. En todos los demás casos mencionados anteriormente, la Corte Suprema tendrá jurisdicción apelativa, tanto de derecho como de hechos, con las excepciones y conforme a las reglas que establezca el Congreso.
+- **Juicios federales:** El juicio de todos los delitos federales, excepto en casos de destritución, deberá ser por jurado. Los juicios se deben realizar en el estado en el que se cometieron los delitos en cuestión o, si no fueron cometidos en un estado en particular, deberán realizarse en el lugar o lugares que el Congreso haya dispuesto por ley.
+- **Traición:** La traición a los Estados Unidos de Venezuela, consistirá únicamente en hacer la guerra contra ellos, o en adherirse a sus enemigos, brindándoles ayuda y protección. Ninguna persona podrá ser condenada por traición a menos que sea por testimonio de dos testigos del acto manifiesto, o por confesión en un tribunal abierto. El Congreso podrá definir la pena por traición, pero esta no podrá extenderse a los descendientes del condenado, o a la confiscación de propiedad después de la muerte del condenado.
 
 
 ### Territorios federales

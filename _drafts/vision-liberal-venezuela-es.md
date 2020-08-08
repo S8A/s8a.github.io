@@ -278,15 +278,43 @@ Todos los poderes legislativos aquí otorgados están conferidos exclusivamente 
     - La sentencia en casos de destitución no debe extenderse más allá de remover al oficial del cargo y opcionalmente prohibir que ejerza cualquier otro cargo público en el futuro; sin embargo, el oficial destituido seguirá expuesto y sujeto a la acusación, juicio, sentencia y castigo, de acuerdo con la ley.
 
 
-### Poder ejecutivo federal
+#### Poder ejecutivo federal
 
-El poder ejecutivo federal es otorgado al Presidente, y extendido bajo su autoridad al Vicepresidente, a los departamentos y agencias federales definidos por el Congreso, y a los embajadores y cónsules. El Presidente debe ser el principal representante internacional del país, Comandante en Jefe de las Fuerzas Armadas, y el encargado de hacer cumplir la Constitución y las leyes promulgadas por el Congreso dentro de las funciones limitadas del gobierno federal.
+El poder ejecutivo del gobierno federal está conferido en el **Presidente de los Estados Unidos de Venezuela**.
 
-- **Elección del Presidente y el Vicepresidente:** El Presidente debe ser elegido para un período de cuatro años sin reelección, mediante voto popular de varias rondas: en cada ronda se hacen totales de votos por estado y se elimina el candidato con menos votos en total, hasta que un candidato llegue a tener mayorías en dos tercios de los estados y sea electo ganador, o hasta que queden solo dos candidatos, en cuyo caso el ganador será quien haya ganado en más estados. El Vicepresidente debe ser elegido por el mismo proceso para el mismo período.
-- **Requisitos de los cargos:** El Presidente y el Vicepresidente deben ser mayores de 30 años sin antecedentes penales, ciudadanos y residentes del país desde hace al menos 15 años, y con al menos ocho años de actividad económica previa en el sector privado. Los demás cargos ejecutivos deben ser ocupados por ciudadanos mayores de edad sin antecedentes penales.
-- **Nominaciones presidenciales:** El Presidente debe nominar los embajadores y cónsules, los jueces federales, y los jefes de los departamentos federales, y estos deben ser aprobados por dos tercios del Senado, luego de haber entrevistado al candidato en cuestión y discutido su idoneidad. Los jefes de agencias federales también deben ser nominados por el Presidente, pero el Congreso podrá delegar la tarea de aprobación al mismo Presidente, a cortes de justicia, o a los jefes de los departamentos federales, dependiendo del caso.
-- **Tratados internacionales:** El Presidente debe tener el poder de hacer tratados internacionales, con la aprobación de dos tercios del Senado, y bajo las restricciones de la Constitución y las leyes. En particular, los tratados comerciales deben ser para pactar el libre comercio entre los participantes, no deben ni pueden establecer restricciones comerciales generales ya que el gobierno no tiene ese poder.
-- **Poder de indulto:** El Presidente debe tener el poder unilateral de otorgar indultos, excepto en casos de destitución.
+- **Presidente:**
+    - **Requisitos:** El Presidente debe ser venezolano desde hace al menos 10 años, debe tener 30 años de edad o más, no debe tener antecedentes penales, debe haber trabajado en el sector privado durante al menos cinco años, y debe haber residido en el país dentro de los últimos cinco años.
+    - **Elección:** El Presidente debe ser elegido directamente por los venezolanos cada cuatro años, mediante [votación evaluativa](https://en.wikipedia.org/wiki/Combined_approval_voting), que consiste en que cada papeleta de votación permite al votante marcar si está a favor o en contra de cada candidato, o no marcar ninguna si es indiferente; posteriormente se sumarán los puntos de cada candidato, tomando cada marca a favor como 1 punto y cada marca en contra como -1 punto, y el que tenga el mayor puntaje total será elegido Presidente. El Congreso regulará los lugares y maneras de celebrar la elección, y establecerá el día para realizarla, que debe ser uniforme en todo el país y estar dentro de los últimos tres meses del año.
+    - **Reelección:** Nadie puede ser elegido Presidente para más de dos períodos.
+    - **Puesto vacante:** En caso de destitución, resignación o muerte del Presidente, el Vicepresidente pasará a ser Presidente por el resto del período; si el puesto de Vicepresidente también está vacante en tal momento, el Congreso elegirá a uno de los Directores Ejecutivos como reemplazo. El Presidente podrá declararse incapaz de ejercer su cargo enviando su declaración al Congreso, y el Vicepresidente asumirá el cargo hasta que el Presidente declare su capacidad de retomarlo o hasta que termine el período. El Presidente también podrá ser declarado como incapaz de ejercer su cargo si el Vicepresidente y los Directores Ejecutivos envían una declaración conjunta al Congreso, pero podrá retomar el cargo libremente a menos que dos tercios de ambas cámaras del Congreso voten en contra de ello.
+    - **Compensación:** El Presidente debe recibir una compensación determinada por el Congreso, la cual no debe ser ni aumentada ni disminuida durante el período para el cual fue elegido, y durante dicho período no podrá recibir ningún otro emolumento de ningún nivel de gobierno.
+    - **Juramento:** Antes de empezar a desempeñar su cargo, el Presidente debe realizar un juramento que lo comprometa a ejercer fielmente su cargo y a respetar, preservar, proteger y defender la Constitución de los Estados Unidos de Venezuela.
+- **Vicepresidente:**
+    - **Requisitos:** El Vicepresidente debe cumplir los mismos requisitos que el Presidente.
+    - **Elección:** El Vicepresidente debe ser elegido el mismo día que el Presidente, mediante el mísmo método de votación.
+    - **Reelección:** Nadie puede ser elegido Vicepresidente para más de dos períodos.
+    - **Puesto vacante:** En caso de que el cargo de Vicepresidente esté vacante por cualquier motivo, el Presidente deberá nominar una persona para su reemplazo, quien asumirá el cargo si ambas cámaras del Congreso lo aprueban.
+- **Departamentos Ejecutivos:** Debe haber cinco Departamentos Ejecutivos bajo la autoridad del Presidente, dedicadas a diferentes funciones del gobierno federal. Cada una será encabezada por un Director Ejecutivo, y estará compuesta por las agencias que establezca el Congreso.
+    - **Departamento del Tesoro:** Encargado de las funciones de administración de las finanzas y la deuda del gobierno federal.
+    - **Departamento de Defensa:** Encargado de las funciones de defensa nacional y la administración de las Fuerzas Armadas.
+    - **Departamento de Asuntos Externos:** Encargado de las funciones diplomáticas y otros asuntos internacionales.
+    - **Departamento de Asuntos Internos:** Encargado de las funciones de administración de territorios federales y otros asuntos internos.
+    - **Departamento de Justicia:** Encargado de la representación legal del gobierno federal y de las funciones relacionadas con la administración de la justicia.
+- **Poderes presidenciales:**
+    - **Comando militar:** El Presidente debe ser Comandante en Jefe de las Fuerzas Armadas, así como de las Milicias estatales, cuando estén sirviendo a los Estados Unidos de Venezuela.
+    - **Asesoría:** El Presidente podrá requerir la opinión escrita de los Directores Ejecutivos acerca de cualquier tema relacionado con sus responsabilidades correspondientes.
+    - **Clemencia:** El Presidente tendrá el poder exclusivo de otorgar indultos y prórrogas por delitos federales, excepto en casos de destitución.
+    - **Tratados:** El Presidente tendrá poder, por y con el asesoramiento y consentimiento del Senado, para hacer tratados internacionales, siempre que dos tercios de los senadores presentes estén de acuerdo, y sin sobrepasar los poderes y restricciones que establece la Constitución.
+    - **Nombramientos:** El Presidente nombrará y, por y con el consejo y consentimiento del Senado, nombrará embajadores, cónsules, jueces federales inferiores a la Corte Suprema, los Directores Ejecutivos, y todos los demás funcionarios del gobierno federal que establezca la ley; pero el Congreso podrá por ley conferir el nombramiento de funcionarios inferiores, según lo estime conveniente, solo en el Presidente, en las cortes de justicia o en los Directores Ejecutivos.
+    - **Nombramientos en receso:** El Presidente tendrá el poder de cubrir todas las vacantes que ocurran durante el receso del Senado, otorgando nombramientos provisionales que terminarán al final de su siguiente sesión, excepto para vacantes en la Corte Suprema.
+    - **Despidos:** El Presidente tendrá el poder exclusivo de remover oficiales de la rama ejecutiva del gobierno federal a discreción.
+- **Responsabilidades presidenciales:**
+    - **Estado de la Unión:** El Presidente deberá enviarle al Congreso un reporte escrito sobre el estado de la Unión periódicamente.
+    - **Recomendaciones:** El Presidente podrá recomendarle al Congreso aquellas medidas que juzgue necesarias y expedientes para su consideración.
+    - **Convocación y aplazamiento:** El Presidente podrá, en ocasiones extraordinarias, convocar a ambas cámaras del Congreso, o a cualquiera de ellas, y en caso de desacuerdo entre ellas con respecto al tiempo de aplazamiento, podrá aplazarlas para el tiempo que crea conveniente.
+    - **Recepción diplomática:** El Presidente recibirá a los embajadores y otros representantes diplomáticos extranjeros.
+    - **Ejecución de la ley:** El Presidente deberá encargarse de que las leyes se ejecuten fielmente.
+    - **Comisiones:** El Presidente comisionará a todos los funcionarios de los Estados Unidos de Venezuela.
 
 
 ### Poder judicial federal

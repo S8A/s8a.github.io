@@ -211,70 +211,70 @@ A continuación se explica cada rama del gobierno federal.
 Todos los poderes legislativos aquí otorgados están conferidos exclusivamente en el **Congreso de los Estados Unidos de Venezuela**, conformado por dos cámaras: el Senado, que representa a los estados, y la Asamblea, que representa a la población.
 
 - **Senado:**
-    - **Senadores:** El Senado debe estar compuesto por dos senadores de cada estado, elegidos por su respectiva legislatura para cumplir períodos de seis años, y cada senador debe tener un voto.
-    - **Requisitos:** Los senadores deben ser venezolanos desde hace al menos 10 años, deben tener 30 años de edad o más, no deben tener antecedentes penales, deben haber trabajado previamente en el sector privado durante al menos cinco años, y deben haber residido en sus respectivos estados dentro de los últimos diez años.
-    - **Elecciones:** Tras la primera elección, cada legislatura debe designar cuál de sus senadores es del grupo A y cuál es del grupo B, y a partir de ese momento, cada tres años se realizarán elecciones de senadores del grupo A o del grupo B de forma alternante.
-    - **Reelecciones:** Cada senador puede ser reelegido indefinidamente, con la condición de que ninguna persona pueda ser senador por más de tres períodos consecutivos.
-    - **Vacancias:** Si algún puesto queda vacante por cualquier motivo, la legislatura del estado correspondiente a dicho puesto debe elegir un senador de reemplazo que cumpla el resto del período.
-    - **Presidente:** Al inicio de cada nuevo período, los senadores deben elegir entre ellos un Presidente del Senado.
+    - **Senadores:** El Senado debe estar compuesto por dos Senadores de cada estado, elegidos por su respectiva legislatura para cumplir períodos de seis años, y cada Senador debe tener un voto.
+    - **Requisitos:** Los Senadores deben ser venezolanos desde hace al menos 10 años, deben tener 30 años de edad o más, no deben tener antecedentes penales, deben haber trabajado previamente en el sector privado durante al menos cinco años, y deben haber residido en sus respectivos estados dentro de los últimos diez años.
+    - **Elecciones:** Tras la primera elección, cada legislatura debe designar cuál de sus Senadores es del grupo A y cuál es del grupo B, y a partir de ese momento, cada tres años se realizarán elecciones de Senadores del grupo A o del grupo B de forma alternante.
+    - **Reelecciones:** Cada Senador puede ser reelegido indefinidamente, con la condición de que ninguna persona pueda ser elegido Senador para más de tres períodos consecutivos.
+    - **Pustos vacantes:** Si algún puesto queda vacante por cualquier motivo, la legislatura del estado correspondiente a dicho puesto debe elegir un Senador de reemplazo que cumpla el resto del período.
+    - **Presidente:** Al inicio de cada nuevo período, los Senadores deben elegir entre ellos un Presidente del Senado.
     - **Oficiales:** El Senado podrá elegir a sus otros oficiales que considere necesarios para su funcionamiento regular.
 - **Asamblea:**
-    - **Diputados:** La Asamblea debe estar compuesta por diputados elegidos directamente por los ciudadanos de cada municipio para cumplir períodos de tres años, y cada diputado debe tener un voto.
-    - **Requisitos:** Los diputados deben ser venezolanos desde hace al menos cinco años, deben tener 25 años de edad o más, no deben tener antecedentes penales, deben haber trabajado previamente en el sector privado durante al menos cinco años, y deben haber residido en sus respectivos municipios dentro de los últimos diez años.
-    - **Número de diputados:** El número de diputados debe ser calculado antes de cada elección, y debe basarse en los datos del censo nacional más reciente. Para cada municipio, el número de diputados debe ser igual al resultado de dividir su total de habitantes con ciudadanía venezolana entre 100 mil, redondeado al número entero más próximo por exceso.
-    - **Elecciones:** La elección de los diputados de cada municipio debe realizarse cada tres años mediante el método de [voto único transferible](https://en.wikipedia.org/wiki/Single_transferable_vote), un sistema de votación por ranking de candidatos que aproxima una representación proporcional de las preferencias de los votantes y no requiere la existencia de partidos políticos formales.
-    - **Reelecciones:** Cada diputado puede ser reelegido indefinidamente, con la condición de que ninguna persona pueda ser diputado por más de dos períodos consecutivos.
-    - **Vacancias:** Si algún puesto queda vacante por cualquier motivo, el ejecutivo del municipio correspondiente a dicho puesto debe ordenar una elección especial para elegir un diputado de reemplazo que cumpla el resto del período.
-    - **Presidente:** Al inicio de cada nuevo período, los diputados deben elegir ellos un Presidente de la Asamblea.
+    - **Diputados:** La Asamblea debe estar compuesta por Diputados elegidos directamente por los ciudadanos de cada municipio para cumplir períodos de tres años, y cada Diputado debe tener un voto.
+    - **Requisitos:** Los Diputados deben ser venezolanos desde hace al menos cinco años, deben tener 25 años de edad o más, no deben tener antecedentes penales, deben haber trabajado previamente en el sector privado durante al menos cinco años, y deben haber residido en sus respectivos municipios dentro de los últimos diez años.
+    - **Número de Diputados:** El número de Diputados debe ser calculado antes de cada elección, y debe basarse en los datos del censo nacional más reciente. Para cada municipio, el número de Diputados debe ser igual al resultado de dividir su total de habitantes con ciudadanía venezolana entre 100 mil, redondeado al número entero más próximo por exceso.
+    - **Elecciones:** La elección de los Diputados de cada municipio debe realizarse cada tres años mediante el método de [voto único transferible](https://en.wikipedia.org/wiki/Single_transferable_vote), un sistema de votación por ranking de candidatos que aproxima una representación proporcional de las preferencias de los votantes y no requiere la existencia de partidos políticos formales.
+    - **Reelecciones:** Cada Diputado puede ser reelegido indefinidamente, con la condición de que ninguna persona pueda ser elegido Diputado para más de dos períodos consecutivos.
+    - **Puestos vacantes:** Si algún puesto queda vacante por cualquier motivo, el ejecutivo del municipio correspondiente a dicho puesto debe ordenar una elección especial para elegir un Diputado de reemplazo que cumpla el resto del período.
+    - **Presidente:** Al inicio de cada nuevo período, los Diputados deben elegir ellos un Presidente de la Asamblea.
     - **Oficiales:** La Asamblea podrá elegir a sus otros oficiales que considere necesarios para su funcionamiento regular.
 - **Reglas sobre elecciones:**
-    - Los tiempos, lugares y formas de celebrar elecciones para senadores y diputados serán prescritos en cada estado por sus respectivas legislaturas; pero el Congreso podrá, en cualquier momento, crear o alterar tales reglamentos mediante leyes, excepto en lo que respecta a los lugares de elección.
-    - Las elecciones de senadores y diputados deben realizarse dentro de los últimos cuatro meses del año.
+    - Los tiempos, lugares y formas de celebrar elecciones para Senadores y Diputados serán prescritos en cada estado por sus respectivas legislaturas; pero el Congreso podrá, en cualquier momento, crear o alterar tales reglamentos mediante leyes, excepto en lo que respecta a los lugares de elección.
+    - Las elecciones de Senadores y Diputados deben realizarse dentro de los últimos cuatro meses del año.
     - Cada cámara debe juzgar las elecciones y cualificaciones de sus miembros.
 - **Reglas sobre procedimientos:**
     - El Congreso debe reunirse por lo menos una vez cada año, y tal reunión debe ser el primer lunes de enero, a menos que designen por ley un día diferente.
-    - Cada cámara necesita un quórum para poder deliberar, constituido por la presencia de la mayoría de sus miembros; un número menor de senadores o diputados podrá aplazar la sesión de un día para otro, así como obligar la asistencia de miembros ausentes, en tal manera y con las penalizaciones tales que establezca cada cámara.
+    - Cada cámara necesita un quórum para poder deliberar, constituido por la presencia de la mayoría de sus miembros; un número menor de Senadores o Diputados podrá aplazar la sesión de un día para otro, así como obligar la asistencia de miembros ausentes, en tal manera y con las penalizaciones tales que establezca cada cámara.
     - Cada cámara podrá determinar las reglas de sus procedimientos y votaciones, castigar a sus miembros por conducta inapropiada, y expulsar un miembro si dos tercios de los demás están de acuerdo.
     - Cada cámara podrá establecer diferentes requerimientos de aprobación para diferentes votaciones, pero ninguna decisión podrá ser aprobada con menos de la mayoría de los votos.
     - Cada cámara debe llevar un registro escrito de sus procedimientos y votaciones, y publicarlos regularmente.
     - Ninguna cámara podrá aplazar sus sesiones por más de tres días sin el consentimiento de la otra, ni reunirse en cualquier lugar que no sea el designado para ambas cámaras.
 - **Compensación, privilegios y restricciones:**
-    - Los senadores y diputados recibirán una compensación por sus servicios, determinada por ley y pagada del Tesoro de los Estados Unidos de Venezuela.
-    - Todo aumento de compensación de los senadores y diputados entrará en efecto en el siguiente período de cada cámara.
-    - Los senadores y diputados no podrán ser arrestados mientras estén en sesión, o mientras estén yendo a o retornando de esta, excepto en casos de traición, delitos graves o desorden público.
-    - Lo que digan o debatan los senadores y diputados en sesión no podrá ser base de ninguna acusación criminal.
-    - Ningún senador o diputado podrá, durante el período para el cual fue elegido, tomar ningún cargo público que haya sido creado o cuya compensación se haya aumentado durante dicho período.
+    - Los Senadores y Diputados recibirán una compensación por sus servicios, determinada por ley y pagada del Tesoro de los Estados Unidos de Venezuela.
+    - Todo aumento de compensación de los Senadores y Diputados entrará en efecto en el siguiente período de cada cámara.
+    - Los Senadores y Diputados no podrán ser arrestados mientras estén en sesión, o mientras estén yendo a o retornando de esta, excepto en casos de traición, delitos graves o desorden público.
+    - Lo que digan o debatan los Senadores y Diputados en sesión no podrá ser base de ninguna acusación criminal.
+    - Ningún Senador o Diputado podrá, durante el período para el cual fue elegido, tomar ningún cargo público que haya sido creado o cuya compensación se haya aumentado durante dicho período.
 - **Proceso de promulgación de leyes:**
     - Todas las propuestas de ley aprobadas por ambas cámaras deben ser presentadas al Presidente de los Estados Unidos de Venezuela. Si el Presidente aprueba la propuesta, deberá firmarla y promulgarla como ley; en caso contrario, deberá devolver la propuesta junto con sus objeciones a la cámara del Congreso donde se originó, y esta deberá registrar sus objeciones y proceder a reconsiderar la propuesta.
     - Si tras la reconsideración dos tercios de la cámara están de acuerdo en aprobar la propuesta de ley, esta deberá ser enviada, junto a las objeciones, a la otra cámara, donde igualmente deberá ser reconsiderada y aprobada por dos tercios de sus miembros para ser promulgada como ley directamente.
     - En todo caso, los votos de ambas cámaras deben ser determinados como Sí o No, y los nombres de los congresistas votando a favor o en contra de la propuesta de ley deben ser registrados por cada cámara respectivamente.
     - Si el Presidente no devuelve la propuesta de ley dentro de los 14 días después de recibirla, esta será promulgada como ley directamente, a menos que el Congreso impida la devolución a propósito, en cuyo caso la propuesta será anulada.
     - Cualquier otra orden, resolución o votación que requiera la aprobación de ambas cámaras del Congreso, exceptuando aquellas sobre el aplazamiento de sesiones, deberá ser presentada al Presidente y pasar por el mismo proceso que una propuesta de ley para hacerse efectiva.
-- **Poderes legislativos enumerados:** El Congreso podrá crear solo las leyes que sean apropiadas y necesarias para ejecutar sus funciones, limitadas estrictamente a los poderes enumerados explícitamente a continuación, y toda propuesta de ley debe indicar bajo cuáles poderes está autorizada:
-    - Recolectar anualmente un porcentaje uniforme de los ingresos fiscales de cada estado, el cual no puede exceder del 20% y debe ser la única fuente de ingresos fiscales del gobierno federal.
-    - Gestionar el presupuesto y la deuda federal, dentro de las restricciones del mecanismo de control presupuestario.
-    - Realizar el censo nacional cada diez años.
-    - Definir reglas simples y uniformes sobre el proceso de naturalización y sus requisitos.
-    - Establecer las agencias federales de cada departamento federal que sean necesarias para llevar a cabo efectivamente sus respectivas funciones.
-    - Establecer cortes federales inferiores a la Corte Suprema.
-    - Definir y castigar las piraterías y delitos graves cometidos en alta mar, así como los delitos contra la ley de las naciones.
-    - Declarar la guerra y establecer reglas sobre ella.
-    - Financiar las Fuerzas Armadas, definir su estructura, y establecer reglas sobre su funcionamiento.
-    - Convocar a las Milicias estatales temporalmente para suprimir insurrecciones y repeler invasiones.
-    - Financiar y regular las Milicias estatales que estén sirviendo al gobierno federal, reservándole a sus respectivos estados el nombramiento de los oficiales y la autoridad de entrenar a los soldados.
-    - Designar formalmente a ciertos países como hostiles si representan una amenaza directa a la integridad territorial de Venezuela o a la seguridad de sus habitantes.
-    - Expulsar del territorio nacional a combatientes enemigos, espías, políticos y diplomáticos de países hostiles.
-    - Restringir el comercio de armas y equipamiento militar con países hostiles.
-    - Regular la inmigración de personas provenientes de países hostiles.
-    - Regular el comercio y la inversión con empresas estatales y cuasi-estatales extranjeras.
-    - Regular el comercio de armas de destrucción masiva.
-    - Establecer leyes sobre la administración de los territorios federales.
-    - Crear, trasladar y eliminar territorios minarquistas, con aprobación previa de la legislatura del estado donde se instale cada territorio.
-    - Establecer o trasladar la ubicación de los tres distritos capitales.
+- **Poderes legislativos delegados:** El Congreso podrá crear solo las leyes que sean apropiadas y estrictamente necesarias para ejecutar los poderes que se le delegan explícitamente en esta Constitución.
+    1. Recolectar anualmente un porcentaje uniforme de los ingresos fiscales de cada estado, el cual no puede exceder del 20% y debe ser la única fuente de ingresos fiscales del gobierno federal.
+    2. Gestionar el presupuesto y la deuda federal, dentro de las restricciones del mecanismo de control presupuestario.
+    3. Realizar el censo nacional cada diez años.
+    4. Definir reglas simples y uniformes sobre el proceso de naturalización y sus requisitos.
+    5. Regular la estructura de los Departamentos Ejecutivos.
+    6. Establecer cortes federales inferiores a la Corte Suprema.
+    7. Definir y castigar las piraterías y delitos graves cometidos en alta mar, así como los delitos contra la ley de las naciones.
+    8. Declarar la guerra y establecer reglas sobre ella.
+    9. Financiar las Fuerzas Armadas, definir su estructura, y establecer reglas sobre su funcionamiento.
+    10. Convocar y financiar a las Milicias estatales temporalmente para suprimir insurrecciones y repeler invasiones.
+    11. Regular las Milicias estatales cuando estén sirviendo al gobierno federal, reservándole a sus respectivos estados el nombramiento de los oficiales y la autoridad de entrenar a los soldados.
+    12. Designar formalmente a ciertos países como hostiles si representan una amenaza directa a la integridad territorial de Venezuela o a la seguridad de sus habitantes.
+    13. Expulsar del territorio nacional a combatientes enemigos, espías, políticos y diplomáticos de países hostiles.
+    14. Restringir el comercio de armas y equipamiento militar con países hostiles.
+    15. Regular la inmigración de personas provenientes de países hostiles.
+    16. Regular el comercio y la inversión con empresas estatales y cuasi-estatales extranjeras.
+    17. Regular el comercio y uso de armas de destrucción masiva.
+    18. Establecer leyes sobre la administración de los territorios federales.
+    19. Crear, trasladar y eliminar territorios minarquistas, con aprobación previa de la legislatura del estado donde se instale cada territorio.
+    20. Establecer o trasladar la ubicación de los tres distritos capitales.
 - **Poder de destitución:**
-    - Las dos cámaras del Congreso se dividen el poder de destitución de oficiales civiles de la rama ejecutiva y la rama judicial del gobierno federal, los cuales son el Presidente, el Vicepresidente, los jefes de departamentos y agencias federales, y los jueces federales.
-    - La Asamblea tendrá el poder exclusivo de investigar y presentar cargos para la destitución de oficiales civiles por motivos de traición, soborno, abuso de poder, u otros altos crímenes y delitos menores.
-    - El Senado tendrá el poder exclusivo de juzgar todas las destituciones. Los senadores deben realizar el juicio bajo juramento, y solo se aprobará la destitución si al menos dos tercios de los senadores están de acuerdo.
+    - Las dos cámaras del Congreso se dividen el poder de destitución de funcionarios civiles de la rama ejecutiva y la rama judicial del gobierno federal, los cuales son el Presidente, el Vicepresidente, los Directores Ejecutivos, los demás funcionarios nominados por el Presidente, y los jueces federales.
+    - La Asamblea tendrá el poder exclusivo de investigar y presentar cargos para la destitución de funcionarios civiles por motivos de traición, soborno, abuso de poder, u otros altos crímenes y delitos menores.
+    - El Senado tendrá el poder exclusivo de juzgar todas las destituciones. Los Senadores deben realizar el juicio bajo juramento, y solo se aprobará la destitución si al menos dos tercios de los Senadores están de acuerdo.
     - La sentencia en casos de destitución no debe extenderse más allá de remover al oficial del cargo y opcionalmente prohibir que ejerza cualquier otro cargo público en el futuro; sin embargo, el oficial destituido seguirá expuesto y sujeto a la acusación, juicio, sentencia y castigo, de acuerdo con la ley.
 
 

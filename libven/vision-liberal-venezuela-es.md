@@ -3,7 +3,8 @@ layout: post
 title: "Visión Liberal para Venezuela"
 og_desc: Compilación extensa de propuestas para crear un país libre y próspero.
 og_image: s8a-thumbnail.png
-category: personal
+date: today
+category: project
 ---
 
 Tras varias conversaciones con amigos y familiares sobre el desastre socialista en el que vivimos, el 28 de mayo de este año decidí desarrollar a fondo una **visión liberal del sistema político y económico de Venezuela**, sintetizando todo lo que pienso que está mal y cómo debería ser.

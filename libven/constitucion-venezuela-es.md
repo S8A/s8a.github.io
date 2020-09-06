@@ -22,7 +22,7 @@ category: project
 Esta Constitución se establece como ley suprema de los **Estados Unidos de Venezuela** con la finalidad de: reconocer y aplicar la declaración de principios anterior como base de todo el orden jurídico-político de Venezuela; crear un gobierno federal pequeño y limitado para defender y representar internacionalmente al país y sus habitantes; reconocer a los gobiernos de los estados y municipios que conforman al país; establecer obligaciones, restricciones y limitaciones generales sobre estos gobiernos; y definir reglas sobre las relaciones entre ellos.
 
 
-## Libertades civiles y garantías constitucionales
+## Libertades civiles y garantías
 
 Además de los derechos fundamentales y demás garantías de la declaración de principios, todos los niveles de gobierno deben respetar y cumplir plenamente las siguientes libertades civiles y garantías constitucionales:
 
@@ -117,6 +117,11 @@ Todos los poderes legislativos aquí otorgados están conferidos exclusivamente 
     - Los Senadores y Diputados no podrán ser arrestados mientras estén en sesión, o mientras estén yendo a o retornando de esta, excepto en casos de traición, delitos graves o desorden público.
     - Lo que digan o debatan los Senadores y Diputados en sesión no podrá ser base de ninguna acusación criminal.
     - Ningún Senador o Diputado podrá, durante el período para el cual fue elegido, tomar ningún cargo público que haya sido creado o cuya compensación se haya aumentado durante dicho período.
+- **Poder de destitución:**
+    - Las dos cámaras del Congreso se dividen el poder de destitución de funcionarios civiles de la rama ejecutiva y la rama judicial del gobierno federal, los cuales son el Presidente, el Vicepresidente, los Directores Ejecutivos, los jueces de la Corte Suprema, los jueces federales inferiores, y todos los demás funcionarios nominados por el Presidente.
+    - La Asamblea tendrá el poder exclusivo de investigar y presentar cargos para la destitución de funcionarios civiles por motivos de traición, soborno, abuso de poder, u otros altos crímenes y delitos menores.
+    - El Senado tendrá el poder exclusivo de juzgar todas las destituciones. Los Senadores deben realizar el juicio bajo juramento, y solo se aprobará la destitución si al menos dos tercios de los Senadores están de acuerdo.
+    - La sentencia en casos de destitución no debe extenderse más allá de remover al oficial del cargo y opcionalmente prohibir que ejerza cualquier otro cargo público en el futuro; sin embargo, el oficial destituido seguirá expuesto y sujeto a la acusación, juicio, sentencia y castigo, de acuerdo con la ley.
 - **Proceso de promulgación de leyes:**
     - Todas las propuestas de ley aprobadas por ambas cámaras deben ser presentadas al Presidente de los Estados Unidos de Venezuela. Si el Presidente aprueba la propuesta, deberá firmarla y promulgarla como ley; en caso contrario, deberá devolver la propuesta junto con sus objeciones a la cámara del Congreso donde se originó, y esta deberá registrar sus objeciones y proceder a reconsiderar la propuesta.
     - Si tras la reconsideración dos tercios de la cámara están de acuerdo en aprobar la propuesta de ley, esta deberá ser enviada, junto a las objeciones, a la otra cámara, donde igualmente deberá ser reconsiderada y aprobada por dos tercios de sus miembros para ser promulgada como ley directamente.
@@ -124,31 +129,33 @@ Todos los poderes legislativos aquí otorgados están conferidos exclusivamente 
     - Si el Presidente no devuelve la propuesta de ley dentro de los 14 días después de recibirla, esta será promulgada como ley directamente, a menos que el Congreso impida la devolución a propósito, en cuyo caso la propuesta será anulada.
     - Cualquier otra orden, resolución o votación que requiera la aprobación de ambas cámaras del Congreso, exceptuando aquellas sobre el aplazamiento de sesiones, deberá ser presentada al Presidente y pasar por el mismo proceso que una propuesta de ley para hacerse efectiva.
 - **Poderes legislativos delegados:** El Congreso podrá crear solo las leyes que sean apropiadas y estrictamente necesarias para ejecutar los poderes que se le delegan explícitamente en esta Constitución.
-    1. Recolectar anualmente un porcentaje uniforme de los ingresos fiscales de cada estado, el cual no puede exceder del 20% y debe ser la única fuente de ingresos fiscales del gobierno federal.
-    2. Gestionar el presupuesto y la deuda federal, dentro de las restricciones del mecanismo de control presupuestario.
-    3. Realizar el censo nacional cada diez años.
-    4. Definir reglas simples y uniformes sobre el proceso de naturalización y sus requisitos.
-    5. Regular la estructura de los Departamentos Ejecutivos.
-    6. Establecer cortes federales inferiores a la Corte Suprema.
-    7. Definir y castigar las piraterías y delitos graves cometidos en alta mar, así como los delitos contra la ley de las naciones.
-    8. Declarar la guerra y establecer reglas sobre ella.
-    9. Financiar las Fuerzas Armadas, definir su estructura, y establecer reglas sobre su funcionamiento.
-    10. Convocar y financiar a las Milicias estatales temporalmente para suprimir insurrecciones y repeler invasiones.
-    11. Regular las Milicias estatales cuando estén sirviendo al gobierno federal, reservándole a sus respectivos estados el nombramiento de los oficiales y la autoridad de entrenar a los soldados.
-    12. Designar formalmente a ciertos países como hostiles si representan una amenaza directa a la integridad territorial de Venezuela o a la seguridad de sus habitantes.
-    13. Expulsar del territorio nacional a combatientes enemigos, espías, políticos y diplomáticos de países hostiles.
-    14. Restringir el comercio de armas y equipamiento militar con países hostiles.
-    15. Regular la inmigración de personas provenientes de países hostiles.
-    16. Regular el comercio y la inversión con empresas estatales y cuasi-estatales extranjeras.
-    17. Regular el comercio y uso de armas de destrucción masiva.
-    18. Establecer leyes sobre la administración de los territorios federales.
-    19. Crear, trasladar y eliminar territorios minarquistas, con aprobación previa de la legislatura del estado donde se instale cada territorio.
-    20. Establecer o trasladar la ubicación de los tres distritos capitales.
-- **Poder de destitución:**
-    - Las dos cámaras del Congreso se dividen el poder de destitución de funcionarios civiles de la rama ejecutiva y la rama judicial del gobierno federal, los cuales son el Presidente, el Vicepresidente, los Directores Ejecutivos, los demás funcionarios nominados por el Presidente, y los jueces federales.
-    - La Asamblea tendrá el poder exclusivo de investigar y presentar cargos para la destitución de funcionarios civiles por motivos de traición, soborno, abuso de poder, u otros altos crímenes y delitos menores.
-    - El Senado tendrá el poder exclusivo de juzgar todas las destituciones. Los Senadores deben realizar el juicio bajo juramento, y solo se aprobará la destitución si al menos dos tercios de los Senadores están de acuerdo.
-    - La sentencia en casos de destitución no debe extenderse más allá de remover al oficial del cargo y opcionalmente prohibir que ejerza cualquier otro cargo público en el futuro; sin embargo, el oficial destituido seguirá expuesto y sujeto a la acusación, juicio, sentencia y castigo, de acuerdo con la ley.
+    - Recolectar anualmente un porcentaje uniforme de los ingresos fiscales de cada estado, el cual no puede exceder del 20% y debe ser la única fuente de ingresos fiscales del gobierno federal.
+    - Gestionar el presupuesto y la deuda federal, dentro de las restricciones del mecanismo de control presupuestario.
+    - Realizar el censo nacional cada diez años.
+    - Definir reglas simples y uniformes sobre el proceso de naturalización y sus requisitos.
+    - Establecer los Departamentos Ejecutivos y regular su estructura.
+    - Establecer cortes federales inferiores a la Corte Suprema.
+    - Definir y castigar las piraterías y delitos graves cometidos en alta mar, así como los delitos contra la ley de las naciones.
+    - Declarar la guerra y establecer reglas sobre ella.
+    - Financiar las Fuerzas Armadas, definir su estructura, y establecer reglas sobre su funcionamiento.
+    - Convocar y financiar a las Milicias estatales temporalmente para suprimir insurrecciones y repeler invasiones.
+    - Regular las Milicias estatales cuando estén sirviendo al gobierno federal, reservándole a sus respectivos estados el nombramiento de los oficiales y la autoridad de entrenar a los soldados.
+    - Designar formalmente a ciertos países como hostiles si representan una amenaza directa a la integridad territorial de Venezuela o a la seguridad de sus habitantes.
+    - Expulsar del territorio nacional a combatientes enemigos, espías, políticos y diplomáticos de países hostiles.
+    - Restringir el comercio de armas y equipamiento militar con países hostiles.
+    - Regular la inmigración de personas provenientes de países hostiles.
+    - Regular el comercio y la inversión con empresas estatales y cuasi-estatales extranjeras.
+    - Regular el comercio y uso de armas de destrucción masiva.
+    - Establecer leyes sobre la administración de los territorios federales.
+    - Crear, trasladar y eliminar territorios minarquistas, con aprobación previa de la legislatura del estado donde se instale cada territorio.
+    - Establecer o trasladar la ubicación de los tres distritos capitales.
+- **Mecanismo de control presupuestario:**
+    - No se podrá gastar dinero público, sino como consecuencia de las asignaciones presupuestarias hechas por ley; y se deberá publicar periódicamente un estado de cuenta de los ingresos y gastos de todo el dinero público.
+    - El gobierno federal debe mantener sus ingresos y gastos fiscales en equilibrio a lo largo del tiempo.
+    - El límite superior para el gasto total que será aprobado en el presupuesto debe basarse en los ingresos fiscales esperados tomando en cuenta la situación económica.
+    - En caso de emergencias o situaciones excepcionales que podrían justificar un gasto mayor al límite mencionado anteriormente, el Congreso podrá aumentar dicho límite si dos tercios del total de miembros de cada cámara están de acuerdo.
+    - Si el gasto total del gobierno federal excede el límite mencionado anteriormente, se debe compensar ese gasto adicional en años subsecuentes.
+    - Los detalles de implementación de este mecanismo serán establecidos por ley.
 
 
 ### Poder ejecutivo federal
@@ -167,12 +174,7 @@ El poder ejecutivo del gobierno federal está conferido en el **Presidente de lo
     - **Elección:** El Vicepresidente debe ser elegido el mismo día que el Presidente, mediante el mísmo método de votación.
     - **Reelección:** Nadie puede ser elegido Vicepresidente para más de dos períodos.
     - **Puesto vacante:** En caso de que el cargo de Vicepresidente esté vacante por cualquier motivo, el Presidente deberá nominar una persona para su reemplazo, quien asumirá el cargo si ambas cámaras del Congreso lo aprueban.
-- **Departamentos Ejecutivos:** Debe haber cinco Departamentos Ejecutivos bajo la autoridad del Presidente, dedicadas a diferentes funciones del gobierno federal. Cada una será encabezada por un Director Ejecutivo, y estará compuesta por las agencias que establezca el Congreso.
-    - **Departamento del Tesoro:** Encargado de las funciones de administración de las finanzas y la deuda del gobierno federal.
-    - **Departamento de Defensa:** Encargado de las funciones de defensa nacional y la administración de las Fuerzas Armadas.
-    - **Departamento de Asuntos Externos:** Encargado de las funciones diplomáticas y otros asuntos internacionales.
-    - **Departamento de Asuntos Internos:** Encargado de las funciones de administración de territorios federales y otros asuntos internos.
-    - **Departamento de Justicia:** Encargado de la representación legal del gobierno federal y de las funciones relacionadas con la administración de la justicia.
+- **Departamentos Ejecutivos:** El Congreso establecerá los Departamentos Ejecutivos que sean necesarios para la ejecución de las funciones del gobierno federal, y regulará la estructura de cada uno. Los Departamentos Ejecutivos estarán bajo la autoridad del Presidente, y cada uno estará encabezado por un Director Ejecutivo.
 - **Poderes presidenciales:**
     - **Comando militar:** El Presidente debe ser Comandante en Jefe de las Fuerzas Armadas, así como de las Milicias estatales, cuando estén sirviendo a los Estados Unidos de Venezuela.
     - **Asesoría:** El Presidente podrá requerir la opinión escrita de los Directores Ejecutivos acerca de cualquier tema relacionado con sus responsabilidades correspondientes.
@@ -216,13 +218,13 @@ El poder judicial del gobierno federal es conferido en la **Corte Suprema de los
 
 ## Territorios federales
 
-Los **territorios federales** se dividen en tres tipos:
+Los territorios federales se dividen en tres tipos:
 
-- **Territorios no incorporados:** Son aquellos territorios que no pertenecen a ningún estado y están bajo control exclusivo del gobierno federal. Abarca las islas marítimas conocidas actualmente como "dependencias federales", y los territorios que sean adquiridos por el gobierno federal que estén en proceso de convertirse en estados. Su administración será regida por la legislación del Congreso al respecto.
-- **Territorios minarquistas:** Concepto experimental de territorios pequeños regidos por un marco constitucional especial que garantice un gobierno estrictamente limitado sin interferencia política, con el objetivo de intensificar las presiones competitivas contra el crecimiento gubernamental de los estados y municipios, así como servir como ejemplo para estos últimos. La Constitución debe establecer las siguientes reglas para su funcionamiento:
+- **Territorios no incorporados:** Son aquellos territorios que no pertenecen a ningún estado y están bajo control exclusivo del gobierno federal. Abarca las islas marítimas conocidas como "dependencias federales", y los territorios que sean adquiridos por el gobierno federal que estén en proceso de convertirse en estados. Su administración será regida por la legislación del Congreso al respecto.
+- **Territorios minarquistas:** Territorios pequeños administrados por un gobierno especial estrictamente limitado, que se establecen dentro del territorio de los estados y municipios con el objetivo de intensificar las presiones competitivas contra el crecimiento gubernamental. El establecimiento y administración de estos territorios se rige por las siguientes reglas:
     - **Restricciones geográficas:** La superficie de cada territorio minarquista debe ser menor o igual a 2 km², no puede haber más de tres territorios minarquistas en un mismo estado, y deben estar separados entre sí por al menos 1 km.
     - **Estructura del gobierno:** El gobierno de cada territorio minarquista debe consistir de una legislatura, una fuerza policial, y un sistema judicial.
-    - **Legislatura:** Debe consistir de 50 miembros elegidos cada cuatro años por voto popular, con reelección no consecutiva. Sus únicas funciones deben ser: definir el código penal, manejar el presupuesto, administrar y supervisar la fuerza policial, y establecer las cortes del sistema judicial.
+    - **Legislatura:** Debe consistir de 50 miembros elegidos cada cuatro años por selección aleatoria de venezolanos mayores de edad sin antecedentes penales que residan en el territorio. Sus únicas funciones deben ser: definir el código penal, manejar el presupuesto, administrar y supervisar la fuerza policial, y establecer las cortes del sistema judicial.
     - **Fuerza policial:** Debe encargarse de hacer cumplir el código penal y garantizar la seguridad pública básica, permitiendo la competencia de agencias de seguridad del sector privado. Sus miembros deben ser policías profesionales contratados, y su estructura debe ser establecida por la legislatura.
     - **Sistema judicial:** Debe estar constituido por cortes para lidiar con los casos que surjan en el distrito, básicamente acusaciones criminales y demandas civiles. Sus miembros deben ser aprobados por supermayorías de tres cuartos en la asamblea legislativa.
     - **Código penal limitado:** El código penal solo puede definir como crímenes aquellos actos que infrinjan sobre los derechos de vida, libertad y propiedad privada ajenos.

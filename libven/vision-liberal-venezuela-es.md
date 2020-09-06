@@ -24,20 +24,27 @@ A continuación un resumen ejecutivo de mis propuestas, con enlaces a los detall
 > – Thomas Jefferson, Declaración de Independencia de los Estados Unidos (1776)
 
 
-La Constitución venezolana debe basarse en la [Constitución de los Estados Unidos de América](http://constitutionus.com). Como se resume en [este artículo](https://www.downsizinggovernment.org/constitutional-basics), la constitución estadounidense es un documento extraordinariamente bien planificado y estructurado por los Padres Fundadores para limitar al gobierno y proteger los derechos individuales de la tiranía.
+La Constitución venezolana debe basarse en la [Constitución de los Estados Unidos de América](http://constitutionus.com). Como se resume en [este artículo](https://www.downsizinggovernment.org/constitutional-basics), la constitución estadounidense es un documento extraordinariamente bien planificado y estructurado por los Padres Fundadores para limitar al gobierno y proteger los derechos individuales contra la tiranía.
 
-A pesar de sus imperfecciones, la constitución estadounidense es [quizás la carta magna más liberal de la historia humana](https://www.cato.org/sites/cato.org/files/serials/files/supreme-court-review/2009/9/simonlecture-barnett_0.pdf), lo cual hace aun más trágico el gradual proceso de tergiversación, abandono y mutilación que ha sufrido a lo largo de sus más de dos siglos de existencia. Por esos motivos, la Constitución venezolana no solo debe basarse en la estadounidense, sino mejorarla en una dirección incluso más liberal y aprender de los errores históricos de los Estados Unidos para que se mantenga de esa manera.
+A pesar de sus imperfecciones, la constitución estadounidense es [quizás la carta magna más liberal de la historia humana](https://www.cato.org/sites/cato.org/files/serials/files/supreme-court-review/2009/9/simonlecture-barnett_0.pdf), lo cual hace aun más trágico el gradual proceso de tergiversación, mutilación y abandono que ha sufrido. Por eso, la Constitución venezolana no solo debe basarse en la estadounidense, sino mejorarla en una dirección incluso más liberal y aprender de los errores históricos de los Estados Unidos para que se mantenga de esa manera.
+
+La [Constitución Federal de la Confederación Suiza](https://www.admin.ch/opc/en/classified-compilation/19995395/index.html) provee varias ideas interesantes para mejorar el modelo estadounidense, principalmente el mecanismo constitucional de control presupuestario y el uso de referendos.
 
 Al igual que la constitución estadounidense, la Constitución venezolana ideal debería enmarcarse en el [derecho anglosajón](https://en.wikipedia.org/wiki/Common_law), aquel que se deriva de las sentencias judiciales y las interpetaciones que se dan en dichas sentencias sobre las leyes. El derecho anglosajón implica que las cortes tienen la autoridad de interpretar y aplicar la ley a casos particulares, así como castigar, sentenciar y dirigir acciones futuras para resolver disputas.
 
 Puede leer el modelo de Constitución venezolana ideal [aquí](constitucion-venezuela-es). A continuación se resume su contenido:
 
-- Declaración de principios: derechos fundamentales, justicia, imperio de la ley, gobierno limitado, descentralización, inexistencia de poderes no otorgados.
-- Propósito de la Constitución: Establecer la ley suprema de los Estados Unidos de Venezuela en concordancia con la declaración de principios.
-- Protección explícita de libertades civiles y garantías constitucionales.
-- Ciudadanía por nacimiento, naturalización, privilegios y protecciones asociadas.
-- Gobierno federal encargado de la política externa y los territorios federales.
-- Separación de poderes en tres ramas con doctrina de no delegación.
+- **Declaración de principios:** Derechos fundamentales (vida, libertad y propiedad), justicia, imperio de la ley, gobierno limitado, descentralización, e inexistencia de poderes no otorgados.
+- **Propósito de la Constitución:** Establecer la ley suprema de los Estados Unidos de Venezuela en concordancia con la declaración de principios.
+- **Libertades civiles y garantías:** Además de garantizar la protección de los derechos naturales, la Constitución debe listar ciertas libertades civiles, garantías adicionales de seguridad y justicia, y otras prohibiciones a todos los niveles de gobierno. Entre estas destacan la [libertad de expresión](https://www.libertarianism.org/encyclopedia/freedom-speech) y la [libertad de posesión y porte de armas](https://www.libertarianism.org/encyclopedia/right-bear-arms).
+- **Ciudadanía:** Define la ciudadanía por nacimiento, responsabiliza al Congreso de definir el proceso de naturalización, y establece las protecciones asociadas a la ciudadanía y los privilegios políticos de los ciudadanos (poder ejercer el sufragio y cargos públicos).
+- **Gobierno federal:**
+    - Establece un gobierno federal pequeño y limitado, encargado de la política externa (defensa nacional y relaciones internacionales) y de la administración de los territorios federales.
+    - Separación de poderes estricta en tres ramas y con doctrina de no delegación.
+    - Los **poderes legislativos**, limitados y enumerados en la Constitución, se otorgan exclusivamente al Congreso, el cual debe consistir de un Senado y una Asamblea, para representar a los estados y a la población, respectivamente.
+    - El **poder ejecutivo** se otorga al Presidente, y por extensión a los Departamentos Ejecutivos bajo su autoridad, los cuales serán definidos por el Congreso.
+    - El **poder judicial** se otorga a la Corte Suprema, conformada por nueve jueces, y a las cortes inferiores que establezca el Congreso.
+    - 
 - Gobiernos estatales y municipales encargados de la política doméstica.
 - Federalismo competitivo como base de las relaciones interjurisdiccionales.
 - Procedimientos formales de admisión de nuevos estados y secesión de estados existentes.
@@ -142,7 +149,7 @@ Puede leer mis propuestas concretas para la política externa [aquí](politica-e
 &nbsp;
 ## Política doméstica
 
-> "La sociedad en todo estado es una bendición, pero el gobierno incluso en su mejor estado no es más que un mal necesario; en su peor estado es un mal intolerable."
+> "La sociedad en todos los estados es una bendición, pero el gobierno, incluso en su mejor estado, no es más que un mal necesario; en su peor estado uno intolerable."
 >
 > – Thomas Paine, Sentido Común (1776)
 

@@ -3,7 +3,6 @@ layout: post
 title: "Numerical Calculus assignments"
 og_desc: Links to CAL604 assignments made in Jupyter.
 og_image: s8a-thumbnail.png
-date: 2020-04-19 15:00:00 -0400
 category: projects
 ---
 

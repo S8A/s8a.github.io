@@ -3,7 +3,6 @@ layout: post
 title: "I will not complete the SICP book"
 og_desc: There's no point in learning techniques aimlessly.
 og_image: s8a-thumbnail.png
-date: 2019-08-05 11:00:00 -0400
 category: projects
 ---
 I finished section 2.2. of the SICP book last Friday. I decided to not continue with it, for several reasons. Instead, I will complete the HTDP book.

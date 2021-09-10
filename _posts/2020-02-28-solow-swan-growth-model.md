@@ -4,7 +4,6 @@ title: "Solow-Swan growth model"
 og_desc: Interactive document explaining the Solow-Swan economic growth model.
 og_image: umc-iaa-2019-02-hidpi.png
 big_image: solow-swan-growth-model-hidpi.png
-date: 2020-02-28 11:15:00 -0400
 category: projects
 ---
 

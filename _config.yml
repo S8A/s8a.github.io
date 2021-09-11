@@ -27,6 +27,9 @@ paginate: 5
 paginate_path: "/blog/page:num/"
 
 collections:
+  documents:
+    output: true
+    permalink: /:collection/:name/
   programs:
     output: true
     permalink: /:collection/:name/

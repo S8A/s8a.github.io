@@ -14,6 +14,6 @@ find grades by subject, and calculate academic scores."
 find students' grades by subject, make new records, load records from file, 
 update students' records, and delete students' records."
 github: https://github.com/S8A/umc-pro633-crud
-image: umc-pro633-crud-both-demo-diagonal.png
+image: umc-pro633-crud-both-demo.png
 last-update: 2020-04-03
 ---

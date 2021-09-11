@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<h1 class="text-center">
+  {%- if page.icon -%}
+    <img class="d-inline vertical-align-middle me-2" alt="" src="/assets/img/{{ page.icon }}" width="32" height="32">
+  {%- endif -%}
+  {{ page.name }}
+</h1>
+
+<div class="row flex-md-row-reverse align-items-center g-3">
+  <div class="col-md-6">
+    {% if page.image %}
+      <img src="/assets/img/{{ page.image }}" alt="" class="img-fluid">
+    {% endif %}
+  </div>
+
+  <div class="col-md-6">
+    {%- if page.last-update -%}
+      <p class="fst-italic">Last update: {{ page.last-update | date: "%b %Y" }}</p>
+    {%- endif -%}
+    <p>{{ page.summary }}</p>
+    {%- if page.features -%}
+      <ul>
+        {%- for feature in page.features -%}
+          <li>{{ feature }}</li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+    <div class="btn-group">
+      {%- if page.download -%}
+      <a href="{{ page.download }}" class="btn btn-primary" download>Download</a> 
+      {%- endif -%}
+      {%- if page.github -%}
+      <a href="{{ page.github }}" class="btn btn-secondary">GitHub project</a>
+      {%- endif -%}
+    </div>
+  </div>
+</div>

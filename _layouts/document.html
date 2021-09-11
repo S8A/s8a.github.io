@@ -14,8 +14,6 @@ layout: default
   <div class="col-md-6">
     <p class="fst-italic">Published date: {{ page.date | date_to_string }}</p>
     <p>{{ page.summary }}</p>
-    <div>
-      <a href="{{ page.read-url }}" class="btn btn-primary d-block mx-auto">{{ page.read-text }}</a>
-    </div>
+    <p><a href="{{ page.read-url }}" class="btn btn-primary">{{ page.read-text }}</a></p>
   </div>
 </div>

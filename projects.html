@@ -19,7 +19,7 @@ og_image: s8a-thumbnail.png
         {%- endif -%}
 
         <div class="card-body">
-          <h3 class="card-title">{{ program.name }}</h3>
+          <h3 class="card-title fs-5">{{ program.name }}</h3>
           <p class="card-subtitle mb-2 text-muted">Last update: {{ program.last-update | date: "%b %Y" }}</p>
           <p class="card-text">{{ program.summary }}</p>
           <a href="{{ program.url }}" class="card-link">Details</a>
@@ -43,7 +43,7 @@ og_image: s8a-thumbnail.png
         {%- endif -%}
 
         <div class="card-body">
-          <h3 class="card-title">{{ document.name }}</h3>
+          <h3 class="card-title fs-5">{{ document.name }}</h3>
           <p class="card-subtitle mb-2 text-muted">{{ document.date | date_to_string }}</p>
           <p class="card-text">{{ document.summary }}</p>
           <a href="{{ document.url }}" class="card-link">{{ document.read-text }}</a>

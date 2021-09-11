@@ -28,12 +28,12 @@ layout: default
         {%- endfor -%}
       </ul>
     {%- endif -%}
-    <div class="btn-group">
+    <div class="d-grid gap-2 d-md-block">
       {%- if page.download -%}
-      <a href="{{ page.download }}" class="btn btn-primary" download>Download</a> 
+      <a href="{{ page.download }}" class="btn btn-primary me-md-2" download>Download</a> 
       {%- endif -%}
       {%- if page.github -%}
-      <a href="{{ page.github }}" class="btn btn-secondary">GitHub project</a>
+      <a href="{{ page.github }}" class="btn btn-secondary me-md-2">GitHub project</a>
       {%- endif -%}
     </div>
   </div>

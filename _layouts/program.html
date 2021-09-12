@@ -10,15 +10,15 @@ layout: default
 </h1>
 
 <div class="row flex-md-row-reverse align-items-center g-3">
-  <div class="col-md-6">
-    {% if page.image %}
+  {% if page.image %}
+    <div class="col-md-6 mx-auto">
       <img src="/assets/img/{{ page.image }}" alt="" class="img-fluid">
-    {% endif %}
-  </div>
+    </div>
+  {% endif %}
 
-  <div class="col-md-6">
+  <div class="col-md-6 mx-auto">
     {%- if page.last-update -%}
-      <p class="fst-italic">Last update: {{ page.last-update | date: "%b %Y" }}</p>
+      <p><small class="text-muted">Last update: {{ page.last-update | date: "%b %Y" }}</small></p>
     {%- endif -%}
     <p>{{ page.summary }}</p>
     {%- if page.features -%}

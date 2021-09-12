@@ -7,7 +7,7 @@ category: projects
 ---
 I finished section 2.2. of the SICP book last Friday. I decided to not continue with it, for several reasons. Instead, I will complete the HTDP book.
 
-As explained in depth in my previous post, I decided to follow the [Teach Yourself Computer Science guide](https://teachyourselfcs.com/). For the first subject (programming), the author's main recommendation is the classic ["Structure and Interpretation of Computer Programs"](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html).
+As explained in depth in my [previous post]({% post_url 2019-07-12-sicp-first-chapter %}), I decided to follow the [Teach Yourself Computer Science guide](https://teachyourselfcs.com/). For the first subject (programming), the author's main recommendation is the classic ["Structure and Interpretation of Computer Programs"](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html).
 
 I was determined to complete the first three chapters of the book and its exercises, as suggested in the guide. I even created a [Trello](https://trello.com) board to track my progress and a [GitHub repository](https://github.com/S8A/sicp-exercises) to publish my solutions.
 
@@ -25,7 +25,13 @@ Then the authors move on to an in-depth critique of SICP, saying that "although 
 
 They continue by explaining their alternative approach, translated into the HTDP book, which addresses SICP's flaws along four dimensions:
 >First, the book discusses explicitly how programs should be constructed. Second, to tame the complexity of programming, it defines a series of teaching languages based on Scheme that represent five distinct knowledge levels through which students pass during their first course. [...] Third, the book uses exercises to reinforce the explicit guidelines on program design; few, if any, exercises are designed for the sake of domain knowledge. Finally, the book uses more accessible forms of domain knowledge than SICP.
+{: .blockquote .px-5 .py-2}
 
 The publication concludes by showcasing the strong results of implementing the HTDP approach at a dozen colleges and several dozens of high schools. More importantly, it convinced me the HTDP is not just an "easier alternative" to SICP, but a thoroughly thought-out and more effective one.
 
 I decided to complete the HTDP book from beginning to end, starting next Monday. I will use this week to try to make an Android app idea that I had a few weeks ago.
+
+
+*[SICP]: Structure and Interpretation of Computer Programs
+*[HTDP]: How to Design Programs
+*[IDE]: Integrated Development Environment

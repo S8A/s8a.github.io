@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Koditlin: First working version"
-og_desc: Created a simple text editor in Kotlin.
+og_desc: I created a simple text editor in Kotlin.
 og_image: s8a-thumbnail.png
 category: projects
 ---
@@ -13,7 +13,7 @@ The project is in [this GitHub repository](https://github.com/S8A/koditlin).
 
 As I improve my learning of Kotlin, I'll gradually add the following features:
 - Checking if the current file has been saved before creating a new file or opening another one.
-- Save As
-- Find and replace
-- Tabs for multiple files
-- Syntax highlighting (at least for Markdown)
+- Save As.
+- Find and replace.
+- Tabs for multiple files.
+- Syntax highlighting (at least for Markdown).

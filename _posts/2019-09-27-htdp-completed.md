@@ -18,11 +18,17 @@ My solutions to all the 528 exercises are publicly available in [this Github rep
 Now, what will I do next? Before answering, let's see what the authors of HTDP recommend in their epilogue, which is titled "Moving On". For developers and computers scientists, the authors say:
 
 > As a student of program design, your next task is to learn how the design process applies in the setting of a full-fledged programming language.
+{: .blockquote .px-5 .py-2}
 
 Then they hint at object-oriented programming, which is their recommendation for a second course in a computer science curriculum, as explained in [one of their publications](https://www2.ccs.neu.edu/racket/pubs/jfp2004-fffk.pdf). They continue:
 
 > As a student of computing, you will also have to expand your understanding of the computational process. [...] In order to function as a real software engineer, you need to learn what the process costs, at both a theoretical level and a practical one. [...] Above and beyond these basic ideas, you will also need knowledge about hardware, networking, layering of software, and specialized algorithms in various disciplines.
+{: .blockquote .px-5 .py-2}
 
-As mentioned in [another post](2019/07/12/sicp-first-chapter.html), I'm following the [Teach Yourself Computer Science guide](https://teachyourselfcs.com/). Looking at the guide's subject list, you can see that there's some overlap with the aforementioned recommendations. Specifically, the next topic in the guide is computer architecture, followed by algorithms and data structures. Also, computer networking is another big topic.
+As mentioned in [another post]({% post_url 2019-07-12-sicp-first-chapter %}), I'm following the [Teach Yourself Computer Science guide](https://teachyourselfcs.com/). Looking at the guide's subject list, you can see that there's some overlap with the aforementioned recommendations. Specifically, the next topic in the guide is computer architecture, followed by algorithms and data structures. Also, computer networking is another big topic.
 
 Back to the question, what will I do next? As I will have less free time because of the university, I'll probably do a course about Android app development (ideally with Kotlin) and create some app ideas that I've been thinking about (that's the only promise broken from my previous post). Perhaps I'll move on to the computer architecture topic during the December break. No matter what, I'll always be doing something.
+
+
+*[SICP]: Structure and Interpretation of Computer Programs
+*[HTDP]: How to Design Programs

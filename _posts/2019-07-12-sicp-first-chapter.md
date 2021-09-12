@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Completed first chapter of SICP book"
-og_desc: Finished chapter one of a classic programming book.
+og_desc: I finished chapter one of a classic programming book.
 og_image: s8a-thumbnail.png
 category: projects
 ---
@@ -13,14 +13,19 @@ Naturally, I turned this into an opportunity for ambitious self-improvement. I d
 
 With this guide, anyone can give themselves "a world-class CS education without investing years and a small fortune in a degree program". The authors explain which subjects are essential and why, and suggests the best book or video lecture series for each.
 
-Of course, there's still the cost of the time, effort and willpower required to complete all nine subjects. Rational people may ask themselves why go to the trouble at all, and the authors have an answer for that:
+Of course, there's still the cost of the time, effort and willpower required to complete all nine subjects. Rational people may ask themselves why go through the trouble at all, and the authors have an answer for that:
 
 >There are 2 types of software engineer: those who understand computer science well enough to do challenging, innovative work, and those who just get by because they’re familiar with a few high level tools.
 >
 >[...]
 >
 >Currently, the number of people entering the industry is rapidly increasing, while the number of CS grads is essentially static. This oversupply of Type 2 engineers is starting to reduce their employment opportunities and keep them out of the industry’s more fulfilling work. Whether you’re striving to become a Type 1 engineer or simply looking for more job security, learning computer science is the only reliable path.
+{: .blockquote .px-5 .py-2}
 
 The classic SICP is the guide's recommendation for programming, specifically its first three chapters and their exercises. I will complete those three chapters, and ideally the remaining two.
 
 I'm using [Trello](https://trello.com) to track and organise my progress. My planned schedule is one chapter section per week, from Monday to Saturday. Therefore it should take me five weeks to complete chapter 2 and five weeks to complete chapter 3. I'm taking a one week break between each chapter, so I'll finish chapter 2 on August 24th and chapter 3 on October 5th.
+
+
+*[CS]: Computer Science
+*[SICP]: Structure and Interpretation of Computer Programs

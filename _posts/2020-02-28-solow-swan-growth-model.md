@@ -2,7 +2,7 @@
 layout: post
 title: "Solow-Swan growth model"
 og_desc: Link to an interactive document explaining the Solow-Swan economic growth model.
-og_image: umc-iaa-2019-02-hidpi.png
+og_image: solow-swan-growth-model-hidpi.png
 big_image: solow-swan-growth-model-hidpi.png
 category: projects
 ---

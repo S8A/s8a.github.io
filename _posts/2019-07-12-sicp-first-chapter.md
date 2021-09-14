@@ -2,7 +2,6 @@
 layout: post
 title: "Completed first chapter of SICP book"
 og_desc: I finished chapter one of a classic programming book.
-og_image: s8a-thumbnail.png
 category: projects
 ---
 Yesterday, I finished the first chapter of the book *[Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)* and its exercises. My solutions to those exercises are available in [this GitHub repository](https://github.com/S8A/sicp-exercises).

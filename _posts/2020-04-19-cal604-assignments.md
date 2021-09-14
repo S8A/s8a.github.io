@@ -2,7 +2,6 @@
 layout: post
 title: "Numerical Calculus assignments"
 og_desc: Links to Numerical Calculus assignments made in Jupyter.
-og_image: s8a-thumbnail.png
 category: projects
 ---
 

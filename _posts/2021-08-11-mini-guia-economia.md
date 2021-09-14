@@ -2,7 +2,6 @@
 layout: post
 title: "Breve guía introductoria de economía"
 og_desc: Una breve guía de economía que escribí en un chat grupal.
-og_image: s8a-thumbnail.png
 category: personal
 ---
 

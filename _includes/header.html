@@ -1,16 +1,27 @@
 <header>
-  <div id="header-content">
-    <img id="header-logo" src="{{- site.url -}}/assets/img/s8a-logo.svg" alt="">
-    <nav>
-      <ul>
-        {%- for item in site.data.navigation -%}
-          <li {% if page.url == item.link %}class="current"{% endif %}>
-            <a href="{{- item.link -}}">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-md">
+      <a class="navbar-brand" href="/">
+        <img src="{{- site.url -}}/assets/img/s8a-icon.svg" alt="" width="32" height="32">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="navbar-nav me-auto mb-md-0">
+          {%- for item in site.data.navigation -%}
+          <li class="nav-item">
+            {% if page.url == item.link %}
+            <a href="#" class="nav-link active" aria-current="page">
+            {% else %}
+            <a href="{{- item.link -}}" class="nav-link">
+            {% endif %}
               {{- item.name -}}
             </a>
           </li>
-        {%- endfor -%}
-      </ul>
-    </nav>
-  </div>
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </nav>
 </header>

@@ -1,21 +1,14 @@
-<!doctype html>
-<html>
-  <head>
-    {%- include head.html -%}
-    <title>{{ page.title }} – Samuel Ochoa</title>
-  </head>
-  <body>
-    {%- include header.html -%}
-    <main>
-      <section id="post">
-        <h1>{{- page.title -}}</h1>
-        <p class="subtitle">{{ page.date | date_to_string }} – {{ page.category }}</p>
-        {%- if page.big_image -%}
-          <img src="{{ site.url }}/assets/img/{{ page.big_image }}" class="big-image" alt="">
-        {%- endif -%}
-        {{- content -}}
-      </section>
-    </main>
-    {%- include footer.html -%}
-  </body>
-</html>
+---
+layout: default
+---
+
+<section id="post" class="row">
+  <div class="col col-lg-8 mx-auto py-3">
+    <h1 class="text-center">{{- page.title -}}</h1>
+    <p class="text-center text-muted">{{ page.date | date_to_string }} – {{ page.category }}</p>
+    {%- if page.big_image -%}
+      <img src="{{ site.url }}/assets/img/{{ page.big_image }}" class="img-fluid mb-4" alt="">
+    {%- endif -%}
+    {{- content -}}
+  </div>
+</section>

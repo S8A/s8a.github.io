@@ -2,8 +2,6 @@
 layout: post
 title: "Breve guía introductoria de economía"
 og_desc: Una breve guía de economía que escribí en un chat grupal.
-og_image: s8a-thumbnail.png
-date: 2021-08-11 14:30:00 -0400
 category: personal
 ---
 
@@ -11,11 +9,13 @@ El 15 de febrero de este año, unos amigos de la universidad tuvieron una discus
 
 A continuación, reproduzco textualmente el contenido de la guía, con algunos arreglos de formato y una corrección de traducción en un enlace.
 
+&nbsp;
+
+------
 
 &nbsp;
-## Mini-guía de economía
 
-### Recomendación de libro
+## Recomendación de libro
 
 Primero que nada, si van a leer un solo libro de economía en sus vidas, que sea *[Economics in One Lesson](http://leeconomics.com/Literature/Henry%20Hazlitt%20Economics%20in%20One%20Lesson.pdf)* de Henry Hazlitt.
 
@@ -23,13 +23,13 @@ Incluso si ya han leído otros libros, recomiendo que lo lean para que se saquen
 
 
 &nbsp;
-### ¿De qué se trata la economía realmente?
+## ¿De qué se trata la economía realmente?
 
 De cómo los individuos toman decisiones en nuestro mundo de recursos escasos. Que los recursos sean escasos significa que no son infinitos.
 
 
 &nbsp;
-### ¿Cómo se estudia la economía?
+## ¿Cómo se estudia la economía?
 
 La teoría *mainstream* de la economía es la síntesis neoclásica, que en resumen modela a los individuos como agentes económicos que maximizan una función de utilidad propia. Es bastante matemática, lo cual puede ser útil si se sabe manejar bien y de forma honesta, pero también puede oscurecer más de lo que aclara.
 
@@ -40,7 +40,7 @@ Las principales enseñanzas de la escuela austríaca que deben internalizar:
 - **El valor de las cosas es totalmente subjetivo**, es decir, depende de lo que considere y prefiera cada uno. Nótese que el valor de algo no es lo mismo que su precio; compramos algo a un precio si consideramos que su valor es mayor que lo que nos costó obtenerlo (en términos de dinero, tiempo, opciones alternativas, etc).
 - **La clasificación de los bienes:**
   - *Bienes no económicos*, que son tan abundantes que su escasez es casi nula (como el aire).
-  - *Bienes económicos*, que se subdividen en bienes de consumo, que satisfacen necesidades humanas directamente, y bienes de orden superior, que son los insumos o medios de producción de otros bienes.
+  - *Bienes económicos*, los cuales se subdividen en: bienes de consumo, que satisfacen necesidades humanas directamente; y bienes de orden superior, que son los insumos o medios de producción de otros bienes.
 - Los bienes de orden superior no tienen demanda propia, sino una "demanda imputada" en la medida que sean útiles para producir bienes de consumo. Por lo tanto, **los costos no determinan los precios de los bienes finales, sino que los precios de los bienes finales determinan los costos de producción.**
 - Los **empresarios** son individuos que anticipan e identifican los deseos de las personas y buscan satisfacerlos organizando la producción de bienes y servicios; las ganancias del empresario dependen de qué tan bien pueda realizar y coordinar todas estas funciones.
 - El **mercado** no es un lugar estático donde la demanda y la oferta se equilibran exactamente, sino un proceso dinámico y espontáneo que surge de millones de interacciones y relaciones entre empresarios y consumidores.
@@ -53,7 +53,7 @@ Las principales enseñanzas de la escuela austríaca que deben internalizar:
 
 
 &nbsp;
-### ¿Cómo se establecen los precios?
+## ¿Cómo se establecen los precios?
 
 En términos generales, los precios se establecen por la oferta y la demanda, y a su vez afectan a la oferta y la demanda. Sería gastar espacio re-escribir el mecanismo básico que todos conocemos (o deberíamos conocer...), y en todo caso Hazlitt lo explica de forma concisa y elocuente en el capítulo 15 de *[Economics in One Lesson](http://leeconomics.com/Literature/Henry%20Hazlitt%20Economics%20in%20One%20Lesson.pdf)*.
 
@@ -68,7 +68,7 @@ No, los costos de producción no determinan los precios. Como se mencionó anter
 
 
 &nbsp;
-### Ley de Say
+## Ley de Say
 
 Una ley económica fundamental que ha sido tergiversada por muchísimos "intelectuales". No es cierto que dice que "la oferta crea su propia demanda", lo cual sería absurdo y obvio para cualquiera que trate de vender bikinis en la Antártida, por ejemplo. Lo que realmente dice es que **la oferta constituye la demanda** o, en otras palabras, que no puede haber demanda sin oferta. Esto es porque la demanda no es solo lo que la gente desea, sino lo que la gente desea y está dispuesta y capaz de pagar. Por lo tanto, una persona solo puede demandar bienes y servicios si ha producido algo anteriormente y ha sido remunerada por ello, o si ha recibido un préstamo o crédito, que no es más que una promesa de pago a futuro (y por lo tanto producción a futuro); además, el crédito no es infinito, sino que depende de la disponibilidad de fondos ahorrados, es decir, producción previa de otras personas. No hay escapatoria, **no hay almuerzos gratis, no se puede consumir sin producir.**
 
@@ -77,13 +77,13 @@ Una ley económica fundamental que ha sido tergiversada por muchísimos "intelec
 
 
 &nbsp;
-### ¿Por qué veo tanta disfunción económica en el mundo real, fuera de la teoría?
+## ¿Por qué veo tanta disfunción económica en el mundo real, fuera de la teoría?
 
 En el mundo real hay una entidad que interfiere en el mercado y distorsiona todo: el gobierno. No solo el nuestro, todos los gobiernos son fundamentalmente organizaciones coercitivas, pues su función es establecer ordenes sobre los habitantes de un territorio y obligarlos a cumplirlas bajo la amenaza de sanciones, encarcelamiento o ejecución dependiendo del caso. La naturaleza coercitiva del gobierno, y los problemas de incentivos e información que conlleva, introducen distorsiones en el mercado, sus precios, la distribución de la producción y del ingreso, y el comportamiento mismo de las personas, y por lo tanto resultan en la desviación de los recursos a usos sub-óptimos, es decir, más pobreza.
 
 
 &nbsp;
-### ¿Por qué el gobierno no debe intervenir en los mercados? / ¿Por qué el socialismo no funciona?
+## ¿Por qué el gobierno no debe intervenir en los mercados? o ¿Por qué el socialismo no funciona?
 
 Mientras más intervención en el mercado, más distorsiones y desequilibrios en la información y los incentivos que guían las decisiones de producción, consumo, ahorro, inversión, importación, exportación y demás de los agentes económicos, y por lo tanto los recursos no son aprovechados para los usos que proveen más utilidad a las personas, es decir, que todos son más pobres.
 
@@ -92,16 +92,16 @@ El **socialismo**, definido como el control total o casi total de los medios de 
 Además de los problemas de información e incentivos, mientras más se aproxima al socialismo puro, se hace cada vez más evidente el problema fundamental del socialismo explicado por Ludwig von Mises: incluso si todas las personas fueran perfectamente buenas y dedicadas a la causa, y hubiese información perfecta sobre los gustos, tecnologías y recursos existentes, el socialismo no podría funcionar porque el cálculo económico racional es totalmente imposible si no hay propiedad privada e intercambios voluntarios entre diferentes partes con un sistema competitivo de precios; no habría forma de tomar ninguna decisión de cómo, cuándo, dónde, en qué cantidad o por cuáles métodos producir cuáles bienes o servicios, ni cómo asignarlos en qué cantidades a cuáles personas en cuál momento, ni tampoco habría forma de simular las funciones de anticipación y coordinación de los empresarios, los mercados financieros, el mercado del dinero, etc.
 
 **Leer más:**
+- *[El final del socialismo y el debate del cálculo económico reexaminado](https://mises.org/library/end-socialism-and-calculation-debate-revisited-0)*
 - *[El Uso del Conocimiento en la Sociedad](https://www.econlib.org/library/Essays/hykKnw.html)*
 - *[Por qué el gobierno no puede gestionar la sociedad. Parte I](https://www.fff.org/explore-freedom/article/76833/)*
 - *[Por qué el gobierno no puede gestionar la sociedad. Parte II](https://www.fff.org/explore-freedom/article/f-hayek-government-cant-manage-society-part-ii/)*
-- *[El final del socialismo y el debate del cálculo económico reexaminado](https://mises.org/library/end-socialism-and-calculation-debate-revisited-0)*
 
 
 &nbsp;
-### ¿Qué es el dinero y cómo surge?
+## ¿Qué es el dinero y cómo surge?
 
-Se considera **dinero** a cualquier ítem o registro verificable que sirva como **medio de intercambio ampliamente aceptado** en una región geográfica o contexto socio-económico particular. Otras funciones del dinero son como unidad de cuenta y como almacén de valor, pero estas no son necesarias para que algo se considere como dinero. Para ilustrar mejor esto, el bolívar es dinero aunque no sirva para almacenar valor, y el Bitcoin (todavía) no es dinero porque no es ampliamente aceptado como medio de pago.
+Se considera **dinero** a cualquier ítem o registro verificable que sirva como **medio de intercambio ampliamente aceptado** en una región geográfica o contexto socio-económico particular. Otras funciones del dinero son como unidad de cuenta y como almacén de valor, pero estas no son necesarias para que algo se considere como dinero. Para ilustrar mejor esto, el bolívar es dinero aunque no sirva para almacenar valor, mientras que el Bitcoin no es dinero porque no es ampliamente aceptado como medio de pago.
 
 Existen dos teorías que explican el origen del dinero, que aplican en mayor o menor medida dependiendo de cuál caso se esté hablando. La **teoría del origen espontáneo** plantea que en una economía basada en el trueque eventualmente surge un bien como medio de pago ampliamente aceptado por los agentes económicos (usualmente metales preciosos como el oro), porque resuelve la dificultad de intercambiar directamente bienes y servicios heterogéneos. La **teoría del origen estatal** es que ciertos objetos se vuelven dinero porque son exigidos como tributo por alguna entidad coercitiva (una tribu invasora, un bandido estacionario, un monarca o un gobierno).
 
@@ -113,7 +113,7 @@ En todo caso, el dinero y los mercados son instituciones complementarias entre s
 
 
 &nbsp;
-### El problema de los bancos centrales
+## El problema de los bancos centrales
 
 Un banco central no es más que el **monopolio del gobierno sobre la emisión legal de dinero**. Como todo monopolio gubernamental, la planificación central del dinero es sistemáticamente deficiente y frecuentemente catastrófica, pues es imposible que el gobierno pueda determinar de forma racional la oferta adecuada de dinero a lo largo del tiempo ni cómo distribuirlo adecuadamente. Históricamente, los bancos centrales tienen un récord pésimo y siempre se han originado porque beneficia a los gobiernos y sus socios a expensas de la población en general (más detalles sobre esto en la siguiente sección).
 
@@ -126,15 +126,15 @@ Lo ideal sería que el dinero fuera como cualquier otro bien: producido por ente
 
 
 &nbsp;
-### Inflación monetaria e inflación de precios
+## Inflación monetaria e inflación de precios
 
 Históricamente, la palabra "inflación" se refería a la expansión de la oferta monetaria como tal (**inflación monetaria**), pero actualmente suele usarse para referirse a una de sus consecuencias frecuentes: la subida general en el nivel de los precios (**inflación de precios**).
 
 Los gobiernos establecen bancos centrales porque les permiten financiar sus gastos sin tener que establecer impuestos explícitamente. Los gobiernos se financian de tres maneras principales: impuestos, o sea extorsión a la población; deuda pública, que son impuestos a futuro; y emisión monetaria, que le permite al gobierno gastar más de lo que recauda en impuestos y reducir el valor real de sus deudas a expensas del poder adquisitivo del dinero. La inflación monetaria no es más que una transferencia de riqueza al gobierno, producida por el efecto Cantillon.
 
-El **efecto Cantillon** simplemente explica que el dinero entra a la economía por puntos específicos y por lo tanto no es neutral, es decir, que sí afecta la distribución del ingreso y la producción. Cuando el banco central aumenta la oferta monetaria, los primeros receptores de ese nuevo dinero pueden adquirir bienes y servicios con los precios que ya tenían, por lo que su poder adquisitivo aumentó en términos reales; los productores de esos bienes y servicios ajustarán sus precios de forma acorde a la mayor demanda, y usarán el dinero que recibieron para adquirir otros bienes y servicios, y el proceso se repetirá de forma sucesiva hasta que todos los precios se hayan ajustado a la nueva oferta monetaria.
+El **efecto Cantillon** simplemente explica que el dinero entra a la economía por puntos específicos y por lo tanto no es neutral, es decir, que *sí* afecta la distribución del ingreso y la producción. Cuando el banco central aumenta la oferta monetaria, los primeros receptores de ese nuevo dinero pueden adquirir bienes y servicios con los precios que ya tenían, por lo que su poder adquisitivo aumentó en términos reales; los productores de esos bienes y servicios ajustarán sus precios de forma acorde a la mayor demanda, y usarán el dinero que recibieron para adquirir otros bienes y servicios, y el proceso se repetirá de forma sucesiva hasta que todos los precios se hayan ajustado a la nueva oferta monetaria.
 
-El poder adquisitivo de los sucesivos receptores del dinero emitido se reducirá más y más hasta llegar a los últimos receptores, porque cuando lo reciben ya los precios de los bienes y servicios han aumentado en respuesta a la expansión monetaria; es decir, hubo una redistribución de riqueza hacia los primeros receptores del dinero emitido. Entonces, la distribución del ingreso se distorsiona de forma que los primeros receptores del dinero (el gobierno y sus socios) se benefician a expensas de la población en general, y la distribución sectorial de la economía se distorsiona a favor del sector público e industrias asociadas/parasitarias al gobierno, a expensas de los sectores productivos menos asociados a ellos.
+El poder adquisitivo de los sucesivos receptores del dinero emitido se reducirá más y más hasta llegar a los últimos receptores, porque cuando lo reciben ya los precios de los bienes y servicios han aumentado en respuesta a la expansión monetaria; es decir, hubo una redistribución de riqueza hacia los primeros receptores del dinero emitido. Entonces, la distribución del ingreso se distorsiona de forma que los primeros receptores del dinero (el gobierno y sus socios) se benefician a expensas de la población en general, y la distribución sectorial de la economía se distorsiona a favor del sector público y las industrias asociadas o parasitarias al gobierno, a expensas de los sectores productivos menos asociados a ellos.
 
 Esto deja claro que la inflación monetaria no es mala solo porque crea un impuesto escondido sobre el ingreso y los ahorros de la población (inflación de precios), sino que es una **redistribución escondida de la riqueza del sector privado productivo al sector público y mixto parasitario.**
 
@@ -148,7 +148,7 @@ La relación entre la inflación monetaria y la inflación de precios es variabl
 
 
 &nbsp;
-### ¿Qué salió mal en Venezuela y cómo?
+## ¿Qué salió mal en Venezuela y cómo?
 En resumen, prácticamente todo salió mal, de forma predecible, precisamente porque se llevaban décadas de socialismo *light* y luego el chavismo implementó socialismo duro (pero no puro, afortunadamente). El hecho de que el gobierno de Maduro está liberalizando lentamente el modelo económico debe ser de alivio para todos (pero nunca se les debe agradecer).
 
 La causa fundamental de los males de Venezuela es que se implantó un **Estado propietario-patrimonialista**, que pretende ser dueño de todo y controlar directamente la mayor parte de la economía. Para un análisis completo de la historia y las consecuencias reales del Estado propietario-patrimonialista en Venezuela, es imprescindible la lectura del libro *[Por un país de propietarios: El petróleo no tiene la culpa](http://paisdepropietarios.org/propietariosve/portfolio-items/por-un-pais-de-propietarios-el-petroleo-no-tiene-la-culpa/)*.
@@ -165,3 +165,6 @@ La llegada del gobierno de Chávez significó la consolidación y expansión del
 - *[Desastre provocado por el hombre en Venezuela](https://reason.com/2019/07/08/man-made-disaster-in-venezuela/)*
 - *[Venezuela: Socialismo, hiperinflación, y colapso económico](https://www.aier.org/research/venezuela-socialism-hyperinflation-and-economic-collapse/)*
 - *[Lecciones de los devastadores controles de precio de Venezuela](https://ifreetrade.org/?/article/how_price_controls_devastated_venezuelas_economy)*
+
+
+*[BCV]: Banco Central de Venezuela

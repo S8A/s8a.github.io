@@ -16,13 +16,23 @@
 title: Samuel Ochoa
 email: samuelochoap@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Samuel Ochoa, programmer and computer engineering student
+  Samuel Ochoa, software developer and computer engineering student.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://s8a.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: S8A
 
-paginate: 5
-paginate_path: "/blog/page:num/"
+permalink: /:year/:month/:day/:title/
+
+paginate: 12
+paginate_path: "/blog/:num/"
+
+collections:
+  documents:
+    output: true
+    permalink: /:collection/:name/
+  programs:
+    output: true
+    permalink: /:collection/:name/
 
 # Build settings
 markdown: kramdown

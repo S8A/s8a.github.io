@@ -4,7 +4,6 @@ title: "Conway's Game of Life"
 og_desc: I made a simple implementation of the Game of Life in Python.
 og_image: conway-og-image.png
 big_image: conway-big-image.png
-date: 2020-04-20 11:25:00 -0400
 category: projects
 ---
 

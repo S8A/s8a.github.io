@@ -1,0 +1,55 @@
+---
+layout: default
+title: Projects
+og_desc: My personal software and academic projects.
+og_image: s8a-thumbnail.png
+---
+
+<h1 class="text-center">{{ page.title }}</h1>
+
+<section id="programs" class="py-3">
+  <h2>Desktop programs</h2>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 py-3 mb-3">
+    {%- assign programs = site.programs | sort: "last-update" | reverse -%}
+    {%- for program in programs -%}
+    <div class="col">
+      <div class="card shadow-sm">
+        {%- if program.image -%}
+          <img src="/assets/img/{{ program.image }}" alt="" class="card-img-top">
+        {%- endif -%}
+
+        <div class="card-body">
+          <h3 class="card-title fs-5">{{ program.name }}</h3>
+          <p class="card-subtitle mb-2 text-muted">Last update: {{ program.last-update | date: "%b %Y" }}</p>
+          <p class="card-text">{{ program.summary }}</p>
+          <a href="{{ program.url }}" class="card-link">Details</a>
+        </div>
+      </div>
+    </div>
+    {%- endfor -%}
+  </div>
+</section>
+
+<section id="documents" class="py-3">
+  <h2>Documents</h2>
+
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 py-3 mb-3">
+    {%- assign documents = site.documents | sort: "date" | reverse -%}
+    {%- for document in documents -%}
+    <div class="col">
+      <div class="card shadow-sm">
+        {%- if document.image -%}
+          <img src="/assets/img/{{ document.image }}-defaultdpi.png" srcset="/assets/img/{{ document.image }}-hidpi.png 2x" alt="" class="card-img-top">
+        {%- endif -%}
+
+        <div class="card-body">
+          <h3 class="card-title fs-5">{{ document.name }}</h3>
+          <p class="card-subtitle mb-2 text-muted">{{ document.date | date_to_string }}</p>
+          <p class="card-text">{{ document.summary }}</p>
+          <a href="{{ document.url }}" class="card-link">{{ document.read-text }}</a>
+        </div>
+      </div>
+    </div>
+    {%- endfor -%}
+  </div>
+</section>

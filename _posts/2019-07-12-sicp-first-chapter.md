@@ -5,7 +5,7 @@ og_desc: I finished chapter one of a classic programming book.
 og_image: s8a-thumbnail.png
 category: projects
 ---
-Yesterday, I finished the first chapter of the book ["Structure and Interpretation of Computer Programs"](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html) and its exercises. My solutions to those exercises are available in [this GitHub repository](https://github.com/S8A/sicp-exercises).
+Yesterday, I finished the first chapter of the book *[Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)* and its exercises. My solutions to those exercises are available in [this GitHub repository](https://github.com/S8A/sicp-exercises).
 
 This year, due to a series of unfortunate events that only occur in dysfunctional socialist countries like Venezuela, there wasn't any subject available for me to enroll during the intensive period. Therefore, I'm totally free of academic activities since mid-June until early October.
 

@@ -44,7 +44,7 @@ En conclusión, los NFT de por sí no son simples estafas ni tampoco conceptos r
 
 ## Referencias
 
-[^boscovic-2021]: Boscovic, D. (2021). *How nonfungible tokens work and where they get their value – a cryptocurrency expert explains NFTs.* Obtenido de <https://theconversation.com/how-nonfungible-tokens-work-and-where-they-get-their-value-a-cryptocurrency-expert-explains-nfts-157489>
+[^boscovic-2021]: Boscovic, D. (2021). *How nonfungible tokens work and where they get their value -- a cryptocurrency expert explains NFTs.* Obtenido de <https://theconversation.com/how-nonfungible-tokens-work-and-where-they-get-their-value-a-cryptocurrency-expert-explains-nfts-157489>
 [^copeland-2021]: Copeland, T. (2021). *Beeple NFT Artwork Sells for $69.3 Million in Christie’s Auction.* Obtenido de <https://decrypt.co/60971/beeples-nft-artwork-sells-for-60-3-million-in-christies-auction>
 [^gault-pearson-2021]: Gault, M., y Pearson, J. (2021). *What the Hell Is ‘Right-Clicker Mentality’?* Obtenido de <https://www.vice.com/en/article/5dgzed/what-the-hell-is-right-clicker-mentality>
 [^kinsella-2008]: Kinsella, N. S. (2008). *Against Intellectual Property.* Auburn, AL: Ludwig von Mises Institute. Obtenido de <https://mises.org/library/against-intellectual-property-0>

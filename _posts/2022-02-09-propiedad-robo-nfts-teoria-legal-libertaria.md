@@ -53,8 +53,8 @@ En conclusión, los NFT de por sí no son meras estafas ni tampoco conceptos rev
 [^kinsella-2008]: Kinsella, N. S. (2008). *Against Intellectual Property.* Auburn, AL: Ludwig von Mises Institute. Obtenido de <https://mises.org/library/against-intellectual-property-0>
 [^kramer-phillips-graves-2022]: Kramer, M., Phillips, D., y Graves, S. (2022). *Beginner’s Guide to NFTs: What Are Non-Fungible Tokens?* Obtenido de <https://decrypt.co/resources/non-fungible-tokens-nfts-explained-guide-learn-blockchain>
 [^hussey-phillips-2021]: Hussey, M., y Phillips, D. (2021). *What Are Smart Contracts and How Do They Work?* Obtenido de <https://decrypt.co/resources/smart-contracts>
-[^mayer-lux-oliver-calderon-2020]: Mayer Lux, L., & Oliver Calderón, G. (2020). El delito de fraude informático: Concepto y delimitación. *Revista Chilena de Derecho y Tecnología*, 9(1), 151-184. <https://dx.doi.org/10.5354/0719-2584.2020.57149>
-[^mayer-lux-vera-vega-2020]: Mayer Lux, L., & Vera Vega, J. (2020). El delito de espionaje informático: Concepto y delimitación. *Revista Chilena de Derecho y Tecnología*, 9(2), 221-256. <https://dx.doi.org/10.5354/0719-2584.2020.59236>
+[^mayer-lux-oliver-calderon-2020]: Mayer Lux, L., y Oliver Calderón, G. (2020). El delito de fraude informático: Concepto y delimitación. *Revista Chilena de Derecho y Tecnología*, 9(1), 151-184. <https://dx.doi.org/10.5354/0719-2584.2020.57149>
+[^mayer-lux-vera-vega-2020]: Mayer Lux, L., y Vera Vega, J. (2020). El delito de espionaje informático: Concepto y delimitación. *Revista Chilena de Derecho y Tecnología*, 9(2), 221-256. <https://dx.doi.org/10.5354/0719-2584.2020.59236>
 [^nonfungible-2020]: *NFT Yearly Report 2020.* (2020). NonFungible Corporation. Obtenido de <https://nonfungible.com/subscribe/nft-report-2020>
 [^ethereum-2022]: *Non-fungible tokens (NFT).* (2022). Ethereum.org. Recuperado el 8 de febrero de 2022 de <https://ethereum.org/en/nft/>
 [^rothbard-1998]: Rothbard, M. N. (1998). *The Ethics of Liberty* (2da ed.). New York, NY: NYU Press. Obtenido de <https://mises.org/files/ethics-libertyepub>

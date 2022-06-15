@@ -33,6 +33,9 @@ collections:
   programs:
     output: true
     permalink: /:collection/:name/
+  websites:
+    output: true
+    permalink: /:collection/:name/
 
 # Build settings
 markdown: kramdown

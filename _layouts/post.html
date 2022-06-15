@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<section id="post" class="row">
-  <div class="col col-lg-8 mx-auto py-3">
+<div class="row">
+  <article id="post" class="col col-lg-8 mx-auto py-3">
     <h1 class="text-center">{{- page.title -}}</h1>
-    <p class="text-center text-muted">{{ page.date | date_to_string }} &ndash; {{ page.category }}</p>
+    <p class="text-center text-muted"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time> &ndash; {{ page.category }}</p>
     {%- if page.big_image -%}
-      <img src="{{ site.url }}/assets/img/{{ page.big_image }}" class="img-fluid mb-4" alt="">
+      <img src="{{ site.url }}/assets/img/{{ page.big_image }}" class="img-fluid mb-4" alt="{{ page.big_image_alt }}">
     {%- endif -%}
     {{- content -}}
-  </div>
-</section>
+  </article>
+</div>

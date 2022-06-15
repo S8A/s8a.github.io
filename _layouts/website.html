@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<h1 class="text-center">{{ page.name }}</h1>
+
+<div class="row flex-md-row-reverse align-items-center g-3">
+  {% if page.image %}
+    <div class="col-md-6 mx-auto">
+      <img src="/assets/img/{{ page.image }}-defaultdpi.png" srcset="/assets/img/{{ page.image }}-hidpi.png 2x" alt="" class="img-fluid">
+    </div>
+  {% endif %}
+
+  <div class="col-md-6 mx-auto">
+    {%- if page.last-update -%}
+      <p><small class="text-muted">Last update: {{ page.last-update | date: "%b %Y" }}</small></p>
+    {%- endif -%}
+    <p>{{ page.summary }}</p>
+    {%- if page.features -%}
+      <ul>
+        {%- for feature in page.features -%}
+          <li>{{ feature }}</li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+    <div class="d-grid gap-2 d-md-block">
+      {%- if page.website-url -%}
+      <a href="{{ page.website-url }}" class="btn btn-primary me-md-2">{{ page.go-text | default: "Go to website" }}</a> 
+      {%- endif -%}
+      {%- if page.github -%}
+      <a href="{{ page.github }}" class="btn btn-secondary me-md-2">GitHub project</a>
+      {%- endif -%}
+    </div>
+  </div>
+</div>

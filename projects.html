@@ -7,6 +7,30 @@ og_image: s8a-thumbnail.png
 
 <h1 class="text-center">{{ page.title }}</h1>
 
+<section id="websites" class="py-3">
+  <h2>Websites</h2>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 py-3 mb-3">
+    {%- assign websites = site.websites | sort: "last-update" | reverse -%}
+    {%- for website in websites -%}
+    <div class="col">
+      <div class="card shadow-sm">
+        {%- if website.image -%}
+          <img src="/assets/img/{{ website.image }}-defaultdpi.png" srcset="/assets/img/{{ website.image }}-hidpi.png 2x" alt="" class="card-img-top">
+        {%- endif -%}
+
+        <div class="card-body">
+          <h3 class="card-title fs-5">{{ website.name }}</h3>
+          <p class="card-subtitle mb-2 text-muted">Last update: {{ website.last-update | date: "%b %Y" }}</p>
+          <p class="card-text">{{ website.summary }}</p>
+          <a href="{{ website.website-url }}" class="card-link">{{ website.go-text }}</a>
+          <a href="{{ website.url }}" class="card-link">Details</a>
+        </div>
+      </div>
+    </div>
+    {%- endfor -%}
+  </div>
+</section>
+
 <section id="programs" class="py-3">
   <h2>Desktop programs</h2>
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 py-3 mb-3">

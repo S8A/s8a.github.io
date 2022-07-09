@@ -14,4 +14,5 @@ features:
 - "Training session detail page with buttons to update or delete the record."
 go-text: Go to web-app
 website-url: https://s8a-training.web.app
+github: https://github.com/S8A/umc-prw703-proyecto
 ---

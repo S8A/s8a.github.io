@@ -4,7 +4,7 @@ title: 8A Training
 og_desc: Simple web-app for logging training sessions.
 image: s8a-training
 name: 8A Training
-last-update: 2022-04-05
+last-update: 2022-07-09
 summary: Simple web-app for logging training sessions.
 features:
 - "Uses Google Firebase as hosting and backend provider."

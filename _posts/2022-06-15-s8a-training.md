@@ -2,19 +2,19 @@
 layout: post
 title: "8A Training"
 og_desc: Two months ago, I made a simple web-app for logging training sessions.
-og_image: s8a-training-hidpi.png
-big_image: s8a-training-hidpi.png
+og_image: s8a-training-v4.0.1-hidpi.png
+big_image: s8a-training-v4.0.1-hidpi.png
 big_image_alt: Screenshots of the web-app on a mobile phone.
 category: projects
 ---
 
-Two months ago, I completed my project for the Web Programming (PRW703) class at the UMC: 8A Training, a simple web-app for logging training sessions. It can be accessed [here](https://s8a-training.web.app) (it's in Spanish). The GitHub repository of the project is private, for security reasons.
+Two months ago, I completed my project for the Web Programming (PRW703) class at the UMC: 8A Training, a simple web-app for logging training sessions. It can be accessed [here](https://s8a-training.web.app/) (it's in Spanish). The GitHub repository of the project is private, for security reasons.
 
 The assignment was to design and develop a website, of any kind and purpose, in four stages:
 1. Basic website using vanilla HTML and CSS.
 2. Adding JavaScript for dynamism and form validation.
 3. Using a CSS framework to improve the design.
-4. Using a backend like [Google Firebase](https://firebase.google.com) for hosting and/or data storage.
+4. Using a backend like [Google Firebase](https://firebase.google.com/) for hosting and/or data storage.
 
 Each stage had to be marked with a tag in the VCS.
 

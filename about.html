@@ -1,31 +1,42 @@
 ---
 layout: default
 title: About me
-og_desc: A summary of who I am, what I can do, what I've done, etc.
+og_desc: A summary of who I am, what I can do, and what I've worked on.
 ---
 
-<h1 class="text-center">{{ page.title }}</h1>
+{% assign birth_date = "2000-09-07" | date: '%s' %}
+{% assign now_timestamp = 'now' | date: '%s' %}
+{% assign age_seconds = now_timestamp | minus: birth_date %}
+{% assign age_days = age_seconds | divided_by: 3600 | divided_by: 24 %}
+{% assign age_years = age_days | divided_by: 365 | floor %}
 
-<div class="row row-cols-1 row-cols-md-2 g-4">
-  <div class="col">
-    <div id="basic-information" class="card shadow-sm h-100">
-      <div class="card-body">
-        <h2 class="card-title fs-5">Basic information</h2>
+<div class="row g-4 mb-4">
+  <div class="col-12 col-md-4 col-lg-3 text-center">
+    <img src="/assets/img/s8a-20200107-defaultdpi.jpg" srcset="/assets/img/s8a-20200107-hidpi.jpg 2x, /assets/img/s8a-20200107-higherdpi.jpg 4x" alt="Picture of Samuel Ochoa on January 7, 2020." class="img-fluid" loading="lazy">
+  </div>
+  <div class="col-12 col-md-8 col-lg-9">
+    <h1 class="display-5 fw-bold">Samuel Ochoa</h1>
+    <p class="lead">I'm a computer engineering student at the <a href="http://www.umc.edu.ve/"><em>Universidad Marítima del Caribe</em> (UMC)</a>. I've worked as a software developer both as an employee and as a freelancer, besides coding for <a href="/projects/">personal projects</a>. I started to teach myself how to code and make websites when I was 13 years old, and I also taught myself to become <a href="https://www.efset.org/cert/eYSfA6">very proficient</a> in English.</p>
+    <p>
+      <a href="https://t.me/samuelochoap" class="btn btn-outline-primary"><i class="bi-telegram"></i> Telegram</a>
+      <a href="mailto:samuelochoap@gmail.com" class="btn btn-outline-primary"><i class="bi-envelope"></i> Email</a>
+    </p>
+  </div>
+</div>
+<div class="row g-4">
+  <div class="col-12 col-md-4">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="fs-4">Basic data</h2>
         <ul>
-          <li>I was born in Caracas, Venezuela on September 7th, 2000.</li>
-          <li>I've been living most of my life in a small town in the state of Vargas.</li>
-          <li>I studied in a local Catholic private school, for both my elementary and secondary education.</li>
-          <li>Since 2017, I've been studying computer engineering at the <a href="http://www.umc.edu.ve/"><em>Universidad Marítima del Caribe</em> (UMC)</a>.</li>
-          <li>My native language is Spanish, and I taught myself to become <a href="https://www.efset.org/cert/eYSfA6">very proficient</a> in English.</li>
-          <li>I started to learn by myself how to code and make websites since I was about 13 years old.</li>
+          <li><b>Birth date:</b> {{ birth_date | date: "%B %e, %Y" }} ({{ age_years }} years old).</li>
+          <li><b>Country of birth:</b> Venezuela.</li>
+          <li><b>Country of residence:</b> Venezuela.</li>
+          <li><b>Languages:</b> Spanish (native), English (proficient)</li>
         </ul>
       </div>
-    </div>
-  </div>
-  <div class="col">
-    <div id="skills" class="card shadow-sm h-100">
-      <div class="card-body">
-        <h2 class="card-title fs-5">Skills</h2>
+      <div class="col-12">
+        <h2 class="fs-4">Skills</h2>
         <ul>
           <li>Programming in multiple languages: Python mostly, but I've also used Java, C++ and Kotlin.</li>
           <li>Vanilla full-stack web development (HTML, CSS, JavaScript, and some PHP).</li>
@@ -37,19 +48,44 @@ og_desc: A summary of who I am, what I can do, what I've done, etc.
           <li>Proficiency in mathematics and to a lesser extent in statistics and physics.</li>
         </ul>
       </div>
+      <div class="col-12">
+        <h2 class="fs-4">Other interests</h2>
+        <ul>
+          <li>Weight-lifting.</li>
+          <li>Metal and rock music.</li>
+          <li>Reading.</li>
+        </ul>
+      </div>
     </div>
   </div>
-  <div class="col">
-    <div id="work-experience" class="card shadow-sm h-100">
+  <div class="col-12 col-md-8">
+    <h2 class="fs-4">Work experience</h2>
+    <div class="card shadow-sm mb-2">
       <div class="card-body">
-        <h2 class="card-title fs-5">Work experience</h2>
-        <ul>
-          <li><b>2018:</b> Installation of cybercafe control software for the cybercafe adjacent to the UMC.</li>
-          <li><b>October 2019 &ndash; present:</b> Employed as technical support for the computer labs and the navigation simulator at the UMC.</li>
-          <li><b>February 2021 &ndash; April 2021:</b> Development of a management system for facial recognition doorway devices, for the biometric tech company TelComSis.</li>
-          <li><b>May 2021 &ndash; December 2021:</b> Employed as junior full stack developer at the crypto exchange company Cryptobuyer.</li>
-          <li><b>January 2022:</b> Developed a simple product list web app for a local business and deployed it on Heroku.</li>
-        </ul>
+        <h3 class="card-title fs-5">Freelance job &ndash; Totto Market</h3>
+        <p class="card-subtitle">January 2022</p>
+        <p class="card-text">I developed a simple Django web app for Totto Market, a local convenience store, and deployed it on Heroku. The web app consists of a product list, a list of customers with bills pending payment, and forms for uploading the data, which is exported from the business's accounting software at the end of each day.</p>
+      </div>
+    </div>
+    <div class="card shadow-sm mb-2">
+      <div class="card-body">
+        <h3 class="card-title fs-5">Junior full-stack developer &ndash; <a href="https://cryptobuyer.io/">Cryptobuyer</a></h3>
+        <p class="card-subtitle">May 2021 &ndash; December 2021</p>
+        <p class="card-text">I worked on the implementation of part of the database models, backend API code, and frontend UI for the crypto exchange platform's pro version, Cryptobuyer Pro. Unfortunately, the company had a change of ownership, the project was shelved, and I was laid off.</p>
+      </div>
+    </div>
+    <div class="card shadow-sm mb-2">
+      <div class="card-body">
+        <h3 class="card-title fs-5">Freelance job &ndash; <a href="http://www.telcomsis.com.ve/">TelComSis</a></h3>
+        <p class="card-subtitle">February 2021 &ndash; April 2021</p>
+        <p class="card-text">I developed a management system for facial recognition doorway devices for TelComSis, a biometric tech company. The system consists of a program which communicates with the devices through MQTT messages to record and sync their data automatically, and a Django web app to manage the records of persons, accesses granted and denied, snapshots, etc.</p>
+      </div>
+    </div>
+    <div class="card shadow-sm mb-2">
+      <div class="card-body">
+        <h3 class="card-title fs-5">Technical support &ndash; <a href="http://www.umc.edu.ve/"><em>Universidad Marítima del Caribe</em> (UMC)</a></h3>
+        <p class="card-subtitle">October 2019 &ndash; present</p>
+        <p class="card-text">I've been employed as technical support for the computer labs and the navigation simulator at the UMC since I was in 4th semester. My work consists of solving computer malfunctions, creating hard drive backups, keeping track of the computer labs' inventory, and keeping the labs' computers' software up to date.</p>
       </div>
     </div>
   </div>

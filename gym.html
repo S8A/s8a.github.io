@@ -7,225 +7,102 @@ og_image: s8a-thumbnail.png
 
 <h1 class="text-center fw-bold">Gym</h1>
 
-<h2 class="text-center">Training routines</h2>
+<section id="training-routines">
+  <h2 class="text-center">Training routines</h2>
 
-<section>
-  <h3>Modified r/Fitness Basic Beginner Routine</h3>
+  {% for routine in site.data.training-routines %}
+  <section id="{{ routine.id }}">
+    <h3>{{ routine.title }}</h3>
   
-  <ul>
-    <li>For men.</li>
-    <li>Beginner level.</li>
-    <li>
-      <a href="https://thefitness.wiki/routines/r-fitness-basic-beginner-routine/">Original routine</a>.
-    </li>
-    <li>Modified exercises marked with asterisks.</li>
-  </ul>
+    {% if routine.general-info %}
+    <ul>
+      {% for item in routine.general-info %}
+      <li>
+        {% if item.url %}
+        <a href="{{ item.url }}">{{ item.text }}</a>
+        {% else %}
+        {{ item.text }}
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
   
-  <div class="row g-4 mb-4">
-    <div class="col-12 col-md-6">
-      <h4>Workout A</h4>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Barbell row</h5>
-          <p class="card-subtitle mb-2 text-muted">3 sets, 5 reps, last set <abbr title="As many reps as possible.">AMRAP</abbr>.</p>
-          <ul class="mb-0">
-            <li><a href="https://stronglifts.com/barbell-row/">Guide at StrongLifts</a>.</li>
-            <li><a href="https://exrx.net/WeightExercises/BackGeneral/BBBentOverRow">Exercise information at ExRx</a>.</li>
-          </ul>
+    {% if routine.workouts %}
+    <div class="row g-4 mb-4">
+      {% for workout in routine.workouts %}
+      {% assign workout_id = routine.id | append: "-" | append: workout.id %}
+      <div class="col-12 col-md-6" id="{{ workout_id }}">
+        <h4>{{ workout.title }}</h4>
+        {% for exercise in workout.exercises %}
+        {% assign exercise_id = workout_id | append: "-" | append: forloop.index %}
+        {% assign details_id = exercise_id | append: "-details" %}
+        <div class="card mb-2" id="{{ exercise_id }}">
+          <div class="card-body">
+            {% if exercise.original-exercise or exercise.details or exercise.alternative-exercises %}
+            <button class="btn btn-sm btn-outline-primary float-end" type="button" data-bs-toggle="collapse" data-bs-target="#{{ details_id }}" aria-expanded="false" aria-controls="{{ details_id }}" aria-label="Mostrar detalles" title="Mostrar detalles">
+              <i class="bi-info-circle-fill"></i>
+            </button>
+            {% endif %}
+            <h5 class="card-title">{{ exercise.name }}</h5>
+            <p class="card-subtitle mb-2 text-muted">{{ exercise.sets-reps }}</p>
+            {% if exercise.original-exercise or exercise.details or exercise.alternative-exercises %}
+            <ul class="mb-0 collapse" id="{{ details_id }}">
+              {% if exercise.original-exercise %}
+              {% assign original = exercise.original-exercise %}
+              <li>
+                {% if original.links %}
+                Original exercise: {{ original.name }} 
+                {% for link in original.links %}
+                {% if forloop.first %} ({% endif %}<a href="{{ link.url }}">{{ link.text }}</a>{% if forloop.last %}).{% else %}, {% endif %}
+                {% endfor %}
+                {% else %}
+                Original exercise: {{ original.name }}.
+                {% endif %}
+              </li>
+              {% endif %}
+              {% for item in exercise.details %}
+              <li>
+                {% if item.url %}
+                <a href="{{ item.url }}">{{ item.text }}</a>
+                {% else %}
+                {{ item.text }}
+                {% endif %}
+              </li>
+              {% endfor %}
+              {% if exercise.alternative-exercises %}
+              <li>
+                Alternative exercises:
+                <ul>
+                  {% for alternative in exercise.alternative-exercises %}
+                  <li>
+                    {% if alternative.links %}
+                    {{ alternative.name }} 
+                    {% for link in alternative.links %}
+                    {% if forloop.first %} ({% endif %}<a href="{{ link.url }}">{{ link.text }}</a>{% if forloop.last %}).{% else %}, {% endif %}
+                    {% endfor %}
+                    {% else %}
+                    {{ alternative.name }}
+                    {% endif %}
+                  </li>
+                  {% endfor %}
+                </ul>
+              </li>
+              {% endif %}
+            </ul>
+            {% endif %}
+          </div>
         </div>
-      </div>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Push-up *</h5>
-          <p class="card-subtitle mb-2 text-muted">3 sets, 10 reps, last set <abbr title="As many reps as possible.">AMRAP</abbr>.</p>
-          <ul class="mb-0">
-            <li>Original exercise: Bench press (<a href="https://exrx.net/WeightExercises/PectoralSternal/BBBenchPress">ExRx</a>, <a href="https://stronglifts.com/overhead-press/">StrongLifts</a>, <a href="https://www.strongerbyscience.com/how-to-bench/">Greg Nuckols</a>).</li>
-            <li><a href="https://nick-e.com/push-up/">Guide by Nick Elorreaga</a>.</li>
-          </ul>
+        {% else %}
+        <div class="alert alert-danger" role="alert">
+          No exercises found
         </div>
+        {% endfor %}
       </div>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Squat</h5>
-          <p class="card-subtitle mb-2 text-muted">3 sets, 5 reps, last set <abbr title="As many reps as possible.">AMRAP</abbr>.</p>
-          <ul class="mb-0">
-            <li><a href="https://www.strongerbyscience.com/how-to-squat/">In-depth guide by Greg Nuckols</a>.</li>
-            <li><a href="https://stronglifts.com/squat/">Guide at StrongLifts</a>.</li>
-            <li><a href="https://exrx.net/WeightExercises/Quadriceps/BBSquat">Exercise information at ExRx</a>.</li>
-            <li>
-              Alternative exercises:
-              <ul class="mb-0">
-                <li>Front squat (<a href="https://exrx.net/WeightExercises/Quadriceps/BBFrontSquat">ExRx</a>).</li>
-                <li>Hack squat (<a href="https://exrx.net/WeightExercises/Quadriceps/BBHackSquat">ExRx</a>).</li>
-                <li>Zercher squat (<a href="https://exrx.net/WeightExercises/Quadriceps/BBZercherSquat">ExRx</a>).</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+      {% endfor %}
     </div>
-    <div class="col-12 col-md-6">
-      <h4>Workout B</h4>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Barbell row *</h5>
-          <p class="card-subtitle mb-2 text-muted">3 sets, 5 reps, last set <abbr title="As many reps as possible.">AMRAP</abbr>.</p>
-          <ul class="mb-0">
-            <li>Original exercise: Pull-up (<a href="https://exrx.net/WeightExercises/LatissimusDorsi/BWPullup">ExRx</a>, <a href="https://nick-e.com/pull-up/">Nick Elorreaga</a>).</li>
-            <li><a href="https://stronglifts.com/barbell-row/">Guide at StrongLifts</a>.</li>
-            <li><a href="https://exrx.net/WeightExercises/BackGeneral/BBBentOverRow">Exercise information at ExRx</a>.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Overhead press</h5>
-          <p class="card-subtitle mb-2 text-muted">3 sets, 5 reps, last set <abbr title="As many reps as possible.">AMRAP</abbr>.</p>
-          <ul class="mb-0">
-            <li><a href="https://stronglifts.com/overhead-press/">Guide at StrongLifts</a>.</li>
-            <li><a href="https://exrx.net/WeightExercises/DeltoidAnterior/BBMilitaryPress">Exercise information at ExRx</a>.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Deadlift</h5>
-          <p class="card-subtitle mb-2 text-muted">3 sets, 5 reps, last set <abbr title="As many reps as possible.">AMRAP</abbr>.</p>
-          <ul class="mb-0">
-            <li><a href="https://www.strongerbyscience.com/how-to-deadlift/">In-depth guide by Greg Nuckols</a>.</li>
-            <li><a href="https://stronglifts.com/deadlift/">Guide at StrongLifts</a>.</li>
-            <li><a href="https://exrx.net/WeightExercises/ErectorSpinae/BBDeadlift">Exercise information at ExRx</a>.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    {% endif %}
+  </section>
+  {% endfor %}
 
-<section>
-  <h3>Modified Strong Curves Weeks 1-4 routine</h3>
-
-  <ul>
-    <li>For women.</li>
-    <li>Beginner level.</li>
-    <li><a href="https://www.amazon.com/Strong-Curves-Womans-Building-Better/dp/1936608642">Original routine by Bret Contreras</a>.</li>
-    <li>Source used: <a href="https://docs.google.com/spreadsheets/d/1ghaT_a63nwDIDNgSEmNWhVdWdeM9b8N4hD-kYEMd3Zg/edit#gid=1409917690">spreadsheet by Reddit user</a>.</li>
-  </ul>
-  
-  <div class="row g-4 md-4">
-    <div class="col-12 col-md-6">
-      <h4>Workout A</h4>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Glute bridge</h5>
-          <p class="card-subtitle mb-2 text-muted">3 sets, 10 reps, last set 20 reps.</p>
-          <ul class="mb-0">
-            <li><a href="https://www.coachmag.co.uk/glute-exercises/2333/glute-bridge-how-to-do-it-benefits-and-variations">Guide at Coach magazine</a>.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Dumbbell row</h5>
-          <p class="card-subtitle mb-2 text-muted">3 sets, 8 reps each side, last set 12 reps each side.</p>
-          <ul class="mb-0">
-            <li><a href="https://exrx.net/WeightExercises/BackGeneral/DBBentOverRow">Exercise information at ExRx</a>.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Weighted front squat</h5>
-          <p class="card-subtitle mb-2 text-muted">3 sets, 10 reps, last set 20 reps.</p>
-          <ul class="mb-0">
-            <li><a href="https://exrx.net/WeightExercises/GluteusMaximus/WTFrontSquat">Exercise information at ExRx</a>.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Incline push-up</h5>
-          <p class="card-subtitle mb-2 text-muted">3 sets, 8 reps, last set 12 reps.</p>
-          <ul class="mb-0">
-            <li><a href="https://exrx.net/WeightExercises/PectoralSternal/BWInclinePushup">Exercise information at ExRx</a>.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Romanian deadlift</h5>
-          <p class="card-subtitle mb-2 text-muted">3 sets, 10 reps, last set 20 reps.</p>
-          <ul class="mb-0">
-            <li><a href="https://exrx.net/WeightExercises/OlympicLifts/RomanianDeadlift">Exercise information at ExRx</a>.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Side lying hip abduction</h5>
-          <p class="card-subtitle mb-2 text-muted">1 set, 15-30 reps each side.</p>
-          <ul class="mb-0">
-            <li><a href="https://www.verywellfit.com/side-lying-hip-abductions-techniques-benefits-variations-4783963">Guide at VeryWell Fit</a>.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-md-6">
-      <h4>Workout B</h4>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Single leg hip bridge</h5>
-          <p class="card-subtitle mb-2 text-muted">3 sets, 10 reps each side, last set 20 reps each side.</p>
-          <ul class="mb-0">
-            <li><a href="https://exrx.net/WeightExercises/GluteusMaximus/BWLyingHipExtension">Exercise information at ExRx</a>.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Dumbbell row</h5>
-          <p class="card-subtitle mb-2 text-muted">3 sets, 8 reps each side, last set 12 reps each side.</p>
-          <ul class="mb-0">
-            <li><a href="https://exrx.net/WeightExercises/BackGeneral/DBBentOverRow">Exercise information at ExRx</a>.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Dumbbell step-up</h5>
-          <p class="card-subtitle mb-2 text-muted">3 sets, 10 reps each side, last set 20 reps each side.</p>
-          <ul class="mb-0">
-            <li><a href="https://exrx.net/WeightExercises/Quadriceps/DBStepUp">Exercise information at ExRx</a>.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Dumbbell shoulder press</h5>
-          <p class="card-subtitle mb-2 text-muted">3 sets, 8 reps, last set 12 reps.</p>
-          <ul class="mb-0">
-            <li><a href="https://exrx.net/WeightExercises/DeltoidAnterior/DBShoulderPress">Exercise information at ExRx</a>.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Bird dog</h5>
-          <p class="card-subtitle mb-2 text-muted">3 sets, 10 reps, last set 20 reps.</p>
-          <ul class="mb-0">
-            <li><a href="https://exrx.net/WeightExercises/ErectorSpinae/BWBirdDog">Exercise information at ExRx</a>.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="card mb-2">
-        <div class="card-body">
-          <h5 class="card-title">Side lying hip abduction</h5>
-          <p class="card-subtitle mb-2 text-muted">1 set, 15-30 reps each side.</p>
-          <ul class="mb-0">
-            <li><a href="https://www.verywellfit.com/side-lying-hip-abductions-techniques-benefits-variations-4783963">Guide at VeryWell Fit</a>.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>

@@ -92,11 +92,12 @@
   general-info:
     - text: "Beginner level."
     - text: "For women."
-    - text: "Original routine in book by Bret Contreras."
+    - text: "Original routine in book by Bret Contreras and Kellie Davis."
       url: https://www.amazon.com/Strong-Curves-Womans-Building-Better/dp/1936608642
     - text: "Routine spreadsheet used as source."
       url: https://docs.google.com/spreadsheets/d/1ghaT_a63nwDIDNgSEmNWhVdWdeM9b8N4hD-kYEMd3Zg/edit#gid=1409917690
-    - text: "Only two workouts (A, B) instead of three (A, B, C)."
+    - text: "Only two workouts (A and B) instead of three."
+    - text: "Replaced exercises marked with asterisks."
   workouts:
     - id: "a"
       title: "Workout A"
@@ -111,13 +112,23 @@
           details:
             - text: "Exercise information at ExRx."
               url: https://exrx.net/WeightExercises/BackGeneral/DBBentOverRow
-        - name: "Weighted front squat"
+        - name: "Weighted front squat*"
           sets-reps: "3 sets, 10 reps, last set 20 reps."
+          original-exercise:
+            name: "Box squat"
+            links:
+              - text: "ExRx"
+                url: https://exrx.net/WeightExercises/GluteusMaximus/BBBoxSquat
           details:
             - text: "Exercise information at ExRx."
               url: https://exrx.net/WeightExercises/GluteusMaximus/WTFrontSquat
-        - name: "Incline push-up"
+        - name: "Incline push-up*"
           sets-reps: "3 sets, 8 reps, last set 12 reps."
+          original-exercise:
+            name: "Dumbbell bench press"
+            links:
+              - text: "ExRx"
+                url: https://exrx.net/WeightExercises/PectoralSternal/DBBenchPress
           details:
             - text: "Exercise information at ExRx."
               url: https://exrx.net/WeightExercises/PectoralSternal/BWInclinePushup
@@ -139,8 +150,13 @@
           details:
             - text: "Exercise information at ExRx."
               url: https://exrx.net/WeightExercises/GluteusMaximus/BWLyingHipExtension
-        - name: "Dumbbell row"
+        - name: "Dumbbell row*"
           sets-reps: "3 sets, 8 reps each side, last set 12 reps each side."
+          original-exercise:
+            name: "Lat pulldown"
+            links:
+              - text: "ExRx"
+                url: https://exrx.net/WeightExercises/LatissimusDorsi/CBFrontPulldown
           details:
             - text: "Exercise information at ExRx."
               url: https://exrx.net/WeightExercises/BackGeneral/DBBentOverRow
@@ -154,13 +170,23 @@
           details:
             - text: "Exercise information at ExRx."
               url: https://exrx.net/WeightExercises/DeltoidAnterior/DBShoulderPress
-        - name: "Bird dog"
+        - name: "Bird dog*"
           sets-reps: "3 sets, 10 reps, last set 20 reps."
+          original-exercise:
+            name: "Barbell 45° back extension"
+            links:
+              - text: "ExRx"
+                url: https://exrx.net/WeightExercises/ErectorSpinae/BB45BackExtension
           details:
             - text: "Exercise information at ExRx."
               url: https://exrx.net/WeightExercises/ErectorSpinae/BWBirdDog
-        - name: "Side lying hip abduction"
+        - name: "Side lying hip abduction*"
           sets-reps: "1 set, 30 reps each side."
+          original-exercise:
+            name: "Side lying clam"
+            links:
+              - text: "Spear Center"
+                url: https://spearcenter.com/backtolife-exercise-side-lying-clam-shells/
           details:
             - text: "Guide at VeryWell Fit."
               url: https://www.verywellfit.com/side-lying-hip-abductions-techniques-benefits-variations-4783963

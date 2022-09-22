@@ -19,7 +19,7 @@
             - text: "Exercise information at ExRx."
               url: https://exrx.net/WeightExercises/BackGeneral/BBBentOverRow
         - name: "Push-up*"
-          sets-reps: "3 sets, 10 reps, last set AMRAP."
+          sets-reps: "3 sets, 5-10 reps, last set AMRAP."
           original-exercise:
             name: "Bench press"
             links:
@@ -32,6 +32,7 @@
           details:
             - text: "Guide by Nick Elorreaga."
               url: https://nick-e.com/push-up/
+            - text: Increase difficulty by adding weight on back.
         - name: "Squat"
           sets-reps: "3 sets, 5 reps, last set AMRAP."
           alternative-exercises:

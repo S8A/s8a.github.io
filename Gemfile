@@ -7,3 +7,5 @@ group :jekyll_plugins do
   gem "jekyll-paginate", ">= 1.1.0"
   gem "kramdown", ">= 2.3.1"
 end
+
+gem "webrick", "~> 1.7"

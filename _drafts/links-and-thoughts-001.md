@@ -166,6 +166,20 @@ Coelho seems like a smart guy who has done his fair share of reading on anarcho-
 - Date: 2024-01-02
 - Source: _Hanania Newsletter_ (Substack)
 
+The mainstream (for lack of a better word) consensus on IQ or general intelligence differences between males and females is that both sexes have about equal intelligence _on average_, but that males have much _higher variability_, i.e. there are more extremely smart and extremely dumb men relative to women.[^fn-30-wikipedia-5] That's been the position of even big names in hereditarian realist circles, such as Charles Murray, Richard Herrnstein, Arthur Jensen, and Fred Johnson. However, Richard Lynn has been prominent in arguing that not only males have higher variability in intelligence, but that their average intelligence is also higher in adulthood.
+
+In this article, Hanania goes through Lynn's argument and the evidence he presents in his final book, _Sex Differences in Intelligence_,[^fn-31-amazon-lynn-book] as well as the counter-arguments and evidence cited by the more traditional no-difference-on-average camp.
+
+Hanania's conclusions are the following (direct quote):
+
+1. In adulthood, men score about 2-4 IQ points higher than women. Selection bias might account for around 1-point of that.
+2. This gap may be said to not reflect underlying intelligence differences, but something specific about the tests. Yet that conclusion is based on complex methods that depend on assumptions made by the researcher and have questionable real world application. I’m not an expert in these methods, but I’m skeptical of them.
+3. All of this is despite the exclusion of some important spatial abilities from IQ tests, where the male advantage is particularly large. There are some female favored traits excluded from IQ tests, but as far as I can tell none are as <abbr title="General intelligence factor">g</abbr> loaded and therefore theoretically as likely to influence true <abbr title="General intelligence factor">g</abbr>, to the extent we are comfortable thinking about the concept in this way.
+4. The debate about true <abbr title="General intelligence factor">g</abbr> might matter to psychometricians, but there seems to be no reason it should to normal people using the common sense definition of "intelligence." Men are better at problem solving and know more things, so can be said to be more intelligent in the collective understanding of the term even if women are just as smart in some sense that doesn’t predict performance in the real world. 
+
+To conclude, Hanania speculates that hereditarians have been quick to dismiss the possibility of a 4 point male advantage and round down 2-3 point differences to zero as a sort of concession to blank slatists and leftists (egalitarians) in general. An average IQ gap of 4 points sounds small superficially, but if it's really correct it's a significant difference of 0.27d,[^fn-32] and it would mean that the average man is smarter than slightly more than 60% of women.[^fn-33]
+
+It seems to me that Hanania's analysis of the evidence and arguments is pretty much correct, and Lynn's evolutionary explanation[^fn-34] for the development of sex differences in intelligence throughout life also makes a lot of sense to me.
 
 
 ## Footnotes
@@ -199,3 +213,8 @@ Coelho seems like a smart guy who has done his fair share of reading on anarcho-
 [^fn-27-mises-fegley-20160411]: See also: Fegley, T. (2016-04-11). _How Property Rights — Properly Understood — Limit the Spread of WMDs_. Ludwig von Mises Institute. <https://mises.org/wire/how-property-rights-properly-understood-limit-spread-wmds>
 [^fn-28]: So far. There certainly are evil people with lots of power who wish to have more power in order to bring about such an outcome.
 [^fn-29-betonit-comment]: See also [this comment by "Vinicius"](https://www.betonit.ai/p/critical-comments-on-anarcho-capitalism/comment/45324836) on Coelho's article, elaborating on his opinion that while anarcho-capitalism could work in practically every other sense, it would be a very unstable equilibrium when faced with serious external threats, quickly consolidating back into states.
+[^fn-30-wikipedia-5]: In fact, this pattern of greater male variability has been observed on other traits besides intelligence. See: _Variability hypothesis_. (2024-01-28). Wikipedia (permalink). <https://en.wikipedia.org/w/index.php?title=Variability_hypothesis&oldid=1199998083>
+[^fn-31-amazon-lynn-book]: Amazon link for the _Sex Differences in Intelligence_ book by Lynn: <https://www.amazon.com/Sex-Differences-Intelligence-Developmental-Theory/dp/191420865X>
+[^fn-32]: 27% of the standard deviation of 15 IQ points.
+[^fn-33]: Simplified calculation: `P(Z < 0.27) = 0.60642`. See: _Standard normal table_. (2023-05-18). Wikipedia (permalink). <https://en.wikipedia.org/w/index.php?title=Standard_normal_table&oldid=1155534678>
+[^fn-34]: Lynn basically says that girls are smarter up to about 4 years old, the sexes become about equal between 6 and 15, but then around 16 boys start to surpass girls, so that there is a 4 to 5 point male advantage by age 21. His evolutionary psychology explanation is that men had more of a need for intelligence as adults to attract and keep women, provide for them, and climb up hierarchies, while women had almost no pressure to outcompete others in those areas.

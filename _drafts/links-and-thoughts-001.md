@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Links and thoughts #1 (January 2024)"
-og_desc: Links to interesting content I recently read or watched.
+og_desc: Socio-biology, philosophy of human flourishing, Austrian capital theory, anarcho-capitalism, and sex differences in intelligence.
 category: personal
 ---
 
@@ -9,6 +9,7 @@ This new year, I want to start a regular blog series sharing links to articles, 
 
 Without further ado, here is my 1st "Links and thoughts" post, for January 2024, but compiled from December 25th last year until today, January 31st, in the rough chronological order in which I read/watched them.
 
+---
 
 ## _The Baby Boom_
 
@@ -33,6 +34,7 @@ It seems to me that the explanations for the Baby Boom, the demographic trends p
 
 Regarding the policy proposals presented by the author, I think all of them are broadly consistent with my right-wing libertarian anarchist ethical-political philosophy, with some tweaks (no pro-natalist welfare checks, only tax breaks, for instance).[^fn-1]
 
+---
 
 ## _The Western European Marriage Pattern_
 
@@ -54,6 +56,7 @@ The author explains that a fourth distinctive feature of the WEMP, late and infr
 
 I agree with the author's conclusion that the WEMP is no longer the norm in the modern world, and that its loss is a bad thing. The WEMP produced far better genetic selection effects and pro-civilizational behavior incentives than the status quo, as well as much higher fertility when combined with modern prosperity. The WEMP was fundamental to Western exceptionalism, while the modern dysgenic and anti-civilizational status quo is fundamental to Western decline.
 
+---
 
 ## _Aiming at something noble. Resolutions for human flourishing._
 
@@ -79,6 +82,7 @@ To conclude, Oliver exhorts us to make our New Year resolutions based on the fiv
 
 I personally liked the article and its general message. I agree that developing ourselves in all senses should be one of our main purposes in life, and that aiming at virtue and excellence allows us to achieve more happiness, for us and others, than vulgar hedonism. My only points of disagreement are with the notion of utilitarianism itself and the under-currents of universalist egalitarianism that taint Mill's thinking as well as Oliver's article, particularly in the assertions that paint "democracy" as some kind of noble project through which we improve ourselves as a society.[^fn-3] I won't elaborate more on this point for now, and it definitely doesn't invalidate the general wisdom of Mill's philosophy of human flourishing and the enjoyment of Oliver's writing.
 
+---
 
 ## _Updating Böhm-Bawerk and Fixing Finance_
 
@@ -116,6 +120,7 @@ To wrap up, Lewin briefly explains the concept of economic value added (EVA), wh
 
 Overall, I think this was a great episode. I enjoyed the discussion a lot, the insights and their significance were well explained, and certainly I would read the book if I had a copy. What really helped me thoroughly understand the insights, though, was writing this whole  section, researching the concepts and formulas and thinking through how it's all tied together.
 
+---
 
 ## _Critical Comments on Anarcho-Capitalism_
 
@@ -158,6 +163,7 @@ I'll try to summarize my responses to each of those objections as follows:
 
 Coelho seems like a smart guy who has done his fair share of reading on anarcho-capitalism. I commend him for that and for the thought-provoking objections/questions. Most of his objections are actually relatively weak or have been answered before, but at some points he does get at gaps that need to be more convincingly closed and details that need refinement from serious libertarian scholars. Ironically, his last objection, though he only presents it briefly and late in his post, is actually the strongest one. In the end, I remain unshaken in my conviction that natural-law libertarian legal theory is _the_ ultimately logically correct fundamental ethical/legal/political philosophy, though I appreciate the challenge and the critiques.
 
+---
 
 ## _Are Men Smarter than Women?_
 
@@ -181,6 +187,7 @@ To conclude, Hanania speculates that hereditarians have been quick to dismiss th
 
 It seems to me that Hanania's analysis of the evidence and arguments is pretty much correct, and Lynn's evolutionary explanation[^fn-34] for the development of sex differences in intelligence throughout life also makes a lot of sense to me.
 
+---
 
 ## Footnotes
 

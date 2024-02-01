@@ -16,7 +16,7 @@
 title: Samuel Ochoa
 email: samuelochoap@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Samuel Ochoa, software developer and computer science student.
+  Samuel Ochoa, software developer and information systems engineer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://s8a.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: S8A

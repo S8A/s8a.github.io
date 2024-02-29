@@ -20,6 +20,14 @@ Anyway, here's what I could gather for the 2nd post in my "Links and thoughts" s
 - Source: Bzogramming (Substack)
 - Date: 2022-02-02
 
+As Rosenbauer explains, a superficial answer to the question of why do programmers (and other office workera in general) listen to music while working could simply be because it increases focus/productivity, but that answer just raises the question of _why_. I'd also add that such an answer assumes that it increases focus/productivity, but it could be the case that it actually doesn't have any effect either way or that it even decreases it slightly.
+
+Rosenbauer proposes a deeper, alternative explanation: the human brain wants highly multisensory experiences. As he explains, primitive hunter-gatherers had to be able to pay attention to multiple simultaneous real-time sensory inputs, process them, and quickly react appropriately to the information in order to hunt effectively, evade predators, and generally survive in nature. Thus, this selective pressure resulted in the human brain evolving to being able to process multiple sensory data streams simultaneously, and to even feel unease when a sensory input is missing, because that would indicate trouble or vulnerability.
+
+Programming, and office work in general, is an overwhelmingly visual activity, with the only auditory and tactile feedback being the sound and feel of typing on the keyboard, and maybe moving the mouse, scrolling, and clicking. Our brain feels unease because of the lack of sensory inputs, and thus we feel compelled to listen to music while working.
+
+However, as Rosenbauer explains, since the music has nothing to do with the actual task, the implication is that what we're doing is the equivalent of feeding our brain sensory junk food. For the rest of the article, he explores potential alternatives that could result in a more effective use of brain power and therefore actually higher productivity.
+
 
 ---
 

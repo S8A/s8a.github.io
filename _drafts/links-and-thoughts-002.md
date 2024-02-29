@@ -26,7 +26,17 @@ Rosenbauer proposes a deeper, alternative explanation: the human brain wants hig
 
 Programming, and office work in general, is an overwhelmingly visual activity, with the only auditory and tactile feedback being the sound and feel of typing on the keyboard, and maybe moving the mouse, scrolling, and clicking. Our brain feels unease because of the lack of sensory inputs, and thus we feel compelled to listen to music while working.
 
-However, as Rosenbauer explains, since the music has nothing to do with the actual task, the implication is that what we're doing is the equivalent of feeding our brain sensory junk food. For the rest of the article, he explores potential alternatives that could result in a more effective use of brain power and therefore actually higher productivity.
+However, as Rosenbauer explains, since the music has nothing to do with the actual task, the implication is that what we're doing is the equivalent of feeding our brain sensory junk food.
+
+Next, he presents the idea of sensory substitution. Since the brain cortex is composed of modular, repeating circuits called cortical columns that are nearly interchangeable, it's possible to change teh sensory modality of a brain region just by changing its inputs. Going further, it's theoretically possible to feed in data one has no natural sense for, in other words, sensory augmentation.
+
+For the rest of the article, Rosenbauer speculates about the features that a code sonification scheme should have in order to actually provide useful auditory information that increases effective use of brian power and thus programming producitivy. A simple text-to-speech program would probably be counter-productive, since it's just an inferior way of reading code. 
+
+A code sonification scheme that actually reduces programmer effort should probably focus on the structure that otherwise would have to be inferred manually. A rough, "zoomed-out" representation of large amounts of code in audio form could be a good starting point. A full-fledged implementation could play notes as one scrolls through the code editor, in a way thay indicates how each part relates to the rest of the code at a larger scale.
+
+Finally, Rosenbauer briefly expresses interest in somehow integrating a haptic feedback device.
+
+I thoroughly agreed with Rosenbauer's evolutionary explanation for why we listen to music while programming, and found his ideas for code sonification interesting and worth investigating. Meanwhile, I'll keep listening to metal while programming.
 
 
 ---

@@ -55,4 +55,8 @@ This sets the stage for presenting what Rosenbauer considers to be the most prof
 
 The P class (P stands for Polynomial) refers to those problems that can be solved by an algorithm in polynomial time, i.e., task completion time varies as a polynomial function of input size, as opposed to exponential time, for example. The NP class (NP stands for Non-deterministic Polynomial) encompasses those problems whose solutions can be _verified_ in polynomial time, but there is no known algorithm that can _solve_ them in polynomial time. The P versus NP problem is essentially the question of whether or not the P and NP classes are equivalent. If P = NP, then all problems that can be verified in polynomial time can also be solved in polynomial time, we just have to find the appropriate algorithm for each; if P ≠ NP, there are problems that simply cannot be solved in polynomial time, though they can be verified in polynomial time.
 
+For the rest of the article, Rosenbauer examines some implications of both possible answers to the P versus NP problem, delves into some properties and examples of NP problems, presents three barriers that mathematicians have discovered which tell us how _not_ to solve the problem, uses Playfair's axiom (a substitute for Euclid's fifth axiom) as a sort of illustrative analogy for P and NP logic circuits, and concludes with some thoughts about the future of the problem.
+
+I highly recommend reading the article, this summary might not do it justice. Rosenbauer provides an enjoyable overview of a lot of interesting topics in mathematics and computation that I would like to learn more about at some point.
+
 

@@ -2,6 +2,9 @@
 layout: post
 title: "Links and thoughts #2 (February 2024)"
 og_desc: Programming and music, mathematics and computation, and mind viruses.
+og_image: links-and-thoughts-002-og-image.jpg
+big_image: links-and-thoughts-002-og-image.jpg
+big_image_alt: AI-generated illustrations for the featured articles (Playground v2).
 category: personal
 ---
 

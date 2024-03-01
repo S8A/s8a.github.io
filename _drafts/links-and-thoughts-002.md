@@ -12,7 +12,6 @@ Anyway, here's what I could gather for the 2nd post in my "Links and thoughts" s
 
 ---
 
-
 ## _Why Do Programmers Listen to Music?_
 
 - [Link to article](https://bzolang.blog/p/why-do-programmers-listen-to-music)
@@ -36,9 +35,7 @@ Finally, Rosenbauer briefly expresses interest in somehow integrating a haptic f
 
 I thoroughly agreed with Rosenbauer's evolutionary explanation for why we listen to music while programming and found his ideas for code sonification interesting and worth investigating. Meanwhile, I'll keep listening to metal while programming.
 
-
 ---
-
 
 ## _The Most Profound Problem in Mathematics_
 
@@ -58,7 +55,6 @@ The P class (P stands for Polynomial) refers to those problems that can be solve
 For the rest of the article, Rosenbauer examines some implications of both possible answers to the P versus NP problem, delves into some properties and examples of NP problems, presents three barriers that mathematicians have discovered that tell us how _not_ to solve the problem, uses Playfair's axiom (a substitute for Euclid's fifth axiom) as a sort of illustrative analogy for P and NP logic circuits, and concludes with some thoughts about the future of the problem.
 
 I highly recommend reading the article; this summary might not do it justice. Rosenbauer provides an enjoyable overview of a lot of interesting topics in mathematics and computation that I would like to learn more about at some point.
-
 
 ---
 

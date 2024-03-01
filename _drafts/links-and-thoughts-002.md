@@ -60,3 +60,20 @@ For the rest of the article, Rosenbauer examines some implications of both possi
 I highly recommend reading the article, this summary might not do it justice. Rosenbauer provides an enjoyable overview of a lot of interesting topics in mathematics and computation that I would like to learn more about at some point.
 
 
+---
+
+## _Mind Viruses_
+
+- [Link to the article](https://arctotherium.substack.com/p/mind-viruses)
+- Author: Arctotherium
+- Source: Not With a Bang (Substack)
+- Date: 2023-11-19
+
+In this article, Arctotherium defends the concept of a mind virus as a useful term to describe and explain real phenomena.
+
+First, he explains what the mind virus analogy, as he uses it, actually claims: like viruses, ideas spread from person to person or, more specifically, social contact with a person spreading an idea increases the probability that a person accepts it or spreads it; like viruses, ideas can reduce fitness and function, that is, number of surviving offspring and execution of adaptations, respectively; like viruses, ideas that reduce fitness and function can still spread.
+
+Second, he explains what the mind virus analogy doesn't claim, which is that a mind virus must operate independently of other factors, in fact they could have a strong influence on susceptibility to the pathogen, but in the end the pathogen is the relevant vausal agent.
+
+Next, he explains the major point of disanalogy between contagious diseases and mind viruses, which is that mind viruses are a fundamentally social phenomenon, a person doesn't need to believe a mind virus to be affected by it and we use the term primarily to refer to the aggregate social effect of an idea, whereas for contagious diseases the harm is primarily to the infected individual and thus we think of its effects first and foremost on an individual basis. Obviously, mind viruses can directly affect their believers, and contagious diseases can indirectly harm people that are not infected, but the contrast is evident.
+

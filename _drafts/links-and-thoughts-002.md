@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Links and thoughts #2 (February 2024)"
-og_desc: Interesting articles.
+og_desc: Programming and music, mathematics and computation, and mind viruses.
 category: personal
 ---
 

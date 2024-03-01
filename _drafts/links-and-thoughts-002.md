@@ -5,7 +5,7 @@ og_desc: Interesting articles.
 category: personal
 ---
 
-This month I was busy, so I didn't have tome to read as many great articles as the previous month and to write at length about them.
+This month I was busy, so I didn't have time to read as many great articles as the previous month and to write at length about them.
 
 Anyway, here's what I could gather for the 2nd post in my "Links and thoughts" series, for February 2024.
 
@@ -77,8 +77,10 @@ Second, he explains what the mind virus analogy doesn't claim, which is that a m
 
 Next, he explains the major point of disanalogy between contagious diseases and mind viruses, which is that mind viruses are a fundamentally social phenomenon, a person doesn't need to believe a mind virus to be affected by it and we use the term primarily to refer to the aggregate social effect of an idea, whereas for contagious diseases the harm is primarily to the infected individual and thus we think of its effects first and foremost on an individual basis. Obviously, mind viruses can directly affect their believers, and contagious diseases can indirectly harm people that are not infected, but the contrast is evident.
 
-Then, he proceeds to present five case studies of mind viruses. I'll provide a brief summary of each case study, but I strongly recommend reading the article because some of them sound far-fetched or even made-up, but he provides apparently solid evidence to back them up.
+Then, he proceeds to present four case studies of mind viruses. I'll provide a brief summary of each case study, but I strongly recommend reading the article because some of them sound far-fetched or even made-up, but he provides apparently solid evidence to back them up.
 
 1. The Xhosa Cattle-Killing Movement: In 1856, a Xhosa girl claimed that the spirits told her that if the Xhosa killed all their cattle and destroyed their crops, the dead would rise and the European settlers would be expelled. She convinced her uncle, who in turn convinced the paramount chief, who in turn convinced the rest of the Xhosa to do as the spirits allegedly told her. Predictably, the actual result was mass starvation, the depopulation of the region, the survivors having to submit to European authority, and the land being taken by European farmers.
 2. Brazilian Soap Operas: According to surprisingly robust results by a group of researchers, the soap operas (telenovelas) produced by the Rede Globo television group were directly responsible for a significant 7% of the decline in fertility in Brazil across the 12 years of census data studied. The apparent mechanism is that the portrayal of female soap opera protagonists changed perceptions of adultery and made low fertility seem more desirable.
-3. 
+3. French Secularism: France had its first modern demographic transition toward significantly lower fertility since 1760, more than a century before other European countries. The most robust explanation for this precocious fertility collapse seems to be French secularization, specifically the loss of moral authority of the Catholic Church, which in turn led to reduced marital fertility.
+4. Bradlaugh-Besant: The British demographic transition started a little over a century after the French transition, somewhat earlier than other European countries. This is apparently due to the cultural influence of the debate over the morality of family planning brought forth by the Bradlaugh-Besant trial of 1877. In this case, two activists went to court against the censorship of the second edition of a book about contraceptive techniques, _The Fruits of Philosophy_, due to new "obscene" illustrations. The real aim of the activists was to make the idea of family planning popular, and they succeeded.
+

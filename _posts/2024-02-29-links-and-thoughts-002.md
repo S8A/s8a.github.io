@@ -19,8 +19,8 @@ Anyway, here's what I could gather for the 2nd post in my "Links and thoughts" s
 
 - [Link to article](https://bzolang.blog/p/why-do-programmers-listen-to-music)
 - Author: Charles Rosenbauer
-- Source: Bzogramming (Substack)
 - Date: 2022-02-02
+- Source: _Bzogramming_ (Substack)
 
 As Rosenbauer explains, a superficial answer to the question of why programmers (and office workers in general) listen to music while working could simply be because it increases focus and productivity, but that answer just raises the question of _why_. I'd also add that such an answer assumes that it increases focus and productivity, but it could be the case that it actually doesn't have any effect either way or that it even decreases it slightly.
 
@@ -44,8 +44,8 @@ I thoroughly agreed with Rosenbauer's evolutionary explanation for why we listen
 
 - [Link to article](https://bzolang.blog/p/the-most-profound-problem-in-mathematics)
 - Author: Charles Rosenbauer
-- Source: Bzogramming (Substack)
 - Date: 2022-11-15
+- Source: _Bzogramming_ (Substack)
 
 This is another article by the same author as the previous one in this list, but this one is a lot longer and more complex and requires more knowledge of mathematics and computation theory in order to fully understand and appreciate it. I read it from beginning to end, and I could understand in general terms and appreciate the significance of the problem, but honestly, I'm not well-read enough to properly elaborate on the different technical topics presented by Rosenbauer. Therefore, I'll provide only a brief summary of the general themes of the article.
 
@@ -65,8 +65,8 @@ I highly recommend reading the article; this summary might not do it justice. Ro
 
 - [Link to the article](https://arctotherium.substack.com/p/mind-viruses)
 - Author: Arctotherium
-- Source: Not With a Bang (Substack)
 - Date: 2023-11-19
+- Source: _Not With a Bang_ (Substack)
 
 In this article, Arctotherium defends the concept of a mind virus as a useful term to describe and explain real phenomena.
 

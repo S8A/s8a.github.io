@@ -29,3 +29,33 @@ In the article, McMaken presents several hypothetical cases along with correspon
 I highly recommend reading the article, it's very well redacted and the author's argument is clear and convincing. It's true that open borders advocates tend to focus on the familiar case of economic immigration to developed countries while ignoring or dismissing more complex cases and possible perils in the political reality of implementing open borders.
 
 I think I should briefly discuss some important points regarding this topic. For deontological libertarians, such as myself, the primary or even sole criterion in the immigration debate is adherence to principle; in other words, what does libertarian legal theory imply in this matter. Most libertarians who advocate for open borders do so on deontological grounds, and they're often quick to dismiss these consequentialist considerations as secondary, irrelevant, or even non-existant. My position is that they're mostly wrong even on deontological grounds; the implications of libertarian legal theory on this matter are more nuanced. However, I won't elaborate on my position for now.
+
+
+---
+
+## _National IQ is the Best Predictor of Economic Growth_
+
+- [Link to article](https://georgefrancis.substack.com/p/national-iq-is-the-best-predictor)
+- Author: George Francis
+- Date: 2022-09-16
+- Source: _Anglo Reaction_ (Substack)
+
+
+---
+
+## _Dysgenics by the Numbers_
+
+- [Link to article](https://georgefrancis.substack.com/p/dysgenics-by-the-numbers)
+- Author: George Francis
+- Date: 2022-09-05
+- Source: _Anglo Reaction_ (Substack)
+
+
+---
+
+## _Against Full Scale IQ Fetishism_
+
+- [Link to article](https://www.sebjenseb.net/p/against-full-scale-iq-fetishism)
+- Author: Sebastian Jensen
+- Date: 2023-03-23
+- Source: _sebjenseb_ (Substack)

@@ -78,7 +78,9 @@ My point is that concerns about the effects of immigration on government spendin
 - Date: 2014-07-30
 - Source: _Journal of Libertarian Studies 13, Number 2 (1998)._ Ludwig von Mises Institute.
 
-I actually read this article a while ago and, as mentioned in the previous section, my position is that the proper Nth-best libertarian immigration policy would be one similar to the one proposed by Hoppe, particularly in this article. While writing the previous section, I read Hoppe's article again, and I finally decided to include it in this post in order to delve into it in some detail and highlight some quibbles I have with it.
+I actually read this article probably more than a year ago and, as mentioned in the previous section, I've come to the position that the proper Nth-best libertarian immigration policy would be one similar to the one proposed by Hoppe in this article. While writing the previous section, I read Hoppe's article again, and I finally decided to include it in this post in order to delve into it in some detail and highlight some quibbles I have with it.
+
+Hoppe starts the article by stating his purpose: arguing that free trade and restricted immigration are not only compatible policies, but actually mutually reinforcing. Before elaborating his main argument, Hoppe briefly restates, for the sake of completeness, the logical case for free trade and refutation of protectionist fallacies; his explanation is so rigurous yet concise and easy to read that it should be published as a short, standalone post on mises.org and shared by all of us free traders when making the case for free trade to any smart layman.
 
 **WIP**
 

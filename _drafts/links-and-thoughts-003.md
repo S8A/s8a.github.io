@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Links and thoughts #3 (March 2024)"
-og_desc: Draft 15
+og_desc: Draft 16
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2).
@@ -142,6 +142,8 @@ The only proposal I don't fully agree with is his requirement that resident prop
 - Author: George Francis
 - Date: 2022-09-16
 - Source: _Anglo Reaction_ (Substack)
+
+This post summarizes the purpose, context and key findings of a paper published by the author, George Francis, and Emil Kirkegaard, titled _National Intelligence and Economic Growth: A Bayesian Update_, and which is available to read and download for free [at ResearchGate](https://www.researchgate.net/publication/363583751_National_Intelligence_and_Economic_Growth_A_Bayesian_Update). Kirkegaard simultaneously posted a sister post to this one by Francis, since they couldn't agree on the best way to present their findings for a general audience. I will provida a brief summary for each of their articles, to compare what each of them highlights and which I think is better.
 
 
 ### _National intelligence really is the best predictor of economic growth_

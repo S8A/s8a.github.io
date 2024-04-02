@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Links and thoughts #3 (March 2024)"
-og_desc: Draft 17
+og_desc: Draft 18
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2).
@@ -10,6 +10,7 @@ category: personal
 
 For this month's post, I want to do something different. This time, instead of presenting articles in the rough chronological order in which I read them, I'm going to present them in groups by their general topic. I decided to do this in order to contrast different approaches or even opposing views on a subject, and as usual I'll add my thoughts on the matter to the summaries.
 
+I admit I finished this article late (April 2nd), but I'll shamelessly back-date it to March 31st. I also had to cut some (secondary) articles out. I'll do better in April.
 
 ---
 
@@ -153,7 +154,7 @@ The authors applied Bayesian model averaging[^fn-32] of economic growth, using G
 
 Regarding causality, the authors' position was that existing evidence already strongly pointed to a causal effect of IQ on GDP. Nonetheless, they contributed to the literature by applying Instrumental Variable (IV) estimation,[^fn-35] a conventional econometric technique, using average cranial capacity, ancestry-adjusted UV radiation, and 19th-century numeracy scores as instruments. As they expected, this instrumented national IQ significantly predicts economic growth, suggesting that there is a causal effect.
 
-I liked Francis's post because it's very straightforward, focused on the key takeaways and the techniques they used to get their results. Regarding the paper itself, if the authors were as rigorous as they claim, then their results are solid and impressive, though not too surprising. With this solid evidence that national IQ is overwhelmingly the best predictor for economic growth and that this relationship is most likely causal, we can predict that dysgenic trends that reduce the average IQ of a country will result in its stagnation and even degrowth in the long run. In fact, the authors included an estimate of the decline in genotypic intelligence and a Solow-style model of economic growth to crudely predict the effect of dysgenics on the economy; the article after the next one deals with that topic.
+I liked Francis's post because it's very straightforward, focused on the key takeaways and the techniques they used to get their results. Regarding the paper itself, if the authors were as rigorous as they claim, then their results are solid and impressive, though not too surprising. With this solid evidence that national IQ is overwhelmingly the best predictor for economic growth and that this relationship is most likely causal, we can predict that dysgenic trends that reduce the average IQ of a country will result in its stagnation and even degrowth in the long run. In fact, the authors included an estimate of the decline in genotypic intelligence and a Solow-style model of economic growth to crudely predict the effect of dysgenics on the economy.
 
 
 ### _National intelligence really is the best predictor of economic growth_
@@ -170,24 +171,6 @@ The fundamental difference with respect to Francis's article is that, instead of
 Kirkegaard then quotes the abstract of the paper and explains their results, going into a little more detail than Francis. He even showed two graphs (instead of one) of model variables ranked by their posterior inclusion probability and absolute coefficient, in order to contrast the different datasets and emphasize that national IQ (positive effect) and initial GDP per capita (negative effect, which he calls "the advantage of backwardness") were the overwhelmingly the two main predictors in both datasets.[^fn-36] He only very briefly explains their approach to determine causality and their results in that regard.
 
 Finally, Kirkegaard comments that on the negative side, they couldn't find much evidence for smart fraction theory (Francis briefly mentions that) or for economic freedom. Regarding smart fraction theory, which essentially asserts that the ability of a country's cognitive elite is generally more predictive of success than the population's average ability, Kirkegaard mentions that it's a little awkward for him since he was working on another study about how well the theory performs.[^fn-37] Regarding economic freedom, libertarians like me and free marketeers in general might be surprised or skeptical, since we have solid economic logic backing us. Don't worry, Kirkegaard has a reasonable explanation: Bayesian model averaging is a hard bar to pass, and therefore variables that are robust in it (namely, national IQ) can be confidently considered very good; on the other hand, however, variables that cannot be robust in this technique but which show some evidence may have less importance but they're worth considering in future research. Their sample size was about 70 countries, in any case, due to the need of having data for all the control variables they used, but it should be possible to drop some of the least important control variables to expand the sample size and re-test.
-
-
-### _Dysgenics by the Numbers_
-
-- [Link to article](https://georgefrancis.substack.com/p/dysgenics-by-the-numbers)
-- Author: George Francis
-- Date: 2022-09-05
-- Source: _Anglo Reaction_ (Substack)
-
-
----
-
-### _Against Full Scale IQ Fetishism_
-
-- [Link to article](https://www.sebjenseb.net/p/against-full-scale-iq-fetishism)
-- Author: Sebastian Jensen
-- Date: 2023-03-23
-- Source: _sebjenseb_ (Substack)
 
 
 ---

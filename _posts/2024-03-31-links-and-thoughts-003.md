@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Links and thoughts #3 (March 2024)"
-og_desc: Contrasting views on immigration, and national IQ and prosperity.
+og_desc: Contrasting views on immigration, and national IQ's relationship with prosperity.
 og_image: links-and-thoughts-003-og-image.jpg
 big_image: links-and-thoughts-003-og-image.jpg
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2).

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Links and thoughts #4 (April 2024)"
-og_desc: Draft 5.
+og_desc: Draft 6.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2).
@@ -73,7 +73,11 @@ To summarize, for an anarcho-capitalist society (or something close to it) to em
 - Date: 2023-01-08
 - Source: _Clear Language, Clear Mind_
 
-**WIP**
+In this article, Kirkegaard summarizes the methods and findings of a paper he coauthored with Noah Carl in December 2022, titled _Smart Fraction Theory: A Comprehensive Re-evaluation_, and which is fully available to read for free [at ResearchGate](https://www.researchgate.net/publication/366691469_Smart_Fraction_Theory_A_Comprehensive_Re-evaluation). The purpose of the paper was to statistically test what's known as "smart fraction theory," which essentially claims that the ability of a country's cognitive elite is generally more predictive than the average ability. The theory was originally proposed over 100 years ago, but no one quantitatively tested it in a comparative framework until 2002, and the few studies that did so used deficient methods.
+
+Kirkegaard & Carl's study tries to fix the mistakes of previous studies, by using a pre-residualization approach in order to properly test the theory against the simpler model of average ability. As Kirkegaard explains, the lower tail and upper tail ability levels are too correlated with the mean ability, so they can't be directly used in a regression model; residualization solves this by producing a kind of tail deviation score that is uncorrelated with the mean ability and thus can be used together in a regression model. In line with previous literature, they used the 95th percentile IQ score as the benchmark for intellectual class ability.
+
+I actually found Kirkegaard's explanation of _how_ residualization works unsatisfactory and I was left wondering if and how pre-residualization differs from residualization. [^fn-kirkegaard-1] I'm obviously not an expert in statistics, otherwise I would've known already, but I'm familiar with introductory statistics so I could handle a more detailed explanation. [^fn-kirkegaard-2] So I read the actual paper and turns out they explained it much better there. Direct residualization consists of simply subtracting the average from the 95th percentile score, which only produces uncorrelated predictors if the shape of the distribution doesn't vary across average level of ability, as it in fact does. [^fn-kirkegaard-3] Pre-residualization, on the other hand, involves regressing the 95th percentile score on the average score, and then using the standardized residuals as predictors; these residuals capture the degree to which the 95th percentile score is higher (positive) or lower (negative) than one would expect based on the average score.
 
 ---
 
@@ -106,3 +110,7 @@ To summarize, for an anarcho-capitalist society (or something close to it) to em
 [^fn-arctotherium-11]: Absolute polygamy, as historically practiced, is also obviously incompatible with the anarcho-capitalist framework for the same reasons, but I'm focusing on absolute monogamy since that is the most socially desirable arrangement.
 [^fn-arctotherium-12]: In [January's _Links and Thoughts_ post]({% link _posts/2024-03-31-links-and-thoughts-003.md %}), I featured two articles by Arctotherium related to this topic.
 [^fn-arctotherium-13]: For some time now, I've been thinking that something along these lines is the best and possibly the only realistic strategy to create a libertarian society. Intentional geographical clustering of liberty-minded people, parallel voluntary institutions, secession, and similar strategies are frequently advocated by libertarian authors, so I was already familiar with and sympathetic to those strategies. Notably, the [Free State Project](https://www.fsp.org/) is a real-world movement with the goal of getting libertarians to concentrate in New Hampshire to turn the tide against government there; despite not yet reaching the critical mass of libertarians that was originally hoped for, they've already achieved a notable though not major influence on the state's politics. In the past six months or so, I've been reading many articles on sociobiology, and I've integrated many insights from them into my worldview, adjusting my expectations and opinions on strategy accordingly. Incidentally, I recently read the article [_The Extinction of the Dark Elves_](https://www.josephbronski.com/p/the-extinction-of-the-dark-elves) by Joseph Bronski, in which he elaborates a strategy, similar to the one I propose, for "dark elves" (right-wing, fit, high-IQ, white people) to cluster in a particular region, voluntarily practice traditional marriage unrestricted, reproduce, and flourish; the main differences are that he is not a libertarian, his criteria for belonging to his desired hypothetical community are too strict in my opinion, he completely excludes non-whites, and he supports widespread embryo selection while I have ethical concerns about it.
+[^fn-kirkegaard-1]: Part of my confusion was that I originally understood that they calculated the "tail deviation scores" by simply subtracting the average from the 95th percentile score, which would obviously produce only positive values. However, the map he included in the article showed zero and negative values. Once I read the paper, I realized that my initial understanding corresponded to the inferior direct residualization approach, while the map corresponded to the more sophisticated pre-residualization approach.
+[^fn-kirkegaard-2]: I would like to set aside some time to do a proper course in statistics.
+[^fn-kirkegaard-3]: They found that countries with lower average ability have much
+stronger IQ advantages for the 95th percentile over the mean.

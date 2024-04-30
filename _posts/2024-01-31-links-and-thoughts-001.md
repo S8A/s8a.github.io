@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Links and thoughts #1 (January 2024)"
+title: "Links and Thoughts #1 (January 2024)"
 og_desc: Socio-biology, philosophy of human flourishing, Austrian capital theory, anarcho-capitalism, and sex differences in intelligence.
 og_image: links-and-thoughts-001-og-image.jpg
 big_image: links-and-thoughts-001-og-image.jpg
@@ -10,7 +10,7 @@ category: personal
 
 This new year, I want to start a regular blog series sharing links to articles, videos, and any other content that I find interesting, insightful, or just enjoyable, along with a summary and my thoughts regarding the content. I initially wanted to post weekly, but life happens, so I ended up deciding to post monthly instead.
 
-Without further ado, here is my 1st "Links and thoughts" post for January 2024. The links are presented in the rough chronological order in which I read/watched them.
+Without further ado, here is my 1st "Links and Thoughts" post for January 2024. The links are presented in the rough chronological order in which I read/watched them.
 
 
 ---

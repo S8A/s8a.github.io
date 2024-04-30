@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Links and thoughts #2 (February 2024)"
+title: "Links and Thoughts #2 (February 2024)"
 og_desc: Programming and music, mathematics and computation, and mind viruses.
 og_image: links-and-thoughts-002-og-image.jpg
 big_image: links-and-thoughts-002-og-image.jpg
@@ -10,7 +10,7 @@ category: personal
 
 This month I was busy, so I didn't have time to read as many great articles as the previous month and to write at length about them.
 
-Anyway, here's what I could gather for the 2nd post in my "Links and thoughts" series, for February 2024.
+Anyway, here's what I could gather for the 2nd post in my "Links and Thoughts" series, for February 2024.
 
 
 ---

@@ -2,9 +2,9 @@
 layout: post
 title: "Links and Thoughts #4 (April 2024)"
 og_desc: Draft 9.
-og_image: s8a-thumbnail.png
-big_image: s8a-thumbnail.png
-big_image_alt: AI-generated illustrations for the featured articles (Playground v2).
+og_image: links-and-thoughts-004-og-image.jpg
+big_image: links-and-thoughts-004-og-image.jpg
+big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 

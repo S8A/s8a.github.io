@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Links and thoughts #4 (April 2024)"
-og_desc: Draft 7.
+og_desc: Draft 8.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2).
@@ -98,7 +98,14 @@ To summarize, Kirkegaard and Carl's study provides comprehensive evidence in fav
 - Date: 2023-03-21
 - Source: _Aporia Magazine_ (Substack)
 
-**WIP**
+As the title implies, this article is a general introduction to the science of human biodiversity (HBD), which is nothing more than the straightforward insights obtained from studying humans using the standard lens of natural selection and evolution: namely, that all humans and, by extension, all human groups, are more or less different both physically and psychologically, and that these differences are at least partially genetic in origin.
+
+All of this should be completely obvious and uncontroversial. However, as Winegard points out, most people today strongly reject the idea that human populations are different in socially consequential traits and/or that these differences are even partially genetic. Many people have suffered social and professional consequences for opposing or even questioning the orthodoxy of equality among human groups. [^fn-winegard-1] Furthermore, many academics in relevant fields try to avoid potentially controversial research or whitewash their findings for political correctness; meanwhile, scientific dissenters often find their research blocked from publication or retracted.
+
+Winegard provides a concise yet thorough summary of the HBD position and the evidence for it. He explains the origins of modern human populations, the selection pressures they faced in different regions, how these pressures resulted in different traits, and the strong evidence we have for the heritability of psychological traits, the most controversial insight of HBD. Winegard then provides a frequently asked questions (FAQ) section in which he replies to common questions, objections, and accusations that many people make about HBD and its proponents.
+
+I won't go into more detail; the article is already concise enough for a general introduction to such a broad topic, and it's well-written, so I recommend it. I'll briefly comment on an important detail. Winegard notes that many or most modern people seem to hold as a sacred moral value the conviction that all human populations are equal in that they have roughly the same distribution of socially valued traits, and that's why they have such a strong, unthinking rejection of HBD despite all the evidence. I'll add that this is just a manifestation of egalitarianism, the false and destructive ideology or moral bias that has come to dominate the modern world. As Murray Rothbard argued in a 1973 essay, egalitarianism is a "revolt against nature" and against the structure of reality itself, and there's no logical reason to presuppose that equality is inherently desirable or a moral imperative. [^fn-winegard-2]
+
 
 ---
 
@@ -127,3 +134,5 @@ To summarize, Kirkegaard and Carl's study provides comprehensive evidence in fav
 [^fn-kirkegaard-5]: In the paper, the authors explain that they quantified each country's location using both the coordinates of its [centroid](https://en.wikipedia.org/w/index.php?title=Centroid&oldid=1211908656) and the coordinates of its capital; however, both methods produced almost identical results.
 [^fn-kirkegaard-6]: The economic outcomes used were: GNI per capita, GDP per capita, growth in GNI per capita for the period 1990&ndash;2019, growth in GDP per capita for the same period, median personal income, and median household income.
 [^fn-kirkegaard-7]: These other outcomes were: performance in international mental sports, winners of the International Mathematical Olympiad, and indicators of air safety, road safety, occupational safety, and technological safety. The results for the four safety indicators strongly supported smart fraction theory, while for the other two outcomes the results were not statistically significant.
+[^fn-winegard-1]: Winegard actually suffered this first-hand. He claims Marietta College refused to renew his contract as assistant professor of psychology because he dared to talk about differences between ethnic groups.
+[^fn-winegard-2]: I'm referring to the title essay in [_Egalitarianism as a Revolt Against Nature, and Other Essays_](https://mises.org/library/book/egalitarianism-revolt-against-nature-and-other-essays) (1974, 2nd ed.). My favorite quote: _"The egalitarian revolt against biological reality, as significant as it is, is only a subset of a deeper revolt: against the ontological structure of reality itself, against the "very organization of nature"; against the universe as such. At the heart of the egalitarian left is the pathological belief that there is no structure of reality; that all the world is a tabula rasa that can be changed at any moment in any desired direction by the mere exercise of human will&mdash;in short, that reality can be instantly transformed by the mere wish or whim of human beings."_

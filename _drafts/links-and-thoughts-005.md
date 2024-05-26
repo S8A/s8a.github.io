@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Links and Thoughts #5 (May 2024)"
-og_desc: Draft 2.
+og_desc: Draft 3.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
@@ -54,3 +54,22 @@ Inquisitive Bird criticizes both the common view that denies the importance of n
 In this article, Joseph Bronski responds to the Inquisitive Bird article linked above from a hereditarian perspective as well. Bronski confirms that the article's research is mostly good, and he agrees that, for _social outcomes_, genetics predominate but the shared environment has a small but measurable effect. However, Bronski provides several important critiques, the main one being that Inquisitive Bird obscures the crucial distinction between social outcomes and physical traits by focusing exclusively on the former, which are intuitively less heritable than the latter. Furthermore, he points out that even for some social traits, parents don't influence their children at all through the shared environment, only through genes, and some traits show that the non-shared environment (outside the home) has an effect while the shared environment has none; in particular, he provides some charts from his forthcoming book, showing that this is the case for political views on the liberalism-conservatism scale, social attitudes, and moral values.
 
 The secondary critique is that Inquisitive Bird apparently ignored some important limitations of the paper by _Isungset et al._ (2022). Inquisitive Bird claimed that the paper provides compelling evidence that birth order effects on educational attainment originate in the post-natal environment, but Bronski proposed mutational load as a better explanation. Bronski later edited the article to add some statistical simulations to deal with an objection. He later edited it again to admit his simulations were wrong and to propose an alternative explanation consistent with mutational load theory. I admit I don't know enough statistics to judge that whole section.
+
+---
+
+## Primitive Humans
+{: .text-center}
+
+### _Man the Hunter_
+
+- [Link to article](https://inquisitivebird.substack.com/p/man-the-hunter)
+- Author: Inquisitive Bird
+- Date: 2023-11-19
+- Source: _Patterns in Humanity_ (Substack)
+
+This brief article summarizes the evidence that supports the consensus view that hunting (especially big game hunting) is _predominantly_ a male activity in traditional hunter-gatherer societies. The author wrote it as a response to the recent trend of articles and research papers of questionable quality that try to upend our common-sense knowledge of the roles of men and women throughout history. To summarize:
+
+> The notion that hunting&mdash;particularly large game hunting&mdash;is predominantly a male activity in hunter-gatherer society is overwhelmingly supported by the evidence. While the strawman that women never engage in hunting isn’t true, the sex differences are even starker than I expected prior to analyzing it. Women hunt regularly in well below 20% of modern hunter-gatherer societies, and they directly capture well below 10% of the hunted meat mass.
+{: .fst-italic.ps-4.border-start.border-5}
+
+And why do women hunt to a much lesser extent than men? While men's physical advantages over women certainly play a role, Inquisitive Bird explains that the biggest factor is that only women can breastfeed. In small-scale societies, the average woman would have multiple children, each of which she would have to breastfeed for up to three years, limiting her ability to go on hunting trips or generally face danger, and thus the natural division of labor results in women dedicating themselves to other childcare activities as well.

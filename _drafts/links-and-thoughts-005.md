@@ -1,14 +1,20 @@
 ---
 layout: post
 title: "Links and Thoughts #5 (May 2024)"
-og_desc: Draft 4.
+og_desc: The OODA Loop, elite group formation, nature vs. nurture, and why male hunter-gatherers hunt more than females.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-WIP
+My original intention for this series was simply to provide a list of links to interesting content, including a summary of each item and my thoughts about it. Instead, from the very first post, I wrote summaries that were way too long and elaborated on my opinion in too much detail. It was too time-consuming, and some of the articles turned out way too long.
+
+Thus, I decided to change my approach to what I originally intended, starting with this month’s post, and it was definitely a good decision. In barely a few days of light work, I prepared summaries for the five links in this post and polished the writing for each. I even added highlight images to most of them to liven up the post and perhaps compensate for the reduction in word count. [^fn-1]
+
+I wanted to include three more links in this month’s post, but I got too busy with work to read anything substantial. That's also why, once again, I posted the article too late. Like I’ve done before, I’ll backdate this article to May 31st and try to do better next time.
+
+Without further ado, here’s what I could gather for May’s post in my “Links and Thoughts” series.
 
 ---
 
@@ -89,3 +95,9 @@ This brief article summarizes the evidence that supports the consensus view that
 {: .fst-italic.ps-4.border-start.border-5}
 
 And why do women hunt to a much lesser extent than men? While men's physical advantages over women certainly play a role, Inquisitive Bird explains that the biggest factor is that only women can breastfeed. In small-scale societies, the average woman would have multiple children, each of which she would have to breastfeed for up to three years, limiting her ability to go on hunting trips or generally face danger, and thus the natural division of labor results in women dedicating themselves to other childcare activities as well.
+
+---
+
+## Footnotes
+
+[^fn-1]: I hesitated to add images to previous articles because this is a [GitHub Pages](https://pages.github.com/) website, which means it's basically a Git repository that GitHub serves on the web. It's common knowledge that it's not a good idea to store binary blobs like bitmap images on Git repositories; check the answers to [this StackOverflow question](https://stackoverflow.com/questions/4697216/is-git-good-with-binary-files) and [this other question](https://stackoverflow.com/questions/53647783/is-there-a-difference-between-how-git-stores-text-and-binary-files) to know more. That's why I only uploaded the cover image for each post and nothing else. To solve my dilemma, this time I simply used the image URL from the source. I didn't do this on previous posts because I wanted to minimize page loading time, but now I think that the slight negative impact is not worth the concern.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Links and Thoughts #6 (June 2024)"
-og_desc: Draft 3
+og_desc: Draft 4
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
@@ -55,3 +55,16 @@ This essay, by the eminent libertarian historian Ralph Raico, originally appeare
 This article is an overview of the potentially groundbreaking work of Michael Levin and colleagues in developmental biology. Levin and colleagues' central claim is that, while genes are still important, higher levels of abstraction and control meaningfully exist in biology; the bioelectric network of the organism is an example of that. It turns out that all cells, not just neurons, produce and sense electric signals in order to coordinate behavior and encode information.
 
 Levin's lab has demonstrated that the bioelectric network stores anatomical information independently and that it's possible to modify the structure of an organism just by modulating its bioelectric network, leaving its genes intact. For example, they have induced planarian worms to grow two heads or no heads at all, and frogs to grow extra limbs or even a functional eye in their tail. Beyond the myriad practical applications this research could have in the long run, Levin's work suggests that the definitions of _agent_, _intelligence_, and _creativity_ should be broader, encompassing lower and higher levels of biology in a fractal manner. This is a deep perspective shift that raises some complicated philosophical questions.
+
+---
+
+## _When few do great harm_
+
+- [Link to article](https://inquisitivebird.substack.com/p/when-few-do-great-harm)
+- Author: Inquisitive Bird
+- Date: 2023-04-23
+- Source: _Patterns in Humanity_ (Substack)
+
+<img class="w-100" src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png" alt="Graph of the average number of convictions by offender percentile in Sweden, showing that 1% of the population accounts for 63% of all violent crime convictions."/>
+
+This short article summarizes data from several Western countries, illustrating how a small number of repeat offenders are responsible for a large fraction of the crime. Arrests, convictions, and self-reported delinquent behavior roughly follow power law distributions, in which a few people disproportionately account for most criminal and delinquent behavior. In Sweden, for example, "1% of people were accountable for 63% of all violent crime convictions, and 0.12% of people accounted for 20% of violent crime convictions." Another example: in New York City, "nearly a third of all shoplifting arrests in the city in 2022 involved just 327 people, who collectively were arrested and rearrested more than 6,000 times."

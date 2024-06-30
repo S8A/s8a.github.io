@@ -112,19 +112,6 @@ Caplan also provides some caveats:
 
 ---
 
-## _Pinpointing Jewish IQ_
-
-- [Link to article](https://www.aporiamagazine.com/p/pinpointing-jewish-iq)
-- Author: Cremieux Recueil
-- Date: 2023-12-28
-- Source: _Aporia Magazine_ (Substack)
-
-<img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F41fa0ea0-4c0c-4200-8139-a170b97b8564_1846x1489.png" alt="Chart of the factor of overrepresentation of Jews in significant figures by area from 1870 to 1950"/>
-
-WIP
-
----
-
 ## Footnotes
 
 [^fn-1]: This term is a tongue-in-cheek reference to [critical race theory](https://en.wikipedia.org/wiki/Critical_race_theory) (CRT), which is basically the application of [critical theory](https://en.wikipedia.org/w/index.php?title=Critical_theory&oldid=1230630780) to the academic study of race in society, politics, and media. Thus, in concrete terms, CRT seeks to expose, explain, and critique alleged social, political, and legal "power structures" that "oppress" certain races and "privilege" others; it considers that "racism" is systemic to various aspects of those power structures and that it's not only based on individuals' prejudices; and it argues that these racial biases are what causes racial disparities in outcomes. Evidently, CRT is a fundamentally leftist (i.e., egalitarian) academic framework, since from the outset it rejects that there are measurable differences in traits or behaviors among different races that result in different group outcomes, or even rejects that races exist as more than "socially constructed" categories that are pretty much arbitrary. To learn more about what races actually are and why they're not just arbitrary categories, I recommend reading the article [_Are Racial Classifications Arbitrary?_](https://noahcarl.medium.com/are-racial-classifications-arbitrary-ac53cb43de90) by Noah Carl.

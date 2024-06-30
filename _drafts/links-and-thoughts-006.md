@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #6 (June 2024)"
-og_desc: Draft 6
+og_desc: Great work, Churchill, bioelectricity, Critical Age Theory, and normative versus positive hypocrisy.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-WIP
+This month's compilation brings an essay by a famous startup investor about how to do "great work" in any field, a critical essay about Winston Churchill, an overview of the potentially groundbreaking research of biologist Michael Levin, a summary of statistics showing that a small group of repeat offenders disproportionately commit most of the crime, an article about how gerontocratic policies affect young people in modern societies and what to do to fix the problem, and an explanation of how much weight we should give to hypocrisy as evidence against the views of the hypocrites.
 
 ---
 

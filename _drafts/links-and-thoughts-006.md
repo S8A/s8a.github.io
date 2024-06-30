@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Links and Thoughts #6 (June 2024)"
-og_desc: Draft 5
+og_desc: Draft 6
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
@@ -100,7 +100,15 @@ In this essay, Hanania explains the concept of gerontocracy, which is basically 
 
 <img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png" alt="Flowchart to determine how strongly does hypocrisy count as evidence against what someone is claiming"/>
 
-WIP
+In this short article, Caplan elaborates on his answer to the question of whether someone's hypocrisy regarding a view provides substantive evidence against that view. Caplan argues that this depends primarily on the type of hypocrisy in question:
+
+- _Normative hypocrisy_ is when someone's moral views clash with his behavior. This provides evidence that the person is morally flawed, but it doesn't provide much evidence that his view is incorrect.
+- On the other hand, _positive hypocrisy_ is when someone's descriptive views clash with his behavior. This does provide strong evidence against the view because it shows that the person himself disbelieves it.
+
+Caplan also provides some caveats:
+
+- If we have independent knowledge that the person is _extremely morally scrupulous_, then normative hypocrisy does provide moderate evidence that his view is incorrect, because it should make us doubt that he actually believes it; of course, it should also make us doubt our previous judgment of his scrupulousness.
+- On the other hand, if we have independent knowledge that the person is _extremely stupid_, then positive hypocrisy provides only weak evidence against the view.
 
 ---
 

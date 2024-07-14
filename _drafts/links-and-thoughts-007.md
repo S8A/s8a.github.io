@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #7 (July 2024)"
-og_desc: Draft 2.
+og_desc: Draft 3.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 2
+Draft 3
 
 ---
 
@@ -39,12 +39,21 @@ The author's introductory paragraph summarizes the article perfectly, so I'll ju
 
 This article provides a comprehensive look at data from various sources about the IQ of Jewish people inside and outside of Israel. To summarize, here are the main takeaways:
 
-- Ashkenazi Jews' overrepresentation in high-IQ professions and achievements is consistent with an average IQ between 110 and 115.
-- Based on several psychometric test results from the United States, Canada, and Great Britain, where Jews are overwhelmingly Ashkenazim, their average IQ must be somewhere between 110 and 113.
-- On the other hand, Israel is obviously the country with the most Jews, but most of them aren't Ashkenazim. Ethnic mixing and personal misidentification create room for misclassification error in Israel-based studies, which is why they're separate. Long story short, here is the estimated population share and average IQ of each Israeli Jewish subgroup:
-    - 44.9% are Mizrahim (Arab Jews) with a mean IQ of about 83.
-    - 31.8% are Ashkenazim (Central/Eastern European Jews) with a mean IQ of about 112.
-    - 12.4% are Soviets (immigrants from the collapsing USSR) with a mean IQ of about 100.
-    - 7.9% are mixed with a mean IQ of about 100.
-    - 3% are Ethiopians with a mean IQ of about 70.
-    <!-- TODO: Check these numbers -->
+- Based on several psychometric test results from the United States, Canada, and Great Britain, where Jews are overwhelmingly Ashkenazim, their average IQ must be somewhere between 110 and 113. This is consistent with Ashkenazi Jews' overrepresentation in high-IQ professions and achievements.
+- On the other hand, Israel is obviously the country with the most Jews, but most of them aren't Ashkenazim: only about 31.8% of Israeli Jews are Ashkenazim, while 44.9% are Mizrahim, 12.4% are Soviets, 3% are Ethiopians, and 7.9% are mixed. This distribution of Jewish groups, plus the fact that Arabs are about 20% of its total population, explains why Israel's average IQ, estimated from its PISA performance, is only about 92.
+
+---
+
+## _Notable People in Science, Europe 1000-1850_
+
+- [Link to article](https://inquisitivebird.substack.com/p/notable-people-in-science-europe)
+- Author: Inquisitive Bird
+- Date: 2022-11-19
+- Source: _Patterns in Humanity_ (Substack)
+
+<img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3967086a-b7a3-47e5-8581-c7dccba19b6b_1240x836.png" alt="Map of Europe with lights highlighting where each notable person was born (within the period 1000 to 1850)"/>
+
+Again, I'll use the author's introductory paragraph as the summary for this entry:
+
+> Based on a publicly available dataset, I track the European geographical distribution of notable scientists, philosophers, and other intellectuals from 1000 AD until the Industrial Revolution. Here I give a brief overview of the analysis and then I list the particularly noteworthy individuals within each period.
+{: .fst-italic.ps-4.border-start.border-5}

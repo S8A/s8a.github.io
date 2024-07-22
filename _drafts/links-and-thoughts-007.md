@@ -1,14 +1,13 @@
 ---
 layout: post
 title: "Links and Thoughts #7 (July 2024)"
-og_desc: Draft 3.
+og_desc: Draft 4.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
-
-Draft 3
+Draft 4
 
 ---
 
@@ -23,7 +22,7 @@ Draft 3
 
 The author's introductory paragraph summarizes the article perfectly, so I'll just quote it directly:
 
-> I track the historical rise of West Europe by quantitatively analyzing the birth of notable people of science, and then I put it in context with other indicators of historical development. The data together show that West Europe had developmentally surpassed the rest of the world prior to 1500 A.D., before the establishment of overseas colonies or slavery. It is clear that the West’s rise to global prominence has deeper roots than often suspected.
+> I track the historical rise of West Europe by quantitatively analyzing the birth of notable people of science, and then I put it in context with other indicators of historical development. The data together show that West Europe had developmentally surpassed the rest of the world prior to 1500 A.D., before the establishment of overseas colonies or slavery. It is clear that the West's rise to global prominence has deeper roots than often suspected.
 {: .fst-italic.ps-4.border-start.border-5}
 
 ---
@@ -56,4 +55,25 @@ This article provides a comprehensive look at data from various sources about th
 Again, I'll use the author's introductory paragraph as the summary for this entry:
 
 > Based on a publicly available dataset, I track the European geographical distribution of notable scientists, philosophers, and other intellectuals from 1000 AD until the Industrial Revolution. Here I give a brief overview of the analysis and then I list the particularly noteworthy individuals within each period.
+{: .fst-italic.ps-4.border-start.border-5}
+
+---
+
+## _The Book that Made Me an Economist_
+
+- [Link to article](https://mises.org/misesian/book-made-me-economist)
+- [Link to video](https://www.youtube.com/watch?v=ELXA0yeF2ds)
+- Author: Shawn Ritenour
+- Date: 2024-06-30
+- Sources:
+    - _The Misesian_ 1, no. 3 (May / June 2024). Ludwig von Mises Institute (LvMI).
+    - YouTube video of presentation at the LvMI's 2024 Human Action Conference.
+
+<img class="w-100" src="https://i.ytimg.com/vi/ELXA0yeF2ds/maxresdefault.jpg" alt="Thumbnail of the YouTube video of Ritenour's lecture"/>
+
+This essay and corresponding presentation by economist Shawn Ritenour are a reflection and commemoration of [_Human Action_](https://cdn.mises.org/Human%20Action_3.pdf) (1949), the _magnum opus_ of Austrian economist Ludwig von Mises, on the occasion of the 75th anniversary of its publication. Ritenour explains the importance of _Human Action_ for economics in general and for his own intellectual career, and how its groundbreaking, rigurously systematic causal-realist approach provides the proper foundations for true economic science, superior to present and past alternative theories.
+
+I particularly liked the latter half of the essay, in which Ritenour provides one of the most readable yet thorough syntheses of Mises's economic theory and its implications for the topic of economic development. I highly encourage reading it from beginning to end, so I'll just quote the final paragraph:
+
+> In short, one of the great lessons of Mises's Human Action is that the institutions of the free society&mdash;private property and sound money&mdash;make up the environment enabling economic progress, and hence, human flourishing.
 {: .fst-italic.ps-4.border-start.border-5}

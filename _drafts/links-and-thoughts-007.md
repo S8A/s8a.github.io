@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Links and Thoughts #7 (July 2024)"
-og_desc: Draft 4.
+og_desc: Draft 5.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
-Draft 4
+Draft 5
 
 ---
 
@@ -76,4 +76,53 @@ This essay and corresponding presentation by economist Shawn Ritenour are a refl
 I particularly liked the latter half of the essay, in which Ritenour provides one of the most readable yet thorough syntheses of Mises's economic theory and its implications for the topic of economic development. I highly encourage reading it from beginning to end, so I'll just quote the final paragraph:
 
 > In short, one of the great lessons of Mises's Human Action is that the institutions of the free society&mdash;private property and sound money&mdash;make up the environment enabling economic progress, and hence, human flourishing.
+{: .fst-italic.ps-4.border-start.border-5}
+
+---
+
+## _Memetic Evolution and Progressivism_
+
+- [Link to article](https://arctotherium.substack.com/p/memetic-evolution-and-progressivism)
+- Author: Arctotherium
+- Date: 2022-01-15
+- Source: _Not With a Bang_ (Substack)
+
+<img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F735140eb-615f-4003-ab03-656522fe3edd_867x482.png" alt="Chart of the demographics of non-heterosexual people in the United States, most notably showing that 32% of the youngest generation (Gen Z) identify as something other than heterosexual"/>
+
+In this article, Arctotherium explains his theory for the rise of modern progressivism/wokeness based on memetic evolution. Basically, industrial prosperity and the rise of mass telecommunications, particularly social media in recent decades, produced an unprecedented memetic environment extremely favorable to memes that spread through "viral" transmission as opposed to "mitochondrial" transmission. Mitochondrial memes, which spread parent to child, tend to produce more functional people and societies than viral memes, which spread peer to peer, because the former tend to go extinct if they make their hosts too dysfunctional, while the latter doesn't depend on their hosts thriving.
+
+This, the author explains, is the reason wokeness arose and became the dominant ideology of the modern world. This is a severe problem because wokeness is "an ideology that valorizes and promotes every form of human dysfunction, from criminality to stupidity to mental illness to sterility to obesity," and thus it could eventually bring about the "collapse of civilization, or possibly the extinction of humanity." The solution, according to the author, would be the rise of a new religion or societal ideology that can replace wokeness, create functional people and societies, and preserve itself.
+
+Briefly, I think modern prosperity and mass telecommunications have definitely played an important role in the rise of wokeness, but I think the author makes a big mistake in not taking into account genetics. More concretely, I think that there’s plenty of strong evidence that moral and political attitudes and other information biases are very heritable, and there’s also a lot of evidence that dysgenics explain a large part of the leftward shift of recent generations.
+
+---
+
+## _The rise and fall of "cultural evolution"_
+
+- [Link to article](https://www.josephbronski.com/p/the-rise-and-fall-of-cultural-evolution)
+- Author: Joseph Bronski
+- Date: 2023-10-04
+- Source: _Joseph Bronski_ (Substack)
+
+<img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5e78fed-856f-48f9-b18e-9850fa86294c_2878x1116.png" alt="Google Books Ngram chart comparing the relative frequency of the words race and culture, showing that the latter really took off only since about 1945"/>
+
+In this brief article, Bronski explains how and why the concept of "cultural evolution" arose, why it's deficient and riddled with blank-slatist baggage from its origins, and why the focus should be on the unambiguous concept of "informatic transmission." In the author's own words:
+
+> Too many people give credit to the idea of "cultural evolution." In this article, I question the validity of the concept of "cultural evolution", starting with its historical origins. It has mostly served as a psuedo-scientific cudgel to advance the aims of blank-slatists. A tour of its first models reveals rampant fallacious reasoning and bad assumptions. The combination of this history, the bad assumptions baked into the concept, and the incoherency of the word "culture" lead me to conclude that the term and its baggage should be abandoned for a better alternative.
+{: .fst-italic.ps-4.border-start.border-5}
+
+---
+
+## _Fleeing Opportunity_
+
+- [Link to article](https://arctotherium.substack.com/p/fleeing-opportunity)
+- Author: Arctotherium
+- Date: 2024-04-14
+- Source: _Not With a Bang_ (Substack)
+
+<img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82883b20-7904-4ffc-8b84-c64320a2d19c_643x335.png" alt="Graph showing that, in Great Britain since at least 2004, urban areas with higher productivity have consistently had strongly negative net migration while rural areas with lower productivity have consistently had strongly positive net migration."/>
+
+The author's conclusions provide the best summary of the article, so I'll quote it directly:
+
+> Immigration has countless effects on locals. It is impossible to enumerate and accurately measure all of them. The obvious way to check if immigration is beneficial or harmful is to see whether locals move towards them or away from them&mdash;and revealed preference is that, in Western countries, locals dislike actually-existing immigration so much that they are willing to take large pay cuts to escape it. In immigration-heavy countries, people move away from economic opportunity! This harms the national economy (especially when it is low-skilled Third Worlders driving out locals via behavior rather than housing prices), distorts the immigration debate, and has effectively destroyed one of the biggest pathways for upwards mobility in the 19th and 20th centuries. Internal migration away from productive areas should be a huge screaming red flag signaling to policymakers that the time has come for immigration restriction.
 {: .fst-italic.ps-4.border-start.border-5}

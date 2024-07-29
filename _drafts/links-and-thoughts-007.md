@@ -1,13 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #7 (July 2024)"
-og_desc: Draft 6.
+og_desc: The rise of the West, Jewish IQ, notable Europeans, Mises's Human Action, progressivism as a memetic virus, cultural evolution, locals fleeing immigration, and the three worst US presidents.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
-Draft 6
+
+This month's compilation brings an in-depth article about the historical rise of the West and another about the IQ of Jews in the West and in Israel, an overview of the geographical distribution of notable people in Europe from 1000 to 1850, an essay and presentation by an economist about the impact Ludwig von Mises's _Human Action_ had on him, an article using a theory of memetic evolution to explain the rise of modern progressivism or wokeness, an article explaining the origins and deficiencies of the concept of "cultural evolution," an article explaining the evidence that immigration causes locals to flee high-productivity areas and the consequences of that, and a Mises University presentation by Thomas DiLorenzo arguing who were the three worst United States presidents according to him and why.
 
 ---
 

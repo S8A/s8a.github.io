@@ -2,8 +2,8 @@
 layout: post
 title: "Links and Thoughts #7 (July 2024)"
 og_desc: The rise of the West, Jewish IQ, notable Europeans, Mises's Human Action, progressivism as a memetic virus, cultural evolution, locals fleeing immigration, and the three worst US presidents.
-og_image: s8a-thumbnail.png
-big_image: s8a-thumbnail.png
+og_image: links-and-thoughts-007-og-image.jpg
+big_image: links-and-thoughts-007-og-image.jpg
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---

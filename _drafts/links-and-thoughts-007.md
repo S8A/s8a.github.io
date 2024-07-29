@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Links and Thoughts #7 (July 2024)"
-og_desc: Draft 5.
+og_desc: Draft 6.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
-Draft 5
+Draft 6
 
 ---
 
@@ -69,7 +69,7 @@ Again, I'll use the author's introductory paragraph as the summary for this entr
     - _The Misesian_ 1, no. 3 (May / June 2024). Ludwig von Mises Institute (LvMI).
     - YouTube video of presentation at the LvMI's 2024 Human Action Conference.
 
-<img class="w-100" src="https://i.ytimg.com/vi/ELXA0yeF2ds/maxresdefault.jpg" alt="Thumbnail of the YouTube video of Ritenour's lecture"/>
+<img class="w-100" src="https://i.ytimg.com/vi/ELXA0yeF2ds/maxresdefault.jpg" alt="Picture of Shawn Ritenour giving his presentation at the 2024 Human Action Conference."/>
 
 This essay and corresponding presentation by economist Shawn Ritenour are a reflection and commemoration of [_Human Action_](https://cdn.mises.org/Human%20Action_3.pdf) (1949), the _magnum opus_ of Austrian economist Ludwig von Mises, on the occasion of the 75th anniversary of its publication. Ritenour explains the importance of _Human Action_ for economics in general and for his own intellectual career, and how its groundbreaking, rigurously systematic causal-realist approach provides the proper foundations for true economic science, superior to present and past alternative theories.
 
@@ -126,3 +126,22 @@ The author's conclusions provide the best summary of the article, so I'll quote 
 
 > Immigration has countless effects on locals. It is impossible to enumerate and accurately measure all of them. The obvious way to check if immigration is beneficial or harmful is to see whether locals move towards them or away from them&mdash;and revealed preference is that, in Western countries, locals dislike actually-existing immigration so much that they are willing to take large pay cuts to escape it. In immigration-heavy countries, people move away from economic opportunity! This harms the national economy (especially when it is low-skilled Third Worlders driving out locals via behavior rather than housing prices), distorts the immigration debate, and has effectively destroyed one of the biggest pathways for upwards mobility in the 19th and 20th centuries. Internal migration away from productive areas should be a huge screaming red flag signaling to policymakers that the time has come for immigration restriction.
 {: .fst-italic.ps-4.border-start.border-5}
+
+---
+
+## _Axis of Evil: America’s Three Worst Presidents_
+
+- [Link to video](https://www.youtube.com/watch?v=W6vIAlK50sE)
+- Speaker: Thomas J. DiLorenzo
+- Date: 2024-07-28
+- Source: Mises University 2024. Ludwig von Mises Institute.
+
+<img class="w-100" src="https://i.ytimg.com/vi/W6vIAlK50sE/maxresdefault.jpg" alt="Picture of Thomas DiLorenzo giving his presentation for Mises University 2024."/>
+
+This is the recording of the first presentation of Mises University 2024; I actually watched the original livestream on July 28th. [^fn-1] Thomas DiLorenzo, president of the Ludwig von Mises Institute, made his presentation about who he thinks were the three worst presidents of the United States and the things they did to earn such a negative distinction. I correctly predicted before the livestream started that the three worst US presidents would be Abraham Lincoln, Woodrow Wilson, and Franklin D. Roosevelt. Lincoln, Wilson, and Roosevelt were all bloodthirsty warmongers and centralizing tyrants who were arguably the most pivotal in transforming the US government into the Leviathan welfare-warfare state it is today.
+
+---
+
+## Footnotes
+
+[^fn-1]: One of those days where certain events turned out exactly as I predicted, sadly...

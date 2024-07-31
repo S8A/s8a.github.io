@@ -26,6 +26,8 @@ The author's introductory paragraph summarizes the article perfectly, so I'll ju
 > I track the historical rise of West Europe by quantitatively analyzing the birth of notable people of science, and then I put it in context with other indicators of historical development. The data together show that West Europe had developmentally surpassed the rest of the world prior to 1500 A.D., before the establishment of overseas colonies or slavery. It is clear that the West's rise to global prominence has deeper roots than often suspected.
 {: .fst-italic.ps-4.border-start.border-5}
 
+The article's account of the rise of Western Europe is consistent with the argument of libertarian historian Ralph Raico in his essay [_The European Miracle_](https://mises.org/mises-daily/european-miracle). In the essay, Raico explains that the particular reason for Europe’s unprecedented rise was its high degree of decentralization of power and interjurisdictional competition in the Middle Ages, which resulted in few restrictions on private property and commerce, as well as the development of modern market institutions.
+
 ---
 
 ## _Pinpointing Jewish IQ_
@@ -68,13 +70,13 @@ Again, I'll use the author's introductory paragraph as the summary for this entr
 - Date: 2024-06-30
 - Sources:
     - _The Misesian_ 1, no. 3 (May / June 2024). Ludwig von Mises Institute (LvMI).
-    - YouTube video of presentation at the LvMI's 2024 Human Action Conference.
+    - YouTube video of the presentation at the LvMI's 2024 Human Action Conference.
 
 <img class="w-100" src="https://i.ytimg.com/vi/ELXA0yeF2ds/maxresdefault.jpg" alt="Picture of Shawn Ritenour giving his presentation at the 2024 Human Action Conference."/>
 
 This essay and corresponding presentation by economist Shawn Ritenour are a reflection and commemoration of [_Human Action_](https://cdn.mises.org/Human%20Action_3.pdf) (1949), the _magnum opus_ of Austrian economist Ludwig von Mises, on the occasion of the 75th anniversary of its publication. Ritenour explains the importance of _Human Action_ for economics in general and for his own intellectual career, and how its groundbreaking, rigurously systematic causal-realist approach provides the proper foundations for true economic science, superior to present and past alternative theories.
 
-I particularly liked the latter half of the essay, in which Ritenour provides one of the most readable yet thorough syntheses of Mises's economic theory and its implications for the topic of economic development. I highly encourage reading it from beginning to end, so I'll just quote the final paragraph:
+I particularly liked the latter half of the essay, in which Ritenour provides one of the most readable yet thorough recaps of Mises's economic theory and its implications for the topic of economic development. I highly encourage reading it from beginning to end, so I'll just quote the final paragraph:
 
 > In short, one of the great lessons of Mises's Human Action is that the institutions of the free society&mdash;private property and sound money&mdash;make up the environment enabling economic progress, and hence, human flourishing.
 {: .fst-italic.ps-4.border-start.border-5}
@@ -109,7 +111,7 @@ Briefly, I think modern prosperity and mass telecommunications have definitely p
 
 In this brief article, Bronski explains how and why the concept of "cultural evolution" arose, why it's deficient and riddled with blank-slatist baggage from its origins, and why the focus should be on the unambiguous concept of "informatic transmission." In the author's own words:
 
-> Too many people give credit to the idea of "cultural evolution." In this article, I question the validity of the concept of "cultural evolution", starting with its historical origins. It has mostly served as a psuedo-scientific cudgel to advance the aims of blank-slatists. A tour of its first models reveals rampant fallacious reasoning and bad assumptions. The combination of this history, the bad assumptions baked into the concept, and the incoherency of the word "culture" lead me to conclude that the term and its baggage should be abandoned for a better alternative.
+> Too many people give credit to the idea of "cultural evolution." In this article, I question the validity of the concept of "cultural evolution", starting with its historical origins. It has mostly served as a [pseudo]-scientific cudgel to advance the aims of blank-slatists. A tour of its first models reveals rampant fallacious reasoning and bad assumptions. The combination of this history, the bad assumptions baked into the concept, and the incoherency of the word "culture" lead me to conclude that the term and its baggage should be abandoned for a better alternative.
 {: .fst-italic.ps-4.border-start.border-5}
 
 ---
@@ -139,10 +141,10 @@ The author's conclusions provide the best summary of the article, so I'll quote 
 
 <img class="w-100" src="https://i.ytimg.com/vi/W6vIAlK50sE/maxresdefault.jpg" alt="Picture of Thomas DiLorenzo giving his presentation for Mises University 2024."/>
 
-This is the recording of the first presentation of Mises University 2024; I actually watched the original livestream on July 28th. [^fn-1] Thomas DiLorenzo, president of the Ludwig von Mises Institute, made his presentation about who he thinks were the three worst presidents of the United States and the things they did to earn such a negative distinction. I correctly predicted before the livestream started that the three worst US presidents would be Abraham Lincoln, Woodrow Wilson, and Franklin D. Roosevelt. Lincoln, Wilson, and Roosevelt were all bloodthirsty warmongers and centralizing tyrants who were arguably the most pivotal in transforming the US government into the Leviathan welfare-warfare state it is today.
+This is the recording of the first presentation of Mises University 2024; I actually watched the original livestream on July 28th. [^fn-1] Thomas DiLorenzo, president of the Ludwig von Mises Institute, made his presentation about who he thinks were the three worst presidents of the United States and the things they did to earn such a negative distinction. I correctly predicted before the livestream started that the three worst US presidents would be Abraham Lincoln, Woodrow Wilson, and Franklin D. Roosevelt. Lincoln, Wilson, and Roosevelt were all bloodthirsty warmongers and tyrannical centralizers who were arguably the most pivotal in transforming the US government into the Leviathan welfare-warfare state it is today.
 
 ---
 
 ## Footnotes
 
-[^fn-1]: One of those days where certain events turned out exactly as I predicted, sadly...
+[^fn-1]: A day where certain events turned out exactly as I predicted, sadly.

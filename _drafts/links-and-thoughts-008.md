@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #8 (August 2024)"
-og_desc: Draft 3.
+og_desc: Draft 4.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 3
+Draft 4
 
 ---
 
@@ -54,6 +54,19 @@ The article is a very interesting and accessible read, with many funny and quota
 >
 > The challenge is in avoiding the disasters to life, liberty, and property that emerge from skill mismatches.
 {: .fst-italic.ps-4.border-start.border-5}
+
+---
+
+## Candidates
+
+- <https://hunterhastings.substack.com/p/how-businesses-run-three-value-creation>
+- <https://www.fff.org/explore-freedom/article/ludwig-von-mises-and-the-austrian-theory-of-money-banking-and-the-business-cycle-part-1/>
+- <https://www.cspicenter.com/p/born-this-way-the-rise-of-lgbt-as-a-social-and-political-identity>
+- <https://www.cremieux.xyz/p/the-cultural-power-of-high-skilled>
+- <https://www.emilkirkegaard.com/p/hananias-diversity-hypothesis-tested>
+- <https://emilkirkegaard.dk/en/2023/07/fall-of-the-roman-empire-polygenic-score-edition/>
+- <https://www.paulgraham.com/rootsoflisp.html>
+- <https://arbital.com/p/bayes_rule/?l=1zq>
 
 ---
 

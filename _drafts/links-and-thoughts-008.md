@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #8 (August 2024)"
-og_desc: Draft 5.
+og_desc: Draft 6.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 5
+Draft 6
 
 ---
 
@@ -47,7 +47,7 @@ In this article, Gautreau provides a very interesting and fun to read explanatio
 
 The article is a very interesting and accessible read, with many funny and quotable parts. I'll highlight two of my favorite quotes, one from around the middle of the article, and one from the end:
 
-> I repeat myself: life isn’t fair, and man is an unequal creature. Unequal people get unequal incomes, and there’s nothing that will change that.
+> I repeat myself: life isn't fair, and man is an unequal creature. Unequal people get unequal incomes, and there's nothing that will change that.
 {: .fst-italic.ps-4.border-start.border-5}
 
 > [...] The material benefits of this delicate productive arrangement are clear to every enterprise in a capitalist system.
@@ -70,6 +70,24 @@ This article re-examines the oral polio vaccine (OPV) hypothesis for the origin 
 
 ---
 
+## _Murder As Measuring Stick_
+
+- [Link to article](https://arctotherium.substack.com/p/murder-as-measuring-stick)
+- Author: Arctotherium
+- Date: 2024-08-24
+- Source: _Not With a Bang_ (Substack)
+
+<img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F307f7ead-4f0d-4edb-9dca-0d83e7b88475_1129x665.png" alt="Chart of the lethality of aggravated assaults in the United States over time, showing that the lethality of aggravated assaults has dramatically decreased due to better medical care and access, thus reducing the homicide rate."/>
+
+The central thesis of the article is that while the murder rate is the best proxy we have for the overall crime rate due to its consistent definition and reporting, it's still necessary to make adjustments to make valid comparisons between eras and regions. In particular, the most important thing to account for is that improvements in medical techniques and access have dramatically reduced the lethality of violent crime throughout the years, and thus the seemingly comparable murder rates in the West between 1960 and the present actually mask the fact that the level of overall crime and disorder is several times higher today. Furthermore, the trends of increasing obesity and wealth, along with improvements in forensics and surveillance technology, should make us expect crime to fall over time, so the deterioration of law and order throughout the years is even more glaring. The second point is that international comparisons must take into account that different countries have different ratios of murders to total crime due to differences in available weapons and the criminal inclinations of their demographics.
+
+Fortunately, the author points out, crime is a relatively simple problem to solve due to the power law distribution of criminal behavior; as a small group of repeat offenders are responsible for the vast majority of crimes, returning to punishing criminals swiftly and harshly would pretty much solve the problem. [^fn-7] I'll end by quoting the post's final paragraph:
+
+> As such there's no good reason European countries today (and ideally the United States) shouldn't be as safe as Japan. All it would require is a criminal justice system as effective as it was two generations ago. Doing this would be just, make us much wealthier, and vastly improve our quality-of-life. Reaching Japan is realistic and should be the goal of Western criminal justice politics. Accept nothing less.
+{: .fst-italic.ps-4.border-start.border-5}
+
+---
+
 ## Candidates
 
 - <https://hunterhastings.substack.com/p/how-businesses-run-three-value-creation>
@@ -87,7 +105,8 @@ This article re-examines the oral polio vaccine (OPV) hypothesis for the origin 
 
 [^fn-1]: Read, for example, [_How important is the elite in wokeism?_](https://www.josephbronski.com/p/how-important-is-the-elite-in-wokeism), a brief article in which Bronski states the mutational load hypothesis as follows: "Leftism is a psychological defect caused by high mutational load induced by the low selection pressures of modernity."  He provides various graphs and links to studies that purportedly support the hypothesis.
 [^fn-2]: In a footnote, the author clarifies that the technical definition of mutational load focuses on mutations that are deleterious to fitness, but in this case he is referring to "_de novo_ mutations that degrade function (adaption execution) rather than fitness (number of surviving offspring)." Presumably, Bronski is using the term in the same manner.
-[^fn-3]: As the author explains, the increase in mutational load was mostly due to drastically decreased child mortality, which reduces purifying selection, while the other possible cause, increased paternal age, didn't play a significant role. The author points out that paternal age surprisingly didn’t increase across the board throughout the 20th century. While people in the early 20th century started having children earlier, they also continued to have them for longer, so the average paternal age stayed roughly constant.
+[^fn-3]: As the author explains, the increase in mutational load was mostly due to drastically decreased child mortality, which reduces purifying selection, while the other possible cause, increased paternal age, didn't play a significant role. The author points out that paternal age surprisingly didn't increase across the board throughout the 20th century. While people in the early 20th century started having children earlier, they also continued to have them for longer, so the average paternal age stayed roughly constant.
 [^fn-4]: In a footnote, the author says that, for the purposes of the article, leftism is defined as "the decay of group-selected behavior," and he lists the following as indicators of leftism: "Feminism (particularly the decline of absolute monogamy and the loosening of sexual restraints on women), irreligiosity, lowered ethnocentrism, socialism, and promotion of sexual deviancy." In other words, he defines leftism as anti-civilizational beliefs and behavior, which I find not only amusing but also very accurate.
 [^fn-5]: "The name is a reference to the 1986 [_Challenger_ shuttle disaster](https://en.wikipedia.org/w/index.php?title=Space_Shuttle_Challenger_disaster&oldid=1238602171), a catastrophe caused by the failure of [O-rings](https://en.wikipedia.org/w/index.php?title=O-ring&oldid=1229211936)." &ndash; [O-ring theory of economic development](https://en.wikipedia.org/w/index.php?title=O-ring_theory_of_economic_development&oldid=1196934817), Wikipedia.
 [^fn-6]: People who know me are aware of the importance of the events of 2020 to my ideological development. I won't elaborate here.
+[^fn-7]: Here, the author links to the article [_When few do great harm_](https://inquisitivebird.xyz/p/when-few-do-great-harm) by Inquisitive Bird, which I featured on [June's _Links and Thoughts_ post]({% link _posts/2024-06-30-links-and-thoughts-006.md %}).

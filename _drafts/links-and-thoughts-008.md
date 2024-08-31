@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #8 (August 2024)"
-og_desc: Draft 4.
+og_desc: Draft 5.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 4
+Draft 5
 
 ---
 
@@ -57,6 +57,19 @@ The article is a very interesting and accessible read, with many funny and quota
 
 ---
 
+## _Origins of AIDS: The polio vaccine hypothesis_
+
+- [Link to article](https://www.aporiamagazine.com/p/origins-of-aids-the-polio-vaccine)
+- Author: Jonatan Pallesen
+- Date: 2024-08-23
+- Source: _Aporia_ (Substack)
+
+<img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb0e995f-b872-429e-8133-05da52259b02_747x939.png" alt="Map of early AIDS cases in the Congo and bordering countries"/>
+
+This article re-examines the oral polio vaccine (OPV) hypothesis for the origin of the human immunodeficiency virus (HIV), an alternative to the mainstream-accepted bushmeat hypothesis. The OPV hypothesis claims that HIV evolved from a related virus present in some of the chimpanzee kidney cells used in the large-scale experimental OPV trial carried out in the Belgian Congo from 1957 to 1960. Pallesen argues that there are several improbable coincidences that the bushmeat hypothesis doesn't convincingly explain, while the OPV hypothesis is straightforwardly plausible, though he makes clear that it might still be incorrect. Furthermore, he provides compelling evidence and arguments that show that the claims used to allegedly refute the OPV hypothesis are either weak or entirely wrong. I particularly liked a brief aside section in which Pallesen highlights the curious parallels between the debate over the origins of AIDS and the debate over the origins of COVID-19. [^fn-6]
+
+---
+
 ## Candidates
 
 - <https://hunterhastings.substack.com/p/how-businesses-run-three-value-creation>
@@ -77,3 +90,4 @@ The article is a very interesting and accessible read, with many funny and quota
 [^fn-3]: As the author explains, the increase in mutational load was mostly due to drastically decreased child mortality, which reduces purifying selection, while the other possible cause, increased paternal age, didn't play a significant role. The author points out that paternal age surprisingly didn’t increase across the board throughout the 20th century. While people in the early 20th century started having children earlier, they also continued to have them for longer, so the average paternal age stayed roughly constant.
 [^fn-4]: In a footnote, the author says that, for the purposes of the article, leftism is defined as "the decay of group-selected behavior," and he lists the following as indicators of leftism: "Feminism (particularly the decline of absolute monogamy and the loosening of sexual restraints on women), irreligiosity, lowered ethnocentrism, socialism, and promotion of sexual deviancy." In other words, he defines leftism as anti-civilizational beliefs and behavior, which I find not only amusing but also very accurate.
 [^fn-5]: "The name is a reference to the 1986 [_Challenger_ shuttle disaster](https://en.wikipedia.org/w/index.php?title=Space_Shuttle_Challenger_disaster&oldid=1238602171), a catastrophe caused by the failure of [O-rings](https://en.wikipedia.org/w/index.php?title=O-ring&oldid=1229211936)." &ndash; [O-ring theory of economic development](https://en.wikipedia.org/w/index.php?title=O-ring_theory_of_economic_development&oldid=1196934817), Wikipedia.
+[^fn-6]: People who know me are aware of the importance of the events of 2020 to my ideological development. I won't elaborate here.

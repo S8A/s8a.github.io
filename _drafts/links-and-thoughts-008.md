@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #8 (August 2024)"
-og_desc: Draft 6.
+og_desc: Draft 7.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 6
+Draft 7
 
 ---
 
@@ -88,16 +88,16 @@ Fortunately, the author points out, crime is a relatively simple problem to solv
 
 ---
 
-## Candidates
+## _Born This Way? The Rise of LGBT as a Social and Political Identity_
 
-- <https://hunterhastings.substack.com/p/how-businesses-run-three-value-creation>
-- <https://www.fff.org/explore-freedom/article/ludwig-von-mises-and-the-austrian-theory-of-money-banking-and-the-business-cycle-part-1/>
-- <https://www.cspicenter.com/p/born-this-way-the-rise-of-lgbt-as-a-social-and-political-identity>
-- <https://www.cremieux.xyz/p/the-cultural-power-of-high-skilled>
-- <https://www.emilkirkegaard.com/p/hananias-diversity-hypothesis-tested>
-- <https://emilkirkegaard.dk/en/2023/07/fall-of-the-roman-empire-polygenic-score-edition/>
-- <https://www.paulgraham.com/rootsoflisp.html>
-- <https://arbital.com/p/bayes_rule/?l=1zq>
+- [Link to article](https://www.cspicenter.com/p/born-this-way-the-rise-of-lgbt-as-a-social-and-political-identity)
+- Author: Eric Kaufmann
+- Date: 2022-05-30
+- Source: _Center for the Study of Partisanship and Ideology_ (Substack)
+
+<img class="w-100" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F4cc2bf73-efef-41b4-baaf-21e473a4df91_2268x1300.png" alt="Chart of LGBT share by ideology for people under 30 years old."/>
+
+This article is a thorough statistical analysis of the rise of LGBT identification in the West (particularly in the United States), the factors and trends underlying it, and its implications. The main takeaway is that while there has been an increase in actual non-heterosexual _behavior_ (about 4%), the increase in LGBT _identification_ has been much greater (about 11%), and the data suggests that sociopolitical factors likely explain most of this divergence. Another important takeaway that isn't surprising at all is that, at least among young people, there is a strong correlation between mental health problems, "liberal" ideology (leftism), and LGBT identity. The article starts with a summary list of the key findings, so I won't restate them all here. I hope they repeat this report with more recent data.
 
 ---
 

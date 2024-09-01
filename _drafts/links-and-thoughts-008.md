@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #8 (August 2024)"
-og_desc: Draft 7.
+og_desc: The mutational load hypothesis, O-ring theory, the origins of AIDS, murder rate comparisons, and the rise of LGBT identity.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 7
+This month's compilation brings: a three-part article arguing against the mutational load hypothesis for the rise of leftism; an eloquent explanation of the O-ring theory of economic development and its implications; a defense of the oral polio vaccine hypothesis for the origins of AIDS; an article explaining the adjustments needed to adequately compare murder rates between eras and regions; and a detailed statistical analysis of the rise of LGBT identification.
 
 ---
 

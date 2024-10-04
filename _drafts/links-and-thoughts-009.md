@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #9 (September 2024)"
-og_desc: Draft 2
+og_desc: Draft 3
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 2
+Draft 3
 
 ---
 
@@ -41,9 +41,33 @@ This essay provides a detailed overview of the ideological well-being gap, its d
 
 ---
 
-## Candidates
+## _trans-racial dysmorphia._
+
+- [Link to article](https://deepleft.substack.com/p/trans-racial-dysmorphia)
+- Author: DeepLeftAnalysis
+- Date: 2024-09-18
+- Source: _Deep Left Analysis_ (Substack)
+
+<div class="row mb-2">
+  <div class="col-12 col-sm-8 col-md-6 mx-auto">
+    <img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31c1db3c-b510-40cf-befc-7248312581d3_1200x1200.jpeg" alt="Examples of white women before and after drastic transformations to look like black or mixed-race."/>
+  </div>
+</div>
+
+This is an intriguing article that argues that trans-racial dysmorphia [^fn-1] and trans-racialism [^fn-2] will be the phenomena of the next mass identity crisis, after the current one of gender dysmorphia and transgenderism. The author creatively weaves together different phenomena, trends, hypotheses, and tangents to support and elaborate his main thesis that rising narcissism combined with ambiguous or fractured identities is the common root cause of rising transgenderism, trans-racialism, and political polarization. Thus, he argues that the mainstream conservative campaign of fighting against transgenderism by focusing the blame on doctors and pushing for government regulations on them is intellectually lazy and useless at best because it doesn't address the broader underlying trends.
+
+Overall, a very thought-provoking and well-argued article, though I don't agree with everything it says. The author also has an unusual and baffling political ideology, which he calls "deep left," that confused me at first and led me to read several other articles by him to understand his worldview; to summarize, I think "deep left" is kind of a misnomer, but his Substack description is apt: "Progressive, elitist analysis."
+
+---
 
 - <https://deepleft.substack.com/p/interracial-marriage-increases-racism>
 - <https://www.stevesailer.net/p/david-reich-vindicates-cochran-and>
 - <https://swoleateveryheight.blogspot.com/2023/04/physicality-creativity-and-consciousness.html>
 - <https://www.anthro1.net/p/was-the-roman-empire-eugenic>
+
+---
+
+## Footnotes
+
+[^fn-1]: Discomfort with one's own race and/or desire to be of another race.
+[^fn-2]: Identifying as a different race than one really is, and potentially using cosmetic or surgical procedures to try to appear that way.

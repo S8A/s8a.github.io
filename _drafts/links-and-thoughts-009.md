@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #9 (September 2024)"
-og_desc: Draft 4
+og_desc: The cost of apathy, the ideological well-being gap, trans-racial dysmorphia, and the strange loops of life and lifting.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 4
+This month's compilation brings: a reflection on the opportunity cost of living an apathetic life, an overview of the well-being gap between progressives and conservatives, a speculative theory on the possible rise of trans-racial dysmorphia, and an exploration of the strange loop between physicality, creativity, and consciousness.
 
 ---
 
@@ -77,10 +77,6 @@ This introspective post by strength training and conditioning coach Cody Lefever
 
 > The process is the goal. Separating ourselves from doing, for any reason, is the means by which we passively accept eventually not being. Physicality is creativity is consciousness. 
 {: .fst-italic.ps-4.border-start.border-5}
-
----
-
-- <https://www.anthro1.net/p/was-the-roman-empire-eugenic>
 
 ---
 

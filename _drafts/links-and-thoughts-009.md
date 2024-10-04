@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #9 (September 2024)"
-og_desc: Draft 3
+og_desc: Draft 4
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 3
+Draft 4
 
 ---
 
@@ -60,9 +60,26 @@ Overall, a very thought-provoking and well-argued article, though I don't agree 
 
 ---
 
-- <https://deepleft.substack.com/p/interracial-marriage-increases-racism>
-- <https://www.stevesailer.net/p/david-reich-vindicates-cochran-and>
-- <https://swoleateveryheight.blogspot.com/2023/04/physicality-creativity-and-consciousness.html>
+## _Physicality, Creativity, and Consciousness_
+
+- [Link to article](https://swoleateveryheight.blogspot.com/2023/04/physicality-creativity-and-consciousness.html)
+- Author: Cody Lefever
+- Date: 2023-04-03
+- Source: _Swole at Every Height_ (blog)
+
+<div class="row mb-2">
+  <div class="col-12 col-sm-10 col-md-8 mx-auto">
+    <img class="w-100" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiJnVSkzLDNgJuoRypRKMnP9piH7BcNv2VzGRcEM6RHiBMzdV_ue_hULfCWnvFUkxrTKWWettyZjuXuPmqkq6GR8PdcX63FQZ0Xj6EMY1QoTQMbgsusOeZUZ8IbIEbTMqEnHGvaZwAuoSktmnysunghLR44rVff4k664KnYyWjCjyZbLpX7UZyNsWC/w400-h339/drawing%20hands.jpg" alt="Drawing Hands. January 1948. Lithograph by M.C. Escher. Featured in the article with the additional comment 'What is created, creates.'"/>
+  </div>
+</div>
+
+This introspective post by strength training and conditioning coach Cody Lefever, as he explains in the introduction, is primarily his response to the question of _why_ he lifts, though he lays out concepts and lessons applicable in many other areas of life. The article is based on the concept of "strange loops": according to philosopher and mathematician Douglas Hofstadter, who introduced the concept, "a strange loop is a system that contains a self-referential structure which, when observed at a higher level of abstraction, creates a paradoxical situation." [^fn-3] Lefever explains that physicality, creativity, and consciousness form a strange loop where each element refers to the other two, forming an increasingly complex feedback loop. I highly encourage reading the article; it's clear, concise, almost poetic, and full of wisdom and inspiration for physical and general self-improvement.
+
+> The process is the goal. Separating ourselves from doing, for any reason, is the means by which we passively accept eventually not being. Physicality is creativity is consciousness. 
+{: .fst-italic.ps-4.border-start.border-5}
+
+---
+
 - <https://www.anthro1.net/p/was-the-roman-empire-eugenic>
 
 ---
@@ -71,3 +88,4 @@ Overall, a very thought-provoking and well-argued article, though I don't agree 
 
 [^fn-1]: Discomfort with one's own race and/or desire to be of another race.
 [^fn-2]: Identifying as a different race than one really is, and potentially using cosmetic or surgical procedures to try to appear that way.
+[^fn-3]: I added the book _Gödel, Escher, Bach: An Eternal Golden Braid_ by Hofstadter to my ever-accumulating reading list.

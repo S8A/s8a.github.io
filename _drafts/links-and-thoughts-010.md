@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #10 (October 2024)"
-og_desc: Draft 2
+og_desc: Draft 3
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 2
+Draft 3
 
 ---
 
@@ -25,7 +25,28 @@ This article is an overview of the methods, findings, and significance of a rece
 
 ---
 
-- [The case for prisons](https://inquisitivebird.xyz/p/the-case-for-prisons)
+## _Mutation and Human Exceptionalism: Our Future Genetic Load_
+
+- [Link to journal article](https://academic.oup.com/genetics/article/202/3/869/5930150)
+- Author: Michael Lynch
+- Date: 2016-03-16
+- Source: _Genetics_, Volume 202, Issue 3, 1 March 2016, Pages 869–875. DOI: [10.1534/genetics.115.180471](https://doi.org/10.1534/genetics.115.180471)
+
+WIP
+
+---
+
+## _How Christianity rebooted cognitive evolution_
+
+- [Link to article](https://www.aporiamagazine.com/p/how-christianity-rebooted-cognitive)
+- Author: Peter Frost
+- Date: 2024-10-10
+- Source: _Aporia Magazine_ (Substack)
+
+WIP
+
+---
+
 - [The Dark Ages](https://inquisitivebird.xyz/p/the-dark-ages)
 - [Breaking the Laboratories of Democracy](https://arctotherium.substack.com/p/breaking-the-laboratories-of-democracy)
 - [High Jewish and Asian IQ: real](https://www.sebjenseb.net/p/high-jewish-and-asian-iq-real)
@@ -35,6 +56,4 @@ This article is an overview of the methods, findings, and significance of a rece
 - [Academia's prestige will nosedive within 50 years](https://www.sebjenseb.net/p/academias-prestige-will-nosedive)
 - [AI Art Turing Test](https://www.astralcodexten.com/p/ai-art-turing-test)
 - [Overwhelming evidence of recent evolution in West Eurasians](https://www.aporiamagazine.com/p/overwhelming-evidence-of-recent-evolution)
-- [How Christianity rebooted cognitive evolution](https://www.aporiamagazine.com/p/how-christianity-rebooted-cognitive)
 - [A response to Sasha Gusev on IQ](https://www.aporiamagazine.com/p/a-response-to-sasha-gusev-on-iq)
-- [Mutation and Human Exceptionalism: Our Future Genetic Load](https://academic.oup.com/genetics/article/202/3/869/5930150?)login=false

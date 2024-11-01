@@ -8,7 +8,7 @@ big_image_alt: AI-generated illustrations for the featured articles (Playground 
 category: personal
 ---
 
-This month's compilation brings: an overview of a recent major study of recent evolution in West Eurasians; a scientific paper detailing the grim outlook for the human gene pool; an article making the case that Christianity reversed cognitive decline in Imperial Rome; an article arguing that immigration in the United States weakens desirable features of federalism; and a podcast episode explaining the nuanced position of Ludwig von Mises on fractional reserve banking.
+This month's compilation brings: an overview of a major study of recent evolution in West Eurasians; a scientific paper detailing the grim outlook for the human gene pool; an article making the case that Christianity reversed cognitive decline in Imperial Rome; an article arguing that immigration in the United States weakens desirable features of federalism; and a podcast episode explaining the nuanced position of Ludwig von Mises on fractional reserve banking.
 
 ---
 

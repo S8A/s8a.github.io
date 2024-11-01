@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #10 (October 2024)"
-og_desc: Draft 4
-og_image: s8a-thumbnail.png
-big_image: s8a-thumbnail.png
+og_desc: West Eurasian evolution, human genetic deterioration, Christianity and cognitive evolution, immigration and federalism, and Mises on fractional reserve banking.
+og_image: links-and-thoughts-010-og-image.jpg
+big_image: links-and-thoughts-010-og-image.jpg
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 4
+This month's compilation brings: an overview of a recent major study of recent evolution in West Eurasians; a scientific paper detailing the grim outlook for the human gene pool; an article making the case that Christianity reversed cognitive decline in Imperial Rome; an article arguing that immigration in the United States weakens desirable features of federalism; and a podcast episode explaining the nuanced position of Ludwig von Mises on fractional reserve banking.
 
 ---
 

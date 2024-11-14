@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #11 (November 2024)"
-og_desc: Draft 3
+og_desc: Draft 4
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 3
+Draft 4
 
 ---
 
@@ -50,3 +50,16 @@ In this brief article, the author explains that intelligence, like many other hu
 <img class="w-100" src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcfe8ba7c-69f5-47cd-8f05-4b86dea4e9fc_1124x833.png" alt="Chart comparing homicide victimization rates of blacks and whites in each per-capita income rate bracket, using county-level data from the United States (2018-2021). At all income levels, blacks have a much higher homicide victimization risk than whites."/>
 
 This article summarizes why economic factors cannot explain the large gap in homicide rates between blacks and whites in the United States, based on the latest data and research. First, regression results show that ethnic demographic factors are substantially more explanatory than economic factors. Second, large disparities persist even when comparing blacks and whites within the same income bracket. And finally, causally informative research shows that the causal economic effect on violent crime is marginal at best, and thus the observed correlation is actually the result of selection and, to a lesser extent, reverse causality (i.e., crime causes poverty, not the other way around).
+
+---
+
+## _The Sigma Female_
+
+- [Link to article](https://deepleft.substack.com/p/the-sigma-female)
+- Author: DeepLeftAnalysis
+- Date: 2024-10-30
+- Source: _Deep Left Analysis_ (Substack)
+
+<img class="w-100" src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae12064c-a081-47ce-ab24-5e0efb32236d_1600x901.jpeg" alt="Ancient Greek pottery art depicting Zeus fighting the monstrous serpentine giant Typhon."/>
+
+This is a fascinating article that analyzes the archetype of the snake that several Eurasian cultures have in common in their mythologies, as well as the analogous archetypes of scorpions and spiders. The author's key point is that the snake archetype represents what he calls "sigma females": women who rejected and subverted the society in which they lived and its values, and who therefore were considered immoral, dangerous, heretical, or demonic. Witches, whether in the literal sense or as a metaphor for spinsters, are the most notable examples of that type of woman.

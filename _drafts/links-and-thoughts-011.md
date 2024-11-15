@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #11 (November 2024)"
-og_desc: Draft 4
+og_desc: Draft 5
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 4
+Draft 5
 
 ---
 
@@ -63,3 +63,16 @@ This article summarizes why economic factors cannot explain the large gap in hom
 <img class="w-100" src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae12064c-a081-47ce-ab24-5e0efb32236d_1600x901.jpeg" alt="Ancient Greek pottery art depicting Zeus fighting the monstrous serpentine giant Typhon."/>
 
 This is a fascinating article that analyzes the archetype of the snake that several Eurasian cultures have in common in their mythologies, as well as the analogous archetypes of scorpions and spiders. The author's key point is that the snake archetype represents what he calls "sigma females": women who rejected and subverted the society in which they lived and its values, and who therefore were considered immoral, dangerous, heretical, or demonic. Witches, whether in the literal sense or as a metaphor for spinsters, are the most notable examples of that type of woman.
+
+---
+
+## _You can't take it with you: straight talk about epigenetics and intergenerational trauma_
+
+- [Link to article](https://www.razibkhan.com/p/you-cant-take-it-with-you-straight)
+- Author: Razib Khan
+- Date: 2022-12-18
+- Source: _Razib Khan's Unsupervised Learning_ (Substack)
+
+<img class="w-100" src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F78c094e7-0925-4b54-91c4-6b5baf4c561b_900x715.jpeg" alt="Featured image from the article, depicting what the media says epigenetics is (a mechanism for transmitting trauma across generations separate from genes) and what it actually is (the molecular mechanisms that modify gene expression in specific tissues)."/>
+
+This is a primer for laymen on epigenetics, explaining what it really is about, how it works in general, and why it cannot plausibly be a mechanism for the transmission of trauma across generations, as popular media often irresponsibly paints it as. As Khan explains, epigenetics "encompasses the molecular mechanisms that determine how relevant sections of DNA's single universal instruction manual are interpreted and applied uniquely in each specialized cell, as specific pages of the manual are consulted (or not) according to each cell's role in your body." Crucially, while epigenetic modifications are copied in conventional, non-reproductive cellular replication, they're actually reset when sperm or eggs are created, as well as right after fertilization.

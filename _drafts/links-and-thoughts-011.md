@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #11 (November 2024)"
-og_desc: Draft 5
+og_desc: Draft 6
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 5
+Draft 6
 
 ---
 
@@ -76,3 +76,16 @@ This is a fascinating article that analyzes the archetype of the snake that seve
 <img class="w-100" src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F78c094e7-0925-4b54-91c4-6b5baf4c561b_900x715.jpeg" alt="Featured image from the article, depicting what the media says epigenetics is (a mechanism for transmitting trauma across generations separate from genes) and what it actually is (the molecular mechanisms that modify gene expression in specific tissues)."/>
 
 This is a primer for laymen on epigenetics, explaining what it really is about, how it works in general, and why it cannot plausibly be a mechanism for the transmission of trauma across generations, as popular media often irresponsibly paints it as. As Khan explains, epigenetics "encompasses the molecular mechanisms that determine how relevant sections of DNA's single universal instruction manual are interpreted and applied uniquely in each specialized cell, as specific pages of the manual are consulted (or not) according to each cell's role in your body." Crucially, while epigenetic modifications are copied in conventional, non-reproductive cellular replication, they're actually reset when sperm or eggs are created, as well as right after fertilization.
+
+---
+
+## _The Rise of the Western Nuclear Family and the "European Miracle"_
+
+- [Link to article](https://mises.org/mises-wire/rise-western-nuclear-family-and-european-miracle)
+- Author: Ryan McMaken
+- Date: 2024-09-13
+- Source: _Mises Wire_, Ludwig von Mises Institute
+
+<img class="w-100" src="https://cdn.mises.org/styles/responsive_4_3_650w/s3/images/2024-09/Bartholomeus_van_der_Helst%2C_Banquet_of_the_Amsterdam_Civic_Guard_in_Celebration_of_the_Peace_of_M%C3%BCnster.jpg.webp?itok=9N8yPLkq" alt="Featured picture from the article: painting by Bartholomeus van der Helst depicting a banquet of the Amsterdam Civic Guard in celebration of the Peace of Münster, the treaty that ended the Eighty Years' War and gave independence to the Dutch Republic."/>
+
+I often reference Ralph Raico's essay on [_The European Miracle_](https://mises.org/mises-daily/european-miracle), in which he explains that the rise of Europe to economic prominence was in large part because its high degree of political decentralization and institutional competition in the Middle Ages allowed for an unprecedented degree of economic freedom. McMaken's article is focused on the role of the European nuclear family in that process. As he explains, the nuclear family arose due to reforms that the Catholic Church implemented in the early Middle Ages, as well as economic and ideological factors. These new nuclear families, in turn, needed new organizations to provide the services that extended families and clan structures used to provide, fostering the rise of corporate organizations of different purposes. Those corporations tended to think of their own interests as distinct from those of the state and sought to protect them in Europe's various legal institutions, acting as yet another brake on state power.

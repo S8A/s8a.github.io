@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #11 (November 2024)"
-og_desc: Draft 6
+og_desc: Draft 7
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 6
+Draft 7
 
 ---
 
@@ -89,3 +89,18 @@ This is a primer for laymen on epigenetics, explaining what it really is about, 
 <img class="w-100" src="https://cdn.mises.org/styles/responsive_4_3_650w/s3/images/2024-09/Bartholomeus_van_der_Helst%2C_Banquet_of_the_Amsterdam_Civic_Guard_in_Celebration_of_the_Peace_of_M%C3%BCnster.jpg.webp?itok=9N8yPLkq" alt="Featured picture from the article: painting by Bartholomeus van der Helst depicting a banquet of the Amsterdam Civic Guard in celebration of the Peace of Münster, the treaty that ended the Eighty Years' War and gave independence to the Dutch Republic."/>
 
 I often reference Ralph Raico's essay on [_The European Miracle_](https://mises.org/mises-daily/european-miracle), in which he explains that the rise of Europe to economic prominence was in large part because its high degree of political decentralization and institutional competition in the Middle Ages allowed for an unprecedented degree of economic freedom. McMaken's article is focused on the role of the European nuclear family in that process. As he explains, the nuclear family arose due to reforms that the Catholic Church implemented in the early Middle Ages, as well as economic and ideological factors. These new nuclear families, in turn, needed new organizations to provide the services that extended families and clan structures used to provide, fostering the rise of corporate organizations of different purposes. Those corporations tended to think of their own interests as distinct from those of the state and sought to protect them in Europe's various legal institutions, acting as yet another brake on state power.
+
+---
+
+## _David Reich - How One Small Tribe Conquered the World 70,000 Years Ago_
+
+- [Link to podcast video with transcript (Substack)](https://www.dwarkeshpatel.com/p/david-reich)
+- [Link to podcast video (YouTube)](https://www.youtube.com/watch?v=Uj6skZIxPuI)
+- Host: Dwarkesh Patel
+- Guest: David Reich
+- Date: 2024-08-29
+- Source: _Dwarkesh Podcast_ (Substack)
+
+<img class="w-100" src="https://i.ytimg.com/vi/Uj6skZIxPuI/maxresdefault.jpg" alt="High-resolution thumbnail of the YouTube video for the podcast episode."/>
+
+In this fascinating podcast episode, Patel interviews David Reich, an eminent geneticist of ancient DNA, about several topics related to early human history and evolution: gene flow between archaic and modern human populations, how early modern humans dominated the world, the impacts of the bubonic plague and of agriculture, the frequent pattern of a group expanding into a territory and wiping out the existing population, etc. Reich is evidently very knowledgeable and eloquent, and he's also humble enough to readily admit at many times what he doesn't know. The podcast episode is from August 2024, so it doesn't go into the findings of Reich's blockbuster study published in September (and mentioned in [my October post]({% link _posts/2024-10-31-links-and-thoughts-010.md %})), in which he and his colleagues found strong evidence for recent evolution in West Eurasians using a large high-quality dataset of ancient genomes (which they made publicly available).

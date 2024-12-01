@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #11 (November 2024)"
-og_desc: Draft 8
+og_desc: Origins of modernity, intelligence skewness, American homicide statistics, sigma females, epigenetics, nuclear families, early human history, and why it's not enough to hate the state.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 8
+This month's compilation brings: an article arguing that the threat of Ottoman invasion forced Catholic Europe to allow Protestantism to survive and thus indirectly contributed to the rise of modernity; a brief explanation of why and how intelligence is not exactly normally distributed; a summary of the latest data on the relationship between race, economics, and homicide in the United States; an article analyzing the archetype of the snake in the mythologies of several Eurasian cultures; a primer on epigenetics and why it's not a mechanism for intergenerational trauma; an article about the rise of the nuclear family and the role it played in the European miracle; a podcast episode with geneticist David Reich about early human history and evolution; and an article about why libertarians should not merely oppose the state, but also actively support non-state institutions.
 
 ---
 

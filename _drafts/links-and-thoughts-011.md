@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #11 (November 2024)"
-og_desc: Draft 7
+og_desc: Draft 8
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 7
+Draft 8
 
 ---
 
@@ -104,3 +104,19 @@ I often reference Ralph Raico's essay on [_The European Miracle_](https://mises.
 <img class="w-100" src="https://i.ytimg.com/vi/Uj6skZIxPuI/maxresdefault.jpg" alt="High-resolution thumbnail of the YouTube video for the podcast episode."/>
 
 In this fascinating podcast episode, Patel interviews David Reich, an eminent geneticist of ancient DNA, about several topics related to early human history and evolution: gene flow between archaic and modern human populations, how early modern humans dominated the world, the impacts of the bubonic plague and of agriculture, the frequent pattern of a group expanding into a territory and wiping out the existing population, etc. Reich is evidently very knowledgeable and eloquent, and he's also humble enough to readily admit at many times what he doesn't know. The podcast episode is from August 2024, so it doesn't go into the findings of Reich's blockbuster study published in September (and mentioned in [my October post]({% link _posts/2024-10-31-links-and-thoughts-010.md %})), in which he and his colleagues found strong evidence for recent evolution in West Eurasians using a large high-quality dataset of ancient genomes (which they made publicly available).
+
+---
+
+## _Why It's Not Enough to Hate the State_
+
+- [Link to article](https://mises.org/mises-wire/why-its-not-enough-hate-state)
+- [Link to audio version (YouTube)](https://www.youtube.com/watch?v=zV56j8NqwoE)
+- Author: Ryan McMaken
+- Date: 2024-10-10
+- Source:
+  - Article: _Mises Wire_, Ludwig von Mises Institute
+  - Audio version: _Radio Rothbard_ podcast (Ludwig von Mises Institute) on YouTube
+
+<img class="w-100" src="https://i.ytimg.com/vi/zV56j8NqwoE/maxresdefault.jpg" alt="High-resolution thumbnail of the YouTube video for the audio version of the article."/>
+
+This article is adapted from McMaken's lecture delivered at the Albuquerque Mises Circle in New Mexico on September 2024. In it, he explains the importance of private institutions&mdash;like families, churches, schools, businesses, and other voluntary organizations&mdash;that constitute civil society and function as competitors and bulwarks against the state, and how the state has systematically fought, constrained, and undermined those institutions precisely for that reason. Thus, he argues that libertarians should follow our historical predecessors in not merely opposing the state, but also actively supporting those non-state institutions in our daily work and our daily lives.

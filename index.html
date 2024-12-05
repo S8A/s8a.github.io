@@ -13,8 +13,9 @@ og_image: s8a-thumbnail.png
     <h1 class="display-5 fw-bold lh-1 mb-3">Samuel Ochoa</h1>
     <p class="lead">I'm an information systems engineer and software developer from Venezuela. Learn more <a href="/about/">about me</a>, check out my <a href="/projects/">projects</a>, or contact me using the buttons below.</p>
     <p>
-      <a href="https://t.me/samuelochoap" class="btn btn-outline-primary"><i class="bi-telegram"></i> Telegram</a>
-      <a href="mailto:samuelochoap@gmail.com" class="btn btn-outline-primary"><i class="bi-envelope"></i> Email</a>
+      {% for contact in site.data.contact %}
+      <a href="{{ contact.url }}" class="btn btn-outline-primary"><i class="{{ contact.icon }}"></i> {{ contact.name }}</a>
+      {% endfor %}
     </p>
   </div>
 </div>

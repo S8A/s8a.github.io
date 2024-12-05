@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="UMC Campus CRUD &ndash; Samuel Ochoa">
+<meta property="og:description" content="I made a tool for managing a database of UMC students and their grades.">
+<meta property="og:image" content="https://s8a.github.io/assets/img/umc-pro633-crud-both-demo-whitebg.png">
+<meta property="og:url" content="https://s8a.github.io/2020/04/06/umc-pro633-crud/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/main.min.css">
+
+    <title>UMC Campus CRUD &ndash; Samuel Ochoa</title>
+  </head>
+  <body><header lang="en">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Primary navigation">
+    <div class="container-md">
+      <a class="navbar-brand" href="/">
+        <img src="https://s8a.github.io/assets/img/s8a-icon.svg" alt="Home" width="32" height="32">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="navbar-nav me-auto mb-md-0"><li class="nav-item">
+            
+            <a href="/" class="nav-link">
+            Home</a>
+          </li><li class="nav-item">
+            
+            <a href="/about/" class="nav-link">
+            About</a>
+          </li><li class="nav-item">
+            
+            <a href="/projects/" class="nav-link">
+            Projects</a>
+          </li><li class="nav-item">
+            
+            <a href="/blog/" class="nav-link">
+            Blog</a>
+          </li></ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+      <div class="container py-3"><div class="row">
+  <article id="post" class="col col-lg-8 mx-auto py-3">
+    <h1 class="text-center">UMC Campus CRUD</h1>
+    <p class="text-center text-muted"><time datetime="2020-04-06T00:00:00+00:00">06 Apr 2020</time> &ndash; projects</p><img src="https://s8a.github.io/assets/img/umc-pro633-crud-both-demo.png" class="img-fluid mb-4" alt="Screenshots of the UMC Campus CRUD application in its command-line and graphical versions."><p>Last Friday, I completed my Programming 3 (PRO633) project: a tool for managing a database of <abbr title="Universidad Marítima del Caribe">UMC</abbr> students and their grades. The GitHub project is <a href="https://github.com/S8A/umc-pro633-crud">here</a>.</p>
+
+<p>This application has two versions: one with a command-line interface and the other with a graphical interface. The whole package is written in <a href="https://www.python.org">Python 3</a>, using the <a href="https://pypi.org/project/PyMySQL/">PyMySQL</a> library to handle the database and <a href="https://pypi.org/project/PyQt5/">PyQt5</a> for the <abbr title="Graphical User Interface">GUI</abbr>. Besides those three, the program requires access to a <a href="https://dev.mysql.com/downloads/mysql/">MySQL Server</a> instance, preferably in the same machine.</p>
+
+<p>The command-line program, which is the focus of the assignment, consists of two “modules”: a <em>student module</em>, which only allows users to look up their personal information and grades, and an <em>administrator module</em>, which allows them to look up personal information and to read, create, modify and delete records of one or many users (<a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a>). I started to create this program on March 14th and worked on it all day, every day until I completed it on March 23rd.</p>
+
+<p>After finishing the command-line program, I took a week off to do other stuff and generally relax a little. On March 30th, I drew some mockups, created a new Git branch and started working on the <abbr title="Graphical User Interface">GUI</abbr> version of the program. Again, I worked all day, every day until I completed everything on April 3rd.</p>
+
+<p>The <abbr title="Graphical User Interface">GUI</abbr> application is in the <code class="language-plaintext highlighter-rouge">gui</code> subpackage, and uses functions from the original package as its backend. Like the command-line version, the graphical version provides a student module and an administrator module, each with their own main window that allows the user to do the same tasks mentioned previously. Of course, the graphical interface makes the program much easier to use and more visually appealing.</p>
+
+<p>The installation and use instructions are in the project’s README.md, plus some screenshots of the main screens. Everything is in Spanish since this is a university assignment, so I’ll provide a summary of the instructions in English here.</p>
+
+<p>To install the program, just clone the repository:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/S8A/umc-pro633-crud.git
+<span class="nb">cd </span>umc-pro633-crud
+</code></pre></div></div>
+
+<p>Next, you need a database with the required structure. To create the database in a local MySQL server, execute the following command to import the database structure with initial data (including example users):</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mysql <span class="nt">-u</span> user <span class="nt">-p</span> database &lt; db/umc_db.sql
+</code></pre></div></div>
+
+<p>To use the command-line version of the program, run the main package from the folder where you cloned the repository:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 <span class="nt">-m</span> umc_crud
+</code></pre></div></div>
+
+<p>To use the <abbr title="Graphical User Interface">GUI</abbr> version, run the <code class="language-plaintext highlighter-rouge">gui</code> subpackage instead:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 <span class="nt">-m</span> umc_crud.gui
+</code></pre></div></div>
+
+</article>
+</div>
+</div>
+    </main><footer class="container small" lang="en">
+  <div class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3" aria-hidden="true"><li class="nav-item">
+        <a href="/" class="nav-link px-2 text-muted">Home</a>
+      </li><li class="nav-item">
+        <a href="/about/" class="nav-link px-2 text-muted">About</a>
+      </li><li class="nav-item">
+        <a href="/projects/" class="nav-link px-2 text-muted">Projects</a>
+      </li><li class="nav-item">
+        <a href="/blog/" class="nav-link px-2 text-muted">Blog</a>
+      </li></ul>
+    <p class="text-center text-muted">Samuel Ochoa 2024</p>
+    <p class="text-center text-muted small">Built with Jekyll 4.3.4</p>
+  </div>
+</footer>
+<script src="https://s8a.github.io/assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

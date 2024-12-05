@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Conway's Game of Life &ndash; Samuel Ochoa">
+<meta property="og:description" content="I made a simple implementation of the Game of Life in Python.">
+<meta property="og:image" content="https://s8a.github.io/assets/img/conway-og-image.png">
+<meta property="og:url" content="https://s8a.github.io/2020/04/20/conways-game-of-life/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/main.min.css">
+
+    <title>Conway's Game of Life &ndash; Samuel Ochoa</title>
+  </head>
+  <body><header lang="en">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Primary navigation">
+    <div class="container-md">
+      <a class="navbar-brand" href="/">
+        <img src="https://s8a.github.io/assets/img/s8a-icon.svg" alt="Home" width="32" height="32">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="navbar-nav me-auto mb-md-0"><li class="nav-item">
+            
+            <a href="/" class="nav-link">
+            Home</a>
+          </li><li class="nav-item">
+            
+            <a href="/about/" class="nav-link">
+            About</a>
+          </li><li class="nav-item">
+            
+            <a href="/projects/" class="nav-link">
+            Projects</a>
+          </li><li class="nav-item">
+            
+            <a href="/blog/" class="nav-link">
+            Blog</a>
+          </li></ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+      <div class="container py-3"><div class="row">
+  <article id="post" class="col col-lg-8 mx-auto py-3">
+    <h1 class="text-center">Conway's Game of Life</h1>
+    <p class="text-center text-muted"><time datetime="2020-04-20T00:00:00+00:00">20 Apr 2020</time> &ndash; projects</p><img src="https://s8a.github.io/assets/img/conway-big-image.png" class="img-fluid mb-4" alt="Screenshots of the game."><p>Last night I made a simple implementation of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway’s Game of Life</a> in <a href="https://python.org">Python 3</a> with <a href="https://www.pygame.org">PyGame</a> and <a href="https://numpy.org/">NumPy</a>. It’s available for download <a href="https://gist.github.com/S8A/fa4ab4697f88022c87bc8c2699588a8d">here</a>.</p>
+
+<p>The Game of Life basically consists of two-dimensional grid of square cells, each of which is either alive or dead and interacts with its eight adjacent cells (neighbors). At every clock tick, the state of each cell changes if one of the following conditions or rules are met:</p>
+<ol>
+  <li>Any dead cell with exactly three neighbors becomes a live cell (reproduction).</li>
+  <li>Any live cell with fewer than two live neighbors or more than three dies (underpopulation and overpopulation, respectively).</li>
+</ol>
+
+<p>If a cell doesn’t match either condition, it stays in its current state. The simplest version of the game consists of setting the inital state and watching it evolve.</p>
+
+<p>A friend from the university sent me <a href="https://www.youtube.com/watch?v=qPtKv9fSHZY">this video</a> of YouTuber <a href="https://www.youtube.com/channel/UCy5znSnfMsDwaLlROnZ7Qbg">Dot CSV</a> explaining how to make the game in Python in 10 minutes, and he challenged me to do it. It took me 50 minutes, because I can’t type as fast as a sped-up recording and also because I had to look up how to stop PyGame from crashing.</p>
+
+<p>My implementation of the game, like the one in the video, allows the user to pause and unpause the game by pressing any key, and to make cells alive or dead with left and right mouse clicks, respectively.</p>
+
+<p>I enjoyed this little challenge, and I hope you enjoy downloading and running the game from <a href="https://gist.github.com/S8A/fa4ab4697f88022c87bc8c2699588a8d">here</a>.</p>
+</article>
+</div>
+</div>
+    </main><footer class="container small" lang="en">
+  <div class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3" aria-hidden="true"><li class="nav-item">
+        <a href="/" class="nav-link px-2 text-muted">Home</a>
+      </li><li class="nav-item">
+        <a href="/about/" class="nav-link px-2 text-muted">About</a>
+      </li><li class="nav-item">
+        <a href="/projects/" class="nav-link px-2 text-muted">Projects</a>
+      </li><li class="nav-item">
+        <a href="/blog/" class="nav-link px-2 text-muted">Blog</a>
+      </li></ul>
+    <p class="text-center text-muted">Samuel Ochoa 2024</p>
+    <p class="text-center text-muted small">Built with Jekyll 4.3.4</p>
+  </div>
+</footer>
+<script src="https://s8a.github.io/assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

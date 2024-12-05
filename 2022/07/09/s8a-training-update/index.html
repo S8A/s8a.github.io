@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="8A Training update: v4.1.0 &ndash; Samuel Ochoa">
+<meta property="og:description" content="I updated my training log web-app to improve its UI & UX.">
+<meta property="og:image" content="https://s8a.github.io/assets/img/s8a-training-v4.1.0-hidpi.png">
+<meta property="og:url" content="https://s8a.github.io/2022/07/09/s8a-training-update/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/main.min.css">
+
+    <title>8A Training update: v4.1.0 &ndash; Samuel Ochoa</title>
+  </head>
+  <body><header lang="en">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Primary navigation">
+    <div class="container-md">
+      <a class="navbar-brand" href="/">
+        <img src="https://s8a.github.io/assets/img/s8a-icon.svg" alt="Home" width="32" height="32">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="navbar-nav me-auto mb-md-0"><li class="nav-item">
+            
+            <a href="/" class="nav-link">
+            Home</a>
+          </li><li class="nav-item">
+            
+            <a href="/about/" class="nav-link">
+            About</a>
+          </li><li class="nav-item">
+            
+            <a href="/projects/" class="nav-link">
+            Projects</a>
+          </li><li class="nav-item">
+            
+            <a href="/blog/" class="nav-link">
+            Blog</a>
+          </li></ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+      <div class="container py-3"><div class="row">
+  <article id="post" class="col col-lg-8 mx-auto py-3">
+    <h1 class="text-center">8A Training update: v4.1.0</h1>
+    <p class="text-center text-muted"><time datetime="2022-07-09T00:00:00+00:00">09 Jul 2022</time> &ndash; projects</p><img src="https://s8a.github.io/assets/img/s8a-training-v4.1.0-hidpi.png" class="img-fluid mb-4" alt="Screenshots of the web-app on a mobile phone."><p>Last night I finished doing improvements on the <abbr title="User interface">UI</abbr> and <abbr title="User experience">UX</abbr> of <a href="https://s8a-training.web.app/">8A Training</a>, the training log web-app that I created as a university assignment back in April and <a href="/2022/06/15/s8a-training/">wrote about last month</a>.</p>
+
+<p>Here is the summary of the main visible changes of this <a href="https://github.com/S8A/umc-prw703-proyecto/releases/tag/v4.1.0">latest release</a>:</p>
+<ul>
+  <li><strong>Home page (signed-in user):</strong> Welcome text in title, links to training log and new training session pages have been replaced with buttons.</li>
+  <li><strong>Training log:</strong> Training session card buttons are now smaller, icons have been added to the buttons, pagination elements are now smaller.</li>
+  <li><strong>Training session detail:</strong> The exercises table has been replaced with separate cards for each item (with responsive layout), icons have been added to the buttons.</li>
+  <li><strong>Create/edit training session:</strong> The editable exercises table has been replaced with separate editable cards for each item (with responsive layout), the add exercise button now always adds items to the end of the list, the rest of the buttons have been moved to each exercise item card (thus eliminating the need for selection radio buttons), icons have been added to the buttons.</li>
+</ul>
+
+<p>I also decided to make public the <a href="https://github.com/S8A/umc-prw703-proyecto">GitHub repository of the project</a>, as it turns out my security concerns about the Firebase configuration variable were unfounded. Now everyone can read the code and the history of commits and releases. By the way, I believe that <a href="https://mises.org/library/against-intellectual-property-0">copyright is illegitimate and anti-market</a>, and I don’t plan to monetize the project any time soon, so you can copy and use the code as you wish.</p>
+
+<p>I don’t plan to translate the web-app to English or any other language, because it seems excessively tedious to do. However, I am thinking of further improving the interface for creating/editing training sessions by replacing the editable exercise item cards with static ones, and adding an edit button to each item that, when clicked, launches a modal dialog with a form to edit the item.</p>
+
+</article>
+</div>
+</div>
+    </main><footer class="container small" lang="en">
+  <div class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3" aria-hidden="true"><li class="nav-item">
+        <a href="/" class="nav-link px-2 text-muted">Home</a>
+      </li><li class="nav-item">
+        <a href="/about/" class="nav-link px-2 text-muted">About</a>
+      </li><li class="nav-item">
+        <a href="/projects/" class="nav-link px-2 text-muted">Projects</a>
+      </li><li class="nav-item">
+        <a href="/blog/" class="nav-link px-2 text-muted">Blog</a>
+      </li></ul>
+    <p class="text-center text-muted">Samuel Ochoa 2024</p>
+    <p class="text-center text-muted small">Built with Jekyll 4.3.4</p>
+  </div>
+</footer>
+<script src="https://s8a.github.io/assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

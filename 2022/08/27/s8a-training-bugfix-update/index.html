@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="8A Training bugfix update: v4.1.1 &ndash; Samuel Ochoa">
+<meta property="og:description" content="I updated my training log web-app to fix a bug and do some tweaks.">
+<meta property="og:image" content="https://s8a.github.io/assets/img/s8a-training-v4.1.0-hidpi.png">
+<meta property="og:url" content="https://s8a.github.io/2022/08/27/s8a-training-bugfix-update/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/main.min.css">
+
+    <title>8A Training bugfix update: v4.1.1 &ndash; Samuel Ochoa</title>
+  </head>
+  <body><header lang="en">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Primary navigation">
+    <div class="container-md">
+      <a class="navbar-brand" href="/">
+        <img src="https://s8a.github.io/assets/img/s8a-icon.svg" alt="Home" width="32" height="32">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="navbar-nav me-auto mb-md-0"><li class="nav-item">
+            
+            <a href="/" class="nav-link">
+            Home</a>
+          </li><li class="nav-item">
+            
+            <a href="/about/" class="nav-link">
+            About</a>
+          </li><li class="nav-item">
+            
+            <a href="/projects/" class="nav-link">
+            Projects</a>
+          </li><li class="nav-item">
+            
+            <a href="/blog/" class="nav-link">
+            Blog</a>
+          </li></ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+      <div class="container py-3"><div class="row">
+  <article id="post" class="col col-lg-8 mx-auto py-3">
+    <h1 class="text-center">8A Training bugfix update: v4.1.1</h1>
+    <p class="text-center text-muted"><time datetime="2022-08-27T00:00:00+00:00">27 Aug 2022</time> &ndash; projects</p><p>Yesterday I published a new patch version of <a href="https://s8a-training.web.app/">8A Training</a>, the training log web-app that I created as a university assignment back in April.</p>
+
+<p>The main change of this <a href="https://github.com/S8A/umc-prw703-proyecto/releases/tag/v4.1.1">latest release</a> is an internal fix for a bug which caused exercise items to appear out of order if there were more than 10 in a training session. The cause of the problem was that Firebase stores the exercise items’ document IDs as strings, and thus they’re sorted lexicographically instead of numerically. Therefore, if a training session had 13 exercise items, for example, they would be ordered as 0, 1, 10, 11, 12, 2, 3, 4, 5, 6, 7, 8, 9 instead of the intended numerical ordering. The fix consists of adding a leading zero to single digit IDs, thus guaranteeing that the lexicographical sort matches the numerical ordering.</p>
+
+<p>To maintain backward compatibility with existing exercise items, the functions that update and delete training sessions were each modified to try to find and remove exercise items with unpadded single digit IDs when applied. This way, it wasn’t necessary to do a tedious migration of existing data and users don’t need to change their existing training sessions. End users won’t even notice the change if they never tried to record more than 10 training sessions previously, and in fact <em>I</em> am the only one who has (I checked the Firestore database).</p>
+
+<p>I also took the opportunity to do some tweaks I had planned but were not urgent: making the header navbar logo smaller, adding <a href="https://ogp.me/">Open Graph</a> metadata tags, and fixing the titles of two pages (the resources page and the 404 error page).</p>
+
+<p>As I wrote in my <a href="/2022/07/09/s8a-training-update/">previous post</a>, I am thinking of further improving the interface for creating/editing training sessions by replacing the editable exercise item cards with static ones, and adding an edit button to each item that, when clicked, launches a modal dialog with a form to edit the item. I haven’t had time to do so yet, but I think that I might be able to do it in late September or early October.</p>
+</article>
+</div>
+</div>
+    </main><footer class="container small" lang="en">
+  <div class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3" aria-hidden="true"><li class="nav-item">
+        <a href="/" class="nav-link px-2 text-muted">Home</a>
+      </li><li class="nav-item">
+        <a href="/about/" class="nav-link px-2 text-muted">About</a>
+      </li><li class="nav-item">
+        <a href="/projects/" class="nav-link px-2 text-muted">Projects</a>
+      </li><li class="nav-item">
+        <a href="/blog/" class="nav-link px-2 text-muted">Blog</a>
+      </li></ul>
+    <p class="text-center text-muted">Samuel Ochoa 2024</p>
+    <p class="text-center text-muted small">Built with Jekyll 4.3.4</p>
+  </div>
+</footer>
+<script src="https://s8a.github.io/assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="I will not complete the SICP book &ndash; Samuel Ochoa">
+<meta property="og:description" content="There's no point in learning techniques aimlessly.">
+<meta property="og:image" content="https://s8a.github.io/assets/img/s8a-thumbnail.png">
+<meta property="og:url" content="https://s8a.github.io/2019/08/05/sicp-doubts/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/main.min.css">
+
+    <title>I will not complete the SICP book &ndash; Samuel Ochoa</title>
+  </head>
+  <body><header lang="en">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Primary navigation">
+    <div class="container-md">
+      <a class="navbar-brand" href="/">
+        <img src="https://s8a.github.io/assets/img/s8a-icon.svg" alt="Home" width="32" height="32">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="navbar-nav me-auto mb-md-0"><li class="nav-item">
+            
+            <a href="/" class="nav-link">
+            Home</a>
+          </li><li class="nav-item">
+            
+            <a href="/about/" class="nav-link">
+            About</a>
+          </li><li class="nav-item">
+            
+            <a href="/projects/" class="nav-link">
+            Projects</a>
+          </li><li class="nav-item">
+            
+            <a href="/blog/" class="nav-link">
+            Blog</a>
+          </li></ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+      <div class="container py-3"><div class="row">
+  <article id="post" class="col col-lg-8 mx-auto py-3">
+    <h1 class="text-center">I will not complete the SICP book</h1>
+    <p class="text-center text-muted"><time datetime="2019-08-05T00:00:00+00:00">05 Aug 2019</time> &ndash; projects</p><p>I finished section 2.2. of the <abbr title="Structure and Interpretation of Computer Programs">SICP</abbr> book last Friday. I decided to not continue with it, for several reasons. Instead, I will complete the <abbr title="How to Design Programs">HTDP</abbr> book.</p>
+
+<p>As explained in depth in my <a href="/2019/07/12/sicp-first-chapter/">previous post</a>, I decided to follow the <a href="https://teachyourselfcs.com/">Teach Yourself Computer Science guide</a>. For the first subject (programming), the author’s main recommendation is the classic <em><a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html">Structure and Interpretation of Computer Programs</a></em>.</p>
+
+<p>I was determined to complete the first three chapters of the book and its exercises, as suggested in the guide. I even created a <a href="https://trello.com">Trello</a> board to track my progress and a <a href="https://github.com/S8A/sicp-exercises">GitHub repository</a> to publish my solutions.</p>
+
+<p>However, by the second section of the second chapter I was growing weary. I liked that the exercises were challenging and the subjects seemed interesting, but things started to become tedious. There was the feeling that I was solving puzzles and reading about techniques that may be useful sometime; there was no feeling of being more prepared or capable of creating and maintaining actual, useful programs. Besides, I had to look up the solutions to a few exercises only to find out that most of them were not working due to quirks in the way Scheme treats lists and pairs.</p>
+
+<p>The last straw was when I reached section 2.2.4., which is about working through the creation of a picture language using data abstraction. As I suspected, MIT Scheme has no native support for graphics, so I had no way to test my solutions other than logic, confidence and looking up other’s solutions. The exercises, though tedious, were way easier than I thought, so there’s that. Still, I had no idea how completing all that would translate into useful applicable knowledge that I didn’t have before.</p>
+
+<p>Then, I thought about the alternative book recommendation from the guide, <em><a href="https://htdp.org">How to Design Programs</a></em>. I had dismissed it long ago because the guide said it was “for those who find <abbr title="Structure and Interpretation of Computer Programs">SICP</abbr> too challenging” and because it required the use of DrRacket, a simplified <abbr title="Integrated Development Environment">IDE</abbr>. My ego was too much for that, I thought back then. The frustration with <abbr title="Structure and Interpretation of Computer Programs">SICP</abbr> was too much now, so I searched for “<abbr title="Structure and Interpretation of Computer Programs">SICP</abbr> vs <abbr title="How to Design Programs">HTDP</abbr>” to get independent opinions.</p>
+
+<p>That’s how I found a publication titled <em><a href="https://www2.ccs.neu.edu/racket/pubs/jfp2004-fffk.pdf">The Structure and Interpretation of the Computer Science Curriculum</a></em>, written by the authors of <abbr title="How to Design Programs">HTDP</abbr>.</p>
+
+<p>They start with a history of <abbr title="Structure and Interpretation of Computer Programs">SICP</abbr>, explore the proper focus of a computer science curriculum and the principles of programming that should be taught in the first course, and explain the “natural choice” of teaching a functional programming language before an object-oriented one, as well as the particular choice of Scheme for the former.</p>
+
+<p>Then the authors move on to an in-depth critique of <abbr title="Structure and Interpretation of Computer Programs">SICP</abbr>, saying that “although [its] collection of topics is impressive at first glance, a second look shows that <abbr title="Structure and Interpretation of Computer Programs">SICP</abbr> suffers from a serious flaw.” The flaw, they say, is that <abbr title="Structure and Interpretation of Computer Programs">SICP</abbr> “doesn’t state how to program and how to manage the design of a program”, leaving those things implicit while making students learn by copying and modifying code. The other flaw of <abbr title="Structure and Interpretation of Computer Programs">SICP</abbr> is that many of its exercises and examples use “complex domain knowledge”, especially of mathematics and electrical engineering.</p>
+
+<p>They continue by explaining their alternative approach, translated into the <abbr title="How to Design Programs">HTDP</abbr> book, which addresses <abbr title="Structure and Interpretation of Computer Programs">SICP</abbr>’s flaws along four dimensions:</p>
+<blockquote class="blockquote px-5 py-2">
+  <p>First, the book discusses explicitly how programs should be constructed. Second, to tame the complexity of programming, it defines a series of teaching languages based on Scheme that represent five distinct knowledge levels through which students pass during their first course. […] Third, the book uses exercises to reinforce the explicit guidelines on program design; few, if any, exercises are designed for the sake of domain knowledge. Finally, the book uses more accessible forms of domain knowledge than <abbr title="Structure and Interpretation of Computer Programs">SICP</abbr>.</p>
+</blockquote>
+
+<p>The publication concludes by showcasing the strong results of implementing the <abbr title="How to Design Programs">HTDP</abbr> approach at a dozen colleges and several dozens of high schools. More importantly, it convinced me the <abbr title="How to Design Programs">HTDP</abbr> is not just an “easier alternative” to <abbr title="Structure and Interpretation of Computer Programs">SICP</abbr>, but a thoroughly thought-out and more effective one.</p>
+
+<p>I decided to complete the <abbr title="How to Design Programs">HTDP</abbr> book from beginning to end, starting next Monday. I will use this week to try to make an Android app idea that I had a few weeks ago.</p>
+
+</article>
+</div>
+</div>
+    </main><footer class="container small" lang="en">
+  <div class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3" aria-hidden="true"><li class="nav-item">
+        <a href="/" class="nav-link px-2 text-muted">Home</a>
+      </li><li class="nav-item">
+        <a href="/about/" class="nav-link px-2 text-muted">About</a>
+      </li><li class="nav-item">
+        <a href="/projects/" class="nav-link px-2 text-muted">Projects</a>
+      </li><li class="nav-item">
+        <a href="/blog/" class="nav-link px-2 text-muted">Blog</a>
+      </li></ul>
+    <p class="text-center text-muted">Samuel Ochoa 2024</p>
+    <p class="text-center text-muted small">Built with Jekyll 4.3.4</p>
+  </div>
+</footer>
+<script src="https://s8a.github.io/assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

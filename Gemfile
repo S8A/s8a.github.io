@@ -1,11 +1,24 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", :group => :jekyll_plugins
+gem "webrick"
 
 group :jekyll_plugins do
-  gem "jekyll-feed", ">= 0.6"
-  gem "jekyll-paginate", ">= 1.1.0"
-  gem "kramdown", ">= 2.3.1"
+  gem "jekyll-avatar"
+  gem "jekyll-feed"
+  gem "jekyll-gist"
+  gem "jekyll-github-metadata"
+  gem "jekyll-include-cache"
+  gem "jekyll-mentions"
+  gem "jekyll-optional-front-matter"
+  gem "jekyll-paginate"
+  gem "jekyll-redirect-from"
+  gem "jekyll-relative-links"
+  gem "jekyll-remote-theme"
+  gem "jekyll-sass-converter"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+  gem "jekyll-titles-from-headings"
+  gem "jemoji"
+  gem "kramdown"
 end
-
-gem "webrick", "~> 1.8"

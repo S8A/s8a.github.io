@@ -1,0 +1,34 @@
+home_lead: >
+  I'm an information systems engineer and self-taught software developer from
+  Venezuela. Learn more <a href="/about/">about me</a>, check out my 
+  <a href="/projects/">projects</a>, or contact me using the buttons below.
+about_lead: >
+  I'm an information systems engineer, graduated in December 2023 from the 
+  Universidad Marítima del Caribe (UMC). I've worked as a software developer 
+  both as an employee and as a freelancer, besides coding for personal 
+  projects. I started to teach myself how to code and make websites when I was 
+  13 years old, and I also taught myself to become very proficient in English.
+birth_date: 2000-09-07
+country_of_birth: Venezuela
+country_of_residence: Venezuela
+languages:
+  - language: Spanish
+    proficiency: Native
+  - language: English
+    proficiency: Proficient
+skills:
+  - "Programming in multiple languages: Python mostly, but I've also used Java, C++ and Kotlin."
+  - Vanilla full-stack web development (HTML, CSS, JavaScript, and some PHP).
+  - Development of Django web-apps.
+  - Development of Odoo modules.
+  - Front-end web development using the Vue.js framework.
+  - Basic database management using MySQL and PostgreSQL.
+  - Installation, setup and management of Microsoft Windows and Debian-based Linux operating systems.
+  - Competent use of Microsoft Office and LibreOffice.
+  - "Other computer skills: Bash scripting, image editing, vector graphic design, video editing."
+  - Proficiency in mathematics and to a lesser extent in statistics and physics.
+other_interests:
+  - Lifting weights.
+  - Metal and rock music.
+  - Reading.
+

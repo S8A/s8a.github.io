@@ -4,7 +4,7 @@ title: About me
 og_desc: A summary of who I am, what I can do, and what I've worked on.
 ---
 
-{% assign birth_date = "2000-09-07" | date: '%s' %}
+{% assign birth_date = site.data.about.birth_date | date: '%s' %}
 {% assign now_timestamp = 'now' | date: '%s' %}
 {% assign age_seconds = now_timestamp | minus: birth_date %}
 {% assign age_days = age_seconds | divided_by: 3600 | divided_by: 24 %}
@@ -16,7 +16,7 @@ og_desc: A summary of who I am, what I can do, and what I've worked on.
   </div>
   <div class="col-12 col-md-8 col-lg-9">
     <h1 class="display-5 fw-bold">Samuel Ochoa</h1>
-    <p class="lead">I'm an information systems engineer, graduated in December 2023 from the <a href="http://www.umc.edu.ve/"><em>Universidad Marítima del Caribe</em> (UMC)</a>. I've worked as a software developer both as an employee and as a freelancer, besides coding for <a href="/projects/">personal projects</a>. I started to teach myself how to code and make websites when I was 13 years old, and I also taught myself to become <a href="https://www.efset.org/cert/eYSfA6">very proficient</a> in English.</p>
+    <p class="lead">{{ site.data.about.about_lead }}</p>
     <p>
       {% for contact in site.data.contact %}
       <a href="{{ contact.url }}" class="btn btn-outline-primary"><i class="{{ contact.icon }}"></i> {{ contact.name }}</a>
@@ -30,33 +30,30 @@ og_desc: A summary of who I am, what I can do, and what I've worked on.
       <div class="col-12">
         <h2 class="fs-4">Basic data</h2>
         <ul>
-          <li><b>Birth date:</b> {{ birth_date | date: "%B %e, %Y" }} ({{ age_years }} years old).</li>
-          <li><b>Country of birth:</b> Venezuela.</li>
-          <li><b>Country of residence:</b> Venezuela.</li>
-          <li><b>Languages:</b> Spanish (native), English (proficient).</li>
+          <li><b>Birth date:</b> {{ site.data.about.birth_date | date: "%B %e, %Y" }} ({{ age_years }} years old).</li>
+          <li><b>Country of birth:</b> {{ site.data.about.country_of_birth }}.</li>
+          <li><b>Country of residence:</b> {{ site.data.about.country_of_residence }}.</li>
+          <li><b>Languages:</b>
+            {% for language in site.data.about.languages %}
+            {{ language.language }} ({{ language.proficiency | downcase }}){% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </li>
         </ul>
       </div>
       <div class="col-12">
         <h2 class="fs-4">Skills</h2>
         <ul>
-          <li>Programming in multiple languages: Python mostly, but I've also used Java, C++ and Kotlin.</li>
-          <li>Vanilla full-stack web development (HTML, CSS, JavaScript, and some PHP).</li>
-          <li>Development of Django web-apps.</li>
-          <li>Development of Odoo modules.</li>
-          <li>Front-end web development using the Vue.js framework.</li>
-          <li>Basic database management using MySQL and PostgreSQL.</li>
-          <li>Installation, setup and management of Microsoft Windows and Debian-based Linux operating systems.</li>
-          <li>Competent use of Microsoft Office and LibreOffice.</li>
-          <li>Other computer skills: Bash scripting, image editing, vector graphic design, video editing.</li>
-          <li>Proficiency in mathematics and to a lesser extent in statistics and physics.</li>
+          {% for skill in site.data.about.skills %}
+          <li>{{ skill }}</li>
+          {% endfor %}
         </ul>
       </div>
       <div class="col-12">
         <h2 class="fs-4">Other interests</h2>
         <ul>
-          <li>Lifting weights.</li>
-          <li>Metal and rock music.</li>
-          <li>Reading.</li>
+          {% for interest in site.data.about.other_interests %}
+          <li>{{ interest }}</li>
+          {% endfor %}
         </ul>
       </div>
     </div>

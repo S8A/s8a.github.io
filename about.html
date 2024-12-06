@@ -60,40 +60,14 @@ og_desc: A summary of who I am, what I can do, and what I've worked on.
   </div>
   <div class="col-12 col-md-8">
     <h2 class="fs-4">Work experience</h2>
+    {% for job in site.data.work_experience %}
     <div class="card shadow-sm mb-2">
       <div class="card-body">
-        <h3 class="card-title fs-5">Junior full-stack developer &ndash; <a href="https://www.bitmotto.com/">Bitmotto</a></h3>
-        <p class="card-subtitle">November 2022 &ndash; present</p>
-        <p class="card-text">I'm currently working on the development of multiple projects for Bitmotto's business customers: single-page style web apps built with Django, Vue.js and Inertia.js; and custom modules for the Odoo business management software platform. Previously, I worked on the development of Bitmotto's white-label crypto exchange and remittance platforms.</p>
+        <h3 class="card-title fs-5">{{ job.title }} &ndash; {% if job.company_url %}<a href="{{ job.company_url }}">{{ job.company }}</a>{% else %}{{ job.company }}{% endif %}</h3>
+        <p class="card-subtitle">{{ job.period_start | date: "%B %Y" }}{% if job.period_end and job.period_end != job.period_start %} &ndash; {{ job.period_end | date: "%B %Y" }}{% elsif job.period_end %}{% else %} &ndash; present{% endif %}</p>
+        <p class="card-text">{{ job.description }}</p>
       </div>
     </div>
-    <div class="card shadow-sm mb-2">
-      <div class="card-body">
-        <h3 class="card-title fs-5">Freelance job &ndash; <a href="https://www.instagram.com/tottomarket/">Totto Market</a></h3>
-        <p class="card-subtitle">January 2022</p>
-        <p class="card-text">I developed a simple Django web app for Totto Market, a local convenience store specialized in gluten-free products, and deployed it on Heroku. The web app consisted of a product list, a list of customers with bills pending payment, and forms for uploading the data, which is exported from the business's accounting software at the end of each day.</p>
-      </div>
-    </div>
-    <div class="card shadow-sm mb-2">
-      <div class="card-body">
-        <h3 class="card-title fs-5">Junior full-stack developer &ndash; <a href="https://cryptobuyer.io/">Cryptobuyer</a></h3>
-        <p class="card-subtitle">May 2021 &ndash; December 2021</p>
-        <p class="card-text">I worked on the implementation of part of the database models, backend API code, and frontend UI for the crypto exchange platform's pro version, Cryptobuyer Pro. Unfortunately, the company had a change of ownership, the project was shelved, and I was laid off.</p>
-      </div>
-    </div>
-    <div class="card shadow-sm mb-2">
-      <div class="card-body">
-        <h3 class="card-title fs-5">Freelance job &ndash; <a href="http://www.telcomsis.com.ve/">TelComSis</a></h3>
-        <p class="card-subtitle">February 2021 &ndash; April 2021</p>
-        <p class="card-text">I developed a management system for facial recognition doorway devices for TelComSis, a biometric tech company. The system consists of a program which communicates with the devices through MQTT messages to record and sync their data automatically, and a Django web app to manage the records of persons, accesses granted and denied, snapshots, etc.</p>
-      </div>
-    </div>
-    <div class="card shadow-sm mb-2">
-      <div class="card-body">
-        <h3 class="card-title fs-5">Technical support &ndash; <a href="http://www.umc.edu.ve/"><em>Universidad Marítima del Caribe</em> (UMC)</a></h3>
-        <p class="card-subtitle">October 2019 &ndash; June 2023</p>
-        <p class="card-text">I was employed as technical support for the computer labs and the navigation simulator at the UMC since I was in 4th semester, until my resignation after completing the 9th and final semester. My work consisted of solving computer malfunctions, creating hard drive backups, keeping track of the computer labs' inventory, and keeping the labs' computers' software up to date. </p>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </div>

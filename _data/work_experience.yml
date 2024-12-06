@@ -1,0 +1,54 @@
+- title: Junior full-stack developer
+  company: Bitmotto
+  company_url: https://www.bitmotto.com/
+  period_start: November 2022
+  description: >
+    I'm currently working on the development of multiple projects for
+    Bitmotto's business customers: single-page style web apps built with
+    Django, Vue.js and Inertia.js; and custom modules for the Odoo business
+    management software platform. Previously, I worked on the development of
+    Bitmotto's white-label crypto exchange and remittance platforms.
+- title: Freelance job
+  company: Totto Market
+  company_url: https://www.instagram.com/tottomarket/
+  period_start: January 2022
+  period_end: January 2022
+  description: >
+    I developed a simple Django web app for Totto Market, a local convenience
+    store specialized in gluten-free products, and deployed it on Heroku. The
+    web app consisted of a product list, a list of customers with bills pending
+    payment, and forms for uploading the data, which is exported from the
+    business's accounting software at the end of each day.
+- title: Junior full-stack developer
+  company: Cryptobuyer
+  company_url: https://cryptobuyer.io/
+  period_start: May 2021
+  period_end: December 2021
+  description: >
+    I worked on the implementation of part of the database models, backend API
+    code, and frontend UI for the crypto exchange platform's pro version,
+    Cryptobuyer Pro. Unfortunately, the company had a change of ownership, the
+    project was shelved, and I was laid off.
+- title: Freelance job
+  company: TelComSis
+  company_url: http://www.telcomsis.com.ve/
+  period_start: February 2021
+  period_end: April 2021
+  description: >
+    I developed a management system for facial recognition doorway devices for
+    TelComSis, a biometric tech company. The system consists of a program
+    which communicates with the devices through MQTT messages to record and
+    sync their data automatically, and a Django web app to manage the records
+    of persons, accesses granted and denied, snapshots, etc.
+- title: Technical support
+  company: Universidad Marítima del Caribe (UMC)
+  company_url: http://www.umc.edu.ve/
+  period_start: October 2019
+  period_end: June 2023
+  description: >
+    I was employed as technical support for the computer labs and the
+    navigation simulator at the UMC since I was in 4th semester, until my
+    resignation after completing the 9th and final semester. My work consisted
+    of solving computer malfunctions, creating hard drive backups, keeping
+    track of the computer labs' inventory, and keeping the labs' computers'
+    software up to date.

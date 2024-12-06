@@ -9,11 +9,11 @@ og_image: s8a-thumbnail.png
 
 <section id="websites" class="py-3">
   <h2>Websites</h2>
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 py-3 mb-3">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3 py-3 mb-3">
     {%- assign websites = site.websites | sort: "last-update" | reverse -%}
     {%- for website in websites -%}
     <div class="col">
-      <div class="card shadow-sm">
+      <div class="card h-100 shadow-sm">
         {%- if website.image -%}
           <img src="/assets/img/{{ website.image }}-defaultdpi.png" srcset="/assets/img/{{ website.image }}-hidpi.png 2x" alt="" class="card-img-top">
         {%- endif -%}
@@ -33,11 +33,11 @@ og_image: s8a-thumbnail.png
 
 <section id="programs" class="py-3">
   <h2>Desktop programs</h2>
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 py-3 mb-3">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3 py-3 mb-3">
     {%- assign programs = site.programs | sort: "last-update" | reverse -%}
     {%- for program in programs -%}
     <div class="col">
-      <div class="card shadow-sm">
+      <div class="card h-100 shadow-sm">
         {%- if program.image -%}
           <img src="/assets/img/{{ program.image }}" alt="" class="card-img-top">
         {%- endif -%}
@@ -57,11 +57,11 @@ og_image: s8a-thumbnail.png
 <section id="documents" class="py-3">
   <h2>Documents</h2>
 
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 py-3 mb-3">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3 py-3 mb-3">
     {%- assign documents = site.documents | sort: "date" | reverse -%}
     {%- for document in documents -%}
     <div class="col">
-      <div class="card shadow-sm">
+      <div class="card h-100 shadow-sm">
         {%- if document.image -%}
           <img src="/assets/img/{{ document.image }}-defaultdpi.png" srcset="/assets/img/{{ document.image }}-hidpi.png 2x" alt="" class="card-img-top">
         {%- endif -%}

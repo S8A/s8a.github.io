@@ -17,18 +17,17 @@ languages:
   - language: English
     proficiency: Proficient
 skills:
-  - "Programming in multiple languages: Python mostly, but I've also used Java, C++ and Kotlin."
-  - Vanilla full-stack web development (HTML, CSS, JavaScript, and some PHP).
+  - "Programming in multiple languages: Python (main), Java, C++."
   - Development of Django web-apps.
-  - Development of Odoo modules.
-  - Front-end web development using the Vue.js framework.
-  - Basic database management using MySQL and PostgreSQL.
-  - Installation, setup and management of Microsoft Windows and Debian-based Linux operating systems.
-  - Competent use of Microsoft Office and LibreOffice.
-  - "Other computer skills: Bash scripting, image editing, vector graphic design, video editing."
+  - Development of custom modules for the all-in-one business software platform
+    Odoo.
+  - Front-end web development using the Vue.js and Nuxt.js frameworks.
+  - Standard web development technologies (HTML, CSS, JavaScript).
+  - Setup and management of Microsoft Windows and Debian-based Linux operating
+    systems.
   - Proficiency in mathematics and to a lesser extent in statistics and physics.
 other_interests:
-  - Lifting weights.
+  - Lifting weights for muscle growth.
   - Metal and rock music.
-  - Reading.
+  - "Reading: economics, philosophy, history, anthropology, etc."
 

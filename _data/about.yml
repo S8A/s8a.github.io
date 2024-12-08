@@ -1,13 +1,3 @@
-home_lead: >
-  I'm an information systems engineer and self-taught software developer from
-  Venezuela. Learn more <a href="/about/">about me</a>, check out my 
-  <a href="/projects/">projects</a>, or contact me using the buttons below.
-about_lead: >
-  I'm an information systems engineer, graduated in December 2023 from the 
-  Universidad Marítima del Caribe (UMC). I've worked as a software developer 
-  both as an employee and as a freelancer, besides coding for personal 
-  projects. I started to teach myself how to code and make websites when I was 
-  13 years old, and I also taught myself to become very proficient in English.
 birth_date: 2000-09-07
 country_of_birth: Venezuela
 country_of_residence: Venezuela
@@ -45,4 +35,26 @@ certifications:
     institution: Duke University
     year: 2018
     url: https://coursera.org/verify/specialization/95S9T4NV54ET
+introduction: >
+  I'm an informations systems engineer (graduated in 2023) and self-taught
+  software developer from Venezuela. I've worked as a software developer 
+  both as an employee and as a freelancer, besides coding for personal projects.
+  I started to teach myself how to code and make websites when I was 13 years
+  old, and I also taught myself to become very proficient in English.
 
+
+  I'm currently working primarily as a full-stack developer, building web apps
+  using Django and Vue.js, custom modules for the Odoo business software
+  platform, REST APIs, and integrations with services like Stripe and Zoho CRM.
+  Check out the [about page](/about/) to learn more about my skills, work
+  experience, and education.
+
+
+  Besides programming for work, I also have a variety of personal and
+  university projects that I've worked on over the years. Check out the
+  [projects page](/projects/) to learn more about them, or go to
+  [my GitHub profile](https://github.com/S8A) to see my code directly.
+
+
+  Feel free to reach out to me for collaboration opportunities, software
+  development projects, or any other professional inquiries.

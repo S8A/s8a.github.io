@@ -10,26 +10,20 @@ og_desc: A summary of who I am, what I can do, and what I've worked on.
 {% assign age_days = age_seconds | divided_by: 3600 | divided_by: 24 %}
 {% assign age_years = age_days | divided_by: 365 | floor %}
 
-<div class="row g-4 mb-4">
-  <div class="col-12 col-md-4 col-lg-3 text-center">
-    <img src="/assets/img/s8a-20231207-defaultdpi.jpg" srcset="/assets/img/s8a-20231207-hidpi.jpg 2x, /assets/img/s8a-20231207-higherdpi.jpg 4x" alt="Picture of Samuel Ochoa on December 7, 2023." class="img-fluid" loading="lazy">
-  </div>
-  <div class="col-12 col-md-8 col-lg-9">
-    <h1 class="display-5 fw-bold">Samuel Ochoa</h1>
-    <p class="lead">{{ site.data.about.about_lead }}</p>
-    <p>
-      {% for contact in site.data.contact %}
-      <a href="{{ contact.url }}" class="btn btn-outline-primary"><i class="{{ contact.icon }}"></i> {{ contact.name }}</a>
-      {% endfor %}
-    </p>
-  </div>
-</div>
-<div class="row g-4">
-  <div class="col-12 col-md-4">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="fs-4">Basic data</h2>
-        <ul>
+<div class="row">
+  <div class="col-12 col-lg-8 mx-auto">
+    <div class="row flex-md-row-reverse g-4 mb-4">
+      <div class="col-12 col-md-3">
+        <img src="/assets/img/s8a-20231207-defaultdpi.jpg" srcset="/assets/img/s8a-20231207-hidpi.jpg 2x, /assets/img/s8a-20231207-higherdpi.jpg 4x" alt="Picture of Samuel Ochoa on December 7, 2023." class="img-fluid" loading="lazy">
+      </div>
+      <div class="col-12 col-md-9">
+        <h1 class="display-5 fw-bold">Samuel Ochoa</h1>
+        <ul class="mb-0">
+          {% for contact in site.data.contact %}
+          <li>
+            <b>{{ contact.name }}:</b> <a href="{{ contact.url }}">{{ contact.value }}</a>
+          </li>
+          {% endfor %}
           <li><b>Birth date:</b> {{ site.data.about.birth_date | date: "%B %e, %Y" }} ({{ age_years }} years old).</li>
           <li><b>Country of birth:</b> {{ site.data.about.country_of_birth }}.</li>
           <li><b>Country of residence:</b> {{ site.data.about.country_of_residence }}.</li>
@@ -40,34 +34,63 @@ og_desc: A summary of who I am, what I can do, and what I've worked on.
           </li>
         </ul>
       </div>
+    </div>
+    <div class="row g-4 mb-4">
       <div class="col-12">
         <h2 class="fs-4">Skills</h2>
-        <ul>
+        <ul class="mb-0">
           {% for skill in site.data.about.skills %}
           <li>{{ skill }}</li>
           {% endfor %}
         </ul>
       </div>
+    </div>
+    <div class="row g-4 mb-4">
+      <div class="col-12">
+        <h2 class="fs-4">Work experience</h2>
+        {% for job in site.data.work_experience %}
+        <div class="card shadow-sm mb-2">
+          <div class="card-body">
+            <h3 class="card-title fs-5">{{ job.title }} &ndash; {% if job.company_url %}<a href="{{ job.company_url }}">{{ job.company }}</a>{% else %}{{ job.company }}{% endif %}</h3>
+            <p class="card-subtitle">{{ job.period_start | date: "%B %Y" }}{% if job.period_end and job.period_end != job.period_start %} &ndash; {{ job.period_end | date: "%B %Y" }}{% elsif job.period_end %}{% else %} &ndash; present{% endif %}</p>
+            <p class="card-text">{{ job.description }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="row g-4 mb-4">
+      <div class="col-12">
+        <h2 class="fs-4">Education</h2>
+        {% for education in site.data.about.education %}
+        <div class="card shadow-sm mb-2">
+          <div class="card-body">
+            <h3 class="card-title fs-5">{{ education.title }} &ndash; {{ education.institution }}</h3>
+            <p class="card-subtitle">Graduated in {{ education.graduation_year }}</p>
+            <p class="card-text">Specialization: {{ education.specialization }}. {% if education.honors %}Honors: <em>{{ education.honors }}</em>.{% endif %}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="row g-4 mb-4">
+      <div class="col-12">
+        <h2 class="fs-4">Certifications</h2>
+        <ul class="mb-0">
+          {% for certification in site.data.about.certifications %}
+          <li><a href="{{ certification.url }}">{{ certification.title }}</a> &ndash; {{ certification.institution }} ({{ certification.year }}).</li>
+          {% endfor %}
+        </ul>
+    </div>
+    <div class="row g-4">
       <div class="col-12">
         <h2 class="fs-4">Other interests</h2>
-        <ul>
+        <ul class="mb-0">
           {% for interest in site.data.about.other_interests %}
           <li>{{ interest }}</li>
           {% endfor %}
         </ul>
       </div>
-    </div>
-  </div>
-  <div class="col-12 col-md-8">
-    <h2 class="fs-4">Work experience</h2>
-    {% for job in site.data.work_experience %}
-    <div class="card shadow-sm mb-2">
-      <div class="card-body">
-        <h3 class="card-title fs-5">{{ job.title }} &ndash; {% if job.company_url %}<a href="{{ job.company_url }}">{{ job.company }}</a>{% else %}{{ job.company }}{% endif %}</h3>
-        <p class="card-subtitle">{{ job.period_start | date: "%B %Y" }}{% if job.period_end and job.period_end != job.period_start %} &ndash; {{ job.period_end | date: "%B %Y" }}{% elsif job.period_end %}{% else %} &ndash; present{% endif %}</p>
-        <p class="card-text">{{ job.description }}</p>
-      </div>
-    </div>
-    {% endfor %}
+    </div>    
   </div>
 </div>

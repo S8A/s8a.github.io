@@ -2,8 +2,9 @@
 layout: program
 name: UMC Campus CRUD
 icon: umc-logo.png
-summary: "Tool for managing a database of UMC students and their grades. 
-Made as an assignment for Programming 3."
+summary: >
+  Tool for managing a database of UMC students and their grades. Made as an
+  assignment for the UMC's Programming III course.
 features:
 - "Made in Python 3 with the PyMySQL library."
 - "Only available in Spanish."

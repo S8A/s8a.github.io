@@ -1,39 +1,116 @@
-- title: Junior full-stack developer
+- title: Co-founder and computer technician
+  company: Daykron Tech, C.A.
+  period_start: January 2024
+  skills_keywords:
+    - Windows
+    - Linux
+    - VMWare
+    - Clonezilla
+  description: >
+    I founded the company Daykron Tech with my father to provide technical
+    service for computer systems, as well as retail sales of computers,
+    routers, security cameras, and more.
+  sections:
+    - title: Renovation of the Navigation Simulator of the UMC
+      items:
+        - I carried out the installation and configuration of the Navigation
+          Simulator program (Eca Sindel) on 13 new computers acquired by the dean,
+          thus allowing its reactivation for the radar and navigation courses of
+          Maritime Engineering students.
+- title: Full-stack developer
   company: Bitmotto
   company_url: https://www.bitmotto.com/
   period_start: November 2022
+  skills_keywords:
+    - Python
+    - Django
+    - Vue.js
+    - Odoo
+    - Nuxt.js
   description: >
     I'm currently working on the development of multiple projects for
     Bitmotto's business customers: single-page style web apps built with
     Django, Vue.js and Inertia.js; and custom modules for the Odoo business
     management software platform. Previously, I worked on the development of
     Bitmotto's white-label crypto exchange and remittance platforms.
+  sections:
+    - title: Legalys Orbis
+      items:
+        - Re-implemented Legalys's form for their Panama immigration processing
+          service, which was originally made in Odoo, as a web-app made in
+          Django, in order to provide a better user interface for their clients.
+        - Implemented an Odoo integration feature that allows administrators to
+          click a button to upload the data of all completed forms to Odoo.
+    - title: Perseus OTC
+      items:
+        - Developed most of a web-app for Perseus Ltd, a Panamanian currency
+          exchange company, which allows them to keep track of the operations
+          that they carry out, to check the balances of their accounts and their
+          clients', and to view graphs of certain metrics.
+    - title: Integration of Megasoft Payment Gateway for Odoo
+      items:
+        - Participated in the implementation of a certified Odoo integration
+          with Megasoft's payment processing platform, the most widely used in
+          Venezuela. Venezuelan companies that use Odoo will be able to use the
+          integration to receive credit card, mobile and Zelle payments, while
+          Bitmotto will receive a percentage of the amounts processed.
+    - title: Modern Portals for Odoo
+      items:
+        - Built an Odoo module that provides a backend based on FastAPI with JWT
+          authentication, as well as a Nuxt.js frontend, in less than two weeks.
+          This will allow Bitmotto to quickly develop modern web frontends on
+          top of Odoo for clients.
+    - title: Legalys Corpus
+      items:
+        - Developed most of the database models and some form steps of Corpus,
+          Legalys's company registration web app.
+        - Implemented an Odoo integration feature that allows administrators to
+          click a button to upload the data of all registered companies to Odoo,
+          allowing the company to migrate away from Zoho CRM and reduce
+          subscription costs by over 60%.
+    - title: Bitmotto's own projects (Django Easystart, OTC, Remittance)
+      items:
+        - Expanded and refactored all unit tests, increasing test coverage to
+          over 94% while reducing total test time to under 4 minutes.
 - title: Freelance job
   company: Totto Market
   company_url: https://www.instagram.com/tottomarket/
   period_start: January 2022
   period_end: January 2022
+  skills_keywords:
+    - Python
+    - Django
+    - Heroku
   description: >
     I developed a simple Django web app for Totto Market, a local convenience
     store specialized in gluten-free products, and deployed it on Heroku. The
-    web app consisted of a product list, a list of customers with bills pending
-    payment, and forms for uploading the data, which is exported from the
+    web app consisted of a product list, a list of customers with outstanding
+    debts to pay, and forms for uploading the data, which is exported from the
     business's accounting software at the end of each day.
 - title: Junior full-stack developer
   company: Cryptobuyer
   company_url: https://cryptobuyer.io/
   period_start: May 2021
   period_end: December 2021
+  skills_keywords:
+    - Python
+    - Django
+    - Django REST Framework
+    - Vue.js
   description: >
     I worked on the implementation of part of the database models, backend API
     code, and frontend UI for the crypto exchange platform's pro version,
-    Cryptobuyer Pro. Unfortunately, the company had a change of ownership, the
-    project was shelved, and I was laid off.
+    Cryptobuyer Pro.
 - title: Freelance job
   company: TelComSis
   company_url: http://www.telcomsis.com.ve/
   period_start: February 2021
   period_end: April 2021
+  skills_keywords:
+    - Python
+    - Django
+    - MQTT
+    - JavaScript
   description: >
     I developed a management system for facial recognition doorway devices for
     TelComSis, a biometric tech company. The system consists of a program
@@ -45,6 +122,9 @@
   company_url: http://www.umc.edu.ve/
   period_start: October 2019
   period_end: June 2023
+  skills_keywords:
+    - Linux
+    - Windows
   description: >
     I was employed as technical support for the computer labs and the
     navigation simulator at the UMC since I was in 4th semester, until my

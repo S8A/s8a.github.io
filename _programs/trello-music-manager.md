@@ -1,7 +1,7 @@
 ---
 layout: program
 name: Trello Music Manager
-summary: Tool for managing artists and albums in a Trello board.
+summary: Tool for managing artists and albums in a Trello board. Obsolete due to changes in the Trello API.
 features:
 - "Made in Python 3 and using the official Trello API."
 - "Manages a Trello board with (at least) three lists: one for the artists, and three for albums (pending, doing, and done)."

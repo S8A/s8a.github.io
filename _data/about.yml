@@ -1,0 +1,60 @@
+birth_date: 2000-09-07
+country_of_birth: Venezuela
+country_of_residence: Venezuela
+languages:
+  - language: Spanish
+    proficiency: Native
+  - language: English
+    proficiency: Proficient
+skills:
+  - "Programming in multiple languages: Python (main), Java, C++."
+  - Development of Django web-apps.
+  - Development of custom modules for the all-in-one business software platform
+    Odoo.
+  - Front-end web development using the Vue.js and Nuxt.js frameworks.
+  - Standard web development technologies (HTML, CSS, JavaScript).
+  - Setup and management of Microsoft Windows and Debian-based Linux operating
+    systems.
+  - Proficiency in mathematics and to a lesser extent in statistics and physics.
+other_interests:
+  - Lifting weights for muscle growth.
+  - Metal and rock music.
+  - "Reading: economics, philosophy, history, anthropology, etc."
+education:
+  - title: Information Systems Engineer
+    specialization: Data Management
+    institution: Universidad Marítima del Caribe (UMC)
+    graduation_year: 2023
+    honors: Summa Cum Laude
+certifications:
+  - title: English C2 Proficient
+    institution: EF SET
+    year: 2020
+    url: https://www.efset.org/cert/eYSfA6
+  - title: Java Programming and Software Engineering Fundamentals
+    institution: Duke University
+    year: 2018
+    url: https://coursera.org/verify/specialization/95S9T4NV54ET
+introduction: >
+  I'm an informations systems engineer (graduated in 2023) and self-taught
+  software developer from Venezuela. I've worked as a software developer 
+  both as an employee and as a freelancer, besides coding for personal projects.
+  I started to teach myself how to code and make websites when I was 13 years
+  old, and I also taught myself to become very proficient in English.
+
+
+  I'm currently working primarily as a full-stack developer, building web apps
+  using Django and Vue.js, custom modules for the Odoo business software
+  platform, REST APIs, and integrations with services like Stripe and Zoho CRM.
+  Check out the [about page](/about/) to learn more about my skills, work
+  experience, and education.
+
+
+  Besides programming for work, I also have a variety of personal and
+  university projects that I've worked on over the years. Check out the
+  [projects page](/projects/) to learn more about them, or go to
+  [my GitHub profile](https://github.com/S8A) to see my code directly.
+
+
+  Feel free to reach out to me for collaboration opportunities, software
+  development projects, or any other professional inquiries.

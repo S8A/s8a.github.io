@@ -30,4 +30,19 @@ other_interests:
   - Lifting weights for muscle growth.
   - Metal and rock music.
   - "Reading: economics, philosophy, history, anthropology, etc."
+education:
+  - title: Information Systems Engineer
+    specialization: Data Management
+    institution: Universidad Marítima del Caribe (UMC)
+    graduation_year: 2023
+    honors: Summa Cum Laude
+certifications:
+  - title: English C2 Proficient
+    institution: EF SET
+    year: 2020
+    url: https://www.efset.org/cert/eYSfA6
+  - title: Java Programming and Software Engineering Fundamentals
+    institution: Duke University
+    year: 2018
+    url: https://coursera.org/verify/specialization/95S9T4NV54ET
 

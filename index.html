@@ -9,8 +9,24 @@ og_image: s8a-thumbnail.png
   <div class="col-md-5 col-lg-4 mb-4 mb-lg-0 text-center">
     <div class="ratio ratio-1x1 mx-auto mb-3">
       <img
-        src="/assets/img/s8a-20231207-defaultdpi.jpg"
-        srcset="/assets/img/s8a-20231207-hidpi.jpg 2x, /assets/img/s8a-20231207-higherdpi.jpg 4x"
+        srcset="
+          /assets/img/s8a-20231207.webp 1728w,
+          {% thumbnail_img '/assets/img/s8a-20231207.webp' 576 %} 576w,
+          {% thumbnail_img '/assets/img/s8a-20231207.webp' 520 %} 520w,
+          {% thumbnail_img '/assets/img/s8a-20231207.webp' 420 %} 420w,
+          {% thumbnail_img '/assets/img/s8a-20231207.webp' 380 %} 380w,
+          {% thumbnail_img '/assets/img/s8a-20231207.webp' 300 %} 300w,
+          {% thumbnail_img '/assets/img/s8a-20231207.webp' 200 %} 200w
+        "
+        sizes="
+          (max-width: 200px) 200px,
+          (max-width: 300px) 300px,
+          (max-width: 380px) 380px,
+          (max-width: 420px) 420px,
+          (max-width: 520px) 520px,
+          576px
+        "
+        src="{% thumbnail_img '/assets/img/s8a-20231207.webp' 576 %}"
         alt=""
         class="img-fluid"
       >

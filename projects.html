@@ -15,7 +15,28 @@ og_image: s8a-thumbnail.png
     <div class="col">
       <div class="card h-100 shadow-sm">
         {%- if website.image -%}
-          <img src="/assets/img/{{ website.image }}-defaultdpi.png" srcset="/assets/img/{{ website.image }}-hidpi.png 2x" alt="" class="card-img-top">
+          {% assign image_path = website.image | prepend: "/assets/img/" | append: "-hidpi.png" %}
+          <img
+            srcset="
+              {% thumbnail_img image_path 576 %} 576w,
+              {% thumbnail_img image_path 480 %} 480w,
+              {% thumbnail_img image_path 340 %} 340w,
+              {% thumbnail_img image_path 256 %} 256w,
+              {% thumbnail_img image_path 200 %} 200w
+            "
+            sizes="
+              (max-width: 200px) 200px,
+              (max-width: 256px) 256px,
+              (max-width: 340px) 340px,
+              (max-width: 480px) 480px,
+              (max-width: 768px) 576px,
+              (max-width: 1200px) 480px,
+              480px
+            "
+            src="{% thumbnail_img image_path 576 %}"
+            alt=""
+            class="card-img-top"
+          >
         {%- endif -%}
 
         <div class="card-body">
@@ -39,7 +60,28 @@ og_image: s8a-thumbnail.png
     <div class="col">
       <div class="card h-100 shadow-sm">
         {%- if program.image -%}
-          <img src="/assets/img/{{ program.image }}" alt="" class="card-img-top">
+          {% assign image_path = program.image | prepend: "/assets/img/" %}
+          <img
+            srcset="
+              {% thumbnail_img image_path 576 %} 576w,
+              {% thumbnail_img image_path 480 %} 480w,
+              {% thumbnail_img image_path 340 %} 340w,
+              {% thumbnail_img image_path 256 %} 256w,
+              {% thumbnail_img image_path 200 %} 200w
+            "
+            sizes="
+              (max-width: 200px) 200px,
+              (max-width: 256px) 256px,
+              (max-width: 340px) 340px,
+              (max-width: 480px) 480px,
+              (max-width: 768px) 576px,
+              (max-width: 1200px) 480px,
+              480px
+            "
+            src="{% thumbnail_img image_path 576 %}"
+            alt=""
+            class="card-img-top"
+          >
         {%- endif -%}
 
         <div class="card-body">
@@ -63,7 +105,28 @@ og_image: s8a-thumbnail.png
     <div class="col">
       <div class="card h-100 shadow-sm">
         {%- if document.image -%}
-          <img src="/assets/img/{{ document.image }}-defaultdpi.png" srcset="/assets/img/{{ document.image }}-hidpi.png 2x" alt="" class="card-img-top">
+          {% assign image_path = document.image | prepend: "/assets/img/" | append: "-hidpi.png" %}
+          <img
+            srcset="
+              {% thumbnail_img image_path 576 %} 576w,
+              {% thumbnail_img image_path 480 %} 480w,
+              {% thumbnail_img image_path 340 %} 340w,
+              {% thumbnail_img image_path 256 %} 256w,
+              {% thumbnail_img image_path 200 %} 200w
+            "
+            sizes="
+              (max-width: 200px) 200px,
+              (max-width: 256px) 256px,
+              (max-width: 340px) 340px,
+              (max-width: 480px) 480px,
+              (max-width: 768px) 576px,
+              (max-width: 1200px) 480px,
+              480px
+            "
+            src="{% thumbnail_img image_path 576 %}"
+            alt=""
+            class="card-img-top"
+          >
         {%- endif -%}
 
         <div class="card-body">

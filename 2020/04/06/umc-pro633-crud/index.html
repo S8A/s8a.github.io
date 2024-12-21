@@ -48,7 +48,30 @@
       <div class="container py-3"><div class="row">
   <article id="post" class="col col-lg-8 mx-auto py-3">
     <h1 class="text-center">UMC Campus CRUD</h1>
-    <p class="text-center text-muted"><time datetime="2020-04-06T00:00:00+00:00">06 Apr 2020</time> &ndash; projects</p><img src="https://s8a.github.io/assets/img/umc-pro633-crud-both-demo.png" class="img-fluid mb-4" alt="Screenshots of the UMC Campus CRUD application in its command-line and graphical versions."><p>Last Friday, I completed my Programming 3 (PRO633) project: a tool for managing a database of <abbr title="Universidad Marítima del Caribe">UMC</abbr> students and their grades. The GitHub project is <a href="https://github.com/S8A/umc-pro633-crud">here</a>.</p>
+    <p class="text-center text-muted"><time datetime="2020-04-06T00:00:00+00:00">06 Apr 2020</time> &ndash; projects</p>
+      <img
+        srcset="
+          /assets/img/thumbnails/umc-pro633-crud-both-demo_1080w.png 1080w,
+          /assets/img/thumbnails/umc-pro633-crud-both-demo_576w.png 576w,
+          /assets/img/thumbnails/umc-pro633-crud-both-demo_520w.png 520w,
+          /assets/img/thumbnails/umc-pro633-crud-both-demo_420w.png 420w,
+          /assets/img/thumbnails/umc-pro633-crud-both-demo_380w.png 380w,
+          /assets/img/thumbnails/umc-pro633-crud-both-demo_300w.png 300w,
+          /assets/img/thumbnails/umc-pro633-crud-both-demo_200w.png 200w
+        "
+        sizes="
+          (max-width: 200px) 200px,
+          (max-width: 300px) 300px,
+          (max-width: 380px) 380px,
+          (max-width: 420px) 420px,
+          (max-width: 520px) 520px,
+          (max-width: 576px) 576px,
+          1080px
+        "
+        src="/assets/img/umc-pro633-crud-both-demo.png"
+        class="img-fluid mb-4"
+        alt="Screenshots of the UMC Campus CRUD application in its command-line and graphical versions."
+      ><p>Last Friday, I completed my Programming 3 (PRO633) project: a tool for managing a database of <abbr title="Universidad Marítima del Caribe">UMC</abbr> students and their grades. The GitHub project is <a href="https://github.com/S8A/umc-pro633-crud">here</a>.</p>
 
 <p>This application has two versions: one with a command-line interface and the other with a graphical interface. The whole package is written in <a href="https://www.python.org">Python 3</a>, using the <a href="https://pypi.org/project/PyMySQL/">PyMySQL</a> library to handle the database and <a href="https://pypi.org/project/PyQt5/">PyQt5</a> for the <abbr title="Graphical User Interface">GUI</abbr>. Besides those three, the program requires access to a <a href="https://dev.mysql.com/downloads/mysql/">MySQL Server</a> instance, preferably in the same machine.</p>
 

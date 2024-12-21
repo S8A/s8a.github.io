@@ -60,7 +60,25 @@
   <div class="col-12 col-lg-8 mx-auto">
     <div class="row flex-md-row-reverse g-4 mb-4">
       <div class="col-12 col-md-3">
-        <img src="/assets/img/s8a-20231207-defaultdpi.jpg" srcset="/assets/img/s8a-20231207-hidpi.jpg 2x, /assets/img/s8a-20231207-higherdpi.jpg 4x" alt="Picture of Samuel Ochoa on December 7, 2023." class="img-fluid" loading="lazy">
+        <div class="ratio ratio-1x1">
+          <img srcset="
+              /assets/img/s8a-20231207.webp 1728w,
+              /assets/img/thumbnails/s8a-20231207_576w.webp 576w,
+              /assets/img/thumbnails/s8a-20231207_520w.webp 520w,
+              /assets/img/thumbnails/s8a-20231207_420w.webp 420w,
+              /assets/img/thumbnails/s8a-20231207_380w.webp 380w,
+              /assets/img/thumbnails/s8a-20231207_300w.webp 300w,
+              /assets/img/thumbnails/s8a-20231207_200w.webp 200w
+            " sizes="
+              (max-width: 200px) 200px,
+              (max-width: 300px) 300px,
+              (max-width: 380px) 380px,
+              (max-width: 420px) 420px,
+              (max-width: 520px) 520px,
+              (max-width: 576px) 576px,
+              200px
+            " src="/assets/img/thumbnails/s8a-20231207_576w.webp" alt="" class="img-fluid">
+        </div>
       </div>
       <div class="col-12 col-md-9">
         <h1 class="display-5 fw-bold">Samuel Ochoa</h1>

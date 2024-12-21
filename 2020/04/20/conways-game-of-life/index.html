@@ -48,7 +48,30 @@
       <div class="container py-3"><div class="row">
   <article id="post" class="col col-lg-8 mx-auto py-3">
     <h1 class="text-center">Conway's Game of Life</h1>
-    <p class="text-center text-muted"><time datetime="2020-04-20T00:00:00+00:00">20 Apr 2020</time> &ndash; projects</p><img src="https://s8a.github.io/assets/img/conway-big-image.png" class="img-fluid mb-4" alt="Screenshots of the game."><p>Last night I made a simple implementation of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway’s Game of Life</a> in <a href="https://python.org">Python 3</a> with <a href="https://www.pygame.org">PyGame</a> and <a href="https://numpy.org/">NumPy</a>. It’s available for download <a href="https://gist.github.com/S8A/fa4ab4697f88022c87bc8c2699588a8d">here</a>.</p>
+    <p class="text-center text-muted"><time datetime="2020-04-20T00:00:00+00:00">20 Apr 2020</time> &ndash; projects</p>
+      <img
+        srcset="
+          /assets/img/thumbnails/conway-big-image_1080w.png 1080w,
+          /assets/img/thumbnails/conway-big-image_576w.png 576w,
+          /assets/img/thumbnails/conway-big-image_520w.png 520w,
+          /assets/img/thumbnails/conway-big-image_420w.png 420w,
+          /assets/img/thumbnails/conway-big-image_380w.png 380w,
+          /assets/img/thumbnails/conway-big-image_300w.png 300w,
+          /assets/img/thumbnails/conway-big-image_200w.png 200w
+        "
+        sizes="
+          (max-width: 200px) 200px,
+          (max-width: 300px) 300px,
+          (max-width: 380px) 380px,
+          (max-width: 420px) 420px,
+          (max-width: 520px) 520px,
+          (max-width: 576px) 576px,
+          1080px
+        "
+        src="/assets/img/conway-big-image.png"
+        class="img-fluid mb-4"
+        alt="Screenshots of the game."
+      ><p>Last night I made a simple implementation of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway’s Game of Life</a> in <a href="https://python.org">Python 3</a> with <a href="https://www.pygame.org">PyGame</a> and <a href="https://numpy.org/">NumPy</a>. It’s available for download <a href="https://gist.github.com/S8A/fa4ab4697f88022c87bc8c2699588a8d">here</a>.</p>
 
 <p>The Game of Life basically consists of two-dimensional grid of square cells, each of which is either alive or dead and interacts with its eight adjacent cells (neighbors). At every clock tick, the state of each cell changes if one of the following conditions or rules are met:</p>
 <ol>

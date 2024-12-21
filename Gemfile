@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", :group => :jekyll_plugins
+gem "jekyll", :group => [:jekyll_plugins, :jekyll_thumbnail_img]
 gem "webrick"
 
 group :jekyll_plugins do
@@ -21,4 +21,9 @@ group :jekyll_plugins do
   gem "jekyll-titles-from-headings"
   gem "jemoji"
   gem "kramdown"
+end
+
+group :jekyll_thumbnail_img do
+  gem "jekyll-thumbnail-img"
+  gem "mini_magick"
 end

@@ -2,8 +2,8 @@
 layout: post
 title: "Links and Thoughts #5 (May 2024)"
 og_desc: The OODA Loop, elite group formation, nature vs. nurture, and why male hunter-gatherers hunt more than females.
-og_image: links-and-thoughts-005-og-image.jpg
-big_image: links-and-thoughts-005-og-image.jpg
+og_image: links-and-thoughts-005.webp
+big_image: links-and-thoughts-005.webp
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---

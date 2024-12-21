@@ -2,8 +2,8 @@
 layout: post
 title: "Links and Thoughts #11 (November 2024)"
 og_desc: Origins of modernity, intelligence skewness, American homicide statistics, sigma females, epigenetics, nuclear families, early human history, and why it's not enough to hate the state.
-og_image: links-and-thoughts-011-og-image.jpg
-big_image: links-and-thoughts-011-og-image.jpg
+og_image: links-and-thoughts-011.webp
+big_image: links-and-thoughts-011.webp
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---

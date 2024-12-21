@@ -93,6 +93,9 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-thumbnail-img (0.1.2)
+      jekyll
+      mini_magick
     jekyll-titles-from-headings (0.5.3)
       jekyll (>= 3.3, < 5.0)
     jekyll-watch (2.2.1)
@@ -112,6 +115,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.6.2)
     mercenary (0.4.0)
+    mini_magick (5.0.1)
     minitest (5.25.4)
     net-http (0.6.0)
       uri
@@ -167,9 +171,11 @@ DEPENDENCIES
   jekyll-sass-converter
   jekyll-seo-tag
   jekyll-sitemap
+  jekyll-thumbnail-img
   jekyll-titles-from-headings
   jemoji
   kramdown
+  mini_magick
   webrick
 
 BUNDLED WITH

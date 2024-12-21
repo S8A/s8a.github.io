@@ -7,7 +7,14 @@ og_image: s8a-thumbnail.png
 
 <div class="row justify-content-center py-xl-5">
   <div class="col-md-5 col-lg-4 mb-4 mb-lg-0 text-center">
-    <img src="/assets/img/s8a-20231207-defaultdpi.jpg" srcset="/assets/img/s8a-20231207-hidpi.jpg 2x, /assets/img/s8a-20231207-higherdpi.jpg 4x" alt="Picture of Samuel Ochoa on December 7, 2023." class="d-block mx-auto mb-3 img-fluid" loading="lazy">
+    <div class="ratio ratio-1x1 mx-auto mb-3">
+      <img
+        src="/assets/img/s8a-20231207-defaultdpi.jpg"
+        srcset="/assets/img/s8a-20231207-hidpi.jpg 2x, /assets/img/s8a-20231207-higherdpi.jpg 4x"
+        alt=""
+        class="img-fluid"
+      >
+    </div>
     <div class="d-block d-md-grid d-xxl-block gap-2">
       {% for contact in site.data.contact %}
       <a href="{{ contact.url }}" class="btn btn-outline-primary mb-2 mb-md-0"><i class="{{ contact.icon }}"></i> {{ contact.name }}</a>

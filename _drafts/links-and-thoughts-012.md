@@ -1,18 +1,18 @@
 ---
 layout: post
 title: "Links and Thoughts #12 (December 2024)"
-og_desc: Draft 1
+og_desc: Draft 2
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 1
+Draft 2
 
 ---
 
-# _Recent evolution of the ability to read and write_
+## _Recent evolution of the ability to read and write_
 
 - [Link to article](https://www.aporiamagazine.com/p/recent-evolution-of-the-ability-to)
 - Author: Peter Frost
@@ -27,3 +27,21 @@ This article primarily argues that the Visual Word Form Area (VWFA), a region of
 {: .fst-italic.ps-4.border-start.border-5}
 
 He then explains a general outline of the stages of this process and addresses some objections. Next, he reasons that different human populations may have evolved to become better at reading and writing to different extents because they had different levels of selection for these abilities, and he provides evidence for differences in VWFA development and activation between and within human populations. Hopefully, researchers at some point will question the now untenable yet still dominant assumption that reading and writing are too recent to have played a role in human evolution, and they could follow Frost's suggestions for testing his alternative model.
+
+---
+
+## _Responding to Bryan Caplan's Continued Critique of the Austrians_
+
+- [Link to podcast episode](https://www.youtube.com/watch?v=X9nPQP6Ng7s)
+- Host: Robert P. Murphy
+- Date: 2024-11-30
+- Source: _Human Action Podcast_ (YouTube)
+
+<img class="w-100" src="https://i.ytimg.com/vi/X9nPQP6Ng7s/maxresdefault.jpg" alt="Thumbnail of the YouTube video for the podcast episode.">
+
+The description of the video perfectly summarizes the episode, so I'll quote it directly:
+
+> In 1997, Bryan Caplan wrote an essay explaining why he was no longer a self-described Austrian. Recently, a reader asked him to comment on that essay. Bob reacts to Bryan's current views, arguing that the history of economic thought is indeed important, and the Misesian approach to praxeology is crucial.
+{: .fst-italic.ps-4.border-start.border-5}
+
+Caplan's 1997 essay is [_Why I Am Not an Austrian Economist_](https://econfaculty.gmu.edu/bcaplan/whyaust.htm), while his latest post (the one that Murphy is responding to) is [_Some Austrian Answers_](https://www.betonit.ai/p/some-austrian-answers). I'm not an expert in economics, but I think Murphy made excellent points and that most of Caplan's critiques are misguided. However, I somewhat agree with Caplan's impression that many Austrian economists don't move beyond rehashing the work of Mises, Hayek, etc. I think there is potential for exploring new areas and discovering truly innovative insights using the Austrian framework. I hope Murphy completes his project of fully modeling the financial sector, for example. Another avenue that I've often thought has a lot of untapped potential is fleshing out the details of how an anarchocapitalist society could work, beyond the general explanations we already have, and to make more thorough and insightful comparisons with the status quo and other alternative political arrangements.

@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #12 (December 2024)"
-og_desc: Draft 4
+og_desc: Draft 5
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 4
+Draft 5
 
 ---
 
@@ -61,19 +61,6 @@ In this article, Kirkegaard gives a detailed overview of the new paper he co-aut
 
 ---
 
-## _Power laws and human society_
-
-- [Link to article](https://www.emilkirkegaard.com/p/power-laws-and-human-society)
-- Author: Emil O. W. Kirkegaard
-- Date: 2024-12-16
-- Source: _Just Emil Kirkegaard Things_ (Substack)
-
-<img class="w-100" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F931c14cd-0f12-494b-9a5c-8d8be70682a7_865x542.png" alt="Simulated data charts for productivity and work ethic as normal distributions correlated at 0.50, and production as their product, which results in a distribution with a longer right tail in which the top 10% of workers produce 22% of total production.">
-
-WIP
-
----
-
 ## _Is Russia a "Realist" Power_
 
 - [Link to podcast episode](https://www.youtube.com/watch?v=o3ta1xF10Ds)
@@ -84,7 +71,12 @@ WIP
 
 <img class="w-100" src="http://i.ytimg.com/vi/o3ta1xF10Ds/maxresdefault.jpg" alt="Thumbnail of the YouTube video for the podcast episode">
 
-WIP
+Again, the description of the podcast episode perfectly summarizes it, so I'll quote it directly:
+
+> On this episode of Radio Rothbard, Ryan McMaken and Tho Bishop are joined by Zachary Yost to discuss a new book, The Sources of Russian Aggression by Sumantra Maitra. The three talk about the theory of international realism, its application to the military actions of the Russian state in Ukraine and Georgia, and what it means for better understanding foreign policy broadly.
+{: .fst-italic.ps-4.border-start.border-5}
+
+As mentioned in the podcast, the author of the book, Sumantra Maitra, has made available a [free PDF version of the book](https://cdn.mises.org/files/2024-12/Maitra_Galley.pdf) on the Mises Institute website. The author's main argument that the Russian state acts as a defensive realist power seems convincing to me, though I'm not an expert on the topic. The discussion on the podcast was interesting, and the book is relatively short, so I'll add it to my reading list.
 
 ---
 

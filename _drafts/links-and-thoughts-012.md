@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #12 (December 2024)"
-og_desc: Draft 3
+og_desc: Draft 4
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 3
+Draft 4
 
 ---
 
@@ -57,7 +57,7 @@ Caplan's 1997 essay is [_Why I Am Not an Austrian Economist_](https://econfacult
 
 <img class="w-100" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6438b2da-e668-4ccf-8ff9-c83a9cf7c720_3400x2400.png" alt="World map of average height of men born in 1980 by country, from Our World in Data."> 
 
-WIP
+In this article, Kirkegaard gives a detailed overview of the new paper he co-authored with David Piffer, [_Polygenic Selection and Environmental Influence on Adult Body Height: Genetic and Living Standard Contributions Across Diverse Populations_](https://www.cambridge.org/core/journals/twin-research-and-human-genetics/article/polygenic-selection-and-environmental-influence-on-adult-body-height-genetic-and-living-standard-contributions-across-diverse-populations/07C50FF8A272043CFEFC71AABA379AFA). They demonstrated that statistical models that include both genetic and environmental predictors best explain population differences in adult body height. As he explains, they used polygenic scores (PGS) for height from different types of genome-wide association studies (GWAS) in order to account for the possible biases and confounding factors of each type. Also, they used two methods to control for any autocorrelation in the data, and their findings still held up and were statistically significant.
 
 ---
 

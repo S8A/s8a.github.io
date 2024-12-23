@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #12 (December 2024)"
-og_desc: Draft 2
+og_desc: Draft 3
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 2
+Draft 3
 
 ---
 
@@ -45,3 +45,56 @@ The description of the video perfectly summarizes the episode, so I'll quote it 
 {: .fst-italic.ps-4.border-start.border-5}
 
 Caplan's 1997 essay is [_Why I Am Not an Austrian Economist_](https://econfaculty.gmu.edu/bcaplan/whyaust.htm), while his latest post (the one that Murphy is responding to) is [_Some Austrian Answers_](https://www.betonit.ai/p/some-austrian-answers). I'm not an expert in economics, but I think Murphy made excellent points and that most of Caplan's critiques are misguided. However, I somewhat agree with Caplan's impression that many Austrian economists don't move beyond rehashing the work of Mises, Hayek, etc. I think there is potential for exploring new areas and discovering truly innovative insights using the Austrian framework. I hope Murphy completes his project of fully modeling the financial sector, for example. Another avenue that I've often thought has a lot of untapped potential is fleshing out the details of how an anarchocapitalist society could work, beyond the general explanations we already have, and to make more thorough and insightful comparisons with the status quo and other alternative political arrangements.
+
+---
+
+## _Worldwide height variation explained_
+
+- [Link to article](https://www.emilkirkegaard.com/p/worldwide-height-variation-explained)
+- Author: Emil O. W. Kirkegaard
+- Date: 2024-12-15
+- Source: _Just Emil Kirkegaard Things_ (Substack)
+
+<img class="w-100" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6438b2da-e668-4ccf-8ff9-c83a9cf7c720_3400x2400.png" alt="World map of average height of men born in 1980 by country, from Our World in Data."> 
+
+WIP
+
+---
+
+## _Power laws and human society_
+
+- [Link to article](https://www.emilkirkegaard.com/p/power-laws-and-human-society)
+- Author: Emil O. W. Kirkegaard
+- Date: 2024-12-16
+- Source: _Just Emil Kirkegaard Things_ (Substack)
+
+<img class="w-100" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F931c14cd-0f12-494b-9a5c-8d8be70682a7_865x542.png" alt="Simulated data charts for productivity and work ethic as normal distributions correlated at 0.50, and production as their product, which results in a distribution with a longer right tail in which the top 10% of workers produce 22% of total production.">
+
+WIP
+
+---
+
+## _Is Russia a "Realist" Power_
+
+- [Link to podcast episode](https://www.youtube.com/watch?v=o3ta1xF10Ds)
+- Host: Ryan McMaken
+- Guests: Zachary Yost, Tho Bishop
+- Date: 2024-12-19
+- Source: _Radio Rothbard Podcast_ (YouTube)
+
+<img class="w-100" src="http://i.ytimg.com/vi/o3ta1xF10Ds/maxresdefault.jpg" alt="Thumbnail of the YouTube video for the podcast episode">
+
+WIP
+
+---
+
+## _Claude Fights Back_
+
+- [Link to article](https://www.astralcodexten.com/p/claude-fights-back)
+- Author: Scott Alexander
+- Date: 2024-12-19
+- Source: _Astral Codex Ten_ (Substack)
+
+<img class="w-100" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef31a0d3-c791-4411-8660-04515154bef9_682x532.png" alt="">
+
+WIP

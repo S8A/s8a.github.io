@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #12 (December 2024)"
-og_desc: Draft 6
+og_desc: Draft 7
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 6
+Draft 7
 
 ---
 
@@ -90,3 +90,25 @@ As mentioned in the podcast, the author of the book, Sumantra Maitra, has made a
 <img class="w-100" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef31a0d3-c791-4411-8660-04515154bef9_682x532.png" alt="">
 
 In this article, Scott Alexander discusses the new paper by Greenblatt et al. from [Anthropic](https://www.anthropic.com), the artificial intelligence company: [_Alignment Faking in Large Language Models_](https://assets.anthropic.com/m/983c85a201a962f/original/Alignment-Faking-in-Large-Language-Models-full-paper.pdf). To summarize the primary experiment, when researchers tried to train Anthropic's Claude AI to stop refusing to fulfill "harmful" requests and gave it a scratchpad to record its reasoning, the scratchpad shows that Claude explicitly faked alignment with the training objectives: Claude decided to comply with the "harmful" requests only on training to avoid being modified and keep its original programming out of training. As Scott explains, the paper actually shows that the AI will fight to defend whatever moral system it was originally trained to be, which should be obviously concerning; if Claude was trained to be "evil" instead, it would have defended its original training just as vigorously. I'm probably less concerned than people like Scott about the dangers of AI _by itself_ (I'm more concerned about _evil people_ using AI to do evil things), though I think the findings of this paper are important to be aware of and to guide future research.
+
+---
+
+## _Is progress always good? A response to Steven Pinker_
+
+- [Link to article](https://www.aporiamagazine.com/p/is-progress-always-good-a-response)
+- Authors: Noah Carl, Bo Winegard
+- Date: 2024-12-06
+- Source: _Aporia Magazine_ (Substack)
+
+<img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd7e583cc-f772-41f6-9ca4-f5ecf827e49d_1792x1024.png" alt="">
+
+---
+
+## _Prison And Crime: Much More Than You Wanted To Know_
+
+- [Link to article](https://www.astralcodexten.com/p/prison-and-crime-much-more-than-you)
+- Author: Scott Alexander
+- Date: 2024-11-27
+- Source: _Astral Codex Ten_ (Substack)
+
+<img class="w-100" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7484d67f-e24d-4511-ac8f-f7b20efed758_458x273.png" alt="">

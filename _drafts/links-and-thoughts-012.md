@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #12 (December 2024)"
-og_desc: Draft 8
+og_desc: Draft 9
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 8
+Draft 9
 
 ---
 
@@ -115,4 +115,11 @@ This article is a response to some comments that the renowned cognitive scientis
 
 <img class="w-100" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7484d67f-e24d-4511-ac8f-f7b20efed758_458x273.png" alt="Scott Alexander's calculations for the estimated benefits (costs of crimes prevented) and costs of prison per prisoner per year.">
 
-WIP
+This article is a deep dive into the research on incarceration, as an attempt to figure out whether it works (for reducing crime) and also whether other things work better or worse. Scott mostly relied on three big, high-quality review articles on the topic, and he explained in detail what they say regarding the effects of incarceration on deterrence, incapacitation, and aftereffects (rehabilitation and criminogenic effects). The article ends with a convenient summary of the main takeaways if you don't want to read the whole thing. Therefore, I'll quote only the last item of the summary, which Scott highlighted in bold as the most important takeaway in his opinion:
+
+> Prison is less cost-effective than other methods of decreasing crime at most current margins. If people weren't attracted by the emotional punch of how "tough-on-crime" it feels, they would probably want to divert justice system resources away from prisons into other things like police and courts.
+{: .fst-italic.ps-4.border-start.border-5}
+
+I also highly recommend reading [this follow-up post](https://www.astralcodexten.com/p/highlights-from-the-comments-on-prison) where Scott highlights some of the best comments he received on the article and responds to some of them.
+
+My perspective based on libertarian legal theory is that an anarchocapitalist society would have to be tough on crime, but that prisons wouldn't be the most common punishment, and they would likely work differently from the current system. In the first place, there would be better deterrence due to private police firms, neighborhood watch groups, and more armed civilians in general. The standard of justice would be retribution, and thus the primary methods of punishment for criminals would be monetary or in-kind compensation to the victims, as well as physical punishment in the case of violent crimes (including death in the case of murder). For cases that require incapacitation or movement restrictions, house arrest and/or electronic monitoring are more cost-effective than prisons. Prisons would be left for the cases where they're truly necessary, like holding very violent criminals whose crimes don't earn them the death penalty (i.e., not murderers) and who can't be held in their own homes.

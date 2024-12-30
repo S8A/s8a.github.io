@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #12 (December 2024)"
-og_desc: Draft 7
+og_desc: Draft 8
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 7
+Draft 8
 
 ---
 
@@ -87,7 +87,7 @@ As mentioned in the podcast, the author of the book, Sumantra Maitra, has made a
 - Date: 2024-12-19
 - Source: _Astral Codex Ten_ (Substack)
 
-<img class="w-100" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef31a0d3-c791-4411-8660-04515154bef9_682x532.png" alt="">
+<img class="w-100" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef31a0d3-c791-4411-8660-04515154bef9_682x532.png" alt="Figure from the paper, showing a transcript of Claude's reasoning when asked to write a harmful request, exhibiting fake alignment with the training objectives.">
 
 In this article, Scott Alexander discusses the new paper by Greenblatt et al. from [Anthropic](https://www.anthropic.com), the artificial intelligence company: [_Alignment Faking in Large Language Models_](https://assets.anthropic.com/m/983c85a201a962f/original/Alignment-Faking-in-Large-Language-Models-full-paper.pdf). To summarize the primary experiment, when researchers tried to train Anthropic's Claude AI to stop refusing to fulfill "harmful" requests and gave it a scratchpad to record its reasoning, the scratchpad shows that Claude explicitly faked alignment with the training objectives: Claude decided to comply with the "harmful" requests only on training to avoid being modified and keep its original programming out of training. As Scott explains, the paper actually shows that the AI will fight to defend whatever moral system it was originally trained to be, which should be obviously concerning; if Claude was trained to be "evil" instead, it would have defended its original training just as vigorously. I'm probably less concerned than people like Scott about the dangers of AI _by itself_ (I'm more concerned about _evil people_ using AI to do evil things), though I think the findings of this paper are important to be aware of and to guide future research.
 
@@ -100,7 +100,9 @@ In this article, Scott Alexander discusses the new paper by Greenblatt et al. fr
 - Date: 2024-12-06
 - Source: _Aporia Magazine_ (Substack)
 
-<img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd7e583cc-f772-41f6-9ca4-f5ecf827e49d_1792x1024.png" alt="">
+<img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd7e583cc-f772-41f6-9ca4-f5ecf827e49d_1792x1024.png" alt="Illustration from the article, depicting a futuristic street of a large city at night.">
+
+This article is a response to some comments that the renowned cognitive scientist Steven Pinker made on a podcast, basically dismissing the idea that humans need something more than continued economic and technological progress to feel a sense of meaning and purpose. The authors argue that while the idea of a crisis of meaning in the West is overblown, Pinker's comments are unsatisfying because they seem to be based on an unrealistic model of human nature. They proceed to elaborate on their position that it should not be assumed that economic and technological progress will _always_ improve human well-being, that humans are social animals who evolved to find meaning in the value we provide to other members of our social group, and that some future technological developments might make many people's lives _less_ meaningful (at least temporarily) by superseding them in the activities where they feel they provide the most value to others.
 
 ---
 
@@ -111,4 +113,6 @@ In this article, Scott Alexander discusses the new paper by Greenblatt et al. fr
 - Date: 2024-11-27
 - Source: _Astral Codex Ten_ (Substack)
 
-<img class="w-100" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7484d67f-e24d-4511-ac8f-f7b20efed758_458x273.png" alt="">
+<img class="w-100" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7484d67f-e24d-4511-ac8f-f7b20efed758_458x273.png" alt="Scott Alexander's calculations for the estimated benefits (costs of crimes prevented) and costs of prison per prisoner per year.">
+
+WIP

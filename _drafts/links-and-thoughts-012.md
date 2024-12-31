@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #12 (December 2024)"
-og_desc: Draft 9
+og_desc: Draft 10
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 9
+Draft 10
 
 ---
 
@@ -123,3 +123,16 @@ This article is a deep dive into the research on incarceration, as an attempt to
 I also highly recommend reading [this follow-up post](https://www.astralcodexten.com/p/highlights-from-the-comments-on-prison) where Scott highlights some of the best comments he received on the article and responds to some of them.
 
 My perspective based on libertarian legal theory is that an anarchocapitalist society would have to be tough on crime, but that prisons wouldn't be the most common punishment, and they would likely work differently from the current system. In the first place, there would be better deterrence due to private police firms, neighborhood watch groups, and more armed civilians in general. The standard of justice would be retribution, and thus the primary methods of punishment for criminals would be monetary or in-kind compensation to the victims, as well as physical punishment in the case of violent crimes (including death in the case of murder). For cases that require incapacitation or movement restrictions, house arrest and/or electronic monitoring are more cost-effective than prisons. Prisons would be left for the cases where they're truly necessary, like holding very violent criminals whose crimes don't earn them the death penalty (i.e., not murderers) and who can't be held in their own homes.
+
+---
+
+## _Age and infertility_
+
+- [Link to article](https://inquisitivebird.xyz/p/age-and-infertility)
+- Author: Inquisitive Bird
+- Date: 2024-12-29
+- Source: _Inquisitive Bird_ (Substack)
+
+<img class="w-100" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9aacbd8b-8419-4570-ade2-476462d6e4f7_1076x750.png" alt="Figure from Geruso et al. (2023), graphing the monthly probability of pregnancy ending in birth by maternal age, for ages 15 to 49, among married women who are not using contraception, not pregnant, and not within 12 months postpartum or recovering from a termination.">
+
+In this article, the author reviews the latest research to provide an overview of the facts and misconceptions regarding the known relationship between infertility and parental age, especially maternal age. The main takeaway is that the real decline in maternal fertility with age is roughly linear from the peak at about 20 years old to the 40s, as opposed to the until-now widely believed idea of a gradual decline followed by a sharper decline from the mid-30s, which is actually a statistical artifact caused by estimation errors. As was already known, other health outcomes beyond miscarriages are also associated with advanced maternal age, and the relationship is indeed causal. Paternal age also affects the likelihood of a successful pregnancy, but the effect is smaller and the decline is slower. Finally, he shows that it's the age of a woman's _eggs_ in particular that has the biggest effect on fertility.

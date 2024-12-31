@@ -69,7 +69,7 @@ In this article, Kirkegaard gives a detailed overview of the new paper he co-aut
 - Date: 2024-12-19
 - Source: _Radio Rothbard Podcast_ (YouTube)
 
-<img class="w-100" src="http://i.ytimg.com/vi/o3ta1xF10Ds/maxresdefault.jpg" alt="Thumbnail of the YouTube video for the podcast episode">
+<img class="w-100" src="https://i.ytimg.com/vi/o3ta1xF10Ds/maxresdefault.jpg" alt="Thumbnail of the YouTube video for the podcast episode">
 
 Again, the description of the podcast episode perfectly summarizes it, so I'll quote it directly:
 

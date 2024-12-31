@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Links and Thoughts #12 (December 2024)"
-og_desc: Draft 10
+og_desc: Recent VWFA evolution, critiques of Austrian economics, worldwide height variation, Russian foreign policy, AI alignment, progress and meaning, incarceration research, and age and infertility.
 og_image: s8a-thumbnail.png
 big_image: s8a-thumbnail.png
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
 
-Draft 10
+This month's compilation brings: an article arguing that there was relatively recent gene-culture coevolution affecting the development of the brain's Visual Word Form Area (VWFA); Bob Murphy's response to Bryan Caplan's most recent critique of Austrian economics; an overview of a paper showing that both genetic and environmental factors explain worldwide height variation; a discussion of Russian foreign policy based on a book by Sumantra Maitra; an overview and discussion of a paper showing that AI models can fake alignment with their training objectives; an article arguing that humans can feel a loss of a sense of meaning despite continued material progress; a deep dive into the research on incarceration and its effects on crime; and an overview of the latest research on age and infertility.
 
 ---
 

@@ -37,7 +37,7 @@ He then explains a general outline of the stages of this process and addresses s
 - Date: 2024-11-30
 - Source: _Human Action Podcast_ (YouTube)
 
-<img class="w-100" src="https://i.ytimg.com/vi/X9nPQP6Ng7s/maxresdefault.jpg" alt="Thumbnail of the YouTube video for the podcast episode.">
+{% include img-ytimg.html class="img-fluid mx-auto" id="X9nPQP6Ng7s" alt="Thumbnail of the YouTube video for the podcast episode." %}
 
 The description of the video perfectly summarizes the episode, so I'll quote it directly:
 
@@ -69,7 +69,7 @@ In this article, Kirkegaard gives a detailed overview of the new paper he co-aut
 - Date: 2024-12-19
 - Source: _Radio Rothbard Podcast_ (YouTube)
 
-<img class="w-100" src="https://i.ytimg.com/vi/o3ta1xF10Ds/maxresdefault.jpg" alt="Thumbnail of the YouTube video for the podcast episode">
+{% include img-ytimg.html class="img-fluid mx-auto" id="o3ta1xF10Ds" alt="Thumbnail of the YouTube video for the podcast episode" %}
 
 Again, the description of the podcast episode perfectly summarizes it, so I'll quote it directly:
 

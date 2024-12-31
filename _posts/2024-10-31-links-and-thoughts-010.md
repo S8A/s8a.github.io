@@ -70,6 +70,6 @@ In this post, Arctotherium argues that immigration into the United States has da
 - Date: 2024-10-18
 - Source: _The Human Action Podcast_, episode 470 (YouTube)
 
-<img class="w-100" src="https://i.ytimg.com/vi/sf0bYDo5RWs/maxresdefault.jpg" alt="Thumbnail of episode 470 of the Human Action Podcast on YouTube."/>
+{% include img-ytimg.html class="img-fluid mx-auto" id="sf0bYDo5RWs" alt="Thumbnail of episode 470 of the Human Action Podcast on YouTube." %}
 
 In this episode, Murphy explains the nuanced position of Austrian economist Ludwig von Mises regarding fractional reserve banking. To summarize, Mises favored “free banking," that is, standard property and contract enforcement on the banking industry without any special requirements or privileges; however, unlike certain prominent free banking advocates today, he thought that this free market arrangement would incentivize very high reserve ratios and thus drastically limit credit expansion. Additionally, Murphy started the episode with a refresher on the different camps in the debate over fractional reserve banking versus full reserve banking and their theoretical arguments, so it's a decent introduction to the debate in general.

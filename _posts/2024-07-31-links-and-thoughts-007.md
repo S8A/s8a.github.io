@@ -72,7 +72,7 @@ Again, I'll use the author's introductory paragraph as the summary for this entr
     - _The Misesian_ 1, no. 3 (May / June 2024). Ludwig von Mises Institute (LvMI).
     - YouTube video of the presentation at the LvMI's 2024 Human Action Conference.
 
-<img class="w-100" src="https://i.ytimg.com/vi/ELXA0yeF2ds/maxresdefault.jpg" alt="Picture of Shawn Ritenour giving his presentation at the 2024 Human Action Conference."/>
+{% include img-ytimg.html class="img-fluid mx-auto" id="ELXA0yeF2ds" alt="Picture of Shawn Ritenour giving his presentation at the 2024 Human Action Conference." %}
 
 This essay and corresponding presentation by economist Shawn Ritenour are a reflection and commemoration of [_Human Action_](https://cdn.mises.org/Human%20Action_3.pdf) (1949), the _magnum opus_ of Austrian economist Ludwig von Mises, on the occasion of the 75th anniversary of its publication. Ritenour explains the importance of _Human Action_ for economics in general and for his own intellectual career, and how its groundbreaking, rigurously systematic causal-realist approach provides the proper foundations for true economic science, superior to present and past alternative theories.
 
@@ -139,7 +139,7 @@ The author's conclusions provide the best summary of the article, so I'll quote 
 - Date: 2024-07-28
 - Source: Mises University 2024. Ludwig von Mises Institute.
 
-<img class="w-100" src="https://i.ytimg.com/vi/W6vIAlK50sE/maxresdefault.jpg" alt="Picture of Thomas DiLorenzo giving his presentation for Mises University 2024."/>
+{% include img-ytimg.html class="img-fluid mx-auto" id="W6vIAlK50sE" alt="Picture of Thomas DiLorenzo giving his presentation for Mises University 2024." %}
 
 This is the recording of the first presentation of Mises University 2024; I actually watched the original livestream on July 28th. [^fn-1] Thomas DiLorenzo, president of the Ludwig von Mises Institute, made his presentation about who he thinks were the three worst presidents of the United States and the things they did to earn such a negative distinction. I correctly predicted before the livestream started that the three worst US presidents would be Abraham Lincoln, Woodrow Wilson, and Franklin D. Roosevelt. Lincoln, Wilson, and Roosevelt were all bloodthirsty warmongers and tyrannical centralizers who were arguably the most pivotal in transforming the US government into the Leviathan welfare-warfare state it is today.
 

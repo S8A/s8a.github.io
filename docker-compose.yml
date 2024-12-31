@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: jekyll serve --drafts
+    command: jekyll serve
     ports:
       - "4000:4000"
     volumes:

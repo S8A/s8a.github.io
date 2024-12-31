@@ -2,8 +2,8 @@
 layout: post
 title: "Links and Thoughts #12 (December 2024)"
 og_desc: Recent VWFA evolution, critiques of Austrian economics, worldwide height variation, Russian foreign policy, AI alignment, progress and meaning, incarceration research, and age and infertility.
-og_image: s8a-thumbnail.png
-big_image: s8a-thumbnail.png
+og_image: links-and-thoughts-012.webp
+big_image: links-and-thoughts-012.webp
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---

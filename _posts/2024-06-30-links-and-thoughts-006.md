@@ -35,7 +35,7 @@ Paul Graham, known for being one of the founders of [Y Combinator](https://en.wi
 
 <div class="row mb-2">
   <div class="col-12 col-sm-10 col-md-8 mx-auto">
-    {% include img.html class="img-fluid mx-auto" src="https://cdn.mises.org/styles/responsive_4_3_650w/s3/static-page/img/churchill-wire.jpg.webp?itok=HW9Jw2PD" alt="Picture of Winston Churchill" %}
+    {% include img.html class="img-fluid mx-auto" src="https://cdn.mises.org/styles/responsive_4_3_650w/s3/static-page/img/churchill-wire.jpg.webp?itok=HW9Jw2PD" loading="lazy" alt="Picture of Winston Churchill" %}
   </div>
 </div>
 
@@ -50,7 +50,7 @@ This essay, by the eminent libertarian historian Ralph Raico, originally appeare
 - Date: 2024-06-08
 - Source: _Bits of Wonder_ (Substack)
 
-{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png" alt="Diagram summarizing the process for producing two-headed planarian worms indefinitely by altering its bioelectric circuit" %}
+{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Diagram summarizing the process for producing two-headed planarian worms indefinitely by altering its bioelectric circuit" %}
 
 This article is an overview of the potentially groundbreaking work of Michael Levin and colleagues in developmental biology. Levin and colleagues' central claim is that, while genes are still important, higher levels of abstraction and control meaningfully exist in biology; the bioelectric network of the organism is an example of that. It turns out that all cells, not just neurons, produce and sense electric signals in order to coordinate behavior and encode information.
 
@@ -65,7 +65,7 @@ Levin's lab has demonstrated that the bioelectric network stores anatomical info
 - Date: 2023-04-23
 - Source: _Patterns in Humanity_ (Substack)
 
-{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png" alt="Chart of the average number of convictions by offender percentile in Sweden, showing that 1% of the population accounts for 63% of all violent crime convictions." %}
+{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Chart of the average number of convictions by offender percentile in Sweden, showing that 1% of the population accounts for 63% of all violent crime convictions." %}
 
 This short article summarizes data from several Western countries, illustrating how a small number of repeat offenders are responsible for a large fraction of the crime. Arrests, convictions, and self-reported delinquent behavior roughly follow power law distributions, in which a few people disproportionately account for most criminal and delinquent behavior. In Sweden, for example, "1% of people were accountable for 63% of all violent crime convictions, and 0.12% of people accounted for 20% of violent crime convictions." Another example: in New York City, "nearly a third of all shoplifting arrests in the city in 2022 involved just 327 people, who collectively were arrested and rearrested more than 6,000 times."
 
@@ -78,7 +78,7 @@ This short article summarizes data from several Western countries, illustrating 
 - Date: 2024-01-29
 - Source: _Richard Hanania's Newsletter_ (Substack)
 
-{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png" alt="Chart of public pension spending as a percentage of the gross domestic product (GDP) of each OECD country, showing an average of almost 8% of GDP" %}
+{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Chart of public pension spending as a percentage of the gross domestic product (GDP) of each OECD country, showing an average of almost 8% of GDP" %}
 
 In this essay, Hanania explains the concept of gerontocracy, which is basically government policy that systematically favors the old at the expense of the young, and why it came to exist across modern societies. He also explains how gerontocracy manifests in four broad areas of public policy (government spending, credentialism, employment law, and housing), and how this "has in effect made young people poorer, less likely to have families, and in a state of perpetual adolescence." In light of the "systemic" nature of this "age privilege," Hanania makes the case for "Critical Age Theory"[^fn-1] as an intellectual movement and proposes the following concrete anti-gerontocratic policies:
 
@@ -98,7 +98,7 @@ In this essay, Hanania explains the concept of gerontocracy, which is basically 
 - Date: 2024-06-26
 - Source: _Bet On It_ (Substack)
 
-{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/f09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png" alt="Flowchart to determine how strongly does hypocrisy count as evidence against what someone is claiming" %}
+{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/f09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Flowchart to determine how strongly does hypocrisy count as evidence against what someone is claiming" %}
 
 In this short article, Caplan elaborates on his answer to the question of whether someone's hypocrisy regarding a view provides substantive evidence against that view. Caplan argues that this depends primarily on the type of hypocrisy in question:
 

@@ -8,7 +8,7 @@ layout: default
     <p class="text-center text-muted"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time> &ndash; {{ page.category }}</p>
     {%- if page.big_image -%}
       {% assign big_image_path = page.big_image | prepend: "/assets/img/" %}
-      {% include img-local.html class="img-fluid mb-4" src=big_image_path widths="200, 300, 380, 420, 520, 576, 650, 768, 856, 992, 1080" sizes="100vw" default_size="1080" alt=page.big_image_alt %}
+      {% include img-local.html class="img-fluid mb-4" src=big_image_path widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" default_size="1080" alt=page.big_image_alt %}
     {%- endif -%}
     {{- content -}}
   </article>

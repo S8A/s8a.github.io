@@ -11,7 +11,7 @@ og_image: s8a-thumbnail.png
   <div class="col">
     <div class="card shadow-sm h-100">
       {% assign og_image_path = post.og_image | default: 's8a-thumbnail.png' | prepend: "/assets/img/" %}
-      {% include img-local.html class="card-img-top" src=og_image_path widths="200, 256, 340, 480, 576, 650, 768, 992, 1080" sizes="576:100vw, 1200:50vw, 34vw" default_width="576" %}
+      {% include img-local.html class="card-img-top" src=og_image_path widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 576px:47vw, 672px:41vw, 768px:47vw, 880px:41vw, 992px:49vw, 1096px:44vw, 1200px:32vw, 1300px:30vw, 1400px:32vw" default_width="576" %}
       <div class="card-body">
         <h2 class="card-title fs-5"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p class="card-subtitle mb-2 text-muted">{{ post.date | date_to_string }}</p>

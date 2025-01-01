@@ -2,7 +2,7 @@
 
 {%- assign fetch_url = include.fetch_url | url_encode -%}
 
-{%- assign widths = include.widths | default: "200, 300, 380, 420, 520, 576, 650, 768, 856, 992, 1080, 1200, 1456, 1600" | split: ", " -%}
+{%- assign widths = include.widths | default: "192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1088, 1152, 1216, 1280, 1344, 1408, 1472, 1536, 1600, 1664, 1728" | split: ", " -%}
 
 {%- capture srcset -%}
   {%- for width in widths -%}
@@ -11,19 +11,19 @@
   {%- endfor -%}
 {%- endcapture -%}
 
-{%- assign sizes_items = include.sizes | default: "100vw" | split: ", " -%}
+{%- assign sizes_items = include.sizes | split: ", " | reverse -%}
 
 {%- capture sizes -%}
   {%- for size in sizes_items -%}
     {%- assign size_item = size | split: ":" -%}
     {%- if size_item.size == 2 -%}
-      {% unless forloop.last %}(max-width: {{ size_item[0] }}px){% endunless %} {{ size_item[1] }}{% unless forloop.last %}, {% endunless %}
+      {% unless forloop.last %}(min-width: {{ size_item[0] }}){% endunless %} {{ size_item[1] }}{% unless forloop.last %}, {% endunless %}
     {%- else -%}
       {{ size }}{% unless forloop.last %}, {% endunless %}
     {%- endif -%}
   {%- endfor -%}
 {%- endcapture -%}
 
-{%- assign src = substackcdn_base_url | append: "w_880,c_limit,f_webp,q_auto:good,fl_progressive:steep/" | append: fetch_url -%}
+{%- assign src = substackcdn_base_url | append: "w_960,c_limit,f_webp,q_auto:good,fl_progressive:steep/" | append: fetch_url -%}
 
 {% include img.html class=include.class src=src srcset=srcset sizes=sizes alt=include.alt loading=include.loading %}

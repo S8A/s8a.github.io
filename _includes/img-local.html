@@ -6,13 +6,13 @@
   {%- endfor -%}
 {%- endcapture -%}
 
-{%- assign sizes_items = include.sizes | split: ", " -%}
+{%- assign sizes_items = include.sizes | split: ", " | reverse -%}
 
 {%- capture sizes -%}
   {%- for size in sizes_items -%}
     {%- assign size_item = size | split: ":" -%}
     {%- if size_item.size == 2 -%}
-      {% unless forloop.last %}(max-width: {{ size_item[0] }}px){% endunless %} {{ size_item[1] }}{% unless forloop.last %}, {% endunless %}
+      {% unless forloop.last %}(min-width: {{ size_item[0] }}){% endunless %} {{ size_item[1] }}{% unless forloop.last %}, {% endunless %}
     {%- else -%}
       {{ size }}{% unless forloop.last %}, {% endunless %}
     {%- endif -%}

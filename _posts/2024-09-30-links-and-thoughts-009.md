@@ -19,7 +19,7 @@ This month's compilation brings: a reflection on the opportunity cost of living 
 - Date: 2024-08-06
 - Source: _Young Money by Jack Raines_ (Substack)
 
-<img class="w-100" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bfca3b1-b4c2-487a-9c19-e57ba79af96f_1178x270.png" alt="Screenshot of tweet by @naval featured in the article. The tweet says: 'The only real test of intelligence is if you get what you want out of life.'"/>
+{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/2bfca3b1-b4c2-487a-9c19-e57ba79af96f_1178x270.png" alt="Screenshot of tweet by @naval featured in the article. The tweet says: 'The only real test of intelligence is if you get what you want out of life.'" %}
 
 This article is a call to introspection and to action. It's about a problem that primarily applies to white-collar workers in first-world countries but also applies to different degrees to everyone whose real income is above subsistence level: basically, the inertial tendency to coast through a boring and/or comfortable job (particularly well-paid, low-stress desk jobs) and to live a mediocre, repetitive, boring day-to-day existence for years and decades, until it's too late. That's what Raines calls "the apathetic life," and he emphasizes that the opportunity cost of such a way of living is life itself&mdash;our limited time in this world and the foregone challenges, experiences, and achievements that make life worth living. Other authors have addressed this topic before, but I happened to stumble upon the article, and I liked that it explains the issue in such a way that makes you viscerally understand and fear the cost of an apathetic life. The clock is ticking.
 
@@ -50,7 +50,7 @@ This essay provides a detailed overview of the ideological well-being gap, its d
 
 <div class="row mb-2">
   <div class="col-12 col-sm-8 col-md-6 mx-auto">
-    <img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31c1db3c-b510-40cf-befc-7248312581d3_1200x1200.jpeg" alt="Examples of white women before and after drastic transformations to look like black or mixed-race."/>
+    {% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/31c1db3c-b510-40cf-befc-7248312581d3_1200x1200.jpeg" alt="Examples of white women before and after drastic transformations to look like black or mixed-race." %}
   </div>
 </div>
 

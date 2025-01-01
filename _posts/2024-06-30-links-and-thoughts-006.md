@@ -35,7 +35,7 @@ Paul Graham, known for being one of the founders of [Y Combinator](https://en.wi
 
 <div class="row mb-2">
   <div class="col-12 col-sm-10 col-md-8 mx-auto">
-    <img class="w-100" src="https://cdn.mises.org/styles/responsive_4_3_650w/s3/static-page/img/churchill-wire.jpg.webp?itok=HW9Jw2PD" alt="Picture of Winston Churchill"/>
+    {% include img.html class="img-fluid mx-auto" src="https://cdn.mises.org/styles/responsive_4_3_650w/s3/static-page/img/churchill-wire.jpg.webp?itok=HW9Jw2PD" alt="Picture of Winston Churchill" %}
   </div>
 </div>
 

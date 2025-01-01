@@ -28,7 +28,7 @@ Without further ado, here’s what I could gather for May’s post in my “Link
 - Date: 2023-07-01 (originally published in September 2014)
 - Source: _The Art of Manliness_
 
-<img class="w-100" src="https://content.artofmanliness.com/uploads//2014/09/OODA-Loop-2-1.jpg" alt="An illustration of the more nuanced and complex diagram of the OODA Loop that John Boyd drew out in his final years.">
+{% include img.html class="img-fluid mx-auto" src="https://content.artofmanliness.com/uploads//2014/09/OODA-Loop-2-1.jpg" alt="An illustration of the more nuanced and complex diagram of the OODA Loop that John Boyd drew out in his final years." %}
 
 This article goes in depth into the OODA Loop, a decision-making model that the American military strategist John Boyd developed across several presentations he gave throughout the latter half of the 20th century. Nation-states, big and small businesses, and even terrorist organizations now use the OODA Loop as a framework for strategic decision-making. Despite its popularity, the OODA Loop is usually misunderstood and reduced to simply being the four steps of its acronym: Observe, Orient, Decide, and Act. Boyd actually conceptualized it as something grander, deeper, more nuanced, and more complex: "an explicit representation of the process that human beings and organizations use to learn, grow, and thrive in a rapidly changing environment&mdash;be it in war, business, or life." The McKays provide an accessible yet detailed synthesis of the philosophical and scientific principles underpinning Boyd's OODA Loop system, the nuances of each step of the loop, and practical insights for applying it in any domain.
 

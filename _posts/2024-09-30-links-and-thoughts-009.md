@@ -35,7 +35,7 @@ This article is a call to introspection and to action. It's about a problem that
 - Date: 2023-03-21
 - Source: _American Affairs_
 
-<img class="w-100" src="https://americanaffairsjournal.org/wp-content/uploads/2023/03/Gharbi-2.jpg" alt="Chart showing the percentage share of conservatives, moderates, and 'liberals' answering Yes to the question 'Has a doctor or other healthcare provider EVER told you that you have a mental health contidion?', controlling for religious service attendance frequency."/>
+{% include img.html class="img-fluid mx-auto" src="https://americanaffairsjournal.org/wp-content/uploads/2023/03/Gharbi-2.jpg" alt="Chart showing the percentage share of conservatives, moderates, and 'liberals' answering Yes to the question 'Has a doctor or other healthcare provider EVER told you that you have a mental health contidion?', controlling for religious service attendance frequency." %}
 
 This essay provides a detailed overview of the ideological well-being gap, its different facets, and the robust evidence supporting it. The ideological well-being gap refers to the fact that conservatives tend to be happier and more well-adjusted than "liberals" (progressives or leftists would be more accurate), a pattern observed both in the United States and other Western countries. Based on the available evidence, the author explains the most likely drivers of the observed patterns, most notably: that there are some genetic/biological factors that simultaneously underlie both ideology and well-being; that conservatism _per se_ may help people cope with adversity; and that some types of leftist ideology _per se_ exacerbate and incentivize unhealthy thought patterns.
 
@@ -69,7 +69,7 @@ Overall, a very thought-provoking and well-argued article, though I don't agree 
 
 <div class="row mb-2">
   <div class="col-12 col-sm-10 col-md-8 mx-auto">
-    <img class="w-100" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiJnVSkzLDNgJuoRypRKMnP9piH7BcNv2VzGRcEM6RHiBMzdV_ue_hULfCWnvFUkxrTKWWettyZjuXuPmqkq6GR8PdcX63FQZ0Xj6EMY1QoTQMbgsusOeZUZ8IbIEbTMqEnHGvaZwAuoSktmnysunghLR44rVff4k664KnYyWjCjyZbLpX7UZyNsWC/w400-h339/drawing%20hands.jpg" alt="Drawing Hands. January 1948. Lithograph by M.C. Escher. Featured in the article with the additional comment 'What is created, creates.'"/>
+    {% include img.html class="img-fluid mx-auto" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiJnVSkzLDNgJuoRypRKMnP9piH7BcNv2VzGRcEM6RHiBMzdV_ue_hULfCWnvFUkxrTKWWettyZjuXuPmqkq6GR8PdcX63FQZ0Xj6EMY1QoTQMbgsusOeZUZ8IbIEbTMqEnHGvaZwAuoSktmnysunghLR44rVff4k664KnYyWjCjyZbLpX7UZyNsWC/w400-h339/drawing%20hands.jpg" alt="Drawing Hands. January 1948. Lithograph by M.C. Escher. Featured in the article with the additional comment 'What is created, creates.'" %}
   </div>
 </div>
 

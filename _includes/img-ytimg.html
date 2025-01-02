@@ -1,0 +1,29 @@
+{%- assign ytimg_base_url = "https://i.ytimg.com/vi_webp/" -%}
+{%- assign ytimg_widths = "default:120, mqdefault:320, hqdefault:480, sddefault:640, maxresdefault:1280" | split: ", " -%}
+
+{%- capture srcset -%}
+  {%- for width in ytimg_widths -%}
+    {%- assign width_item = width | split: ":" -%}
+    {%- assign filename = width_item[0] -%}
+    {%- assign width = width_item[1] -%}
+    {%- assign img_url = ytimg_base_url | append: include.id | append: "/" | append: filename | append: ".webp" -%}
+    {{ img_url }} {{ width }}w{% unless forloop.last %}, {% endunless %}
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- assign sizes_items = include.sizes | split: ", " | reverse -%}
+
+{%- capture sizes -%}
+  {%- for size in sizes_items -%}
+    {%- assign size_item = size | split: ":" -%}
+    {%- if size_item.size == 2 -%}
+      {% unless forloop.last %}(min-width: {{ size_item[0] }}){% endunless %} {{ size_item[1] }}{% unless forloop.last %}, {% endunless %}
+    {%- else -%}
+      {{ size }}{% unless forloop.last %}, {% endunless %}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- assign src = ytimg_base_url | append: include.id | append: "/maxresdefault.webp" -%}
+
+{% include img.html class=include.class src=src srcset=srcset sizes=sizes alt=include.alt loading=include.loading %}

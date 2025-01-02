@@ -18,7 +18,7 @@ A continuación, reproduzco textualmente el contenido de la guía, con algunos a
 
 ## Recomendación de libro
 
-Primero que nada, si van a leer un solo libro de economía en sus vidas, que sea *[Economics in One Lesson](http://leeconomics.com/Literature/Henry%20Hazlitt%20Economics%20in%20One%20Lesson.pdf)* de Henry Hazlitt.
+Primero que nada, si van a leer un solo libro de economía en sus vidas, que sea *[Economics in One Lesson](https://leeconomics.com/Literature/Henry%20Hazlitt%20Economics%20in%20One%20Lesson.pdf)* de Henry Hazlitt.
 
 Incluso si ya han leído otros libros, recomiendo que lo lean para que se saquen de la cabeza muchas falacias comunes. El libro es de 1946, así que en ciertas partes hace referencia a aspectos de la situación económica de la época que ya no aplican (ej: China era un país extremadamente pobre), pero sus lecciones igual aplican.
 
@@ -49,14 +49,14 @@ Las principales enseñanzas de la escuela austríaca que deben internalizar:
 
 
 **Leer más:**
-- *[Guía para principiantes de economía austríaca (en español)](http://libreriacedice.org.ve/portfolio-items/la-escuela-austriaca-de-economia-guia-para-principiantes/)*
+- *[Guía para principiantes de economía austríaca (en español)](https://libreriacedice.org.ve/portfolio-items/la-escuela-austriaca-de-economia-guia-para-principiantes/)*
 - *[Mises, Hayek, y el proceso de mercado](https://fee.org/articles/mises-hayek-and-the-market-process-an-introduction/)*
 
 
 &nbsp;
 ## ¿Cómo se establecen los precios?
 
-En términos generales, los precios se establecen por la oferta y la demanda, y a su vez afectan a la oferta y la demanda. Sería gastar espacio re-escribir el mecanismo básico que todos conocemos (o deberíamos conocer...), y en todo caso Hazlitt lo explica de forma concisa y elocuente en el capítulo 15 de *[Economics in One Lesson](http://leeconomics.com/Literature/Henry%20Hazlitt%20Economics%20in%20One%20Lesson.pdf)*.
+En términos generales, los precios se establecen por la oferta y la demanda, y a su vez afectan a la oferta y la demanda. Sería gastar espacio re-escribir el mecanismo básico que todos conocemos (o deberíamos conocer...), y en todo caso Hazlitt lo explica de forma concisa y elocuente en el capítulo 15 de *[Economics in One Lesson](https://leeconomics.com/Literature/Henry%20Hazlitt%20Economics%20in%20One%20Lesson.pdf)*.
 
 En términos más concretos, los precios de los bienes y servicios se establecen en cada transacción particular en un lugar y tiempo particular por las partes involucradas. No existen realmente "precios generales" o "precios de equilibrio" en el sentido de la teoría neoclásica. La estructura de precios es una noción abstracta derivada de múltiples precios individuales concretos.
 
@@ -142,7 +142,7 @@ Esto deja claro que la inflación monetaria no es mala solo porque crea un impue
 La relación entre la inflación monetaria y la inflación de precios es variable, no mecánica: por ejemplo, un aumento de 10% en la cantidad de dinero puede resultar en un incremento en el nivel de los precios que puede ser mucho mayor o mucho menor a 10% dependiendo de muchos factores.
 
 **Leer más:**
-- Véase el capítulo 22 de *[Economics in One Lesson](http://leeconomics.com/Literature/Henry%20Hazlitt%20Economics%20in%20One%20Lesson.pdf)*.
+- Véase el capítulo 22 de *[Economics in One Lesson](https://leeconomics.com/Literature/Henry%20Hazlitt%20Economics%20in%20One%20Lesson.pdf)*.
 - *[Definiendo la inflación correctamente](https://mises.org/wire/defining-inflation-correctly)*
 - *[Inflación monetaria e inflación de precios](https://mises.org/wire/monetary-inflation-and-price-inflation)*
 - *[Sobre ciertas malas interpretaciones del efecto Cantillon](https://mises.org/library/note-some-recent-misinterpretations-cantillon-effect)*
@@ -152,13 +152,13 @@ La relación entre la inflación monetaria y la inflación de precios es variabl
 ## ¿Qué salió mal en Venezuela y cómo?
 En resumen, prácticamente todo salió mal, de forma predecible, precisamente porque se llevaban décadas de socialismo *light* y luego el chavismo implementó socialismo duro (pero no puro, afortunadamente). El hecho de que el gobierno de Maduro está liberalizando lentamente el modelo económico debe ser de alivio para todos (pero nunca se les debe agradecer).
 
-La causa fundamental de los males de Venezuela es que se implantó un **Estado propietario-patrimonialista**, que pretende ser dueño de todo y controlar directamente la mayor parte de la economía. Para un análisis completo de la historia y las consecuencias reales del Estado propietario-patrimonialista en Venezuela, es imprescindible la lectura del libro *[Por un país de propietarios: El petróleo no tiene la culpa](http://paisdepropietarios.org/propietariosve/portfolio-items/por-un-pais-de-propietarios-el-petroleo-no-tiene-la-culpa/)*.
+La causa fundamental de los males de Venezuela es que se implantó un **Estado propietario-patrimonialista**, que pretende ser dueño de todo y controlar directamente la mayor parte de la economía. Para un análisis completo de la historia y las consecuencias reales del Estado propietario-patrimonialista en Venezuela, es imprescindible la lectura del libro *[Por un país de propietarios: El petróleo no tiene la culpa](https://paisdepropietarios.org/propietariosve/portfolio-items/por-un-pais-de-propietarios-el-petroleo-no-tiene-la-culpa/)*.
 
 Los orígenes del Estado patrimonialista en Venezuela se remontan a las leyes de la época colonial, pero sus peores consecuencias comienzan en el siglo XX con el rentismo petrolero, tanto en el corporatismo perezjimenista como en el populismo socialdemócrata. El Estado venezolano se reservó para sí mismo el control total de las principales fuentes generadoras de riqueza del país, y por lo tanto se convirtió en el máximo concentrador de poder político. De esta manera surge un modelo en que la libertad económica y la seguridad jurídica no son protegidas, los ciudadanos no son emprendedores productivos sino cazadores de rentas estatales, la concentración de poder genera corrupción y abusos, y como resultado de todo esto se generan enormes distorsiones y desequilibrios macroeconómicos, estancamiento, falta de dinamismo, e inestabilidad institucional.
 
 La nacionalización del BCV en 1974 y de la industria petrolera en 1976 fueron los momentos cumbre del modelo socialdemócrata rentista del siglo pasado, y marcaron el inicio de la decadencia y quiebra del país que dio paso al chavismo. Para más detalles sobre cómo ocurrió esto, recomiendo [este artículo del PanAm Post](https://panampost.com/emmanuel-rincon/2020/04/20/como-paso-venezuela-de-ser-el-pais-mas-rico-al-mas-pobre/).
 
-La llegada del gobierno de Chávez significó la consolidación y expansión del Estado propietario, y su transformación en un proyecto de **Estado socialista totalitario**. En el libro *["Exprópiese": la política expropiatoria del "Socialismo del Siglo XXI"](http://paisdepropietarios.org/propietariosve/portfolio-items/expropiese-la-politica-expropiatoria-del-socialismo-del-siglo-xxi/)* se explora la naturaleza y origen del proyecto chavista de destrucción de la propiedad privada llamado Socialismo del Siglo XXI, la perversión legal del poder de expropiación a servicio de dicha agenda, la historia de la aplicación de la política expropiatoria chavista, y sus terribles consecuencias económicas.
+La llegada del gobierno de Chávez significó la consolidación y expansión del Estado propietario, y su transformación en un proyecto de **Estado socialista totalitario**. En el libro *["Exprópiese": la política expropiatoria del "Socialismo del Siglo XXI"](https://paisdepropietarios.org/propietariosve/portfolio-items/expropiese-la-politica-expropiatoria-del-socialismo-del-siglo-xxi/)* se explora la naturaleza y origen del proyecto chavista de destrucción de la propiedad privada llamado Socialismo del Siglo XXI, la perversión legal del poder de expropiación a servicio de dicha agenda, la historia de la aplicación de la política expropiatoria chavista, y sus terribles consecuencias económicas.
 
 **Leer más:**
 - *[Resumen del Cato Institute sobre las causas del colapso de Venezuela](https://www.cato.org/commentary/venezuela-verge-massive-humanitarian-economic-collapse-culprit-socialism)*

@@ -1,0 +1,30 @@
+{%- assign widths = include.widths | split: ", " -%}
+
+{%- capture srcset -%}
+  {%- for width in widths -%}
+    {% thumbnail_img include.src width %} {{ width }}w{% unless forloop.last %}, {% endunless %}
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- assign sizes_items = include.sizes | split: ", " | reverse -%}
+
+{%- capture sizes -%}
+  {%- for size in sizes_items -%}
+    {%- assign size_item = size | split: ":" -%}
+    {%- if size_item.size == 2 -%}
+      {% unless forloop.last %}(min-width: {{ size_item[0] }}){% endunless %} {{ size_item[1] }}{% unless forloop.last %}, {% endunless %}
+    {%- else -%}
+      {{ size }}{% unless forloop.last %}, {% endunless %}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- capture src -%}
+  {%- if include.default_width -%}
+    {%- thumbnail_img include.src include.default_width -%}
+  {%- else -%}
+    {{ include.src }}
+  {%- endif -%}
+{%- endcapture -%}
+
+{% include img.html class=include.class src=src srcset=srcset sizes=sizes alt=include.alt loading=include.loading %}

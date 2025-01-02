@@ -19,7 +19,7 @@ This month's compilation brings an in-depth article about the historical rise of
 - Date: 2023-03-29
 - Source: _Patterns in Humanity_ (Substack)
 
-<img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fadc30a13-5f51-4ab8-acc0-4f3f6ea246a1_930x810.png" alt="Chart of the total number of scientific and technological innovations in Europe and China during the period from 900 to 1600 AD, showing Europe surpassing China exponentially from around 1400 AD onward."/>
+{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/adc30a13-5f51-4ab8-acc0-4f3f6ea246a1_930x810.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Chart of the total number of scientific and technological innovations in Europe and China during the period from 900 to 1600 AD, showing Europe surpassing China exponentially from around 1400 AD onward." %}
 
 The author's introductory paragraph summarizes the article perfectly, so I'll just quote it directly:
 
@@ -37,7 +37,7 @@ The article's account of the rise of Western Europe is consistent with the argum
 - Date: 2023-12-28
 - Source: _Aporia Magazine_ (Substack)
 
-<img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F41fa0ea0-4c0c-4200-8139-a170b97b8564_1846x1489.png" alt="Chart of the factor of overrepresentation of Jews in significant figures by area from 1870 to 1950"/>
+{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/41fa0ea0-4c0c-4200-8139-a170b97b8564_1846x1489.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Chart of the factor of overrepresentation of Jews in significant figures by area from 1870 to 1950" %}
 
 This article provides a comprehensive look at data from various sources about the IQ of Jewish people inside and outside of Israel. To summarize, here are the main takeaways:
 
@@ -53,7 +53,7 @@ This article provides a comprehensive look at data from various sources about th
 - Date: 2022-11-19
 - Source: _Patterns in Humanity_ (Substack)
 
-<img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3967086a-b7a3-47e5-8581-c7dccba19b6b_1240x836.png" alt="Map of Europe with lights highlighting where each notable person was born (within the period 1000 to 1850)"/>
+{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/3967086a-b7a3-47e5-8581-c7dccba19b6b_1240x836.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Map of Europe with lights highlighting where each notable person was born (within the period 1000 to 1850)" %}
 
 Again, I'll use the author's introductory paragraph as the summary for this entry:
 
@@ -72,7 +72,7 @@ Again, I'll use the author's introductory paragraph as the summary for this entr
     - _The Misesian_ 1, no. 3 (May / June 2024). Ludwig von Mises Institute (LvMI).
     - YouTube video of the presentation at the LvMI's 2024 Human Action Conference.
 
-<img class="w-100" src="https://i.ytimg.com/vi/ELXA0yeF2ds/maxresdefault.jpg" alt="Picture of Shawn Ritenour giving his presentation at the 2024 Human Action Conference."/>
+{% include img-ytimg.html class="img-fluid mx-auto" id="ELXA0yeF2ds" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Picture of Shawn Ritenour giving his presentation at the 2024 Human Action Conference." %}
 
 This essay and corresponding presentation by economist Shawn Ritenour are a reflection and commemoration of [_Human Action_](https://cdn.mises.org/Human%20Action_3.pdf) (1949), the _magnum opus_ of Austrian economist Ludwig von Mises, on the occasion of the 75th anniversary of its publication. Ritenour explains the importance of _Human Action_ for economics in general and for his own intellectual career, and how its groundbreaking, rigurously systematic causal-realist approach provides the proper foundations for true economic science, superior to present and past alternative theories.
 
@@ -90,7 +90,7 @@ I particularly liked the latter half of the essay, in which Ritenour provides on
 - Date: 2022-01-15
 - Source: _Not With a Bang_ (Substack)
 
-<img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F735140eb-615f-4003-ab03-656522fe3edd_867x482.png" alt="Chart of the demographics of non-heterosexual people in the United States, most notably showing that 32% of the youngest generation (Gen Z) identify as something other than heterosexual"/>
+{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/735140eb-615f-4003-ab03-656522fe3edd_867x482.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Chart of the demographics of non-heterosexual people in the United States, most notably showing that 32% of the youngest generation (Gen Z) identify as something other than heterosexual" %}
 
 In this article, Arctotherium explains his theory for the rise of modern progressivism/wokeness based on memetic evolution. Basically, industrial prosperity and the rise of mass telecommunications, particularly social media in recent decades, produced an unprecedented memetic environment extremely favorable to memes that spread through "viral" transmission as opposed to "mitochondrial" transmission. Mitochondrial memes, which spread parent to child, tend to produce more functional people and societies than viral memes, which spread peer to peer, because the former tend to go extinct if they make their hosts too dysfunctional, while the latter doesn't depend on their hosts thriving.
 
@@ -107,7 +107,7 @@ Briefly, I think modern prosperity and mass telecommunications have definitely p
 - Date: 2023-10-04
 - Source: _Joseph Bronski_ (Substack)
 
-<img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5e78fed-856f-48f9-b18e-9850fa86294c_2878x1116.png" alt="Google Books Ngram chart comparing the relative frequency of the words race and culture, showing that the latter really took off only since about 1945"/>
+{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/a5e78fed-856f-48f9-b18e-9850fa86294c_2878x1116.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Google Books Ngram chart comparing the relative frequency of the words race and culture, showing that the latter really took off only since about 1945" %}
 
 In this brief article, Bronski explains how and why the concept of "cultural evolution" arose, why it's deficient and riddled with blank-slatist baggage from its origins, and why the focus should be on the unambiguous concept of "informatic transmission." In the author's own words:
 
@@ -123,7 +123,7 @@ In this brief article, Bronski explains how and why the concept of "cultural evo
 - Date: 2024-04-14
 - Source: _Not With a Bang_ (Substack)
 
-<img class="w-100" src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82883b20-7904-4ffc-8b84-c64320a2d19c_643x335.png" alt="Graph showing that, in Great Britain since at least 2004, urban areas with higher productivity have consistently had strongly negative net migration while rural areas with lower productivity have consistently had strongly positive net migration."/>
+{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/82883b20-7904-4ffc-8b84-c64320a2d19c_643x335.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Graph showing that, in Great Britain since at least 2004, urban areas with higher productivity have consistently had strongly negative net migration while rural areas with lower productivity have consistently had strongly positive net migration." %}
 
 The author's conclusions provide the best summary of the article, so I'll quote it directly:
 
@@ -139,7 +139,7 @@ The author's conclusions provide the best summary of the article, so I'll quote 
 - Date: 2024-07-28
 - Source: Mises University 2024. Ludwig von Mises Institute.
 
-<img class="w-100" src="https://i.ytimg.com/vi/W6vIAlK50sE/maxresdefault.jpg" alt="Picture of Thomas DiLorenzo giving his presentation for Mises University 2024."/>
+{% include img-ytimg.html class="img-fluid mx-auto" id="W6vIAlK50sE" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Picture of Thomas DiLorenzo giving his presentation for Mises University 2024." %}
 
 This is the recording of the first presentation of Mises University 2024; I actually watched the original livestream on July 28th. [^fn-1] Thomas DiLorenzo, president of the Ludwig von Mises Institute, made his presentation about who he thinks were the three worst presidents of the United States and the things they did to earn such a negative distinction. I correctly predicted before the livestream started that the three worst US presidents would be Abraham Lincoln, Woodrow Wilson, and Franklin D. Roosevelt. Lincoln, Wilson, and Roosevelt were all bloodthirsty warmongers and tyrannical centralizers who were arguably the most pivotal in transforming the US government into the Leviathan welfare-warfare state it is today.
 

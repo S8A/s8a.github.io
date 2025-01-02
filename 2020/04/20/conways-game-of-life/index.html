@@ -7,9 +7,9 @@
 <meta property="og:image" content="https://s8a.github.io/assets/img/conway-og-image.png">
 <meta property="og:url" content="https://s8a.github.io/2020/04/20/conways-game-of-life/">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/bootstrap-icons.css">
-    <link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/main.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.min.css">
 
     <title>Conway's Game of Life &ndash; Samuel Ochoa</title>
   </head>
@@ -17,7 +17,7 @@
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Primary navigation">
     <div class="container-md">
       <a class="navbar-brand" href="/">
-        <img src="https://s8a.github.io/assets/img/s8a-icon.svg" alt="Home" width="32" height="32">
+        <img src="/assets/img/s8a-icon.svg" alt="Home" width="32" height="32">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,28 +50,15 @@
     <h1 class="text-center">Conway's Game of Life</h1>
     <p class="text-center text-muted"><time datetime="2020-04-20T00:00:00+00:00">20 Apr 2020</time> &ndash; projects</p>
       <img
-        srcset="
-          /assets/img/thumbnails/conway-big-image_1080w.png 1080w,
-          /assets/img/thumbnails/conway-big-image_576w.png 576w,
-          /assets/img/thumbnails/conway-big-image_520w.png 520w,
-          /assets/img/thumbnails/conway-big-image_420w.png 420w,
-          /assets/img/thumbnails/conway-big-image_380w.png 380w,
-          /assets/img/thumbnails/conway-big-image_300w.png 300w,
-          /assets/img/thumbnails/conway-big-image_200w.png 200w
-        "
-        sizes="
-          (max-width: 200px) 200px,
-          (max-width: 300px) 300px,
-          (max-width: 380px) 380px,
-          (max-width: 420px) 420px,
-          (max-width: 520px) 520px,
-          (max-width: 576px) 576px,
-          1080px
-        "
-        src="/assets/img/conway-big-image.png"
-        class="img-fluid mb-4"
-        alt="Screenshots of the game."
-      ><p>Last night I made a simple implementation of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway’s Game of Life</a> in <a href="https://python.org">Python 3</a> with <a href="https://www.pygame.org">PyGame</a> and <a href="https://numpy.org/">NumPy</a>. It’s available for download <a href="https://gist.github.com/S8A/fa4ab4697f88022c87bc8c2699588a8d">here</a>.</p>
+  class="img-fluid mb-4"
+  srcset="/assets/img/thumbnails/conway-big-image_192w.png 192w, /assets/img/thumbnails/conway-big-image_256w.png 256w, /assets/img/thumbnails/conway-big-image_320w.png 320w, /assets/img/thumbnails/conway-big-image_384w.png 384w, /assets/img/thumbnails/conway-big-image_448w.png 448w, /assets/img/thumbnails/conway-big-image_512w.png 512w, /assets/img/thumbnails/conway-big-image_576w.png 576w, /assets/img/thumbnails/conway-big-image_640w.png 640w, /assets/img/thumbnails/conway-big-image_704w.png 704w, /assets/img/thumbnails/conway-big-image_768w.png 768w, /assets/img/thumbnails/conway-big-image_832w.png 832w, /assets/img/thumbnails/conway-big-image_896w.png 896w, /assets/img/thumbnails/conway-big-image_960w.png 960w, /assets/img/thumbnails/conway-big-image_1024w.png 1024w, /assets/img/thumbnails/conway-big-image_1080w.png 1080w"
+  sizes="(min-width: 1400px) 63vw, (min-width: 1300px) 59vw, (min-width: 1200px) 64vw, (min-width: 1096px) 59vw, (min-width: 992px) 65vw, (min-width: 880px) 82vw, (min-width: 768px) 94vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw"
+  src="/assets/img/conway-big-image.png"
+  alt="Screenshots of the game."
+  loading="eager"
+/>
+
+<p>Last night I made a simple implementation of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway’s Game of Life</a> in <a href="https://python.org">Python 3</a> with <a href="https://www.pygame.org">PyGame</a> and <a href="https://numpy.org/">NumPy</a>. It’s available for download <a href="https://gist.github.com/S8A/fa4ab4697f88022c87bc8c2699588a8d">here</a>.</p>
 
 <p>The Game of Life basically consists of two-dimensional grid of square cells, each of which is either alive or dead and interacts with its eight adjacent cells (neighbors). At every clock tick, the state of each cell changes if one of the following conditions or rules are met:</p>
 <ol>
@@ -100,10 +87,10 @@
       </li><li class="nav-item">
         <a href="/blog/" class="nav-link px-2 text-muted">Blog</a>
       </li></ul>
-    <p class="text-center text-muted">Samuel Ochoa 2024</p>
+    <p class="text-center text-muted">Samuel Ochoa 2025</p>
     <p class="text-center text-muted small">Built with Jekyll 4.3.4</p>
   </div>
 </footer>
-<script src="https://s8a.github.io/assets/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

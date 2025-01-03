@@ -10,6 +10,6 @@ features:
 - "Multiplatform: Runs on any system with Python 3."
 - "Only available in English."
 github: https://github.com/S8A/pdfmerger-python
-image: pdfmerger-python-screenshot.png
-last-update: 2020-05-17
+image: pdfmerger-python-screenshot.webp
+last_update: 2020-05-17
 ---

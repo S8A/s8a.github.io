@@ -11,6 +11,6 @@ features:
 - "Mark all tasks of an album as incomplete and automatically move it to the pending list."
 - "Delete an artist or a specific album."
 github: https://github.com/S8A/trello-music-manager
-image: trello-music-manager-demo.png
-last-update: 2022-05-21
+image: trello-music-manager-demo.webp
+last_update: 2022-05-21
 ---

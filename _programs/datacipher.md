@@ -10,6 +10,6 @@ features:
 - "Vigenère cipher."
 - "Columnar transposition (bad implementation)."
 github: https://github.com/S8A/datacipher
-image: datacipher-screenshot.png
-last-update: 2017-07-06
+image: datacipher-screenshot.webp
+last_update: 2017-07-06
 ---

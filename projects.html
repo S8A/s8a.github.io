@@ -10,7 +10,7 @@ og_image: s8a-thumbnail.webp
 <section id="websites" class="py-3">
   <h2>Websites</h2>
   <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3 py-3 mb-3">
-    {%- assign websites = site.websites | sort: "last-update" | reverse -%}
+    {%- assign websites = site.websites | sort: "last_update" | reverse -%}
     {%- for website in websites -%}
     <div class="col">
       <div class="card h-100 shadow-sm">
@@ -21,9 +21,9 @@ og_image: s8a-thumbnail.webp
 
         <div class="card-body">
           <h3 class="card-title fs-5">{{ website.name }}</h3>
-          <p class="card-subtitle mb-2 text-muted">Last update: {{ website.last-update | date: "%b %Y" }}</p>
+          <p class="card-subtitle mb-2 text-muted">Last update: {{ website.last_update | date: "%b %Y" }}</p>
           <p class="card-text">{{ website.summary }}</p>
-          <a href="{{ website.website-url }}" class="card-link">{{ website.go-text }}</a>
+          <a href="{{ website.website_url }}" class="card-link">{{ website.go_text }}</a>
           <a href="{{ website.url }}" class="card-link">Details</a>
         </div>
       </div>
@@ -35,7 +35,7 @@ og_image: s8a-thumbnail.webp
 <section id="programs" class="py-3">
   <h2>Desktop programs</h2>
   <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3 py-3 mb-3">
-    {%- assign programs = site.programs | sort: "last-update" | reverse -%}
+    {%- assign programs = site.programs | sort: "last_update" | reverse -%}
     {%- for program in programs -%}
     <div class="col">
       <div class="card h-100 shadow-sm">
@@ -46,7 +46,7 @@ og_image: s8a-thumbnail.webp
 
         <div class="card-body">
           <h3 class="card-title fs-5">{{ program.name }}</h3>
-          <p class="card-subtitle mb-2 text-muted">Last update: {{ program.last-update | date: "%b %Y" }}</p>
+          <p class="card-subtitle mb-2 text-muted">Last update: {{ program.last_update | date: "%b %Y" }}</p>
           <p class="card-text">{{ program.summary }}</p>
           <a href="{{ program.url }}" class="card-link">Details</a>
         </div>

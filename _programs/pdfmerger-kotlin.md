@@ -12,5 +12,5 @@ features:
 download: https://github.com/S8A/pdfmerger-kotlin/releases/download/v1.0/pdfmerger-kotlin-1.0.jar
 github: https://github.com/S8A/pdfmerger-kotlin
 image: pdfmerger-kotlin-screenshot.webp
-last-update: 2019-01-14
+last_update: 2019-01-14
 ---

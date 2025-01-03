@@ -12,5 +12,5 @@ features:
 - "Delete an artist or a specific album."
 github: https://github.com/S8A/trello-music-manager
 image: trello-music-manager-demo.webp
-last-update: 2022-05-21
+last_update: 2022-05-21
 ---

@@ -16,5 +16,5 @@ find students' grades by subject, make new records, load records from file,
 update students' records, and delete students' records."
 github: https://github.com/S8A/umc-pro633-crud
 image: umc-pro633-crud-both-demo.webp
-last-update: 2020-04-03
+last_update: 2020-04-03
 ---

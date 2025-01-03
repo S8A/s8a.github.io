@@ -18,8 +18,8 @@ layout: default
   {% endif %}
 
   <div class="col-md-6 mx-auto">
-    {%- if page.last-update -%}
-      <p><small class="text-muted">Last update: {{ page.last-update | date: "%b %Y" }}</small></p>
+    {%- if page.last_update -%}
+      <p><small class="text-muted">Last update: {{ page.last_update | date: "%b %Y" }}</small></p>
     {%- endif -%}
     <p>{{ page.summary }}</p>
     {%- if page.features -%}

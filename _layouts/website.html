@@ -13,8 +13,8 @@ layout: default
   {% endif %}
 
   <div class="col-md-6 mx-auto">
-    {%- if page.last-update -%}
-      <p><small class="text-muted">Last update: {{ page.last-update | date: "%b %Y" }}</small></p>
+    {%- if page.last_update -%}
+      <p><small class="text-muted">Last update: {{ page.last_update | date: "%b %Y" }}</small></p>
     {%- endif -%}
     <p>{{ page.summary }}</p>
     {%- if page.features -%}
@@ -25,8 +25,8 @@ layout: default
       </ul>
     {%- endif -%}
     <div class="d-grid gap-2 d-md-block">
-      {%- if page.website-url -%}
-      <a href="{{ page.website-url }}" class="btn btn-primary me-md-2">{{ page.go-text | default: "Go to website" }}</a> 
+      {%- if page.website_url -%}
+      <a href="{{ page.website_url }}" class="btn btn-primary me-md-2">{{ page.go_text | default: "Go to website" }}</a> 
       {%- endif -%}
       {%- if page.github -%}
       <a href="{{ page.github }}" class="btn btn-secondary me-md-2">GitHub project</a>

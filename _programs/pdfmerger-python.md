@@ -11,5 +11,5 @@ features:
 - "Only available in English."
 github: https://github.com/S8A/pdfmerger-python
 image: pdfmerger-python-screenshot.webp
-last-update: 2020-05-17
+last_update: 2020-05-17
 ---

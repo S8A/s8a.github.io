@@ -11,13 +11,13 @@ layout: default
 
 <div class="row flex-md-row-reverse align-items-center g-3">
   {% if page.image %}
-    <div class="col-md-6 mx-auto">
-      <!-- TODO: Replace with resized images -->
-      <img src="/assets/img/{{ page.image }}" alt="" class="img-fluid">
+    <div class="col-lg-6 mx-auto">
+      {% assign image_path = page.image | prepend: "/assets/img/" %}
+      {% include img-local.html class="img-fluid" src=image_path widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:49vw, 1096px:44vw, 1200px:48vw, 1300px:44vw, 1400px:48vw" default_size="1080" %}
     </div>
   {% endif %}
 
-  <div class="col-md-6 mx-auto">
+  <div class="col-lg-6 mx-auto">
     {%- if page.last_update -%}
       <p><small class="text-muted">Last update: {{ page.last_update | date: "%b %Y" }}</small></p>
     {%- endif -%}
@@ -31,10 +31,10 @@ layout: default
     {%- endif -%}
     <div class="d-grid gap-2 d-md-block">
       {%- if page.download -%}
-      <a href="{{ page.download }}" class="btn btn-primary me-md-2" download>Download</a> 
+        <a href="{{ page.download }}" class="btn btn-primary me-md-2" download>Download</a> 
       {%- endif -%}
       {%- if page.github -%}
-      <a href="{{ page.github }}" class="btn btn-secondary me-md-2">GitHub project</a>
+        <a href="{{ page.github }}" class="btn btn-secondary me-md-2">GitHub project</a>
       {%- endif -%}
     </div>
   </div>

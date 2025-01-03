@@ -2,7 +2,7 @@
 layout: website
 title: 8A Training
 og_desc: Simple web-app for logging training sessions.
-image: s8a-training-v4.1.0
+image: s8a-training-v4.1.0.webp
 name: 8A Training
 last-update: 2022-08-26
 summary: >

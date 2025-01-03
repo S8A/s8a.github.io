@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 og_desc: My personal software and academic projects.
-og_image: s8a-thumbnail.png
+og_image: s8a-thumbnail.webp
 ---
 
 <h1 class="text-center">{{ page.title }}</h1>
@@ -15,7 +15,7 @@ og_image: s8a-thumbnail.png
     <div class="col">
       <div class="card h-100 shadow-sm">
         {%- if website.image -%}
-          {% assign image_path = website.image | prepend: "/assets/img/" | append: "-hidpi.png" %}
+          {% assign image_path = website.image | prepend: "/assets/img/" %}
           {% include img-local.html class="card-img-top" src=image_path widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 576px:94vw, 672px:81vw, 768px:47vw, 880px:41vw, 992px:49vw, 1096px:44vw, 1200px:32vw, 1300px:30vw, 1400px:32vw" default_width="576" %}
         {%- endif -%}
 
@@ -65,7 +65,7 @@ og_image: s8a-thumbnail.png
     <div class="col">
       <div class="card h-100 shadow-sm">
         {%- if document.image -%}
-          {% assign image_path = document.image | prepend: "/assets/img/" | append: "-hidpi.png" %}
+          {% assign image_path = document.image | prepend: "/assets/img/" %}
           {% include img-local.html class="card-img-top" src=image_path widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 576px:94vw, 672px:81vw, 768px:47vw, 880px:41vw, 992px:49vw, 1096px:44vw, 1200px:32vw, 1300px:30vw, 1400px:32vw" default_width="576" %}
         {%- endif -%}
 
@@ -73,7 +73,7 @@ og_image: s8a-thumbnail.png
           <h3 class="card-title fs-5">{{ document.name }}</h3>
           <p class="card-subtitle mb-2 text-muted">{{ document.date | date_to_string }}</p>
           <p class="card-text">{{ document.summary }}</p>
-          <a href="{{ document.url }}" class="card-link">{{ document.read-text }}</a>
+          <a href="{{ document.url }}" class="card-link">{{ document.read_text }}</a>
         </div>
       </div>
     </div>

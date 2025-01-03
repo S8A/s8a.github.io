@@ -10,6 +10,6 @@ features:
 - "International: The GUI is in English or Spanish depending on the user's system."
 download: https://github.com/S8A/javacipher/releases/download/v1.0/javacipher-1.0.jar
 github: https://github.com/S8A/javacipher
-image: javacipher-screenshot.png
+image: javacipher-screenshot.webp
 last-update: 2018-03-06
 ---

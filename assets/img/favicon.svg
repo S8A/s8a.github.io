@@ -10,8 +10,8 @@
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="favicon.svg"
    inkscape:export-filename="/home/s8a/Projects/s8a.github.io/assets/img/favicon.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="288"
+   inkscape:export-ydpi="288"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -29,9 +29,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
-     inkscape:cx="44.196429"
-     inkscape:cy="48.214286"
-     inkscape:document-units="mm"
+     inkscape:cx="80.446429"
+     inkscape:cy="38.928571"
+     inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
@@ -49,7 +49,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -65,30 +64,31 @@
        height="16.933332"
        x="0"
        y="280.06665" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#859900;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="0.25011399"
-       y="293.1687"
-       id="text925"><tspan
-         sodipodi:role="line"
-         id="tspan923"
-         x="0.25011399"
-         y="293.1687"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#859900;fill-opacity:1;stroke-width:0.264583">8A</tspan></text>
-    <rect
-       style="opacity:1;fill:#b58900;fill-opacity:1;stroke:none;stroke-width:0.52916664;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect927"
-       width="15.345834"
-       height="1.0583333"
-       x="0.79374975"
-       y="281.12497" />
-    <rect
-       style="opacity:1;fill:#b58900;fill-opacity:1;stroke:none;stroke-width:0.52916664;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect927-8"
-       width="15.345835"
-       height="1.0583333"
-       x="0.79374927"
-       y="294.88333" />
+    <g
+       id="g44"
+       transform="matrix(1,0,0,1.0000206,0,-0.00577308)">
+      <path
+         d="m 6.4471516,286.09316 q 0,0.5023 -0.2232422,0.94878 -0.2232422,0.44649 -0.6077148,0.76275 0.6697265,0.40307 1.0666015,1.0666 0.4030762,0.66352 0.4030762,1.45107 0,0.79995 -0.4030762,1.47588 -0.4030761,0.66973 -1.0976074,1.0604 -0.6945312,0.39068 -1.5068847,0.39068 -1.2526367,0 -2.1394043,-0.85577 -0.8805664,-0.85576 -0.8805664,-2.07119 0,-0.79375 0.396875,-1.45727 0.396875,-0.66353 1.0790039,-1.0604 -0.3906738,-0.31626 -0.6201172,-0.76275 -0.2232422,-0.44648 -0.2232422,-0.94878 0,-0.94257 0.7007325,-1.5999 0.7007324,-0.66352 1.6867187,-0.66352 0.9735839,0 1.6681152,0.66352 0.7007324,0.65733 0.7007324,1.5999 z m -3.8075195,2.84014 q -0.6015136,0.57671 -0.6015136,1.38906 0,0.81236 0.6015136,1.40147 0.6077149,0.58291 1.4386719,0.58291 0.830957,0 1.4262695,-0.58291 0.6015136,-0.58911 0.6015136,-1.40147 0,-0.81235 -0.6015136,-1.38906 -0.5953125,-0.58291 -1.4262695,-0.58291 -0.8371582,0 -1.4386719,0.58291 z m 1.4386719,-1.53789 q 0.5643066,0 0.9735839,-0.38447 0.4154786,-0.38448 0.4154786,-0.91778 0,-0.5333 -0.4092774,-0.91777 -0.4092773,-0.39067 -0.9797851,-0.39067 -0.5829102,0 -0.9921875,0.38447 -0.4092773,0.38447 -0.4092773,0.92397 0,0.5333 0.4092773,0.91778 0.4092773,0.38447 0.9921875,0.38447 z"
+         style="font-weight:bold;font-size:12.7px;line-height:1.25;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';letter-spacing:-0.238125px;word-spacing:0px;fill:#859900;stroke-width:0.264583"
+         id="path31068" />
+      <path
+         d="m 10.256739,289.4604 h 3.007568 l -1.513086,-3.175 z m -0.4526861,0.95498 -1.1472168,2.74092 H 7.6026369 l 4.1361821,-9.33897 4.136181,9.33897 h -1.0604 l -1.16582,-2.74092 z"
+         style="font-weight:bold;font-size:12.7px;line-height:1.25;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';letter-spacing:-0.238125px;word-spacing:0px;fill:#859900;stroke-width:0.264583"
+         id="path31070" />
+      <rect
+         style="opacity:1;fill:#b58900;fill-opacity:1;stroke:none;stroke-width:0.519963;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect927"
+         width="14.816667"
+         height="1.0583333"
+         x="1.0583333"
+         y="281.12497" />
+      <rect
+         style="opacity:1;fill:#b58900;fill-opacity:1;stroke:none;stroke-width:0.519963;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect927-8"
+         width="14.816667"
+         height="1.0583333"
+         x="1.0583333"
+         y="294.88333" />
+    </g>
   </g>
 </svg>

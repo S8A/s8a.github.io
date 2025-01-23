@@ -43,6 +43,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-thumbnail-img
+  - jekyll-postcss-v2
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

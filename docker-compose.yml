@@ -11,4 +11,5 @@ services:
       - ./vendor/bundle:/usr/local/bundle
     environment:
       - JEKYLL_ENV=development
+      - NODE_ENV=development
       - TZ=America/Caracas

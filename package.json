@@ -12,5 +12,9 @@
     "postcss-cli": "^11.0.0",
     "postcss-url": "^10.1.3",
     "tailwindcss": "^4.0.0"
+  },
+  "scripts": {
+    "build": "esbuild assets/js/main.js --bundle --outfile=assets/js/bundle.js",
+    "watch": "esbuild assets/js/main.js --bundle --outfile=assets/js/bundle.js --watch"
   }
 }

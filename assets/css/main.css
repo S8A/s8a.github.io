@@ -3,3 +3,5 @@
 
 @import "tailwindcss" source("../..");
 @plugin "@tailwindcss/typography";
+
+@import "bootstrap-icons";

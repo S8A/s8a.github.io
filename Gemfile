@@ -24,6 +24,6 @@ group :jekyll_plugins do
 end
 
 group :jekyll_thumbnail_img do
-  gem "jekyll-thumbnail-img", git: "https://github.com/S8A/jekyll-thumbnail-img.git", branch: "feature/resolve_width_variable"
+  gem "jekyll-thumbnail-img", git: "https://github.com/S8A/jekyll-thumbnail-img.git", branch: "feature/cache_thumbnails_and_allow_variable_width"
   gem "mini_magick"
 end

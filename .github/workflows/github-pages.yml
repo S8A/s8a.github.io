@@ -22,10 +22,10 @@ jobs:
       #   with:
       #     node-version: '18'
       # - run: npm install
-      - name: Install ImageMagick
+      - name: Install apt dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y imagemagick
+          sudo apt-get install -y $(cat .apt)
       - name: Build site
         uses: limjh16/jekyll-action-ts@v2
         with:

@@ -24,6 +24,10 @@ group :jekyll_plugins do
 end
 
 group :jekyll_thumbnail_img do
-  gem "jekyll-thumbnail-img", git: "https://github.com/S8A/jekyll-thumbnail-img.git", branch: "feature/resolve_width_variable"
+  gem "jekyll-thumbnail-img", git: "https://github.com/S8A/jekyll-thumbnail-img.git", branch: "feature/cache_thumbnails_and_allow_variable_width"
   gem "mini_magick"
 end
+
+# Workaround for segmentation fault on Alpine Linux
+# https://github.com/protocolbuffers/protobuf/issues/16853#issuecomment-2583135716
+gem "google-protobuf", force_ruby_platform: true if RUBY_PLATFORM.include?("linux-musl")

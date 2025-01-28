@@ -2,9 +2,7 @@ version: '3'
 
 services:
   site:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: jvconseil/jekyll-docker:latest
     command: jekyll serve
     ports:
       - "4000:4000"
@@ -13,3 +11,4 @@ services:
       - ./vendor/bundle:/usr/local/bundle
     environment:
       - JEKYLL_ENV=development
+      - TZ=America/Caracas

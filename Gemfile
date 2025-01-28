@@ -30,4 +30,6 @@ end
 
 # Workaround for segmentation fault on Alpine Linux
 # https://github.com/protocolbuffers/protobuf/issues/16853#issuecomment-2583135716
-gem "google-protobuf", force_ruby_platform: true if RUBY_PLATFORM.include?("linux-musl")
+install_if -> { RUBY_PLATFORM =~ /linux-musl/ } do
+  gem "google-protobuf", force_ruby_platform: true
+end

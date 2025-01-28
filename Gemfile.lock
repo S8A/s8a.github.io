@@ -89,6 +89,7 @@ GEM
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
     jekyll-paginate (1.1.0)
+    jekyll-postcss-v2 (1.0.2)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-relative-links (0.7.0)
@@ -214,6 +215,7 @@ DEPENDENCIES
   jekyll-mentions
   jekyll-optional-front-matter
   jekyll-paginate
+  jekyll-postcss-v2
   jekyll-redirect-from
   jekyll-relative-links
   jekyll-remote-theme

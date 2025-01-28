@@ -1,12 +1,3 @@
-GIT
-  remote: https://github.com/S8A/jekyll-thumbnail-img.git
-  revision: 71e74a098a00219c8954130afe95ae45d535c2c5
-  branch: feature/cache_thumbnails_and_allow_variable_width
-  specs:
-    jekyll-thumbnail-img (0.1.2)
-      jekyll
-      mini_magick
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -113,6 +104,9 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-thumbnail-img (0.1.3)
+      jekyll
+      mini_magick
     jekyll-titles-from-headings (0.5.3)
       jekyll (>= 3.3, < 5.0)
     jekyll-watch (2.2.1)
@@ -226,11 +220,10 @@ DEPENDENCIES
   jekyll-sass-converter
   jekyll-seo-tag
   jekyll-sitemap
-  jekyll-thumbnail-img!
+  jekyll-thumbnail-img
   jekyll-titles-from-headings
   jemoji
   kramdown
-  mini_magick
   webrick
 
 BUNDLED WITH

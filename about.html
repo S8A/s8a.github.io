@@ -4,11 +4,23 @@ title: About me
 og_desc: A summary of who I am, what I can do, and what I've worked on.
 ---
 
-{% assign birth_date = site.data.about.birth_date | date: '%s' %}
-{% assign now_timestamp = 'now' | date: '%s' %}
-{% assign age_seconds = now_timestamp | minus: birth_date %}
-{% assign age_days = age_seconds | divided_by: 3600 | divided_by: 24 %}
-{% assign age_years = age_days | divided_by: 365 | floor %}
+{%- assign birth_date = site.data.about.birth_date -%}
+{%- assign birth_year = birth_date | date: '%Y' -%}
+{%- assign birth_month = birth_date | date: '%m' -%}
+{%- assign birth_day = birth_date | date: '%d' -%}
+{%- assign current_year = 'now' | date: '%Y' -%}
+{%- assign current_month = 'now' | date: '%m' -%}
+{%- assign current_day = 'now' | date: '%d' -%}
+{%- assign year_difference = current_year | minus: birth_year -%}
+{%- capture age_years -%}
+{%- if current_month < birth_month -%}
+{{ year_difference | minus: 1 }}
+{%- elsif current_month == birth_month and current_day < birth_day -%}
+{{ year_difference | minus: 1 }}
+{%- else -%}
+{{ year_difference }}
+{%- endif -%}
+{%- endcapture -%}
 
 <div class="row">
   <div class="col-12 col-lg-8 mx-auto">

@@ -7,11 +7,16 @@ og_image: s8a-thumbnail.webp
 
 <div class="flex flex-col md:flex-row justify-center gap-4 xl:py-5">
   <div class="flex flex-col gap-2 w-full md:w-5/12 mb-4 lg:mb-0 text-center">
-    {% include img-local.html class="w-full aspect-square mx-auto mb-3" src="/assets/img/s8a-20231207.webp" widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1088, 1152, 1216, 1280, 1344, 1408, 1472, 1536, 1600, 1664, 1728" sizes="100vw, 576px:94vw, 672px:81vw, 768px:40vw, 880px:35vw, 992px:33vw, 1096px:30vw, 1200px:32vw, 1300px:30vw, 1400px:32vw" default_width="576" %}
-    <div class="block md:flex md:flex-col md:gap-2">
-      {% for contact in site.data.contact %}
-      <a href="{{ contact.url }}" class="mb-2 md:mb-0 px-2 py-1 rounded-md inline-block border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white dark:border-blue-400 dark:text-blue-400 dark:hover:bg-blue-400 dark:hover:text-white"><i class="{{ contact.icon }}"></i> {{ contact.name }}</a>
-      {% endfor %}
+    {%- include img-local.html class="w-full aspect-square mb-3" src="/assets/img/s8a-20231207.webp" widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1088, 1152, 1216, 1280, 1344, 1408, 1472, 1536, 1600, 1664, 1728" sizes="100vw, 576px:94vw, 672px:81vw, 768px:40vw, 880px:35vw, 992px:33vw, 1096px:30vw, 1200px:32vw, 1300px:30vw, 1400px:32vw" default_width="576" -%}
+    <div class="flex flex-wrap justify-center gap-2 md:flex-col">
+      {%- for contact in site.data.contact -%}
+      <a
+        href="{{ contact.url }}"
+        class="px-2 py-1 rounded-md inline-block border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white dark:border-blue-400 dark:text-blue-400 dark:hover:bg-blue-400 dark:hover:text-white"
+      >
+        <i class="{{ contact.icon }}"></i> {{ contact.name }}
+      </a>
+      {%- endfor -%}
     </div>
   </div>
   <div class="w-full md:w-7/12 prose dark:prose-invert prose-a:text-blue-500 prose-a:hover:text-blue-400 dark:prose-a:text-blue-400 dark:prose-a:hover:text-blue-300 prose-h1:mb-3">

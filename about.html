@@ -31,7 +31,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
     <h1 class="text-4xl font-bold mb-2">Samuel Ochoa</h1>
     <ul class="ml-8 mb-0 list-disc list-outside">
       {%- for contact in site.data.contact -%}
-        <li><b>{{ contact.name }}:</b> <a href="{{ contact.url }}" class="underline text-blue-500 hover:text-blue-400 dark:text-blue-400 dark:hover:text-blue-300">{{ contact.value }}</a></li>
+        <li><b>{{ contact.name }}:</b> <a href="{{ contact.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">{{ contact.value }}</a></li>
       {%- endfor -%}
       <li><b>Birth date:</b> {{ site.data.about.birth_date | date: "%B %e, %Y" }} ({{ age_years }} years old).</li>
       <li><b>Country of birth:</b> {{ site.data.about.country_of_birth }}.</li>
@@ -59,9 +59,9 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   <h2 class="text-2xl font-bold mb-2">Work experience</h2>
   <div class="flex flex-col gap-4">
     {%- for job in site.data.work_experience -%}
-      <div x-data="{ expanded: false }" class="px-4 py-2 border-l-4 border-blue-500 dark:border-blue-400">
+      <div x-data="{ expanded: false }" class="px-4 py-2 border-l-4 border-blue-600 dark:border-blue-400">
         <h3 class="text-xl font-medium">
-          {{ job.title }} &ndash; {% if job.company_url %}<a href="{{- job.company_url -}}" class="underline text-blue-500 hover:text-blue-400 dark:text-blue-400 dark:hover:text-blue-300">{{- job.company -}}</a>{% else %}{{- job.company -}}{% endif %}
+          {{ job.title }} &ndash; {% if job.company_url %}<a href="{{- job.company_url -}}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">{{- job.company -}}</a>{% else %}{{- job.company -}}{% endif %}
         </h3>
         <p class="text-sm text-gray-600 dark:text-gray-400">
           {%- assign period_start = job.period_start | date: "%B %Y" -%}
@@ -78,7 +78,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
         {%- if job.sections.size > 0 -%}
           <p class="mb-2">
             <button
-              class="inline underline text-blue-500 hover:text-blue-400 dark:text-blue-400 dark:hover:text-blue-300 cursor-pointer"
+              class="inline underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300 cursor-pointer"
               x-on:click="expanded = !expanded"
               x-text="expanded ? 'Hide details' : 'Show details'"
             >
@@ -113,7 +113,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   <h2 class="text-2xl font-bold mb-2">Education</h2>
   <div class="flex flex-col gap-4">
     {%- for education in site.data.about.education -%}
-      <div class="px-4 py-2 border-l-4 border-blue-500 dark:border-blue-400">
+      <div class="px-4 py-2 border-l-4 border-blue-600 dark:border-blue-400">
         <h3 class="text-xl font-medium">
           {{ education.title }} &ndash; {{ education.institution }}
         </h3>
@@ -132,7 +132,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   <ul class="ml-8 mb-0 list-disc list-outside">
     {%- for certification in site.data.about.certifications -%}
       <li>
-        <a href="{{- certification.url -}}" class="underline text-blue-500 hover:text-blue-400 dark:text-blue-400 dark:hover:text-blue-300">{{- certification.title -}}</a> &ndash; {{ certification.institution }} ({{ certification.year }}).
+        <a href="{{- certification.url -}}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">{{- certification.title -}}</a> &ndash; {{ certification.institution }} ({{ certification.year }}).
       </li>
     {%- endfor -%}
   </ul>

@@ -59,7 +59,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   <h2 class="text-2xl font-bold mb-2">Work experience</h2>
   <div class="flex flex-col gap-4">
     {%- for job in site.data.work_experience -%}
-      <div x-data="{ expanded: false }" class="px-4 py-2 border-l-4 border-blue-600 dark:border-blue-400">
+      <div x-data="{ expanded: false }" class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-400">
         <h3 class="text-xl font-medium">
           {{ job.title }} &ndash; {% if job.company_url %}<a href="{{- job.company_url -}}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">{{- job.company -}}</a>{% else %}{{- job.company -}}{% endif %}
         </h3>
@@ -76,7 +76,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
         </p>
         <p class="{%- if job.sections.size > 0 -%}mb-2{%- endif -%}">{{ job.description }}</p>
         {%- if job.sections.size > 0 -%}
-          <p class="mb-2">
+          <p x-bind:class="expanded ? 'mb-2' : 'mb-0'">
             <button
               class="inline underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300 cursor-pointer"
               x-on:click="expanded = !expanded"
@@ -113,7 +113,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   <h2 class="text-2xl font-bold mb-2">Education</h2>
   <div class="flex flex-col gap-4">
     {%- for education in site.data.about.education -%}
-      <div class="px-4 py-2 border-l-4 border-blue-600 dark:border-blue-400">
+      <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-400">
         <h3 class="text-xl font-medium">
           {{ education.title }} &ndash; {{ education.institution }}
         </h3>

@@ -19,12 +19,11 @@ This month's compilation brings: a reflection on the opportunity cost of living 
 - Date: 2024-08-06
 - Source: _Young Money by Jack Raines_ (Substack)
 
-{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/2bfca3b1-b4c2-487a-9c19-e57ba79af96f_1178x270.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Screenshot of tweet by @naval featured in the article. The tweet says: 'The only real test of intelligence is if you get what you want out of life.'" %}
+{% include img-substackcdn.html class="w-full" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/2bfca3b1-b4c2-487a-9c19-e57ba79af96f_1178x270.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Screenshot of tweet by @naval featured in the article. The tweet says: 'The only real test of intelligence is if you get what you want out of life.'" %}
 
 This article is a call to introspection and to action. It's about a problem that primarily applies to white-collar workers in first-world countries but also applies to different degrees to everyone whose real income is above subsistence level: basically, the inertial tendency to coast through a boring and/or comfortable job (particularly well-paid, low-stress desk jobs) and to live a mediocre, repetitive, boring day-to-day existence for years and decades, until it's too late. That's what Raines calls "the apathetic life," and he emphasizes that the opportunity cost of such a way of living is life itself&mdash;our limited time in this world and the foregone challenges, experiences, and achievements that make life worth living. Other authors have addressed this topic before, but I happened to stumble upon the article, and I liked that it explains the issue in such a way that makes you viscerally understand and fear the cost of an apathetic life. The clock is ticking.
 
 > The point of life is to live, and living isn’t a spectator sport.
-{: .fst-italic.ps-4.border-start.border-5}
 
 ---
 
@@ -35,7 +34,7 @@ This article is a call to introspection and to action. It's about a problem that
 - Date: 2023-03-21
 - Source: _American Affairs_
 
-{% include img.html class="img-fluid mx-auto" src="https://americanaffairsjournal.org/wp-content/uploads/2023/03/Gharbi-2.jpg" loading="lazy" alt="Chart showing the percentage share of conservatives, moderates, and 'liberals' answering Yes to the question 'Has a doctor or other healthcare provider EVER told you that you have a mental health contidion?', controlling for religious service attendance frequency." %}
+{% include img.html class="w-full" src="https://americanaffairsjournal.org/wp-content/uploads/2023/03/Gharbi-2.jpg" loading="lazy" alt="Chart showing the percentage share of conservatives, moderates, and 'liberals' answering Yes to the question 'Has a doctor or other healthcare provider EVER told you that you have a mental health contidion?', controlling for religious service attendance frequency." %}
 
 This essay provides a detailed overview of the ideological well-being gap, its different facets, and the robust evidence supporting it. The ideological well-being gap refers to the fact that conservatives tend to be happier and more well-adjusted than "liberals" (progressives or leftists would be more accurate), a pattern observed both in the United States and other Western countries. Based on the available evidence, the author explains the most likely drivers of the observed patterns, most notably: that there are some genetic/biological factors that simultaneously underlie both ideology and well-being; that conservatism _per se_ may help people cope with adversity; and that some types of leftist ideology _per se_ exacerbate and incentivize unhealthy thought patterns.
 
@@ -48,11 +47,7 @@ This essay provides a detailed overview of the ideological well-being gap, its d
 - Date: 2024-09-18
 - Source: _Deep Left Analysis_ (Substack)
 
-<div class="row mb-2">
-  <div class="col-12 col-sm-8 col-md-6 mx-auto">
-    {% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/31c1db3c-b510-40cf-befc-7248312581d3_1200x1200.jpeg" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Examples of white women before and after drastic transformations to look like black or mixed-race." %}
-  </div>
-</div>
+{% include img-substackcdn.html class="w-full sm:w-2/3 md:w-1/2 mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/31c1db3c-b510-40cf-befc-7248312581d3_1200x1200.jpeg" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Examples of white women before and after drastic transformations to look like black or mixed-race." %}
 
 This is an intriguing article that argues that trans-racial dysmorphia [^fn-1] and trans-racialism [^fn-2] will be the phenomena of the next mass identity crisis, after the current one of gender dysmorphia and transgenderism. The author creatively weaves together different phenomena, trends, hypotheses, and tangents to support and elaborate his main thesis that rising narcissism combined with ambiguous or fractured identities is the common root cause of rising transgenderism, trans-racialism, and political polarization. Thus, he argues that the mainstream conservative campaign of fighting against transgenderism by focusing the blame on doctors and pushing for government regulations on them is intellectually lazy and useless at best because it doesn't address the broader underlying trends.
 
@@ -67,16 +62,11 @@ Overall, a very thought-provoking and well-argued article, though I don't agree 
 - Date: 2023-04-03
 - Source: _Swole at Every Height_ (blog)
 
-<div class="row mb-2">
-  <div class="col-12 col-sm-10 col-md-8 mx-auto">
-    {% include img.html class="img-fluid mx-auto" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiJnVSkzLDNgJuoRypRKMnP9piH7BcNv2VzGRcEM6RHiBMzdV_ue_hULfCWnvFUkxrTKWWettyZjuXuPmqkq6GR8PdcX63FQZ0Xj6EMY1QoTQMbgsusOeZUZ8IbIEbTMqEnHGvaZwAuoSktmnysunghLR44rVff4k664KnYyWjCjyZbLpX7UZyNsWC/w400-h339/drawing%20hands.jpg" loading="lazy" alt="Drawing Hands. January 1948. Lithograph by M.C. Escher. Featured in the article with the additional comment 'What is created, creates.'" %}
-  </div>
-</div>
+{% include img.html class="w-full sm:w-5/6 md:w-2/3 mx-auto" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiJnVSkzLDNgJuoRypRKMnP9piH7BcNv2VzGRcEM6RHiBMzdV_ue_hULfCWnvFUkxrTKWWettyZjuXuPmqkq6GR8PdcX63FQZ0Xj6EMY1QoTQMbgsusOeZUZ8IbIEbTMqEnHGvaZwAuoSktmnysunghLR44rVff4k664KnYyWjCjyZbLpX7UZyNsWC/w400-h339/drawing%20hands.jpg" loading="lazy" alt="Drawing Hands. January 1948. Lithograph by M.C. Escher. Featured in the article with the additional comment 'What is created, creates.'" %}
 
 This introspective post by strength training and conditioning coach Cody Lefever, as he explains in the introduction, is primarily his response to the question of _why_ he lifts, though he lays out concepts and lessons applicable in many other areas of life. The article is based on the concept of "strange loops": according to philosopher and mathematician Douglas Hofstadter, who introduced the concept, "a strange loop is a system that contains a self-referential structure which, when observed at a higher level of abstraction, creates a paradoxical situation." [^fn-3] Lefever explains that physicality, creativity, and consciousness form a strange loop where each element refers to the other two, forming an increasingly complex feedback loop. I highly encourage reading the article; it's clear, concise, almost poetic, and full of wisdom and inspiration for physical and general self-improvement.
 
 > The process is the goal. Separating ourselves from doing, for any reason, is the means by which we passively accept eventually not being. Physicality is creativity is consciousness. 
-{: .fst-italic.ps-4.border-start.border-5}
 
 ---
 

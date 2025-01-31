@@ -126,7 +126,6 @@ The article is relatively short, well-written, and links to research to back its
 > Like all species, we are designed by natural selection to preserve and propagate our genes. By choosing a partner with nice skin, hair and teeth, symmetrical features, good posture and movement patterns, and a lean physique, we are inadvertently selecting for microbial, hormonal, musculoskeletal, nutritional and immunological health. This, in turn, enhances our reproductive success by enriching our life and endowing our offspring with beneficial characteristics.
 >
 > Physical beauty isn’t just something we find pleasing; it’s a matter of survival and reproduction.
-{: .fst-italic.ps-4.border-start.border-5}
 
 ---
 

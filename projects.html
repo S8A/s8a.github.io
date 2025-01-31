@@ -11,9 +11,9 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   <nav class="flex flex-col items-center justify-center gap-1 md:flex-row md:gap-4">
     <p>Jump to section:</p>
     <ul class="flex gap-4">
-      <li><a href="#websites" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">Websites</a></li>
-      <li><a href="#programs" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">Desktop programs</a></li>
-      <li><a href="#documents" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">Documents</a></li>
+      <li><a href="#websites" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Websites</a></li>
+      <li><a href="#programs" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Desktop programs</a></li>
+      <li><a href="#documents" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Documents</a></li>
     </ul>
   </nav>
 </div>
@@ -23,7 +23,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   <div class="flex flex-col gap-4">
     {%- assign websites = site.websites | sort: "last_update" | reverse -%}
     {%- for website in websites -%}
-    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-400 grid grid-cols-1 sm:grid-cols-3 gap-4">
+    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
       {%- if website.image -%}
         <div class="col-span-1 flex items-center">
           {% assign image_path = website.image | prepend: "/assets/img/" %}
@@ -37,8 +37,8 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
           <p>{{ website.summary }}</p>
         </div>
         <div class="flex flex-wrap gap-4">
-          <a href="{{ website.website_url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">{{ website.go_text }}</a>
-          <a href="{{ website.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">Details</a>
+          <a href="{{ website.website_url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">{{ website.go_text }}</a>
+          <a href="{{ website.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a>
         </div>
       </div>
     </div>
@@ -51,7 +51,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   <div class="flex flex-col gap-4">
     {%- assign programs = site.programs | sort: "last_update" | reverse -%}
     {%- for program in programs -%}
-    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-400 grid grid-cols-1 sm:grid-cols-3 gap-4">
+    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
       {%- if program.image -%}
         <div class="col-span-1 flex items-center">
           {% assign image_path = program.image | prepend: "/assets/img/" %}
@@ -65,7 +65,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
           <p>{{ program.summary }}</p>
         </div>
         <div class="flex flex-wrap gap-4">
-          <a href="{{ program.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">Details</a>
+          <a href="{{ program.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a>
         </div>
       </div>
     </div>
@@ -79,7 +79,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   <div class="flex flex-col gap-4">
     {%- assign documents = site.documents | sort: "date" | reverse -%}
     {%- for document in documents -%}
-    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-400 grid grid-cols-1 sm:grid-cols-3 gap-4">
+    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
       {%- if document.image -%}
         <div class="col-span-1 flex items-center">
           {% assign image_path = document.image | prepend: "/assets/img/" %}
@@ -93,7 +93,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
           <p>{{ document.summary }}</p>
         </div>
         <div class="flex flex-wrap gap-4">
-          <a href="{{ document.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">{{ document.read_text }}</a>
+          <a href="{{ document.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">{{ document.read_text }}</a>
         </div>
       </div>
     </div>

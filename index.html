@@ -12,14 +12,14 @@ og_image: s8a-thumbnail.webp
       {%- for contact in site.data.contact -%}
       <a
         href="{{ contact.url }}"
-        class="px-2 py-1 rounded-md inline-block border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white dark:border-blue-400 dark:text-blue-400 dark:hover:bg-blue-400 dark:hover:text-white"
+        class="px-2 py-1 rounded-md inline-block border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white dark:border-blue-500 dark:text-blue-500 dark:hover:bg-blue-500 dark:hover:text-white transition-colors"
       >
         <i class="{{ contact.icon }}"></i> {{ contact.name }}
       </a>
       {%- endfor -%}
     </div>
   </div>
-  <div class="w-full md:w-7/12 prose dark:prose-invert prose-a:text-blue-600 prose-a:hover:text-blue-500 dark:prose-a:text-blue-400 dark:prose-a:hover:text-blue-300 prose-h1:mb-3">
+  <div class="w-full md:w-7/12 prose dark:prose-invert prose-a:text-blue-600 prose-a:hover:text-blue-500 dark:prose-a:text-blue-500 dark:prose-a:hover:text-blue-400 prose-a:transition-colors prose-h1:mb-3">
     <h1>Samuel Ochoa</h1>
     {{ site.data.about.introduction | markdownify }}
   </div>

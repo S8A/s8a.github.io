@@ -20,22 +20,26 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 
 <section id="websites" class="py-6">
   <h2 class="text-2xl font-bold mb-2">Websites</h2>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <div class="flex flex-col gap-4">
     {%- assign websites = site.websites | sort: "last_update" | reverse -%}
     {%- for website in websites -%}
-    <div class="flex flex-col gap-2 p-4 rounded-md bg-white border border-gray-950/5 shadow-sm dark:bg-gray-950 dark:border-white/10 dark:shadow-initial">
+    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-400 grid grid-cols-1 sm:grid-cols-3 gap-4">
       {%- if website.image -%}
-        {% assign image_path = website.image | prepend: "/assets/img/" %}
-        {% include img-local.html class="w-full aspect-3/2 object-contain" src=image_path widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 576px:94vw, 672px:81vw, 768px:47vw, 880px:41vw, 992px:49vw, 1096px:44vw, 1200px:32vw, 1300px:30vw, 1400px:32vw" default_width="576" %}
+        <div class="col-span-1 flex items-center">
+          {% assign image_path = website.image | prepend: "/assets/img/" %}
+          {% include img-local.html class="w-full" src=image_path widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 576px:94vw, 672px:81vw, 768px:47vw, 880px:41vw, 992px:49vw, 1096px:44vw, 1200px:32vw, 1300px:30vw, 1400px:32vw" default_width="576" %}
+        </div>
       {%- endif -%}
-      <div class="grow">
-        <h3 class="text-xl font-medium">{{ website.name }}</h3>
-        <p class="text-sm text-gray-600 dark:text-gray-400">Last update: {{ website.last_update | date: "%b %Y" }}</p>
-        <p class="mb-2">{{ website.summary }}</p>
-      </div>
-      <div class="flex flex-wrap gap-4">
-        <a href="{{ website.website_url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">{{ website.go_text }}</a>
-        <a href="{{ website.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">Details</a>
+      <div class="col-span-1 {% if website.image %}sm:col-span-2{% else %}sm:col-span-3{% endif -%}">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">{{ website.name }}</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Last update: {{ website.last_update | date: "%b %Y" }}</p>
+          <p>{{ website.summary }}</p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a href="{{ website.website_url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">{{ website.go_text }}</a>
+          <a href="{{ website.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">Details</a>
+        </div>
       </div>
     </div>
     {%- endfor -%}
@@ -44,21 +48,25 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 
 <section id="programs" class="py-6">
   <h2 class="text-2xl font-bold mb-2">Desktop programs</h2>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <div class="flex flex-col gap-4">
     {%- assign programs = site.programs | sort: "last_update" | reverse -%}
     {%- for program in programs -%}
-    <div class="flex flex-col gap-2 p-4 rounded-md bg-white border border-gray-950/5 shadow-sm dark:bg-gray-950 dark:border-white/10 dark:shadow-initial">
+    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-400 grid grid-cols-1 sm:grid-cols-3 gap-4">
       {%- if program.image -%}
-        {% assign image_path = program.image | prepend: "/assets/img/" %}
-        {% include img-local.html class="w-full aspect-3/2 object-contain" src=image_path widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 576px:94vw, 672px:81vw, 768px:47vw, 880px:41vw, 992px:49vw, 1096px:44vw, 1200px:32vw, 1300px:30vw, 1400px:32vw" default_width="576" %}
+        <div class="col-span-1 flex items-center">
+          {% assign image_path = program.image | prepend: "/assets/img/" %}
+          {% include img-local.html class="w-full" src=image_path widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 576px:94vw, 672px:81vw, 768px:47vw, 880px:41vw, 992px:49vw, 1096px:44vw, 1200px:32vw, 1300px:30vw, 1400px:32vw" default_width="576" %}
+        </div>
       {%- endif -%}
-      <div class="grow">
-        <h3 class="text-xl font-medium">{{ program.name }}</h3>
-        <p class="text-sm text-gray-600 dark:text-gray-400">Last update: {{ program.last_update | date: "%b %Y" }}</p>
-        <p class="mb-2">{{ program.summary }}</p>
-      </div>
-      <div class="flex flex-wrap gap-4">
-        <a href="{{ program.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">Details</a>
+      <div class="col-span-1 {% if program.image %}sm:col-span-2{% else %}sm:col-span-3{% endif -%}">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">{{ program.name }}</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Last update: {{ program.last_update | date: "%b %Y" }}</p>
+          <p>{{ program.summary }}</p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a href="{{ program.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">Details</a>
+        </div>
       </div>
     </div>
     {%- endfor -%}
@@ -68,21 +76,25 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 <section id="documents" class="pt-6">
   <h2 class="text-2xl font-bold mb-2">Documents</h2>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <div class="flex flex-col gap-4">
     {%- assign documents = site.documents | sort: "date" | reverse -%}
     {%- for document in documents -%}
-    <div class="flex flex-col gap-2 p-4 rounded-md bg-white border border-gray-950/5 shadow-sm dark:bg-gray-950 dark:border-white/10 dark:shadow-initial">
+    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-400 grid grid-cols-1 sm:grid-cols-3 gap-4">
       {%- if document.image -%}
-        {% assign image_path = document.image | prepend: "/assets/img/" %}
-        {% include img-local.html class="w-full aspect-3/2 object-contain" src=image_path widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 576px:94vw, 672px:81vw, 768px:47vw, 880px:41vw, 992px:49vw, 1096px:44vw, 1200px:32vw, 1300px:30vw, 1400px:32vw" default_width="576" %}
+        <div class="col-span-1 flex items-center">
+          {% assign image_path = document.image | prepend: "/assets/img/" %}
+          {% include img-local.html class="w-full" src=image_path widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 576px:94vw, 672px:81vw, 768px:47vw, 880px:41vw, 992px:49vw, 1096px:44vw, 1200px:32vw, 1300px:30vw, 1400px:32vw" default_width="576" %}
+        </div>
       {%- endif -%}
-      <div class="grow">
-        <h3 class="text-xl font-medium">{{ document.name }}</h3>
-        <p class="text-sm text-gray-600 dark:text-gray-400">{{ document.date | date_to_string }}</p>
-        <p class="mb-2">{{ document.summary }}</p>
-      </div>
-      <div class="flex flex-wrap gap-4">
-        <a href="{{ document.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">{{ document.read_text }}</a>
+      <div class="col-span-1 {% if document.image %}sm:col-span-2{% else %}sm:col-span-3{% endif -%}">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">{{ document.name }}</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">{{ document.date | date_to_string }}</p>
+          <p>{{ document.summary }}</p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a href="{{ document.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">{{ document.read_text }}</a>
+        </div>
       </div>
     </div>
     {%- endfor -%}

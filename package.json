@@ -13,7 +13,7 @@
     "tailwindcss": "^4.0.0"
   },
   "scripts": {
-    "build": "esbuild assets/js/main.js --bundle --outfile=assets/js/bundle.js",
+    "build": "esbuild assets/js/main.js --bundle --minify --outfile=assets/js/bundle.js",
     "watch": "esbuild assets/js/main.js --bundle --outfile=assets/js/bundle.js --watch"
   }
 }

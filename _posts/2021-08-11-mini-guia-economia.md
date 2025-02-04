@@ -10,11 +10,9 @@ El 15 de febrero de este año, unos amigos de la universidad tuvieron una discus
 
 A continuación, reproduzco textualmente el contenido de la guía, con algunos arreglos de formato y una corrección de traducción en un enlace.
 
-&nbsp;
 
 ------
 
-&nbsp;
 
 ## Recomendación de libro
 
@@ -23,13 +21,11 @@ Primero que nada, si van a leer un solo libro de economía en sus vidas, que sea
 Incluso si ya han leído otros libros, recomiendo que lo lean para que se saquen de la cabeza muchas falacias comunes. El libro es de 1946, así que en ciertas partes hace referencia a aspectos de la situación económica de la época que ya no aplican (ej: China era un país extremadamente pobre), pero sus lecciones igual aplican.
 
 
-&nbsp;
 ## ¿De qué se trata la economía realmente?
 
 De cómo los individuos toman decisiones en nuestro mundo de recursos escasos. Que los recursos sean escasos significa que no son infinitos.
 
 
-&nbsp;
 ## ¿Cómo se estudia la economía?
 
 La teoría *mainstream* de la economía es la síntesis neoclásica, que en resumen modela a los individuos como agentes económicos que maximizan una función de utilidad propia. Es bastante matemática, lo cual puede ser útil si se sabe manejar bien y de forma honesta, pero también puede oscurecer más de lo que aclara.
@@ -53,7 +49,6 @@ Las principales enseñanzas de la escuela austríaca que deben internalizar:
 - *[Mises, Hayek, y el proceso de mercado](https://fee.org/articles/mises-hayek-and-the-market-process-an-introduction/)*
 
 
-&nbsp;
 ## ¿Cómo se establecen los precios?
 
 En términos generales, los precios se establecen por la oferta y la demanda, y a su vez afectan a la oferta y la demanda. Sería gastar espacio re-escribir el mecanismo básico que todos conocemos (o deberíamos conocer...), y en todo caso Hazlitt lo explica de forma concisa y elocuente en el capítulo 15 de *[Economics in One Lesson](https://leeconomics.com/Literature/Henry%20Hazlitt%20Economics%20in%20One%20Lesson.pdf)*.
@@ -68,7 +63,6 @@ No, los costos de producción no determinan los precios. Como se mencionó anter
 - *["Precios de equilibrio" y precios reales](https://mises.org/wire/equilibrium-prices-and-real-prices)*
 
 
-&nbsp;
 ## Ley de Say
 
 Una ley económica fundamental que ha sido tergiversada por muchísimos "intelectuales". No es cierto que dice que "la oferta crea su propia demanda", lo cual sería absurdo y obvio para cualquiera que trate de vender bikinis en la Antártida, por ejemplo. Lo que realmente dice es que **la oferta constituye la demanda** o, en otras palabras, que no puede haber demanda sin oferta. Esto es porque la demanda no es solo lo que la gente desea, sino lo que la gente desea y está dispuesta y capaz de pagar. Por lo tanto, una persona solo puede demandar bienes y servicios si ha producido algo anteriormente y ha sido remunerada por ello, o si ha recibido un préstamo o crédito, que no es más que una promesa de pago a futuro (y por lo tanto producción a futuro); además, el crédito no es infinito, sino que depende de la disponibilidad de fondos ahorrados, es decir, producción previa de otras personas. No hay escapatoria, **no hay almuerzos gratis, no se puede consumir sin producir.**
@@ -77,13 +71,11 @@ Una ley económica fundamental que ha sido tergiversada por muchísimos "intelec
 - *[La ley de Say versus la economía keynesiana](https://www.aier.org/article/says-law-versus-keynesian-economics/)*
 
 
-&nbsp;
 ## ¿Por qué veo tanta disfunción económica en el mundo real, fuera de la teoría?
 
 En el mundo real hay una entidad que interfiere en el mercado y distorsiona todo: el gobierno. No solo el nuestro, todos los gobiernos son fundamentalmente organizaciones coercitivas, pues su función es establecer ordenes sobre los habitantes de un territorio y obligarlos a cumplirlas bajo la amenaza de sanciones, encarcelamiento o ejecución dependiendo del caso. La naturaleza coercitiva del gobierno, y los problemas de incentivos e información que conlleva, introducen distorsiones en el mercado, sus precios, la distribución de la producción y del ingreso, y el comportamiento mismo de las personas, y por lo tanto resultan en la desviación de los recursos a usos sub-óptimos, es decir, más pobreza.
 
 
-&nbsp;
 ## ¿Por qué el gobierno no debe intervenir en los mercados? o ¿Por qué el socialismo no funciona?
 
 Mientras más intervención en el mercado, más distorsiones y desequilibrios en la información y los incentivos que guían las decisiones de producción, consumo, ahorro, inversión, importación, exportación y demás de los agentes económicos, y por lo tanto los recursos no son aprovechados para los usos que proveen más utilidad a las personas, es decir, que todos son más pobres.
@@ -99,7 +91,6 @@ Además de los problemas de información e incentivos, mientras más se aproxima
 - *[Por qué el gobierno no puede gestionar la sociedad. Parte II](https://www.fff.org/explore-freedom/article/f-hayek-government-cant-manage-society-part-ii/)*
 
 
-&nbsp;
 ## ¿Qué es el dinero y cómo surge?
 
 Se considera **dinero** a cualquier ítem o registro verificable que sirva como **medio de intercambio ampliamente aceptado** en una región geográfica o contexto socio-económico particular. Otras funciones del dinero son como unidad de cuenta y como almacén de valor, pero estas no son necesarias para que algo se considere como dinero. Para ilustrar mejor esto, el bolívar es dinero aunque no sirva para almacenar valor, mientras que el Bitcoin no es dinero porque no es ampliamente aceptado como medio de pago.
@@ -113,7 +104,6 @@ En todo caso, el dinero y los mercados son instituciones complementarias entre s
 - *[Dinero, mercado y orden económico](https://www.aier.org/article/money-markets-and-economic-order/)*
 
 
-&nbsp;
 ## El problema de los bancos centrales
 
 Un banco central no es más que el **monopolio del gobierno sobre la emisión legal de dinero**. Como todo monopolio gubernamental, la planificación central del dinero es sistemáticamente deficiente y frecuentemente catastrófica, pues es imposible que el gobierno pueda determinar de forma racional la oferta adecuada de dinero a lo largo del tiempo ni cómo distribuirlo adecuadamente. Históricamente, los bancos centrales tienen un récord pésimo y siempre se han originado porque beneficia a los gobiernos y sus socios a expensas de la población en general (más detalles sobre esto en la siguiente sección).
@@ -126,7 +116,6 @@ Lo ideal sería que el dinero fuera como cualquier otro bien: producido por ente
 - *[Refutando mitos sobre el patrón oro](https://www.alt-m.org/2015/06/04/ten-things-every-economist-should-know-about-the-gold-standard-2/)*
 
 
-&nbsp;
 ## Inflación monetaria e inflación de precios
 
 Históricamente, la palabra "inflación" se refería a la expansión de la oferta monetaria como tal (**inflación monetaria**), pero actualmente suele usarse para referirse a una de sus consecuencias frecuentes: la subida general en el nivel de los precios (**inflación de precios**).
@@ -148,7 +137,6 @@ La relación entre la inflación monetaria y la inflación de precios es variabl
 - *[Sobre ciertas malas interpretaciones del efecto Cantillon](https://mises.org/library/note-some-recent-misinterpretations-cantillon-effect)*
 
 
-&nbsp;
 ## ¿Qué salió mal en Venezuela y cómo?
 En resumen, prácticamente todo salió mal, de forma predecible, precisamente porque se llevaban décadas de socialismo *light* y luego el chavismo implementó socialismo duro (pero no puro, afortunadamente). El hecho de que el gobierno de Maduro está liberalizando lentamente el modelo económico debe ser de alivio para todos (pero nunca se les debe agradecer).
 

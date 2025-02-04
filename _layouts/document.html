@@ -12,5 +12,5 @@ layout: default
 <div class="flex flex-col gap-2">
   <p><small class="text-sm text-gray-600 dark:text-gray-400">Published date: {{ page.date | date_to_string }}</small></p>
   <p>{{ page.summary }}</p>
-  <p><a href="{{ page.read_url }}" class="px-2 py-1 rounded-md inline-block text-white bg-blue-600 hover:bg-blue-500 dark:bg-blue-500 dark:hover:bg-blue-400 transition-colors">{{ page.read_text }}</a></p>
+  <p><a href="{{ page.read_url }}" class="px-2 py-1 rounded-md inline-block text-white bg-blue-600 hover:bg-blue-500 dark:bg-blue-500 dark:hover:bg-blue-400 transition-colors"><i class="bi bi-globe"></i> {{ page.read_text }}</a></p>
 </div>

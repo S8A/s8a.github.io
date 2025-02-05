@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Links and Thoughts #10 (October 2024)"
-og_desc: West Eurasian evolution, human genetic deterioration, Christianity and cognitive evolution, immigration and federalism, and Mises on fractional reserve banking.
-og_image: links-and-thoughts-010.webp
-big_image: links-and-thoughts-010.webp
+description: West Eurasian evolution, human genetic deterioration, Christianity and cognitive evolution, immigration and federalism, and Mises on fractional reserve banking.
+image: /assets/img/links-and-thoughts-010.webp
+big_image: /assets/img/links-and-thoughts-010.webp
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---

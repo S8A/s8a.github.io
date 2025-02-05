@@ -2,7 +2,7 @@
 layout: post
 title: "Breve guía introductoria de economía"
 lang: es
-og_desc: Una breve guía de economía que escribí en un chat grupal.
+description: Una breve guía de economía que escribí en un chat grupal.
 category: personal
 ---
 

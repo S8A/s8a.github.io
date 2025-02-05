@@ -20,6 +20,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://s8a.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: S8A
+repository: S8A/s8a.github.io
+author:
+  name: Samuel Ochoa
+  email: samuelochoap@gmail.com
+  url: https://s8a.github.io
+  twitter: SamuelOchoaP
 
 permalink: /:year/:month/:day/:title/
 
@@ -39,11 +45,8 @@ collections:
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-thumbnail-img
-  - jekyll-postcss-v2
+# Don't set plugins because all of them are set in the jekyll_plugins
+# group of the Gemfile
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -57,3 +60,10 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - docker-compose.yml
+
+# Front Matter defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/s8a-thumbnail.webp

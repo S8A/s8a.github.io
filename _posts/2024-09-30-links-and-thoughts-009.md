@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Links and Thoughts #9 (September 2024)"
-og_desc: The cost of apathy, the ideological well-being gap, trans-racial dysmorphia, and the strange loops of life and lifting.
-og_image: links-and-thoughts-009.webp
-big_image: links-and-thoughts-009.webp
+description: The cost of apathy, the ideological well-being gap, trans-racial dysmorphia, and the strange loops of life and lifting.
+image: /assets/img/links-and-thoughts-009.webp
+big_image: /assets/img/links-and-thoughts-009.webp
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---

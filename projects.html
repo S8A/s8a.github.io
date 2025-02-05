@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Projects
-og_desc: My personal software and academic projects.
-og_image: s8a-thumbnail.webp
+description: My personal software and academic projects.
 main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 ---
 
@@ -26,8 +25,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
     <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
       {%- if website.image -%}
         <div class="col-span-1 flex items-center">
-          {% assign image_path = website.image | prepend: "/assets/img/" %}
-          {% include img-local.html class="w-full" src=image_path widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:19rem" default_width="640" %}
+          {%- include img-local.html class="w-full" src=website.image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:19rem" default_width="640" -%}
         </div>
       {%- endif -%}
       <div class="col-span-1 {% if website.image %}sm:col-span-2{% else %}sm:col-span-3{% endif -%}">
@@ -54,8 +52,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
     <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
       {%- if program.image -%}
         <div class="col-span-1 flex items-center">
-          {% assign image_path = program.image | prepend: "/assets/img/" %}
-          {% include img-local.html class="w-full" src=image_path widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:19rem" default_width="640" %}
+          {%- include img-local.html class="w-full" src=program.image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:19rem" default_width="640" -%}
         </div>
       {%- endif -%}
       <div class="col-span-1 {% if program.image %}sm:col-span-2{% else %}sm:col-span-3{% endif -%}">
@@ -82,8 +79,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
     <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
       {%- if document.image -%}
         <div class="col-span-1 flex items-center">
-          {% assign image_path = document.image | prepend: "/assets/img/" %}
-          {% include img-local.html class="w-full" src=image_path widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:19rem" default_width="640" %}
+          {%- include img-local.html class="w-full" src=document.image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:19rem" default_width="640" -%}
         </div>
       {%- endif -%}
       <div class="col-span-1 {% if document.image %}sm:col-span-2{% else %}sm:col-span-3{% endif -%}">

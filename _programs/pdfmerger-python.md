@@ -1,7 +1,8 @@
 ---
 layout: program
 name: PDFMerger (Python)
-icon: pdfmerger.svg
+icon: /assets/img/pdfmerger.svg
+description: Tool for merging PDF documents.
 summary: Tool for merging PDF documents made in Python.
 features:
 - "Split and order documents before merging."
@@ -10,6 +11,6 @@ features:
 - "Multiplatform: Runs on any system with Python 3."
 - "Only available in English."
 github: https://github.com/S8A/pdfmerger-python
-image: pdfmerger-python-screenshot.webp
+image: /assets/img/pdfmerger-python-screenshot.webp
 last_update: 2020-05-17
 ---

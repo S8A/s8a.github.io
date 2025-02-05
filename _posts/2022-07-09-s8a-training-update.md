@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "8A Training update: v4.1.0"
-og_desc: I updated my training log web-app to improve its UI & UX.
-og_image: s8a-training-v4.1.0.webp
-big_image: s8a-training-v4.1.0.webp
+description: I updated my training log web-app to improve its UI & UX.
+image: /assets/img/s8a-training-v4.1.0.webp
+big_image: /assets/img/s8a-training-v4.1.0.webp
 big_image_alt: Screenshots of the web-app on a mobile phone.
 category: projects
 ---

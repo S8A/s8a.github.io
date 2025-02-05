@@ -6,8 +6,7 @@ layout: default
   <h1>{{- page.title -}}</h1>
   <p class="text-center text-gray-600 dark:text-gray-400 mb-2"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time> &ndash; {{ page.category }}</p>
   {%- if page.big_image -%}
-    {% assign big_image_path = page.big_image | prepend: "/assets/img/" %}
-    {% include img-local.html class="w-full" src=big_image_path widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:40rem, 48rem:48rem, 64rem:56rem" default_size="1080" alt=page.big_image_alt %}
+    {%- include img-local.html class="w-full" src=page.big_image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:40rem, 48rem:48rem, 64rem:56rem" default_size="1080" alt=page.big_image_alt -%}
   {%- endif -%}
   {{- content -}}
 </article>

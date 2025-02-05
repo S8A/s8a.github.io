@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Koditlin: First working version"
-og_desc: I created a simple text editor in Kotlin.
+description: I created a simple text editor in Kotlin.
 category: projects
 ---
 Today I wrote the first working version of Koditlin, a simple text editor. It currently has only basic functionality: create a new file, open a file, and save the current file.

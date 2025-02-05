@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I will not complete the SICP book"
-og_desc: There's no point in learning techniques aimlessly.
+description: There's no point in learning techniques aimlessly.
 category: projects
 ---
 I finished section 2.2. of the SICP book last Friday. I decided to not continue with it, for several reasons. Instead, I will complete the HTDP book.

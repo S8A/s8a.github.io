@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Solow-Swan growth model"
-og_desc: Link to an interactive document explaining the Solow-Swan economic growth model.
-og_image: solow-swan-growth-model.webp
-big_image: solow-swan-growth-model.webp
+description: Link to an interactive document explaining the Solow-Swan economic growth model.
+image: /assets/img/solow-swan-growth-model.webp
+big_image: /assets/img/solow-swan-growth-model.webp
 big_image_alt: Graph of per capita income and the equilibrium state of an economy in the Solow-Swan growth model.
 category: projects
 ---

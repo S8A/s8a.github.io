@@ -1,7 +1,8 @@
 ---
 layout: program
 name: UMC Campus CRUD
-icon: umc-logo.png
+icon: /assets/img/umc-logo.png
+description: Tool for managing a database of UMC students and their grades.
 summary: >
   Tool for managing a database of UMC students and their grades. Made as an
   assignment for the UMC's Programming III course.
@@ -15,6 +16,6 @@ find grades by subject, and calculate academic scores."
 find students' grades by subject, make new records, load records from file, 
 update students' records, and delete students' records."
 github: https://github.com/S8A/umc-pro633-crud
-image: umc-pro633-crud-both-demo.webp
+image: /assets/img/umc-pro633-crud-both-demo.webp
 last_update: 2020-04-03
 ---

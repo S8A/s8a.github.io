@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Links and Thoughts #6 (June 2024)"
-og_desc: Great work, Churchill, bioelectricity, Critical Age Theory, and normative versus positive hypocrisy.
-og_image: links-and-thoughts-006.webp
-big_image: links-and-thoughts-006.webp
+description: Great work, Churchill, bioelectricity, Critical Age Theory, and normative versus positive hypocrisy.
+image: /assets/img/links-and-thoughts-006.webp
+big_image: /assets/img/links-and-thoughts-006.webp
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---

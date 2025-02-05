@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Conway's Game of Life"
-og_desc: I made a simple implementation of the Game of Life in Python.
-og_image: conway-og-image.webp
-big_image: conway-big-image.webp
+description: I made a simple implementation of the Game of Life in Python.
+image: /assets/img/conway-og-image.webp
+big_image: /assets/img/conway-big-image.webp
 big_image_alt: Screenshots of the game.
 category: projects
 ---

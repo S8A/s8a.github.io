@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Completed the book How to Design Programs"
-og_desc: Thoughts after reading all chapters and doing all the exercises.
+description: Thoughts after reading all chapters and doing all the exercises.
 category: projects
 ---
 A few hours ago I finished reading the epilogue of the book *[How to Design Programs](https://htdp.org)*, after reading all its chapters and completing all of its exercises in the span of 7 weeks. It was completely worth it.

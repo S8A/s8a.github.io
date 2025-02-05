@@ -1,71 +1,124 @@
 <!doctype html>
-<html lang="es">
+<html
+  x-data
+  x-bind:class="$store.darkMode.on ? 'dark' : ''"
+  lang="es"
+>
   <head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1"><title>Breve guía introductoria de economía &ndash; Samuel Ochoa</title>
-<meta name="description" content="Una breve guía de economía que escribí en un chat grupal."><link rel="icon" type="image/png" sizes="32x32" href="/assets/img/thumbnails/favicon_32w.png">
+<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Breve guía introductoria de economía | Samuel Ochoa</title>
+<meta name="generator" content="Jekyll v4.4.0" />
+<meta property="og:title" content="Breve guía introductoria de economía" />
+<meta name="author" content="Samuel Ochoa" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="Una breve guía de economía que escribí en un chat grupal." />
+<meta property="og:description" content="Una breve guía de economía que escribí en un chat grupal." />
+<link rel="canonical" href="https://s8a.github.io/2021/08/11/mini-guia-economia/" />
+<meta property="og:url" content="https://s8a.github.io/2021/08/11/mini-guia-economia/" />
+<meta property="og:site_name" content="Samuel Ochoa" />
+<meta property="og:image" content="https://s8a.github.io/assets/img/s8a-thumbnail.webp" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-08-11T00:00:00-04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://s8a.github.io/assets/img/s8a-thumbnail.webp" />
+<meta property="twitter:title" content="Breve guía introductoria de economía" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Samuel Ochoa","url":"https://s8a.github.io"},"dateModified":"2021-08-11T00:00:00-04:00","datePublished":"2021-08-11T00:00:00-04:00","description":"Una breve guía de economía que escribí en un chat grupal.","headline":"Breve guía introductoria de economía","image":"https://s8a.github.io/assets/img/s8a-thumbnail.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://s8a.github.io/2021/08/11/mini-guia-economia/"},"url":"https://s8a.github.io/2021/08/11/mini-guia-economia/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/thumbnails/favicon_32w.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/thumbnails/favicon_16w.png"><link rel="icon" type="image/png" sizes="48x48" href="/assets/img/thumbnails/s8a-icon_48w.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/thumbnails/s8a-icon_192w.png">
 <link rel="apple-touch-icon" type="image/png" sizes="167x167" href="/assets/img/thumbnails/s8a-icon_167w.png">
-<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/img/thumbnails/s8a-icon_180w.png"><meta property="og:url" content="https://s8a.github.io/2021/08/11/mini-guia-economia/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Breve guía introductoria de economía &ndash; Samuel Ochoa">
-<meta property="og:description" content="Una breve guía de economía que escribí en un chat grupal.">
-<meta property="og:image" content="https://s8a.github.io/assets/img/s8a-thumbnail.webp">
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/img/thumbnails/s8a-icon_180w.png"><link type="application/atom+xml" rel="alternate" href="https://s8a.github.io/feed.xml" title="Samuel Ochoa" /><link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/main.css">
 
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="s8a.github.io">
-<meta property="twitter:url" content="https://s8a.github.io/2021/08/11/mini-guia-economia/">
-<meta name="twitter:title" content="Breve guía introductoria de economía &ndash; Samuel Ochoa">
-<meta name="twitter:description" content="Una breve guía de economía que escribí en un chat grupal.">
-<meta name="twitter:image" content="https://s8a.github.io/assets/img/s8a-thumbnail.webp">
-<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-icons.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.min.css">
+    <script src="https://s8a.github.io/assets/js/bundle.js" defer></script>
   </head>
-  <body><header lang="en">
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Primary navigation">
-    <div class="container-md">
-      <a class="navbar-brand" href="/">
-        <img src="/assets/img/s8a-icon.svg" alt="Home" width="32" height="32">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="navbar-nav me-auto mb-md-0"><li class="nav-item">
-            
-            <a href="/" class="nav-link">
-            Home</a>
-          </li><li class="nav-item">
-            
-            <a href="/about/" class="nav-link">
-            About</a>
-          </li><li class="nav-item">
-            
-            <a href="/projects/" class="nav-link">
-            Projects</a>
-          </li><li class="nav-item">
-            
-            <a href="/blog/" class="nav-link">
-            Blog</a>
-          </li></ul>
+  <body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 min-h-screen flex flex-col"><header lang="en" class="bg-gray-950 text-gray-100 border-b border-gray-950/5 dark:border-white/10" x-data="{ open: false }">
+  <nav class="container lg:max-w-4xl mx-auto px-4 py-3" aria-label="Main navigation">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-8">
+        <div class="shrink-0">
+          <a href="https://s8a.github.io/">
+            <img
+              src="https://s8a.github.io/assets/img/s8a-icon.svg"
+              alt="Samuel Ochoa"
+              width="32"
+              height="32"
+            >
+          </a>
+        </div>
+
+        <div class="hidden md:block">
+          <ul class="flex items-baseline gap-4"><li><a
+                    href="https://s8a.github.io/"
+                    class="rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+                  >Home</a></li><li><a
+                    href="https://s8a.github.io/about/"
+                    class="rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+                  >About</a></li><li><a
+                    href="https://s8a.github.io/projects/"
+                    class="rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+                  >Projects</a></li><li><a
+                    href="https://s8a.github.io/blog/"
+                    class="rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+                  >Blog</a></li></ul>
+        </div>
       </div>
+
+      <div class="flex items-center gap-4">
+        <button
+          class="rounded-md px-2 py-1 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors cursor-pointer"
+          x-bind:aria-label="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"
+          x-bind:title="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"
+          x-on:click="$store.darkMode.toggle()"
+        >
+          <i class="bi text-lg" x-bind:class="$store.darkMode.on ? 'bi-moon-stars-fill' : 'bi-sun-fill'"></i>
+        </button>
+        <button
+          class="block md:hidden rounded-md px-2 py-1 transition-colors cursor-pointer"
+          x-bind:class="open ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-800 hover:text-white'"
+          x-on:click="open = !open"
+          aria-label="Toggle menu"
+          title="Toggle menu"
+        >
+          <i class="bi bi-list text-lg"></i>
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="md:hidden"
+      x-show="open"
+      x-transition:enter="transition ease-out duration-200"
+      x-transition:enter-start="opacity-0 -translate-y-2"
+      x-transition:enter-end="opacity-100 translate-y-0"
+      x-transition:leave="transition ease-in duration-150"
+      x-transition:leave-start="opacity-100 translate-y-0"
+      x-transition:leave-end="opacity-0 -translate-y-2"
+    >
+      <ul class="py-2 flex flex-col gap-1"><li><a
+                href="https://s8a.github.io/"
+                class="block w-full rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+              >Home</a></li><li><a
+                href="https://s8a.github.io/about/"
+                class="block w-full rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+              >About</a></li><li><a
+                href="https://s8a.github.io/projects/"
+                class="block w-full rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+              >Projects</a></li><li><a
+                href="https://s8a.github.io/blog/"
+                class="block w-full rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+              >Blog</a></li></ul>
     </div>
   </nav>
 </header>
-<main>
-      <div class="container py-3"><div class="row">
-  <article id="post" class="col col-lg-8 mx-auto py-3">
-    <h1 class="text-center">Breve guía introductoria de economía</h1>
-    <p class="text-center text-muted"><time datetime="2021-08-11T00:00:00+00:00">11 Aug 2021</time> &ndash; personal</p><p>El 15 de febrero de este año, unos amigos de la universidad tuvieron una discusión nocturna por WhatsApp sobre temas de economía, principalmente sobre el control de precios. En vista de las múltiples falacias y mitos económicos en los argumentos presentados, decidí redactar esta breve guía de economía, la cual terminé de escribir al día siguiente, y hoy decidí hacerla pública.</p>
+<main class="flex-grow container lg:max-w-4xl mx-auto p-4 "><article id="post" class="prose dark:prose-invert prose-a:text-blue-600 prose-a:hover:text-blue-500 dark:prose-a:text-blue-500 dark:prose-a:hover:text-blue-400 prose-a:transition-colors prose-h1:text-center prose-h1:mb-2 max-w-none">
+  <h1>Breve guía introductoria de economía</h1>
+  <p class="text-center text-gray-600 dark:text-gray-400 mb-2"><time datetime="2021-08-11T00:00:00-04:00">11 Aug 2021</time> &ndash; personal</p><p>El 15 de febrero de este año, unos amigos de la universidad tuvieron una discusión nocturna por WhatsApp sobre temas de economía, principalmente sobre el control de precios. En vista de las múltiples falacias y mitos económicos en los argumentos presentados, decidí redactar esta breve guía de economía, la cual terminé de escribir al día siguiente, y hoy decidí hacerla pública.</p>
 
 <p>A continuación, reproduzco textualmente el contenido de la guía, con algunos arreglos de formato y una corrección de traducción en un enlace.</p>
 
-<p> </p>
-
 <hr />
-
-<p> </p>
 
 <h2 id="recomendación-de-libro">Recomendación de libro</h2>
 
@@ -73,12 +126,10 @@
 
 <p>Incluso si ya han leído otros libros, recomiendo que lo lean para que se saquen de la cabeza muchas falacias comunes. El libro es de 1946, así que en ciertas partes hace referencia a aspectos de la situación económica de la época que ya no aplican (ej: China era un país extremadamente pobre), pero sus lecciones igual aplican.</p>
 
-<p> </p>
 <h2 id="de-qué-se-trata-la-economía-realmente">¿De qué se trata la economía realmente?</h2>
 
 <p>De cómo los individuos toman decisiones en nuestro mundo de recursos escasos. Que los recursos sean escasos significa que no son infinitos.</p>
 
-<p> </p>
 <h2 id="cómo-se-estudia-la-economía">¿Cómo se estudia la economía?</h2>
 
 <p>La teoría <em>mainstream</em> de la economía es la síntesis neoclásica, que en resumen modela a los individuos como agentes económicos que maximizan una función de utilidad propia. Es bastante matemática, lo cual puede ser útil si se sabe manejar bien y de forma honesta, pero también puede oscurecer más de lo que aclara.</p>
@@ -107,7 +158,6 @@
   <li><em><a href="https://fee.org/articles/mises-hayek-and-the-market-process-an-introduction/">Mises, Hayek, y el proceso de mercado</a></em></li>
 </ul>
 
-<p> </p>
 <h2 id="cómo-se-establecen-los-precios">¿Cómo se establecen los precios?</h2>
 
 <p>En términos generales, los precios se establecen por la oferta y la demanda, y a su vez afectan a la oferta y la demanda. Sería gastar espacio re-escribir el mecanismo básico que todos conocemos (o deberíamos conocer…), y en todo caso Hazlitt lo explica de forma concisa y elocuente en el capítulo 15 de <em><a href="https://leeconomics.com/Literature/Henry%20Hazlitt%20Economics%20in%20One%20Lesson.pdf">Economics in One Lesson</a></em>.</p>
@@ -123,7 +173,6 @@
   <li><em><a href="https://mises.org/wire/equilibrium-prices-and-real-prices">“Precios de equilibrio” y precios reales</a></em></li>
 </ul>
 
-<p> </p>
 <h2 id="ley-de-say">Ley de Say</h2>
 
 <p>Una ley económica fundamental que ha sido tergiversada por muchísimos “intelectuales”. No es cierto que dice que “la oferta crea su propia demanda”, lo cual sería absurdo y obvio para cualquiera que trate de vender bikinis en la Antártida, por ejemplo. Lo que realmente dice es que <strong>la oferta constituye la demanda</strong> o, en otras palabras, que no puede haber demanda sin oferta. Esto es porque la demanda no es solo lo que la gente desea, sino lo que la gente desea y está dispuesta y capaz de pagar. Por lo tanto, una persona solo puede demandar bienes y servicios si ha producido algo anteriormente y ha sido remunerada por ello, o si ha recibido un préstamo o crédito, que no es más que una promesa de pago a futuro (y por lo tanto producción a futuro); además, el crédito no es infinito, sino que depende de la disponibilidad de fondos ahorrados, es decir, producción previa de otras personas. No hay escapatoria, <strong>no hay almuerzos gratis, no se puede consumir sin producir.</strong></p>
@@ -133,12 +182,10 @@
   <li><em><a href="https://www.aier.org/article/says-law-versus-keynesian-economics/">La ley de Say versus la economía keynesiana</a></em></li>
 </ul>
 
-<p> </p>
 <h2 id="por-qué-veo-tanta-disfunción-económica-en-el-mundo-real-fuera-de-la-teoría">¿Por qué veo tanta disfunción económica en el mundo real, fuera de la teoría?</h2>
 
 <p>En el mundo real hay una entidad que interfiere en el mercado y distorsiona todo: el gobierno. No solo el nuestro, todos los gobiernos son fundamentalmente organizaciones coercitivas, pues su función es establecer ordenes sobre los habitantes de un territorio y obligarlos a cumplirlas bajo la amenaza de sanciones, encarcelamiento o ejecución dependiendo del caso. La naturaleza coercitiva del gobierno, y los problemas de incentivos e información que conlleva, introducen distorsiones en el mercado, sus precios, la distribución de la producción y del ingreso, y el comportamiento mismo de las personas, y por lo tanto resultan en la desviación de los recursos a usos sub-óptimos, es decir, más pobreza.</p>
 
-<p> </p>
 <h2 id="por-qué-el-gobierno-no-debe-intervenir-en-los-mercados-o-por-qué-el-socialismo-no-funciona">¿Por qué el gobierno no debe intervenir en los mercados? o ¿Por qué el socialismo no funciona?</h2>
 
 <p>Mientras más intervención en el mercado, más distorsiones y desequilibrios en la información y los incentivos que guían las decisiones de producción, consumo, ahorro, inversión, importación, exportación y demás de los agentes económicos, y por lo tanto los recursos no son aprovechados para los usos que proveen más utilidad a las personas, es decir, que todos son más pobres.</p>
@@ -155,7 +202,6 @@
   <li><em><a href="https://www.fff.org/explore-freedom/article/f-hayek-government-cant-manage-society-part-ii/">Por qué el gobierno no puede gestionar la sociedad. Parte II</a></em></li>
 </ul>
 
-<p> </p>
 <h2 id="qué-es-el-dinero-y-cómo-surge">¿Qué es el dinero y cómo surge?</h2>
 
 <p>Se considera <strong>dinero</strong> a cualquier ítem o registro verificable que sirva como <strong>medio de intercambio ampliamente aceptado</strong> en una región geográfica o contexto socio-económico particular. Otras funciones del dinero son como unidad de cuenta y como almacén de valor, pero estas no son necesarias para que algo se considere como dinero. Para ilustrar mejor esto, el bolívar es dinero aunque no sirva para almacenar valor, mientras que el Bitcoin no es dinero porque no es ampliamente aceptado como medio de pago.</p>
@@ -170,7 +216,6 @@
   <li><em><a href="https://www.aier.org/article/money-markets-and-economic-order/">Dinero, mercado y orden económico</a></em></li>
 </ul>
 
-<p> </p>
 <h2 id="el-problema-de-los-bancos-centrales">El problema de los bancos centrales</h2>
 
 <p>Un banco central no es más que el <strong>monopolio del gobierno sobre la emisión legal de dinero</strong>. Como todo monopolio gubernamental, la planificación central del dinero es sistemáticamente deficiente y frecuentemente catastrófica, pues es imposible que el gobierno pueda determinar de forma racional la oferta adecuada de dinero a lo largo del tiempo ni cómo distribuirlo adecuadamente. Históricamente, los bancos centrales tienen un récord pésimo y siempre se han originado porque beneficia a los gobiernos y sus socios a expensas de la población en general (más detalles sobre esto en la siguiente sección).</p>
@@ -184,7 +229,6 @@
   <li><em><a href="https://www.alt-m.org/2015/06/04/ten-things-every-economist-should-know-about-the-gold-standard-2/">Refutando mitos sobre el patrón oro</a></em></li>
 </ul>
 
-<p> </p>
 <h2 id="inflación-monetaria-e-inflación-de-precios">Inflación monetaria e inflación de precios</h2>
 
 <p>Históricamente, la palabra “inflación” se refería a la expansión de la oferta monetaria como tal (<strong>inflación monetaria</strong>), pero actualmente suele usarse para referirse a una de sus consecuencias frecuentes: la subida general en el nivel de los precios (<strong>inflación de precios</strong>).</p>
@@ -207,7 +251,6 @@
   <li><em><a href="https://mises.org/library/note-some-recent-misinterpretations-cantillon-effect">Sobre ciertas malas interpretaciones del efecto Cantillon</a></em></li>
 </ul>
 
-<p> </p>
 <h2 id="qué-salió-mal-en-venezuela-y-cómo">¿Qué salió mal en Venezuela y cómo?</h2>
 <p>En resumen, prácticamente todo salió mal, de forma predecible, precisamente porque se llevaban décadas de socialismo <em>light</em> y luego el chavismo implementó socialismo duro (pero no puro, afortunadamente). El hecho de que el gobierno de Maduro está liberalizando lentamente el modelo económico debe ser de alivio para todos (pero nunca se les debe agradecer).</p>
 
@@ -229,22 +272,23 @@
 </ul>
 
 </article>
-</div>
-</div>
-    </main><footer class="container small" lang="en">
-  <div class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3" aria-hidden="true"><li class="nav-item">
-        <a href="/" class="nav-link px-2 text-muted">Home</a>
-      </li><li class="nav-item">
-        <a href="/about/" class="nav-link px-2 text-muted">About</a>
-      </li><li class="nav-item">
-        <a href="/projects/" class="nav-link px-2 text-muted">Projects</a>
-      </li><li class="nav-item">
-        <a href="/blog/" class="nav-link px-2 text-muted">Blog</a>
-      </li></ul>
-    <p class="text-center text-muted">Samuel Ochoa 2025</p>
+</main><footer lang="en" class="bg-white text-gray-500 dark:bg-gray-900 dark:text-gray-400 py-8 mt-auto">
+  <div class="container lg:max-w-4xl border-t border-gray-950/5 dark:border-white/10 mx-auto p-4">
+    <div class="flex flex-col items-center justify-center gap-4">
+      <nav aria-label="Footer navigation">
+        <ul class="flex gap-6 text-sm"><li>
+              <a href="/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Home</a>
+            </li><li>
+              <a href="/about/" class="hover:text-gray-600 dark:hover:text-white transition-colors">About</a>
+            </li><li>
+              <a href="/projects/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Projects</a>
+            </li><li>
+              <a href="/blog/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Blog</a>
+            </li></ul>
+      </nav>
+      <p class="text-xs">Samuel Ochoa · 2025</p>
+    </div>
   </div>
 </footer>
-<script src="/assets/js/bootstrap.bundle.min.js"></script>
-  </body>
+</body>
 </html>

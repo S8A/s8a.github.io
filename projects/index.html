@@ -1,336 +1,420 @@
 <!doctype html>
-<html lang="en">
+<html
+  x-data
+  x-bind:class="$store.darkMode.on ? 'dark' : ''"
+  lang="en"
+>
   <head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1"><title>Projects &ndash; Samuel Ochoa</title>
-<meta name="description" content="My personal software and academic projects."><link rel="icon" type="image/png" sizes="32x32" href="/assets/img/thumbnails/favicon_32w.png">
+<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Projects | Samuel Ochoa</title>
+<meta name="generator" content="Jekyll v4.4.0" />
+<meta property="og:title" content="Projects" />
+<meta name="author" content="Samuel Ochoa" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="My personal software and academic projects." />
+<meta property="og:description" content="My personal software and academic projects." />
+<link rel="canonical" href="https://s8a.github.io/projects/" />
+<meta property="og:url" content="https://s8a.github.io/projects/" />
+<meta property="og:site_name" content="Samuel Ochoa" />
+<meta property="og:image" content="https://s8a.github.io/assets/img/s8a-thumbnail.webp" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://s8a.github.io/assets/img/s8a-thumbnail.webp" />
+<meta property="twitter:title" content="Projects" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Samuel Ochoa","url":"https://s8a.github.io"},"description":"My personal software and academic projects.","headline":"Projects","image":"https://s8a.github.io/assets/img/s8a-thumbnail.webp","url":"https://s8a.github.io/projects/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/thumbnails/favicon_32w.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/thumbnails/favicon_16w.png"><link rel="icon" type="image/png" sizes="48x48" href="/assets/img/thumbnails/s8a-icon_48w.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/thumbnails/s8a-icon_192w.png">
 <link rel="apple-touch-icon" type="image/png" sizes="167x167" href="/assets/img/thumbnails/s8a-icon_167w.png">
-<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/img/thumbnails/s8a-icon_180w.png"><meta property="og:url" content="https://s8a.github.io/projects/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Projects &ndash; Samuel Ochoa">
-<meta property="og:description" content="My personal software and academic projects.">
-<meta property="og:image" content="https://s8a.github.io/assets/img/s8a-thumbnail.webp">
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/img/thumbnails/s8a-icon_180w.png"><link type="application/atom+xml" rel="alternate" href="https://s8a.github.io/feed.xml" title="Samuel Ochoa" /><link rel="stylesheet" type="text/css" href="https://s8a.github.io/assets/css/main.css">
 
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="s8a.github.io">
-<meta property="twitter:url" content="https://s8a.github.io/projects/">
-<meta name="twitter:title" content="Projects &ndash; Samuel Ochoa">
-<meta name="twitter:description" content="My personal software and academic projects.">
-<meta name="twitter:image" content="https://s8a.github.io/assets/img/s8a-thumbnail.webp">
-<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-icons.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.min.css">
+    <script src="https://s8a.github.io/assets/js/bundle.js" defer></script>
   </head>
-  <body><header lang="en">
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Primary navigation">
-    <div class="container-md">
-      <a class="navbar-brand" href="/">
-        <img src="/assets/img/s8a-icon.svg" alt="Home" width="32" height="32">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="navbar-nav me-auto mb-md-0"><li class="nav-item">
-            
-            <a href="/" class="nav-link">
-            Home</a>
-          </li><li class="nav-item">
-            
-            <a href="/about/" class="nav-link">
-            About</a>
-          </li><li class="nav-item">
-            
-            <a href="#" class="nav-link active" aria-current="page">
-            Projects</a>
-          </li><li class="nav-item">
-            
-            <a href="/blog/" class="nav-link">
-            Blog</a>
-          </li></ul>
+  <body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 min-h-screen flex flex-col"><header lang="en" class="bg-gray-950 text-gray-100 border-b border-gray-950/5 dark:border-white/10" x-data="{ open: false }">
+  <nav class="container lg:max-w-4xl mx-auto px-4 py-3" aria-label="Main navigation">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-8">
+        <div class="shrink-0">
+          <a href="https://s8a.github.io/">
+            <img
+              src="https://s8a.github.io/assets/img/s8a-icon.svg"
+              alt="Samuel Ochoa"
+              width="32"
+              height="32"
+            >
+          </a>
+        </div>
+
+        <div class="hidden md:block">
+          <ul class="flex items-baseline gap-4"><li><a
+                    href="https://s8a.github.io/"
+                    class="rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+                  >Home</a></li><li><a
+                    href="https://s8a.github.io/about/"
+                    class="rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+                  >About</a></li><li><a
+                    href="https://s8a.github.io/projects/"
+                    class="rounded-md px-3 py-2 bg-gray-900 text-white"
+                    aria-current="page"
+                  >Projects</a></li><li><a
+                    href="https://s8a.github.io/blog/"
+                    class="rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+                  >Blog</a></li></ul>
+        </div>
       </div>
+
+      <div class="flex items-center gap-4">
+        <button
+          class="rounded-md px-2 py-1 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors cursor-pointer"
+          x-bind:aria-label="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"
+          x-bind:title="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"
+          x-on:click="$store.darkMode.toggle()"
+        >
+          <i class="bi text-lg" x-bind:class="$store.darkMode.on ? 'bi-moon-stars-fill' : 'bi-sun-fill'"></i>
+        </button>
+        <button
+          class="block md:hidden rounded-md px-2 py-1 transition-colors cursor-pointer"
+          x-bind:class="open ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-800 hover:text-white'"
+          x-on:click="open = !open"
+          aria-label="Toggle menu"
+          title="Toggle menu"
+        >
+          <i class="bi bi-list text-lg"></i>
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="md:hidden"
+      x-show="open"
+      x-transition:enter="transition ease-out duration-200"
+      x-transition:enter-start="opacity-0 -translate-y-2"
+      x-transition:enter-end="opacity-100 translate-y-0"
+      x-transition:leave="transition ease-in duration-150"
+      x-transition:leave-start="opacity-100 translate-y-0"
+      x-transition:leave-end="opacity-0 -translate-y-2"
+    >
+      <ul class="py-2 flex flex-col gap-1"><li><a
+                href="https://s8a.github.io/"
+                class="block w-full rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+              >Home</a></li><li><a
+                href="https://s8a.github.io/about/"
+                class="block w-full rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+              >About</a></li><li><a
+                href="https://s8a.github.io/projects/"
+                class="block w-full rounded-md px-3 py-2 bg-gray-900 text-white transition-colors"
+                aria-current="page"
+              >Projects</a></li><li><a
+                href="https://s8a.github.io/blog/"
+                class="block w-full rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+              >Blog</a></li></ul>
     </div>
   </nav>
 </header>
-<main>
-      <div class="container py-3"><h1 class="text-center">Projects</h1>
-
-<section id="websites" class="py-3">
-  <h2>Websites</h2>
-  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3 py-3 mb-3"><div class="col">
-      <div class="card h-100 shadow-sm">
-          <img
-  class="card-img-top"
-  srcset="/assets/img/thumbnails/s8a-training-v4.1.0_192w.webp 192w, /assets/img/thumbnails/s8a-training-v4.1.0_256w.webp 256w, /assets/img/thumbnails/s8a-training-v4.1.0_320w.webp 320w, /assets/img/thumbnails/s8a-training-v4.1.0_384w.webp 384w, /assets/img/thumbnails/s8a-training-v4.1.0_448w.webp 448w, /assets/img/thumbnails/s8a-training-v4.1.0_512w.webp 512w, /assets/img/thumbnails/s8a-training-v4.1.0_576w.webp 576w, /assets/img/thumbnails/s8a-training-v4.1.0_640w.webp 640w, /assets/img/thumbnails/s8a-training-v4.1.0_704w.webp 704w, /assets/img/thumbnails/s8a-training-v4.1.0_768w.webp 768w, /assets/img/thumbnails/s8a-training-v4.1.0_832w.webp 832w, /assets/img/thumbnails/s8a-training-v4.1.0_896w.webp 896w, /assets/img/thumbnails/s8a-training-v4.1.0_960w.webp 960w, /assets/img/thumbnails/s8a-training-v4.1.0_1024w.webp 1024w, /assets/img/thumbnails/s8a-training-v4.1.0_1080w.webp 1080w"
-  sizes="(min-width: 1400px) 32vw, (min-width: 1300px) 30vw, (min-width: 1200px) 32vw, (min-width: 1096px) 44vw, (min-width: 992px) 49vw, (min-width: 880px) 41vw, (min-width: 768px) 47vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw"
-  src="/assets/img/thumbnails/s8a-training-v4.1.0_576w.webp"
-  alt=""
-  loading="eager"
-/>
-
-<div class="card-body">
-          <h3 class="card-title fs-5">8A Training</h3>
-          <p class="card-subtitle mb-2 text-muted">Last update: Aug 2022</p>
-          <p class="card-text">Simple web-app for logging training sessions. Made as an assignment for the UMC's Web Programming course.
-</p>
-          <a href="https://s8a-training.web.app" class="card-link">Go to web-app</a>
-          <a href="/websites/s8a-training/" class="card-link">Details</a>
-        </div>
-      </div>
-    </div></div>
-</section>
-
-<section id="programs" class="py-3">
-  <h2>Desktop programs</h2>
-  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3 py-3 mb-3"><div class="col">
-      <div class="card h-100 shadow-sm">
-          <img
-  class="card-img-top"
-  srcset="/assets/img/thumbnails/trello-music-manager-demo_192w.webp 192w, /assets/img/thumbnails/trello-music-manager-demo_256w.webp 256w, /assets/img/thumbnails/trello-music-manager-demo_320w.webp 320w, /assets/img/thumbnails/trello-music-manager-demo_384w.webp 384w, /assets/img/thumbnails/trello-music-manager-demo_448w.webp 448w, /assets/img/thumbnails/trello-music-manager-demo_512w.webp 512w, /assets/img/thumbnails/trello-music-manager-demo_576w.webp 576w, /assets/img/thumbnails/trello-music-manager-demo_640w.webp 640w, /assets/img/thumbnails/trello-music-manager-demo_704w.webp 704w, /assets/img/thumbnails/trello-music-manager-demo_768w.webp 768w, /assets/img/thumbnails/trello-music-manager-demo_832w.webp 832w, /assets/img/thumbnails/trello-music-manager-demo_896w.webp 896w, /assets/img/thumbnails/trello-music-manager-demo_960w.webp 960w, /assets/img/thumbnails/trello-music-manager-demo_1024w.webp 1024w, /assets/img/thumbnails/trello-music-manager-demo_1080w.webp 1080w"
-  sizes="(min-width: 1400px) 32vw, (min-width: 1300px) 30vw, (min-width: 1200px) 32vw, (min-width: 1096px) 44vw, (min-width: 992px) 49vw, (min-width: 880px) 41vw, (min-width: 768px) 47vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw"
-  src="/assets/img/thumbnails/trello-music-manager-demo_576w.webp"
-  alt=""
-  loading="eager"
-/>
-
-<div class="card-body">
-          <h3 class="card-title fs-5">Trello Music Manager</h3>
-          <p class="card-subtitle mb-2 text-muted">Last update: May 2022</p>
-          <p class="card-text">Tool for managing artists and albums in a Trello board. Obsolete due to changes in the Trello API.</p>
-          <a href="/programs/trello-music-manager/" class="card-link">Details</a>
-        </div>
-      </div>
-    </div><div class="col">
-      <div class="card h-100 shadow-sm">
-          <img
-  class="card-img-top"
-  srcset="/assets/img/thumbnails/pdfmerger-python-screenshot_192w.webp 192w, /assets/img/thumbnails/pdfmerger-python-screenshot_256w.webp 256w, /assets/img/thumbnails/pdfmerger-python-screenshot_320w.webp 320w, /assets/img/thumbnails/pdfmerger-python-screenshot_384w.webp 384w, /assets/img/thumbnails/pdfmerger-python-screenshot_448w.webp 448w, /assets/img/thumbnails/pdfmerger-python-screenshot_512w.webp 512w, /assets/img/thumbnails/pdfmerger-python-screenshot_576w.webp 576w, /assets/img/thumbnails/pdfmerger-python-screenshot_640w.webp 640w, /assets/img/thumbnails/pdfmerger-python-screenshot_704w.webp 704w, /assets/img/thumbnails/pdfmerger-python-screenshot_768w.webp 768w, /assets/img/thumbnails/pdfmerger-python-screenshot_832w.webp 832w, /assets/img/thumbnails/pdfmerger-python-screenshot_896w.webp 896w, /assets/img/thumbnails/pdfmerger-python-screenshot_960w.webp 960w, /assets/img/thumbnails/pdfmerger-python-screenshot_1024w.webp 1024w, /assets/img/thumbnails/pdfmerger-python-screenshot_1080w.webp 1080w"
-  sizes="(min-width: 1400px) 32vw, (min-width: 1300px) 30vw, (min-width: 1200px) 32vw, (min-width: 1096px) 44vw, (min-width: 992px) 49vw, (min-width: 880px) 41vw, (min-width: 768px) 47vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw"
-  src="/assets/img/thumbnails/pdfmerger-python-screenshot_576w.webp"
-  alt=""
-  loading="eager"
-/>
-
-<div class="card-body">
-          <h3 class="card-title fs-5">PDFMerger (Python)</h3>
-          <p class="card-subtitle mb-2 text-muted">Last update: May 2020</p>
-          <p class="card-text">Tool for merging PDF documents made in Python.</p>
-          <a href="/programs/pdfmerger-python/" class="card-link">Details</a>
-        </div>
-      </div>
-    </div><div class="col">
-      <div class="card h-100 shadow-sm">
-          <img
-  class="card-img-top"
-  srcset="/assets/img/thumbnails/umc-pro633-crud-both-demo_192w.webp 192w, /assets/img/thumbnails/umc-pro633-crud-both-demo_256w.webp 256w, /assets/img/thumbnails/umc-pro633-crud-both-demo_320w.webp 320w, /assets/img/thumbnails/umc-pro633-crud-both-demo_384w.webp 384w, /assets/img/thumbnails/umc-pro633-crud-both-demo_448w.webp 448w, /assets/img/thumbnails/umc-pro633-crud-both-demo_512w.webp 512w, /assets/img/thumbnails/umc-pro633-crud-both-demo_576w.webp 576w, /assets/img/thumbnails/umc-pro633-crud-both-demo_640w.webp 640w, /assets/img/thumbnails/umc-pro633-crud-both-demo_704w.webp 704w, /assets/img/thumbnails/umc-pro633-crud-both-demo_768w.webp 768w, /assets/img/thumbnails/umc-pro633-crud-both-demo_832w.webp 832w, /assets/img/thumbnails/umc-pro633-crud-both-demo_896w.webp 896w, /assets/img/thumbnails/umc-pro633-crud-both-demo_960w.webp 960w, /assets/img/thumbnails/umc-pro633-crud-both-demo_1024w.webp 1024w, /assets/img/thumbnails/umc-pro633-crud-both-demo_1080w.webp 1080w"
-  sizes="(min-width: 1400px) 32vw, (min-width: 1300px) 30vw, (min-width: 1200px) 32vw, (min-width: 1096px) 44vw, (min-width: 992px) 49vw, (min-width: 880px) 41vw, (min-width: 768px) 47vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw"
-  src="/assets/img/thumbnails/umc-pro633-crud-both-demo_576w.webp"
-  alt=""
-  loading="eager"
-/>
-
-<div class="card-body">
-          <h3 class="card-title fs-5">UMC Campus CRUD</h3>
-          <p class="card-subtitle mb-2 text-muted">Last update: Apr 2020</p>
-          <p class="card-text">Tool for managing a database of UMC students and their grades. Made as an assignment for the UMC's Programming III course.
-</p>
-          <a href="/programs/umc-pro633-crud/" class="card-link">Details</a>
-        </div>
-      </div>
-    </div><div class="col">
-      <div class="card h-100 shadow-sm">
-          <img
-  class="card-img-top"
-  srcset="/assets/img/thumbnails/pdfmerger-kotlin-screenshot_192w.webp 192w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_256w.webp 256w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_320w.webp 320w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_384w.webp 384w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_448w.webp 448w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_512w.webp 512w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_576w.webp 576w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_640w.webp 640w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_704w.webp 704w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_768w.webp 768w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_832w.webp 832w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_896w.webp 896w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_960w.webp 960w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_1024w.webp 1024w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_1080w.webp 1080w"
-  sizes="(min-width: 1400px) 32vw, (min-width: 1300px) 30vw, (min-width: 1200px) 32vw, (min-width: 1096px) 44vw, (min-width: 992px) 49vw, (min-width: 880px) 41vw, (min-width: 768px) 47vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw"
-  src="/assets/img/thumbnails/pdfmerger-kotlin-screenshot_576w.webp"
-  alt=""
-  loading="eager"
-/>
-
-<div class="card-body">
-          <h3 class="card-title fs-5">PDFMerger (Kotlin)</h3>
-          <p class="card-subtitle mb-2 text-muted">Last update: Jan 2019</p>
-          <p class="card-text">Tool for merging PDF documents made in Kotlin.</p>
-          <a href="/programs/pdfmerger-kotlin/" class="card-link">Details</a>
-        </div>
-      </div>
-    </div><div class="col">
-      <div class="card h-100 shadow-sm">
-          <img
-  class="card-img-top"
-  srcset="/assets/img/thumbnails/javacipher-screenshot_192w.webp 192w, /assets/img/thumbnails/javacipher-screenshot_256w.webp 256w, /assets/img/thumbnails/javacipher-screenshot_320w.webp 320w, /assets/img/thumbnails/javacipher-screenshot_384w.webp 384w, /assets/img/thumbnails/javacipher-screenshot_448w.webp 448w, /assets/img/thumbnails/javacipher-screenshot_512w.webp 512w, /assets/img/thumbnails/javacipher-screenshot_576w.webp 576w, /assets/img/thumbnails/javacipher-screenshot_640w.webp 640w, /assets/img/thumbnails/javacipher-screenshot_704w.webp 704w, /assets/img/thumbnails/javacipher-screenshot_768w.webp 768w, /assets/img/thumbnails/javacipher-screenshot_832w.webp 832w, /assets/img/thumbnails/javacipher-screenshot_896w.webp 896w, /assets/img/thumbnails/javacipher-screenshot_960w.webp 960w, /assets/img/thumbnails/javacipher-screenshot_1024w.webp 1024w, /assets/img/thumbnails/javacipher-screenshot_1080w.webp 1080w"
-  sizes="(min-width: 1400px) 32vw, (min-width: 1300px) 30vw, (min-width: 1200px) 32vw, (min-width: 1096px) 44vw, (min-width: 992px) 49vw, (min-width: 880px) 41vw, (min-width: 768px) 47vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw"
-  src="/assets/img/thumbnails/javacipher-screenshot_576w.webp"
-  alt=""
-  loading="eager"
-/>
-
-<div class="card-body">
-          <h3 class="card-title fs-5">JavaCipher</h3>
-          <p class="card-subtitle mb-2 text-muted">Last update: Mar 2018</p>
-          <p class="card-text">Tool for encrypting and decrypting text using various classical ciphers.</p>
-          <a href="/programs/javacipher/" class="card-link">Details</a>
-        </div>
-      </div>
-    </div><div class="col">
-      <div class="card h-100 shadow-sm">
-          <img
-  class="card-img-top"
-  srcset="/assets/img/thumbnails/datacipher-screenshot_192w.webp 192w, /assets/img/thumbnails/datacipher-screenshot_256w.webp 256w, /assets/img/thumbnails/datacipher-screenshot_320w.webp 320w, /assets/img/thumbnails/datacipher-screenshot_384w.webp 384w, /assets/img/thumbnails/datacipher-screenshot_448w.webp 448w, /assets/img/thumbnails/datacipher-screenshot_512w.webp 512w, /assets/img/thumbnails/datacipher-screenshot_576w.webp 576w, /assets/img/thumbnails/datacipher-screenshot_640w.webp 640w, /assets/img/thumbnails/datacipher-screenshot_704w.webp 704w, /assets/img/thumbnails/datacipher-screenshot_768w.webp 768w, /assets/img/thumbnails/datacipher-screenshot_832w.webp 832w, /assets/img/thumbnails/datacipher-screenshot_896w.webp 896w, /assets/img/thumbnails/datacipher-screenshot_960w.webp 960w, /assets/img/thumbnails/datacipher-screenshot_1024w.webp 1024w, /assets/img/thumbnails/datacipher-screenshot_1080w.webp 1080w"
-  sizes="(min-width: 1400px) 32vw, (min-width: 1300px) 30vw, (min-width: 1200px) 32vw, (min-width: 1096px) 44vw, (min-width: 992px) 49vw, (min-width: 880px) 41vw, (min-width: 768px) 47vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw"
-  src="/assets/img/thumbnails/datacipher-screenshot_576w.webp"
-  alt=""
-  loading="eager"
-/>
-
-<div class="card-body">
-          <h3 class="card-title fs-5">DataCipher</h3>
-          <p class="card-subtitle mb-2 text-muted">Last update: Jul 2017</p>
-          <p class="card-text">Text ciphering utility.</p>
-          <a href="/programs/datacipher/" class="card-link">Details</a>
-        </div>
-      </div>
-    </div><div class="col">
-      <div class="card h-100 shadow-sm"><div class="card-body">
-          <h3 class="card-title fs-5">JNetChat</h3>
-          <p class="card-subtitle mb-2 text-muted">Last update: Oct 2016</p>
-          <p class="card-text">Local network chat. Source code lost.</p>
-          <a href="/programs/jnetchat/" class="card-link">Details</a>
-        </div>
-      </div>
-    </div></div>
-</section>
-
-<section id="documents" class="py-3">
-  <h2>Documents</h2>
-
-  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3 py-3 mb-3"><div class="col">
-      <div class="card h-100 shadow-sm">
-          <img
-  class="card-img-top"
-  srcset="/assets/img/thumbnails/una-332-grafos-matrices_192w.webp 192w, /assets/img/thumbnails/una-332-grafos-matrices_256w.webp 256w, /assets/img/thumbnails/una-332-grafos-matrices_320w.webp 320w, /assets/img/thumbnails/una-332-grafos-matrices_384w.webp 384w, /assets/img/thumbnails/una-332-grafos-matrices_448w.webp 448w, /assets/img/thumbnails/una-332-grafos-matrices_512w.webp 512w, /assets/img/thumbnails/una-332-grafos-matrices_576w.webp 576w, /assets/img/thumbnails/una-332-grafos-matrices_640w.webp 640w, /assets/img/thumbnails/una-332-grafos-matrices_704w.webp 704w, /assets/img/thumbnails/una-332-grafos-matrices_768w.webp 768w, /assets/img/thumbnails/una-332-grafos-matrices_832w.webp 832w, /assets/img/thumbnails/una-332-grafos-matrices_896w.webp 896w, /assets/img/thumbnails/una-332-grafos-matrices_960w.webp 960w, /assets/img/thumbnails/una-332-grafos-matrices_1024w.webp 1024w, /assets/img/thumbnails/una-332-grafos-matrices_1080w.webp 1080w"
-  sizes="(min-width: 1400px) 32vw, (min-width: 1300px) 30vw, (min-width: 1200px) 32vw, (min-width: 1096px) 44vw, (min-width: 992px) 49vw, (min-width: 880px) 41vw, (min-width: 768px) 47vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw"
-  src="/assets/img/thumbnails/una-332-grafos-matrices_576w.webp"
-  alt=""
-  loading="eager"
-/>
-
-<div class="card-body">
-          <h3 class="card-title fs-5">UNA Practice exercises: Graphs and Matrices</h3>
-          <p class="card-subtitle mb-2 text-muted">27 Feb 2020</p>
-          <p class="card-text">Solutions to a couple of exercises about graphs and matrices. Made as a Jupyter notebook and exported to HTML.</p>
-          <a href="/documents/una-332-grafos-matrices/" class="card-link">Read document (Spanish)</a>
-        </div>
-      </div>
-    </div><div class="col">
-      <div class="card h-100 shadow-sm">
-          <img
-  class="card-img-top"
-  srcset="/assets/img/thumbnails/umc-iaa-2019-02_192w.webp 192w, /assets/img/thumbnails/umc-iaa-2019-02_256w.webp 256w, /assets/img/thumbnails/umc-iaa-2019-02_320w.webp 320w, /assets/img/thumbnails/umc-iaa-2019-02_384w.webp 384w, /assets/img/thumbnails/umc-iaa-2019-02_448w.webp 448w, /assets/img/thumbnails/umc-iaa-2019-02_512w.webp 512w, /assets/img/thumbnails/umc-iaa-2019-02_576w.webp 576w, /assets/img/thumbnails/umc-iaa-2019-02_640w.webp 640w, /assets/img/thumbnails/umc-iaa-2019-02_704w.webp 704w, /assets/img/thumbnails/umc-iaa-2019-02_768w.webp 768w, /assets/img/thumbnails/umc-iaa-2019-02_832w.webp 832w, /assets/img/thumbnails/umc-iaa-2019-02_896w.webp 896w, /assets/img/thumbnails/umc-iaa-2019-02_960w.webp 960w, /assets/img/thumbnails/umc-iaa-2019-02_1024w.webp 1024w, /assets/img/thumbnails/umc-iaa-2019-02_1080w.webp 1080w"
-  sizes="(min-width: 1400px) 32vw, (min-width: 1300px) 30vw, (min-width: 1200px) 32vw, (min-width: 1096px) 44vw, (min-width: 992px) 49vw, (min-width: 880px) 41vw, (min-width: 768px) 47vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw"
-  src="/assets/img/thumbnails/umc-iaa-2019-02_576w.webp"
-  alt=""
-  loading="eager"
-/>
-
-<div class="card-body">
-          <h3 class="card-title fs-5">Analysis of academic scores UMC 2019-02</h3>
-          <p class="card-subtitle mb-2 text-muted">21 Feb 2020</p>
-          <p class="card-text">A long statistical analysis of the accumulated academic scores published by the UMC for the 2019-02 period. Made as a Jupyter notebook and exported to HTML.</p>
-          <a href="/documents/umc-iaa-2019-02/" class="card-link">Read document (Spanish)</a>
-        </div>
-      </div>
-    </div><div class="col">
-      <div class="card h-100 shadow-sm">
-          <img
-  class="card-img-top"
-  srcset="/assets/img/thumbnails/cal604-ecuaciones-diferenciales_192w.webp 192w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_256w.webp 256w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_320w.webp 320w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_384w.webp 384w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_448w.webp 448w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_512w.webp 512w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_576w.webp 576w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_640w.webp 640w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_704w.webp 704w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_768w.webp 768w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_832w.webp 832w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_896w.webp 896w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_960w.webp 960w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_1024w.webp 1024w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_1080w.webp 1080w"
-  sizes="(min-width: 1400px) 32vw, (min-width: 1300px) 30vw, (min-width: 1200px) 32vw, (min-width: 1096px) 44vw, (min-width: 992px) 49vw, (min-width: 880px) 41vw, (min-width: 768px) 47vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw"
-  src="/assets/img/thumbnails/cal604-ecuaciones-diferenciales_576w.webp"
-  alt=""
-  loading="eager"
-/>
-
-<div class="card-body">
-          <h3 class="card-title fs-5">Numerical solution of ordinary differential equations</h3>
-          <p class="card-subtitle mb-2 text-muted">06 Feb 2020</p>
-          <p class="card-text">A set of Numerical Calculus exercises about approximating the solution of ordinary differential equations using Euler's method and the Runge-Kutta method. Made as a Jupyter notebook and exported to HTML.</p>
-          <a href="/documents/cal604-ecuaciones-diferenciales/" class="card-link">Read document (Spanish)</a>
-        </div>
-      </div>
-    </div><div class="col">
-      <div class="card h-100 shadow-sm">
-          <img
-  class="card-img-top"
-  srcset="/assets/img/thumbnails/cal604-integracion-numerica_192w.webp 192w, /assets/img/thumbnails/cal604-integracion-numerica_256w.webp 256w, /assets/img/thumbnails/cal604-integracion-numerica_320w.webp 320w, /assets/img/thumbnails/cal604-integracion-numerica_384w.webp 384w, /assets/img/thumbnails/cal604-integracion-numerica_448w.webp 448w, /assets/img/thumbnails/cal604-integracion-numerica_512w.webp 512w, /assets/img/thumbnails/cal604-integracion-numerica_576w.webp 576w, /assets/img/thumbnails/cal604-integracion-numerica_640w.webp 640w, /assets/img/thumbnails/cal604-integracion-numerica_704w.webp 704w, /assets/img/thumbnails/cal604-integracion-numerica_768w.webp 768w, /assets/img/thumbnails/cal604-integracion-numerica_832w.webp 832w, /assets/img/thumbnails/cal604-integracion-numerica_896w.webp 896w, /assets/img/thumbnails/cal604-integracion-numerica_960w.webp 960w, /assets/img/thumbnails/cal604-integracion-numerica_1024w.webp 1024w, /assets/img/thumbnails/cal604-integracion-numerica_1080w.webp 1080w"
-  sizes="(min-width: 1400px) 32vw, (min-width: 1300px) 30vw, (min-width: 1200px) 32vw, (min-width: 1096px) 44vw, (min-width: 992px) 49vw, (min-width: 880px) 41vw, (min-width: 768px) 47vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw"
-  src="/assets/img/thumbnails/cal604-integracion-numerica_576w.webp"
-  alt=""
-  loading="eager"
-/>
-
-<div class="card-body">
-          <h3 class="card-title fs-5">Numerical integration</h3>
-          <p class="card-subtitle mb-2 text-muted">01 Feb 2020</p>
-          <p class="card-text">A Numerical Calculus assignment about solving integrals using numerical algorithms like the trapezoidal rule and Simpson's rule. Made as a Jupyter notebook and exported to HTML.</p>
-          <a href="/documents/cal604-integracion-numerica/" class="card-link">Read document (Spanish)</a>
-        </div>
-      </div>
-    </div><div class="col">
-      <div class="card h-100 shadow-sm">
-          <img
-  class="card-img-top"
-  srcset="/assets/img/thumbnails/cal604-resolucion-numerica_192w.webp 192w, /assets/img/thumbnails/cal604-resolucion-numerica_256w.webp 256w, /assets/img/thumbnails/cal604-resolucion-numerica_320w.webp 320w, /assets/img/thumbnails/cal604-resolucion-numerica_384w.webp 384w, /assets/img/thumbnails/cal604-resolucion-numerica_448w.webp 448w, /assets/img/thumbnails/cal604-resolucion-numerica_512w.webp 512w, /assets/img/thumbnails/cal604-resolucion-numerica_576w.webp 576w, /assets/img/thumbnails/cal604-resolucion-numerica_640w.webp 640w, /assets/img/thumbnails/cal604-resolucion-numerica_704w.webp 704w, /assets/img/thumbnails/cal604-resolucion-numerica_768w.webp 768w, /assets/img/thumbnails/cal604-resolucion-numerica_832w.webp 832w, /assets/img/thumbnails/cal604-resolucion-numerica_896w.webp 896w, /assets/img/thumbnails/cal604-resolucion-numerica_960w.webp 960w, /assets/img/thumbnails/cal604-resolucion-numerica_1024w.webp 1024w, /assets/img/thumbnails/cal604-resolucion-numerica_1080w.webp 1080w"
-  sizes="(min-width: 1400px) 32vw, (min-width: 1300px) 30vw, (min-width: 1200px) 32vw, (min-width: 1096px) 44vw, (min-width: 992px) 49vw, (min-width: 880px) 41vw, (min-width: 768px) 47vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw"
-  src="/assets/img/thumbnails/cal604-resolucion-numerica_576w.webp"
-  alt=""
-  loading="eager"
-/>
-
-<div class="card-body">
-          <h3 class="card-title fs-5">Numerical solution of equations</h3>
-          <p class="card-subtitle mb-2 text-muted">26 Jan 2020</p>
-          <p class="card-text">An 11-exercise Numerical Calculus assignment about finding roots of equations using numerical algorithms like the Newton-Raphson method and the bisection method. Made as a Jupyter notebook and exported to HTML.</p>
-          <a href="/documents/cal604-resolucion-numerica/" class="card-link">Read document (Spanish)</a>
-        </div>
-      </div>
-    </div><div class="col">
-      <div class="card h-100 shadow-sm">
-          <img
-  class="card-img-top"
-  srcset="/assets/img/thumbnails/solow-swan-growth-model_192w.webp 192w, /assets/img/thumbnails/solow-swan-growth-model_256w.webp 256w, /assets/img/thumbnails/solow-swan-growth-model_320w.webp 320w, /assets/img/thumbnails/solow-swan-growth-model_384w.webp 384w, /assets/img/thumbnails/solow-swan-growth-model_448w.webp 448w, /assets/img/thumbnails/solow-swan-growth-model_512w.webp 512w, /assets/img/thumbnails/solow-swan-growth-model_576w.webp 576w, /assets/img/thumbnails/solow-swan-growth-model_640w.webp 640w, /assets/img/thumbnails/solow-swan-growth-model_704w.webp 704w, /assets/img/thumbnails/solow-swan-growth-model_768w.webp 768w, /assets/img/thumbnails/solow-swan-growth-model_832w.webp 832w, /assets/img/thumbnails/solow-swan-growth-model_896w.webp 896w, /assets/img/thumbnails/solow-swan-growth-model_960w.webp 960w, /assets/img/thumbnails/solow-swan-growth-model_1024w.webp 1024w, /assets/img/thumbnails/solow-swan-growth-model_1080w.webp 1080w"
-  sizes="(min-width: 1400px) 32vw, (min-width: 1300px) 30vw, (min-width: 1200px) 32vw, (min-width: 1096px) 44vw, (min-width: 992px) 49vw, (min-width: 880px) 41vw, (min-width: 768px) 47vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw"
-  src="/assets/img/thumbnails/solow-swan-growth-model_576w.webp"
-  alt=""
-  loading="eager"
-/>
-
-<div class="card-body">
-          <h3 class="card-title fs-5">Solow-Swan growth model</h3>
-          <p class="card-subtitle mb-2 text-muted">27 May 2019</p>
-          <p class="card-text">A Calculus 4 assignment about the application of differential equations, made in GeoGebra. In this interactive document I explored the Solow-Swan economic growth model, which is a nonlinear system consisting of a single ordinary differential equation that models the evolution of the per capita stock of capital.</p>
-          <a href="/documents/solow-swan-growth-model/" class="card-link">Read document (Spanish)</a>
-        </div>
-      </div>
-    </div></div>
-</section>
+<main class="flex-grow container lg:max-w-4xl mx-auto p-4 divide-y divide-gray-950/5 dark:divide-white/10"><div class="pb-6">  
+  <h1 class="text-center text-4xl font-bold mb-2">Projects</h1>
+  <nav class="flex flex-col items-center justify-center gap-1 md:flex-row md:gap-4">
+    <p>Jump to section:</p>
+    <ul class="flex gap-4">
+      <li><a href="#websites" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Websites</a></li>
+      <li><a href="#programs" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Desktop programs</a></li>
+      <li><a href="#documents" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Documents</a></li>
+    </ul>
+  </nav>
 </div>
-    </main><footer class="container small" lang="en">
-  <div class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3" aria-hidden="true"><li class="nav-item">
-        <a href="/" class="nav-link px-2 text-muted">Home</a>
-      </li><li class="nav-item">
-        <a href="/about/" class="nav-link px-2 text-muted">About</a>
-      </li><li class="nav-item">
-        <a href="/projects/" class="nav-link px-2 text-muted">Projects</a>
-      </li><li class="nav-item">
-        <a href="/blog/" class="nav-link px-2 text-muted">Blog</a>
-      </li></ul>
-    <p class="text-center text-muted">Samuel Ochoa 2025</p>
+
+<section id="websites" class="py-6">
+  <h2 class="text-2xl font-bold mb-2">Websites</h2>
+  <div class="flex flex-col gap-4"><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
+  class="w-full"
+  srcset="/assets/img/thumbnails/s8a-training-v4.1.0_192w.webp 192w, /assets/img/thumbnails/s8a-training-v4.1.0_256w.webp 256w, /assets/img/thumbnails/s8a-training-v4.1.0_320w.webp 320w, /assets/img/thumbnails/s8a-training-v4.1.0_384w.webp 384w, /assets/img/thumbnails/s8a-training-v4.1.0_448w.webp 448w, /assets/img/thumbnails/s8a-training-v4.1.0_512w.webp 512w, /assets/img/thumbnails/s8a-training-v4.1.0_576w.webp 576w, /assets/img/thumbnails/s8a-training-v4.1.0_640w.webp 640w, /assets/img/thumbnails/s8a-training-v4.1.0_704w.webp 704w, /assets/img/thumbnails/s8a-training-v4.1.0_768w.webp 768w, /assets/img/thumbnails/s8a-training-v4.1.0_832w.webp 832w, /assets/img/thumbnails/s8a-training-v4.1.0_896w.webp 896w, /assets/img/thumbnails/s8a-training-v4.1.0_960w.webp 960w, /assets/img/thumbnails/s8a-training-v4.1.0_1024w.webp 1024w, /assets/img/thumbnails/s8a-training-v4.1.0_1080w.webp 1080w"
+  sizes="(min-width: 64rem) 19rem, (min-width: 48rem) 16rem, (min-width: 40rem) 14rem, 100vw"
+  src="/assets/img/thumbnails/s8a-training-v4.1.0_640w.webp"
+  alt=""
+  loading="eager"
+/>
+
+</div><div class="col-span-1 sm:col-span-2">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">8A Training</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Last update: Aug 2022</p>
+          <p>Simple web-app for logging training sessions. Made as an assignment for the UMC's Web Programming course.
+</p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a href="https://s8a-training.web.app" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Go to web-app</a>
+          <a href="/websites/s8a-training/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a>
+        </div>
+      </div>
+    </div></div>
+</section>
+
+<section id="programs" class="py-6">
+  <h2 class="text-2xl font-bold mb-2">Desktop programs</h2>
+  <div class="flex flex-col gap-4"><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
+  class="w-full"
+  srcset="/assets/img/thumbnails/trello-music-manager-demo_192w.webp 192w, /assets/img/thumbnails/trello-music-manager-demo_256w.webp 256w, /assets/img/thumbnails/trello-music-manager-demo_320w.webp 320w, /assets/img/thumbnails/trello-music-manager-demo_384w.webp 384w, /assets/img/thumbnails/trello-music-manager-demo_448w.webp 448w, /assets/img/thumbnails/trello-music-manager-demo_512w.webp 512w, /assets/img/thumbnails/trello-music-manager-demo_576w.webp 576w, /assets/img/thumbnails/trello-music-manager-demo_640w.webp 640w, /assets/img/thumbnails/trello-music-manager-demo_704w.webp 704w, /assets/img/thumbnails/trello-music-manager-demo_768w.webp 768w, /assets/img/thumbnails/trello-music-manager-demo_832w.webp 832w, /assets/img/thumbnails/trello-music-manager-demo_896w.webp 896w, /assets/img/thumbnails/trello-music-manager-demo_960w.webp 960w, /assets/img/thumbnails/trello-music-manager-demo_1024w.webp 1024w, /assets/img/thumbnails/trello-music-manager-demo_1080w.webp 1080w"
+  sizes="(min-width: 64rem) 19rem, (min-width: 48rem) 16rem, (min-width: 40rem) 14rem, 100vw"
+  src="/assets/img/thumbnails/trello-music-manager-demo_640w.webp"
+  alt=""
+  loading="eager"
+/>
+
+</div><div class="col-span-1 sm:col-span-2">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">Trello Music Manager</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Last update: May 2022</p>
+          <p>Tool for managing artists and albums in a Trello board. Obsolete due to changes in the Trello API.</p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a href="/programs/trello-music-manager/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a>
+        </div>
+      </div>
+    </div><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
+  class="w-full"
+  srcset="/assets/img/thumbnails/pdfmerger-python-screenshot_192w.webp 192w, /assets/img/thumbnails/pdfmerger-python-screenshot_256w.webp 256w, /assets/img/thumbnails/pdfmerger-python-screenshot_320w.webp 320w, /assets/img/thumbnails/pdfmerger-python-screenshot_384w.webp 384w, /assets/img/thumbnails/pdfmerger-python-screenshot_448w.webp 448w, /assets/img/thumbnails/pdfmerger-python-screenshot_512w.webp 512w, /assets/img/thumbnails/pdfmerger-python-screenshot_576w.webp 576w, /assets/img/thumbnails/pdfmerger-python-screenshot_640w.webp 640w, /assets/img/thumbnails/pdfmerger-python-screenshot_704w.webp 704w, /assets/img/thumbnails/pdfmerger-python-screenshot_768w.webp 768w, /assets/img/thumbnails/pdfmerger-python-screenshot_832w.webp 832w, /assets/img/thumbnails/pdfmerger-python-screenshot_896w.webp 896w, /assets/img/thumbnails/pdfmerger-python-screenshot_960w.webp 960w, /assets/img/thumbnails/pdfmerger-python-screenshot_1024w.webp 1024w, /assets/img/thumbnails/pdfmerger-python-screenshot_1080w.webp 1080w"
+  sizes="(min-width: 64rem) 19rem, (min-width: 48rem) 16rem, (min-width: 40rem) 14rem, 100vw"
+  src="/assets/img/thumbnails/pdfmerger-python-screenshot_640w.webp"
+  alt=""
+  loading="eager"
+/>
+
+</div><div class="col-span-1 sm:col-span-2">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">PDFMerger (Python)</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Last update: May 2020</p>
+          <p>Tool for merging PDF documents made in Python.</p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a href="/programs/pdfmerger-python/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a>
+        </div>
+      </div>
+    </div><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
+  class="w-full"
+  srcset="/assets/img/thumbnails/umc-pro633-crud-both-demo_192w.webp 192w, /assets/img/thumbnails/umc-pro633-crud-both-demo_256w.webp 256w, /assets/img/thumbnails/umc-pro633-crud-both-demo_320w.webp 320w, /assets/img/thumbnails/umc-pro633-crud-both-demo_384w.webp 384w, /assets/img/thumbnails/umc-pro633-crud-both-demo_448w.webp 448w, /assets/img/thumbnails/umc-pro633-crud-both-demo_512w.webp 512w, /assets/img/thumbnails/umc-pro633-crud-both-demo_576w.webp 576w, /assets/img/thumbnails/umc-pro633-crud-both-demo_640w.webp 640w, /assets/img/thumbnails/umc-pro633-crud-both-demo_704w.webp 704w, /assets/img/thumbnails/umc-pro633-crud-both-demo_768w.webp 768w, /assets/img/thumbnails/umc-pro633-crud-both-demo_832w.webp 832w, /assets/img/thumbnails/umc-pro633-crud-both-demo_896w.webp 896w, /assets/img/thumbnails/umc-pro633-crud-both-demo_960w.webp 960w, /assets/img/thumbnails/umc-pro633-crud-both-demo_1024w.webp 1024w, /assets/img/thumbnails/umc-pro633-crud-both-demo_1080w.webp 1080w"
+  sizes="(min-width: 64rem) 19rem, (min-width: 48rem) 16rem, (min-width: 40rem) 14rem, 100vw"
+  src="/assets/img/thumbnails/umc-pro633-crud-both-demo_640w.webp"
+  alt=""
+  loading="eager"
+/>
+
+</div><div class="col-span-1 sm:col-span-2">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">UMC Campus CRUD</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Last update: Apr 2020</p>
+          <p>Tool for managing a database of UMC students and their grades. Made as an assignment for the UMC's Programming III course.
+</p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a href="/programs/umc-pro633-crud/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a>
+        </div>
+      </div>
+    </div><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
+  class="w-full"
+  srcset="/assets/img/thumbnails/pdfmerger-kotlin-screenshot_192w.webp 192w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_256w.webp 256w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_320w.webp 320w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_384w.webp 384w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_448w.webp 448w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_512w.webp 512w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_576w.webp 576w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_640w.webp 640w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_704w.webp 704w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_768w.webp 768w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_832w.webp 832w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_896w.webp 896w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_960w.webp 960w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_1024w.webp 1024w, /assets/img/thumbnails/pdfmerger-kotlin-screenshot_1080w.webp 1080w"
+  sizes="(min-width: 64rem) 19rem, (min-width: 48rem) 16rem, (min-width: 40rem) 14rem, 100vw"
+  src="/assets/img/thumbnails/pdfmerger-kotlin-screenshot_640w.webp"
+  alt=""
+  loading="eager"
+/>
+
+</div><div class="col-span-1 sm:col-span-2">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">PDFMerger (Kotlin)</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Last update: Jan 2019</p>
+          <p>Tool for merging PDF documents made in Kotlin.</p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a href="/programs/pdfmerger-kotlin/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a>
+        </div>
+      </div>
+    </div><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
+  class="w-full"
+  srcset="/assets/img/thumbnails/javacipher-screenshot_192w.webp 192w, /assets/img/thumbnails/javacipher-screenshot_256w.webp 256w, /assets/img/thumbnails/javacipher-screenshot_320w.webp 320w, /assets/img/thumbnails/javacipher-screenshot_384w.webp 384w, /assets/img/thumbnails/javacipher-screenshot_448w.webp 448w, /assets/img/thumbnails/javacipher-screenshot_512w.webp 512w, /assets/img/thumbnails/javacipher-screenshot_576w.webp 576w, /assets/img/thumbnails/javacipher-screenshot_640w.webp 640w, /assets/img/thumbnails/javacipher-screenshot_704w.webp 704w, /assets/img/thumbnails/javacipher-screenshot_768w.webp 768w, /assets/img/thumbnails/javacipher-screenshot_832w.webp 832w, /assets/img/thumbnails/javacipher-screenshot_896w.webp 896w, /assets/img/thumbnails/javacipher-screenshot_960w.webp 960w, /assets/img/thumbnails/javacipher-screenshot_1024w.webp 1024w, /assets/img/thumbnails/javacipher-screenshot_1080w.webp 1080w"
+  sizes="(min-width: 64rem) 19rem, (min-width: 48rem) 16rem, (min-width: 40rem) 14rem, 100vw"
+  src="/assets/img/thumbnails/javacipher-screenshot_640w.webp"
+  alt=""
+  loading="eager"
+/>
+
+</div><div class="col-span-1 sm:col-span-2">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">JavaCipher</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Last update: Mar 2018</p>
+          <p>Tool for encrypting and decrypting text using various classical ciphers. Made in Java.</p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a href="/programs/javacipher/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a>
+        </div>
+      </div>
+    </div><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
+  class="w-full"
+  srcset="/assets/img/thumbnails/datacipher-screenshot_192w.webp 192w, /assets/img/thumbnails/datacipher-screenshot_256w.webp 256w, /assets/img/thumbnails/datacipher-screenshot_320w.webp 320w, /assets/img/thumbnails/datacipher-screenshot_384w.webp 384w, /assets/img/thumbnails/datacipher-screenshot_448w.webp 448w, /assets/img/thumbnails/datacipher-screenshot_512w.webp 512w, /assets/img/thumbnails/datacipher-screenshot_576w.webp 576w, /assets/img/thumbnails/datacipher-screenshot_640w.webp 640w, /assets/img/thumbnails/datacipher-screenshot_704w.webp 704w, /assets/img/thumbnails/datacipher-screenshot_768w.webp 768w, /assets/img/thumbnails/datacipher-screenshot_832w.webp 832w, /assets/img/thumbnails/datacipher-screenshot_896w.webp 896w, /assets/img/thumbnails/datacipher-screenshot_960w.webp 960w, /assets/img/thumbnails/datacipher-screenshot_1024w.webp 1024w, /assets/img/thumbnails/datacipher-screenshot_1080w.webp 1080w"
+  sizes="(min-width: 64rem) 19rem, (min-width: 48rem) 16rem, (min-width: 40rem) 14rem, 100vw"
+  src="/assets/img/thumbnails/datacipher-screenshot_640w.webp"
+  alt=""
+  loading="eager"
+/>
+
+</div><div class="col-span-1 sm:col-span-2">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">DataCipher</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Last update: Jul 2017</p>
+          <p>Tool for encrypting and decrypting text using various classical ciphers. Made in Python.</p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a href="/programs/datacipher/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a>
+        </div>
+      </div>
+    </div><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
+  class="w-full"
+  srcset="/assets/img/thumbnails/s8a-thumbnail_192w.webp 192w, /assets/img/thumbnails/s8a-thumbnail_256w.webp 256w, /assets/img/thumbnails/s8a-thumbnail_320w.webp 320w, /assets/img/thumbnails/s8a-thumbnail_384w.webp 384w, /assets/img/thumbnails/s8a-thumbnail_448w.webp 448w, /assets/img/thumbnails/s8a-thumbnail_512w.webp 512w, /assets/img/thumbnails/s8a-thumbnail_576w.webp 576w, /assets/img/thumbnails/s8a-thumbnail_640w.webp 640w, /assets/img/thumbnails/s8a-thumbnail_704w.webp 704w, /assets/img/thumbnails/s8a-thumbnail_768w.webp 768w, /assets/img/thumbnails/s8a-thumbnail_832w.webp 832w, /assets/img/thumbnails/s8a-thumbnail_896w.webp 896w, /assets/img/thumbnails/s8a-thumbnail_960w.webp 960w, /assets/img/thumbnails/s8a-thumbnail_1024w.webp 1024w, /assets/img/thumbnails/s8a-thumbnail_1080w.webp 1080w"
+  sizes="(min-width: 64rem) 19rem, (min-width: 48rem) 16rem, (min-width: 40rem) 14rem, 100vw"
+  src="/assets/img/thumbnails/s8a-thumbnail_640w.webp"
+  alt=""
+  loading="eager"
+/>
+
+</div><div class="col-span-1 sm:col-span-2">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">JNetChat</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Last update: Oct 2016</p>
+          <p>Local network chat. Made in Java. Source code lost.</p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a href="/programs/jnetchat/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a>
+        </div>
+      </div>
+    </div></div>
+</section>
+
+<section id="documents" class="pt-6">
+  <h2 class="text-2xl font-bold mb-2">Documents</h2>
+
+  <div class="flex flex-col gap-4"><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
+  class="w-full"
+  srcset="/assets/img/thumbnails/una-332-grafos-matrices_192w.webp 192w, /assets/img/thumbnails/una-332-grafos-matrices_256w.webp 256w, /assets/img/thumbnails/una-332-grafos-matrices_320w.webp 320w, /assets/img/thumbnails/una-332-grafos-matrices_384w.webp 384w, /assets/img/thumbnails/una-332-grafos-matrices_448w.webp 448w, /assets/img/thumbnails/una-332-grafos-matrices_512w.webp 512w, /assets/img/thumbnails/una-332-grafos-matrices_576w.webp 576w, /assets/img/thumbnails/una-332-grafos-matrices_640w.webp 640w, /assets/img/thumbnails/una-332-grafos-matrices_704w.webp 704w, /assets/img/thumbnails/una-332-grafos-matrices_768w.webp 768w, /assets/img/thumbnails/una-332-grafos-matrices_832w.webp 832w, /assets/img/thumbnails/una-332-grafos-matrices_896w.webp 896w, /assets/img/thumbnails/una-332-grafos-matrices_960w.webp 960w, /assets/img/thumbnails/una-332-grafos-matrices_1024w.webp 1024w, /assets/img/thumbnails/una-332-grafos-matrices_1080w.webp 1080w"
+  sizes="(min-width: 64rem) 19rem, (min-width: 48rem) 16rem, (min-width: 40rem) 14rem, 100vw"
+  src="/assets/img/thumbnails/una-332-grafos-matrices_640w.webp"
+  alt=""
+  loading="eager"
+/>
+
+</div><div class="col-span-1 sm:col-span-2">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">UNA Practice exercises: Graphs and Matrices</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">27 Feb 2020</p>
+          <p>Solutions to a couple of exercises about graphs and matrices. Made as a Jupyter notebook and exported to HTML.</p>
+        </div>
+        <div class="flex flex-wrap gap-4"><a href="/documents/una-332-grafos-matrices/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Read document (Spanish)</a></div>
+      </div>
+    </div><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
+  class="w-full"
+  srcset="/assets/img/thumbnails/umc-iaa-2019-02_192w.webp 192w, /assets/img/thumbnails/umc-iaa-2019-02_256w.webp 256w, /assets/img/thumbnails/umc-iaa-2019-02_320w.webp 320w, /assets/img/thumbnails/umc-iaa-2019-02_384w.webp 384w, /assets/img/thumbnails/umc-iaa-2019-02_448w.webp 448w, /assets/img/thumbnails/umc-iaa-2019-02_512w.webp 512w, /assets/img/thumbnails/umc-iaa-2019-02_576w.webp 576w, /assets/img/thumbnails/umc-iaa-2019-02_640w.webp 640w, /assets/img/thumbnails/umc-iaa-2019-02_704w.webp 704w, /assets/img/thumbnails/umc-iaa-2019-02_768w.webp 768w, /assets/img/thumbnails/umc-iaa-2019-02_832w.webp 832w, /assets/img/thumbnails/umc-iaa-2019-02_896w.webp 896w, /assets/img/thumbnails/umc-iaa-2019-02_960w.webp 960w, /assets/img/thumbnails/umc-iaa-2019-02_1024w.webp 1024w, /assets/img/thumbnails/umc-iaa-2019-02_1080w.webp 1080w"
+  sizes="(min-width: 64rem) 19rem, (min-width: 48rem) 16rem, (min-width: 40rem) 14rem, 100vw"
+  src="/assets/img/thumbnails/umc-iaa-2019-02_640w.webp"
+  alt=""
+  loading="eager"
+/>
+
+</div><div class="col-span-1 sm:col-span-2">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">Analysis of academic scores UMC 2019-02</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">21 Feb 2020</p>
+          <p>A long statistical analysis of the accumulated academic scores published by the UMC for the 2019-02 period. Made as a Jupyter notebook and exported to HTML.</p>
+        </div>
+        <div class="flex flex-wrap gap-4"><a href="/documents/umc-iaa-2019-02/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Read document (Spanish)</a></div>
+      </div>
+    </div><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
+  class="w-full"
+  srcset="/assets/img/thumbnails/cal604-ecuaciones-diferenciales_192w.webp 192w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_256w.webp 256w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_320w.webp 320w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_384w.webp 384w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_448w.webp 448w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_512w.webp 512w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_576w.webp 576w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_640w.webp 640w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_704w.webp 704w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_768w.webp 768w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_832w.webp 832w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_896w.webp 896w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_960w.webp 960w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_1024w.webp 1024w, /assets/img/thumbnails/cal604-ecuaciones-diferenciales_1080w.webp 1080w"
+  sizes="(min-width: 64rem) 19rem, (min-width: 48rem) 16rem, (min-width: 40rem) 14rem, 100vw"
+  src="/assets/img/thumbnails/cal604-ecuaciones-diferenciales_640w.webp"
+  alt=""
+  loading="eager"
+/>
+
+</div><div class="col-span-1 sm:col-span-2">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">Numerical solution of ordinary differential equations</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">06 Feb 2020</p>
+          <p>A set of Numerical Calculus exercises about approximating the solution of ordinary differential equations using Euler's method and the Runge-Kutta method. Made as a Jupyter notebook and exported to HTML.</p>
+        </div>
+        <div class="flex flex-wrap gap-4"><a href="/documents/cal604-ecuaciones-diferenciales/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Read document (Spanish)</a></div>
+      </div>
+    </div><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
+  class="w-full"
+  srcset="/assets/img/thumbnails/cal604-integracion-numerica_192w.webp 192w, /assets/img/thumbnails/cal604-integracion-numerica_256w.webp 256w, /assets/img/thumbnails/cal604-integracion-numerica_320w.webp 320w, /assets/img/thumbnails/cal604-integracion-numerica_384w.webp 384w, /assets/img/thumbnails/cal604-integracion-numerica_448w.webp 448w, /assets/img/thumbnails/cal604-integracion-numerica_512w.webp 512w, /assets/img/thumbnails/cal604-integracion-numerica_576w.webp 576w, /assets/img/thumbnails/cal604-integracion-numerica_640w.webp 640w, /assets/img/thumbnails/cal604-integracion-numerica_704w.webp 704w, /assets/img/thumbnails/cal604-integracion-numerica_768w.webp 768w, /assets/img/thumbnails/cal604-integracion-numerica_832w.webp 832w, /assets/img/thumbnails/cal604-integracion-numerica_896w.webp 896w, /assets/img/thumbnails/cal604-integracion-numerica_960w.webp 960w, /assets/img/thumbnails/cal604-integracion-numerica_1024w.webp 1024w, /assets/img/thumbnails/cal604-integracion-numerica_1080w.webp 1080w"
+  sizes="(min-width: 64rem) 19rem, (min-width: 48rem) 16rem, (min-width: 40rem) 14rem, 100vw"
+  src="/assets/img/thumbnails/cal604-integracion-numerica_640w.webp"
+  alt=""
+  loading="eager"
+/>
+
+</div><div class="col-span-1 sm:col-span-2">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">Numerical integration</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">01 Feb 2020</p>
+          <p>A Numerical Calculus assignment about solving integrals using numerical algorithms like the trapezoidal rule and Simpson's rule. Made as a Jupyter notebook and exported to HTML.</p>
+        </div>
+        <div class="flex flex-wrap gap-4"><a href="/documents/cal604-integracion-numerica/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Read document (Spanish)</a></div>
+      </div>
+    </div><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
+  class="w-full"
+  srcset="/assets/img/thumbnails/cal604-resolucion-numerica_192w.webp 192w, /assets/img/thumbnails/cal604-resolucion-numerica_256w.webp 256w, /assets/img/thumbnails/cal604-resolucion-numerica_320w.webp 320w, /assets/img/thumbnails/cal604-resolucion-numerica_384w.webp 384w, /assets/img/thumbnails/cal604-resolucion-numerica_448w.webp 448w, /assets/img/thumbnails/cal604-resolucion-numerica_512w.webp 512w, /assets/img/thumbnails/cal604-resolucion-numerica_576w.webp 576w, /assets/img/thumbnails/cal604-resolucion-numerica_640w.webp 640w, /assets/img/thumbnails/cal604-resolucion-numerica_704w.webp 704w, /assets/img/thumbnails/cal604-resolucion-numerica_768w.webp 768w, /assets/img/thumbnails/cal604-resolucion-numerica_832w.webp 832w, /assets/img/thumbnails/cal604-resolucion-numerica_896w.webp 896w, /assets/img/thumbnails/cal604-resolucion-numerica_960w.webp 960w, /assets/img/thumbnails/cal604-resolucion-numerica_1024w.webp 1024w, /assets/img/thumbnails/cal604-resolucion-numerica_1080w.webp 1080w"
+  sizes="(min-width: 64rem) 19rem, (min-width: 48rem) 16rem, (min-width: 40rem) 14rem, 100vw"
+  src="/assets/img/thumbnails/cal604-resolucion-numerica_640w.webp"
+  alt=""
+  loading="eager"
+/>
+
+</div><div class="col-span-1 sm:col-span-2">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">Numerical solution of equations</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">26 Jan 2020</p>
+          <p>An 11-exercise Numerical Calculus assignment about finding roots of equations using numerical algorithms like the Newton-Raphson method and the bisection method. Made as a Jupyter notebook and exported to HTML.</p>
+        </div>
+        <div class="flex flex-wrap gap-4"><a href="/documents/cal604-resolucion-numerica/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Read document (Spanish)</a></div>
+      </div>
+    </div><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
+  class="w-full"
+  srcset="/assets/img/thumbnails/solow-swan-growth-model_192w.webp 192w, /assets/img/thumbnails/solow-swan-growth-model_256w.webp 256w, /assets/img/thumbnails/solow-swan-growth-model_320w.webp 320w, /assets/img/thumbnails/solow-swan-growth-model_384w.webp 384w, /assets/img/thumbnails/solow-swan-growth-model_448w.webp 448w, /assets/img/thumbnails/solow-swan-growth-model_512w.webp 512w, /assets/img/thumbnails/solow-swan-growth-model_576w.webp 576w, /assets/img/thumbnails/solow-swan-growth-model_640w.webp 640w, /assets/img/thumbnails/solow-swan-growth-model_704w.webp 704w, /assets/img/thumbnails/solow-swan-growth-model_768w.webp 768w, /assets/img/thumbnails/solow-swan-growth-model_832w.webp 832w, /assets/img/thumbnails/solow-swan-growth-model_896w.webp 896w, /assets/img/thumbnails/solow-swan-growth-model_960w.webp 960w, /assets/img/thumbnails/solow-swan-growth-model_1024w.webp 1024w, /assets/img/thumbnails/solow-swan-growth-model_1080w.webp 1080w"
+  sizes="(min-width: 64rem) 19rem, (min-width: 48rem) 16rem, (min-width: 40rem) 14rem, 100vw"
+  src="/assets/img/thumbnails/solow-swan-growth-model_640w.webp"
+  alt=""
+  loading="eager"
+/>
+
+</div><div class="col-span-1 sm:col-span-2">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">Solow-Swan growth model</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">27 May 2019</p>
+          <p>A Calculus 4 assignment about the application of differential equations, made in GeoGebra. In this interactive document I explored the Solow-Swan economic growth model, which is a nonlinear system consisting of a single ordinary differential equation that models the evolution of the per capita stock of capital.</p>
+        </div>
+        <div class="flex flex-wrap gap-4"><a href="https://www.geogebra.org/m/zrcqd8hq" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Read document (Spanish)</a>
+            <a href="/documents/solow-swan-growth-model/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a></div>
+      </div>
+    </div></div>
+</section>
+</main><footer lang="en" class="bg-white text-gray-500 dark:bg-gray-900 dark:text-gray-400 py-8 mt-auto">
+  <div class="container lg:max-w-4xl border-t border-gray-950/5 dark:border-white/10 mx-auto p-4">
+    <div class="flex flex-col items-center justify-center gap-4">
+      <nav aria-label="Footer navigation">
+        <ul class="flex gap-6 text-sm"><li>
+              <a href="/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Home</a>
+            </li><li>
+              <a href="/about/" class="hover:text-gray-600 dark:hover:text-white transition-colors">About</a>
+            </li><li>
+              <a href="/projects/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Projects</a>
+            </li><li>
+              <a href="/blog/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Blog</a>
+            </li></ul>
+      </nav>
+      <p class="text-xs">Samuel Ochoa · 2025</p>
+    </div>
   </div>
 </footer>
-<script src="/assets/js/bootstrap.bundle.min.js"></script>
-  </body>
+</body>
 </html>

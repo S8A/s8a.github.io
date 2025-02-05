@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Completed first chapter of SICP book"
-og_desc: I finished chapter one of a classic programming book.
+description: I finished chapter one of a classic programming book.
 category: projects
 ---
 Yesterday, I finished the first chapter of the book *[Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)* and its exercises. My solutions to those exercises are available in [this GitHub repository](https://github.com/S8A/sicp-exercises).
@@ -19,7 +19,6 @@ Of course, there's still the cost of the time, effort and willpower required to 
 >[...]
 >
 >Currently, the number of people entering the industry is rapidly increasing, while the number of CS grads is essentially static. This oversupply of Type 2 engineers is starting to reduce their employment opportunities and keep them out of the industry’s more fulfilling work. Whether you’re striving to become a Type 1 engineer or simply looking for more job security, learning computer science is the only reliable path.
-{: .blockquote .px-5 .py-2}
 
 The classic SICP is the guide's recommendation for programming, specifically its first three chapters and their exercises. I will complete those three chapters, and ideally the remaining two.
 

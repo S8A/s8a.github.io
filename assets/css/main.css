@@ -1,0 +1,8 @@
+---
+---
+
+@import "tailwindcss" source("../..");
+@custom-variant dark (&:where(.dark, .dark *));
+@plugin "@tailwindcss/typography";
+
+@import "bootstrap-icons";

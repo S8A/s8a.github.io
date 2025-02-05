@@ -2,7 +2,7 @@
 layout: post
 title: "Propiedad y robo de NFTs según la teoría legal libertaria"
 lang: es
-og_desc: Ensayo original escrito como asignación relacionada al tema de los delitos informáticos.
+description: Ensayo original escrito como asignación relacionada al tema de los delitos informáticos.
 category: personal
 ---
 

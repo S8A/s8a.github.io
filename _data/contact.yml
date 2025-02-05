@@ -1,6 +1,6 @@
 - name: Email
   value: samuelochoap@gmail.com
-  icon: bi-envelope
+  icon: bi-envelope-at-fill
   url: mailto:samuelochoap@gmail.com
 - name: Telegram
   value: "@samuelochoap"

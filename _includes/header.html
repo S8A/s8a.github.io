@@ -1,27 +1,97 @@
-<header lang="en">
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Primary navigation">
-    <div class="container-md">
-      <a class="navbar-brand" href="/">
-        <img src="/assets/img/s8a-icon.svg" alt="Home" width="32" height="32">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="navbar-nav me-auto mb-md-0">
-          {%- for item in site.data.navigation -%}
-          <li class="nav-item">
-            {% if page.url == item.link %}
-            <a href="#" class="nav-link active" aria-current="page">
-            {% else %}
-            <a href="{{- item.link -}}" class="nav-link">
-            {% endif %}
-              {{- item.name -}}
-            </a>
-          </li>
-          {%- endfor -%}
-        </ul>
+<header lang="en" class="bg-gray-950 text-gray-100 border-b border-gray-950/5 dark:border-white/10" x-data="{ open: false }">
+  <nav class="container lg:max-w-4xl mx-auto px-4 py-3" aria-label="Main navigation">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-8">
+        <div class="shrink-0">
+          <a href="{{- '/' | absolute_url -}}">
+            <img
+              src="{{- '/assets/img/s8a-icon.svg' | absolute_url -}}"
+              alt="Samuel Ochoa"
+              width="32"
+              height="32"
+            >
+          </a>
+        </div>
+
+        <div class="hidden md:block">
+          <ul class="flex items-baseline gap-4">
+            {%- for item in site.data.navigation -%}
+              <li>
+                {%- if item.link == page.url -%}
+                  <a
+                    href="{{- item.link | absolute_url -}}"
+                    class="rounded-md px-3 py-2 bg-gray-900 text-white"
+                    aria-current="page"
+                  >
+                    {{- item.name -}}
+                  </a>
+                {%- else -%}
+                  <a
+                    href="{{- item.link | absolute_url -}}"
+                    class="rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+                  >
+                    {{- item.name -}}
+                  </a>
+                {%- endif -%}
+              </li>
+            {%- endfor -%}
+          </ul>
+        </div>
       </div>
+
+      <div class="flex items-center gap-4">
+        <button
+          class="rounded-md px-2 py-1 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors cursor-pointer"
+          x-bind:aria-label="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"
+          x-bind:title="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"
+          x-on:click="$store.darkMode.toggle()"
+        >
+          <i class="bi text-lg" x-bind:class="$store.darkMode.on ? 'bi-moon-stars-fill' : 'bi-sun-fill'"></i>
+        </button>
+        <button
+          class="block md:hidden rounded-md px-2 py-1 transition-colors cursor-pointer"
+          x-bind:class="open ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-800 hover:text-white'"
+          x-on:click="open = !open"
+          aria-label="Toggle menu"
+          title="Toggle menu"
+        >
+          <i class="bi bi-list text-lg"></i>
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="md:hidden"
+      x-show="open"
+      x-transition:enter="transition ease-out duration-200"
+      x-transition:enter-start="opacity-0 -translate-y-2"
+      x-transition:enter-end="opacity-100 translate-y-0"
+      x-transition:leave="transition ease-in duration-150"
+      x-transition:leave-start="opacity-100 translate-y-0"
+      x-transition:leave-end="opacity-0 -translate-y-2"
+    >
+      <ul class="py-2 flex flex-col gap-1">
+        {%- for item in site.data.navigation -%}
+          <li>
+            {%- if page.url == item.link -%}
+              <a
+                href="{{- item.link | absolute_url -}}"
+                class="block w-full rounded-md px-3 py-2 bg-gray-900 text-white transition-colors"
+                aria-current="page"
+              >
+                {{- item.name -}}
+              </a>
+            {%- else -%}
+              <a
+                href="{{- item.link | absolute_url -}}"
+                class="block w-full rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+              >
+                {{- item.name -}}
+              </a>
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
     </div>
   </nav>
 </header>

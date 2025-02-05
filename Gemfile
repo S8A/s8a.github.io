@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "kramdown"
   gem "jekyll-thumbnail-img"
+  gem "jekyll-postcss-v2"
 end
 
 # Workaround for segmentation fault on Alpine Linux

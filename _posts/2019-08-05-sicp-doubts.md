@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I will not complete the SICP book"
-og_desc: There's no point in learning techniques aimlessly.
+description: There's no point in learning techniques aimlessly.
 category: projects
 ---
 I finished section 2.2. of the SICP book last Friday. I decided to not continue with it, for several reasons. Instead, I will complete the HTDP book.
@@ -24,7 +24,6 @@ Then the authors move on to an in-depth critique of SICP, saying that "although 
 
 They continue by explaining their alternative approach, translated into the HTDP book, which addresses SICP's flaws along four dimensions:
 >First, the book discusses explicitly how programs should be constructed. Second, to tame the complexity of programming, it defines a series of teaching languages based on Scheme that represent five distinct knowledge levels through which students pass during their first course. [...] Third, the book uses exercises to reinforce the explicit guidelines on program design; few, if any, exercises are designed for the sake of domain knowledge. Finally, the book uses more accessible forms of domain knowledge than SICP.
-{: .blockquote .px-5 .py-2}
 
 The publication concludes by showcasing the strong results of implementing the HTDP approach at a dozen colleges and several dozens of high schools. More importantly, it convinced me the HTDP is not just an "easier alternative" to SICP, but a thoroughly thought-out and more effective one.
 

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "8A Training"
-og_desc: Two months ago, I made a simple web-app for logging training sessions.
-og_image: s8a-training-v4.0.1.webp
-big_image: s8a-training-v4.0.1.webp
+description: Two months ago, I made a simple web-app for logging training sessions.
+image: /assets/img/s8a-training-v4.0.1.webp
+big_image: /assets/img/s8a-training-v4.0.1.webp
 big_image_alt: Screenshots of the web-app on a mobile phone.
 category: projects
 ---

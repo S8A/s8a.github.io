@@ -1,21 +1,21 @@
 <!doctype html>
-<html lang="{{ page.lang | default: 'en' }}">
+<html
+  x-data
+  x-bind:class="$store.darkMode.on ? 'dark' : ''"
+  lang="{{ page.lang | default: 'en' }}"
+>
   <head>
     {%- include meta.html -%}
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-icons.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | absolute_url }}">
+
+    <script src="{{ '/assets/js/bundle.js' | absolute_url }}" defer></script>
   </head>
-  <body>
+  <body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 min-h-screen flex flex-col">
     {%- include header.html -%}
-    <main>
-      <div class="container py-3">
-        {{- content -}}
-      </div>
+    <main class="flex-grow container lg:max-w-4xl mx-auto p-4 {{ page.main_class_extra | default: '' }}">
+      {{- content -}}
     </main>
     {%- include footer.html -%}
-
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

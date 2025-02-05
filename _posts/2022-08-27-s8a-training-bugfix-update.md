@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "8A Training bugfix update: v4.1.1"
-og_desc: I updated my training log web-app to fix a bug and do some tweaks.
-og_image: s8a-training-v4.1.0.webp
+description: I updated my training log web-app to fix a bug and do some tweaks.
+image: /assets/img/s8a-training-v4.1.0.webp
 category: projects
 ---
 Yesterday I published a new patch version of [8A Training](https://s8a-training.web.app/), the training log web-app that I created as a university assignment back in April.

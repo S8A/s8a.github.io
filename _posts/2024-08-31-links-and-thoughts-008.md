@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Links and Thoughts #8 (August 2024)"
-og_desc: The mutational load hypothesis, O-ring theory, the origins of AIDS, murder rate comparisons, and the rise of LGBT identity.
-og_image: links-and-thoughts-008.webp
-big_image: links-and-thoughts-008.webp
+description: The mutational load hypothesis, O-ring theory, the origins of AIDS, murder rate comparisons, and the rise of LGBT identity.
+image: /assets/img/links-and-thoughts-008.webp
+big_image: /assets/img/links-and-thoughts-008.webp
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
@@ -19,7 +19,7 @@ This month's compilation brings: a three-part article arguing against the mutati
 - Date: 2023-10-09
 - Source: _Not With a Bang_ (Substack)
 
-{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/bb240fe9-308c-43cf-aaf1-190e8d9fc1d1_1189x590.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Graph showing a nearly monotonic, linear decline in right-wing beliefs by birth year, based on data from the General Social Survey (GSS) including only non-Hispanic white American respondents to minimize confounders." %}
+{% include img-substackcdn.html class="w-full" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/bb240fe9-308c-43cf-aaf1-190e8d9fc1d1_1189x590.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Graph showing a nearly monotonic, linear decline in right-wing beliefs by birth year, based on data from the General Social Survey (GSS) including only non-Hispanic white American respondents to minimize confounders." %}
 
 This is a long, detailed piece split into three articles that argues against the mutational load hypothesis for the rise of leftism, of which Joseph Bronski is perhaps the strongest proponent. [^fn-1] The mutational load hypothesis has two premises: that mutational load, that is, the accumulation of deleterious mutations, [^fn-2] has increased since at least the Industrial Revolution as a result of technological and economic advances, [^fn-3] and that mutational load causes leftism; [^fn-4] and its conclusion is that increased mutational load is the main, ultimate, or even the sole cause for the almost uninterrupted rise of leftism throughout the world in the last few centuries and especially in the West.
 
@@ -48,12 +48,10 @@ In this article, Gautreau provides a very interesting and fun to read explanatio
 The article is a very interesting and accessible read, with many funny and quotable parts. I'll highlight two of my favorite quotes, one from around the middle of the article, and one from the end:
 
 > I repeat myself: life isn't fair, and man is an unequal creature. Unequal people get unequal incomes, and there's nothing that will change that.
-{: .fst-italic.ps-4.border-start.border-5}
 
 > [...] The material benefits of this delicate productive arrangement are clear to every enterprise in a capitalist system.
 >
 > The challenge is in avoiding the disasters to life, liberty, and property that emerge from skill mismatches.
-{: .fst-italic.ps-4.border-start.border-5}
 
 ---
 
@@ -64,7 +62,7 @@ The article is a very interesting and accessible read, with many funny and quota
 - Date: 2024-08-23
 - Source: _Aporia_ (Substack)
 
-{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/cb0e995f-b872-429e-8133-05da52259b02_747x939.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Map of early AIDS cases in the Congo and bordering countries" %}
+{% include img-substackcdn.html class="w-full" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/cb0e995f-b872-429e-8133-05da52259b02_747x939.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Map of early AIDS cases in the Congo and bordering countries" %}
 
 This article re-examines the oral polio vaccine (OPV) hypothesis for the origin of the human immunodeficiency virus (HIV), an alternative to the mainstream-accepted bushmeat hypothesis. The OPV hypothesis claims that HIV evolved from a related virus present in some of the chimpanzee kidney cells used in the large-scale experimental OPV trial carried out in the Belgian Congo from 1957 to 1960. Pallesen argues that there are several improbable coincidences that the bushmeat hypothesis doesn't convincingly explain, while the OPV hypothesis is straightforwardly plausible, though he makes clear that it might still be incorrect. Furthermore, he provides compelling evidence and arguments that show that the claims used to allegedly refute the OPV hypothesis are either weak or entirely wrong. I particularly liked a brief aside section in which Pallesen highlights the curious parallels between the debate over the origins of AIDS and the debate over the origins of COVID-19. [^fn-6]
 
@@ -77,14 +75,13 @@ This article re-examines the oral polio vaccine (OPV) hypothesis for the origin 
 - Date: 2024-08-24
 - Source: _Not With a Bang_ (Substack)
 
-{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/307f7ead-4f0d-4edb-9dca-0d83e7b88475_1129x665.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Chart of the lethality of aggravated assaults in the United States over time, showing that the lethality of aggravated assaults has dramatically decreased due to better medical care and access, thus reducing the homicide rate." %}
+{% include img-substackcdn.html class="w-full" fetch_url="https://substack-post-media.s3.amazonaws.com/public/images/307f7ead-4f0d-4edb-9dca-0d83e7b88475_1129x665.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Chart of the lethality of aggravated assaults in the United States over time, showing that the lethality of aggravated assaults has dramatically decreased due to better medical care and access, thus reducing the homicide rate." %}
 
 The central thesis of the article is that while the murder rate is the best proxy we have for the overall crime rate due to its consistent definition and reporting, it's still necessary to make adjustments to make valid comparisons between eras and regions. In particular, the most important thing to account for is that improvements in medical techniques and access have dramatically reduced the lethality of violent crime throughout the years, and thus the seemingly comparable murder rates in the West between 1960 and the present actually mask the fact that the level of overall crime and disorder is several times higher today. Furthermore, the trends of increasing obesity and wealth, along with improvements in forensics and surveillance technology, should make us expect crime to fall over time, so the deterioration of law and order throughout the years is even more glaring. The second point is that international comparisons must take into account that different countries have different ratios of murders to total crime due to differences in available weapons and the criminal inclinations of their demographics.
 
 Fortunately, the author points out, crime is a relatively simple problem to solve due to the power law distribution of criminal behavior; as a small group of repeat offenders are responsible for the vast majority of crimes, returning to punishing criminals swiftly and harshly would pretty much solve the problem. [^fn-7] I'll end by quoting the post's final paragraph:
 
 > As such there's no good reason European countries today (and ideally the United States) shouldn't be as safe as Japan. All it would require is a criminal justice system as effective as it was two generations ago. Doing this would be just, make us much wealthier, and vastly improve our quality-of-life. Reaching Japan is realistic and should be the goal of Western criminal justice politics. Accept nothing less.
-{: .fst-italic.ps-4.border-start.border-5}
 
 ---
 
@@ -95,7 +92,7 @@ Fortunately, the author points out, crime is a relatively simple problem to solv
 - Date: 2022-05-30
 - Source: _Center for the Study of Partisanship and Ideology_ (Substack)
 
-{% include img-substackcdn.html class="img-fluid mx-auto" fetch_url="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/4cc2bf73-efef-41b4-baaf-21e473a4df91_2268x1300.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Chart of LGBT share by ideology for people under 30 years old." %}
+{% include img-substackcdn.html class="w-full" fetch_url="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/4cc2bf73-efef-41b4-baaf-21e473a4df91_2268x1300.png" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:65vw, 1096px:59vw, 1200px:64vw, 1300px:59vw, 1400px:63vw" loading="lazy" alt="Chart of LGBT share by ideology for people under 30 years old." %}
 
 This article is a thorough statistical analysis of the rise of LGBT identification in the West (particularly in the United States), the factors and trends underlying it, and its implications. The main takeaway is that while there has been an increase in actual non-heterosexual _behavior_ (about 4%), the increase in LGBT _identification_ has been much greater (about 11%), and the data suggests that sociopolitical factors likely explain most of this divergence. Another important takeaway that isn't surprising at all is that, at least among young people, there is a strong correlation between mental health problems, "liberal" ideology (leftism), and LGBT identity. The article starts with a summary list of the key findings, so I won't restate them all here. I hope they repeat this report with more recent data.
 

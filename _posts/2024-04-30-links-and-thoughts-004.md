@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Links and Thoughts #4 (April 2024)"
-og_desc: Household management philosophy, sexual restraint and civilizational achievement, smart fraction theory, human biodiversity, and human beauty.
-og_image: links-and-thoughts-004.webp
-big_image: links-and-thoughts-004.webp
+description: Household management philosophy, sexual restraint and civilizational achievement, smart fraction theory, human biodiversity, and human beauty.
+image: /assets/img/links-and-thoughts-004.webp
+big_image: /assets/img/links-and-thoughts-004.webp
 big_image_alt: AI-generated illustrations for the featured articles (Playground v2.5).
 category: personal
 ---
@@ -126,7 +126,6 @@ The article is relatively short, well-written, and links to research to back its
 > Like all species, we are designed by natural selection to preserve and propagate our genes. By choosing a partner with nice skin, hair and teeth, symmetrical features, good posture and movement patterns, and a lean physique, we are inadvertently selecting for microbial, hormonal, musculoskeletal, nutritional and immunological health. This, in turn, enhances our reproductive success by enriching our life and endowing our offspring with beneficial characteristics.
 >
 > Physical beauty isn’t just something we find pleasing; it’s a matter of survival and reproduction.
-{: .fst-italic.ps-4.border-start.border-5}
 
 ---
 

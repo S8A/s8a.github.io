@@ -2,40 +2,35 @@
 layout: default
 ---
 
-<h1 class="text-center">
+<h1 class="text-center text-4xl font-bold mb-2 flex items-center justify-center gap-2">
   {%- if page.icon -%}
-    <img class="d-inline vertical-align-middle me-2" alt="" src="/assets/img/{{ page.icon }}" width="32" height="32">
+    <img src="{{ page.icon }}" width="32" height="32" alt="">
   {%- endif -%}
-  {{ page.name }}
+  <span>{{ page.name }}</span>
 </h1>
 
-<div class="row flex-md-row-reverse align-items-center g-3">
-  {% if page.image %}
-    <div class="col-lg-6 mx-auto">
-      {% assign image_path = page.image | prepend: "/assets/img/" %}
-      {% include img-local.html class="img-fluid" src=image_path widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 576px:94vw, 672px:81vw, 768px:94vw, 880px:82vw, 992px:49vw, 1096px:44vw, 1200px:48vw, 1300px:44vw, 1400px:48vw" default_size="1080" %}
-    </div>
-  {% endif %}
+{%- if page.image -%}
+  {%- include img-local.html class="w-full mb-2" src=page.image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:40rem, 48rem:48rem, 64rem:56rem" default_size="1080" -%}
+{%- endif -%}
 
-  <div class="col-lg-6 mx-auto">
-    {%- if page.last_update -%}
-      <p><small class="text-muted">Last update: {{ page.last_update | date: "%b %Y" }}</small></p>
+<div class="flex flex-col gap-2">
+  {%- if page.last_update -%}
+    <p><small class="text-sm text-gray-600 dark:text-gray-400">Last update: {{ page.last_update | date: "%b %Y" }}</small></p>
+  {%- endif -%}
+  <p>{{ page.summary }}</p>
+  {%- if page.features -%}
+    <ul class="ml-8 mb-2 list-disc list-outside">
+      {%- for feature in page.features -%}
+        <li>{{ feature }}</li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+  <div class="flex gap-2">
+    {%- if page.download -%}
+      <a href="{{ page.download }}" class="px-2 py-1 rounded-md inline-block text-white bg-blue-600 hover:bg-blue-500 dark:bg-blue-500 dark:hover:bg-blue-400 transition-colors" download><i class="bi bi-download"></i> Download</a> 
     {%- endif -%}
-    <p>{{ page.summary }}</p>
-    {%- if page.features -%}
-      <ul>
-        {%- for feature in page.features -%}
-          <li>{{ feature }}</li>
-        {%- endfor -%}
-      </ul>
+    {%- if page.github -%}
+      <a href="{{ page.github }}" class="px-2 py-1 rounded-md inline-block text-white bg-gray-600 hover:bg-gray-500 dark:bg-gray-500 dark:hover:bg-gray-400 transition-colors"><i class="bi bi-github"></i> GitHub project</a>
     {%- endif -%}
-    <div class="d-grid gap-2 d-md-block">
-      {%- if page.download -%}
-        <a href="{{ page.download }}" class="btn btn-primary me-md-2" download>Download</a> 
-      {%- endif -%}
-      {%- if page.github -%}
-        <a href="{{ page.github }}" class="btn btn-secondary me-md-2">GitHub project</a>
-      {%- endif -%}
-    </div>
   </div>
 </div>

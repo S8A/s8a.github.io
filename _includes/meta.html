@@ -1,10 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{%- assign page_title = page.title | append: ' &ndash; Samuel Ochoa' -%}
-{%- assign page_desc = page.og_desc -%}
-<title>{{- page_title -}}</title>
-<meta name="description" content="{{- page_desc -}}">
+{%- seo -%}
 
 {%- comment -%}
 Favicon guide: https://loqbooq.app/blog/add-favicon-modern-browser-guide
@@ -18,22 +15,4 @@ Favicon guide: https://loqbooq.app/blog/add-favicon-modern-browser-guide
 <link rel="apple-touch-icon" type="image/png" sizes="167x167" href="{%- thumbnail_img s8a_icon_png 167 -%}">
 <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="{%- thumbnail_img s8a_icon_png 180 -%}">
 
-{%- comment -%}
-Open Graph protocol: https://ogp.me/
-Open Graph tags generator: https://www.opengraph.xyz/
-{%- endcomment -%}
-{%- assign og_url = page.url | absolute_url -%}
-{%- assign og_type = page.og_type | default: 'website' -%}
-{%- assign og_image = page.og_image | default: 's8a-thumbnail.webp' | prepend: '/assets/img/' | absolute_url -%}
-<meta property="og:url" content="{{- og_url -}}">
-<meta property="og:type" content="{{- og_type -}}">
-<meta property="og:title" content="{{- page_title -}}">
-<meta property="og:description" content="{{- page_desc -}}">
-<meta property="og:image" content="{{- og_image -}}">
-
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="{{- site.url | split: '://' | reverse | first -}}">
-<meta property="twitter:url" content="{{- og_url -}}">
-<meta name="twitter:title" content="{{- page_title -}}">
-<meta name="twitter:description" content="{{- page_desc -}}">
-<meta name="twitter:image" content="{{- og_image -}}">
+{%- feed_meta -%}

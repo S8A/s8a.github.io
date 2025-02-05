@@ -7,6 +7,11 @@ on:
     branches:
       - master
 
+env:
+  JEKYLL_ENV: production
+  NODE_ENV: production
+  TZ: America/Caracas
+
 jobs:
   github-pages:
     runs-on: ubuntu-latest

@@ -14,7 +14,7 @@ I worked in the three assignments with the support of Iván Sánchez, to whom I'
 {% assign id = document.image | split: "-" %}
   {% if id[0] == "cal604" %}
   - [{{ document.name }}]({{ document.url | absolute_url }}) -- *{{ document.date | date_to_string }}*
-    
+
     {{ document.summary }}
   {% endif %}
 {% endfor %}

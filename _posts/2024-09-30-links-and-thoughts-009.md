@@ -66,7 +66,7 @@ Overall, a very thought-provoking and well-argued article, though I don't agree 
 
 This introspective post by strength training and conditioning coach Cody Lefever, as he explains in the introduction, is primarily his response to the question of _why_ he lifts, though he lays out concepts and lessons applicable in many other areas of life. The article is based on the concept of "strange loops": according to philosopher and mathematician Douglas Hofstadter, who introduced the concept, "a strange loop is a system that contains a self-referential structure which, when observed at a higher level of abstraction, creates a paradoxical situation." [^fn-3] Lefever explains that physicality, creativity, and consciousness form a strange loop where each element refers to the other two, forming an increasingly complex feedback loop. I highly encourage reading the article; it's clear, concise, almost poetic, and full of wisdom and inspiration for physical and general self-improvement.
 
-> The process is the goal. Separating ourselves from doing, for any reason, is the means by which we passively accept eventually not being. Physicality is creativity is consciousness. 
+> The process is the goal. Separating ourselves from doing, for any reason, is the means by which we passively accept eventually not being. Physicality is creativity is consciousness.
 
 ---
 

@@ -42,6 +42,9 @@ collections:
   websites:
     output: true
     permalink: /:collection/:name/
+  open_source:
+    output: true
+    permalink: /:collection/:name/
 
 # Build settings
 markdown: kramdown

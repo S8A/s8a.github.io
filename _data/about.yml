@@ -8,10 +8,13 @@ languages:
     proficiency: Proficient
 skills:
   - "Programming in multiple languages: Python (main), Java, C++."
-  - Development of Django web-apps.
+  - Backend web development using Django and FastAPI.
   - Development of custom modules for the all-in-one business software platform
     Odoo.
-  - Front-end web development using the Vue.js and Nuxt.js frameworks.
+  - Front-end web development using reactive frameworks like Vue.js, Nuxt.js,
+    and Alpine.js.
+  - Experience with different database systems, both relational (PostgreSQL,
+    MySQL) and non-relational (MongoDB, Firebase).
   - Standard web development technologies (HTML, CSS, JavaScript).
   - Setup and management of Microsoft Windows and Debian-based Linux operating
     systems.
@@ -36,8 +39,8 @@ certifications:
     year: 2018
     url: https://coursera.org/verify/specialization/95S9T4NV54ET
 introduction: >
-  I'm an informations systems engineer (graduated in 2023) and self-taught
-  software developer from Venezuela. I've worked as a software developer 
+  I'm an information systems engineer (graduated in 2023) and self-taught
+  software developer from Venezuela. I've worked as a software developer
   both as an employee and as a freelancer, besides coding for personal projects.
   I started to teach myself how to code and make websites when I was 13 years
   old, and I also taught myself to become very proficient in English.
@@ -45,9 +48,9 @@ introduction: >
 
   I'm currently working primarily as a full-stack developer, building web apps
   using Django and Vue.js, custom modules for the Odoo business software
-  platform, REST APIs, and integrations with services like Stripe and Zoho CRM.
-  Check out the [about page](/about/) to learn more about my skills, work
-  experience, and education.
+  platform, REST APIs, and integrations with services like Stripe, Yummy Rides,
+  and Zoho CRM. Check out the [about page](/about/) to
+  learn more about my skills, work experience, and education.
 
 
   Besides programming for work, I also have a variety of personal and

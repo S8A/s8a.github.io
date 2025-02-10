@@ -3,9 +3,9 @@
     <div class="flex items-center justify-between">
       <div class="flex items-center gap-8">
         <div class="shrink-0">
-          <a href="{{- '/' | absolute_url -}}">
+          <a href="{{- '/' | relative_url -}}">
             <img
-              src="{{- '/assets/img/s8a-icon.svg' | absolute_url -}}"
+              src="{{- '/assets/img/s8a-icon.svg' | relative_url -}}"
               alt="Samuel Ochoa"
               width="32"
               height="32"
@@ -19,7 +19,7 @@
               <li>
                 {%- if item.link == page.url -%}
                   <a
-                    href="{{- item.link | absolute_url -}}"
+                    href="{{- item.link | relative_url -}}"
                     class="rounded-md px-3 py-2 bg-gray-900 text-white"
                     aria-current="page"
                   >
@@ -27,7 +27,7 @@
                   </a>
                 {%- else -%}
                   <a
-                    href="{{- item.link | absolute_url -}}"
+                    href="{{- item.link | relative_url -}}"
                     class="rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
                   >
                     {{- item.name -}}
@@ -75,7 +75,7 @@
           <li>
             {%- if page.url == item.link -%}
               <a
-                href="{{- item.link | absolute_url -}}"
+                href="{{- item.link | relative_url -}}"
                 class="block w-full rounded-md px-3 py-2 bg-gray-900 text-white transition-colors"
                 aria-current="page"
               >
@@ -83,7 +83,7 @@
               </a>
             {%- else -%}
               <a
-                href="{{- item.link | absolute_url -}}"
+                href="{{- item.link | relative_url -}}"
                 class="block w-full rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
               >
                 {{- item.name -}}

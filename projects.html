@@ -7,13 +7,14 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 
 <div class="pb-6">
   <h1 class="text-center text-4xl font-bold mb-2">{{ page.title }}</h1>
-  <nav class="flex flex-col items-center justify-center gap-1 md:flex-row md:gap-4">
+  <nav class="flex flex-col items-center justify-center gap-x-4 gap-y-2 md:flex-row">
     <p>Jump to section:</p>
-    <ul class="flex gap-4">
+    <ul class="flex flex-wrap gap-x-4 gap-y-2">
       <li><a href="#open-source" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Open Source</a></li>
       <li><a href="#websites" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Websites</a></li>
       <li><a href="#programs" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Desktop programs</a></li>
       <li><a href="#documents" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Documents</a></li>
+      <li><a href="#misc" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Miscellaneous</a></li>
     </ul>
   </nav>
 </div>
@@ -98,7 +99,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   </div>
 </section>
 
-<section id="documents" class="pt-6">
+<section id="documents" class="py-6">
   <h2 class="text-2xl font-bold mb-2">Documents</h2>
 
   <div class="flex flex-col gap-4">
@@ -123,6 +124,32 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
           {%- else -%}
             <a href="{{ document.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">{{ document.read_text }}</a>
           {%- endif -%}
+        </div>
+      </div>
+    </div>
+    {%- endfor -%}
+  </div>
+</section>
+
+<section id="misc" class="pt-6">
+  <h2 class="text-2xl font-bold mb-2">Miscellaneous</h2>
+  <div class="flex flex-col gap-4">
+    {%- assign misc_projects = site.misc_projects | sort: "last_update" | reverse -%}
+    {%- for project in misc_projects -%}
+    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
+      {%- if project.image -%}
+        <div class="col-span-1 flex items-center">
+          {%- include img-local.html class="w-full" src=project.image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:19rem" default_width="640" -%}
+        </div>
+      {%- endif -%}
+      <div class="col-span-1 {% if project.image %}sm:col-span-2{% else %}sm:col-span-3{% endif -%}">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">{{ project.name }}</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Last update: {{ project.last_update | date: "%b %Y" }}</p>
+          <p>{{ project.summary }}</p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a href="{{ project.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a>
         </div>
       </div>
     </div>

@@ -11,10 +11,10 @@ export default {
                 assetsPath: "assets",
             },
         ],
-        ...(
-            process.env.JEKYLL_ENV === "production"
-            ? { cssnano: { preset: "lite" } }
-            : {}
-        ),
+        // ...(
+        //     process.env.JEKYLL_ENV === "production"
+        //     ? { cssnano: { preset: "lite" } }
+        //     : {}
+        // ),
     },
 };

@@ -8,7 +8,7 @@ export default {
                 filter: /bootstrap-icons\.woff.?$/,
                 url: "copy",
                 basePath: path.resolve("node_modules/bootstrap-icons/font"),
-                assetsPath: "assets",
+                assetsPath: "..",
             },
         ],
         ...(

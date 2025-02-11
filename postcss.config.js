@@ -2,7 +2,7 @@ import path from "path";
 
 export default {
     plugins: {
-        "@tailwindcss/postcss": {},
+        "@tailwindcss/postcss": { optimize: false },
         "postcss-url": [
             {
                 filter: /bootstrap-icons\.woff.?$/,
@@ -11,10 +11,10 @@ export default {
                 assetsPath: "assets",
             },
         ],
-        // ...(
-        //     process.env.JEKYLL_ENV === "production"
-        //     ? { cssnano: { preset: "lite" } }
-        //     : {}
-        // ),
+        ...(
+            process.env.JEKYLL_ENV === "production"
+            ? { cssnano: { preset: "lite" } }
+            : {}
+        ),
     },
 };

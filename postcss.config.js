@@ -13,7 +13,7 @@ export default {
         ],
         ...(
             process.env.JEKYLL_ENV === "production"
-            ? { cssnano: { preset: "default" } }
+            ? { cssnano: { preset: "lite" } }
             : {}
         ),
     },

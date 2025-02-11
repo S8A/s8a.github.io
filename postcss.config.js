@@ -11,10 +11,5 @@ export default {
                 assetsPath: "..",
             },
         ],
-        ...(
-            process.env.JEKYLL_ENV === "production"
-            ? { cssnano: { preset: "lite" } }
-            : {}
-        ),
     },
 };

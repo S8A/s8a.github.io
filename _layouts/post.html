@@ -2,11 +2,14 @@
 layout: default
 ---
 
-<article id="post" class="prose dark:prose-invert prose-a:text-blue-600 prose-a:hover:text-blue-500 dark:prose-a:text-blue-500 dark:prose-a:hover:text-blue-400 prose-a:transition-colors prose-h1:text-center prose-h1:mb-2 max-w-none">
+<article
+  id="post"
+  class="prose dark:prose-invert prose-a:text-blue-600 prose-a:hover:text-blue-500 dark:prose-a:text-blue-500 dark:prose-a:hover:text-blue-400 prose-a:transition-colors prose-h1:text-center prose-h1:mb-2 max-w-none"
+>
   <h1>{{- page.title -}}</h1>
   <p class="text-center text-gray-600 dark:text-gray-400 mb-2"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time> &ndash; {{ page.category }}</p>
   {%- if page.big_image -%}
     {%- include img-local.html class="w-full" src=page.big_image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:40rem, 48rem:48rem, 64rem:56rem" default_size="1080" alt=page.big_image_alt -%}
   {%- endif -%}
-  {{- content -}}
+  {{ content }}
 </article>

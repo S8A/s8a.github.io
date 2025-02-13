@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/S8A/jekyll-postcss-v2.git
+  revision: 895f548e865e1d97f436a25633280a9482b80964
+  branch: feature/change_hook_to_site_post_write
+  specs:
+    jekyll-postcss-v2 (1.0.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -89,7 +96,6 @@ GEM
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
     jekyll-paginate (1.1.0)
-    jekyll-postcss-v2 (1.0.2)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-relative-links (0.7.0)
@@ -215,7 +221,7 @@ DEPENDENCIES
   jekyll-mentions
   jekyll-optional-front-matter
   jekyll-paginate
-  jekyll-postcss-v2
+  jekyll-postcss-v2!
   jekyll-redirect-from
   jekyll-relative-links
   jekyll-remote-theme

@@ -2,7 +2,7 @@ import path from "path";
 
 export default {
     plugins: {
-        "@tailwindcss/postcss": { optimize: false },
+        "@tailwindcss/postcss": {},
         "postcss-url": [
             {
                 filter: /bootstrap-icons\.woff.?$/,

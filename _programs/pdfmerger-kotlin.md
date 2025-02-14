@@ -1,5 +1,5 @@
 ---
-layout: program
+layout: project
 name: PDFMerger (Kotlin)
 icon: /assets/img/pdfmerger.svg
 description: Tool for merging PDF documents.
@@ -13,5 +13,15 @@ features:
 download: https://github.com/S8A/pdfmerger-kotlin/releases/download/v1.0/pdfmerger-kotlin-1.0.jar
 github: https://github.com/S8A/pdfmerger-kotlin
 image: /assets/img/pdfmerger-kotlin-screenshot.webp
+display_image: /assets/img/pdfmerger-kotlin-screenshot.webp
 last_update: 2019-01-14
+buttons:
+  - text: Download
+    url: https://github.com/S8A/pdfmerger-kotlin/releases/download/v1.0/pdfmerger-kotlin-1.0.jar
+    icon: bi bi-download
+    color: blue
+  - text: GitHub repository
+    url: https://github.com/S8A/pdfmerger-kotlin
+    icon: bi bi-github
+    color: gray
 ---

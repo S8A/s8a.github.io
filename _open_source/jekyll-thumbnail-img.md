@@ -1,5 +1,5 @@
 ---
-layout: open_source
+layout: project
 name: jekyll-thumbnail-img
 summary: >
   Jekyll plugin for generating thumbnails from images. I contributed two new
@@ -14,4 +14,14 @@ features:
   - Added the ability to set thumbnail width using variables, whether assigned in the template or from Front Matter, making the plugin more flexible.
   - Implemented thumbnail generation in Jekyll's built-in cache directory, copying them to the destination only when needed. This prevents regenerating all thumbnails every time any file changes in the Jekyll site, significantly improving build times.
 image: /assets/img/jekyll-thumbnail-img-pr-7-screenshot.webp
+display_image: /assets/img/jekyll-thumbnail-img-pr-7-screenshot.webp
+buttons:
+  - text: Pull request #7
+    url: https://github.com/abpaudel/jekyll-thumbnail-img/pull/7
+    icon: bi bi-git
+    color: blue
+  - text: GitHub repository
+    url: https://github.com/abpaudel/jekyll-thumbnail-img
+    icon: bi bi-github
+    color: gray
 ---

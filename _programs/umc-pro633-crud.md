@@ -1,5 +1,5 @@
 ---
-layout: program
+layout: project
 name: UMC Campus CRUD
 icon: /assets/img/umc-logo.png
 description: Tool for managing a database of UMC students and their grades.
@@ -17,5 +17,11 @@ find students' grades by subject, make new records, load records from file,
 update students' records, and delete students' records."
 github: https://github.com/S8A/umc-pro633-crud
 image: /assets/img/umc-pro633-crud-both-demo.webp
+display_image: /assets/img/umc-pro633-crud-both-demo.webp
 last_update: 2020-04-03
+buttons:
+  - text: GitHub repository
+    url: https://github.com/S8A/umc-pro633-crud
+    icon: bi bi-github
+    color: gray
 ---

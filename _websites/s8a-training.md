@@ -1,8 +1,9 @@
 ---
-layout: website
+layout: project
 title: 8A Training
 description: Simple web-app for logging training sessions.
 image: /assets/img/s8a-training-v4.1.0.webp
+display_image: /assets/img/s8a-training-v4.1.0.webp
 name: 8A Training
 last_update: 2022-08-26
 summary: >
@@ -17,4 +18,13 @@ features:
 go_text: Go to web-app
 website_url: https://s8a-training.web.app
 github: https://github.com/S8A/umc-prw703-proyecto
+buttons:
+  - text: Go to web-app
+    url: https://s8a-training.web.app
+    icon: bi bi-globe
+    color: blue
+  - text: GitHub repository
+    url: https://github.com/S8A/umc-prw703-proyecto
+    icon: bi bi-github
+    color: gray
 ---

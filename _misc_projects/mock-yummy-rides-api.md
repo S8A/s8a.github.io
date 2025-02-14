@@ -1,5 +1,5 @@
 ---
-layout: misc_project
+layout: project
 name: mock-yummy-rides-api
 summary: >
   Mock server for Yummy Rides' Corporate Integrations API, built with FastAPI
@@ -14,4 +14,10 @@ features:
 github: https://github.com/S8A/mock-yummy-rides-api
 last_update: 2025-01-18
 image: /assets/img/mock-yummy-rides-api-screenshot.webp
+display_image: /assets/img/mock-yummy-rides-api-screenshot.webp
+buttons:
+  - text: GitHub repository
+    url: https://github.com/S8A/mock-yummy-rides-api
+    icon: bi bi-github
+    color: gray
 ---

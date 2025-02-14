@@ -1,5 +1,5 @@
 ---
-layout: program
+layout: project
 name: JavaCipher
 icon: /assets/img/javacipher.svg
 description: Tool for encrypting and decrypting text using various classical ciphers.
@@ -12,5 +12,15 @@ features:
 download: https://github.com/S8A/javacipher/releases/download/v1.0/javacipher-1.0.jar
 github: https://github.com/S8A/javacipher
 image: /assets/img/javacipher-screenshot.webp
+display_image: /assets/img/javacipher-screenshot.webp
 last_update: 2018-03-06
+buttons:
+  - text: Download
+    url: https://github.com/S8A/javacipher/releases/download/v1.0/javacipher-1.0.jar
+    icon: bi bi-download
+    color: blue
+  - text: GitHub repository
+    url: https://github.com/S8A/javacipher
+    icon: bi bi-github
+    color: gray
 ---

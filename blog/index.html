@@ -9,7 +9,7 @@ description: Samuel Ochoa's personal blog.
   {%- for post in paginator.posts -%}
   <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
     <div class="col-span-1 flex items-center">
-      {%- include img-local.html class="w-full" src=post.image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:19rem" default_width="640" -%}
+      {%- include img-local.html class="w-full" src=post.image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:22rem" default_width="640" -%}
     </div>
     <div class="col-span-1 sm:col-span-2">
       <h2 class="text-xl font-medium"><a href="{{ post.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">{{ post.title }}</a></h2>

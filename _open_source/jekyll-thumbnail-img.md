@@ -1,6 +1,9 @@
 ---
 layout: project
 name: jekyll-thumbnail-img
+description: >
+  I contributed two new features to this Jekyll plugin for generating thumbnails
+  from images.
 summary: >
   Jekyll plugin for generating thumbnails from images. I contributed two new
   features: allowing to set the thumbnail width using a variable, and thumbnail

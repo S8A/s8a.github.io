@@ -22,7 +22,7 @@ collections:
   documents:
     output: true
     permalink: /:collection/:name/
-  programs:
+  desktop:
     output: true
     permalink: /:collection/:name/
   websites:

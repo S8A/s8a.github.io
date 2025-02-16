@@ -1,6 +1,9 @@
 ---
 layout: project
 name: mock-yummy-rides-api
+description: >
+  Mock server for Yummy Rides' Corporate Integrations API, built with FastAPI
+  and MongoDB.
 summary: >
   Mock server for Yummy Rides' Corporate Integrations API, built with FastAPI
   and MongoDB. Created to test the Yummy Rides integration for Odoo that I

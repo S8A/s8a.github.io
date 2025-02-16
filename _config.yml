@@ -22,7 +22,7 @@ collections:
   documents:
     output: true
     permalink: /:collection/:name/
-  programs:
+  desktop:
     output: true
     permalink: /:collection/:name/
   websites:
@@ -30,10 +30,10 @@ collections:
     permalink: /:collection/:name/
   open_source:
     output: true
-    permalink: /:collection/:name/
+    permalink: /open-source/:name/
   misc_projects:
     output: true
-    permalink: /:collection/:name/
+    permalink: /misc-projects/:name/
 
 # Build settings
 markdown: kramdown

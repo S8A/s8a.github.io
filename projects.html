@@ -5,153 +5,62 @@ description: My personal software and academic projects.
 main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 ---
 
+{%- assign sections = "open_source:Open source,websites:Websites,desktop:Desktop software,documents:Documents,misc_projects:Miscellaneous" | split: "," -%}
+
 <div class="pb-6">
   <h1 class="text-center text-4xl font-bold mb-2">{{ page.title }}</h1>
   <nav class="flex flex-col items-center justify-center gap-x-4 gap-y-1 md:flex-row">
     <p>Jump to section:</p>
     <ul class="flex flex-wrap items-center justify-center md:justify-start gap-x-4 gap-y-1">
-      <li><a href="#open-source" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Open Source</a></li>
-      <li><a href="#websites" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Websites</a></li>
-      <li><a href="#desktop" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Desktop software</a></li>
-      <li><a href="#documents" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Documents</a></li>
-      <li><a href="#misc" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Miscellaneous</a></li>
+      {%- for section_def in sections -%}
+        {%- assign section_parts = section_def | split: ":" -%}
+        {%- assign section_id = section_parts[0] | replace: "_", "-" -%}
+        {%- assign section_title = section_parts[1] -%}
+        <li>
+          <a href="#{{ section_id }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
+            {{ section_title }}
+          </a>
+        </li>
+      {%- endfor -%}
     </ul>
   </nav>
 </div>
 
-<section id="open-source" class="py-6">
-  <h2 class="text-2xl font-bold mb-2">Open Source</h2>
-  <div class="flex flex-col gap-4">
-    {%- assign open_source_projects = site.open_source | sort: "last_update" | reverse -%}
-    {%- for project in open_source_projects -%}
-    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
-      {%- if project.display_image -%}
-        <div class="col-span-1 flex items-center">
-          {%- include img-local.html class="w-full" src=project.display_image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:22rem" default_width="640" -%}
-        </div>
-      {%- endif -%}
-      <div class="col-span-1 {% if project.display_image %}sm:col-span-2{% else %}sm:col-span-3{% endif -%}">
-        <div class="mb-2">
-          <h3 class="text-xl font-medium">{{ project.name }}</h3>
-          <p class="text-sm text-gray-600 dark:text-gray-400">Last update: {{ project.last_update | date: "%b %Y" }}</p>
-          <p>{{ project.summary }}</p>
-        </div>
-        <div class="flex flex-wrap gap-4">
-          <a href="{{ project.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a>
-        </div>
-      </div>
-    </div>
-    {%- endfor -%}
-  </div>
-</section>
-
-<section id="websites" class="py-6">
-  <h2 class="text-2xl font-bold mb-2">Websites</h2>
-  <div class="flex flex-col gap-4">
-    {%- assign websites = site.websites | sort: "last_update" | reverse -%}
-    {%- for website in websites -%}
-    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
-      {%- if website.display_image -%}
-        <div class="col-span-1 flex items-center">
-          {%- include img-local.html class="w-full" src=website.display_image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:22rem" default_width="640" -%}
-        </div>
-      {%- endif -%}
-      <div class="col-span-1 {% if website.display_image %}sm:col-span-2{% else %}sm:col-span-3{% endif -%}">
-        <div class="mb-2">
-          <h3 class="text-xl font-medium">{{ website.name }}</h3>
-          <p class="text-sm text-gray-600 dark:text-gray-400">Last update: {{ website.last_update | date: "%b %Y" }}</p>
-          <p>{{ website.summary }}</p>
-        </div>
-        <div class="flex flex-wrap gap-4">
-          <a href="{{ website.website_url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">{{ website.go_text }}</a>
-          <a href="{{ website.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a>
+{%- for section_def in sections -%}
+  {%- assign section_parts = section_def | split: ":" -%}
+  {%- assign collection = section_parts[0] -%}
+  {%- assign section_id = collection | replace: "_", "-" -%}
+  {%- assign section_title = section_parts[1] -%}
+  {%- assign projects = site[collection] | reverse -%}
+  <section id="{{ section_id }}" class="{% if forloop.last %}pt-6{% else %}py-6{% endif %}">
+    <h2 class="text-2xl font-bold mb-2">{{ section_title }}</h2>
+    <div class="flex flex-col gap-4">
+      {%- for project in projects -%}
+      <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
+        {%- if project.display_image -%}
+          <div class="col-span-1 flex items-center">
+            {%- include img-local.html class="w-full" src=project.display_image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:22rem" default_width="640" -%}
+          </div>
+        {%- endif -%}
+        <div class="col-span-1 {% if project.display_image %}sm:col-span-2{% else %}sm:col-span-3{% endif -%}">
+          <div class="mb-2">
+            <h3 class="text-xl font-medium">
+              <a href="{{ project.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
+                {{ project.name }}
+              </a>
+            </h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400">
+              {%- if collection == "documents" -%}
+                {{ project.date | date_to_string }}
+              {%- else -%}
+                Last update: {{ project.last_update | date: "%b %Y" }}
+              {%- endif -%}
+            </p>
+            <p>{{ project.summary }}</p>
+          </div>
         </div>
       </div>
+      {%- endfor -%}
     </div>
-    {%- endfor -%}
-  </div>
-</section>
-
-<section id="desktop" class="py-6">
-  <h2 class="text-2xl font-bold mb-2">Desktop software</h2>
-  <div class="flex flex-col gap-4">
-    {%- assign desktop_apps = site.desktop | sort: "last_update" | reverse -%}
-    {%- for app in desktop_apps -%}
-    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
-      {%- if app.display_image -%}
-        <div class="col-span-1 flex items-center">
-          {%- include img-local.html class="w-full" src=app.display_image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:22rem" default_width="640" -%}
-        </div>
-      {%- endif -%}
-      <div class="col-span-1 {% if app.display_image %}sm:col-span-2{% else %}sm:col-span-3{% endif -%}">
-        <div class="mb-2">
-          <h3 class="text-xl font-medium">{{ app.name }}</h3>
-          <p class="text-sm text-gray-600 dark:text-gray-400">Last update: {{ app.last_update | date: "%b %Y" }}</p>
-          <p>{{ app.summary }}</p>
-        </div>
-        <div class="flex flex-wrap gap-4">
-          <a href="{{ app.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a>
-        </div>
-      </div>
-    </div>
-    {%- endfor -%}
-  </div>
-</section>
-
-<section id="documents" class="py-6">
-  <h2 class="text-2xl font-bold mb-2">Documents</h2>
-
-  <div class="flex flex-col gap-4">
-    {%- assign documents = site.documents | sort: "date" | reverse -%}
-    {%- for document in documents -%}
-    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
-      {%- if document.display_image -%}
-        <div class="col-span-1 flex items-center">
-          {%- include img-local.html class="w-full" src=document.display_image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:22rem" default_width="640" -%}
-        </div>
-      {%- endif -%}
-      <div class="col-span-1 {% if document.display_image %}sm:col-span-2{% else %}sm:col-span-3{% endif -%}">
-        <div class="mb-2">
-          <h3 class="text-xl font-medium">{{ document.name }}</h3>
-          <p class="text-sm text-gray-600 dark:text-gray-400">{{ document.date | date_to_string }}</p>
-          <p>{{ document.summary }}</p>
-        </div>
-        <div class="flex flex-wrap gap-4">
-          {%- if document.read_url -%}
-            <a href="{{ document.read_url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">{{ document.read_text }}</a>
-            <a href="{{ document.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a>
-          {%- else -%}
-            <a href="{{ document.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">{{ document.read_text }}</a>
-          {%- endif -%}
-        </div>
-      </div>
-    </div>
-    {%- endfor -%}
-  </div>
-</section>
-
-<section id="misc" class="pt-6">
-  <h2 class="text-2xl font-bold mb-2">Miscellaneous</h2>
-  <div class="flex flex-col gap-4">
-    {%- assign misc_projects = site.misc_projects | sort: "last_update" | reverse -%}
-    {%- for project in misc_projects -%}
-    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
-      {%- if project.display_image -%}
-        <div class="col-span-1 flex items-center">
-          {%- include img-local.html class="w-full" src=project.display_image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:22rem" default_width="640" -%}
-        </div>
-      {%- endif -%}
-      <div class="col-span-1 {% if project.display_image %}sm:col-span-2{% else %}sm:col-span-3{% endif -%}">
-        <div class="mb-2">
-          <h3 class="text-xl font-medium">{{ project.name }}</h3>
-          <p class="text-sm text-gray-600 dark:text-gray-400">Last update: {{ project.last_update | date: "%b %Y" }}</p>
-          <p>{{ project.summary }}</p>
-        </div>
-        <div class="flex flex-wrap gap-4">
-          <a href="{{ project.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Details</a>
-        </div>
-      </div>
-    </div>
-    {%- endfor -%}
-  </div>
-</section>
+  </section>
+{%- endfor -%}

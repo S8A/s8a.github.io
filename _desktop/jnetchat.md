@@ -1,11 +1,10 @@
 ---
 layout: project
-name: JNetChat
-icon: /assets/img/jnetchat.svg
+title: JNetChat
 description: Basic local network chat app I made a long time ago.
-summary: Local network chat. Made in Java. Source code lost.
-download: assets/downloads/jnetchat.old.jar
+name: JNetChat
 last_update: 2016-10-31
+summary: Local network chat. Made in Java. Source code lost.
 buttons:
   - text: Download
     url: assets/downloads/jnetchat.old.jar

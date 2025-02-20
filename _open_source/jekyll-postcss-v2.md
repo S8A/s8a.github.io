@@ -5,15 +5,11 @@ description: >
   I contributed an improvement to this Jekyll plugin to ensure proper PostCSS
   processing of the entire site's CSS files.
 name: jekyll-postcss-v2
+last_update: 2025-02-13
 summary: >
   Jekyll plugin for processing CSS files with PostCSS. I modified the plugin to
   process CSS only after all pages are written to disk, fixing issues with
   Tailwind CSS class detection. Pull request still pending review.
-last_update: 2025-02-13
-repo_host: github
-repo_url: https://github.com/bglw/jekyll-postcss-v2
-pr_url: https://github.com/bglw/jekyll-postcss-v2/pull/7
-pr_id: 7
 features:
   - Changed the plugin to hook into the "post_write" event of the entire site
     to ensure CSS processing happens after all content has been written to disk.

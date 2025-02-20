@@ -1,19 +1,20 @@
 ---
 layout: project
-name: DataCipher
-icon: /assets/img/datacipher.svg
+title: DataCipher
 description: Tool for encrypting and decrypting text using various classical ciphers.
-summary: Tool for encrypting and decrypting text using various classical ciphers. Made in Python.
+name: DataCipher
+last_update: 2017-07-06
+summary: >
+  Tool for encrypting and decrypting text using various classical ciphers.
+  Made in Python.
 features:
-- "ASCII: binary, octal, decimal, hexadecimal."
-- "Atbash cipher."
-- "Caesar cipher."
-- "Vigenère cipher."
-- "Columnar transposition (bad implementation)."
-github: https://github.com/S8A/datacipher
+  - "ASCII: binary, octal, decimal, hexadecimal."
+  - "Atbash cipher."
+  - "Caesar cipher."
+  - "Vigenère cipher."
+  - "Columnar transposition (bad implementation)."
 image: /assets/img/datacipher-screenshot.webp
 display_image: /assets/img/datacipher-screenshot.webp
-last_update: 2017-07-06
 buttons:
   - text: GitHub repository
     url: https://github.com/S8A/datacipher

@@ -25,15 +25,19 @@ collections:
   desktop:
     output: true
     permalink: /:collection/:name/
+    sort_by: last_update
   websites:
     output: true
     permalink: /:collection/:name/
+    sort_by: last_update
   open_source:
     output: true
     permalink: /open-source/:name/
+    sort_by: last_update
   misc_projects:
     output: true
     permalink: /misc-projects/:name/
+    sort_by: last_update
 
 # Build settings
 markdown: kramdown

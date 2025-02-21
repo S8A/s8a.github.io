@@ -33,7 +33,7 @@
 
     <script src="/assets/js/bundle.js" defer></script>
   </head>
-  <body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 min-h-screen flex flex-col"><header lang="en" class="bg-gray-950 text-gray-100 border-b border-gray-950/5 dark:border-white/10" x-data="{ open: false }">
+  <body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 min-h-screen flex flex-col"><header lang="en" class="bg-gray-950 text-gray-100 border-b border-gray-950/5 dark:border-white/10 print:hidden" x-data="{ open: false }">
   <nav class="container xl:max-w-5xl mx-auto px-4 py-3" aria-label="Main navigation">
     <div class="flex items-center justify-between">
       <div class="flex items-center gap-8">
@@ -112,7 +112,7 @@
     </div>
   </nav>
 </header>
-<main class="flex-grow container xl:max-w-5xl mx-auto p-4 ">
+<main class="flex-grow container xl:max-w-5xl mx-auto p-4  print:w-full print:max-w-none print:px-0">
       <h1 class="text-center text-4xl font-bold mb-2">Solow-Swan growth model</h1><img
   class="w-full mb-2"
   srcset="/assets/img/thumbnails/solow-swan-growth-model_192w.webp 192w, /assets/img/thumbnails/solow-swan-growth-model_256w.webp 256w, /assets/img/thumbnails/solow-swan-growth-model_320w.webp 320w, /assets/img/thumbnails/solow-swan-growth-model_384w.webp 384w, /assets/img/thumbnails/solow-swan-growth-model_448w.webp 448w, /assets/img/thumbnails/solow-swan-growth-model_512w.webp 512w, /assets/img/thumbnails/solow-swan-growth-model_576w.webp 576w, /assets/img/thumbnails/solow-swan-growth-model_640w.webp 640w, /assets/img/thumbnails/solow-swan-growth-model_704w.webp 704w, /assets/img/thumbnails/solow-swan-growth-model_768w.webp 768w, /assets/img/thumbnails/solow-swan-growth-model_832w.webp 832w, /assets/img/thumbnails/solow-swan-growth-model_896w.webp 896w, /assets/img/thumbnails/solow-swan-growth-model_960w.webp 960w, /assets/img/thumbnails/solow-swan-growth-model_1024w.webp 1024w, /assets/img/thumbnails/solow-swan-growth-model_1080w.webp 1080w"
@@ -124,7 +124,7 @@
 
 <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Date: 27 May 2019</p><p class="mb-2">Interactive document made in GeoGebra that explores the Solow-Swan economic growth model, which is a nonlinear system consisting of a single ordinary differential equation that models the evolution of the per capita stock of capital. Made as an assignment for Calculus IV.
 </p><div class="flex flex-wrap gap-2"><a href="https://www.geogebra.org/m/zrcqd8hq" class="px-2 py-1 rounded-md inline-block text-white bg-blue-600 hover:bg-blue-500 dark:bg-blue-500 dark:hover:bg-blue-400 transition-colors"><i class="bi bi-globe"></i> Read document</a></div>
-    </main><footer lang="en" class="bg-white text-gray-500 dark:bg-gray-900 dark:text-gray-400 py-8 mt-auto">
+    </main><footer lang="en" class="bg-white text-gray-500 dark:bg-gray-900 dark:text-gray-400 py-8 mt-auto print:hidden">
   <div class="container xl:max-w-5xl border-t border-gray-950/5 dark:border-white/10 mx-auto p-4">
     <div class="flex flex-col items-center justify-center gap-4">
       <nav aria-label="Footer navigation">

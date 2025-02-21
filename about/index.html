@@ -32,7 +32,7 @@
 
     <script src="/assets/js/bundle.js" defer></script>
   </head>
-  <body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 min-h-screen flex flex-col"><header lang="en" class="bg-gray-950 text-gray-100 border-b border-gray-950/5 dark:border-white/10" x-data="{ open: false }">
+  <body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 min-h-screen flex flex-col"><header lang="en" class="bg-gray-950 text-gray-100 border-b border-gray-950/5 dark:border-white/10 print:hidden" x-data="{ open: false }">
   <nav class="container xl:max-w-5xl mx-auto px-4 py-3" aria-label="Main navigation">
     <div class="flex items-center justify-between">
       <div class="flex items-center gap-8">
@@ -72,10 +72,10 @@
     </div>
   </nav>
 </header>
-<main class="flex-grow container xl:max-w-5xl mx-auto p-4 divide-y divide-gray-950/5 dark:divide-white/10">
-      <section class="flex flex-col md:flex-row-reverse gap-4 pb-6">
+<main class="flex-grow container xl:max-w-5xl mx-auto p-4 divide-y divide-gray-950/5 dark:divide-white/10 print:w-full print:max-w-none print:px-0">
+      <section class="flex flex-col md:flex-row-reverse gap-4 pb-6 print:break-inside-avoid">
   <div class="w-full md:w-3/12">
-<img class="w-full aspect-square" srcset="/assets/img/thumbnails/s8a-20231207_192w.webp 192w, /assets/img/thumbnails/s8a-20231207_256w.webp 256w, /assets/img/thumbnails/s8a-20231207_320w.webp 320w, /assets/img/thumbnails/s8a-20231207_384w.webp 384w, /assets/img/thumbnails/s8a-20231207_448w.webp 448w, /assets/img/thumbnails/s8a-20231207_512w.webp 512w, /assets/img/thumbnails/s8a-20231207_576w.webp 576w, /assets/img/thumbnails/s8a-20231207_640w.webp 640w, /assets/img/thumbnails/s8a-20231207_704w.webp 704w, /assets/img/thumbnails/s8a-20231207_768w.webp 768w, /assets/img/thumbnails/s8a-20231207_832w.webp 832w, /assets/img/thumbnails/s8a-20231207_896w.webp 896w, /assets/img/thumbnails/s8a-20231207_960w.webp 960w, /assets/img/thumbnails/s8a-20231207_1024w.webp 1024w, /assets/img/thumbnails/s8a-20231207_1088w.webp 1088w, /assets/img/thumbnails/s8a-20231207_1152w.webp 1152w, /assets/img/thumbnails/s8a-20231207_1216w.webp 1216w, /assets/img/thumbnails/s8a-20231207_1280w.webp 1280w, /assets/img/thumbnails/s8a-20231207_1344w.webp 1344w, /assets/img/thumbnails/s8a-20231207_1408w.webp 1408w, /assets/img/thumbnails/s8a-20231207_1472w.webp 1472w, /assets/img/thumbnails/s8a-20231207_1536w.webp 1536w, /assets/img/thumbnails/s8a-20231207_1600w.webp 1600w, /assets/img/thumbnails/s8a-20231207_1664w.webp 1664w, /assets/img/thumbnails/s8a-20231207_1728w.webp 1728w" sizes="(min-width: 64rem) 16rem, (min-width: 48rem) 12rem, (min-width: 40rem) 40rem, 100vw" src="/assets/img/thumbnails/s8a-20231207_640w.webp" alt="" loading="eager">
+<img class="w-full aspect-square print:w-1/4" srcset="/assets/img/thumbnails/s8a-20231207_192w.webp 192w, /assets/img/thumbnails/s8a-20231207_256w.webp 256w, /assets/img/thumbnails/s8a-20231207_320w.webp 320w, /assets/img/thumbnails/s8a-20231207_384w.webp 384w, /assets/img/thumbnails/s8a-20231207_448w.webp 448w, /assets/img/thumbnails/s8a-20231207_512w.webp 512w, /assets/img/thumbnails/s8a-20231207_576w.webp 576w, /assets/img/thumbnails/s8a-20231207_640w.webp 640w, /assets/img/thumbnails/s8a-20231207_704w.webp 704w, /assets/img/thumbnails/s8a-20231207_768w.webp 768w, /assets/img/thumbnails/s8a-20231207_832w.webp 832w, /assets/img/thumbnails/s8a-20231207_896w.webp 896w, /assets/img/thumbnails/s8a-20231207_960w.webp 960w, /assets/img/thumbnails/s8a-20231207_1024w.webp 1024w, /assets/img/thumbnails/s8a-20231207_1088w.webp 1088w, /assets/img/thumbnails/s8a-20231207_1152w.webp 1152w, /assets/img/thumbnails/s8a-20231207_1216w.webp 1216w, /assets/img/thumbnails/s8a-20231207_1280w.webp 1280w, /assets/img/thumbnails/s8a-20231207_1344w.webp 1344w, /assets/img/thumbnails/s8a-20231207_1408w.webp 1408w, /assets/img/thumbnails/s8a-20231207_1472w.webp 1472w, /assets/img/thumbnails/s8a-20231207_1536w.webp 1536w, /assets/img/thumbnails/s8a-20231207_1600w.webp 1600w, /assets/img/thumbnails/s8a-20231207_1664w.webp 1664w, /assets/img/thumbnails/s8a-20231207_1728w.webp 1728w" sizes="(min-width: 64rem) 16rem, (min-width: 48rem) 12rem, (min-width: 40rem) 40rem, 100vw" src="/assets/img/thumbnails/s8a-20231207_640w.webp" alt="" loading="eager">
 
 </div>
   <div class="w-full md:w-9/12">
@@ -105,7 +105,7 @@
   </div>
 </section>
 
-<section class="py-6">
+<section class="py-6 print:break-inside-avoid">
   <h2 class="text-2xl font-bold mb-2">Skills</h2>
   <ul class="ml-8 mb-0 list-disc list-outside">
 <li>Programming in multiple languages: Python (main), Java, C++.</li>
@@ -119,7 +119,7 @@
 </ul>
 </section>
 
-<section class="py-6">
+<section class="py-6 print:break-inside-avoid">
   <h2 class="text-2xl font-bold mb-2">Work experience</h2>
   <div class="flex flex-col gap-4">
 <div x-data="{ expanded: false }" class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500">
@@ -127,9 +127,9 @@
           Co-founder and computer technician – Daykron Tech, C.A.
         </h3>
         <p class="text-sm text-gray-600 dark:text-gray-400">January 2024 – present</p>
-        <p class="mb-2">I founded the company Daykron Tech with my father to provide technical service for computer systems, as well as retail sales of computers, routers, security cameras, and more.
+        <p class="mb-2 print:mb-0">I founded the company Daykron Tech with my father to provide technical service for computer systems, as well as retail sales of computers, routers, security cameras, and more.
 </p>
-<p x-bind:class="expanded ? 'mb-2' : 'mb-0'">
+<p x-bind:class="expanded ? 'mb-2' : 'mb-0'" class="print:hidden">
             <button class="inline underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-pointer" x-on:click="expanded = !expanded" x-text="expanded ? 'Hide details' : 'Show details'">
             </button>
           </p>
@@ -143,14 +143,14 @@
           Full-stack developer – <a href="https://www.bitmotto.com/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Bitmotto</a>
         </h3>
         <p class="text-sm text-gray-600 dark:text-gray-400">November 2022 – present</p>
-        <p class="mb-2">I'm currently involved in the development of multiple projects for Bitmotto's business customers, working both backend and frontend: single-page style web applications built with Django, Vue.js, and Inertia.js; and custom modules for the Odoo business management software platform. In many cases, I've been responsible for designing and implementing integrations between different systems. Previously, I worked on the development of Bitmotto's white-label crypto exchange and remittance platforms.
+        <p class="mb-2 print:mb-0">I'm currently involved in the development of multiple projects for Bitmotto's business customers, working both backend and frontend: single-page style web applications built with Django, Vue.js, and Inertia.js; and custom modules for the Odoo business management software platform. In many cases, I've been responsible for designing and implementing integrations between different systems. Previously, I worked on the development of Bitmotto's white-label crypto exchange and remittance platforms.
 </p>
-<p x-bind:class="expanded ? 'mb-2' : 'mb-0'">
+<p x-bind:class="expanded ? 'mb-2' : 'mb-0'" class="print:hidden">
             <button class="inline underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-pointer" x-on:click="expanded = !expanded" x-text="expanded ? 'Hide details' : 'Show details'">
             </button>
           </p>
           <div class="ml-4" x-show="expanded" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 -translate-y-2" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 -translate-y-2">
-<h4 class="text-lg font-medium">Integration of Yummy Rides for Odoo</h4>
+<h4 class="text-lg font-medium">Yummy Rides integration for Odoo</h4>
               <ul class="ml-8 mb-0 list-disc list-outside">
 <li>Developed an Odoo module that integrates Yummy Rides, a Venezuelan delivery service, as a delivery carrier for sale orders created from the Sales and eCommerce apps, handling the operations for getting the estimated rate, creating the actual delivery order, automatically tracking the delivery status, and generating a custom shipping label in PDF format.</li>
 <li>Created a complementary module that implements a Leaflet map as an Owl component, allowing e-commerce customers to select the exact location of the delivery address on the map (as Yummy uses GPS coordinates for the source and destination addresses), as well as automatically finding the coordinates from the address fields or filling the address fields from the coordinates.</li>
@@ -167,7 +167,7 @@
 <li>Contributed to the development of a new Know Your Customer (KYC) module, which allows clients to update their company information and upload documents for review by Legalys to comply with KYC regulations.</li>
 <li>Implemented bidirectional data synchronization between Odoo and the Legalys Platform, allowing Legalys to review the submitted form data in Odoo, send data back to the platform, grant platform access by clicking a button, and keep the records and documents in Odoo, where they manage the rest of their business processes.</li>
 </ul>
-<h4 class="text-lg font-medium">Integration of Megasoft Payment Gateway for Odoo</h4>
+<h4 class="text-lg font-medium">Megasoft Payment Gateway integration for Odoo</h4>
               <ul class="ml-8 mb-0 list-disc list-outside"><li>Participated in the implementation of a certified Odoo integration with Megasoft's payment processing platform, the most widely used in Venezuela. Venezuelan companies that use Odoo will be able to use the integration to receive credit card, mobile, and Zelle payments, while Bitmotto will receive a percentage of the amounts processed.</li></ul>
 <h4 class="text-lg font-medium">Modern Portals for Odoo</h4>
               <ul class="ml-8 mb-0 list-disc list-outside"><li>Built an Odoo module that provides a backend based on FastAPI with JWT authentication, as well as a separate Nuxt.js frontend, in less than two weeks. This will allow Bitmotto to quickly develop modern web frontends on top of Odoo for clients.</li></ul>
@@ -210,7 +210,7 @@
 </div>
 </section>
 
-<section class="py-6">
+<section class="py-6 print:break-inside-avoid">
   <h2 class="text-2xl font-bold mb-2">Education</h2>
   <div class="flex flex-col gap-4"><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500">
         <h3 class="text-xl font-medium">
@@ -224,7 +224,7 @@
 </div></div>
 </section>
 
-<section class="py-6">
+<section class="py-6 print:break-inside-avoid">
   <h2 class="text-2xl font-bold mb-2">Certifications</h2>
   <ul class="ml-8 mb-0 list-disc list-outside">
 <li>
@@ -236,7 +236,7 @@
 </ul>
 </section>
 
-<section class="pt-6">
+<section class="pt-6 print:break-inside-avoid">
   <h2 class="text-2xl font-bold mb-2">Other interests</h2>
   <ul class="ml-8 mb-0 list-disc list-outside">
 <li>Lifting weights for muscle growth.</li>
@@ -245,7 +245,7 @@
 </ul>
 </section>
 
-    </main><footer lang="en" class="bg-white text-gray-500 dark:bg-gray-900 dark:text-gray-400 py-8 mt-auto">
+    </main><footer lang="en" class="bg-white text-gray-500 dark:bg-gray-900 dark:text-gray-400 py-8 mt-auto print:hidden">
   <div class="container xl:max-w-5xl border-t border-gray-950/5 dark:border-white/10 mx-auto p-4">
     <div class="flex flex-col items-center justify-center gap-4">
       <nav aria-label="Footer navigation">

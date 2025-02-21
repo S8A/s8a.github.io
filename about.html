@@ -23,9 +23,9 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 {%- endif -%}
 {%- endcapture -%}
 
-<section class="flex flex-col md:flex-row-reverse gap-4 pb-6">
+<section class="flex flex-col md:flex-row-reverse gap-4 pb-6 print:break-inside-avoid">
   <div class="w-full md:w-3/12">
-    {%- include img-local.html class="w-full aspect-square" src="/assets/img/s8a-20231207.webp" widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1088, 1152, 1216, 1280, 1344, 1408, 1472, 1536, 1600, 1664, 1728" sizes="100vw, 40rem:40rem, 48rem:12rem, 64rem:16rem" default_width="640" -%}
+    {%- include img-local.html class="w-full aspect-square print:w-1/4" src="/assets/img/s8a-20231207.webp" widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1088, 1152, 1216, 1280, 1344, 1408, 1472, 1536, 1600, 1664, 1728" sizes="100vw, 40rem:40rem, 48rem:12rem, 64rem:16rem" default_width="640" -%}
   </div>
   <div class="w-full md:w-9/12">
     <h1 class="text-4xl font-bold mb-2">Samuel Ochoa</h1>
@@ -46,7 +46,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   </div>
 </section>
 
-<section class="py-6">
+<section class="py-6 print:break-inside-avoid">
   <h2 class="text-2xl font-bold mb-2">Skills</h2>
   <ul class="ml-8 mb-0 list-disc list-outside">
     {%- for skill in site.data.about.skills -%}
@@ -55,7 +55,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   </ul>
 </section>
 
-<section class="py-6">
+<section class="py-6 print:break-inside-avoid">
   <h2 class="text-2xl font-bold mb-2">Work experience</h2>
   <div class="flex flex-col gap-4">
     {%- for job in site.data.work_experience -%}
@@ -74,9 +74,9 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
           {%- endcapture -%}
           {{- period_start | append: "-" | append: period_end | split: "-" | uniq | join: " &ndash; " -}}
         </p>
-        <p class="{%- if job.sections.size > 0 -%}mb-2{%- endif -%}">{{ job.description }}</p>
+        <p class="{%- if job.sections.size > 0 -%}mb-2 print:mb-0{%- endif -%}">{{ job.description }}</p>
         {%- if job.sections.size > 0 -%}
-          <p x-bind:class="expanded ? 'mb-2' : 'mb-0'">
+          <p x-bind:class="expanded ? 'mb-2' : 'mb-0'" class="print:hidden">
             <button
               class="inline underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-pointer"
               x-on:click="expanded = !expanded"
@@ -109,7 +109,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   </div>
 </section>
 
-<section class="py-6">
+<section class="py-6 print:break-inside-avoid">
   <h2 class="text-2xl font-bold mb-2">Education</h2>
   <div class="flex flex-col gap-4">
     {%- for education in site.data.about.education -%}
@@ -127,7 +127,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   </div>
 </section>
 
-<section class="py-6">
+<section class="py-6 print:break-inside-avoid">
   <h2 class="text-2xl font-bold mb-2">Certifications</h2>
   <ul class="ml-8 mb-0 list-disc list-outside">
     {%- for certification in site.data.about.certifications -%}
@@ -138,7 +138,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   </ul>
 </section>
 
-<section class="pt-6">
+<section class="pt-6 print:break-inside-avoid">
   <h2 class="text-2xl font-bold mb-2">Other interests</h2>
   <ul class="ml-8 mb-0 list-disc list-outside">
     {%- for interest in site.data.about.other_interests -%}

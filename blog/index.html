@@ -24,7 +24,7 @@ description: Samuel Ochoa's personal blog.
 <nav aria-label="Pagination">
   <ul class="text-sm grid grid-cols-2 sm:grid-cols-3 gap-4">
     {%- if paginator.previous_page -%}
-      <li class="col-span-1 col-start-1 flex justify-start">
+      <li class="col-span-1 col-start-1 flex justify-start print:hidden">
         <a
           class="block rounded-sm px-3 py-1 text-blue-600 hover:text-white hover:bg-blue-600/70 dark:hover:bg-blue-500/30 transition-colors"
           href="{{ paginator.previous_page_path | relative_url }}"
@@ -79,7 +79,7 @@ description: Samuel Ochoa's personal blog.
     </li>
 
     {%- if paginator.next_page -%}
-      <li class="col-span-1 col-start-3 flex justify-end">
+      <li class="col-span-1 col-start-3 flex justify-end print:hidden">
         <a
           class="block rounded-sm px-3 py-1 text-blue-600 hover:text-white hover:bg-blue-600/70 dark:hover:bg-blue-500/30 transition-colors"
           href="{{ paginator.next_page_path | relative_url }}"

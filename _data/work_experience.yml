@@ -37,7 +37,7 @@
     on the development of Bitmotto's white-label crypto exchange and remittance
     platforms.
   sections:
-    - title: Integration of Yummy Rides for Odoo
+    - title: Yummy Rides integration for Odoo
       items:
         - Developed an Odoo module that integrates Yummy Rides, a Venezuelan
           delivery service, as a delivery carrier for sale orders created
@@ -83,7 +83,7 @@
           in Odoo, send data back to the platform, grant platform access by
           clicking a button, and keep the records and documents in Odoo, where
           they manage the rest of their business processes.
-    - title: Integration of Megasoft Payment Gateway for Odoo
+    - title: Megasoft Payment Gateway integration for Odoo
       items:
         - Participated in the implementation of a certified Odoo integration
           with Megasoft's payment processing platform, the most widely used in

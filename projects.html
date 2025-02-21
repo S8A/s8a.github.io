@@ -32,7 +32,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   {%- assign section_id = collection | replace: "_", "-" -%}
   {%- assign section_title = section_parts[1] -%}
   {%- assign projects = site[collection] | reverse -%}
-  <section id="{{ section_id }}" class="{% if forloop.last %}pt-6{% else %}py-6{% endif %}">
+  <section id="{{ section_id }}" class="{% if forloop.last %}pt-6{% else %}py-6{% endif %} print:break-inside-avoid">
     <h2 class="text-2xl font-bold mb-2">{{ section_title }}</h2>
     <div class="flex flex-col gap-4">
       {%- for project in projects -%}

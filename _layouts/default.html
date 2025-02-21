@@ -13,7 +13,7 @@
   </head>
   <body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 min-h-screen flex flex-col">
     {%- include header.html -%}
-    <main class="flex-grow container {{ page.main_class_max_width | default: layout.main_class_max_width | default: 'xl:max-w-5xl' }} mx-auto p-4 {{ page.main_class_extra | default: layout.main_class_extra | default: '' }}">
+    <main class="flex-grow container {{ page.main_class_max_width | default: layout.main_class_max_width | default: 'xl:max-w-5xl' }} mx-auto p-4 {{ page.main_class_extra | default: layout.main_class_extra | default: '' }} print:w-full print:max-w-none print:px-0">
       {{ content }}
     </main>
     {%- include footer.html -%}

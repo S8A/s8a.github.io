@@ -32,10 +32,10 @@
     Bitmotto's business customers, working both backend and frontend:
     single-page style web applications built with Django, Vue.js, and
     Inertia.js; and custom modules for the Odoo business management software
-    platform. In many cases, I've been responsible for designing and
-    implementing integrations between different systems. Previously, I worked
-    on the development of Bitmotto's white-label crypto exchange and remittance
-    platforms.
+    platform. I've participated in almost all stages of the development cycle,
+    and I've often been responsible for designing and implementing integrations
+    between different systems. Previously, I worked on the development of
+    Bitmotto's white-label crypto exchange and remittance platforms.
   sections:
     - title: Yummy Rides integration for Odoo
       items:

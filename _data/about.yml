@@ -7,7 +7,8 @@ languages:
   - language: English
     proficiency: Proficient
 skills:
-  - "Programming in multiple languages: Python (main), Java, C++."
+  - "Programming in multiple languages: Python and JavaScript primarily; some
+    experience with Java, C++, PHP, and a few others."
   - Backend web development using Django and FastAPI.
   - Development of custom modules for the all-in-one business software platform
     Odoo.
@@ -18,7 +19,10 @@ skills:
   - Standard web development technologies (HTML, CSS, JavaScript).
   - Setup and management of Microsoft Windows and Debian-based Linux operating
     systems.
-  - Proficiency in mathematics and to a lesser extent in statistics and physics.
+  - Experience with data analysis and visualization using Python libraries
+    like Pandas, NumPy, and Matplotlib.
+  - Proficiency in mathematics and, to a lesser extent, in statistics and
+    physics.
 other_interests:
   - Lifting weights for muscle growth.
   - Metal and rock music.
@@ -54,7 +58,8 @@ introduction: >
 
 
   Besides programming for work, I also have a variety of personal and
-  university projects that I've worked on over the years. Check out the
+  university projects that I've worked on over the years, as well as a few
+  contributions to open source projects. Check out the
   [projects page](/projects/) to learn more about them, or go to
   [my GitHub profile](https://github.com/S8A) to see my code directly.
 

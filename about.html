@@ -23,11 +23,11 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 {%- endif -%}
 {%- endcapture -%}
 
-<section class="flex flex-col md:flex-row-reverse gap-4 pb-6 print:break-inside-avoid">
-  <div class="w-full md:w-3/12">
+<section class="flex flex-col sm:flex-row-reverse gap-4 pb-6 print:break-inside-avoid">
+  <div class="w-full sm:w-3/12">
     {%- include img-local.html class="w-full aspect-square print:w-1/4" src="/assets/img/s8a-20231207.webp" widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1088, 1152, 1216, 1280, 1344, 1408, 1472, 1536, 1600, 1664, 1728" sizes="100vw, 40rem:40rem, 48rem:12rem, 64rem:16rem" default_width="640" -%}
   </div>
-  <div class="w-full md:w-9/12">
+  <div class="w-full sm:w-9/12">
     <h1 class="text-4xl font-bold mb-2">Samuel Ochoa</h1>
     <ul class="ml-8 mb-0 list-disc list-outside">
       {%- for contact in site.data.contact -%}

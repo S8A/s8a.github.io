@@ -3,7 +3,7 @@ version: '3'
 services:
   site:
     image: jvconseil/jekyll-docker:latest
-    command: jekyll serve
+    command: jekyll serve --drafts
     ports:
       - "4000:4000"
     volumes:

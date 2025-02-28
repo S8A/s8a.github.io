@@ -8,24 +8,24 @@ description: WIP
 category: personal
 ---
 
-- _[The Five Stages of Western Fertility](https://arctotherium.substack.com/p/the-five-stages-of-western-fertility)_ by Arctotherium (DATE). Here Arctotherium brings together all his research related to historical patterns of sexual norms and fertility in the West, providing a comprehensive overview with links to his previous articles.
-- _[Licking The Overton Window](https://mgautreau.substack.com/p/licking-the-overton-window)_ by Marcel Dumas Gautreau (DATE). The Overton Window is non-sense as a model of how politics works.
-- _[Our Big Oops](https://www.overcomingbias.com/p/our-big-oops)_ by Robin Hanson (DATE). A good summary of his cultural drift thesis.
-- _[Taking Democracy off the Pedestal](https://www.aporiamagazine.com/p/taking-democracy-off-the-pedestal)_ by Alden Whitfeld (DATE).
+- _[The Five Stages of Western Fertility](https://arctotherium.substack.com/p/the-five-stages-of-western-fertility)_ by Arctotherium (2025-01-29). Here Arctotherium brings together all his research related to historical patterns of sexual norms and fertility in the West, providing a comprehensive overview with links to his previous articles.
+- _[Licking The Overton Window](https://mgautreau.substack.com/p/licking-the-overton-window)_ by Marcel Dumas Gautreau (2024-02-29). The Overton Window is non-sense as a model of how politics works.
+- _[Our Big Oops](https://www.overcomingbias.com/p/our-big-oops)_ by Robin Hanson (2025-02-22). A good summary of his cultural drift thesis.
+- _[Taking Democracy off the Pedestal](https://www.aporiamagazine.com/p/taking-democracy-off-the-pedestal)_ by Alden Whitfeld (2025-02-05).
 - A variety of articles by Emil Kirkegaard:
-  - _[Language and clusters](https://www.emilkirkegaard.com/p/language-and-clusters)_ (DATE).
-  - _[The benefits of marriage](https://www.emilkirkegaard.com/p/the-benefits-of-marriage)_ (DATE).
-  - _[Elon's meme magic](https://www.emilkirkegaard.com/p/elons-meme-magic)_ (DATE).
-  - _[Why did NW Europeans become WEIRD?](https://www.emilkirkegaard.com/p/why-did-nw-europeans-become-weird)_ (DATE).
-  - _[Against "phobia"](https://www.emilkirkegaard.com/p/against-phobia)_ (DATE).
-  - _[On genocide and the worst modern ideology](https://www.emilkirkegaard.com/p/on-genocide-and-the-worst-modern)_ (DATE).
+  - _[Language and clusters](https://www.emilkirkegaard.com/p/language-and-clusters)_ (2025-01-23).
+  - _[The benefits of marriage](https://www.emilkirkegaard.com/p/the-benefits-of-marriage)_ (2025-02-12).
+  - _[Elon's meme magic](https://www.emilkirkegaard.com/p/elons-meme-magic)_ (2025-01-27).
+  - _[Why did NW Europeans become WEIRD?](https://www.emilkirkegaard.com/p/why-did-nw-europeans-become-weird)_ (2025-01-29).
+  - _[Against "phobia"](https://www.emilkirkegaard.com/p/against-phobia)_ (2025-01-21).
+  - _[On genocide and the worst modern ideology](https://www.emilkirkegaard.com/p/on-genocide-and-the-worst-modern)_ (2025-01-22).
 - Two articles by Michael Huemer dismantling leftist notions:
-  - _[Rich and Poor: How Things Work](https://fakenous.substack.com/p/rich-and-poor-how-things-work)_ (DATE).
-  - _[Tax Breaks for the Rich](https://fakenous.substack.com/p/tax-breaks-for-the-rich)_ (DATE).
+  - _[Rich and Poor: How Things Work](https://fakenous.substack.com/p/rich-and-poor-how-things-work)_ (2025-01-18).
+  - _[Tax Breaks for the Rich](https://fakenous.substack.com/p/tax-breaks-for-the-rich)_ (2025-01-25).
 - A series of in-depth articles by Marcel Dumas Gautreau on the weird trend of "dissident right" figures promoting drugs, and how it relates to MK-Ultra:
-  - _[Gang Weed Conservatism I: Charles Taylor and the World of Pure Imagination](https://mgautreau.substack.com/p/gang-weed-conservatism-i-charles)_ (DATE).
-  - _[Gang Weed Conservatism II: Peter Thiel and the Narco-Capitalists](https://mgautreau.substack.com/p/gang-weed-conservatism-ii-peter-thiel)_ (DATE).
-  - _[Gang Weed Conservatism III: Rebekah Mercer and the Pharmacological Warriors](https://mgautreau.substack.com/p/gang-weed-conservatism-iii-rebekah)_ (DATE).
-  - _[Gang Weed Conservatism IV: Elon Musk, Grass Toucher](https://mgautreau.substack.com/p/gang-weed-conservatism-iv-elon-musk)_ (DATE).
-  - _[Gang Weed Conservatism V: Christian Angermayer, Killing an Arab by the Cure](https://mgautreau.substack.com/p/gang-weed-conservatism-v-christian)_ (DATE).
-  - _[Gang Weed Conservatism VI: Sidney Gottlieb and the Dream Police](https://mgautreau.substack.com/p/gang-weed-conservatism-vi-sidney)_ (DATE).
+  - _[Gang Weed Conservatism I: Charles Taylor and the World of Pure Imagination](https://mgautreau.substack.com/p/gang-weed-conservatism-i-charles)_ (2023-08-12).
+  - _[Gang Weed Conservatism II: Peter Thiel and the Narco-Capitalists](https://mgautreau.substack.com/p/gang-weed-conservatism-ii-peter-thiel)_ (2023-08-19).
+  - _[Gang Weed Conservatism III: Rebekah Mercer and the Pharmacological Warriors](https://mgautreau.substack.com/p/gang-weed-conservatism-iii-rebekah)_ (2023-08-26).
+  - _[Gang Weed Conservatism IV: Elon Musk, Grass Toucher](https://mgautreau.substack.com/p/gang-weed-conservatism-iv-elon-musk)_ (2023-09-03).
+  - _[Gang Weed Conservatism V: Christian Angermayer, Killing an Arab by the Cure](https://mgautreau.substack.com/p/gang-weed-conservatism-v-christian)_ (2023-09-09).
+  - _[Gang Weed Conservatism VI: Sidney Gottlieb and the Dream Police](https://mgautreau.substack.com/p/gang-weed-conservatism-vi-sidney)_ (2023-10-14).

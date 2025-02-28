@@ -5,6 +5,7 @@ description: Overview of how I redesigned my website using Jekyll v4, Tailwind C
 image: /assets/img/website-redesign.webp
 big_image: /assets/img/website-redesign.webp
 big_image_alt: Screenshots of my redesigned website on mobile and desktop.
+date: 2025-02-28 11:11:11 -0400
 category: personal
 ---
 

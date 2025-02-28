@@ -2,6 +2,9 @@
 layout: post
 title: Website redesign
 description: Overview of how I redesigned my website using Jekyll v4, Tailwind CSS v4, and Alpine.js v3 and contributed to two open-source projects along the way.
+image: /assets/img/website-redesign.webp
+big_image: /assets/img/website-redesign.webp
+big_image_alt: Screenshots of my redesigned website on mobile and desktop.
 category: personal
 ---
 

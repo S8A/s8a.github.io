@@ -5,6 +5,7 @@ description: The stages of Western fertility, the Overton Window, cultural drift
 image: /assets/img/links-for-2025-02.webp
 big_image: /assets/img/links-for-2025-02.webp
 big_image_alt: Collage of notable images from the links in this post.
+date: 2025-02-28 20:20:20 -0400
 category: personal
 ---
 

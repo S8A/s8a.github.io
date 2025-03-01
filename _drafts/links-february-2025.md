@@ -2,9 +2,9 @@
 layout: post
 title: "Links for February 2025"
 description: The stages of Western fertility, the Overton Window, cultural drift, democracy, rich people, dissident right figures promoting drugs, and more.
-# image: /assets/img/links-for-2025-02.webp
-# big_image: /assets/img/links-for-2025-02.webp
-# big_image_alt: Collage of notable images from the links in this post.
+image: /assets/img/links-for-2025-02.webp
+big_image: /assets/img/links-for-2025-02.webp
+big_image_alt: Collage of notable images from the links in this post.
 category: personal
 ---
 

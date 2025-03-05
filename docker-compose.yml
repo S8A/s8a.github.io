@@ -1,8 +1,6 @@
-version: '3'
-
 services:
   site:
-    image: jvconseil/jekyll-docker:latest
+    image: jvconseil/jekyll-docker:stable
     command: jekyll serve --drafts
     ports:
       - "4000:4000"

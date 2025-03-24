@@ -44,3 +44,27 @@ npm
 ```
 
 Like I said, you can add any other package you need. For example, I added `git` to be able to add Git-based gems to my `Gemfile`, and `imagemagick` to be able to use the `jekyll-thumbnail-img` plugin.
+
+
+## 2. Use the Jekyll v4 gem
+
+You simply have to make sure that your `Gemfile` lists `jekyll` as a dependency, not `github-pages`, because GitHub Pages is stuck with Jekyll v3 [for the foreseeable future](https://github.com/github/pages-gem/issues/651#issuecomment-1467155019). Your `Gemfile` should look something like this:
+
+```Gemfile
+source "https://rubygems.org"
+
+gem "jekyll", :group => [:jekyll_plugins]
+gem "webrick"
+
+group :jekyll_plugins do
+  # List Jekyll plugins here
+  # ...
+end
+
+# Any other gems you want
+# ...
+```
+
+If you use the Docker Compose setup explained before, you don't have to manually run `bundle install`, because the `jekyll` command in the Docker Image is actually a script that uses Bundler to install the gems first and then actually run Jekyll. In any case, you can run `bundle update` to make sure you have the latest version of all your gems.
+
+I want to mention that one of the changes introduced in Jekyll v4 is that Jekyll plugins listed in the group `:jekyll_plugins` are automatically loaded by Jekyll without needing to also list them in `_config.yml`, so you can remove that redundancy.

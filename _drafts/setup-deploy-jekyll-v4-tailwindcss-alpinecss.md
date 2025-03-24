@@ -50,7 +50,7 @@ Like I said, you can add any other package you need. For example, I added `git` 
 
 You simply have to make sure that your `Gemfile` lists `jekyll` as a dependency, not `github-pages`, because GitHub Pages is stuck with Jekyll v3 [for the foreseeable future](https://github.com/github/pages-gem/issues/651#issuecomment-1467155019). Your `Gemfile` should look something like this:
 
-```Gemfile
+```ruby
 source "https://rubygems.org"
 
 gem "jekyll", :group => [:jekyll_plugins]

@@ -109,3 +109,22 @@ export default {
 ```
 
 In case you read information for previous versions of Tailwind CSS: [starting from v4](https://tailwindcss.com/docs/upgrade-guide#using-postcss), `@tailwindcss/postcss` replaces the previous `tailwindcss` plugin, and it handles imports, vendor prefixing, and minification by itself, so you should no longer add `postcss-import`, `autoprefixer`, and `cssnano` to your PostCSS configuration. Of course, you can add other PostCSS plugins you might need; for example, I use `postcss-url` to move Bootstrap Icons' font files to the appropriate folder when I build my website.
+
+Now, to actually use Tailwind CSS you need at least one CSS file with two required features: first, it has to be marked with [Front Matter](https://jekyllrb.com/docs/front-matter/) in the beginning, even if it's empty, so that it's treated as a "page" by Jekyll and thus detected by the `jekyll-postcss-v2` plugin; and second, it has to contain at least one [Tailwind CSS directive](https://tailwindcss.com/docs/functions-and-directives) so that the `@tailwindcss/postcss` plugin detects it as a Tailwind CSS file. Therefore, in the simplest case, you might have a single file, let's say `main.css`, with empty Front Matter in the beginning and a simple `@import` directive to import Tailwind CSS itself:
+
+```css
+---
+---
+
+@import "tailwindcss";
+```
+
+You can add any other Tailwind CSS directive you want, whether to explicitly set source directories and files in which you want to detect Tailwind CSS classes (for example, to have different CSS files for different pages), to enable dark mode based on classes or data attributes, to use legacy plugins like [Tailwind CSS Typography](https://github.com/tailwindlabs/tailwindcss-typography), to import CSS from other Node modules or local files, etc.
+
+Finally, let's actually install the latest version of Tailwind CSS using `npm`:
+
+```bash
+npm install tailwindcss @tailwindcss/postcss postcss
+```
+
+After you've done all of that, you can start using Tailwind CSS classes in your HTML markup. Don't forget to link your Tailwind CSS stylesheet on the `<head>` of your pages or layout templates, of course.

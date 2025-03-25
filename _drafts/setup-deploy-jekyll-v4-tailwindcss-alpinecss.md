@@ -68,3 +68,44 @@ end
 If you use the Docker Compose setup explained before, you don't have to manually run `bundle install`, because the `jekyll` command in the Docker Image is actually a script that uses Bundler to install the gems first and then actually run Jekyll. In any case, you can run `bundle update` to make sure you have the latest version of all your gems.
 
 I want to mention that one of the changes introduced in Jekyll v4 is that Jekyll plugins listed in the group `:jekyll_plugins` are automatically loaded by Jekyll without needing to also list them in `_config.yml`, so you can remove that redundancy.
+
+
+## 3. Install and configure Tailwind CSS as a PostCSS plugin on top of Jekyll
+
+We're going to install Tailwind CSS as a PostCSS plugin so that we can integrate it into Jekyll using the [jekyll-postcss-v2](https://github.com/bglw/jekyll-postcss-v2) gem. That plugin creates a hook in the Jekyll build process, so that it automatically regenerates the Tailwind CSS classes your website uses every time you build, or every time you save changes to a file when you're running the development server. To add the gem to Jekyll, simply add it to your `Gemfile` in the `:jekyll_plugins` group:
+
+```ruby
+# ...
+
+group :jekyll_plugins do
+  gem "jekyll-postcss-v2"
+  # ...
+end
+
+# ...
+```
+
+That's the default way to do it. Unfortunately, there is [an unresolved issue](https://github.com/bglw/jekyll-postcss-v2/issues/2) with the official version of the gem: it might fail to generate styles for all the classes you're using because it executes PostCSS as soon as it reads your CSS file, disregarding all files that are read afterward, so you'll have to build the site at least twice. Fortunately, I forked the repository to fix that by modifying the hook so that it executes PostCSS after the entire website has been built, thus ensuring that it detects all classes. To this date, the plugin's author hasn't reviewed and merged [my pull request](https://github.com/bglw/jekyll-postcss-v2/pull/7), but you can modify your `Gemfile` to use the appropriate branch of my forked version of the repository like this:
+
+```ruby
+# ...
+
+group :jekyll_plugins do
+  gem "jekyll-postcss-v2", :git => "https://github.com/S8A/jekyll-postcss-v2.git", :branch => "feature/change_hook_to_site_post_write"
+  # ...
+end
+
+# ...
+```
+
+Next, you'll need to create a `postcss.config.js` file in the root of your project's repository to specify `@tailwindcss/postcss` as a PostCSS plugin, like this:
+
+```js
+export default {
+    plugins: {
+        "@tailwindcss/postcss": {},
+    },
+};
+```
+
+In case you read information for previous versions of Tailwind CSS: [starting from v4](https://tailwindcss.com/docs/upgrade-guide#using-postcss), `@tailwindcss/postcss` replaces the previous `tailwindcss` plugin, and it handles imports, vendor prefixing, and minification by itself, so you should no longer add `postcss-import`, `autoprefixer`, and `cssnano` to your PostCSS configuration. Of course, you can add other PostCSS plugins you might need; for example, I use `postcss-url` to move Bootstrap Icons' font files to the appropriate folder when I build my website.

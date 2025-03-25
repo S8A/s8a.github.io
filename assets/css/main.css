@@ -6,3 +6,5 @@
 @plugin "@tailwindcss/typography";
 
 @import "bootstrap-icons";
+
+@import "./pygments-monokai-tailwind.css";

@@ -45,6 +45,20 @@ npm
 
 Like I said, you can add any other package you need. For example, I added `git` to be able to add Git-based gems to my `Gemfile`, and `imagemagick` to be able to use the `jekyll-thumbnail-img` plugin.
 
+Finally, exclude the `docker-compose.yml` file from being include in your Jekyll site by adding it to the `exclude` key of your `_config.yml`:
+
+
+```yaml
+# ...
+
+exclude:
+  - docker-compose.yml
+
+# ...
+```
+
+You should know that since Jekyll v4, the items in the `exclude` list get _added_ to the default exclusion list, so you don't have to manually write the default excluded items defined [in the documentation](https://jekyllrb.com/docs/configuration/options/). Also, you **don't** need to add `.apk` to the exclusion list because by default Jekyll also excludes filenames that start with a dot.
+
 
 ## 2. Use the Jekyll v4 gem
 
@@ -98,7 +112,7 @@ end
 # ...
 ```
 
-Next, you'll need to create a `postcss.config.js` file in the root of your project's repository to specify `@tailwindcss/postcss` as a PostCSS plugin, like this:
+You'll need to create a `postcss.config.js` file in the root of your project's repository to specify `@tailwindcss/postcss` as a PostCSS plugin, like this:
 
 ```js
 export default {
@@ -110,7 +124,7 @@ export default {
 
 In case you read information for previous versions of Tailwind CSS: [starting from v4](https://tailwindcss.com/docs/upgrade-guide#using-postcss), `@tailwindcss/postcss` replaces the previous `tailwindcss` plugin, and it handles imports, vendor prefixing, and minification by itself, so you should no longer add `postcss-import`, `autoprefixer`, and `cssnano` to your PostCSS configuration. Of course, you can add other PostCSS plugins you might need; for example, I use `postcss-url` to move Bootstrap Icons' font files to the appropriate folder when I build my website.
 
-Now, to actually use Tailwind CSS you need at least one CSS file with two required features: first, it has to be marked with [Front Matter](https://jekyllrb.com/docs/front-matter/) in the beginning, even if it's empty, so that it's treated as a "page" by Jekyll and thus detected by the `jekyll-postcss-v2` plugin; and second, it has to contain at least one [Tailwind CSS directive](https://tailwindcss.com/docs/functions-and-directives) so that the `@tailwindcss/postcss` plugin detects it as a Tailwind CSS file. Therefore, in the simplest case, you might have a single file, let's say `main.css`, with empty Front Matter in the beginning and a simple `@import` directive to import Tailwind CSS itself:
+Next, to actually apply Tailwind CSS to your website you need at least one CSS file with two required features: first, it has to be marked with [Front Matter](https://jekyllrb.com/docs/front-matter/) in the beginning, even if it's empty, so that it's treated as a "page" by Jekyll and thus detected by the `jekyll-postcss-v2` plugin; and second, it has to contain at least one [Tailwind CSS directive](https://tailwindcss.com/docs/functions-and-directives) so that the `@tailwindcss/postcss` plugin detects it as a Tailwind CSS file. Therefore, in the simplest case, you might have a single file, let's say `main.css`, with empty Front Matter in the beginning and a simple `@import` directive to import Tailwind CSS itself:
 
 ```css
 ---
@@ -121,10 +135,99 @@ Now, to actually use Tailwind CSS you need at least one CSS file with two requir
 
 You can add any other Tailwind CSS directive you want, whether to explicitly set source directories and files in which you want to detect Tailwind CSS classes (for example, to have different CSS files for different pages), to enable dark mode based on classes or data attributes, to use legacy plugins like [Tailwind CSS Typography](https://github.com/tailwindlabs/tailwindcss-typography), to import CSS from other Node modules or local files, etc.
 
-Finally, let's actually install the latest version of Tailwind CSS using `npm`:
+Now, let's actually install the latest version of Tailwind CSS using `npm`:
 
 ```bash
 npm install tailwindcss @tailwindcss/postcss postcss
 ```
 
+Finally, add `postcss.config.js`, `package.json`, and `package-lock.json` to Jekyll's exclusion list so that they're not exposed on your website:
+
+```yaml
+# ...
+
+exclude:
+  # ...
+  - postcss.config.js
+  - package.json
+  - package-lock.json
+
+# ...
+```
+
 After you've done all of that, you can start using Tailwind CSS classes in your HTML markup. Don't forget to link your Tailwind CSS stylesheet on the `<head>` of your pages or layout templates, of course.
+
+
+## 4. Deploy to GitHub Pages using GitHub Actions
+
+By default, GitHub Pages takes your main/master branch and builds it using the `github-pages` gem, which is locked to Jekyll v3, as mentioned above, and of course it doesn't install Node.js dependencies. Therefore, to deploy your Jekyll v4 + Tailwind CSS setup to GitHub Pages you'll have to configure a custom deployment workflow using GitHub Pages, which is simpler than it sounds.
+
+To create that workflow, simply create a YAML file (perhaps named `github-pages.yml`) in the `.github/workflows` directory of your repository with the following content (and make sure to push it to GitHub):
+
+```yaml
+name: Build and deploy this site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+env:
+  JEKYLL_ENV: production
+  NODE_ENV: production
+  TZ: America/Caracas
+
+jobs:
+  github-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.3
+          bundler-cache: true
+      - name: Install apt dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y $(cat .apt)
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'
+      - name: Install Node dependencies
+        run: npm install
+      - name: Build site
+        uses: limjh16/jekyll-action-ts@v2
+        with:
+          enable_cache: true
+          custom_opts: "--verbose"
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+
+```
+
+I'll briefly explain each part of the file:
+
+1. Set the name of the workflow.
+2. Set the workflow to be activated whenever there is a push to the `master` branch. Change that to `main` if that's your repository's main branch, of course.
+3. Set the environment variables appropriately. Don't forget to change `TZ` to your timezone.
+4. Define one job named `github-pages` that runs on the latest version of Ubuntu and executes the following steps:
+  1. Checkout the repository so that the workflow can access it.
+  2. Setup Ruby version 3.3 (update that in the future appropriately), enabling Bundler's cache.
+  3. Install the apt dependencies specified in the `.apt` file.
+  4. Setup Node.js version 20 (update that in the future appropriately).
+  5. Install Node.js dependencies with `npm install`. In case you didn't know already, you're supposed to push `package.json` to GitHub.
+  6. Build the website with Jekyll, enabling verbose mode to have more informative logs.
+  7. Deploy the generated static website to a branch named `gh-pages`.
+
+The second thing you need, which I briefly mentioned above, is an `.apt` file at the root fo your website's repository, where you'll list all the Ubuntu packages you're gonna need to install. This is **not** the same as the `.apk` package mentioned earlier in the article, which is for _Alpine Linux_ packages and will only be used by the Docker image for local development. Also, because you're getting Node in another step of the workflow, you should **not** include `nodejs` and `npm` in the `.apt` file, so in the simplest case the file will be empty.
+
+You don't need to add `.apt` to Jekyll's exclusion list because its filename starts with a dot, and you also don't need to add the workflow file because it's within a directory whose name starts with a dot.
+
+Finally, you'll have to modify your repository's settings to deploy from the `gh-pages` branch generated by the workflow. Open your repository on [GitHub.com](https://github.com), navigate to the _Pages_ section of the _Settings_ tab, and modify these two settings:
+
+- **Source:** Deploy from a branch.
+- **Branch:** `gh-pages` branch, root directory (`/`).

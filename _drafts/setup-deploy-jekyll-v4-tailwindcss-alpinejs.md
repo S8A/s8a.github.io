@@ -8,7 +8,7 @@ description: Local development setup with Docker Compose, npm dependencies, Post
 category: personal
 ---
 
-Last month, I posted an [overview of how I redesigned my website]({% link _posts/2025-02-28-website-redesign.md %}) using [Jekyll](https://jekyllrb.com/) v4, [Tailwind CSS](https://tailwindcss.com/) v4, and [Alpine.js](https://alpinejs.dev/) v3. As I explained back then, I used two articles by [Giorgi Mezurnishvili](https://mzrn.sh/) for guidance on how to use Tailwind CSS with Jekyll, but I had to do some things differently because of changes introduced in Tailwind CSS v4, so I thought of writing an updated version of Giorgi's guides. I also added Alpine.js (v3) to my website and set up a Docker Compose file for local deployment, so I'll explain how to do that too.
+Last month, I posted an [overview of how I redesigned my website]({% link _posts/2025-02-28-website-redesign.md %}) using [Jekyll](https://jekyllrb.com/) v4, [Tailwind CSS](https://tailwindcss.com/) v4, and [Alpine.js](https://alpinejs.dev/) v3. As I explained back then, I used two articles by [Giorgi Mezurnishvili](https://mzrn.sh/) for guidance on how to use Tailwind CSS with Jekyll, but I had to do some things differently because of changes introduced in Tailwind CSS v4, so I thought of writing an updated version of Giorgi's guides. I'll also explain how to set up Docker Compose for local development, a GitHub Actions workflow for deployment to GitHub Pages, and how to add Alpine.js to the stack.
 
 
 ## Set up Docker Compose for local development (optional)

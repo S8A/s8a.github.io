@@ -8,7 +8,7 @@ description: Local development setup with Docker Compose, npm dependencies, Post
 category: personal
 ---
 
-Last month, I posted an [overview of how I redesigned my website]({% link _posts/2025-02-28-website-redesign.md %}) using Jekyll v4, Tailwind CSS v4, and Alpine.js v3. As I explained back then, I used two articles by [Giorgi Mezurnishvili](https://mzrn.sh/) for guidance, but I had to do some things differently because of changes introduced in Tailwind CSS v4, so I thought of writing an updated version of Giorgi's guides. I also added Alpine.js (v3) to my website and set up a Docker Compose file for local deployment, so I'll explain how to do that too.
+Last month, I posted an [overview of how I redesigned my website]({% link _posts/2025-02-28-website-redesign.md %}) using [Jekyll](https://jekyllrb.com/) v4, [Tailwind CSS](https://tailwindcss.com/) v4, and [Alpine.js](https://alpinejs.dev/) v3. As I explained back then, I used two articles by [Giorgi Mezurnishvili](https://mzrn.sh/) for guidance on how to use Tailwind CSS with Jekyll, but I had to do some things differently because of changes introduced in Tailwind CSS v4, so I thought of writing an updated version of Giorgi's guides. I also added Alpine.js (v3) to my website and set up a Docker Compose file for local deployment, so I'll explain how to do that too.
 
 
 ## 1. Set up Docker Compose for local development (optional)
@@ -135,7 +135,7 @@ Next, to actually apply Tailwind CSS to your website you need at least one CSS f
 
 You can add any other Tailwind CSS directive you want, whether to explicitly set source directories and files in which you want to detect Tailwind CSS classes (for example, to have different CSS files for different pages), to enable dark mode based on classes or data attributes, to use legacy plugins like [Tailwind CSS Typography](https://github.com/tailwindlabs/tailwindcss-typography), to import CSS from other Node modules or local files, etc.
 
-Now, let's actually install the latest version of Tailwind CSS using `npm`:
+Now, let's actually install the latest version of Tailwind CSS, its PostCSS plugin, and PostCSS itself using `npm`:
 
 ```bash
 npm install tailwindcss @tailwindcss/postcss postcss
@@ -231,3 +231,51 @@ Finally, you'll have to modify your repository's settings to deploy from the `gh
 
 - **Source:** Deploy from a branch.
 - **Branch:** `gh-pages` branch, root directory (`/`).
+
+After you do that, every time you merge a pull request into your main branch or push commits directly to it, the custom workflow will run on that branch, creating or updating the `gh-pages` branch with your built site, and then the actual deployment workflow will run on the `gh-pages` branch to publish your site.
+
+
+## 5. Install Alpine.js and bundle it with esbuild (optional)
+
+This part was not at all in Giorgi's guides, and it's not obligatory to use it if you just want to use Tailwind CSS. I did it because I wanted to implement a dark mode toggle on my website as well as a few other small bits of interactivity, and I decided to use Alpine.js instead of vanilla JavaScript. Now I'll explain how I did it if you want to use it too.
+
+
+
+To use Alpine.js on your website, you need the following three lines of code on a JavaScript file:
+
+```js
+import Alpine from "alpinejs";
+
+window.Alpine = Alpine;
+
+Alpine.start();
+```
+
+Basically: import the Alpine.js module, add it to the `window` object for easy access on each page, and start the Alpine.js engine.
+
+If you want to implement a dark mode toggle like I did, you're gonna need a few more lines before `Alpine.start()`:
+
+```js
+import Alpine from "alpinejs";
+
+window.Alpine = Alpine;
+
+Alpine.store("darkMode", {
+    on: false,
+    init() {
+        if ("theme" in localStorage) {
+            this.on = localStorage.theme === "dark";
+        } else {
+            this.on = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        }
+    },
+    toggle() {
+        this.on = !this.on;
+        localStorage.theme = this.on ? "dark" : "light";
+    },
+});
+
+Alpine.start();
+```
+
+I implemented it with an Alpine.js store, its API for global state management. On the first site visit, it enables or disables dark mode based on the user's browser setting, and it will continue to do so as long as the user doesn't use the toggle. Once the user clicks the toggle for the first time, it will save the setting to `localStorage` so that the next time the user visits the website it will use the value from there instead of the browser setting.

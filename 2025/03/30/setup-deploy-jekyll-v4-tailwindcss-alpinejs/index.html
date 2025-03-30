@@ -1,0 +1,440 @@
+<!doctype html>
+<html
+  x-data
+  x-bind:class="$store.darkMode.on ? 'dark' : ''"
+  lang="en"
+>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>How to set up and deploy a Jekyll v4 website with Tailwind CSS and Alpine.js | Samuel Ochoa</title>
+<meta name="generator" content="Jekyll v4.4.0" />
+<meta property="og:title" content="How to set up and deploy a Jekyll v4 website with Tailwind CSS and Alpine.js" />
+<meta name="author" content="Samuel Ochoa" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Local development setup with Docker Compose, npm dependencies, PostCSS hook for Jekyll, and custom deployment to GitHub Pages." />
+<meta property="og:description" content="Local development setup with Docker Compose, npm dependencies, PostCSS hook for Jekyll, and custom deployment to GitHub Pages." />
+<link rel="canonical" href="https://s8a.github.io/2025/03/30/setup-deploy-jekyll-v4-tailwindcss-alpinejs/" />
+<meta property="og:url" content="https://s8a.github.io/2025/03/30/setup-deploy-jekyll-v4-tailwindcss-alpinejs/" />
+<meta property="og:site_name" content="Samuel Ochoa" />
+<meta property="og:image" content="https://s8a.github.io/assets/img/jekyll-tailwindcss-alpinejs.webp" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-03-30T00:00:00-04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://s8a.github.io/assets/img/jekyll-tailwindcss-alpinejs.webp" />
+<meta property="twitter:title" content="How to set up and deploy a Jekyll v4 website with Tailwind CSS and Alpine.js" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Samuel Ochoa","url":"https://s8a.github.io"},"dateModified":"2025-03-30T00:00:00-04:00","datePublished":"2025-03-30T00:00:00-04:00","description":"Local development setup with Docker Compose, npm dependencies, PostCSS hook for Jekyll, and custom deployment to GitHub Pages.","headline":"How to set up and deploy a Jekyll v4 website with Tailwind CSS and Alpine.js","image":"https://s8a.github.io/assets/img/jekyll-tailwindcss-alpinejs.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://s8a.github.io/2025/03/30/setup-deploy-jekyll-v4-tailwindcss-alpinejs/"},"url":"https://s8a.github.io/2025/03/30/setup-deploy-jekyll-v4-tailwindcss-alpinejs/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/thumbnails/favicon_32w.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/thumbnails/favicon_16w.png"><link rel="icon" type="image/png" sizes="48x48" href="/assets/img/thumbnails/s8a-icon_48w.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/thumbnails/s8a-icon_192w.png">
+<link rel="apple-touch-icon" type="image/png" sizes="167x167" href="/assets/img/thumbnails/s8a-icon_167w.png">
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/img/thumbnails/s8a-icon_180w.png">
+
+<link type="application/atom+xml" rel="alternate" href="https://s8a.github.io/feed.xml" title="Samuel Ochoa" />
+
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+
+    <script src="/assets/js/bundle.js" defer></script>
+  </head>
+  <body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 min-h-screen flex flex-col">
+    <div id="skip-to-main">
+      <a href="#main" class="absolute -top-full left-0 z-100 transition-[top] ease-out duration-200 focus:top-0 focus:ease-in px-4 py-2 rounded-br-md text-white bg-blue-600 dark:bg-blue-500">
+        Skip to main content
+      </a>
+    </div>
+    <header lang="en" class="bg-gray-950 text-gray-100 border-b border-gray-950/5 dark:border-white/10 print:hidden" x-data="{ open: false }">
+  <nav class="container xl:max-w-5xl mx-auto px-4 py-3" aria-label="Main navigation">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-8">
+        <div class="shrink-0">
+          <a href="/">
+            <img src="/assets/img/s8a-icon.svg" alt="Samuel Ochoa" width="32" height="32">
+          </a>
+        </div>
+
+        <div class="hidden md:block">
+          <ul class="flex items-baseline gap-4">
+<li><a href="/" class="rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors">Home</a></li>
+<li><a href="/about/" class="rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors">About</a></li>
+<li><a href="/projects/" class="rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors">Projects</a></li>
+<li><a href="/blog/" class="rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors">Blog</a></li>
+</ul>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <button class="rounded-md px-2 py-1 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors cursor-pointer" x-bind:aria-label="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'" x-bind:title="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'" x-on:click="$store.darkMode.toggle()">
+          <i class="bi text-lg" x-bind:class="$store.darkMode.on ? 'bi-moon-stars-fill' : 'bi-sun-fill'"></i>
+        </button>
+        <button class="block md:hidden rounded-md px-2 py-1 transition-colors cursor-pointer" x-bind:class="open ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-800 hover:text-white'" x-on:click="open = !open" aria-label="Toggle menu" title="Toggle menu">
+          <i class="bi bi-list text-lg"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="md:hidden" x-show="open" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 -translate-y-2" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 -translate-y-2">
+      <ul class="py-2 flex flex-col gap-1">
+<li><a href="/" class="block w-full rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors">Home</a></li>
+<li><a href="/about/" class="block w-full rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors">About</a></li>
+<li><a href="/projects/" class="block w-full rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors">Projects</a></li>
+<li><a href="/blog/" class="block w-full rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors">Blog</a></li>
+</ul>
+    </div>
+  </nav>
+</header>
+
+    <main id="main" class="flex-grow container lg:max-w-4xl mx-auto p-4  print:w-full print:max-w-none print:px-0">
+      <article id="post" class="prose dark:prose-invert prose-a:text-blue-600 prose-a:hover:text-blue-500 dark:prose-a:text-blue-500 dark:prose-a:hover:text-blue-400 prose-a:transition-colors prose-h1:text-center prose-h1:mb-2 max-w-none">
+  <h1>How to set up and deploy a Jekyll v4 website with Tailwind CSS and Alpine.js</h1>
+  <p class="text-center text-gray-600 dark:text-gray-400 mb-2"><time datetime="2025-03-30T00:00:00-04:00">30 Mar 2025</time> – personal</p>
+<img class="w-full" srcset="/assets/img/thumbnails/jekyll-tailwindcss-alpinejs_192w.webp 192w, /assets/img/thumbnails/jekyll-tailwindcss-alpinejs_256w.webp 256w, /assets/img/thumbnails/jekyll-tailwindcss-alpinejs_320w.webp 320w, /assets/img/thumbnails/jekyll-tailwindcss-alpinejs_384w.webp 384w, /assets/img/thumbnails/jekyll-tailwindcss-alpinejs_448w.webp 448w, /assets/img/thumbnails/jekyll-tailwindcss-alpinejs_512w.webp 512w, /assets/img/thumbnails/jekyll-tailwindcss-alpinejs_576w.webp 576w, /assets/img/thumbnails/jekyll-tailwindcss-alpinejs_640w.webp 640w, /assets/img/thumbnails/jekyll-tailwindcss-alpinejs_704w.webp 704w, /assets/img/thumbnails/jekyll-tailwindcss-alpinejs_768w.webp 768w, /assets/img/thumbnails/jekyll-tailwindcss-alpinejs_832w.webp 832w, /assets/img/thumbnails/jekyll-tailwindcss-alpinejs_896w.webp 896w, /assets/img/thumbnails/jekyll-tailwindcss-alpinejs_960w.webp 960w, /assets/img/thumbnails/jekyll-tailwindcss-alpinejs_1024w.webp 1024w, /assets/img/thumbnails/jekyll-tailwindcss-alpinejs_1080w.webp 1080w" sizes="(min-width: 64rem) 56rem, (min-width: 48rem) 48rem, (min-width: 40rem) 40rem, 100vw" src="/assets/img/jekyll-tailwindcss-alpinejs.webp" alt="" loading="eager">
+
+<p>Last month, I posted an <a href="/2025/02/28/website-redesign/">overview of how I redesigned my website</a> using <a href="https://jekyllrb.com/">Jekyll</a> v4, <a href="https://tailwindcss.com/">Tailwind CSS</a> v4, and <a href="https://alpinejs.dev/">Alpine.js</a> v3. As I explained back then, I used two articles by <a href="https://mzrn.sh/">Giorgi Mezurnishvili</a> for guidance on how to use Tailwind CSS with Jekyll, but I had to do some things differently because of changes introduced in Tailwind CSS v4, so I thought of writing an updated version of Giorgi’s guides. I’ll also explain how to set up Docker Compose for local development, a GitHub Actions workflow for deployment to GitHub Pages, and how to add Alpine.js to the stack.</p>
+
+<h2 id="set-up-docker-compose-for-local-development-optional">Set up Docker Compose for local development (optional)</h2>
+
+<p>This is optional but I highly recommend it. Instead of having to install and configure Ruby and other dependencies directly in your system, you’ll run them encapsulated and preconfigured in a Docker image, specifically, the <a href="https://github.com/JV-conseil/jekyll-docker">jvconseil/jekyll-docker</a> image.</p>
+
+<p>The first thing you’ll need is a <code class="language-plaintext highlighter-rouge">docker-compose.yml</code> file on your project’s root directory with the following content:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">services</span><span class="pi">:</span>
+  <span class="na">site</span><span class="pi">:</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="s">jvconseil/jekyll-docker:stable</span>
+    <span class="na">command</span><span class="pi">:</span> <span class="s">sh -c 'npm install &amp;&amp; jekyll serve'</span>
+    <span class="na">ports</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s2">"</span><span class="s">4000:4000"</span>
+    <span class="na">volumes</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">.:/srv/jekyll</span>
+      <span class="pi">-</span> <span class="s">./vendor/bundle:/usr/local/bundle</span>
+    <span class="na">environment</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">JEKYLL_ENV=development</span>
+      <span class="pi">-</span> <span class="s">NODE_ENV=development</span>
+      <span class="pi">-</span> <span class="s">TZ=America/Caracas</span>
+      <span class="pi">-</span> <span class="s">DEBUG=0</span>
+</code></pre></div></div>
+
+<p>This configuration creates one service called <code class="language-plaintext highlighter-rouge">site</code>, makes it take the <code class="language-plaintext highlighter-rouge">stable</code> version of the <code class="language-plaintext highlighter-rouge">jvconseil/jekyll-docker</code> image as its base, defines a custom default command that will be executed when the service is run, exposes the internal port 4000 of the container as port 4000 in the host machine, defines container-host volume mappings for the Jekyll website directory and Bundler’s gems directory, and defines the environment variables. The custom command simply installs Node.js dependencies and then starts the Jekyll development server. The environment variables are pretty self-descriptive, but just in case, don’t forget to set <code class="language-plaintext highlighter-rouge">TZ</code> to your timezone.</p>
+
+<p>The other thing you’ll need is an <code class="language-plaintext highlighter-rouge">.apk</code> file on your project’s root directory to list additional Alpine Linux packages that will be installed when the image is built and run. Specifically, you need it to install <code class="language-plaintext highlighter-rouge">nodejs</code> and <code class="language-plaintext highlighter-rouge">npm</code> to be able to use the Node.js package manager, so the file would look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nodejs
+npm
+</code></pre></div></div>
+
+<p>Like I said, you can add any other package you need. For example, I added <code class="language-plaintext highlighter-rouge">git</code> to be able to add Git-based gems to my <code class="language-plaintext highlighter-rouge">Gemfile</code>, and <code class="language-plaintext highlighter-rouge">imagemagick</code> to be able to use the <code class="language-plaintext highlighter-rouge">jekyll-thumbnail-img</code> plugin.</p>
+
+<p>Finally, prevent the <code class="language-plaintext highlighter-rouge">docker-compose.yml</code> file from being included in your Jekyll site by adding it to the <code class="language-plaintext highlighter-rouge">exclude</code> list in your <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># ...</span>
+
+<span class="na">exclude</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">docker-compose.yml</span>
+
+<span class="c1"># ...</span>
+</code></pre></div></div>
+
+<p>You should know that since Jekyll v4, the items in the <code class="language-plaintext highlighter-rouge">exclude</code> list get <em>added</em> to the default exclusion list instead of replacing it, so you don’t have to manually write the default excluded items defined <a href="https://jekyllrb.com/docs/configuration/options/">in the documentation</a>. Also, you <strong>don’t</strong> need to add <code class="language-plaintext highlighter-rouge">.apk</code> to the exclusion list because by default Jekyll also excludes files and directories with names that start with a dot.</p>
+
+<h2 id="use-the-jekyll-v4-gem">Use the Jekyll v4 gem</h2>
+
+<p>You simply have to make sure that your <code class="language-plaintext highlighter-rouge">Gemfile</code> lists <code class="language-plaintext highlighter-rouge">jekyll</code> as a dependency, not <code class="language-plaintext highlighter-rouge">github-pages</code>, because GitHub Pages is stuck with Jekyll v3 <a href="https://github.com/github/pages-gem/issues/651#issuecomment-1467155019">for the foreseeable future</a>. Your <code class="language-plaintext highlighter-rouge">Gemfile</code> should look something like this:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="s2">"https://rubygems.org"</span>
+
+<span class="n">gem</span> <span class="s2">"jekyll"</span><span class="p">,</span> <span class="ss">:group</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="ss">:jekyll_plugins</span><span class="p">]</span>
+<span class="n">gem</span> <span class="s2">"webrick"</span>
+
+<span class="n">group</span> <span class="ss">:jekyll_plugins</span> <span class="k">do</span>
+  <span class="c1"># List Jekyll plugins here</span>
+  <span class="c1"># ...</span>
+<span class="k">end</span>
+
+<span class="c1"># Any other gems you need</span>
+<span class="c1"># ...</span>
+</code></pre></div></div>
+
+<p>If you use the Docker Compose setup explained before, you don’t have to manually run <code class="language-plaintext highlighter-rouge">bundle install</code>, because the <code class="language-plaintext highlighter-rouge">jekyll</code> command in the Docker Image is actually a script that uses Bundler to install the gems first and then actually run Jekyll. In any case, you can run <code class="language-plaintext highlighter-rouge">bundle update</code> to make sure you have the latest version of all your gems.</p>
+
+<p>I want to mention that one of the changes introduced in Jekyll v4 is that Jekyll plugins listed in the group <code class="language-plaintext highlighter-rouge">:jekyll_plugins</code> are automatically loaded by Jekyll without needing to also list them in <code class="language-plaintext highlighter-rouge">_config.yml</code>, so you can remove that redundancy.</p>
+
+<h2 id="install-and-configure-tailwind-css-as-a-postcss-plugin-on-top-of-jekyll">Install and configure Tailwind CSS as a PostCSS plugin on top of Jekyll</h2>
+
+<p>We’re going to install Tailwind CSS as a PostCSS plugin so that we can integrate it into Jekyll using the <a href="https://github.com/bglw/jekyll-postcss-v2">jekyll-postcss-v2</a> gem. That gem creates a hook in the Jekyll build process, so that it automatically regenerates the Tailwind CSS classes your website uses every time you build, or every time you save changes to a file when you’re running the development server.</p>
+
+<p>First, install the latest version of Tailwind CSS, its PostCSS plugin, and PostCSS itself using <code class="language-plaintext highlighter-rouge">npm</code>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install </span>tailwindcss @tailwindcss/postcss postcss
+</code></pre></div></div>
+
+<p>Next, you’ll need to create a <code class="language-plaintext highlighter-rouge">postcss.config.js</code> file in your project’s root directory to set up PostCSS to use <code class="language-plaintext highlighter-rouge">@tailwindcss/postcss</code>:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">export</span> <span class="k">default</span> <span class="p">{</span>
+    <span class="na">plugins</span><span class="p">:</span> <span class="p">{</span>
+        <span class="dl">"</span><span class="s2">@tailwindcss/postcss</span><span class="dl">"</span><span class="p">:</span> <span class="p">{},</span>
+    <span class="p">},</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<p>In case you read information for previous versions of Tailwind CSS: <a href="https://tailwindcss.com/docs/upgrade-guide#using-postcss">starting from v4</a>, <code class="language-plaintext highlighter-rouge">@tailwindcss/postcss</code> replaces the previous <code class="language-plaintext highlighter-rouge">tailwindcss</code> plugin, and it handles imports, vendor prefixing, and minification by itself, so you should no longer add <code class="language-plaintext highlighter-rouge">postcss-import</code>, <code class="language-plaintext highlighter-rouge">autoprefixer</code>, and <code class="language-plaintext highlighter-rouge">cssnano</code> to your PostCSS configuration. Of course, you can add other PostCSS plugins you might need; for example, I use <code class="language-plaintext highlighter-rouge">postcss-url</code> to move Bootstrap Icons’ font files to the appropriate folder when I build my website.</p>
+
+<p>Now, add the <code class="language-plaintext highlighter-rouge">jekyll-postcss-v2</code> gem to your <code class="language-plaintext highlighter-rouge">Gemfile</code> in the <code class="language-plaintext highlighter-rouge">:jekyll_plugins</code> group to install it and automatically enable it in Jekyll:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># ...</span>
+
+<span class="n">group</span> <span class="ss">:jekyll_plugins</span> <span class="k">do</span>
+  <span class="n">gem</span> <span class="s2">"jekyll-postcss-v2"</span>
+  <span class="c1"># ...</span>
+<span class="k">end</span>
+
+<span class="c1"># ...</span>
+</code></pre></div></div>
+
+<p>Unfortunately, there is <a href="https://github.com/bglw/jekyll-postcss-v2/issues/2">an unresolved issue</a> with the official version of the gem: it might fail to generate styles for all the classes you’re using because it executes PostCSS as soon as it reads your CSS file, disregarding all files that are read afterward, so you’ll have to build the site at least twice. Fortunately, I forked the repository to fix that by modifying the hook so that it executes PostCSS after the entire website has been built, thus ensuring that it detects all classes. To this date, the plugin’s author hasn’t reviewed and merged <a href="https://github.com/bglw/jekyll-postcss-v2/pull/7">my pull request</a>, but in the meantime you can modify your <code class="language-plaintext highlighter-rouge">Gemfile</code> to use the appropriate branch of my forked version of the repository like this:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># ...</span>
+
+<span class="n">group</span> <span class="ss">:jekyll_plugins</span> <span class="k">do</span>
+  <span class="n">gem</span> <span class="s2">"jekyll-postcss-v2"</span><span class="p">,</span> <span class="ss">:git</span> <span class="o">=&gt;</span> <span class="s2">"https://github.com/S8A/jekyll-postcss-v2.git"</span><span class="p">,</span> <span class="ss">:branch</span> <span class="o">=&gt;</span> <span class="s2">"feature/change_hook_to_site_post_write"</span>
+  <span class="c1"># ...</span>
+<span class="k">end</span>
+
+<span class="c1"># ...</span>
+</code></pre></div></div>
+
+<p>After installing and configuring those dependencies, add <code class="language-plaintext highlighter-rouge">postcss.config.js</code>, <code class="language-plaintext highlighter-rouge">package.json</code>, and <code class="language-plaintext highlighter-rouge">package-lock.json</code> to Jekyll’s exclusion list so that they’re not exposed on your website:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># ...</span>
+
+<span class="na">exclude</span><span class="pi">:</span>
+  <span class="c1"># ...</span>
+  <span class="pi">-</span> <span class="s">postcss.config.js</span>
+  <span class="pi">-</span> <span class="s">package.json</span>
+  <span class="pi">-</span> <span class="s">package-lock.json</span>
+
+<span class="c1"># ...</span>
+</code></pre></div></div>
+
+<p>Finally, to actually apply Tailwind CSS to your website you need at least one CSS file with two required features: first, it has to be marked with <a href="https://jekyllrb.com/docs/front-matter/">Front Matter</a> in the beginning, even if it’s empty, so that it’s treated as a “page” by Jekyll and thus processed by the <code class="language-plaintext highlighter-rouge">jekyll-postcss-v2</code> plugin; and second, it has to contain at least one <a href="https://tailwindcss.com/docs/functions-and-directives">Tailwind CSS directive</a> so that the <code class="language-plaintext highlighter-rouge">@tailwindcss/postcss</code> plugin detects it as a Tailwind CSS file. Therefore, in the simplest case, you might have a single file, let’s say <code class="language-plaintext highlighter-rouge">main.css</code>, with empty Front Matter in the beginning and a simple <code class="language-plaintext highlighter-rouge">@import</code> directive to import Tailwind CSS itself:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">---</span>
+<span class="nt">---</span>
+
+<span class="k">@import</span> <span class="s1">"tailwindcss"</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>You can add any other Tailwind CSS directive you want, whether to explicitly set source directories and files in which you want to detect Tailwind CSS classes (for example, to have different CSS files for different pages), to enable dark mode based on classes or data attributes, to use legacy plugins like <a href="https://github.com/tailwindlabs/tailwindcss-typography">Tailwind CSS Typography</a>, to import CSS from other Node.js modules or local files, etc.</p>
+
+<p>After you’ve done all of that, you can start using Tailwind CSS classes in your HTML markup. Don’t forget to link your Tailwind CSS stylesheet on the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> of your pages or layout templates, of course.</p>
+
+<h2 id="deploy-to-github-pages-using-github-actions">Deploy to GitHub Pages using GitHub Actions</h2>
+
+<p>By default, GitHub Pages takes your main/master branch and builds it using the <code class="language-plaintext highlighter-rouge">github-pages</code> gem, which is locked to Jekyll v3, as mentioned above, and of course it doesn’t install Node.js dependencies. Therefore, to deploy your Jekyll v4 + Tailwind CSS setup to GitHub Pages you’ll have to configure a custom deployment workflow using GitHub Pages, which is simpler than it sounds.</p>
+
+<p>To create that workflow, simply create a YAML file named something like <code class="language-plaintext highlighter-rouge">github-pages.yml</code> in the <code class="language-plaintext highlighter-rouge">.github/workflows</code> directory of your project with the following content and make sure to push it to GitHub:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">name</span><span class="pi">:</span> <span class="s">Build and deploy this site to GitHub Pages</span>
+
+<span class="na">on</span><span class="pi">:</span>
+  <span class="na">push</span><span class="pi">:</span>
+    <span class="na">branches</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">master</span>
+
+<span class="na">env</span><span class="pi">:</span>
+  <span class="na">JEKYLL_ENV</span><span class="pi">:</span> <span class="s">production</span>
+  <span class="na">NODE_ENV</span><span class="pi">:</span> <span class="s">production</span>
+  <span class="na">TZ</span><span class="pi">:</span> <span class="s">America/Caracas</span>
+
+<span class="na">jobs</span><span class="pi">:</span>
+  <span class="na">github-pages</span><span class="pi">:</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+    <span class="na">steps</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v2</span>
+      <span class="pi">-</span> <span class="na">uses</span><span class="pi">:</span> <span class="s">ruby/setup-ruby@v1</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">ruby-version</span><span class="pi">:</span> <span class="m">3.3</span>
+          <span class="na">bundler-cache</span><span class="pi">:</span> <span class="kc">true</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Install apt dependencies</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="pi">|</span>
+          <span class="s">sudo apt-get update</span>
+          <span class="s">sudo apt-get install -y $(cat .apt)</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Setup Node</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/setup-node@v2</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">node-version</span><span class="pi">:</span> <span class="s1">'</span><span class="s">20'</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Install Node dependencies</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="s">npm install</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Build site</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">limjh16/jekyll-action-ts@v2</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">enable_cache</span><span class="pi">:</span> <span class="kc">true</span>
+          <span class="na">custom_opts</span><span class="pi">:</span> <span class="s2">"</span><span class="s">--verbose"</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Deploy</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">peaceiris/actions-gh-pages@v3</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">github_token</span><span class="pi">:</span> <span class="s">$</span>
+          <span class="na">publish_dir</span><span class="pi">:</span> <span class="s">./_site</span>
+
+</code></pre></div></div>
+
+<p>I’ll briefly explain each part of the file:</p>
+
+<ol>
+  <li>Set the name of the workflow.</li>
+  <li>Set the workflow to be activated whenever there is a push to the <code class="language-plaintext highlighter-rouge">master</code> branch. Change that to <code class="language-plaintext highlighter-rouge">main</code> if that’s your repository’s main branch, of course.</li>
+  <li>Set the environment variables appropriately. Don’t forget to change <code class="language-plaintext highlighter-rouge">TZ</code> to your timezone.</li>
+  <li>Define one job named <code class="language-plaintext highlighter-rouge">github-pages</code> that runs on the latest version of Ubuntu and executes the following steps:</li>
+  <li>Checkout the repository so that the workflow can access it.</li>
+  <li>Setup Ruby version 3.3 (update that in the future appropriately), enabling Bundler’s cache.</li>
+  <li>Install the apt dependencies specified in the <code class="language-plaintext highlighter-rouge">.apt</code> file.</li>
+  <li>Setup Node.js version 20 (update that in the future appropriately).</li>
+  <li>Install Node.js dependencies with <code class="language-plaintext highlighter-rouge">npm install</code>. In case you didn’t know already, you’re supposed to push <code class="language-plaintext highlighter-rouge">package.json</code> and <code class="language-plaintext highlighter-rouge">package-lock.json</code> to GitHub.</li>
+  <li>Build the website with Jekyll, enabling verbose mode to have more informative logs.</li>
+  <li>Deploy the generated static website to a branch named <code class="language-plaintext highlighter-rouge">gh-pages</code>.</li>
+</ol>
+
+<p>The second thing you need, which I briefly mentioned above, is an <code class="language-plaintext highlighter-rouge">.apt</code> file in your project’s root directory, where you’ll list all the Ubuntu packages you’re gonna need to install. This is <strong>not</strong> the same as the <code class="language-plaintext highlighter-rouge">.apk</code> package mentioned earlier in the article, which is for <em>Alpine Linux</em> packages and will only be used by the Docker image for local development. Also, because you’re getting Node.js in another step of the workflow, you should <strong>not</strong> include <code class="language-plaintext highlighter-rouge">nodejs</code> and <code class="language-plaintext highlighter-rouge">npm</code> in the <code class="language-plaintext highlighter-rouge">.apt</code> file, so in the simplest case the file will be empty.</p>
+
+<p>Needless to say, you don’t need to add <code class="language-plaintext highlighter-rouge">.apt</code> nor <code class="language-plaintext highlighter-rouge">.github/workflows/github-pages.yml</code> to Jekyll’s exclusion list because they’re excluded automatically.</p>
+
+<p>Finally, you’ll have to modify your repository’s settings to deploy from the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch generated by the workflow. Open your repository on <a href="https://github.com">GitHub.com</a>, navigate to the <em>Pages</em> section of the <em>Settings</em> tab, and modify these two settings:</p>
+
+<ul>
+  <li>
+<strong>Source:</strong> Deploy from a branch.</li>
+  <li>
+<strong>Branch:</strong> <code class="language-plaintext highlighter-rouge">gh-pages</code> branch, root directory (<code class="language-plaintext highlighter-rouge">/</code>).</li>
+</ul>
+
+<p>After you do that, every time you merge a pull request into your main branch or push commits directly to it, the custom workflow will run on that branch, creating or updating the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch with your built site, and then the actual deployment workflow will run on the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch to publish your site.</p>
+
+<h2 id="install-alpinejs-and-bundle-it-with-esbuild-optional">Install Alpine.js and bundle it with esbuild (optional)</h2>
+
+<p>This part was not at all in Giorgi’s guides, and it’s not obligatory to use it if you just want to use Tailwind CSS. I did it because I wanted to implement a dark mode toggle on my website as well as a few other small bits of interactivity, and I decided to use Alpine.js instead of vanilla JavaScript. Now I’ll explain how I did it if you want to use it too.</p>
+
+<p>First, install Alpine.js and <a href="https://esbuild.github.io/">esbuild</a> using <code class="language-plaintext highlighter-rouge">npm</code>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install </span>alpinejs esbuild
+</code></pre></div></div>
+
+<p>I figured out that I had to use something bundle Alpine.js into my JavaScript file after I tried to use it by itself and it didn’t work. I asked Claude 3.5 Sonnet and it recommended using esbuild and gave me the command options I needed.</p>
+
+<p>On that note, the next thing you need to do is define a Node.js build script so that you can use it to bundle your JavaScript before serving your website. Add a <code class="language-plaintext highlighter-rouge">scripts</code> section to your <code class="language-plaintext highlighter-rouge">package.json</code> and define the <code class="language-plaintext highlighter-rouge">build</code> script like this:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"module"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"dependencies"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="err">//</span><span class="w"> </span><span class="err">Mapping</span><span class="w"> </span><span class="err">of</span><span class="w"> </span><span class="err">dependencies</span><span class="w"> </span><span class="err">and</span><span class="w"> </span><span class="err">their</span><span class="w"> </span><span class="err">versions</span><span class="w">
+    </span><span class="err">//</span><span class="w"> </span><span class="err">...</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"scripts"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"esbuild path/to/js/main.js --bundle --outfile=path/to/js/bundle.js $(test </span><span class="se">\"</span><span class="s2">$NODE_ENV</span><span class="se">\"</span><span class="s2"> = </span><span class="se">\"</span><span class="s2">production</span><span class="se">\"</span><span class="s2"> &amp;&amp; echo '--minify')"</span><span class="p">,</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Replace <code class="language-plaintext highlighter-rouge">path/to/js/main.js</code> with the actual relative path of your original JavaScript file where you import and use Alpine.js, and replace <code class="language-plaintext highlighter-rouge">path/to/js/bundle.js</code> with the actual relative path of the JavaScript bundle file that will be produced by esbuild and that you will use in your HTML. The last part that is enclosed within <code class="language-plaintext highlighter-rouge">$()</code> is a <a href="https://www.gnu.org/software/bash/manual/bash.html#Command-Substitution">Bash command substitution</a> that checks if the environment variable <code class="language-plaintext highlighter-rouge">NODE_ENV</code> is set to <code class="language-plaintext highlighter-rouge">production</code> and, if it is, adds the <code class="language-plaintext highlighter-rouge">--minify</code> argument to the esbuild command in order to produce a minified bundle.</p>
+
+<p>The command substitution will obviously not work in Windows, so you have three solutions: define a build script for <code class="language-plaintext highlighter-rouge">production</code> with the <code class="language-plaintext highlighter-rouge">--minify</code> argument and another for <code class="language-plaintext highlighter-rouge">development</code> without it, use Windows Subsystem for Linux, or switch to Linux entirely (that last one is only half-joking). I’ll continue the rest of this section assuming a single <code class="language-plaintext highlighter-rouge">build</code> script.</p>
+
+<p>To use the new <code class="language-plaintext highlighter-rouge">build</code> script, simply run:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm run build
+</code></pre></div></div>
+
+<p>If you’re using the Docker Compose setup I explained above, modify the <code class="language-plaintext highlighter-rouge">command</code> to run the <code class="language-plaintext highlighter-rouge">build</code> script after installing Node.js dependencies and before running the Jekyll development server:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sh <span class="nt">-c</span> <span class="s1">'npm install &amp;&amp; npm run build &amp;&amp; jekyll serve'</span>
+</code></pre></div></div>
+
+<p>And, of course, don’t forget to add a step to your GitHub Pages deployment workflow to run the <code class="language-plaintext highlighter-rouge">buld</code> script after installing Node.js dependencies and before building the Jekyll site:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># ...</span>
+
+<span class="na">jobs</span><span class="pi">:</span>
+  <span class="na">github-pages</span><span class="pi">:</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+    <span class="na">steps</span><span class="pi">:</span>
+      <span class="c1"># Omitting the previous steps for brevity</span>
+      <span class="c1"># ...</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Install Node dependencies</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="s">npm install</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Build JavaScript bundle</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="s">npm run build</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Build site</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">limjh16/jekyll-action-ts@v2</span>
+        <span class="c1"># ...</span>
+      <span class="c1"># Rest of the file</span>
+      <span class="c1"># ...</span>
+</code></pre></div></div>
+
+<p>Finally, to actually use Alpine.js on your website, you need the following three lines of code on the JavaScript you’re going to process with esbuild:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">Alpine</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">alpinejs</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="nb">window</span><span class="p">.</span><span class="nx">Alpine</span> <span class="o">=</span> <span class="nx">Alpine</span><span class="p">;</span>
+
+<span class="nx">Alpine</span><span class="p">.</span><span class="nf">start</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>Basically: import the Alpine.js module, add it to the <code class="language-plaintext highlighter-rouge">window</code> object for easy access on each page, and initialize it.</p>
+
+<p>If you want to implement a dark mode toggle like I did, you’re gonna need a few more lines before <code class="language-plaintext highlighter-rouge">Alpine.start()</code>:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">Alpine</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">alpinejs</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="nb">window</span><span class="p">.</span><span class="nx">Alpine</span> <span class="o">=</span> <span class="nx">Alpine</span><span class="p">;</span>
+
+<span class="nx">Alpine</span><span class="p">.</span><span class="nf">store</span><span class="p">(</span><span class="dl">"</span><span class="s2">darkMode</span><span class="dl">"</span><span class="p">,</span> <span class="p">{</span>
+    <span class="na">on</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+    <span class="nf">init</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">if </span><span class="p">(</span><span class="dl">"</span><span class="s2">theme</span><span class="dl">"</span> <span class="k">in</span> <span class="nx">localStorage</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">on</span> <span class="o">=</span> <span class="nx">localStorage</span><span class="p">.</span><span class="nx">theme</span> <span class="o">===</span> <span class="dl">"</span><span class="s2">dark</span><span class="dl">"</span><span class="p">;</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">on</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nf">matchMedia</span><span class="p">(</span><span class="dl">"</span><span class="s2">(prefers-color-scheme: dark)</span><span class="dl">"</span><span class="p">).</span><span class="nx">matches</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="nf">toggle</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">on</span> <span class="o">=</span> <span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">on</span><span class="p">;</span>
+        <span class="nx">localStorage</span><span class="p">.</span><span class="nx">theme</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">on</span> <span class="p">?</span> <span class="dl">"</span><span class="s2">dark</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">light</span><span class="dl">"</span><span class="p">;</span>
+    <span class="p">},</span>
+<span class="p">});</span>
+
+<span class="nx">Alpine</span><span class="p">.</span><span class="nf">start</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>I implemented it with an Alpine.js store, its API for global state management. On the first site visit, it enables or disables dark mode based on the user’s browser setting, and it will continue to do so as long as the user doesn’t use the toggle. Once the user clicks the toggle for the first time, it will save the setting to <code class="language-plaintext highlighter-rouge">localStorage</code> as well so that the next time the user visits the website it will use the value from there instead of the browser setting.</p>
+
+</article>
+
+    </main>
+    <footer lang="en" class="bg-white text-gray-500 dark:bg-gray-900 dark:text-gray-400 py-8 mt-auto print:hidden">
+  <div class="container xl:max-w-5xl border-t border-gray-950/5 dark:border-white/10 mx-auto p-4">
+    <div class="flex flex-col items-center justify-center gap-4">
+      <nav aria-label="Footer navigation">
+        <ul class="flex gap-6 text-sm">
+<li>
+              <a href="/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Home</a>
+            </li>
+<li>
+              <a href="/about/" class="hover:text-gray-600 dark:hover:text-white transition-colors">About</a>
+            </li>
+<li>
+              <a href="/projects/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Projects</a>
+            </li>
+<li>
+              <a href="/blog/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Blog</a>
+            </li>
+</ul>
+      </nav>
+      <p class="text-xs">Samuel Ochoa · 2025</p>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -1,4 +1,315 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.0">Jekyll</generator><link href="https://s8a.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://s8a.github.io/" rel="alternate" type="text/html" /><updated>2025-03-24T12:18:17-04:00</updated><id>https://s8a.github.io/feed.xml</id><title type="html">Samuel Ochoa</title><subtitle>Samuel Ochoa, software developer and information systems engineer.</subtitle><author><name>Samuel Ochoa</name><email>samuelochoap@gmail.com</email></author><entry><title type="html">Links for February 2025</title><link href="https://s8a.github.io/2025/02/28/links-february-2025/" rel="alternate" type="text/html" title="Links for February 2025" /><published>2025-02-28T20:20:20-04:00</published><updated>2025-02-28T20:20:20-04:00</updated><id>https://s8a.github.io/2025/02/28/links-february-2025</id><content type="html" xml:base="https://s8a.github.io/2025/02/28/links-february-2025/"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.0">Jekyll</generator><link href="https://s8a.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://s8a.github.io/" rel="alternate" type="text/html" /><updated>2025-03-30T16:16:23-04:00</updated><id>https://s8a.github.io/feed.xml</id><title type="html">Samuel Ochoa</title><subtitle>Samuel Ochoa, software developer and information systems engineer.</subtitle><author><name>Samuel Ochoa</name><email>samuelochoap@gmail.com</email></author><entry><title type="html">How to set up and deploy a Jekyll v4 website with Tailwind CSS and Alpine.js</title><link href="https://s8a.github.io/2025/03/30/setup-deploy-jekyll-v4-tailwindcss-alpinejs/" rel="alternate" type="text/html" title="How to set up and deploy a Jekyll v4 website with Tailwind CSS and Alpine.js" /><published>2025-03-30T00:00:00-04:00</published><updated>2025-03-30T00:00:00-04:00</updated><id>https://s8a.github.io/2025/03/30/setup-deploy-jekyll-v4-tailwindcss-alpinejs</id><content type="html" xml:base="https://s8a.github.io/2025/03/30/setup-deploy-jekyll-v4-tailwindcss-alpinejs/"><![CDATA[<p>Last month, I posted an <a href="/2025/02/28/website-redesign/">overview of how I redesigned my website</a> using <a href="https://jekyllrb.com/">Jekyll</a> v4, <a href="https://tailwindcss.com/">Tailwind CSS</a> v4, and <a href="https://alpinejs.dev/">Alpine.js</a> v3. As I explained back then, I used two articles by <a href="https://mzrn.sh/">Giorgi Mezurnishvili</a> for guidance on how to use Tailwind CSS with Jekyll, but I had to do some things differently because of changes introduced in Tailwind CSS v4, so I thought of writing an updated version of Giorgi’s guides. I’ll also explain how to set up Docker Compose for local development, a GitHub Actions workflow for deployment to GitHub Pages, and how to add Alpine.js to the stack.</p>
+
+<h2 id="set-up-docker-compose-for-local-development-optional">Set up Docker Compose for local development (optional)</h2>
+
+<p>This is optional but I highly recommend it. Instead of having to install and configure Ruby and other dependencies directly in your system, you’ll run them encapsulated and preconfigured in a Docker image, specifically, the <a href="https://github.com/JV-conseil/jekyll-docker">jvconseil/jekyll-docker</a> image.</p>
+
+<p>The first thing you’ll need is a <code class="language-plaintext highlighter-rouge">docker-compose.yml</code> file on your project’s root directory with the following content:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">services</span><span class="pi">:</span>
+  <span class="na">site</span><span class="pi">:</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="s">jvconseil/jekyll-docker:stable</span>
+    <span class="na">command</span><span class="pi">:</span> <span class="s">sh -c 'npm install &amp;&amp; jekyll serve'</span>
+    <span class="na">ports</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s2">"</span><span class="s">4000:4000"</span>
+    <span class="na">volumes</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">.:/srv/jekyll</span>
+      <span class="pi">-</span> <span class="s">./vendor/bundle:/usr/local/bundle</span>
+    <span class="na">environment</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">JEKYLL_ENV=development</span>
+      <span class="pi">-</span> <span class="s">NODE_ENV=development</span>
+      <span class="pi">-</span> <span class="s">TZ=America/Caracas</span>
+      <span class="pi">-</span> <span class="s">DEBUG=0</span>
+</code></pre></div></div>
+
+<p>This configuration creates one service called <code class="language-plaintext highlighter-rouge">site</code>, makes it take the <code class="language-plaintext highlighter-rouge">stable</code> version of the <code class="language-plaintext highlighter-rouge">jvconseil/jekyll-docker</code> image as its base, defines a custom default command that will be executed when the service is run, exposes the internal port 4000 of the container as port 4000 in the host machine, defines container-host volume mappings for the Jekyll website directory and Bundler’s gems directory, and defines the environment variables. The custom command simply installs Node.js dependencies and then starts the Jekyll development server. The environment variables are pretty self-descriptive, but just in case, don’t forget to set <code class="language-plaintext highlighter-rouge">TZ</code> to your timezone.</p>
+
+<p>The other thing you’ll need is an <code class="language-plaintext highlighter-rouge">.apk</code> file on your project’s root directory to list additional Alpine Linux packages that will be installed when the image is built and run. Specifically, you need it to install <code class="language-plaintext highlighter-rouge">nodejs</code> and <code class="language-plaintext highlighter-rouge">npm</code> to be able to use the Node.js package manager, so the file would look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nodejs
+npm
+</code></pre></div></div>
+
+<p>Like I said, you can add any other package you need. For example, I added <code class="language-plaintext highlighter-rouge">git</code> to be able to add Git-based gems to my <code class="language-plaintext highlighter-rouge">Gemfile</code>, and <code class="language-plaintext highlighter-rouge">imagemagick</code> to be able to use the <code class="language-plaintext highlighter-rouge">jekyll-thumbnail-img</code> plugin.</p>
+
+<p>Finally, prevent the <code class="language-plaintext highlighter-rouge">docker-compose.yml</code> file from being included in your Jekyll site by adding it to the <code class="language-plaintext highlighter-rouge">exclude</code> list in your <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># ...</span>
+
+<span class="na">exclude</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">docker-compose.yml</span>
+
+<span class="c1"># ...</span>
+</code></pre></div></div>
+
+<p>You should know that since Jekyll v4, the items in the <code class="language-plaintext highlighter-rouge">exclude</code> list get <em>added</em> to the default exclusion list instead of replacing it, so you don’t have to manually write the default excluded items defined <a href="https://jekyllrb.com/docs/configuration/options/">in the documentation</a>. Also, you <strong>don’t</strong> need to add <code class="language-plaintext highlighter-rouge">.apk</code> to the exclusion list because by default Jekyll also excludes files and directories with names that start with a dot.</p>
+
+<h2 id="use-the-jekyll-v4-gem">Use the Jekyll v4 gem</h2>
+
+<p>You simply have to make sure that your <code class="language-plaintext highlighter-rouge">Gemfile</code> lists <code class="language-plaintext highlighter-rouge">jekyll</code> as a dependency, not <code class="language-plaintext highlighter-rouge">github-pages</code>, because GitHub Pages is stuck with Jekyll v3 <a href="https://github.com/github/pages-gem/issues/651#issuecomment-1467155019">for the foreseeable future</a>. Your <code class="language-plaintext highlighter-rouge">Gemfile</code> should look something like this:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="s2">"https://rubygems.org"</span>
+
+<span class="n">gem</span> <span class="s2">"jekyll"</span><span class="p">,</span> <span class="ss">:group</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="ss">:jekyll_plugins</span><span class="p">]</span>
+<span class="n">gem</span> <span class="s2">"webrick"</span>
+
+<span class="n">group</span> <span class="ss">:jekyll_plugins</span> <span class="k">do</span>
+  <span class="c1"># List Jekyll plugins here</span>
+  <span class="c1"># ...</span>
+<span class="k">end</span>
+
+<span class="c1"># Any other gems you need</span>
+<span class="c1"># ...</span>
+</code></pre></div></div>
+
+<p>If you use the Docker Compose setup explained before, you don’t have to manually run <code class="language-plaintext highlighter-rouge">bundle install</code>, because the <code class="language-plaintext highlighter-rouge">jekyll</code> command in the Docker Image is actually a script that uses Bundler to install the gems first and then actually run Jekyll. In any case, you can run <code class="language-plaintext highlighter-rouge">bundle update</code> to make sure you have the latest version of all your gems.</p>
+
+<p>I want to mention that one of the changes introduced in Jekyll v4 is that Jekyll plugins listed in the group <code class="language-plaintext highlighter-rouge">:jekyll_plugins</code> are automatically loaded by Jekyll without needing to also list them in <code class="language-plaintext highlighter-rouge">_config.yml</code>, so you can remove that redundancy.</p>
+
+<h2 id="install-and-configure-tailwind-css-as-a-postcss-plugin-on-top-of-jekyll">Install and configure Tailwind CSS as a PostCSS plugin on top of Jekyll</h2>
+
+<p>We’re going to install Tailwind CSS as a PostCSS plugin so that we can integrate it into Jekyll using the <a href="https://github.com/bglw/jekyll-postcss-v2">jekyll-postcss-v2</a> gem. That gem creates a hook in the Jekyll build process, so that it automatically regenerates the Tailwind CSS classes your website uses every time you build, or every time you save changes to a file when you’re running the development server.</p>
+
+<p>First, install the latest version of Tailwind CSS, its PostCSS plugin, and PostCSS itself using <code class="language-plaintext highlighter-rouge">npm</code>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install </span>tailwindcss @tailwindcss/postcss postcss
+</code></pre></div></div>
+
+<p>Next, you’ll need to create a <code class="language-plaintext highlighter-rouge">postcss.config.js</code> file in your project’s root directory to set up PostCSS to use <code class="language-plaintext highlighter-rouge">@tailwindcss/postcss</code>:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">export</span> <span class="k">default</span> <span class="p">{</span>
+    <span class="na">plugins</span><span class="p">:</span> <span class="p">{</span>
+        <span class="dl">"</span><span class="s2">@tailwindcss/postcss</span><span class="dl">"</span><span class="p">:</span> <span class="p">{},</span>
+    <span class="p">},</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<p>In case you read information for previous versions of Tailwind CSS: <a href="https://tailwindcss.com/docs/upgrade-guide#using-postcss">starting from v4</a>, <code class="language-plaintext highlighter-rouge">@tailwindcss/postcss</code> replaces the previous <code class="language-plaintext highlighter-rouge">tailwindcss</code> plugin, and it handles imports, vendor prefixing, and minification by itself, so you should no longer add <code class="language-plaintext highlighter-rouge">postcss-import</code>, <code class="language-plaintext highlighter-rouge">autoprefixer</code>, and <code class="language-plaintext highlighter-rouge">cssnano</code> to your PostCSS configuration. Of course, you can add other PostCSS plugins you might need; for example, I use <code class="language-plaintext highlighter-rouge">postcss-url</code> to move Bootstrap Icons’ font files to the appropriate folder when I build my website.</p>
+
+<p>Now, add the <code class="language-plaintext highlighter-rouge">jekyll-postcss-v2</code> gem to your <code class="language-plaintext highlighter-rouge">Gemfile</code> in the <code class="language-plaintext highlighter-rouge">:jekyll_plugins</code> group to install it and automatically enable it in Jekyll:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># ...</span>
+
+<span class="n">group</span> <span class="ss">:jekyll_plugins</span> <span class="k">do</span>
+  <span class="n">gem</span> <span class="s2">"jekyll-postcss-v2"</span>
+  <span class="c1"># ...</span>
+<span class="k">end</span>
+
+<span class="c1"># ...</span>
+</code></pre></div></div>
+
+<p>Unfortunately, there is <a href="https://github.com/bglw/jekyll-postcss-v2/issues/2">an unresolved issue</a> with the official version of the gem: it might fail to generate styles for all the classes you’re using because it executes PostCSS as soon as it reads your CSS file, disregarding all files that are read afterward, so you’ll have to build the site at least twice. Fortunately, I forked the repository to fix that by modifying the hook so that it executes PostCSS after the entire website has been built, thus ensuring that it detects all classes. To this date, the plugin’s author hasn’t reviewed and merged <a href="https://github.com/bglw/jekyll-postcss-v2/pull/7">my pull request</a>, but in the meantime you can modify your <code class="language-plaintext highlighter-rouge">Gemfile</code> to use the appropriate branch of my forked version of the repository like this:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># ...</span>
+
+<span class="n">group</span> <span class="ss">:jekyll_plugins</span> <span class="k">do</span>
+  <span class="n">gem</span> <span class="s2">"jekyll-postcss-v2"</span><span class="p">,</span> <span class="ss">:git</span> <span class="o">=&gt;</span> <span class="s2">"https://github.com/S8A/jekyll-postcss-v2.git"</span><span class="p">,</span> <span class="ss">:branch</span> <span class="o">=&gt;</span> <span class="s2">"feature/change_hook_to_site_post_write"</span>
+  <span class="c1"># ...</span>
+<span class="k">end</span>
+
+<span class="c1"># ...</span>
+</code></pre></div></div>
+
+<p>After installing and configuring those dependencies, add <code class="language-plaintext highlighter-rouge">postcss.config.js</code>, <code class="language-plaintext highlighter-rouge">package.json</code>, and <code class="language-plaintext highlighter-rouge">package-lock.json</code> to Jekyll’s exclusion list so that they’re not exposed on your website:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># ...</span>
+
+<span class="na">exclude</span><span class="pi">:</span>
+  <span class="c1"># ...</span>
+  <span class="pi">-</span> <span class="s">postcss.config.js</span>
+  <span class="pi">-</span> <span class="s">package.json</span>
+  <span class="pi">-</span> <span class="s">package-lock.json</span>
+
+<span class="c1"># ...</span>
+</code></pre></div></div>
+
+<p>Finally, to actually apply Tailwind CSS to your website you need at least one CSS file with two required features: first, it has to be marked with <a href="https://jekyllrb.com/docs/front-matter/">Front Matter</a> in the beginning, even if it’s empty, so that it’s treated as a “page” by Jekyll and thus processed by the <code class="language-plaintext highlighter-rouge">jekyll-postcss-v2</code> plugin; and second, it has to contain at least one <a href="https://tailwindcss.com/docs/functions-and-directives">Tailwind CSS directive</a> so that the <code class="language-plaintext highlighter-rouge">@tailwindcss/postcss</code> plugin detects it as a Tailwind CSS file. Therefore, in the simplest case, you might have a single file, let’s say <code class="language-plaintext highlighter-rouge">main.css</code>, with empty Front Matter in the beginning and a simple <code class="language-plaintext highlighter-rouge">@import</code> directive to import Tailwind CSS itself:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">---</span>
+<span class="nt">---</span>
+
+<span class="k">@import</span> <span class="s1">"tailwindcss"</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>You can add any other Tailwind CSS directive you want, whether to explicitly set source directories and files in which you want to detect Tailwind CSS classes (for example, to have different CSS files for different pages), to enable dark mode based on classes or data attributes, to use legacy plugins like <a href="https://github.com/tailwindlabs/tailwindcss-typography">Tailwind CSS Typography</a>, to import CSS from other Node.js modules or local files, etc.</p>
+
+<p>After you’ve done all of that, you can start using Tailwind CSS classes in your HTML markup. Don’t forget to link your Tailwind CSS stylesheet on the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> of your pages or layout templates, of course.</p>
+
+<h2 id="deploy-to-github-pages-using-github-actions">Deploy to GitHub Pages using GitHub Actions</h2>
+
+<p>By default, GitHub Pages takes your main/master branch and builds it using the <code class="language-plaintext highlighter-rouge">github-pages</code> gem, which is locked to Jekyll v3, as mentioned above, and of course it doesn’t install Node.js dependencies. Therefore, to deploy your Jekyll v4 + Tailwind CSS setup to GitHub Pages you’ll have to configure a custom deployment workflow using GitHub Pages, which is simpler than it sounds.</p>
+
+<p>To create that workflow, simply create a YAML file named something like <code class="language-plaintext highlighter-rouge">github-pages.yml</code> in the <code class="language-plaintext highlighter-rouge">.github/workflows</code> directory of your project with the following content and make sure to push it to GitHub:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">name</span><span class="pi">:</span> <span class="s">Build and deploy this site to GitHub Pages</span>
+
+<span class="na">on</span><span class="pi">:</span>
+  <span class="na">push</span><span class="pi">:</span>
+    <span class="na">branches</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">master</span>
+
+<span class="na">env</span><span class="pi">:</span>
+  <span class="na">JEKYLL_ENV</span><span class="pi">:</span> <span class="s">production</span>
+  <span class="na">NODE_ENV</span><span class="pi">:</span> <span class="s">production</span>
+  <span class="na">TZ</span><span class="pi">:</span> <span class="s">America/Caracas</span>
+
+<span class="na">jobs</span><span class="pi">:</span>
+  <span class="na">github-pages</span><span class="pi">:</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+    <span class="na">steps</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v2</span>
+      <span class="pi">-</span> <span class="na">uses</span><span class="pi">:</span> <span class="s">ruby/setup-ruby@v1</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">ruby-version</span><span class="pi">:</span> <span class="m">3.3</span>
+          <span class="na">bundler-cache</span><span class="pi">:</span> <span class="kc">true</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Install apt dependencies</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="pi">|</span>
+          <span class="s">sudo apt-get update</span>
+          <span class="s">sudo apt-get install -y $(cat .apt)</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Setup Node</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/setup-node@v2</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">node-version</span><span class="pi">:</span> <span class="s1">'</span><span class="s">20'</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Install Node dependencies</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="s">npm install</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Build site</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">limjh16/jekyll-action-ts@v2</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">enable_cache</span><span class="pi">:</span> <span class="kc">true</span>
+          <span class="na">custom_opts</span><span class="pi">:</span> <span class="s2">"</span><span class="s">--verbose"</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Deploy</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">peaceiris/actions-gh-pages@v3</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">github_token</span><span class="pi">:</span> <span class="s">$</span>
+          <span class="na">publish_dir</span><span class="pi">:</span> <span class="s">./_site</span>
+
+</code></pre></div></div>
+
+<p>I’ll briefly explain each part of the file:</p>
+
+<ol>
+  <li>Set the name of the workflow.</li>
+  <li>Set the workflow to be activated whenever there is a push to the <code class="language-plaintext highlighter-rouge">master</code> branch. Change that to <code class="language-plaintext highlighter-rouge">main</code> if that’s your repository’s main branch, of course.</li>
+  <li>Set the environment variables appropriately. Don’t forget to change <code class="language-plaintext highlighter-rouge">TZ</code> to your timezone.</li>
+  <li>Define one job named <code class="language-plaintext highlighter-rouge">github-pages</code> that runs on the latest version of Ubuntu and executes the following steps:</li>
+  <li>Checkout the repository so that the workflow can access it.</li>
+  <li>Setup Ruby version 3.3 (update that in the future appropriately), enabling Bundler’s cache.</li>
+  <li>Install the apt dependencies specified in the <code class="language-plaintext highlighter-rouge">.apt</code> file.</li>
+  <li>Setup Node.js version 20 (update that in the future appropriately).</li>
+  <li>Install Node.js dependencies with <code class="language-plaintext highlighter-rouge">npm install</code>. In case you didn’t know already, you’re supposed to push <code class="language-plaintext highlighter-rouge">package.json</code> and <code class="language-plaintext highlighter-rouge">package-lock.json</code> to GitHub.</li>
+  <li>Build the website with Jekyll, enabling verbose mode to have more informative logs.</li>
+  <li>Deploy the generated static website to a branch named <code class="language-plaintext highlighter-rouge">gh-pages</code>.</li>
+</ol>
+
+<p>The second thing you need, which I briefly mentioned above, is an <code class="language-plaintext highlighter-rouge">.apt</code> file in your project’s root directory, where you’ll list all the Ubuntu packages you’re gonna need to install. This is <strong>not</strong> the same as the <code class="language-plaintext highlighter-rouge">.apk</code> package mentioned earlier in the article, which is for <em>Alpine Linux</em> packages and will only be used by the Docker image for local development. Also, because you’re getting Node.js in another step of the workflow, you should <strong>not</strong> include <code class="language-plaintext highlighter-rouge">nodejs</code> and <code class="language-plaintext highlighter-rouge">npm</code> in the <code class="language-plaintext highlighter-rouge">.apt</code> file, so in the simplest case the file will be empty.</p>
+
+<p>Needless to say, you don’t need to add <code class="language-plaintext highlighter-rouge">.apt</code> nor <code class="language-plaintext highlighter-rouge">.github/workflows/github-pages.yml</code> to Jekyll’s exclusion list because they’re excluded automatically.</p>
+
+<p>Finally, you’ll have to modify your repository’s settings to deploy from the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch generated by the workflow. Open your repository on <a href="https://github.com">GitHub.com</a>, navigate to the <em>Pages</em> section of the <em>Settings</em> tab, and modify these two settings:</p>
+
+<ul>
+  <li><strong>Source:</strong> Deploy from a branch.</li>
+  <li><strong>Branch:</strong> <code class="language-plaintext highlighter-rouge">gh-pages</code> branch, root directory (<code class="language-plaintext highlighter-rouge">/</code>).</li>
+</ul>
+
+<p>After you do that, every time you merge a pull request into your main branch or push commits directly to it, the custom workflow will run on that branch, creating or updating the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch with your built site, and then the actual deployment workflow will run on the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch to publish your site.</p>
+
+<h2 id="install-alpinejs-and-bundle-it-with-esbuild-optional">Install Alpine.js and bundle it with esbuild (optional)</h2>
+
+<p>This part was not at all in Giorgi’s guides, and it’s not obligatory to use it if you just want to use Tailwind CSS. I did it because I wanted to implement a dark mode toggle on my website as well as a few other small bits of interactivity, and I decided to use Alpine.js instead of vanilla JavaScript. Now I’ll explain how I did it if you want to use it too.</p>
+
+<p>First, install Alpine.js and <a href="https://esbuild.github.io/">esbuild</a> using <code class="language-plaintext highlighter-rouge">npm</code>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install </span>alpinejs esbuild
+</code></pre></div></div>
+
+<p>I figured out that I had to use something bundle Alpine.js into my JavaScript file after I tried to use it by itself and it didn’t work. I asked Claude 3.5 Sonnet and it recommended using esbuild and gave me the command options I needed.</p>
+
+<p>On that note, the next thing you need to do is define a Node.js build script so that you can use it to bundle your JavaScript before serving your website. Add a <code class="language-plaintext highlighter-rouge">scripts</code> section to your <code class="language-plaintext highlighter-rouge">package.json</code> and define the <code class="language-plaintext highlighter-rouge">build</code> script like this:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"module"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"dependencies"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="err">//</span><span class="w"> </span><span class="err">Mapping</span><span class="w"> </span><span class="err">of</span><span class="w"> </span><span class="err">dependencies</span><span class="w"> </span><span class="err">and</span><span class="w"> </span><span class="err">their</span><span class="w"> </span><span class="err">versions</span><span class="w">
+    </span><span class="err">//</span><span class="w"> </span><span class="err">...</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"scripts"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"esbuild path/to/js/main.js --bundle --outfile=path/to/js/bundle.js $(test </span><span class="se">\"</span><span class="s2">$NODE_ENV</span><span class="se">\"</span><span class="s2"> = </span><span class="se">\"</span><span class="s2">production</span><span class="se">\"</span><span class="s2"> &amp;&amp; echo '--minify')"</span><span class="p">,</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Replace <code class="language-plaintext highlighter-rouge">path/to/js/main.js</code> with the actual relative path of your original JavaScript file where you import and use Alpine.js, and replace <code class="language-plaintext highlighter-rouge">path/to/js/bundle.js</code> with the actual relative path of the JavaScript bundle file that will be produced by esbuild and that you will use in your HTML. The last part that is enclosed within <code class="language-plaintext highlighter-rouge">$()</code> is a <a href="https://www.gnu.org/software/bash/manual/bash.html#Command-Substitution">Bash command substitution</a> that checks if the environment variable <code class="language-plaintext highlighter-rouge">NODE_ENV</code> is set to <code class="language-plaintext highlighter-rouge">production</code> and, if it is, adds the <code class="language-plaintext highlighter-rouge">--minify</code> argument to the esbuild command in order to produce a minified bundle.</p>
+
+<p>The command substitution will obviously not work in Windows, so you have three solutions: define a build script for <code class="language-plaintext highlighter-rouge">production</code> with the <code class="language-plaintext highlighter-rouge">--minify</code> argument and another for <code class="language-plaintext highlighter-rouge">development</code> without it, use Windows Subsystem for Linux, or switch to Linux entirely (that last one is only half-joking). I’ll continue the rest of this section assuming a single <code class="language-plaintext highlighter-rouge">build</code> script.</p>
+
+<p>To use the new <code class="language-plaintext highlighter-rouge">build</code> script, simply run:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm run build
+</code></pre></div></div>
+
+<p>If you’re using the Docker Compose setup I explained above, modify the <code class="language-plaintext highlighter-rouge">command</code> to run the <code class="language-plaintext highlighter-rouge">build</code> script after installing Node.js dependencies and before running the Jekyll development server:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sh <span class="nt">-c</span> <span class="s1">'npm install &amp;&amp; npm run build &amp;&amp; jekyll serve'</span>
+</code></pre></div></div>
+
+<p>And, of course, don’t forget to add a step to your GitHub Pages deployment workflow to run the <code class="language-plaintext highlighter-rouge">buld</code> script after installing Node.js dependencies and before building the Jekyll site:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># ...</span>
+
+<span class="na">jobs</span><span class="pi">:</span>
+  <span class="na">github-pages</span><span class="pi">:</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+    <span class="na">steps</span><span class="pi">:</span>
+      <span class="c1"># Omitting the previous steps for brevity</span>
+      <span class="c1"># ...</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Install Node dependencies</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="s">npm install</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Build JavaScript bundle</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="s">npm run build</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Build site</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">limjh16/jekyll-action-ts@v2</span>
+        <span class="c1"># ...</span>
+      <span class="c1"># Rest of the file</span>
+      <span class="c1"># ...</span>
+</code></pre></div></div>
+
+<p>Finally, to actually use Alpine.js on your website, you need the following three lines of code on the JavaScript you’re going to process with esbuild:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">Alpine</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">alpinejs</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="nb">window</span><span class="p">.</span><span class="nx">Alpine</span> <span class="o">=</span> <span class="nx">Alpine</span><span class="p">;</span>
+
+<span class="nx">Alpine</span><span class="p">.</span><span class="nf">start</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>Basically: import the Alpine.js module, add it to the <code class="language-plaintext highlighter-rouge">window</code> object for easy access on each page, and initialize it.</p>
+
+<p>If you want to implement a dark mode toggle like I did, you’re gonna need a few more lines before <code class="language-plaintext highlighter-rouge">Alpine.start()</code>:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">Alpine</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">alpinejs</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="nb">window</span><span class="p">.</span><span class="nx">Alpine</span> <span class="o">=</span> <span class="nx">Alpine</span><span class="p">;</span>
+
+<span class="nx">Alpine</span><span class="p">.</span><span class="nf">store</span><span class="p">(</span><span class="dl">"</span><span class="s2">darkMode</span><span class="dl">"</span><span class="p">,</span> <span class="p">{</span>
+    <span class="na">on</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+    <span class="nf">init</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">if </span><span class="p">(</span><span class="dl">"</span><span class="s2">theme</span><span class="dl">"</span> <span class="k">in</span> <span class="nx">localStorage</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">on</span> <span class="o">=</span> <span class="nx">localStorage</span><span class="p">.</span><span class="nx">theme</span> <span class="o">===</span> <span class="dl">"</span><span class="s2">dark</span><span class="dl">"</span><span class="p">;</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">on</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nf">matchMedia</span><span class="p">(</span><span class="dl">"</span><span class="s2">(prefers-color-scheme: dark)</span><span class="dl">"</span><span class="p">).</span><span class="nx">matches</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="nf">toggle</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">on</span> <span class="o">=</span> <span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">on</span><span class="p">;</span>
+        <span class="nx">localStorage</span><span class="p">.</span><span class="nx">theme</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">on</span> <span class="p">?</span> <span class="dl">"</span><span class="s2">dark</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">light</span><span class="dl">"</span><span class="p">;</span>
+    <span class="p">},</span>
+<span class="p">});</span>
+
+<span class="nx">Alpine</span><span class="p">.</span><span class="nf">start</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>I implemented it with an Alpine.js store, its API for global state management. On the first site visit, it enables or disables dark mode based on the user’s browser setting, and it will continue to do so as long as the user doesn’t use the toggle. Once the user clicks the toggle for the first time, it will save the setting to <code class="language-plaintext highlighter-rouge">localStorage</code> as well so that the next time the user visits the website it will use the value from there instead of the browser setting.</p>]]></content><author><name>Samuel Ochoa</name><email>samuelochoap@gmail.com</email></author><category term="personal" /><summary type="html"><![CDATA[Local development setup with Docker Compose, npm dependencies, PostCSS hook for Jekyll, and custom deployment to GitHub Pages.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://s8a.github.io/assets/img/jekyll-tailwindcss-alpinejs.webp" /><media:content medium="image" url="https://s8a.github.io/assets/img/jekyll-tailwindcss-alpinejs.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Links for February 2025</title><link href="https://s8a.github.io/2025/02/28/links-february-2025/" rel="alternate" type="text/html" title="Links for February 2025" /><published>2025-02-28T20:20:20-04:00</published><updated>2025-02-28T20:20:20-04:00</updated><id>https://s8a.github.io/2025/02/28/links-february-2025</id><content type="html" xml:base="https://s8a.github.io/2025/02/28/links-february-2025/"><![CDATA[<ul>
   <li><em><a href="https://arctotherium.substack.com/p/the-five-stages-of-western-fertility">The Five Stages of Western Fertility</a></em> by Arctotherium (2025-01-29). Here Arctotherium brings together all his research related to historical patterns of sexual norms, marriage, and fertility in the West, providing a comprehensive overview with links to his previous articles.</li>
   <li><em><a href="https://mgautreau.substack.com/p/licking-the-overton-window">Licking The Overton Window</a></em> by Marcel Dumas Gautreau (2024-02-29). The Overton Window is non-sense as a model of how politics works.</li>
   <li><em><a href="https://www.overcomingbias.com/p/our-big-oops">Our Big Oops</a></em> by Robin Hanson (2025-02-22). A good summary of his cultural drift thesis.</li>
@@ -844,131 +1155,4 @@
       <p>A day where certain events turned out exactly as I predicted, sadly. <a href="#fnref:fn-1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Samuel Ochoa</name><email>samuelochoap@gmail.com</email></author><category term="personal" /><summary type="html"><![CDATA[The rise of the West, Jewish IQ, notable Europeans, Mises's Human Action, progressivism as a memetic virus, cultural evolution, locals fleeing immigration, and the three worst US presidents.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://s8a.github.io/assets/img/links-and-thoughts-007.webp" /><media:content medium="image" url="https://s8a.github.io/assets/img/links-and-thoughts-007.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Links and Thoughts #6 (June 2024)</title><link href="https://s8a.github.io/2024/06/30/links-and-thoughts-006/" rel="alternate" type="text/html" title="Links and Thoughts #6 (June 2024)" /><published>2024-06-30T00:00:00-04:00</published><updated>2024-06-30T00:00:00-04:00</updated><id>https://s8a.github.io/2024/06/30/links-and-thoughts-006</id><content type="html" xml:base="https://s8a.github.io/2024/06/30/links-and-thoughts-006/"><![CDATA[<p>This month’s compilation brings an essay by a famous startup investor about how to do “great work” in any field, a critical essay about Winston Churchill, an overview of the potentially groundbreaking research of biologist Michael Levin, a summary of statistics showing that a small group of repeat offenders disproportionately commit most of the crime, an article about how gerontocratic policies affect young people in modern societies and what to do to fix the problem, and an explanation of how much weight we should give to hypocrisy as evidence against the views of the hypocrites.</p>
-
-<hr />
-
-<h2 id="how-to-do-great-work"><em>How to Do Great Work</em></h2>
-
-<ul>
-  <li><a href="https://www.paulgraham.com/greatwork.html">Link to article</a></li>
-  <li>Author: Paul Graham</li>
-  <li>Date: 2023-07</li>
-  <li>Source: <em>Paul Graham</em> (personal website)</li>
-</ul>
-
-<p>Paul Graham, known for being one of the founders of <a href="https://en.wikipedia.org/w/index.php?title=Y_Combinator&amp;oldid=1225221718">Y Combinator</a>, wrote this essay explaining the general recipe for doing great work in any field. Great work takes many forms, but in general, it’s characterized by greatness in ambition and impact; in the best cases, the result is the creation or discovery of an entirely new field. It should go without saying, but Graham explicitly says that his guide is for very ambitious people. The essay contains lots of practical wisdom and motivation—too much to summarize in a sentence or two. However, I think this quote is the best encapsulation of Graham’s recipe for doing great work:</p>
-
-<blockquote>
-  <p>Curiosity is the key to all four steps in doing great work: it will choose the field for you, get you to the frontier, cause you to notice the gaps in it, and drive you to explore them. The whole process is a kind of dance with curiosity.</p>
-</blockquote>
-
-<hr />
-
-<h2 id="rethinking-churchill"><em>Rethinking Churchill</em></h2>
-
-<ul>
-  <li><a href="https://mises.org/mises-daily/rethinking-churchill">Link to article</a></li>
-  <li>Author: Ralph Raico</li>
-  <li>Date: 2021-11-23 (originally published in 1999)</li>
-  <li>Source: <em>Mises Daily</em>, Ludwig von Mises Institute</li>
-</ul>
-
-<p><img class="w-full sm:w-5/6 md:w-2/3 mx-auto" srcset="" sizes="" src="https://cdn.mises.org/styles/responsive_4_3_650w/s3/static-page/img/churchill-wire.jpg.webp?itok=HW9Jw2PD" alt="Picture of Winston Churchill" loading="lazy" /></p>
-
-<p>This essay, by the eminent libertarian historian Ralph Raico, originally appeared in a 1999 book titled <a href="https://store.mises.org/Costs-of-War-P80.aspx"><em>The Costs of War: America’s Pyrrhic Victories</em></a>. Raico provides a critical biography of Winston Churchill, Prime Minister of the United Kingdom during the Second World War, citing plenty of high-quality sources. In mainstream history and media, the image of Churchill is that of a hero, a wise strategist, and a principled statesman, widely lauded across most of the political spectrum. Raico’s essay dispels the Churchill myth entirely, exposing him for what he really was: an opportunistic and unprincipled politician, a bloodthirsty and short-sighted war criminal, and one of the godfathers of the destructive Leviathan of the modern welfare-warfare state.</p>
-
-<hr />
-
-<h2 id="a-revolution-in-biology"><em>A Revolution in Biology</em></h2>
-
-<ul>
-  <li><a href="https://www.bitsofwonder.co/p/a-revolution-in-biology">Link to article</a></li>
-  <li>Author: Kasra</li>
-  <li>Date: 2024-06-08</li>
-  <li>Source: <em>Bits of Wonder</em> (Substack)</li>
-</ul>
-
-<p><img class="w-full" srcset="https://substackcdn.com/image/fetch/w_192,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 192w, https://substackcdn.com/image/fetch/w_256,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 256w, https://substackcdn.com/image/fetch/w_320,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 320w, https://substackcdn.com/image/fetch/w_384,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 384w, https://substackcdn.com/image/fetch/w_448,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 448w, https://substackcdn.com/image/fetch/w_512,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 512w, https://substackcdn.com/image/fetch/w_576,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 576w, https://substackcdn.com/image/fetch/w_640,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 640w, https://substackcdn.com/image/fetch/w_704,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 704w, https://substackcdn.com/image/fetch/w_768,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 768w, https://substackcdn.com/image/fetch/w_832,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 832w, https://substackcdn.com/image/fetch/w_896,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 896w, https://substackcdn.com/image/fetch/w_960,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 960w, https://substackcdn.com/image/fetch/w_1024,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 1024w, https://substackcdn.com/image/fetch/w_1088,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 1088w, https://substackcdn.com/image/fetch/w_1152,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 1152w, https://substackcdn.com/image/fetch/w_1216,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 1216w, https://substackcdn.com/image/fetch/w_1280,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 1280w, https://substackcdn.com/image/fetch/w_1344,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 1344w, https://substackcdn.com/image/fetch/w_1408,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 1408w, https://substackcdn.com/image/fetch/w_1472,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 1472w, https://substackcdn.com/image/fetch/w_1536,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 1536w, https://substackcdn.com/image/fetch/w_1600,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 1600w, https://substackcdn.com/image/fetch/w_1664,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 1664w, https://substackcdn.com/image/fetch/w_1728,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png 1728w" sizes="(min-width: 1400px) 63vw, (min-width: 1300px) 59vw, (min-width: 1200px) 64vw, (min-width: 1096px) 59vw, (min-width: 992px) 65vw, (min-width: 880px) 82vw, (min-width: 768px) 94vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw" src="https://substackcdn.com/image/fetch/w_960,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F047fc0ac-73bf-43c5-b022-09a58fb178e5_2000x1067.png" alt="Diagram summarizing the process for producing two-headed planarian worms indefinitely by altering its bioelectric circuit" loading="lazy" /></p>
-
-<p>This article is an overview of the potentially groundbreaking work of Michael Levin and colleagues in developmental biology. Levin and colleagues’ central claim is that, while genes are still important, higher levels of abstraction and control meaningfully exist in biology; the bioelectric network of the organism is an example of that. It turns out that all cells, not just neurons, produce and sense electric signals in order to coordinate behavior and encode information.</p>
-
-<p>Levin’s lab has demonstrated that the bioelectric network stores anatomical information independently and that it’s possible to modify the structure of an organism just by modulating its bioelectric network, leaving its genes intact. For example, they have induced planarian worms to grow two heads or no heads at all, and frogs to grow extra limbs or even a functional eye in their tail. Beyond the myriad practical applications this research could have in the long run, Levin’s work suggests that the definitions of <em>agent</em>, <em>intelligence</em>, and <em>creativity</em> should be broader, encompassing lower and higher levels of biology in a fractal manner. This is a deep perspective shift that raises some complicated philosophical questions.</p>
-
-<hr />
-
-<h2 id="when-few-do-great-harm"><em>When few do great harm</em></h2>
-
-<ul>
-  <li><a href="https://inquisitivebird.substack.com/p/when-few-do-great-harm">Link to article</a></li>
-  <li>Author: Inquisitive Bird</li>
-  <li>Date: 2023-04-23</li>
-  <li>Source: <em>Patterns in Humanity</em> (Substack)</li>
-</ul>
-
-<p><img class="w-full" srcset="https://substackcdn.com/image/fetch/w_192,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 192w, https://substackcdn.com/image/fetch/w_256,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 256w, https://substackcdn.com/image/fetch/w_320,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 320w, https://substackcdn.com/image/fetch/w_384,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 384w, https://substackcdn.com/image/fetch/w_448,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 448w, https://substackcdn.com/image/fetch/w_512,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 512w, https://substackcdn.com/image/fetch/w_576,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 576w, https://substackcdn.com/image/fetch/w_640,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 640w, https://substackcdn.com/image/fetch/w_704,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 704w, https://substackcdn.com/image/fetch/w_768,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 768w, https://substackcdn.com/image/fetch/w_832,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 832w, https://substackcdn.com/image/fetch/w_896,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 896w, https://substackcdn.com/image/fetch/w_960,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 960w, https://substackcdn.com/image/fetch/w_1024,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 1024w, https://substackcdn.com/image/fetch/w_1088,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 1088w, https://substackcdn.com/image/fetch/w_1152,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 1152w, https://substackcdn.com/image/fetch/w_1216,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 1216w, https://substackcdn.com/image/fetch/w_1280,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 1280w, https://substackcdn.com/image/fetch/w_1344,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 1344w, https://substackcdn.com/image/fetch/w_1408,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 1408w, https://substackcdn.com/image/fetch/w_1472,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 1472w, https://substackcdn.com/image/fetch/w_1536,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 1536w, https://substackcdn.com/image/fetch/w_1600,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 1600w, https://substackcdn.com/image/fetch/w_1664,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 1664w, https://substackcdn.com/image/fetch/w_1728,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png 1728w" sizes="(min-width: 1400px) 63vw, (min-width: 1300px) 59vw, (min-width: 1200px) 64vw, (min-width: 1096px) 59vw, (min-width: 992px) 65vw, (min-width: 880px) 82vw, (min-width: 768px) 94vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw" src="https://substackcdn.com/image/fetch/w_960,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F239dfad4-1f16-419d-b6a5-83a1a169ea78_861x574.png" alt="Chart of the average number of convictions by offender percentile in Sweden, showing that 1% of the population accounts for 63% of all violent crime convictions." loading="lazy" /></p>
-
-<p>This short article summarizes data from several Western countries, illustrating how a small number of repeat offenders are responsible for a large fraction of the crime. Arrests, convictions, and self-reported delinquent behavior roughly follow power law distributions, in which a few people disproportionately account for most criminal and delinquent behavior. In Sweden, for example, “1% of people were accountable for 63% of all violent crime convictions, and 0.12% of people accounted for 20% of violent crime convictions.” Another example: in New York City, “nearly a third of all shoplifting arrests in the city in 2022 involved just 327 people, who collectively were arrested and rearrested more than 6,000 times.”</p>
-
-<hr />
-
-<h2 id="critical-age-theory"><em>Critical Age Theory</em></h2>
-
-<ul>
-  <li><a href="https://www.richardhanania.com/p/critical-age-theory">Link to article</a></li>
-  <li>Author: Richard Hanania</li>
-  <li>Date: 2024-01-29</li>
-  <li>Source: <em>Richard Hanania’s Newsletter</em> (Substack)</li>
-</ul>
-
-<p><img class="w-full" srcset="https://substackcdn.com/image/fetch/w_192,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 192w, https://substackcdn.com/image/fetch/w_256,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 256w, https://substackcdn.com/image/fetch/w_320,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 320w, https://substackcdn.com/image/fetch/w_384,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 384w, https://substackcdn.com/image/fetch/w_448,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 448w, https://substackcdn.com/image/fetch/w_512,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 512w, https://substackcdn.com/image/fetch/w_576,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 576w, https://substackcdn.com/image/fetch/w_640,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 640w, https://substackcdn.com/image/fetch/w_704,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 704w, https://substackcdn.com/image/fetch/w_768,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 768w, https://substackcdn.com/image/fetch/w_832,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 832w, https://substackcdn.com/image/fetch/w_896,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 896w, https://substackcdn.com/image/fetch/w_960,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 960w, https://substackcdn.com/image/fetch/w_1024,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 1024w, https://substackcdn.com/image/fetch/w_1088,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 1088w, https://substackcdn.com/image/fetch/w_1152,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 1152w, https://substackcdn.com/image/fetch/w_1216,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 1216w, https://substackcdn.com/image/fetch/w_1280,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 1280w, https://substackcdn.com/image/fetch/w_1344,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 1344w, https://substackcdn.com/image/fetch/w_1408,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 1408w, https://substackcdn.com/image/fetch/w_1472,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 1472w, https://substackcdn.com/image/fetch/w_1536,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 1536w, https://substackcdn.com/image/fetch/w_1600,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 1600w, https://substackcdn.com/image/fetch/w_1664,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 1664w, https://substackcdn.com/image/fetch/w_1728,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png 1728w" sizes="(min-width: 1400px) 63vw, (min-width: 1300px) 59vw, (min-width: 1200px) 64vw, (min-width: 1096px) 59vw, (min-width: 992px) 65vw, (min-width: 880px) 82vw, (min-width: 768px) 94vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw" src="https://substackcdn.com/image/fetch/w_960,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96a9fd35-6cf9-4c0a-897e-34d9a7cd413f_1776x1116.png" alt="Chart of public pension spending as a percentage of the gross domestic product (GDP) of each OECD country, showing an average of almost 8% of GDP" loading="lazy" /></p>
-
-<p>In this essay, Hanania explains the concept of gerontocracy, which is basically government policy that systematically favors the old at the expense of the young, and why it came to exist across modern societies. He also explains how gerontocracy manifests in four broad areas of public policy (government spending, credentialism, employment law, and housing), and how this “has in effect made young people poorer, less likely to have families, and in a state of perpetual adolescence.” In light of the “systemic” nature of this “age privilege,” Hanania makes the case for “Critical Age Theory”<sup id="fnref:fn-1"><a href="#fn:fn-1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> as an intellectual movement and proposes the following concrete anti-gerontocratic policies:</p>
-
-<ul>
-  <li>Less government spending on entitlements that go to old people</li>
-  <li>Fewer government subsidies to education</li>
-  <li>Occupational licensing reform</li>
-  <li>Giving the youth an even playing field in the labor market by abolishing seniority systems and cutting back or eliminating age discrimination laws</li>
-  <li>YIMBYism</li>
-  <li>Subsidies for families with children</li>
-</ul>
-
-<hr />
-
-<h2 id="you-dont-believe-you"><em>You Don’t Believe You!</em></h2>
-
-<ul>
-  <li><a href="https://www.betonit.ai/p/you-dont-believe-you">Link to article</a></li>
-  <li>Author: Bryan Caplan</li>
-  <li>Date: 2024-06-26</li>
-  <li>Source: <em>Bet On It</em> (Substack)</li>
-</ul>
-
-<p><img class="w-full" srcset="https://substackcdn.com/image/fetch/w_192,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 192w, https://substackcdn.com/image/fetch/w_256,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 256w, https://substackcdn.com/image/fetch/w_320,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 320w, https://substackcdn.com/image/fetch/w_384,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 384w, https://substackcdn.com/image/fetch/w_448,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 448w, https://substackcdn.com/image/fetch/w_512,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 512w, https://substackcdn.com/image/fetch/w_576,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 576w, https://substackcdn.com/image/fetch/w_640,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 640w, https://substackcdn.com/image/fetch/w_704,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 704w, https://substackcdn.com/image/fetch/w_768,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 768w, https://substackcdn.com/image/fetch/w_832,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 832w, https://substackcdn.com/image/fetch/w_896,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 896w, https://substackcdn.com/image/fetch/w_960,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 960w, https://substackcdn.com/image/fetch/w_1024,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 1024w, https://substackcdn.com/image/fetch/w_1088,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 1088w, https://substackcdn.com/image/fetch/w_1152,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 1152w, https://substackcdn.com/image/fetch/w_1216,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 1216w, https://substackcdn.com/image/fetch/w_1280,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 1280w, https://substackcdn.com/image/fetch/w_1344,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 1344w, https://substackcdn.com/image/fetch/w_1408,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 1408w, https://substackcdn.com/image/fetch/w_1472,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 1472w, https://substackcdn.com/image/fetch/w_1536,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 1536w, https://substackcdn.com/image/fetch/w_1600,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 1600w, https://substackcdn.com/image/fetch/w_1664,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 1664w, https://substackcdn.com/image/fetch/w_1728,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png 1728w" sizes="(min-width: 1400px) 63vw, (min-width: 1300px) 59vw, (min-width: 1200px) 64vw, (min-width: 1096px) 59vw, (min-width: 992px) 65vw, (min-width: 880px) 82vw, (min-width: 768px) 94vw, (min-width: 672px) 81vw, (min-width: 576px) 94vw, 100vw" src="https://substackcdn.com/image/fetch/w_960,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff09f5a89-dad8-4895-abf7-2acd6d0c5957_784x511.png" alt="Flowchart to determine how strongly does hypocrisy count as evidence against what someone is claiming" loading="lazy" /></p>
-
-<p>In this short article, Caplan elaborates on his answer to the question of whether someone’s hypocrisy regarding a view provides substantive evidence against that view. Caplan argues that this depends primarily on the type of hypocrisy in question:</p>
-
-<ul>
-  <li><em>Normative hypocrisy</em> is when someone’s moral views clash with his behavior. This provides evidence that the person is morally flawed, but it doesn’t provide much evidence that his view is incorrect.</li>
-  <li>On the other hand, <em>positive hypocrisy</em> is when someone’s descriptive views clash with his behavior. This does provide strong evidence against the view because it shows that the person himself disbelieves it.</li>
-</ul>
-
-<p>Caplan also provides some caveats:</p>
-
-<ul>
-  <li>If we have independent knowledge that the person is <em>extremely morally scrupulous</em>, then normative hypocrisy does provide moderate evidence that his view is incorrect, because it should make us doubt that he actually believes it; of course, it should also make us doubt our previous judgment of his scrupulousness.</li>
-  <li>On the other hand, if we have independent knowledge that the person is <em>extremely stupid</em>, then positive hypocrisy provides only weak evidence against the view.</li>
-</ul>
-
-<hr />
-
-<h2 id="footnotes">Footnotes</h2>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:fn-1">
-      <p>This term is a tongue-in-cheek reference to <a href="https://en.wikipedia.org/wiki/Critical_race_theory">critical race theory</a> (CRT), which is basically the application of <a href="https://en.wikipedia.org/w/index.php?title=Critical_theory&amp;oldid=1230630780">critical theory</a> to the academic study of race in society, politics, and media. Thus, in concrete terms, CRT seeks to expose, explain, and critique alleged social, political, and legal “power structures” that “oppress” certain races and “privilege” others; it considers that “racism” is systemic to various aspects of those power structures and that it’s not only based on individuals’ prejudices; and it argues that these racial biases are what causes racial disparities in outcomes. Evidently, CRT is a fundamentally leftist (i.e., egalitarian) academic framework, since from the outset it rejects that there are measurable differences in traits or behaviors among different races that result in different group outcomes, or even rejects that races exist as more than “socially constructed” categories that are pretty much arbitrary. To learn more about what races actually are and why they’re not just arbitrary categories, I recommend reading the article <a href="https://noahcarl.medium.com/are-racial-classifications-arbitrary-ac53cb43de90"><em>Are Racial Classifications Arbitrary?</em></a> by Noah Carl. <a href="#fnref:fn-1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Samuel Ochoa</name><email>samuelochoap@gmail.com</email></author><category term="personal" /><summary type="html"><![CDATA[Great work, Churchill, bioelectricity, Critical Age Theory, and normative versus positive hypocrisy.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://s8a.github.io/assets/img/links-and-thoughts-006.webp" /><media:content medium="image" url="https://s8a.github.io/assets/img/links-and-thoughts-006.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</div>]]></content><author><name>Samuel Ochoa</name><email>samuelochoap@gmail.com</email></author><category term="personal" /><summary type="html"><![CDATA[The rise of the West, Jewish IQ, notable Europeans, Mises's Human Action, progressivism as a memetic virus, cultural evolution, locals fleeing immigration, and the three worst US presidents.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://s8a.github.io/assets/img/links-and-thoughts-007.webp" /><media:content medium="image" url="https://s8a.github.io/assets/img/links-and-thoughts-007.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

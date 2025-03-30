@@ -2,9 +2,9 @@
 layout: post
 title: How to set up and deploy a Jekyll v4 website with Tailwind CSS and Alpine.js
 description: Local development setup with Docker Compose, npm dependencies, PostCSS hook for Jekyll, and custom deployment to GitHub Pages.
-# image: /assets/img/website-redesign.webp
-# big_image: /assets/img/website-redesign.webp
-# big_image_alt: Screenshots of my redesigned website on mobile and desktop.
+image: /assets/img/jekyll-tailwindcss-alpinejs.webp
+big_image: /assets/img/jekyll-tailwindcss-alpinejs.webp
+# big_image_alt: Banner for the article
 category: personal
 ---
 

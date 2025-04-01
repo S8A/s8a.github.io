@@ -2,8 +2,8 @@
 layout: post
 title: "Links for March 2025"
 description: Software scaling, conflict theory, externalities, cognitive evolution, mathematical universe theory, and more.
-# image: /assets/img/links-for-2025-03.webp
-# big_image: /assets/img/links-for-2025-03.webp
+image: /assets/img/links-for-2025-03.webp
+big_image: /assets/img/links-for-2025-03.webp
 big_image_alt: Collage of notable images from the links in this post.
 category: personal
 ---

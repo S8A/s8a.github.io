@@ -13,9 +13,9 @@ Last month, I posted an [overview of how I redesigned my website]({% link _posts
 
 ## Set up Docker Compose for local development (optional)
 
-This is optional but I highly recommend it. Instead of having to install and configure Ruby and other dependencies directly in your system, you'll run them encapsulated and preconfigured in a Docker image, specifically, the [jvconseil/jekyll-docker](https://github.com/JV-conseil/jekyll-docker) image.
+This is optional, but I highly recommend it. Instead of having to install and configure Ruby and other dependencies directly in your system, you'll run them encapsulated and preconfigured in a Docker image, specifically, the [jvconseil/jekyll-docker](https://github.com/JV-conseil/jekyll-docker) image.
 
-The first thing you'll need is a `docker-compose.yml` file on your project's root directory with the following content:
+The first thing you'll need is a `docker-compose.yml` file in your project's root directory with the following content:
 
 ```yaml
 services:
@@ -36,7 +36,7 @@ services:
 
 This configuration creates one service called `site`, makes it take the `stable` version of the `jvconseil/jekyll-docker` image as its base, defines a custom default command that will be executed when the service is run, exposes the internal port 4000 of the container as port 4000 in the host machine, defines container-host volume mappings for the Jekyll website directory and Bundler's gems directory, and defines the environment variables. The custom command simply installs Node.js dependencies and then starts the Jekyll development server. The environment variables are pretty self-descriptive, but just in case, don't forget to set `TZ` to your timezone.
 
-The other thing you'll need is an `.apk` file on your project's root directory to list additional Alpine Linux packages that will be installed when the image is built and run. Specifically, you need it to install `nodejs` and `npm` to be able to use the Node.js package manager, so the file would look like this:
+The other thing you'll need is a text file named `.apk` in your project's root directory to list additional Alpine Linux packages that will be installed when the image is built and run. Specifically, you need it to install `nodejs` and `npm` to be able to use the Node.js package manager, so the file would look like this:
 
 ```
 nodejs
@@ -86,7 +86,7 @@ I want to mention that one of the changes introduced in Jekyll v4 is that Jekyll
 
 ## Install and configure Tailwind CSS as a PostCSS plugin on top of Jekyll
 
-We're going to install Tailwind CSS as a PostCSS plugin so that we can integrate it into Jekyll using the [jekyll-postcss-v2](https://github.com/bglw/jekyll-postcss-v2) gem. That gem creates a hook in the Jekyll build process, so that it automatically regenerates the Tailwind CSS classes your website uses every time you build, or every time you save changes to a file when you're running the development server.
+We're going to install Tailwind CSS as a PostCSS plugin so that we can integrate it into Jekyll using the [jekyll-postcss-v2](https://github.com/bglw/jekyll-postcss-v2) gem. That gem creates a hook in the Jekyll build process, so that it automatically regenerates the Tailwind CSS classes your website uses every time you build or every time you save changes to a file when you're running the development server.
 
 First, install the latest version of Tailwind CSS, its PostCSS plugin, and PostCSS itself using `npm`:
 
@@ -146,7 +146,7 @@ exclude:
 # ...
 ```
 
-Finally, to actually apply Tailwind CSS to your website you need at least one CSS file with two required features: first, it has to be marked with [Front Matter](https://jekyllrb.com/docs/front-matter/) in the beginning, even if it's empty, so that it's treated as a "page" by Jekyll and thus processed by the `jekyll-postcss-v2` plugin; and second, it has to contain at least one [Tailwind CSS directive](https://tailwindcss.com/docs/functions-and-directives) so that the `@tailwindcss/postcss` plugin detects it as a Tailwind CSS file. Therefore, in the simplest case, you might have a single file, let's say `main.css`, with empty Front Matter in the beginning and a simple `@import` directive to import Tailwind CSS itself:
+Finally, to actually apply Tailwind CSS to your website, you need at least one CSS file with two required features: first, it has to be marked with [Front Matter](https://jekyllrb.com/docs/front-matter/) in the beginning, even if it's empty, so that it's treated as a "page" by Jekyll and thus processed by the `jekyll-postcss-v2` plugin; and second, it has to contain at least one [Tailwind CSS directive](https://tailwindcss.com/docs/functions-and-directives) so that the `@tailwindcss/postcss` plugin detects it as a Tailwind CSS file. Therefore, in the simplest case, you might have a single file, let's say `main.css`, with empty Front Matter in the beginning and a simple `@import` directive to import Tailwind CSS itself:
 
 ```css
 ---
@@ -162,9 +162,9 @@ After you've done all of that, you can start using Tailwind CSS classes in your 
 
 ## Deploy to GitHub Pages using GitHub Actions
 
-By default, GitHub Pages takes your main/master branch and builds it using the `github-pages` gem, which is locked to Jekyll v3, as mentioned above, and of course it doesn't install Node.js dependencies. Therefore, to deploy your Jekyll v4 + Tailwind CSS setup to GitHub Pages you'll have to configure a custom deployment workflow using GitHub Pages, which is simpler than it sounds.
+By default, GitHub Pages takes your main/master branch and builds it using the `github-pages` gem, which is locked to Jekyll v3, as mentioned above, and of course it doesn't install Node.js dependencies. Therefore, to deploy your Jekyll v4 + Tailwind CSS setup to GitHub Pages, you'll have to configure a custom deployment workflow using GitHub Pages, which is simpler than it sounds.
 
-To create that workflow, simply create a YAML file named something like `github-pages.yml` in the `.github/workflows` directory of your project with the following content and make sure to push it to GitHub:
+To create that workflow, simply create a YAML file named something like `github-pages.yml` in the `.github/workflows` directory of your project with the following content, and make sure to push it to GitHub:
 
 ```yaml
 name: Build and deploy this site to GitHub Pages
@@ -217,15 +217,15 @@ I'll briefly explain each part of the file:
 2. Set the workflow to be activated whenever there is a push to the `master` branch. Change that to `main` if that's your repository's main branch, of course.
 3. Set the environment variables appropriately. Don't forget to change `TZ` to your timezone.
 4. Define one job named `github-pages` that runs on the latest version of Ubuntu and executes the following steps:
-  1. Checkout the repository so that the workflow can access it.
-  2. Setup Ruby version 3.3 (update that in the future appropriately), enabling Bundler's cache.
+  1. Check out the repository so that the workflow can access it.
+  2. Set up Ruby version 3.3 (update that in the future appropriately), enabling Bundler's cache.
   3. Install the apt dependencies specified in the `.apt` file.
-  4. Setup Node.js version 20 (update that in the future appropriately).
+  4. Set up Node.js version 20 (update that in the future appropriately).
   5. Install Node.js dependencies with `npm install`. In case you didn't know already, you're supposed to push `package.json` and `package-lock.json` to GitHub.
   6. Build the website with Jekyll, enabling verbose mode to have more informative logs.
   7. Deploy the generated static website to a branch named `gh-pages`.
 
-The second thing you need, which I briefly mentioned above, is an `.apt` file in your project's root directory, where you'll list all the Ubuntu packages you're gonna need to install. This is **not** the same as the `.apk` package mentioned earlier in the article, which is for _Alpine Linux_ packages and will only be used by the Docker image for local development. Also, because you're getting Node.js in another step of the workflow, you should **not** include `nodejs` and `npm` in the `.apt` file, so in the simplest case the file will be empty.
+The second thing you need, which I briefly mentioned above, is a text file named `.apt` in your project's root directory, where you'll list all the Ubuntu packages you're gonna need to install. This is **not** the same as the `.apk` file mentioned earlier in the article, which is for _Alpine Linux_ packages and will only be used by the Docker image for local development. Also, because you're getting Node.js in another step of the workflow, you should **not** include `nodejs` and `npm` in the `.apt` file, so in the simplest case the file will be empty.
 
 Needless to say, you don't need to add `.apt` nor `.github/workflows/github-pages.yml` to Jekyll's exclusion list because they're excluded automatically.
 
@@ -247,7 +247,7 @@ First, install Alpine.js and [esbuild](https://esbuild.github.io/) using `npm`:
 npm install alpinejs esbuild
 ```
 
-I figured out that I had to use something bundle Alpine.js into my JavaScript file after I tried to use it by itself and it didn't work. I asked Claude 3.5 Sonnet and it recommended using esbuild and gave me the command options I needed.
+I figured out that I had to use something to bundle Alpine.js into my JavaScript file after I tried to use it by itself and it didn't work. I asked Claude 3.5 Sonnet and it recommended using esbuild and gave me the command options I needed.
 
 On that note, the next thing you need to do is define a Node.js build script so that you can use it to bundle your JavaScript before serving your website. Add a `scripts` section to your `package.json` and define the `build` script like this:
 
@@ -315,7 +315,7 @@ Alpine.start();
 
 Basically: import the Alpine.js module, add it to the `window` object for easy access on each page, and initialize it.
 
-If you want to implement a dark mode toggle like I did, you're gonna need a few more lines before `Alpine.start()`:
+If you want to implement a dark mode toggle like I did, you're going to need a few more lines before `Alpine.start()`:
 
 ```js
 import Alpine from "alpinejs";
@@ -340,4 +340,4 @@ Alpine.store("darkMode", {
 Alpine.start();
 ```
 
-I implemented it with an Alpine.js store, its API for global state management. On the first site visit, it enables or disables dark mode based on the user's browser setting, and it will continue to do so as long as the user doesn't use the toggle. Once the user clicks the toggle for the first time, it will save the setting to `localStorage` as well so that the next time the user visits the website it will use the value from there instead of the browser setting.
+I implemented it with an Alpine.js store, its API for global state management. On the first site visit, it enables or disables dark mode based on the user's browser setting, and it will continue to do so as long as the user doesn't use the toggle. Once the user clicks the toggle for the first time, it will save the setting to `localStorage` as well so that the next time the user visits the website, it will use the value from there instead of the browser setting.

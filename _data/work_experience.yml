@@ -1,3 +1,17 @@
+- title: Backend developer
+  company: Telecomunicaciones G-Network, C.A.
+  company_url: https://www.gnetworkve.com/
+  period_start: March 2025
+  skills_keywords:
+    - Python
+    - Django
+    - Django REST Framework
+    - PostgreSQL
+    - Docker
+  description: >
+    I am currently working on the containerization of the company's existing
+    backend services, before we move on to developing the new version of the
+    company's web application.
 - title: Co-founder and computer technician
   company: Daykron Tech, C.A.
   period_start: January 2024
@@ -21,6 +35,7 @@
   company: Bitmotto
   company_url: https://www.bitmotto.com/
   period_start: November 2022
+  period_end: March 2025
   skills_keywords:
     - Python
     - Django
@@ -28,7 +43,7 @@
     - Odoo
     - Nuxt.js
   description: >
-    I'm currently involved in the development of multiple projects for
+    I was involved in the development of multiple projects for
     Bitmotto's business customers, working both backend and frontend:
     single-page style web applications built with Django, Vue.js, and
     Inertia.js; and custom modules for the Odoo business management software

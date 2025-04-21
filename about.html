@@ -74,35 +74,14 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
           {%- endcapture -%}
           {{- period_start | append: "-" | append: period_end | split: "-" | uniq | join: " &ndash; " -}}
         </p>
-        <p class="{%- if job.sections.size > 0 -%}mb-2 print:mb-0{%- endif -%}">{{ job.description }}</p>
-        {%- if job.sections.size > 0 -%}
-          <p x-bind:class="expanded ? 'mb-2' : 'mb-0'" class="print:hidden">
-            <button
-              class="inline underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-pointer"
-              x-on:click="expanded = !expanded"
-              x-text="expanded ? 'Hide details' : 'Show details'"
-            >
-            </button>
-          </p>
-          <div
-            class="ml-4"
-            x-show="expanded"
-            x-transition:enter="transition ease-out duration-200"
-            x-transition:enter-start="opacity-0 -translate-y-2"
-            x-transition:enter-end="opacity-100 translate-y-0"
-            x-transition:leave="transition ease-in duration-150"
-            x-transition:leave-start="opacity-100 translate-y-0"
-            x-transition:leave-end="opacity-0 -translate-y-2"
-          >
-            {%- for section in job.sections -%}
-              <h4 class="text-lg font-medium">{{ section.title }}</h4>
-              <ul class="ml-8 mb-0 list-disc list-outside">
-                {%- for item in section.items -%}
-                  <li>{{ item }}</li>
-                {%- endfor -%}
-              </ul>
+        {%- if job.key_points.size > 1 -%}
+          <ul class="ml-4 mb-0 list-disc list-outside">
+            {%- for item in job.key_points -%}
+              <li>{{- item -}}</li>
             {%- endfor -%}
-          </div>
+          </ul>
+        {%- else -%}
+          <p>{{- job.key_points[0] -}}</p>
         {%- endif -%}
       </div>
     {%- endfor -%}

@@ -2,6 +2,7 @@
   company: Telecomunicaciones G-Network, C.A.
   company_url: https://www.gnetworkve.com/
   period_start: March 2025
+  highlight: true
   skills_keywords:
     - Python
     - Django
@@ -47,6 +48,7 @@
   company_url: https://www.bitmotto.com/
   period_start: November 2022
   period_end: March 2025
+  highlight: true
   skills_keywords:
     - Python
     - Django

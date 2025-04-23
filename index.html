@@ -65,3 +65,42 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
     </a>
   </p>
 </section>
+
+<section class="pt-6 print:break-inside-avoid">
+  <h2 class="text-2xl font-bold mb-2">Projects</h2>
+  {%- assign project_collections = site.data.project_collections | map: "id" -%}
+  {%- assign highlighted_projects = site.documents | where_exp: "item", "project_collections contains item.collection and item.highlight" | sort_by: "last_update" | reverse -%}
+  <div class="flex flex-col gap-4 mb-2">
+    {%- for project in highlighted_projects -%}
+    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
+      {%- if project.display_image -%}
+        <div class="col-span-1 flex items-center">
+          {%- include img-local.html class="w-full" src=project.display_image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:22rem" default_width="640" -%}
+        </div>
+      {%- endif -%}
+      <div class="col-span-1 {% if project.display_image %}sm:col-span-2{% else %}sm:col-span-3{% endif -%}">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">
+            <a href="{{ project.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
+              {{ project.name }}
+            </a>
+          </h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">
+            {%- if collection.id == "mathematics" -%}
+              {{ project.date | date_to_string }}
+            {%- else -%}
+              Last update: {{ project.last_update | date: "%b %Y" }}
+            {%- endif -%}
+          </p>
+          <p>{{ project.summary }}</p>
+        </div>
+      </div>
+    </div>
+    {%- endfor -%}
+  </div>
+  <p class="text-sm text-gray-600 dark:text-gray-400">
+    <a href="/projects/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
+      See all projects
+    </a>
+  </p>
+</section>

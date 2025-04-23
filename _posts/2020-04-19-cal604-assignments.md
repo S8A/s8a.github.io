@@ -7,14 +7,14 @@ category: projects
 
 Today I'm making my Numerical Calculus (CAL604) assignments publicly available. They were created as [Jupyter](https://jupyter.org) notebooks between late January and early February this year, and exported as HTML to publish them here.
 
-I worked in the three assignments with the support of Iván Sánchez, to whom I'm very grateful of course. The documents are in the following links:
+I worked in the three assignments with the support of Iván Sánchez, to whom I'm very grateful of course. The notebooks are in the following links:
 
-{% assign documents = site.documents | reverse %}
-{% for document in documents %}
-  {% if document.image contains "cal604" %}
-  - [{{ document.name }}]({{ document.url | relative_url }}) -- *{{ document.date | date_to_string }}*
+{% assign mathematics = site.mathematics | reverse %}
+{% for notebook in mathematics %}
+  {% if notebook.image contains "cal604" %}
+  - [{{ notebook.name }}]({{ notebook.url | relative_url }}) -- *{{ notebook.date | date_to_string }}*
 
-    {{ document.summary }}
+    {{ notebook.summary }}
   {% endif %}
 {% endfor %}
 

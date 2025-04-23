@@ -4,7 +4,7 @@
   name: Websites
 - id: desktop
   name: Desktop software
-- id: documents
-  name: Documents
+- id: mathematics
+  name: Mathematics
 - id: misc_projects
   name: Miscellaneous

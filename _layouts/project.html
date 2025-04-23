@@ -8,7 +8,7 @@ layout: default
   {%- include img-local.html class="w-full mb-2" src=page.display_image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:40rem, 48rem:48rem, 64rem:64rem" default_size="1080" -%}
 {%- endif -%}
 
-{%- if page.date and page.collection == "documents" -%}
+{%- if page.date and page.collection == "mathematics" -%}
   <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Date: {{ page.date | date_to_string }}</p>
 {%- endif -%}
 {%- if page.last_update -%}

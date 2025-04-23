@@ -4,6 +4,7 @@ title: 8A Training
 description: Simple web-app for logging training sessions.
 name: 8A Training
 last_update: 2022-08-26
+highlight: true
 summary: >
   Simple web-app for logging training sessions. Made as an assignment for the
   UMC's Web Programming course.

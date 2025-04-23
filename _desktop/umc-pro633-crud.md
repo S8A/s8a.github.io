@@ -4,6 +4,7 @@ title: UMC Campus CRUD
 description: Tool for managing a database of UMC students and their grades.
 name: UMC Campus CRUD
 last_update: 2020-04-03
+highlight: true
 summary: >
   Tool for managing a database of UMC students and their grades. Made as an
   assignment for the UMC's Programming III course.

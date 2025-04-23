@@ -2,6 +2,7 @@
   company: Telecomunicaciones G-Network, C.A.
   company_url: https://www.gnetworkve.com/
   period_start: March 2025
+  highlight: true
   skills_keywords:
     - Python
     - Django
@@ -12,6 +13,11 @@
     I am currently working on the containerization of the company's existing
     backend services, before we move on to developing the new version of the
     company's web application.
+  key_points:
+    - Working on the containerization of the company's existing backend
+      services.
+    - Preparing for the development of the next generation of the company's
+      backend.
 - title: Co-founder and computer technician
   company: Daykron Tech, C.A.
   period_start: January 2024
@@ -24,11 +30,17 @@
     I founded the company Daykron Tech with my father to provide technical
     service for computer systems, as well as retail sales of computers,
     routers, security cameras, and more.
+  key_points:
+    - Co-founded the company with my father for selling IT products and
+      providing technical support services.
+    - Set up 14 replacement computers for the UMC's Navigation Simulator,
+      enabling the resumption of proper practical training for Maritime
+      Engineering students.
   sections:
     - title: Renovation of the Navigation Simulator of the UMC
       items:
         - I carried out the installation and configuration of the Navigation
-          Simulator program (Eca Sindel) on 13 new computers acquired by the dean,
+          Simulator program (Eca Sindel) on 14 new computers acquired by the dean,
           thus allowing its reactivation for the radar and navigation courses of
           Maritime Engineering students.
 - title: Full-stack developer
@@ -36,6 +48,7 @@
   company_url: https://www.bitmotto.com/
   period_start: November 2022
   period_end: March 2025
+  highlight: true
   skills_keywords:
     - Python
     - Django
@@ -51,6 +64,14 @@
     and I've often been responsible for designing and implementing integrations
     between different systems. Previously, I worked on the development of
     Bitmotto's white-label crypto exchange and remittance platforms.
+  key_points:
+    - Built single-page style web applications using Django and Vue.js for
+      various business customers.
+    - Developed apps and customizations for Odoo (business software platform)
+      requested by business customers.
+    - Implemented integrations between different systems, including our web
+      applications, Odoo modules, and APIs for external services like Stripe,
+      Megasoft Payment Gateway, and Yummy Rides.
   sections:
     - title: Yummy Rides integration for Odoo
       items:
@@ -130,6 +151,9 @@
     Heroku. The web application consisted of a product list, a list of customers
     with outstanding debts to pay, and forms for uploading the data, which is
     exported from the business's accounting software at the end of each day.
+  key_points:
+    - Developed and deployed a simple web application for a convenience store
+      to allow them to publish their product list.
 - title: Junior full-stack developer
   company: Cryptobuyer
   company_url: https://cryptobuyer.io/
@@ -144,6 +168,9 @@
     I worked on the implementation of part of the database models, backend API
     code, and frontend UI for the crypto exchange platform's pro version,
     Cryptobuyer Pro.
+  key_points:
+    - Worked on the development of the pro version of the company's crypto
+      exchange platform.
 - title: Freelance job
   company: TelComSis
   company_url: http://www.telcomsis.com.ve/
@@ -160,6 +187,10 @@
     that communicates with the devices through MQTT messages to record and
     sync their data automatically, along with a Django web application to
     manage the records of persons, accesses granted and denied, snapshots, etc.
+  key_points:
+    - Developed a management system for facial recognition doorway devices
+      consisting of a program that automatically communicates with them through
+      MQTT and a Django web application for managing their records.
 - title: Technical support
   company: Universidad Marítima del Caribe (UMC)
   company_url: http://www.umc.edu.ve/
@@ -175,3 +206,6 @@
     of solving computer malfunctions, creating backups, keeping
     track of the computer labs' inventory, and keeping the labs' computers'
     software up to date.
+  key_points:
+    - Performed maintenance tasks and troubleshooting for the university's
+      computer labs and Navigation Simulator.

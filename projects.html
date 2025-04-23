@@ -5,20 +5,16 @@ description: My personal software and academic projects.
 main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 ---
 
-{%- assign sections = "open_source:Open source,websites:Websites,desktop:Desktop software,documents:Documents,misc_projects:Miscellaneous" | split: "," -%}
-
 <div class="pb-6">
   <h1 class="text-center text-4xl font-bold mb-2">{{ page.title }}</h1>
   <nav class="flex flex-col items-center justify-center gap-x-4 gap-y-1 md:flex-row print:hidden">
     <p>Jump to section:</p>
     <ul class="flex flex-wrap items-center justify-center md:justify-start gap-x-4 gap-y-1">
-      {%- for section_def in sections -%}
-        {%- assign section_parts = section_def | split: ":" -%}
-        {%- assign section_id = section_parts[0] | replace: "_", "-" -%}
-        {%- assign section_title = section_parts[1] -%}
+      {%- for collection in site.data.project_collections -%}
+        {%- assign section_id = collection.id | replace: "_", "-" -%}
         <li>
           <a href="#{{ section_id }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
-            {{ section_title }}
+            {{ collection.name }}
           </a>
         </li>
       {%- endfor -%}
@@ -26,14 +22,11 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   </nav>
 </div>
 
-{%- for section_def in sections -%}
-  {%- assign section_parts = section_def | split: ":" -%}
-  {%- assign collection = section_parts[0] -%}
-  {%- assign section_id = collection | replace: "_", "-" -%}
-  {%- assign section_title = section_parts[1] -%}
-  {%- assign projects = site[collection] | reverse -%}
+{%- for collection in site.data.project_collections -%}
+  {%- assign section_id = collection.id | replace: "_", "-" -%}
+  {%- assign projects = site[collection.id] | reverse -%}
   <section id="{{ section_id }}" class="{% if forloop.last %}pt-6{% else %}py-6{% endif %} print:break-inside-avoid">
-    <h2 class="text-2xl font-bold mb-2">{{ section_title }}</h2>
+    <h2 class="text-2xl font-bold mb-2">{{ collection.name }}</h2>
     <div class="flex flex-col gap-4">
       {%- for project in projects -%}
       <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -50,7 +43,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
               </a>
             </h3>
             <p class="text-sm text-gray-600 dark:text-gray-400">
-              {%- if collection == "documents" -%}
+              {%- if collection.id == "mathematics" -%}
                 {{ project.date | date_to_string }}
               {%- else -%}
                 Last update: {{ project.last_update | date: "%b %Y" }}

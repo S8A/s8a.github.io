@@ -1,24 +1,106 @@
 ---
 layout: default
 title: Home
+main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 ---
 
-<div class="flex flex-col sm:flex-row justify-center gap-4">
-  <div class="flex flex-col gap-2 w-full sm:w-5/12 mb-4 lg:mb-0 text-center">
-    {%- include img-local.html class="w-full aspect-square mb-3 print:w-1/2 print:mx-auto" src="/assets/img/s8a-20231207.webp" widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1088, 1152, 1216, 1280, 1344, 1408, 1472, 1536, 1600, 1664, 1728" sizes="100vw, 40rem:40rem, 48rem:20rem, 64rem:27rem" default_width="640" -%}
-    <div class="grid grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 gap-2 print:hidden">
+<section class="flex flex-col sm:flex-row justify-center lg:items-center gap-x-8 gap-y-4 pb-6 print:break-inside-avoid">
+  <div class="flex flex-col gap-2 w-full sm:w-4/12 mb-4 lg:mb-0 text-center">
+    {%- include img-local.html class="w-full aspect-square rounded-2xl mb-3 print:w-1/2 print:mx-auto" src="/assets/img/s8a-20231207.webp" widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1088, 1152, 1216, 1280, 1344, 1408, 1472, 1536, 1600, 1664, 1728" sizes="100vw, 40rem:40rem, 48rem:16rem, 64rem:22rem" default_width="640" -%}
+  </div>
+  <div class="w-full sm:w-8/12 prose dark:prose-invert prose-h1:mb-1 prose-lead:text-gray-800 dark:prose-lead:text-gray-200 max-w-none">
+    <h1>Samuel Ochoa</h1>
+    <p class="lead">
+      Information systems engineer and software developer from Venezuela. Primarily working on backend web development using Python frameworks like Django and FastAPI.
+    </p>
+    <div class="flex items-center gap-2">
       {%- for contact in site.data.contact -%}
       <a
         href="{{ contact.url }}"
-        class="px-2 py-1 rounded-md block border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white dark:border-blue-500 dark:text-blue-500 dark:hover:bg-blue-500 dark:hover:text-white transition-colors"
+        class="px-3 py-2 text-2xl rounded-lg block text-blue-600 hover:bg-gray-100 hover:text-black dark:text-blue-400 dark:hover:bg-gray-800 dark:hover:text-white transition-colors"
+        title="{{ contact.name }}"
       >
-        <i class="{{ contact.icon }}"></i> {{ contact.name }}
+        <i class="{{ contact.icon }}"></i> <span class="sr-only">{{ contact.name }}</span>
       </a>
       {%- endfor -%}
     </div>
   </div>
-  <div class="w-full sm:w-7/12 prose dark:prose-invert prose-a:text-blue-600 prose-a:hover:text-blue-500 dark:prose-a:text-blue-500 dark:prose-a:hover:text-blue-400 prose-a:transition-colors prose-h1:mb-3 max-w-none">
-    <h1>Samuel Ochoa</h1>
-    {{ site.data.about.introduction | markdownify }}
+</section>
+
+<section class="py-6 print:break-inside-avoid">
+  <h2 class="text-2xl font-bold mb-2">Work experience</h2>
+  <div class="flex flex-col gap-4 mb-2">
+    {%- assign work_experience = site.data.work_experience | where: "highlight", true | slice: 0, 3 -%}
+    {%- for job in work_experience -%}
+      <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500">
+        <h3 class="text-xl font-medium">
+          {{ job.title }} &ndash; {% if job.company_url %}<a href="{{- job.company_url -}}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">{{- job.company -}}</a>{% else %}{{- job.company -}}{% endif %}
+        </h3>
+        <p class="text-sm text-gray-600 dark:text-gray-400">
+          {%- assign period_start = job.period_start | date: "%B %Y" -%}
+          {%- capture period_end -%}
+            {%- if job.period_end -%}
+              {{ job.period_end | date: "%B %Y" }}
+            {%- else -%}
+              present
+            {%- endif -%}
+          {%- endcapture -%}
+          {{- period_start | append: "-" | append: period_end | split: "-" | uniq | join: " &ndash; " -}}
+        </p>
+        {%- if job.key_points.size > 1 -%}
+          <ul class="ml-4 mb-0 list-disc list-outside">
+            {%- for item in job.key_points -%}
+              <li>{{- item -}}</li>
+            {%- endfor -%}
+          </ul>
+        {%- else -%}
+          <p>{{- job.key_points[0] -}}</p>
+        {%- endif -%}
+      </div>
+    {%- endfor -%}
   </div>
-</div>
+  <p class="text-sm text-gray-600 dark:text-gray-400">
+    <a href="/about/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
+      See full work experience
+    </a>
+  </p>
+</section>
+
+<section class="pt-6 print:break-inside-avoid">
+  <h2 class="text-2xl font-bold mb-2">Projects</h2>
+  {%- assign project_collections = site.data.project_collections | map: "id" -%}
+  {%- assign highlighted_projects = site.documents | where_exp: "item", "project_collections contains item.collection and item.highlight" | sort_by: "last_update" | reverse -%}
+  <div class="flex flex-col gap-4 mb-2">
+    {%- for project in highlighted_projects -%}
+    <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
+      {%- if project.display_image -%}
+        <div class="col-span-1 flex items-center">
+          {%- include img-local.html class="w-full" src=project.display_image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:14rem, 48rem:16rem, 64rem:22rem" default_width="640" -%}
+        </div>
+      {%- endif -%}
+      <div class="col-span-1 {% if project.display_image %}sm:col-span-2{% else %}sm:col-span-3{% endif -%}">
+        <div class="mb-2">
+          <h3 class="text-xl font-medium">
+            <a href="{{ project.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
+              {{ project.name }}
+            </a>
+          </h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">
+            {%- if collection.id == "mathematics" -%}
+              {{ project.date | date_to_string }}
+            {%- else -%}
+              Last update: {{ project.last_update | date: "%b %Y" }}
+            {%- endif -%}
+          </p>
+          <p>{{ project.summary }}</p>
+        </div>
+      </div>
+    </div>
+    {%- endfor -%}
+  </div>
+  <p class="text-sm text-gray-600 dark:text-gray-400">
+    <a href="/projects/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
+      See all projects
+    </a>
+  </p>
+</section>

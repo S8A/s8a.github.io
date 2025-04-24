@@ -4,11 +4,11 @@ title: Home
 main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 ---
 
-<section class="flex flex-col sm:flex-row justify-center lg:items-center gap-x-8 gap-y-4 pb-6 print:break-inside-avoid">
-  <div class="flex flex-col gap-2 w-full sm:w-4/12 mb-4 lg:mb-0 text-center">
-    {%- include img-local.html class="w-full aspect-square rounded-2xl mb-3 print:w-1/2 print:mx-auto" src="/assets/img/s8a-20231207.webp" widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1088, 1152, 1216, 1280, 1344, 1408, 1472, 1536, 1600, 1664, 1728" sizes="100vw, 40rem:40rem, 48rem:16rem, 64rem:22rem" default_width="640" -%}
+<section class="flex flex-col sm:flex-row justify-center gap-8 pb-6 print:break-inside-avoid">
+  <div class="shrink-0 flex flex-col gap-2 w-full sm:w-auto text-center">
+    {%- include img-local.html class="size-32 rounded-2xl" src="/assets/img/s8a-20231207.webp" widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1088, 1152, 1216, 1280, 1344, 1408, 1472, 1536, 1600, 1664, 1728" sizes="16rem" default_width="256" -%}
   </div>
-  <div class="w-full sm:w-8/12 prose dark:prose-invert prose-h1:mb-1 prose-lead:text-gray-800 dark:prose-lead:text-gray-200 max-w-none">
+  <div class="w-full sm:w-auto prose dark:prose-invert prose-h1:mb-1 prose-lead:text-gray-800 dark:prose-lead:text-gray-200 max-w-none">
     <h1>Samuel Ochoa</h1>
     <p class="lead">
       Information systems engineer and software developer from Venezuela. Primarily working on backend web development using Python frameworks like Django and FastAPI.
@@ -17,10 +17,11 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
       {%- for contact in site.data.contact -%}
       <a
         href="{{ contact.url }}"
-        class="px-3 py-2 text-2xl rounded-lg block text-blue-600 hover:bg-gray-100 hover:text-black dark:text-blue-400 dark:hover:bg-gray-800 dark:hover:text-white transition-colors"
+        class="no-underline flex items-center justify-center w-12 h-12 text-2xl rounded-lg text-blue-600 hover:bg-gray-100 hover:text-black dark:text-blue-400 dark:hover:bg-gray-800 dark:hover:text-white transition-colors"
         title="{{ contact.name }}"
       >
-        <i class="{{ contact.icon }}"></i> <span class="sr-only">{{ contact.name }}</span>
+        <i class="{{ contact.icon }}"></i>
+        <span class="sr-only">{{ contact.name }}</span>
       </a>
       {%- endfor -%}
     </div>
@@ -60,7 +61,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
     {%- endfor -%}
   </div>
   <p class="text-sm text-gray-600 dark:text-gray-400">
-    <a href="/about/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
+    <a href="/about/" class="inline-block px-4 py-2 rounded-md bg-blue-600 hover:bg-blue-500 text-white dark:bg-blue-500 dark:hover:bg-blue-400 transition-colors">
       See full work experience
     </a>
   </p>
@@ -99,7 +100,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
     {%- endfor -%}
   </div>
   <p class="text-sm text-gray-600 dark:text-gray-400">
-    <a href="/projects/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
+    <a href="/projects/" class="inline-block px-4 py-2 rounded-md bg-blue-600 hover:bg-blue-500 text-white dark:bg-blue-500 dark:hover:bg-blue-400 transition-colors">
       See all projects
     </a>
   </p>

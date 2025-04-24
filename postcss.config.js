@@ -10,6 +10,12 @@ export default {
                 basePath: path.resolve("node_modules/bootstrap-icons/font"),
                 assetsPath: "..",
             },
+            {
+                filter: /lucide\.(woff.?|ttf|svg|eot)$/,
+                url: "copy",
+                basePath: path.resolve("node_modules/lucide-static/font"),
+                assetsPath: ".",
+            },
         ],
     },
 };

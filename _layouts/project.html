@@ -2,23 +2,23 @@
 layout: default
 ---
 
-<h1 class="text-center text-4xl font-bold mb-2">{{ page.name }}</h1>
+<h1 class="text-center text-4xl font-bold mb-4">{{ page.name }}</h1>
 
 {%- if page.display_image -%}
-  {%- include img-local.html class="w-full mb-2" src=page.display_image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:40rem, 48rem:48rem, 64rem:64rem" default_size="1080" -%}
+  {%- include img-local.html class="w-full mb-4" src=page.display_image widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1080" sizes="100vw, 40rem:40rem, 48rem:48rem, 64rem:64rem" default_size="1080" -%}
 {%- endif -%}
 
 {%- if page.date and page.collection == "mathematics" -%}
-  <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Date: {{ page.date | date_to_string }}</p>
+  <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">Date: {{ page.date | date_to_string }}</p>
 {%- endif -%}
 {%- if page.last_update -%}
-  <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Last update: {{ page.last_update | date_to_string }}</p>
+  <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">Last update: {{ page.last_update | date_to_string }}</p>
 {%- endif -%}
 
-<p class="mb-2">{{ page.summary }}</p>
+<p class="mb-4">{{ page.summary }}</p>
 
 {%- if page.features -%}
-  <ul class="ml-4 mb-2 list-disc list-outside">
+  <ul class="ml-4 mb-4 list-disc list-outside">
     {%- for feature in page.features -%}
       <li>{{ feature }}</li>
     {%- endfor -%}
@@ -35,7 +35,7 @@ layout: default
           text-white bg-gray-600 hover:bg-gray-500 dark:bg-gray-500 dark:hover:bg-gray-400
         {%- endif -%}
       {%- endcapture -%}
-      <a href="{{ button.url }}" class="px-2 py-1 rounded-md inline-block {{ button_class_colors }} transition-colors"><i class="{{ button.icon }}"></i> {{ button.text }}</a>
+      <a href="{{ button.url }}" class="px-4 py-2 rounded-md inline-block {{ button_class_colors }} transition-colors"><i class="{{ button.icon }}" aria-hidden="true"></i> {{ button.text }}</a>
     {%- endfor -%}
   </div>
 {%- endif -%}

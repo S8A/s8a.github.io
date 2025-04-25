@@ -28,7 +28,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
     {%- include img-local.html class="size-32 rounded-2xl" src="/assets/img/s8a-20231207.webp" widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1088, 1152, 1216, 1280, 1344, 1408, 1472, 1536, 1600, 1664, 1728" sizes="16rem" default_width="256" -%}
   </div>
   <div class="w-full sm:auto">
-    <h1 class="text-4xl font-bold mb-2">Samuel Ochoa</h1>
+    <h1 class="text-4xl font-bold mb-4">Samuel Ochoa</h1>
     <ul class="ml-8 mb-0 list-disc list-outside">
       {%- for contact in site.data.contact -%}
         <li><b>{{ contact.name }}:</b> <a href="{{ contact.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">{{ contact.value }}</a></li>
@@ -47,7 +47,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 </section>
 
 <section class="py-6 print:break-inside-avoid">
-  <h2 class="text-2xl font-bold mb-2">Skills</h2>
+  <h2 class="text-2xl font-bold mb-4">Skills</h2>
   <ul class="ml-8 mb-0 list-disc list-outside">
     {%- for skill in site.data.about.skills -%}
       <li>{{ skill }}</li>
@@ -56,7 +56,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 </section>
 
 <section class="py-6 print:break-inside-avoid">
-  <h2 class="text-2xl font-bold mb-2">Work experience</h2>
+  <h2 class="text-2xl font-bold mb-4">Work experience</h2>
   <div class="flex flex-col gap-4">
     {%- for job in site.data.work_experience -%}
       <div x-data="{ expanded: false }" class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500">
@@ -89,7 +89,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 </section>
 
 <section class="py-6 print:break-inside-avoid">
-  <h2 class="text-2xl font-bold mb-2">Education</h2>
+  <h2 class="text-2xl font-bold mb-4">Education</h2>
   <div class="flex flex-col gap-4">
     {%- for education in site.data.about.education -%}
       <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500">
@@ -107,7 +107,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 </section>
 
 <section class="py-6 print:break-inside-avoid">
-  <h2 class="text-2xl font-bold mb-2">Certifications</h2>
+  <h2 class="text-2xl font-bold mb-4">Certifications</h2>
   <ul class="ml-8 mb-0 list-disc list-outside">
     {%- for certification in site.data.about.certifications -%}
       <li>
@@ -118,7 +118,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 </section>
 
 <section class="pt-6 print:break-inside-avoid">
-  <h2 class="text-2xl font-bold mb-2">Other interests</h2>
+  <h2 class="text-2xl font-bold mb-4">Other interests</h2>
   <ul class="ml-8 mb-0 list-disc list-outside">
     {%- for interest in site.data.about.other_interests -%}
       <li>{{ interest }}</li>

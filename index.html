@@ -82,9 +82,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
       <div class="col-span-1 {% if project.display_image %}sm:col-span-2{% else %}sm:col-span-3{% endif -%}">
         <div class="mb-2">
           <h3 class="text-xl font-medium">
-            <a href="{{ project.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
-              {{ project.name }}
-            </a>
+            {{ project.name }}
           </h3>
           <p class="text-sm text-gray-600 dark:text-gray-400">
             {%- if collection.id == "mathematics" -%}
@@ -94,6 +92,11 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
             {%- endif -%}
           </p>
           <p>{{ project.summary }}</p>
+        </div>
+        <div>
+          <a href="{{ project.url }}" class="inline-block px-3 py-1 rounded-md border text-blue-600 border-blue-600 hover:text-white hover:bg-blue-600 dark:text-blue-500 dark:border-blue-500 dark:hover:text-white dark:hover:bg-blue-500 transition-colors">
+            View details
+          </a>
         </div>
       </div>
     </div>

@@ -16,10 +16,10 @@ display_image: /assets/img/javacipher-screenshot.webp
 buttons:
   - text: Download
     url: https://github.com/S8A/javacipher/releases/download/v1.0/javacipher-1.0.jar
-    icon: bi bi-download
+    icon: icon-download
     color: blue
   - text: GitHub repository
     url: https://github.com/S8A/javacipher
-    icon: bi bi-github
+    icon: icon-github
     color: gray
 ---

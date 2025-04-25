@@ -14,6 +14,6 @@ display_image: /assets/img/solow-swan-growth-model.webp
 buttons:
   - text: Read document
     url: https://www.geogebra.org/m/zrcqd8hq
-    icon: bi bi-globe
+    icon: icon-globe
     color: blue
 ---

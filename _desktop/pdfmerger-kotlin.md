@@ -16,10 +16,10 @@ display_image: /assets/img/pdfmerger-kotlin-screenshot.webp
 buttons:
   - text: Download
     url: https://github.com/S8A/pdfmerger-kotlin/releases/download/v1.0/pdfmerger-kotlin-1.0.jar
-    icon: bi bi-download
+    icon: icon-download
     color: blue
   - text: GitHub repository
     url: https://github.com/S8A/pdfmerger-kotlin
-    icon: bi bi-github
+    icon: icon-github
     color: gray
 ---

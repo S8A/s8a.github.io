@@ -8,6 +8,6 @@ summary: Local network chat. Made in Java. Source code lost.
 buttons:
   - text: Download
     url: assets/downloads/jnetchat.old.jar
-    icon: bi bi-download
+    icon: icon-download
     color: blue
 ---

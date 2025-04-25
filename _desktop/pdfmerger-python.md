@@ -16,6 +16,6 @@ display_image: /assets/img/pdfmerger-python-screenshot.webp
 buttons:
   - text: GitHub repository
     url: https://github.com/S8A/pdfmerger-python
-    icon: bi bi-github
+    icon: icon-github
     color: gray
 ---

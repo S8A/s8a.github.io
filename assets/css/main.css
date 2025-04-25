@@ -6,6 +6,5 @@
 @plugin "@tailwindcss/typography";
 
 @import "lucide-static/font/lucide.css";
-@import "bootstrap-icons";
 
 @import "./pygments-monokai-tailwind.css";

@@ -36,21 +36,21 @@
 
       <div class="flex items-center gap-4">
         <button
-          class="rounded-md px-2 py-1 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors cursor-pointer"
-          x-bind:aria-label="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"
+          class="flex items-center justify-center size-8 text-lg rounded-md text-gray-300 hover:bg-gray-800 hover:text-white transition-colors cursor-pointer"
           x-bind:title="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"
           x-on:click="$store.darkMode.toggle()"
         >
-          <i class="bi text-lg" x-bind:class="$store.darkMode.on ? 'bi-moon-stars-fill' : 'bi-sun-fill'"></i>
+          <i x-bind:class="$store.darkMode.on ? 'icon-moon-star' : 'icon-sun'" aria-hidden="true"></i>
+          <span class="sr-only" x-text="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"></span>
         </button>
         <button
-          class="block md:hidden rounded-md px-2 py-1 transition-colors cursor-pointer"
+          class="flex items-center justify-center size-8 text-lg rounded-md transition-colors cursor-pointer md:hidden"
           x-bind:class="open ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-800 hover:text-white'"
           x-on:click="open = !open"
-          aria-label="Toggle menu"
           title="Toggle menu"
         >
-          <i class="bi bi-list text-lg"></i>
+          <i class="icon-menu" aria-hidden="true"></i>
+          <span class="sr-only">Toggle menu</span>
         </button>
       </div>
     </div>

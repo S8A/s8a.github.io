@@ -8,7 +8,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   <div class="shrink-0 flex flex-col gap-2 w-full sm:w-auto text-center">
     {%- include img-local.html class="size-32 rounded-2xl" src="/assets/img/s8a-20231207.webp" widths="192, 256, 320, 384, 448, 512, 576, 640, 704, 768, 832, 896, 960, 1024, 1088, 1152, 1216, 1280, 1344, 1408, 1472, 1536, 1600, 1664, 1728" sizes="16rem" default_width="256" -%}
   </div>
-  <div class="w-full sm:w-auto prose dark:prose-invert prose-h1:mb-1 prose-lead:text-gray-800 dark:prose-lead:text-gray-200 max-w-none">
+  <div class="w-full sm:w-auto prose dark:prose-invert prose-h1:mb-6 prose-lead:text-gray-800 dark:prose-lead:text-gray-200 max-w-none">
     <h1>Samuel Ochoa</h1>
     <p class="lead">
       Information systems engineer and software developer from Venezuela. Primarily working on backend web development using Python frameworks like Django and FastAPI.
@@ -29,8 +29,8 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 </section>
 
 <section class="py-6 print:break-inside-avoid">
-  <h2 class="text-2xl font-bold mb-2">Work experience</h2>
-  <div class="flex flex-col gap-4 mb-2">
+  <h2 class="text-2xl font-bold mb-6">Work experience</h2>
+  <div class="flex flex-col gap-4 mb-6">
     {%- assign work_experience = site.data.work_experience | where: "highlight", true | slice: 0, 3 -%}
     {%- for job in work_experience -%}
       <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500">
@@ -68,10 +68,10 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 </section>
 
 <section class="pt-6 print:break-inside-avoid">
-  <h2 class="text-2xl font-bold mb-2">Projects</h2>
+  <h2 class="text-2xl font-bold mb-6">Projects</h2>
   {%- assign project_collections = site.data.project_collections | map: "id" -%}
   {%- assign highlighted_projects = site.documents | where_exp: "item", "project_collections contains item.collection and item.highlight" | sort_by: "last_update" | reverse -%}
-  <div class="flex flex-col gap-4 mb-2">
+  <div class="flex flex-col gap-4 mb-6">
     {%- for project in highlighted_projects -%}
     <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4">
       {%- if project.display_image -%}

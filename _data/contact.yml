@@ -1,16 +1,16 @@
 - name: Email
   value: samuelochoap@gmail.com
-  icon: bi bi-envelope-at-fill
+  icon: icon-mail
   url: mailto:samuelochoap@gmail.com
 - name: Telegram
   value: "@samuelochoap"
-  icon: bi bi-telegram
+  icon: icon-send
   url: https://t.me/samuelochoap
 - name: LinkedIn
   value: samuelochoap
-  icon: bi bi-linkedin
+  icon: icon-linkedin
   url: https://linkedin.com/in/samuelochoap
 - name: GitHub
   value: S8A
-  icon: bi bi-github
+  icon: icon-github
   url: https://github.com/S8A

@@ -23,6 +23,6 @@ display_image: /assets/img/mock-yummy-rides-api-screenshot.webp
 buttons:
   - text: GitHub repository
     url: https://github.com/S8A/mock-yummy-rides-api
-    icon: bi bi-github
+    icon: icon-github
     color: gray
 ---

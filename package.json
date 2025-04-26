@@ -1,13 +1,13 @@
 {
   "type": "module",
   "dependencies": {
-    "@tailwindcss/postcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.1.4",
     "@tailwindcss/typography": "^0.5.16",
     "alpinejs": "^3.14.8",
-    "bootstrap-icons": "^1.11.3",
     "cssnano": "^7.0.6",
     "cssnano-preset-lite": "^4.0.3",
     "esbuild": "^0.25.0",
+    "lucide-static": "^0.503.0",
     "postcss": "^8.5.1",
     "postcss-cli": "^11.0.0",
     "postcss-url": "^10.1.3",

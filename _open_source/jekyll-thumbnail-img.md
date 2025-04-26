@@ -22,10 +22,10 @@ display_image: /assets/img/jekyll-thumbnail-img-pr-7-screenshot.webp
 buttons:
   - text: "Pull request #7"
     url: https://github.com/abpaudel/jekyll-thumbnail-img/pull/7
-    icon: bi bi-git
+    icon: icon-git-pull-request
     color: blue
   - text: GitHub repository
     url: https://github.com/abpaudel/jekyll-thumbnail-img
-    icon: bi bi-github
+    icon: icon-github
     color: gray
 ---

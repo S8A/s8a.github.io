@@ -22,10 +22,10 @@ display_image: /assets/img/jekyll-postcss-v2-pr-7-screenshot.webp
 buttons:
   - text: "Pull request #7"
     url: https://github.com/bglw/jekyll-postcss-v2/pull/7
-    icon: bi bi-git
+    icon: icon-git-pull-request-arrow
     color: blue
   - text: GitHub repository
     url: https://github.com/bglw/jekyll-postcss-v2
-    icon: bi bi-github
+    icon: icon-github
     color: gray
 ---

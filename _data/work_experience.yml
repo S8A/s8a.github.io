@@ -18,6 +18,8 @@
       services.
     - Preparing for the development of the next generation of the company's
       backend.
+    - Successfully tested migrating the backend's main database from MySQL to
+      PostgreSQL.
 - title: Co-founder and computer technician
   company: Daykron Tech, C.A.
   period_start: January 2024
@@ -69,9 +71,8 @@
       various business customers.
     - Developed apps and customizations for Odoo (business software platform)
       requested by business customers.
-    - Implemented integrations between different systems, including our web
-      applications, Odoo modules, and APIs for external services like Stripe,
-      Megasoft Payment Gateway, and Yummy Rides.
+    - Implemented integrations between our systems and with third-party
+      services through APIs.
   sections:
     - title: Yummy Rides integration for Odoo
       items:

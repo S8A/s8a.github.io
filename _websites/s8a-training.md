@@ -19,10 +19,10 @@ display_image: /assets/img/s8a-training-v4.1.0.webp
 buttons:
   - text: Go to web-app
     url: https://s8a-training.web.app
-    icon: bi bi-globe
+    icon: icon-globe
     color: blue
   - text: GitHub repository
     url: https://github.com/S8A/umc-prw703-proyecto
-    icon: bi bi-github
+    icon: icon-github
     color: gray
 ---

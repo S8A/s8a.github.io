@@ -22,6 +22,6 @@ display_image: /assets/img/umc-pro633-crud-both-demo.webp
 buttons:
   - text: GitHub repository
     url: https://github.com/S8A/umc-pro633-crud
-    icon: bi bi-github
+    icon: icon-github
     color: gray
 ---

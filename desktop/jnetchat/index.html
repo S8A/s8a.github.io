@@ -21,12 +21,12 @@
 <meta property="og:site_name" content="Samuel Ochoa" />
 <meta property="og:image" content="https://s8a.github.io/assets/img/s8a-thumbnail.webp" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-04-23T10:10:08-04:00" />
+<meta property="article:published_time" content="2025-04-25T21:42:04-04:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://s8a.github.io/assets/img/s8a-thumbnail.webp" />
 <meta property="twitter:title" content="JNetChat" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Samuel Ochoa","url":"https://s8a.github.io"},"dateModified":"2025-04-23T10:10:08-04:00","datePublished":"2025-04-23T10:10:08-04:00","description":"Basic local network chat app I made a long time ago.","headline":"JNetChat","image":"https://s8a.github.io/assets/img/s8a-thumbnail.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://s8a.github.io/desktop/jnetchat/"},"url":"https://s8a.github.io/desktop/jnetchat/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Samuel Ochoa","url":"https://s8a.github.io"},"dateModified":"2025-04-25T21:42:04-04:00","datePublished":"2025-04-25T21:42:04-04:00","description":"Basic local network chat app I made a long time ago.","headline":"JNetChat","image":"https://s8a.github.io/assets/img/s8a-thumbnail.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://s8a.github.io/desktop/jnetchat/"},"url":"https://s8a.github.io/desktop/jnetchat/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/thumbnails/favicon_32w.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/thumbnails/favicon_16w.png"><link rel="icon" type="image/png" sizes="48x48" href="/assets/img/thumbnails/s8a-icon_48w.png">
@@ -41,7 +41,7 @@
 
     <script src="/assets/js/bundle.js" defer></script>
   </head>
-  <body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 min-h-screen flex flex-col">
+  <body class="bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-200 min-h-screen flex flex-col">
     <div id="skip-to-main">
       <a href="#main" class="absolute -top-full left-0 z-100 transition-[top] ease-out duration-200 focus:top-0 focus:ease-in px-4 py-2 rounded-br-md text-white bg-blue-600 dark:bg-blue-500">
         Skip to main content
@@ -52,17 +52,12 @@
     <div class="flex items-center justify-between">
       <div class="flex items-center gap-8">
         <div class="shrink-0">
-          <a href="/">
-            <img
-              src="/assets/img/s8a-icon.svg"
-              alt="Samuel Ochoa"
-              width="32"
-              height="32"
-            >
+          <a href="/" class="text-2xl text-lime-400 hover:text-lime-300 transition-colors font-bold">
+            S8A
           </a>
         </div>
 
-        <div class="hidden md:block">
+        <div class="hidden sm:block">
           <ul class="flex items-baseline gap-4"><li><a
                     href="/"
                     class="rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
@@ -81,27 +76,27 @@
 
       <div class="flex items-center gap-4">
         <button
-          class="rounded-md px-2 py-1 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors cursor-pointer"
-          x-bind:aria-label="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"
+          class="flex items-center justify-center size-8 text-lg rounded-md text-gray-300 hover:bg-gray-800 hover:text-white transition-colors cursor-pointer"
           x-bind:title="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"
           x-on:click="$store.darkMode.toggle()"
         >
-          <i class="bi text-lg" x-bind:class="$store.darkMode.on ? 'bi-moon-stars-fill' : 'bi-sun-fill'"></i>
+          <i x-bind:class="$store.darkMode.on ? 'icon-moon-star' : 'icon-sun'" aria-hidden="true"></i>
+          <span class="sr-only" x-text="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"></span>
         </button>
         <button
-          class="block md:hidden rounded-md px-2 py-1 transition-colors cursor-pointer"
+          class="flex items-center justify-center size-8 text-lg rounded-md transition-colors cursor-pointer sm:hidden"
           x-bind:class="open ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-800 hover:text-white'"
           x-on:click="open = !open"
-          aria-label="Toggle menu"
           title="Toggle menu"
         >
-          <i class="bi bi-list text-lg"></i>
+          <i class="icon-menu" aria-hidden="true"></i>
+          <span class="sr-only">Toggle menu</span>
         </button>
       </div>
     </div>
 
     <div
-      class="md:hidden"
+      class="sm:hidden"
       x-show="open"
       x-transition:enter="transition ease-out duration-200"
       x-transition:enter-start="opacity-0 -translate-y-2"
@@ -128,25 +123,21 @@
 </header>
 
     <main id="main" class="flex-grow container xl:max-w-5xl mx-auto p-4  print:w-full print:max-w-none print:px-0">
-      <h1 class="text-center text-4xl font-bold mb-2">JNetChat</h1><p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Last update: 31 Oct 2016</p><p class="mb-2">Local network chat. Made in Java. Source code lost.</p><div class="flex flex-wrap gap-2"><a href="assets/downloads/jnetchat.old.jar" class="px-2 py-1 rounded-md inline-block text-white bg-blue-600 hover:bg-blue-500 dark:bg-blue-500 dark:hover:bg-blue-400 transition-colors"><i class="bi bi-download"></i> Download</a></div>
+      <h1 class="text-center text-4xl font-bold mb-4">JNetChat</h1><p class="text-sm text-gray-600 dark:text-gray-400 mb-4">Last update: 31 Oct 2016</p><p class="mb-4">Local network chat. Made in Java. Source code lost.</p><div class="flex flex-wrap gap-2"><a href="assets/downloads/jnetchat.old.jar" class="px-4 py-2 rounded-md inline-block text-white bg-blue-600 hover:bg-blue-500 dark:bg-blue-500 dark:hover:bg-blue-400 transition-colors"><i class="icon-download" aria-hidden="true"></i> Download</a></div>
     </main>
-    <footer lang="en" class="bg-white text-gray-500 dark:bg-gray-900 dark:text-gray-400 py-8 mt-auto print:hidden">
-  <div class="container xl:max-w-5xl border-t border-gray-950/5 dark:border-white/10 mx-auto p-4">
-    <div class="flex flex-col items-center justify-center gap-4">
-      <nav aria-label="Footer navigation">
-        <ul class="flex gap-6 text-sm"><li>
-              <a href="/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Home</a>
-            </li><li>
-              <a href="/about/" class="hover:text-gray-600 dark:hover:text-white transition-colors">About</a>
-            </li><li>
-              <a href="/projects/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Projects</a>
-            </li><li>
-              <a href="/blog/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Blog</a>
-            </li></ul>
-      </nav>
-      <p class="text-xs">Samuel Ochoa · 2025</p>
-    </div>
-  </div>
+    <footer lang="en" class="flex flex-col items-center justify-center gap-4 border-t border-gray-950/5 dark:border-white/10 text-gray-500 dark:text-gray-400 mt-4 py-8 print:hidden">
+  <nav aria-label="Footer navigation">
+    <ul class="flex gap-6 text-sm"><li>
+          <a href="/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Home</a>
+        </li><li>
+          <a href="/about/" class="hover:text-gray-600 dark:hover:text-white transition-colors">About</a>
+        </li><li>
+          <a href="/projects/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Projects</a>
+        </li><li>
+          <a href="/blog/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Blog</a>
+        </li></ul>
+  </nav>
+  <p class="text-xs">Samuel Ochoa · 2025</p>
 </footer>
 
   </body>

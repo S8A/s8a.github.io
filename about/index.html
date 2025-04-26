@@ -40,7 +40,7 @@
 
     <script src="/assets/js/bundle.js" defer></script>
   </head>
-  <body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 min-h-screen flex flex-col">
+  <body class="bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-200 min-h-screen flex flex-col">
     <div id="skip-to-main">
       <a href="#main" class="absolute -top-full left-0 z-100 transition-[top] ease-out duration-200 focus:top-0 focus:ease-in px-4 py-2 rounded-br-md text-white bg-blue-600 dark:bg-blue-500">
         Skip to main content
@@ -51,12 +51,12 @@
     <div class="flex items-center justify-between">
       <div class="flex items-center gap-8">
         <div class="shrink-0">
-          <a href="/">
-            <img src="/assets/img/s8a-icon.svg" alt="Samuel Ochoa" width="32" height="32">
+          <a href="/" class="text-2xl text-lime-400 hover:text-lime-300 transition-colors font-bold">
+            S8A
           </a>
         </div>
 
-        <div class="hidden md:block">
+        <div class="hidden sm:block">
           <ul class="flex items-baseline gap-4">
 <li><a href="/" class="rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors">Home</a></li>
 <li><a href="/about/" class="rounded-md px-3 py-2 bg-gray-900 text-white" aria-current="page">About</a></li>
@@ -67,16 +67,18 @@
       </div>
 
       <div class="flex items-center gap-4">
-        <button class="rounded-md px-2 py-1 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors cursor-pointer" x-bind:aria-label="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'" x-bind:title="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'" x-on:click="$store.darkMode.toggle()">
-          <i class="bi text-lg" x-bind:class="$store.darkMode.on ? 'bi-moon-stars-fill' : 'bi-sun-fill'"></i>
+        <button class="flex items-center justify-center size-8 text-lg rounded-md text-gray-300 hover:bg-gray-800 hover:text-white transition-colors cursor-pointer" x-bind:title="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'" x-on:click="$store.darkMode.toggle()">
+          <i x-bind:class="$store.darkMode.on ? 'icon-moon-star' : 'icon-sun'" aria-hidden="true"></i>
+          <span class="sr-only" x-text="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"></span>
         </button>
-        <button class="block md:hidden rounded-md px-2 py-1 transition-colors cursor-pointer" x-bind:class="open ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-800 hover:text-white'" x-on:click="open = !open" aria-label="Toggle menu" title="Toggle menu">
-          <i class="bi bi-list text-lg"></i>
+        <button class="flex items-center justify-center size-8 text-lg rounded-md transition-colors cursor-pointer sm:hidden" x-bind:class="open ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-800 hover:text-white'" x-on:click="open = !open" title="Toggle menu">
+          <i class="icon-menu" aria-hidden="true"></i>
+          <span class="sr-only">Toggle menu</span>
         </button>
       </div>
     </div>
 
-    <div class="md:hidden" x-show="open" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 -translate-y-2" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 -translate-y-2">
+    <div class="sm:hidden" x-show="open" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 -translate-y-2" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 -translate-y-2">
       <ul class="py-2 flex flex-col gap-1">
 <li><a href="/" class="block w-full rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors">Home</a></li>
 <li><a href="/about/" class="block w-full rounded-md px-3 py-2 bg-gray-900 text-white transition-colors" aria-current="page">About</a></li>
@@ -88,13 +90,13 @@
 </header>
 
     <main id="main" class="flex-grow container xl:max-w-5xl mx-auto p-4 divide-y divide-gray-950/5 dark:divide-white/10 print:w-full print:max-w-none print:px-0">
-      <section class="flex flex-col sm:flex-row-reverse gap-4 pb-6 print:break-inside-avoid">
-  <div class="w-full sm:w-3/12">
-<img class="w-full aspect-square print:w-1/4" srcset="/assets/img/thumbnails/s8a-20231207_192w.webp 192w, /assets/img/thumbnails/s8a-20231207_256w.webp 256w, /assets/img/thumbnails/s8a-20231207_320w.webp 320w, /assets/img/thumbnails/s8a-20231207_384w.webp 384w, /assets/img/thumbnails/s8a-20231207_448w.webp 448w, /assets/img/thumbnails/s8a-20231207_512w.webp 512w, /assets/img/thumbnails/s8a-20231207_576w.webp 576w, /assets/img/thumbnails/s8a-20231207_640w.webp 640w, /assets/img/thumbnails/s8a-20231207_704w.webp 704w, /assets/img/thumbnails/s8a-20231207_768w.webp 768w, /assets/img/thumbnails/s8a-20231207_832w.webp 832w, /assets/img/thumbnails/s8a-20231207_896w.webp 896w, /assets/img/thumbnails/s8a-20231207_960w.webp 960w, /assets/img/thumbnails/s8a-20231207_1024w.webp 1024w, /assets/img/thumbnails/s8a-20231207_1088w.webp 1088w, /assets/img/thumbnails/s8a-20231207_1152w.webp 1152w, /assets/img/thumbnails/s8a-20231207_1216w.webp 1216w, /assets/img/thumbnails/s8a-20231207_1280w.webp 1280w, /assets/img/thumbnails/s8a-20231207_1344w.webp 1344w, /assets/img/thumbnails/s8a-20231207_1408w.webp 1408w, /assets/img/thumbnails/s8a-20231207_1472w.webp 1472w, /assets/img/thumbnails/s8a-20231207_1536w.webp 1536w, /assets/img/thumbnails/s8a-20231207_1600w.webp 1600w, /assets/img/thumbnails/s8a-20231207_1664w.webp 1664w, /assets/img/thumbnails/s8a-20231207_1728w.webp 1728w" sizes="(min-width: 64rem) 16rem, (min-width: 48rem) 12rem, (min-width: 40rem) 40rem, 100vw" src="/assets/img/thumbnails/s8a-20231207_640w.webp" alt="" loading="eager">
+      <section class="flex flex-col sm:flex-row-reverse gap-6 pb-6 print:break-inside-avoid">
+  <div class="shrink-0 w-full sm:w-auto">
+<img class="size-32 rounded-2xl" srcset="/assets/img/thumbnails/s8a-20231207_192w.webp 192w, /assets/img/thumbnails/s8a-20231207_256w.webp 256w, /assets/img/thumbnails/s8a-20231207_320w.webp 320w, /assets/img/thumbnails/s8a-20231207_384w.webp 384w, /assets/img/thumbnails/s8a-20231207_448w.webp 448w, /assets/img/thumbnails/s8a-20231207_512w.webp 512w, /assets/img/thumbnails/s8a-20231207_576w.webp 576w, /assets/img/thumbnails/s8a-20231207_640w.webp 640w, /assets/img/thumbnails/s8a-20231207_704w.webp 704w, /assets/img/thumbnails/s8a-20231207_768w.webp 768w, /assets/img/thumbnails/s8a-20231207_832w.webp 832w, /assets/img/thumbnails/s8a-20231207_896w.webp 896w, /assets/img/thumbnails/s8a-20231207_960w.webp 960w, /assets/img/thumbnails/s8a-20231207_1024w.webp 1024w, /assets/img/thumbnails/s8a-20231207_1088w.webp 1088w, /assets/img/thumbnails/s8a-20231207_1152w.webp 1152w, /assets/img/thumbnails/s8a-20231207_1216w.webp 1216w, /assets/img/thumbnails/s8a-20231207_1280w.webp 1280w, /assets/img/thumbnails/s8a-20231207_1344w.webp 1344w, /assets/img/thumbnails/s8a-20231207_1408w.webp 1408w, /assets/img/thumbnails/s8a-20231207_1472w.webp 1472w, /assets/img/thumbnails/s8a-20231207_1536w.webp 1536w, /assets/img/thumbnails/s8a-20231207_1600w.webp 1600w, /assets/img/thumbnails/s8a-20231207_1664w.webp 1664w, /assets/img/thumbnails/s8a-20231207_1728w.webp 1728w" sizes="16rem" src="/assets/img/thumbnails/s8a-20231207_256w.webp" alt="" loading="eager">
 
 </div>
-  <div class="w-full sm:w-9/12">
-    <h1 class="text-4xl font-bold mb-2">Samuel Ochoa</h1>
+  <div class="w-full sm:auto">
+    <h1 class="text-4xl font-bold mb-4">Samuel Ochoa</h1>
     <ul class="ml-8 mb-0 list-disc list-outside">
 <li>
 <b>Email:</b> <a href="mailto:samuelochoap@gmail.com" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">samuelochoap@gmail.com</a>
@@ -121,7 +123,7 @@
 </section>
 
 <section class="py-6 print:break-inside-avoid">
-  <h2 class="text-2xl font-bold mb-2">Skills</h2>
+  <h2 class="text-2xl font-bold mb-4">Skills</h2>
   <ul class="ml-8 mb-0 list-disc list-outside">
 <li>Programming in multiple languages: Python and JavaScript primarily; some experience with Java, C++, PHP, and a few others.</li>
 <li>Backend web development using Django and FastAPI.</li>
@@ -136,7 +138,7 @@
 </section>
 
 <section class="py-6 print:break-inside-avoid">
-  <h2 class="text-2xl font-bold mb-2">Work experience</h2>
+  <h2 class="text-2xl font-bold mb-4">Work experience</h2>
   <div class="flex flex-col gap-4">
 <div x-data="{ expanded: false }" class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500">
         <h3 class="text-xl font-medium">
@@ -146,6 +148,7 @@
 <ul class="ml-4 mb-0 list-disc list-outside">
 <li>Working on the containerization of the company's existing backend services.</li>
 <li>Preparing for the development of the next generation of the company's backend.</li>
+<li>Successfully tested migrating the backend's main database from MySQL to PostgreSQL.</li>
 </ul>
 </div>
 <div x-data="{ expanded: false }" class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500">
@@ -166,7 +169,7 @@
 <ul class="ml-4 mb-0 list-disc list-outside">
 <li>Built single-page style web applications using Django and Vue.js for various business customers.</li>
 <li>Developed apps and customizations for Odoo (business software platform) requested by business customers.</li>
-<li>Implemented integrations between different systems, including our web applications, Odoo modules, and APIs for external services like Stripe, Megasoft Payment Gateway, and Yummy Rides.</li>
+<li>Implemented integrations between our systems and with third-party services through APIs.</li>
 </ul>
 </div>
 <div x-data="{ expanded: false }" class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500">
@@ -201,7 +204,7 @@
 </section>
 
 <section class="py-6 print:break-inside-avoid">
-  <h2 class="text-2xl font-bold mb-2">Education</h2>
+  <h2 class="text-2xl font-bold mb-4">Education</h2>
   <div class="flex flex-col gap-4"><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500">
         <h3 class="text-xl font-medium">
           Information Systems Engineer – Universidad Marítima del Caribe (UMC)
@@ -215,7 +218,7 @@
 </section>
 
 <section class="py-6 print:break-inside-avoid">
-  <h2 class="text-2xl font-bold mb-2">Certifications</h2>
+  <h2 class="text-2xl font-bold mb-4">Certifications</h2>
   <ul class="ml-8 mb-0 list-disc list-outside">
 <li>
         <a href="https://www.efset.org/cert/eYSfA6" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">English C2 Proficient</a> – EF SET (2020).
@@ -227,7 +230,7 @@
 </section>
 
 <section class="pt-6 print:break-inside-avoid">
-  <h2 class="text-2xl font-bold mb-2">Other interests</h2>
+  <h2 class="text-2xl font-bold mb-4">Other interests</h2>
   <ul class="ml-8 mb-0 list-disc list-outside">
 <li>Lifting weights for muscle growth.</li>
 <li>Metal and rock music.</li>
@@ -236,28 +239,24 @@
 </section>
 
     </main>
-    <footer lang="en" class="bg-white text-gray-500 dark:bg-gray-900 dark:text-gray-400 py-8 mt-auto print:hidden">
-  <div class="container xl:max-w-5xl border-t border-gray-950/5 dark:border-white/10 mx-auto p-4">
-    <div class="flex flex-col items-center justify-center gap-4">
-      <nav aria-label="Footer navigation">
-        <ul class="flex gap-6 text-sm">
+    <footer lang="en" class="flex flex-col items-center justify-center gap-4 border-t border-gray-950/5 dark:border-white/10 text-gray-500 dark:text-gray-400 mt-4 py-8 print:hidden">
+  <nav aria-label="Footer navigation">
+    <ul class="flex gap-6 text-sm">
 <li>
-              <a href="/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Home</a>
-            </li>
+          <a href="/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Home</a>
+        </li>
 <li>
-              <a href="/about/" class="hover:text-gray-600 dark:hover:text-white transition-colors">About</a>
-            </li>
+          <a href="/about/" class="hover:text-gray-600 dark:hover:text-white transition-colors">About</a>
+        </li>
 <li>
-              <a href="/projects/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Projects</a>
-            </li>
+          <a href="/projects/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Projects</a>
+        </li>
 <li>
-              <a href="/blog/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Blog</a>
-            </li>
+          <a href="/blog/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Blog</a>
+        </li>
 </ul>
-      </nav>
-      <p class="text-xs">Samuel Ochoa · 2025</p>
-    </div>
-  </div>
+  </nav>
+  <p class="text-xs">Samuel Ochoa · 2025</p>
 </footer>
 
   </body>

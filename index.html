@@ -40,7 +40,7 @@
 
     <script src="/assets/js/bundle.js" defer></script>
   </head>
-  <body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 min-h-screen flex flex-col">
+  <body class="bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-200 min-h-screen flex flex-col">
     <div id="skip-to-main">
       <a href="#main" class="absolute -top-full left-0 z-100 transition-[top] ease-out duration-200 focus:top-0 focus:ease-in px-4 py-2 rounded-br-md text-white bg-blue-600 dark:bg-blue-500">
         Skip to main content
@@ -51,17 +51,12 @@
     <div class="flex items-center justify-between">
       <div class="flex items-center gap-8">
         <div class="shrink-0">
-          <a href="/">
-            <img
-              src="/assets/img/s8a-icon.svg"
-              alt="Samuel Ochoa"
-              width="32"
-              height="32"
-            >
+          <a href="/" class="text-2xl text-lime-400 hover:text-lime-300 transition-colors font-bold">
+            S8A
           </a>
         </div>
 
-        <div class="hidden md:block">
+        <div class="hidden sm:block">
           <ul class="flex items-baseline gap-4"><li><a
                     href="/"
                     class="rounded-md px-3 py-2 bg-gray-900 text-white"
@@ -81,27 +76,27 @@
 
       <div class="flex items-center gap-4">
         <button
-          class="rounded-md px-2 py-1 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors cursor-pointer"
-          x-bind:aria-label="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"
+          class="flex items-center justify-center size-8 text-lg rounded-md text-gray-300 hover:bg-gray-800 hover:text-white transition-colors cursor-pointer"
           x-bind:title="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"
           x-on:click="$store.darkMode.toggle()"
         >
-          <i class="bi text-lg" x-bind:class="$store.darkMode.on ? 'bi-moon-stars-fill' : 'bi-sun-fill'"></i>
+          <i x-bind:class="$store.darkMode.on ? 'icon-moon-star' : 'icon-sun'" aria-hidden="true"></i>
+          <span class="sr-only" x-text="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"></span>
         </button>
         <button
-          class="block md:hidden rounded-md px-2 py-1 transition-colors cursor-pointer"
+          class="flex items-center justify-center size-8 text-lg rounded-md transition-colors cursor-pointer sm:hidden"
           x-bind:class="open ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-800 hover:text-white'"
           x-on:click="open = !open"
-          aria-label="Toggle menu"
           title="Toggle menu"
         >
-          <i class="bi bi-list text-lg"></i>
+          <i class="icon-menu" aria-hidden="true"></i>
+          <span class="sr-only">Toggle menu</span>
         </button>
       </div>
     </div>
 
     <div
-      class="md:hidden"
+      class="sm:hidden"
       x-show="open"
       x-transition:enter="transition ease-out duration-200"
       x-transition:enter-start="opacity-0 -translate-y-2"
@@ -129,70 +124,74 @@
 </header>
 
     <main id="main" class="flex-grow container xl:max-w-5xl mx-auto p-4 divide-y divide-gray-950/5 dark:divide-white/10 print:w-full print:max-w-none print:px-0">
-      <section class="flex flex-col sm:flex-row justify-center lg:items-center gap-x-8 gap-y-4 pb-6 print:break-inside-avoid">
-  <div class="flex flex-col gap-2 w-full sm:w-4/12 mb-4 lg:mb-0 text-center"><img
-  class="w-full aspect-square rounded-2xl mb-3 print:w-1/2 print:mx-auto"
+      <section class="flex flex-col sm:flex-row justify-center gap-8 pb-6 print:break-inside-avoid">
+  <div class="shrink-0 flex flex-col gap-2 w-full sm:w-auto text-center"><img
+  class="size-32 rounded-2xl"
   srcset="/assets/img/thumbnails/s8a-20231207_192w.webp 192w, /assets/img/thumbnails/s8a-20231207_256w.webp 256w, /assets/img/thumbnails/s8a-20231207_320w.webp 320w, /assets/img/thumbnails/s8a-20231207_384w.webp 384w, /assets/img/thumbnails/s8a-20231207_448w.webp 448w, /assets/img/thumbnails/s8a-20231207_512w.webp 512w, /assets/img/thumbnails/s8a-20231207_576w.webp 576w, /assets/img/thumbnails/s8a-20231207_640w.webp 640w, /assets/img/thumbnails/s8a-20231207_704w.webp 704w, /assets/img/thumbnails/s8a-20231207_768w.webp 768w, /assets/img/thumbnails/s8a-20231207_832w.webp 832w, /assets/img/thumbnails/s8a-20231207_896w.webp 896w, /assets/img/thumbnails/s8a-20231207_960w.webp 960w, /assets/img/thumbnails/s8a-20231207_1024w.webp 1024w, /assets/img/thumbnails/s8a-20231207_1088w.webp 1088w, /assets/img/thumbnails/s8a-20231207_1152w.webp 1152w, /assets/img/thumbnails/s8a-20231207_1216w.webp 1216w, /assets/img/thumbnails/s8a-20231207_1280w.webp 1280w, /assets/img/thumbnails/s8a-20231207_1344w.webp 1344w, /assets/img/thumbnails/s8a-20231207_1408w.webp 1408w, /assets/img/thumbnails/s8a-20231207_1472w.webp 1472w, /assets/img/thumbnails/s8a-20231207_1536w.webp 1536w, /assets/img/thumbnails/s8a-20231207_1600w.webp 1600w, /assets/img/thumbnails/s8a-20231207_1664w.webp 1664w, /assets/img/thumbnails/s8a-20231207_1728w.webp 1728w"
-  sizes="(min-width: 64rem) 22rem, (min-width: 48rem) 16rem, (min-width: 40rem) 40rem, 100vw"
-  src="/assets/img/thumbnails/s8a-20231207_640w.webp"
+  sizes="16rem"
+  src="/assets/img/thumbnails/s8a-20231207_256w.webp"
   alt=""
   loading="eager"
 />
 
 </div>
-  <div class="w-full sm:w-8/12 prose dark:prose-invert prose-h1:mb-1 prose-lead:text-gray-800 dark:prose-lead:text-gray-200 max-w-none">
+  <div class="w-full sm:w-auto prose dark:prose-invert prose-h1:mb-6 prose-lead:text-balance prose-lead:text-gray-800 dark:prose-lead:text-gray-200 max-w-none">
     <h1>Samuel Ochoa</h1>
     <p class="lead">
       Information systems engineer and software developer from Venezuela. Primarily working on backend web development using Python frameworks like Django and FastAPI.
     </p>
     <div class="flex items-center gap-2"><a
         href="mailto:samuelochoap@gmail.com"
-        class="px-3 py-2 text-2xl rounded-lg block text-blue-600 hover:bg-gray-100 hover:text-black dark:text-blue-400 dark:hover:bg-gray-800 dark:hover:text-white transition-colors"
+        class="no-underline flex items-center justify-center size-12 text-2xl rounded-lg text-blue-600 hover:bg-gray-100 hover:text-black dark:text-blue-400 dark:hover:bg-gray-800 dark:hover:text-white transition-colors"
         title="Email"
       >
-        <i class="bi bi-envelope-at-fill"></i> <span class="sr-only">Email</span>
+        <i class="icon-mail" aria-hidden="true"></i>
+        <span class="sr-only">Email</span>
       </a><a
         href="https://t.me/samuelochoap"
-        class="px-3 py-2 text-2xl rounded-lg block text-blue-600 hover:bg-gray-100 hover:text-black dark:text-blue-400 dark:hover:bg-gray-800 dark:hover:text-white transition-colors"
+        class="no-underline flex items-center justify-center size-12 text-2xl rounded-lg text-blue-600 hover:bg-gray-100 hover:text-black dark:text-blue-400 dark:hover:bg-gray-800 dark:hover:text-white transition-colors"
         title="Telegram"
       >
-        <i class="bi bi-telegram"></i> <span class="sr-only">Telegram</span>
+        <i class="icon-send" aria-hidden="true"></i>
+        <span class="sr-only">Telegram</span>
       </a><a
         href="https://linkedin.com/in/samuelochoap"
-        class="px-3 py-2 text-2xl rounded-lg block text-blue-600 hover:bg-gray-100 hover:text-black dark:text-blue-400 dark:hover:bg-gray-800 dark:hover:text-white transition-colors"
+        class="no-underline flex items-center justify-center size-12 text-2xl rounded-lg text-blue-600 hover:bg-gray-100 hover:text-black dark:text-blue-400 dark:hover:bg-gray-800 dark:hover:text-white transition-colors"
         title="LinkedIn"
       >
-        <i class="bi bi-linkedin"></i> <span class="sr-only">LinkedIn</span>
+        <i class="icon-linkedin" aria-hidden="true"></i>
+        <span class="sr-only">LinkedIn</span>
       </a><a
         href="https://github.com/S8A"
-        class="px-3 py-2 text-2xl rounded-lg block text-blue-600 hover:bg-gray-100 hover:text-black dark:text-blue-400 dark:hover:bg-gray-800 dark:hover:text-white transition-colors"
+        class="no-underline flex items-center justify-center size-12 text-2xl rounded-lg text-blue-600 hover:bg-gray-100 hover:text-black dark:text-blue-400 dark:hover:bg-gray-800 dark:hover:text-white transition-colors"
         title="GitHub"
       >
-        <i class="bi bi-github"></i> <span class="sr-only">GitHub</span>
+        <i class="icon-github" aria-hidden="true"></i>
+        <span class="sr-only">GitHub</span>
       </a></div>
   </div>
 </section>
 
 <section class="py-6 print:break-inside-avoid">
-  <h2 class="text-2xl font-bold mb-2">Work experience</h2>
-  <div class="flex flex-col gap-4 mb-2"><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500">
+  <h2 class="text-2xl font-bold mb-6">Work experience</h2>
+  <div class="flex flex-col gap-4 mb-6"><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500">
         <h3 class="text-xl font-medium">
           Backend developer &ndash; <a href="https://www.gnetworkve.com/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Telecomunicaciones G-Network, C.A.</a>
         </h3>
-        <p class="text-sm text-gray-600 dark:text-gray-400">March 2025 &ndash; present</p><ul class="ml-4 mb-0 list-disc list-outside"><li>Working on the containerization of the company's existing backend services.</li><li>Preparing for the development of the next generation of the company's backend.</li></ul></div><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500">
+        <p class="text-sm text-gray-600 dark:text-gray-400">March 2025 &ndash; present</p><ul class="ml-4 mb-0 list-disc list-outside"><li>Working on the containerization of the company's existing backend services.</li><li>Preparing for the development of the next generation of the company's backend.</li><li>Successfully tested migrating the backend's main database from MySQL to PostgreSQL.</li></ul></div><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500">
         <h3 class="text-xl font-medium">
           Full-stack developer &ndash; <a href="https://www.bitmotto.com/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">Bitmotto</a>
         </h3>
-        <p class="text-sm text-gray-600 dark:text-gray-400">November 2022 &ndash; March 2025</p><ul class="ml-4 mb-0 list-disc list-outside"><li>Built single-page style web applications using Django and Vue.js for various business customers.</li><li>Developed apps and customizations for Odoo (business software platform) requested by business customers.</li><li>Implemented integrations between different systems, including our web applications, Odoo modules, and APIs for external services like Stripe, Megasoft Payment Gateway, and Yummy Rides.</li></ul></div></div>
+        <p class="text-sm text-gray-600 dark:text-gray-400">November 2022 &ndash; March 2025</p><ul class="ml-4 mb-0 list-disc list-outside"><li>Built single-page style web applications using Django and Vue.js for various business customers.</li><li>Developed apps and customizations for Odoo (business software platform) requested by business customers.</li><li>Implemented integrations between our systems and with third-party services through APIs.</li></ul></div></div>
   <p class="text-sm text-gray-600 dark:text-gray-400">
-    <a href="/about/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
+    <a href="/about/" class="inline-block px-4 py-2 rounded-md bg-blue-600 hover:bg-blue-500 text-white dark:bg-blue-500 dark:hover:bg-blue-400 transition-colors">
       See full work experience
     </a>
   </p>
 </section>
 
 <section class="pt-6 print:break-inside-avoid">
-  <h2 class="text-2xl font-bold mb-2">Projects</h2><div class="flex flex-col gap-4 mb-2"><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
+  <h2 class="text-2xl font-bold mb-6">Projects</h2><div class="flex flex-col gap-4 mb-6"><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
   class="w-full"
   srcset="/assets/img/thumbnails/mock-yummy-rides-api-screenshot_192w.webp 192w, /assets/img/thumbnails/mock-yummy-rides-api-screenshot_256w.webp 256w, /assets/img/thumbnails/mock-yummy-rides-api-screenshot_320w.webp 320w, /assets/img/thumbnails/mock-yummy-rides-api-screenshot_384w.webp 384w, /assets/img/thumbnails/mock-yummy-rides-api-screenshot_448w.webp 448w, /assets/img/thumbnails/mock-yummy-rides-api-screenshot_512w.webp 512w, /assets/img/thumbnails/mock-yummy-rides-api-screenshot_576w.webp 576w, /assets/img/thumbnails/mock-yummy-rides-api-screenshot_640w.webp 640w, /assets/img/thumbnails/mock-yummy-rides-api-screenshot_704w.webp 704w, /assets/img/thumbnails/mock-yummy-rides-api-screenshot_768w.webp 768w, /assets/img/thumbnails/mock-yummy-rides-api-screenshot_832w.webp 832w, /assets/img/thumbnails/mock-yummy-rides-api-screenshot_896w.webp 896w, /assets/img/thumbnails/mock-yummy-rides-api-screenshot_960w.webp 960w, /assets/img/thumbnails/mock-yummy-rides-api-screenshot_1024w.webp 1024w, /assets/img/thumbnails/mock-yummy-rides-api-screenshot_1080w.webp 1080w"
   sizes="(min-width: 64rem) 22rem, (min-width: 48rem) 16rem, (min-width: 40rem) 14rem, 100vw"
@@ -204,13 +203,16 @@
 </div><div class="col-span-1 sm:col-span-2">
         <div class="mb-2">
           <h3 class="text-xl font-medium">
-            <a href="/misc-projects/mock-yummy-rides-api/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
-              mock-yummy-rides-api
-            </a>
+            mock-yummy-rides-api
           </h3>
           <p class="text-sm text-gray-600 dark:text-gray-400">Last update: Jan 2025</p>
           <p>Mock server for Yummy Rides' Corporate Integrations API, built with FastAPI and MongoDB. Created to test the Yummy Rides integration for Odoo that I developed for Bitmotto.
 </p>
+        </div>
+        <div>
+          <a href="/misc-projects/mock-yummy-rides-api/" class="inline-block px-3 py-1 rounded-md border text-blue-600 border-blue-600 hover:text-white hover:bg-blue-600 dark:text-blue-500 dark:border-blue-500 dark:hover:text-white dark:hover:bg-blue-500 transition-colors">
+            View details
+          </a>
         </div>
       </div>
     </div><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
@@ -225,13 +227,16 @@
 </div><div class="col-span-1 sm:col-span-2">
         <div class="mb-2">
           <h3 class="text-xl font-medium">
-            <a href="/websites/s8a-training/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
-              8A Training
-            </a>
+            8A Training
           </h3>
           <p class="text-sm text-gray-600 dark:text-gray-400">Last update: Aug 2022</p>
           <p>Simple web-app for logging training sessions. Made as an assignment for the UMC's Web Programming course.
 </p>
+        </div>
+        <div>
+          <a href="/websites/s8a-training/" class="inline-block px-3 py-1 rounded-md border text-blue-600 border-blue-600 hover:text-white hover:bg-blue-600 dark:text-blue-500 dark:border-blue-500 dark:hover:text-white dark:hover:bg-blue-500 transition-colors">
+            View details
+          </a>
         </div>
       </div>
     </div><div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="col-span-1 flex items-center"><img
@@ -246,41 +251,40 @@
 </div><div class="col-span-1 sm:col-span-2">
         <div class="mb-2">
           <h3 class="text-xl font-medium">
-            <a href="/desktop/umc-pro633-crud/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
-              UMC Campus CRUD
-            </a>
+            UMC Campus CRUD
           </h3>
           <p class="text-sm text-gray-600 dark:text-gray-400">Last update: Apr 2020</p>
           <p>Tool for managing a database of UMC students and their grades. Made as an assignment for the UMC's Programming III course.
 </p>
         </div>
+        <div>
+          <a href="/desktop/umc-pro633-crud/" class="inline-block px-3 py-1 rounded-md border text-blue-600 border-blue-600 hover:text-white hover:bg-blue-600 dark:text-blue-500 dark:border-blue-500 dark:hover:text-white dark:hover:bg-blue-500 transition-colors">
+            View details
+          </a>
+        </div>
       </div>
     </div></div>
   <p class="text-sm text-gray-600 dark:text-gray-400">
-    <a href="/projects/" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
+    <a href="/projects/" class="inline-block px-4 py-2 rounded-md bg-blue-600 hover:bg-blue-500 text-white dark:bg-blue-500 dark:hover:bg-blue-400 transition-colors">
       See all projects
     </a>
   </p>
 </section>
 
     </main>
-    <footer lang="en" class="bg-white text-gray-500 dark:bg-gray-900 dark:text-gray-400 py-8 mt-auto print:hidden">
-  <div class="container xl:max-w-5xl border-t border-gray-950/5 dark:border-white/10 mx-auto p-4">
-    <div class="flex flex-col items-center justify-center gap-4">
-      <nav aria-label="Footer navigation">
-        <ul class="flex gap-6 text-sm"><li>
-              <a href="/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Home</a>
-            </li><li>
-              <a href="/about/" class="hover:text-gray-600 dark:hover:text-white transition-colors">About</a>
-            </li><li>
-              <a href="/projects/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Projects</a>
-            </li><li>
-              <a href="/blog/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Blog</a>
-            </li></ul>
-      </nav>
-      <p class="text-xs">Samuel Ochoa · 2025</p>
-    </div>
-  </div>
+    <footer lang="en" class="flex flex-col items-center justify-center gap-4 border-t border-gray-950/5 dark:border-white/10 text-gray-500 dark:text-gray-400 mt-4 py-8 print:hidden">
+  <nav aria-label="Footer navigation">
+    <ul class="flex gap-6 text-sm"><li>
+          <a href="/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Home</a>
+        </li><li>
+          <a href="/about/" class="hover:text-gray-600 dark:hover:text-white transition-colors">About</a>
+        </li><li>
+          <a href="/projects/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Projects</a>
+        </li><li>
+          <a href="/blog/" class="hover:text-gray-600 dark:hover:text-white transition-colors">Blog</a>
+        </li></ul>
+  </nav>
+  <p class="text-xs">Samuel Ochoa · 2025</p>
 </footer>
 
   </body>

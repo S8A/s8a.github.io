@@ -5,6 +5,4 @@
 @custom-variant dark (&:where(.dark, .dark *));
 @plugin "@tailwindcss/typography";
 
-@import "lucide-static/font/lucide.css";
-
 @import "./pygments-monokai-tailwind.css";

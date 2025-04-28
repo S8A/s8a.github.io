@@ -1,0 +1,18 @@
+{%- capture icon_name -%}
+  {%- assign icon_name_parts = include.icon | split: "-" -%}
+  {%- if icon_name_parts[0] == "icon" -%}
+    {{- include.icon | remove_first: "icon-" -}}
+  {%- else -%}
+    {{- include.icon -}}
+  {%- endif -%}
+{%- endcapture -%}
+{%- assign class = include.class | default: "" -%}
+{%- assign aria_label = include.aria_label | default: "" -%}
+{%- capture aria_hidden -%}
+  {%- if aria_label == "" -%}
+    true
+  {%- else -%}
+    false
+  {%- endif -%}
+{%- endcapture -%}
+{% svg "node_modules/lucide-static/icons/{{ icon_name }}.svg" class="{{ class }}" aria-label="{{ aria_label }}" aria-hidden="{{ aria_hidden }}" %}

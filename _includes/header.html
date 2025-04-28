@@ -36,20 +36,25 @@
 
       <div class="flex items-center gap-4">
         <button
-          class="flex items-center justify-center size-8 text-lg rounded-md text-gray-300 hover:bg-gray-800 hover:text-white transition-colors cursor-pointer"
-          x-bind:title="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"
+          class="flex items-center justify-center size-8 rounded-md text-gray-300 hover:bg-gray-800 hover:text-white transition-colors cursor-pointer"
+          x-bind:title="$store.darkMode.on ? 'Change to light mode' : 'Change to dark mode'"
           x-on:click="$store.darkMode.toggle()"
         >
-          <i x-bind:class="$store.darkMode.on ? 'icon-moon-star' : 'icon-sun'" aria-hidden="true"></i>
-          <span class="sr-only" x-text="$store.darkMode.on ? 'Toggle light mode' : 'Toggle dark mode'"></span>
+          <template x-if="$store.darkMode.on">
+            {% include lucide-icon.html icon="icon-moon-star" class="size-5" %}
+          </template>
+          <template x-if="!$store.darkMode.on">
+            {% include lucide-icon.html icon="icon-sun" class="size-5" %}
+          </template>
+          <span class="sr-only" x-text="$store.darkMode.on ? 'Change to light mode' : 'Change to dark mode'"></span>
         </button>
         <button
-          class="flex items-center justify-center size-8 text-lg rounded-md transition-colors cursor-pointer sm:hidden"
+          class="flex items-center justify-center size-8 rounded-md transition-colors cursor-pointer sm:hidden"
           x-bind:class="open ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-800 hover:text-white'"
           x-on:click="open = !open"
           title="Toggle menu"
         >
-          <i class="icon-menu" aria-hidden="true"></i>
+          {% include lucide-icon.html icon="icon-menu" class="size-5" %}
           <span class="sr-only">Toggle menu</span>
         </button>
       </div>

@@ -35,7 +35,10 @@ layout: default
           text-white bg-gray-600 hover:bg-gray-500 dark:bg-gray-500 dark:hover:bg-gray-400
         {%- endif -%}
       {%- endcapture -%}
-      <a href="{{ button.url }}" class="px-4 py-2 rounded-md inline-block {{ button_class_colors }} transition-colors"><i class="{{ button.icon }}" aria-hidden="true"></i> {{ button.text }}</a>
+      <a href="{{ button.url }}" class="flex items-center justify-center gap-1 px-4 py-2 rounded-md {{ button_class_colors }} transition-colors">
+        {% include lucide-icon.html icon=button.icon class="size-4" %}
+        <span>{{ button.text }}</span>
+      </a>
     {%- endfor -%}
   </div>
 {%- endif -%}

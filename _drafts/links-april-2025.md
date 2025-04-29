@@ -2,9 +2,9 @@
 layout: post
 title: "Links for April 2025"
 description: Draft 2
-# image: /assets/img/links-for-2025-03.webp
-# big_image: /assets/img/links-for-2025-03.webp
-# big_image_alt: Collage of notable images from the links in this post.
+image: /assets/img/links-for-2025-04.webp
+big_image: /assets/img/links-for-2025-04.webp
+big_image_alt: Collage of notable images from the links in this post.
 category: personal
 ---
 
@@ -13,8 +13,8 @@ category: personal
 - Three articles by Sprachspiele, which convinced me to subscribe to his Substack:
   - _[Response to Bronski on economics](https://sprachspiele.substack.com/p/response-to-bronski-on-economics)_ (2025-04-20). This is a masterful takedown of Joseph Bronski's [post where he dismisses neoclassical economics as fake and unscientific](https://www.josephbronski.com/p/steve-keens-critique-of-neoclassical) (2025-04-15), which was so bad that now I'm more skeptical of the rest of his writing. I prefer Austrian economics (in my non-expert opinion), so I think there are solid grounds for critiquing neoclassical economics, but Bronski goes about it in an absurd, hyper-reductionist way that effectively dismisses economic science entirely. In any case, Bronski dismisses Austrian economics as well because he considers it unscientific wordcel slop.
   - _[Leftist morality within the dissident right](https://sprachspiele.substack.com/p/leftist-morality-within-the-dissident)_ (2023-10-16). Here he points out that many people on the "dissident right" retain a fundamentally leftist morality and thus they make fundamentally leftist arguments, and he argues that this is inconsistent and self-defeating. I strongly agree.
-  - _[Limitations of libertarian theory](https://sprachspiele.substack.com/p/limitations-of-libertarian-theory)_ (2022-11-19). This is a critique of Rothbardian libertarian theory, in particular. I don't agree in general but I do think he makes good points.
-- Three articles by The American Tribune that deal with the history of Rhodesia (now Zimbabwe), particularly about how the Western international establishment smeared Rhodesia as an apartheid state for not accepting unrestrained mass democracy and actively helped bloodthirsty black communist guerrillas take over the country (which they then ravaged and ruined, predictably):
+  - _[Limitations of libertarian theory](https://sprachspiele.substack.com/p/limitations-of-libertarian-theory)_ (2022-11-19). This is a critique of Rothbardian libertarian theory, specifically. I don't agree in general but I do think he makes good points.
+- Three articles by The American Tribune that deal with the history of Rhodesia (now Zimbabwe), particularly about how the Western international establishment smeared it and actively aided its communist takeover:
   - _[Egalitarianism Destroyed Rhodesia. It Will Destroy America Too, If We Let it](https://www.theamericantribune.news/p/egalitarianism-destroyed-rhodesia)_ (2024-10-18).
   - _[Why Rhodesia Matters](https://www.theamericantribune.news/p/why-rhodesia-matters)_ (2024-07-31).
   - _[How the United States Supported Genocide in Southern Africa](https://www.theamericantribune.news/p/how-the-united-states-supported-white)_ (2023-08-09). This one is actually about South Africa, but it has a full section talking about the case of Rhodesia.

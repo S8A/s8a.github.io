@@ -1,7 +1,7 @@
 - name: Email
-  value: samuelochoap@gmail.com
+  value: samuelochoap@proton.me
   icon: icon-mail
-  url: mailto:samuelochoap@gmail.com
+  url: mailto:samuelochoap@proton.me
 - name: Telegram
   value: "@samuelochoap"
   icon: icon-send

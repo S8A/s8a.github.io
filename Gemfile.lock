@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/S8A/jekyll-esbuild.git
+  revision: ad5e2b9265253fa9b941dbf1fdb59474dbd8b523
+  specs:
+    jekyll-esbuild (0.1.0)
+      open3
+
+GIT
   remote: https://github.com/S8A/jekyll-postcss-v2.git
   revision: 895f548e865e1d97f436a25633280a9482b80964
   branch: feature/change_hook_to_site_post_write
@@ -159,6 +166,7 @@ GEM
     octokit (4.25.1)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
+    open3 (0.2.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.1)
@@ -219,6 +227,7 @@ DEPENDENCIES
   google-protobuf
   jekyll
   jekyll-avatar
+  jekyll-esbuild!
   jekyll-feed
   jekyll-gist
   jekyll-github-metadata

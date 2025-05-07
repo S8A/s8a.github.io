@@ -1,7 +1,7 @@
 services:
   site:
     image: jvconseil/jekyll-docker:stable
-    command: sh -c 'npm install && npm run build && jekyll serve --drafts'
+    command: sh -c 'npm install && jekyll serve --drafts'
     ports:
       - "4000:4000"
     volumes:

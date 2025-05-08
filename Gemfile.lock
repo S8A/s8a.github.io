@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/S8A/jekyll-esbuild.git
-  revision: 9def9fed51c154cd40ebe81c452e15fcb1d4bb53
+  revision: e88f932b88c3a9b73c9f1edcddc16db2bf5789be
   specs:
     jekyll-esbuild (0.1.0)
       jekyll (>= 3.0)

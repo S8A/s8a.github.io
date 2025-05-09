@@ -31,8 +31,6 @@ jobs:
           node-version: '20'
       - name: Install Node dependencies
         run: npm install
-      - name: Build JavaScript bundle
-        run: npm run build
       - name: Build site
         uses: limjh16/jekyll-action-ts@v2
         with:

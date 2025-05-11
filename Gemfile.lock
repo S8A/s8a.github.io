@@ -1,12 +1,4 @@
 GIT
-  remote: https://github.com/S8A/jekyll-esbuild.git
-  revision: e88f932b88c3a9b73c9f1edcddc16db2bf5789be
-  specs:
-    jekyll-esbuild (0.1.0)
-      jekyll (>= 3.0)
-      open3
-
-GIT
   remote: https://github.com/S8A/jekyll-postcss-v2.git
   revision: 895f548e865e1d97f436a25633280a9482b80964
   branch: feature/change_hook_to_site_post_write
@@ -89,6 +81,9 @@ GEM
       webrick (~> 1.7)
     jekyll-avatar (0.8.0)
       jekyll (>= 3.0, < 5.0)
+    jekyll-esbuild (0.1.1)
+      jekyll (>= 3.0)
+      open3
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
@@ -181,21 +176,21 @@ GEM
     rouge (4.5.2)
     rubyzip (2.4.1)
     safe_yaml (1.0.5)
-    sass-embedded (1.87.0-aarch64-linux-gnu)
+    sass-embedded (1.88.0-aarch64-linux-gnu)
       google-protobuf (~> 4.30)
-    sass-embedded (1.87.0-aarch64-linux-musl)
+    sass-embedded (1.88.0-aarch64-linux-musl)
       google-protobuf (~> 4.30)
-    sass-embedded (1.87.0-arm-linux-gnueabihf)
+    sass-embedded (1.88.0-arm-linux-gnueabihf)
       google-protobuf (~> 4.30)
-    sass-embedded (1.87.0-arm-linux-musleabihf)
+    sass-embedded (1.88.0-arm-linux-musleabihf)
       google-protobuf (~> 4.30)
-    sass-embedded (1.87.0-arm64-darwin)
+    sass-embedded (1.88.0-arm64-darwin)
       google-protobuf (~> 4.30)
-    sass-embedded (1.87.0-x86_64-darwin)
+    sass-embedded (1.88.0-x86_64-darwin)
       google-protobuf (~> 4.30)
-    sass-embedded (1.87.0-x86_64-linux-gnu)
+    sass-embedded (1.88.0-x86_64-linux-gnu)
       google-protobuf (~> 4.30)
-    sass-embedded (1.87.0-x86_64-linux-musl)
+    sass-embedded (1.88.0-x86_64-linux-musl)
       google-protobuf (~> 4.30)
     sawyer (0.9.2)
       addressable (>= 2.3.5)
@@ -229,7 +224,7 @@ DEPENDENCIES
   google-protobuf
   jekyll
   jekyll-avatar
-  jekyll-esbuild!
+  jekyll-esbuild
   jekyll-feed
   jekyll-gist
   jekyll-github-metadata

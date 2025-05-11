@@ -9,6 +9,7 @@ services:
       - ./vendor/bundle:/usr/local/bundle
     environment:
       - JEKYLL_ENV=development
+      - JEKYLL_LOG_LEVEL=info
       - NODE_ENV=development
       - TZ=America/Caracas
       - DEBUG=0

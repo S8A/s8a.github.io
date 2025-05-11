@@ -5,5 +5,3 @@ _site
 .vscode
 node_modules
 vendor
-
-assets/js/bundle.js

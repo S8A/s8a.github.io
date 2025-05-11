@@ -8,7 +8,9 @@ big_image: /assets/img/jekyll-tailwindcss-alpinejs.webp
 category: personal
 ---
 
-Last month, I posted an [overview of how I redesigned my website]({% link _posts/2025-02-28-website-redesign.md %}) using [Jekyll](https://jekyllrb.com/) v4, [Tailwind CSS](https://tailwindcss.com/) v4, and [Alpine.js](https://alpinejs.dev/) v3. As I explained back then, I used two articles by [Giorgi Mezurnishvili](https://mzrn.sh/) for guidance on how to use Tailwind CSS with Jekyll, but I had to do some things differently because of changes introduced in Tailwind CSS v4, so I thought of writing an updated version of Giorgi's guides. I'll also explain how to set up Docker Compose for local development, a GitHub Actions workflow for deployment to GitHub Pages, and how to add Alpine.js to the stack.
+In February, I posted an [overview of how I redesigned my website]({% link _posts/2025-02-28-website-redesign.md %}) using [Jekyll](https://jekyllrb.com/) v4, [Tailwind CSS](https://tailwindcss.com/) v4, and [Alpine.js](https://alpinejs.dev/) v3. As I explained back then, I used two articles by [Giorgi Mezurnishvili](https://mzrn.sh/) for guidance on how to use Tailwind CSS with Jekyll, but I had to do some things differently because of changes introduced in Tailwind CSS v4, so I thought of writing an updated version of Giorgi's guides. I'll also explain how to set up Docker Compose for local development, a GitHub Actions workflow for deployment to GitHub Pages, and how to add Alpine.js to the stack.
+
+**Note:** This guide was originally published in March, but I did a significant update on the section about adding Alpine.js to make it more convenient and flexible.
 
 
 ## Set up Docker Compose for local development (optional)
@@ -29,6 +31,7 @@ services:
       - ./vendor/bundle:/usr/local/bundle
     environment:
       - JEKYLL_ENV=development
+      - JEKYLL_LOG_LEVEL=info
       - NODE_ENV=development
       - TZ=America/Caracas
       - DEBUG=0
@@ -176,6 +179,7 @@ on:
 
 env:
   JEKYLL_ENV: production
+  JEKYLL_LOG_LEVEL: info
   NODE_ENV: production
   TZ: America/Caracas
 
@@ -247,60 +251,36 @@ First, install Alpine.js and [esbuild](https://esbuild.github.io/) using `npm`:
 npm install alpinejs esbuild
 ```
 
-I figured out that I had to use something to bundle Alpine.js into my JavaScript file after I tried to use it by itself and it didn't work. I asked Claude 3.5 Sonnet and it recommended using esbuild and gave me the command options I needed.
+I figured out that I had to use something to bundle Alpine.js into my JavaScript file after I tried to use it by itself and it didn't work. I asked Claude 3.5 Sonnet and it recommended using esbuild and gave me the command options I needed to make it work.
 
-On that note, the next thing you need to do is define a Node.js build script so that you can use it to bundle your JavaScript before serving your website. Add a `scripts` section to your `package.json` and define the `build` script like this:
+At first, I used esbuild by calling a custom `build` script I defined in `package.json`, and thus I had to run it manually on development and add another step to my GitHub workflow. However, now I use a custom Jekyll plugin that I made called [jekyll-esbuild]({% link _open_source/jekyll-postcss-v2.md %}) that automatically runs esbuild on the targeted JavaScript files when the site is built. I [published the plugin on RubyGems.org](https://rubygems.org/gems/jekyll-esbuild), so you can simply add the `jekyll-esbuild` gem to your `Gemfile` in the `:jekyll_plugins` group to install it and automatically enable it in Jekyll:
 
+```ruby
+# ...
 
-```json
-{
-  "type": "module",
-  "dependencies": {
-    // Mapping of dependencies and their versions
-    // ...
-  },
-  "scripts": {
-    "build": "esbuild path/to/js/main.js --bundle --outfile=path/to/js/bundle.js $(test \"$NODE_ENV\" = \"production\" && echo '--minify')",
-  }
-}
+group :jekyll_plugins do
+  gem "jekyll-esbuild"
+  # ...
+end
+
+# ...
 ```
 
-Replace `path/to/js/main.js` with the actual relative path of your original JavaScript file where you import and use Alpine.js, and replace `path/to/js/bundle.js` with the actual relative path of the JavaScript bundle file that will be produced by esbuild and that you will use in your HTML. The last part that is enclosed within `$()` is a [Bash command substitution](https://www.gnu.org/software/bash/manual/bash.html#Command-Substitution) that checks if the environment variable `NODE_ENV` is set to `production` and, if it is, adds the `--minify` argument to the esbuild command in order to produce a minified bundle.
+Next, you can configure the plugin to your liking by adding an `esbuild` section to your `_config.yml` with one or more of the following settings within it: `script`, `bundle`, `minify`, `sourcemap`, `files`. Check out the plugin's [README](https://github.com/S8A/jekyll-esbuild/blob/main/README.md) for detail about the configuration options and their default values. I think the default settings are reasonable for most use cases, so you can use the plugin without adding anything to your `_config.yml`.
 
-The command substitution will obviously not work in Windows, so you have three solutions: define a build script for `production` with the `--minify` argument and another for `development` without it, use Windows Subsystem for Linux, or switch to Linux entirely (that last one is only half-joking). I'll continue the rest of this section assuming a single `build` script.
-
-To use the new `build` script, simply run:
-
-```bash
-npm run build
-```
-
-If you're using the Docker Compose setup I explained above, modify the `command` to run the `build` script after installing Node.js dependencies and before running the Jekyll development server:
-
-```bash
-sh -c 'npm install && npm run build && jekyll serve'
-```
-
-And, of course, don't forget to add a step to your GitHub Pages deployment workflow to run the `buld` script after installing Node.js dependencies and before building the Jekyll site:
+I actually use the default settings, though I set the options explicitly in my `_config.yml`, including explicitly listing the only JavaScript file I want to target, because I tend to agree that [explicit is better than implicit](https://peps.python.org/pep-0020/), so my settings look like this:
 
 ```yaml
 # ...
 
-jobs:
-  github-pages:
-    runs-on: ubuntu-latest
-    steps:
-      # Omitting the previous steps for brevity
-      # ...
-      - name: Install Node dependencies
-        run: npm install
-      - name: Build JavaScript bundle
-        run: npm run build
-      - name: Build site
-        uses: limjh16/jekyll-action-ts@v2
-        # ...
-      # Rest of the file
-      # ...
+esbuild:
+  bundle: true
+  minify: environment
+  sourcemap: environment
+  files:
+    - /assets/js/main.js
+
+# ...
 ```
 
 Finally, to actually use Alpine.js on your website, you need the following three lines of code on the JavaScript you're going to process with esbuild:

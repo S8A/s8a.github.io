@@ -24,7 +24,7 @@ group :jekyll_plugins do
   gem "jekyll-thumbnail-img"
   gem "jekyll-postcss-v2", :git => "https://github.com/S8A/jekyll-postcss-v2.git", :branch => "feature/change_hook_to_site_post_write"
   gem "jekyll-inline-svg"
-  gem "jekyll-esbuild", :git => "https://github.com/S8A/jekyll-esbuild.git"
+  gem "jekyll-esbuild"
 end
 
 # Workaround for segmentation fault on Alpine Linux

@@ -5,7 +5,6 @@ description: >
   Jekyll plugin for processing JavaScript files using esbuild.
 name: jekyll-esbuild
 last_update: 2025-05-11
-highlight: true
 summary: >
   Jekyll plugin for processing JavaScript files using esbuild when the site
   is built and written to disk.

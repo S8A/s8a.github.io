@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Links for May 2025"
-description: Draft 3
+description: Draft 4
 # image: /assets/img/links-for-2025-05.webp
 # big_image: /assets/img/links-for-2025-05.webp
 big_image_alt: Collage of notable images from the links in this post.
@@ -10,6 +10,9 @@ category: personal
 
 - _[How Cursor Indexes Codebases Fast](https://read.engineerscodex.com/p/how-cursor-indexes-codebases-fast)_ by Engineer's Codex (2025-05-10).
 - _[MCP: What It Is and Why It Matters](https://addyo.substack.com/p/mcp-what-it-is-and-why-it-matters)_ by Addy Osmani (2025-03-27).
+- Two lectures by Marcel Dumas Gautreau at two different conferences hosted by the Ludwig von Mises Institute this year:
+  - _[AERC '25 Lecture: German Historical School Revisionism](https://mgautreau.substack.com/p/aerc-25-lecture-german-historical)_ (2025-04-09).
+  - _[LSC '25 Lecture: Rothbardian Populism vs. Silicon Valley Straussianism](https://mgautreau.substack.com/p/lsc-25-lecture-rothbardian-populism)_ (2025-05-22).
 - The _Biofoundationalism_ essay series by "Dmitry" (Substack: _[The Dosage Makes It So](https://thedosagemakesitso.substack.com/)_), which earned him my subscription. I strongly agree with his Biofoundationalism theory, though with caveats, but not so much with his related Moral Foundations Utility Theory.
   - _[Biofoundationalism I: Moral Foundations Utility Theory & Hypermoralization](https://thedosagemakesitso.substack.com/p/biofoundationalism-i-moral-foundations)_ (2024-12-20).
   - _[Biofoundationalism II: The Moral Genotype](https://thedosagemakesitso.substack.com/p/biofoundationalism-ii-the-moral-genotype)_ (2025-01-24).
@@ -35,6 +38,7 @@ category: personal
 - _[Elite Human Capital DEBUNKED](https://ubersoy.com/p/elite-human-capital-debunked)_ by UBERSOY (2025-02-02). A response to the ludicrous ragebait concept of "EHC" promoted by Anatoly Karlin and Richard Hanania.
 - _[Are Jews White?](https://ubersoy.com/p/are-jews-white)_ by UBERSOY (2025-05-18). Paywalled article, so I haven't read it entirely, but the non-paywalled section is interesting enough to warrant reading, as it mostly goes through his take on the genetic and phenotypical aspect of the debate. The paywalled part is probably more polemic, but I haven't read it so I don't know what it actually says. The subtitle and introduction to the article should be clear enough hints about the general argument though.
   - For more about Jewish genetics and history focused only on the scientific evidence, I recommend these three articles by Razib Khan:
-    - _[More than kin, less than kind: Jews and Palestinians as Canaanite cousins](https://www.razibkhan.com/p/more-than-kin-less-than-kind-jews)_ (2023-12-28). Paywalled halfway through.
+    - _[More than kin, less than kind: Jews and Palestinians as Canaanite cousins](https://www.razibkhan.com/p/more-than-kin-less-than-kind-jews)_ (2023-12-28). Paywalled halfway through, but I managed to read it entirely using a free one-month subscription I randomly received as a gift.
     - _[A coat of many colors: medieval-DNA findings detect interwoven strands of Ashkenazi heritage](https://www.razibkhan.com/p/a-coat-of-many-colors-medieval-dna)_ (2022-12-13).
-    - _[Ashkenazi Jewish genetics: a match made in the Mediterranean](https://www.razibkhan.com/p/ashkenazi-jewish-genetics-a-match)_ (2021-09-18).
+    - _[Ashkenazi Jewish genetics: a match made in the Mediterranean](https://www.razibkhan.com/p/ashkenazi-jewish-genetics-a-match)_ (2021-09-18). Paywalled halfway through.
+    - _[Under pressure: the paradox of the diamond](https://www.razibkhan.com/p/under-pressure-the-paradox-of-the)_ (2021-10-24). Not paywalled.

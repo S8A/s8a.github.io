@@ -10,6 +10,8 @@ category: personal
 
 - _[How Cursor Indexes Codebases Fast](https://read.engineerscodex.com/p/how-cursor-indexes-codebases-fast)_ by Engineer's Codex (2025-05-10).
 - _[MCP: What It Is and Why It Matters](https://addyo.substack.com/p/mcp-what-it-is-and-why-it-matters)_ by Addy Osmani (2025-03-27).
+- _[Progress Studies and Feminization](https://arctotherium.substack.com/p/progress-studies-and-feminization)_ by Arctotherium (2025-04-07).
+- _[When did Europe pull ahead? And why?](https://www.anthro1.net/p/when-did-europe-pull-ahead-and-why)_ by Peter Frost (2022-11-21).
 - Two lectures by Marcel Dumas Gautreau at two different conferences hosted by the Ludwig von Mises Institute this year:
   - _[AERC '25 Lecture: German Historical School Revisionism](https://mgautreau.substack.com/p/aerc-25-lecture-german-historical)_ (2025-04-09).
   - _[LSC '25 Lecture: Rothbardian Populism vs. Silicon Valley Straussianism](https://mgautreau.substack.com/p/lsc-25-lecture-rothbardian-populism)_ (2025-05-22).
@@ -26,13 +28,14 @@ category: personal
     - _[Trashbags of Facts and Insipid Oceans](https://thedosagemakesitso.substack.com/p/trashbags-of-facts-and-insipid-oceans)_ (2025-02-11).
 - _[The American Assimilation Myth](https://inquisitivebird.xyz/p/the-assimilation-myth-america)_ by Inquisitive Bird (2025-04-09).
   - Follow-up article expanding the case to international data: _[The Assimilation Myth](https://inquisitivebird.xyz/p/the-assimilation-myth)_ (2025-05-09). This one is paywalled so I haven't read it entirely.
-- _[GDP, yes, but GDP per what?](https://www.emilkirkegaard.com/p/gdp-yes-but-gdp-per-what)_ by Emil Kirkegaard (2025-05-02).
 - Some good data-filled articles by East Hunter:
   - _[Is hereditarianism wrong?](https://easthunter.substack.com/p/is-hereditarianism-wrong)_ (2025-05-22). Short answer to the title question: no.
   - _[A Copernican Revolution of social science – Race and IQ](https://easthunter.substack.com/p/a-copernican-revolution-of-social-dc5)_ (2024-08-14).
   - _[A Copernican Revolution of social science &ndash; Sex roles](https://easthunter.substack.com/p/a-copernican-revolution-of-social)_ (2024-08-05).
 - _[Nonlinear Ethnic Niches](https://arctotherium.substack.com/p/nonlinear-ethnic-niches)_ by Arctotherium (2025-05-03).
+- _[GDP, yes, but GDP per what?](https://www.emilkirkegaard.com/p/gdp-yes-but-gdp-per-what)_ by Emil Kirkegaard (2025-05-02).
 - _[Elite Human Capital DEBUNKED](https://ubersoy.com/p/elite-human-capital-debunked)_ by UBERSOY (2025-02-02). A response to the ludicrous ragebait concept of "EHC" promoted by Anatoly Karlin and Richard Hanania.
+- _[Moldbug Sold Out](https://www.astralcodexten.com/p/moldbug-sold-out)_ by Scott Alexander (2025-05-07).
 - _[Are Jews White?](https://ubersoy.com/p/are-jews-white)_ by UBERSOY (2025-05-18). Paywalled article, so I haven't read it entirely. The paywalled part is probably more polemical.
   - For more about Jewish genetics but focused only on the scientific evidence, I recommend these articles by Razib Khan:
     - _[More than kin, less than kind: Jews and Palestinians as Canaanite cousins](https://www.razibkhan.com/p/more-than-kin-less-than-kind-jews)_ (2023-12-28). Paywalled halfway through, but I managed to read it entirely using a free one-month subscription.

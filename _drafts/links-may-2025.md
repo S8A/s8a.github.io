@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Links for May 2025"
-description: Draft 9
+description: The Great Stagnation, the rise of Europe, biofoundationalism, AI tools, assimilation, GDP, and more.
 image: /assets/img/links-for-2025-05.webp
 big_image: /assets/img/links-for-2025-05.webp
 big_image_alt: Collage of notable images from the links in this post.

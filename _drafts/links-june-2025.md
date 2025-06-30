@@ -2,9 +2,9 @@
 layout: post
 title: "Links for June 2025"
 description: Draft 3
-# image: /assets/img/links-for-2025-06.webp
-# big_image: /assets/img/links-for-2025-06.webp
-# big_image_alt: Collage of notable images from the links in this post.
+image: /assets/img/links-for-2025-06.webp
+big_image: /assets/img/links-for-2025-06.webp
+big_image_alt: Collage of notable images from the links in this post.
 category: personal
 ---
 

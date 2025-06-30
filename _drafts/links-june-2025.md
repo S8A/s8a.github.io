@@ -19,6 +19,7 @@ category: personal
   - _[Trump's Tariffs: Triffin Is Wrong, Ron Paul Is Right](https://www.youtube.com/watch?v=m6F2_F0JMM0)_ (2025-04-09).
   - _[The Crucial Principle and Data At Stake in the SoHo Immigration Debate](https://www.youtube.com/watch?v=xnPSODIvb28)_ (2025-05-30).
   - _[How Would Private Courts and Military Defense Work? Bob Murphy Lectures Menger Institute](https://www.youtube.com/watch?v=D0glqJveGCw)_ (2025-06-03).
+- _[Missing Heritability: Much More Than You Wanted To Know](https://www.astralcodexten.com/p/missing-heritability-much-more-than)_ by Scott Alexander (2025-06-26).
 - _[Did Christianity make Europeans WEIRD?](https://www.aporiamagazine.com/p/did-christianity-make-europeans-weird)_ by Peter Frost (2025-06-26).
 - _[The New-Neoconservatives and the Managerial Revolution](https://davidbrady.substack.com/p/the-new-neoconservatives-and-the)_ by David Brady (2025-05-12).
 - _[On AI Acceleration and Its Discontents](https://ubersoy.com/p/on-acceleration-and-its-discontents)_ by Ubersoy (2025-02-09).

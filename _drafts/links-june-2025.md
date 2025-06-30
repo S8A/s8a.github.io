@@ -8,7 +8,7 @@ big_image_alt: Collage of notable images from the links in this post.
 category: personal
 ---
 
-- Lecture series: _[The Politically Incorrect Guide to American History](https://www.youtube.com/playlist?list=PLpmOMu_Jxhdnq2A2Ug-3ETXsOs-eqWzrn)_ by Thomas E. Woods (2012-06-09). 15 relatively short lectures based on Woods' [book of the same title](https://www.amazon.com/Politically-Incorrect-Guide-American-History/dp/0895260476). 14 of the 15 lectures are [available in Mises.org](https://mises.org/podcasts/politically-incorrect-guide-american-history), including a download link. [^fn-rwrr]
+- Lecture series: _[The Politically Incorrect Guide to American History](https://www.youtube.com/playlist?list=PLpmOMu_Jxhdnq2A2Ug-3ETXsOs-eqWzrn)_ by Thomas E. Woods (recorded between September 2006 and March 2007). 15 relatively short lectures based on Woods' [book of the same title](https://www.amazon.com/Politically-Incorrect-Guide-American-History/dp/0895260476) (2004). 14 of the 15 lectures are also [available in Mises.org](https://mises.org/podcasts/politically-incorrect-guide-american-history), including a download link. [^fn-rwrr]
 - Lectures from the [Revisionist History of War Conference](https://mises.org/events/revisionist-history-war-conference) (RHWC) hosted by the Ludwig von Mises Institue in May:
   - _[The Marshall Plan Slush Fund: Cronyism for US Exporters](https://www.youtube.com/watch?v=PBGo2WbAoPI)_ by Patrick Newman (2025-05-16).
   - _[The Righteous Cause Conquers the World](https://www.youtube.com/watch?v=5MRqNdRqs6w)_ by Brion McClanahan (2025-05-17).
@@ -30,6 +30,6 @@ category: personal
 
 ## Footnotes
 
-[^fn-rwrr]: That book and lecture series was recommended in [the first article](https://mgautreau.substack.com/p/right-wing-reading-rainbow-i-the) in Marcel Dumas Gautreau's _Right Wing Reading Rainbow_ series of book recommendations. I'll try to work my way through them this year.
+[^fn-rwrr]: That book and lecture series was recommended by Marcel Dumas Gautreau in _[Right Wing Reading Rainbow I](https://mgautreau.substack.com/p/right-wing-reading-rainbow-i-the)_, the first of a series of book recommendations. I'll try to work my way through them this year.
 [^fn-njoya]: Unfortunately, Njoya read only a screenshot of a fragment of the article posted by Marcel on Twitter, misinterpreted it as if the article was hostile to her, and then proceeded to have an embarrasing angry argument with Marcel while refusing to actually read the full article.
-[^fn-arctotherium]: However, I don't agree with his dismissal of other right-wing revisionist views near the end of the article.
+[^fn-arctotherium]: Near the end of the article, Arctotherium briefly mentions several other right-wing revisionist views and dismisses them as wrong too, but I think many of them are actually correct.

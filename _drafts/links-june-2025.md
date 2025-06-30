@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Links for June 2025"
-description: Draft 3
+description: Draft 4
 image: /assets/img/links-for-2025-06.webp
 big_image: /assets/img/links-for-2025-06.webp
 big_image_alt: Collage of notable images from the links in this post.
@@ -13,7 +13,7 @@ category: personal
   - _[The Marshall Plan Slush Fund: Cronyism for US Exporters](https://www.youtube.com/watch?v=PBGo2WbAoPI)_ by Patrick Newman (2025-05-16).
   - _[The Righteous Cause Conquers the World](https://www.youtube.com/watch?v=5MRqNdRqs6w)_ by Brion McClanahan (2025-05-17).
   - _[How Washington Started the New Cold War with Russia and the Catastrophe in Ukraine](https://www.youtube.com/watch?v=6RSZrW03Uno)_ by Scott Horton (2025-05-17).
-- _[Reconsidering Reconstruction Reconsidered](https://mgautreau.substack.com/p/reconsidering-reconstruction-reconsidered)_ by Marcel Dumas Gautreau (2025-06-09). A friendly critique of Wanjiru Njoya's RHWC lecture titled _[Reconstruction Reconsidered](https://www.youtube.com/watch?v=zpE5ARajX1w)_, in which he argues that there is a much better way to make the case in favor of the Confederate secessionist cause and more generally the broader cause of national self-determination. [^fn-njoya]
+- _[Reconsidering Reconstruction Reconsidered](https://mgautreau.substack.com/p/reconsidering-reconstruction-reconsidered)_ by Marcel Dumas Gautreau (2025-06-09). A friendly critique of Wanjiru Njoya's RHWC lecture titled _[Reconstruction Reconsidered](https://www.youtube.com/watch?v=zpE5ARajX1w)_, in which he argues that she could have made a better case for the Confederate secessionist cause and, more generally, the broader cause of national self-determination. [^fn-njoya]
 - Some great lectures and podcast episodes by Robert P. Murphy:
   - _[Perfecting the Libertarian Argument for Dealing with the Drug Cartels](https://www.youtube.com/watch?v=jgVjA0NYccs)_ (2025-03-07).
   - _[Trump's Tariffs: Triffin Is Wrong, Ron Paul Is Right](https://www.youtube.com/watch?v=m6F2_F0JMM0)_ (2025-04-09).

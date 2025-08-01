@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Links for July 2025"
-description: WIP
+description: Right-wing books, American elite university admissions, feminine-masculine dynamics, life expectancy, talent vs. effort, and anarchocapitalism.
 image: /assets/img/links-for-2025-07.webp
 big_image: /assets/img/links-for-2025-07.webp
 big_image_alt: Collage of notable images from the links in this post.

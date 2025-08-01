@@ -2,9 +2,9 @@
 layout: post
 title: "Links for July 2025"
 description: WIP
-# image: /assets/img/links-for-2025-07.webp
-# big_image: /assets/img/links-for-2025-07.webp
-# big_image_alt: Collage of notable images from the links in this post.
+image: /assets/img/links-for-2025-07.webp
+big_image: /assets/img/links-for-2025-07.webp
+big_image_alt: Collage of notable images from the links in this post.
 category: personal
 ---
 

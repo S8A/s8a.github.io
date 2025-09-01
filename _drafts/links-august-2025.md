@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Links for August 2025"
-description: Natality policy in Communist regimes, ethnic cleansing in Palestine, and missing heritability.
-# image: /assets/img/links-for-2025-08.webp
-# big_image: /assets/img/links-for-2025-08.webp
-# big_image_alt: Collage of notable images from the links in this post.
+description: Ethnic cleansing in Palestine, natality policy in Communist regimes, and missing heritability.
+image: /assets/img/links-for-2025-08.webp
+big_image: /assets/img/links-for-2025-08.webp
+big_image_alt: Collage of notable images from the links in this post.
 category: personal
 ---
 

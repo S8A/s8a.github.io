@@ -50,6 +50,7 @@ exclude:
   - postcss.config.js
   - package.json
   - package-lock.json
+  - WARP.md
 
 # Front Matter defaults
 defaults:

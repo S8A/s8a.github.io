@@ -1,25 +1,25 @@
-- title: Backend developer
+- title: Backend and infrastructure developer
   company: Telecomunicaciones G-Network, C.A.
   company_url: https://www.gnetworkve.com/
   period_start: March 2025
   highlight: true
   skills_keywords:
     - Python
-    - Django
     - Django REST Framework
     - PostgreSQL
     - Docker
+    - RabbitMQ
+    - Kubernetes
   description: >
-    I am currently working on the containerization of the company's existing
-    backend services, before we move on to developing the new version of the
-    company's web application.
+    I am currently leading the development of the backend for the next version
+    of the company's system, as well as being in charge of the design and
+    implementation of the infrastructure for the new system.
   key_points:
-    - Working on the containerization of the company's existing backend
-      services.
-    - Preparing for the development of the next generation of the company's
-      backend.
-    - Successfully tested migrating the backend's main database from MySQL to
-      PostgreSQL.
+    - Leading the architecture and development of the company's new backend
+      microservices.
+    - Developed the entire user/authentication microservice with LDAP integration,
+      as well as multiple utility libraries.
+
 - title: Co-founder and computer technician
   company: Daykron Tech, C.A.
   period_start: January 2024

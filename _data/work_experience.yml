@@ -1,3 +1,26 @@
+- title: Freelance job
+  company: From Roraima
+  period_start: August 2025
+  period_end: November 2025
+  skills_keywords:
+    - WhatsApp API
+    - Supabase
+    - Python
+    - FastAPI
+    - React
+    - TypeScript
+  description: >
+    I developed a WhatsApp chat bot for customers of From Roraima, a currency
+    exchange company, using FastAPI for the backend, as well as a React frontend
+    for the company's employees to review and manage operations, transactions,
+    and more.
+  key_points:
+    - Developed a WhatsApp chat bot to allow customers to deposit, convert, and
+      withdraw funds in different fiat and crypto currencies.
+    - Built a management web application for the company's employees to review
+      and manage operations, transactions, and more.
+    - Used Supabase for the database, FastAPI for the chat bot backend, and
+      React for the frontend.
 - title: Backend and infrastructure developer
   company: Telecomunicaciones G-Network, C.A.
   company_url: https://www.gnetworkve.com/
@@ -5,21 +28,28 @@
   highlight: true
   skills_keywords:
     - Python
+    - FastAPI
     - Django REST Framework
-    - PostgreSQL
-    - Docker
     - RabbitMQ
+    - PostgreSQL
+    - FastStream
+    - SQLAlchemy
+    - WhatsApp API
+    - Socket.IO
+    - Min.IO
+    - Docker
     - Kubernetes
   description: >
     I am currently leading the development of the backend for the next version
     of the company's system, as well as being in charge of the design and
     implementation of the infrastructure for the new system.
   key_points:
-    - Leading the architecture and development of the company's new backend
-      microservices.
+    - Leading the architecture and development of the company's new event-driven
+      backend microservices.
     - Developed the entire user/authentication microservice with LDAP integration,
       as well as multiple utility libraries.
-
+    - Building a new automated chat bot and real-time multi-agent chat system
+      integrated with WhatsApp.
 - title: Co-founder and computer technician
   company: Daykron Tech, C.A.
   period_start: January 2024
@@ -56,6 +86,7 @@
     - Django
     - Vue.js
     - Odoo
+    - FastAPI
     - Nuxt.js
   description: >
     I was involved in the development of multiple projects for
@@ -162,7 +193,6 @@
   period_end: December 2021
   skills_keywords:
     - Python
-    - Django
     - Django REST Framework
     - Vue.js
   description: >

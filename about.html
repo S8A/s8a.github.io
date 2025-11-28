@@ -83,6 +83,9 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
         {%- else -%}
           <p>{{- job.key_points[0] -}}</p>
         {%- endif -%}
+        {%- if job.skills_keywords and job.skills_keywords.size > 0 -%}
+          <p class="mt-2"><b>Key skills:</b> {{ job.skills_keywords | join: ", " }}.</p>
+        {%- endif -%}
       </div>
     {%- endfor -%}
   </div>

@@ -19,8 +19,6 @@
       withdraw funds in different fiat and crypto currencies.
     - Built a management web application for the company's employees to review
       and manage operations, transactions, and more.
-    - Used Supabase for the database, FastAPI for the chat bot backend, and
-      React for the frontend.
 - title: Backend and infrastructure developer
   company: Telecomunicaciones G-Network, C.A.
   company_url: https://www.gnetworkve.com/
@@ -30,12 +28,12 @@
     - Python
     - FastAPI
     - Django REST Framework
-    - RabbitMQ
-    - PostgreSQL
     - FastStream
     - SQLAlchemy
     - WhatsApp API
     - Socket.IO
+    - RabbitMQ
+    - PostgreSQL
     - Min.IO
     - Docker
     - Kubernetes
@@ -87,6 +85,8 @@
     - Vue.js
     - Odoo
     - FastAPI
+    - PostgreSQL
+    - Docker
     - Nuxt.js
   description: >
     I was involved in the development of multiple projects for

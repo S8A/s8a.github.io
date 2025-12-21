@@ -1,0 +1,53 @@
+---
+layout: default
+title: Bookmarks
+description: Links to articles, videos, and other resources.
+---
+
+<h1 class="text-center text-4xl font-bold mb-4">{{ page.title }}</h1>
+
+{%- assign bookmarks = site.bookmarks | sort: "date" | reverse -%}
+{%- for bookmark_set in bookmarks -%}
+  {%- assign section_id = bookmark_set.date -%}
+  {%- assign items = bookmark_set.items | sort: "date" | reverse -%}
+  <section id="{{ section_id }}" class="{% if forloop.last %}pt-6{% else %}py-6{% endif %} print:break-inside-avoid">
+    <h2 class="text-2xl font-bold mb-4">{{ bookmark_set.date | date: "%Y-%m-%d" }}</h2>
+    <div class="flex flex-col gap-4">
+      {%- for item in items -%}
+      <div class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500 flex items-center gap-4">
+        <div class="flex-shrink-0 p-4">
+          {%- capture icon -%}
+            {%- if item.type == "article" -%}
+              newspaper
+            {%- elsif item.type == "video" -%}
+              video
+            {%- elsif item.type == "podcast" -%}
+              podcast
+            {%- elsif item.type == "paper" -%}
+              notebook-text
+            {%- elsif item.type == "book" -%}
+              book
+            {%- else -%}
+              link
+            {%- endif -%}
+          {%- endcapture -%}
+          {%- include lucide-icon.html icon=icon class="size-8 text-blue-600 dark:text-blue-400" -%}
+        </div>
+        <div>
+          <div class="mb-4">
+            <h3 class="text-xl font-medium">
+              <a href="{{ item.url }}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">
+                {{ item.title }}
+              </a>
+            </h3>
+            <ul class="text-sm text-gray-600 dark:text-gray-400">
+              <li>By: {{ item.by }}</li>
+              <li>Date: {{ item.date | date: "%Y-%m-%d" }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {%- endfor -%}
+    </div>
+  </section>
+{%- endfor -%}

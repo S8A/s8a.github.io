@@ -27,6 +27,10 @@ description: Links to articles, videos, and other resources.
               notebook-text
             {%- elsif item.type == "book" -%}
               book
+            {%- elsif item.type == "video-playlist" -%}
+              list-video
+            {%- elsif item.type == "gamepad" -%}
+              gamepad
             {%- else -%}
               link
             {%- endif -%}

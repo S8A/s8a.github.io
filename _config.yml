@@ -38,6 +38,8 @@ collections:
     output: true
     permalink: /misc-projects/:name/
     sort_by: last_update
+  bookmarks:
+    output: false
 
 # Build settings
 markdown: kramdown

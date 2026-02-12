@@ -42,8 +42,8 @@
     of the company's system, as well as being in charge of the design and
     implementation of the infrastructure for the new system.
   key_points:
-    - Leading the architecture and development of the company's new event-driven
-      backend microservices.
+    - Leading the architecture, development, and deployment of the company's
+      new event-driven backend microservices.
     - Developed the entire user/authentication microservice with LDAP integration,
       as well as multiple utility libraries.
     - Building a new automated chat bot and real-time multi-agent chat system

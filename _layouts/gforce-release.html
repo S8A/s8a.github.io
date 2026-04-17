@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GForce v2</title>
+  <title>{{ page.title }}</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
   </style>
@@ -18,7 +18,7 @@
               <table cellpadding="0" cellspacing="0" border="0" width="100%">
                 <tr>
                   <td align="center" style="padding: 52px 40px;">
-                    <img src="/assets/img/gforce.svg" alt="G-Network" style="width: 260px; max-width: 100%; height: auto; display: block; margin: 0 auto;">
+                    <img src="/assets/img/gforce.svg" alt="GForce" style="width: 260px; max-width: 100%; height: auto; display: block; margin: 0 auto;">
                   </td>
                 </tr>
               </table>
@@ -29,7 +29,7 @@
               <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 20px;">
                 <tr>
                   <td style="color: #1a1a1a; font-size: 24px; font-weight: 700; line-height: 1.4; text-align: center; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
-                    ¡Tenemos algo nuevo para ti! Descubre la versión 2.0 de GForce 🚀
+                    ¡Tenemos algo nuevo para ti! Descubre la versión {{ page.release_version }} de GForce 🚀
                   </td>
                 </tr>
               </table>
@@ -45,6 +45,7 @@
                   </td>
                 </tr>
               </table>
+              {% if page.new_features %}
               <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 24px;">
                 <tr>
                   <td style="padding: 4px 0;">
@@ -54,17 +55,15 @@
                 <tr>
                   <td style="padding: 8px 0 8px 16px; color: #333333; font-size: 14px; font-weight: 400; line-height: 1.5; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
                     <ul>
-                      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod reprehenderit molestiae reiciendis! Perspiciatis voluptatibus dolores non nesciunt est dignissimos natus.</li>
-                      <li>Accusantium impedit blanditiis nam eius, autem aperiam vel velit voluptatibus accusamus, numquam officiis esse. Eum quos ab tenetur atque reprehenderit.</li>
-                      <li>Ex ipsa officiis accusamus temporibus impedit ratione aspernatur quae esse quasi, sequi atque consequuntur. Voluptatem deserunt saepe odio quae nisi.</li>
-                      <li>Velit, dicta! Iste doloremque itaque vitae recusandae, sunt, est officiis aliquam aperiam quod quibusdam assumenda, fugiat natus provident. Tenetur, accusantium.</li>
-                      <li>Nulla rem fuga ad deserunt eum aliquid sed magnam, repudiandae, at facilis voluptates consectetur officiis aut fugiat vero earum provident?</li>
-                      <li>Sed natus veniam eveniet cupiditate est, similique dolorum repellat vel delectus dolorem tempora. Neque, in! Corrupti aliquam aut hic cupiditate!</li>
-                      <li>Odit velit perspiciatis voluptate natus eum, modi cum libero. Illo iusto nostrum enim soluta! Accusantium recusandae aspernatur facilis officia aperiam?</li>
+                      {% for feature in page.new_features %}
+                        <li>{{ feature }}</li>
+                      {% endfor %}
                     </ul>
                   </td>
                 </tr>
               </table>
+              {% endif %}
+              {% if page.improvements %}
               <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 24px;">
                 <tr>
                   <td style="padding: 4px 0;">
@@ -74,17 +73,15 @@
                 <tr>
                   <td style="padding: 8px 0 8px 16px; color: #333333; font-size: 14px; font-weight: 400; line-height: 1.5; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
                     <ul>
-                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptas, explicabo sint quisquam ducimus saepe eveniet nulla officiis laudantium ad.</li>
-                      <li>Est corrupti laudantium quisquam velit incidunt id voluptate temporibus eligendi rem hic. Libero sit ullam ipsam aut saepe provident atque!</li>
-                      <li>Aperiam laborum, laboriosam culpa optio fugiat sint id animi sequi eaque totam. Debitis adipisci fuga atque, quibusdam dolorem est ex.</li>
-                      <li>Harum, adipisci voluptas, quas omnis quos corporis, neque rem sunt blanditiis non earum praesentium autem. Nemo, cum! Molestias, placeat quaerat.</li>
-                      <li>Molestias repellendus culpa odit ad corrupti, corporis porro reprehenderit animi dolor placeat nisi debitis voluptatem adipisci maiores impedit ab explicabo!</li>
-                      <li>Fugiat, alias. Sint nisi rerum expedita non, veritatis ratione, hic tenetur porro doloribus, adipisci cupiditate? Ad eaque sapiente placeat laudantium.</li>
-                      <li>Beatae, molestias fugit temporibus quod porro doloremque delectus quae esse perferendis consequuntur dolorem sapiente tempore nihil vel odio eligendi blanditiis.</li>
+                      {% for improvement in page.improvements %}
+                        <li>{{ improvement }}</li>
+                      {% endfor %}
                     </ul>
                   </td>
                 </tr>
               </table>
+              {% endif %}
+              {% if page.fixes %}
               <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 24px;">
                 <tr>
                   <td style="padding: 4px 0;">
@@ -94,22 +91,19 @@
                 <tr>
                   <td style="padding: 8px 0 8px 16px; color: #333333; font-size: 14px; font-weight: 400; line-height: 1.5; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
                     <ul>
-                      <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum doloremque ipsum laborum inventore veritatis quas odit reiciendis magni iste similique?</li>
-                      <li>Voluptatem vero velit neque perspiciatis iste labore accusamus ullam sunt tenetur, maiores soluta itaque fuga ad cum unde atque sit.</li>
-                      <li>Quibusdam non sed odit ratione sint voluptatem laudantium ex? Eum libero quae delectus dolores, architecto iusto debitis odit aut expedita.</li>
-                      <li>Beatae eaque, tempora incidunt similique consequatur autem cum ipsum suscipit doloremque aut laudantium atque laboriosam dignissimos porro nulla facilis qui!</li>
-                      <li>Molestiae, magni reprehenderit debitis tenetur similique numquam modi ut nisi vero, eius enim aspernatur recusandae repellat inventore porro nihil praesentium!</li>
-                      <li>Ratione fugit, dolore, animi reiciendis veritatis eaque magnam dicta expedita, eligendi sequi voluptatum? Necessitatibus similique labore nam. Blanditiis, aliquam delectus!</li>
-                      <li>Quisquam eveniet non assumenda ex eaque quas possimus expedita veritatis fugit ut veniam adipisci reprehenderit rem, nam dolor harum aperiam.</li>
+                      {% for fix in page.fixes %}
+                        <li>{{ fix }}</li>
+                      {% endfor %}
                     </ul>
                   </td>
                 </tr>
               </table>
+              {% endif %}
               <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-top: 8px;">
                 <tr>
                   <td align="center" style="padding: 0;">
-                    <a href="https://g-force.app/" style="display: inline-block; background-color: #b31217; color: #ffffff; text-decoration: none; font-size: 18px; font-weight: 500; line-height: 1.2; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; border-radius: 16px; padding: 18px 36px; box-sizing: border-box;">
-                      Ir a la app
+                    <a href="{{ page.cta_url }}" target="_blank" style="display: inline-block; background-color: #b31217; color: #ffffff; text-decoration: none; font-size: 18px; font-weight: 500; line-height: 1.2; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; border-radius: 16px; padding: 18px 36px; box-sizing: border-box;">
+                      {{ page.cta_text }}
                     </a>
                   </td>
                 </tr>
@@ -134,11 +128,13 @@
                     </a>
                   </td>
                 </tr>
+                {% if page.report_url %}
                 <tr>
                   <td style="padding-bottom: 8px; text-align: center;">
-                    <a href="https://forms.gle/hgQcpsrFs7utxspEA" style="color: #ffffff; font-size: 12px; text-decoration: underline; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; margin: 0 8px;">Reportar un problema 🙌</a>
+                    <a href="{{ page.report_url }}" target="_blank" style="color: #ffffff; font-size: 12px; text-decoration: underline; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; margin: 0 8px;">Reportar un problema 🙌</a>
                   </td>
                 </tr>
+                {% endif %}
                 <tr>
                   <td style="padding-bottom: 8px; color: #ffffff; font-size: 12px; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; text-align: center;">
                     Hecho con ❤️ por el Departamento de Desarrollo.
@@ -146,7 +142,7 @@
                 </tr>
                 <tr>
                   <td style="color: #ffffff; font-size: 11px; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; text-align: center;">
-                    Copyright @ 2026 Telecomunicaciones GNetwork. Todos los derechos reservados.
+                    Copyright @ {{ page.release_date | date: "%Y" }}  Telecomunicaciones GNetwork. Todos los derechos reservados.
                   </td>
                 </tr>
               </table>

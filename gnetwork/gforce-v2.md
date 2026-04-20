@@ -2,7 +2,7 @@
 layout: gforce-release
 title: GForce v2
 release_date: 2026-04-19
-release_version: 2.0
+release_version: 2
 new_features:
   - 'Vistas de chat separadas: Sin atender, Asignadas, Supervisión, Bot, y Finalizadas. Ya no es una sola vista con filtros complejos.'
   - 'Vista "Sin atender": Muestra las conversaciones en espera del equipo. Permite a los agentes tomar conversaciones.'

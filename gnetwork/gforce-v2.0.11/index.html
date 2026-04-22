@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GForce v2.0.11</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+  </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f5f5f5; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <table cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color: #f5f5f5;">
+    <tr>
+      <td align="center" style="padding: 20px 10px;">
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width: 768px; background-color: #ffffff; border-radius: 0; overflow: hidden;">
+          <tr>
+            <td style="background-color: #000000; color: #ffffff; padding: 0;">
+              <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                  <td align="center" style="padding: 52px 40px;">
+                    <img src="https://g-force.app/api/chat/media/public?storage_bucket=public&storage_path=gforce-logo-white.png" alt="GForce" style="width: 260px; max-width: 100%; height: auto; display: block; margin: 0 auto;">
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 32px 40px; background-color: #ffffff;">
+              <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 20px;">
+                <tr>
+                  <td style="color: #1a1a1a; font-size: 24px; font-weight: 700; line-height: 1.4; text-align: center; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
+                    ¡Tenemos algo nuevo para ti! Descubre la versión 2.0.11 de GForce 🚀
+                  </td>
+                </tr>
+              </table>
+              <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 24px;">
+                <tr>
+                  <td align="center" style="padding: 0;">
+                    <img src="https://g-force.app/api/chat/media/public?storage_bucket=public&storage_path=gnet-happy-transparent-20260420.png" alt="GNet" style="width: 220px; max-width: 100%; height: auto; display: block; margin: 0 auto;">
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-top: 10px; font-size: 0; line-height: 0;">
+                    <hr style="border: 0; border-top: 1px solid #eceff3; margin: 0;">
+                  </td>
+                </tr>
+              </table>
+              
+              <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 24px;">
+                <tr>
+                  <td style="padding: 4px 0;">
+                    <h3 style="color: #d63941; font-size: 16px; font-weight: 700; margin: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">Novedades ✨</h3>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 8px 0 8px 16px; color: #333333; font-size: 14px; font-weight: 400; line-height: 1.5; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
+                    <ul>
+                      
+                        <li>Desvincular datos de cliente: En el panel de detalle, si el contacto tiene datos de cliente asociados, en la parte inferior de esa sección se mostrará un botón gris que dice "Desvincular del contacto". Presionar este botón desvinculará el ID de cliente del registro de contacto para permitir buscar de nuevo por CI/RIF en caso de que se haya asociado el cliente equivocado.</li>
+                      
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+              
+              
+              <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 24px;">
+                <tr>
+                  <td style="padding: 4px 0;">
+                    <h3 style="color: #d63941; font-size: 16px; font-weight: 700; margin: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">Mejoras ⚡</h3>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 8px 0 8px 16px; color: #333333; font-size: 14px; font-weight: 400; line-height: 1.5; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
+                    <ul>
+                      
+                        <li>Vista "Sin asignar": Se renombró la vista "Sin atender" a "Sin asignar" para reflejar mejor lo que realmente se muestra en esa vista, que son los chats en la lista de espera del equipo porque no tienen agente asignado.</li>
+                      
+                        <li>Tiempos relativos: Ahora se actualizan en vivo los textos de tiempos relativos ("ahora", "hace 1m", "15m") que se muestran en la lista de contactos (para la fecha de último mensaje) y en el dashboard de supervisores (para el tiempo en el estado, la fecha de última actividad, y el tiempo de espera de respuesta).</li>
+                      
+                        <li>Atajo de teclado para almacenamiento compartido: El menú de almacenamiento compartido del chat ahora se puede desplegar y ocultar mediante el atajo de teclado Ctrl&nbsp;G.</li>
+                      
+                        <li>Scroll infinito para contratos y facturas: Ahora se aplica scroll infinito en las pestañas de contratos y facturas del panel de detalle para poder ver todos los ítems de clientes que tengan más de 10 contratos o facturas. Esto ya estaba aplicado en la pestaña de tickets.</li>
+                      
+                        <li>Presentación de montos decimales: Los montos de facturas y saldos ahora se muestran con un máximo de dos decimales para mantener la consistencia y evitar confusiones.</li>
+                      
+                        <li>Presentación de datos de cliente: Ahora el nombre y el correo electrónico del cliente ya no se muestran todo en mayúsculas, sino de forma natural para cada caso, es decir, con mayúscula al principio de cada palabra del nombre, mientras que el correo se queda todo en minúsculas.</li>
+                      
+                        <li>Ajustes visuales al panel de detalle: Se aplicaron algunas mejoras y correcciones visuales al panel de detalle del chat, especialmente cuando se visualiza en una ventana estrecha o en un teléfono o tablet.</li>
+                      
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+              
+              
+              <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 24px;">
+                <tr>
+                  <td style="padding: 4px 0;">
+                    <h3 style="color: #d63941; font-size: 16px; font-weight: 700; margin: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">Correcciones 🛠️</h3>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 8px 0 8px 16px; color: #333333; font-size: 14px; font-weight: 400; line-height: 1.5; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
+                    <ul>
+                      
+                        <li>Fecha de último mensaje: Las fechas de último mensaje de los ítems de la lista de contactos no se estaban actualizando correctamente al llegar o enviarse mensajes, requiriendo recargar la página. Ahora sí se actualizan para reflejar el verdadero último mensaje conforme se envían y reciben mensajes en la conversación.</li>
+                      
+                        <li>Navegación de dashboard a vistas de supervisión: Se corrigió un bug que impedía específicamente la navegación desde el dashboard directamente a las vistas de supervisión, lo cual obligaba a pasar primero a cualquier otra vista de chat.</li>
+                      
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+              
+              <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-top: 8px;">
+                <tr>
+                  <td align="center" style="padding: 0;">
+                    <a href="https://g-force.app" target="_blank" style="display: inline-block; background-color: #b31217; color: #ffffff; text-decoration: none; font-size: 18px; font-weight: 500; line-height: 1.2; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; border-radius: 16px; padding: 18px 36px; box-sizing: border-box;">
+                      Ir a la app
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width: 768px; margin-top: 0; background-color: #000000; border-top: 4px solid #b31217; border-bottom-left-radius: 0; border-bottom-right-radius: 0; text-align: center;">
+          <tr>
+            <td style="padding: 24px 20px; text-align: center;">
+              <table cellpadding="0" cellspacing="0" border="0" width="100%" style="text-align: center;">
+                
+                <tr>
+                  <td style="padding-bottom: 8px; text-align: center;">
+                    <a href="https://forms.gle/hgQcpsrFs7utxspEA" target="_blank" style="color: #ffffff; font-size: 12px; text-decoration: underline; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; margin: 0 8px;">Reportar un problema 🙌</a>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td style="padding-bottom: 8px; color: #ffffff; font-size: 12px; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; text-align: center;">
+                    Hecho con ❤️ por el Departamento de Desarrollo.
+                  </td>
+                </tr>
+                <tr>
+                  <td style="color: #ffffff; font-size: 11px; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; text-align: center;">
+                    Copyright @ 2026  Telecomunicaciones GNetwork. Todos los derechos reservados.
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<h1 id="agentsmd">AGENTS.md</h1>
+
+<h2 id="stack-and-build">Stack And Build</h2>
+<ul>
+  <li>This repo is a Jekyll 4 site, not a Node app. Node is only used by Jekyll hooks for PostCSS and esbuild.</li>
+  <li>There are no <code class="language-plaintext highlighter-rouge">npm</code> scripts for build, lint, test, or typecheck. Do not invent <code class="language-plaintext highlighter-rouge">npm run ...</code> commands here.</li>
+  <li>CSS is built from <code class="language-plaintext highlighter-rouge">assets/css/main.css</code> through <code class="language-plaintext highlighter-rouge">jekyll-postcss-v2</code>. Keep the empty front matter at the top of that file or Jekyll will stop treating it as a page to process.</li>
+  <li>JS is bundled from <code class="language-plaintext highlighter-rouge">assets/js/main.js</code> by <code class="language-plaintext highlighter-rouge">jekyll-esbuild</code>, configured in <code class="language-plaintext highlighter-rouge">_config.yml</code> under <code class="language-plaintext highlighter-rouge">esbuild.files</code>.</li>
+  <li>The repo pins a fork of <code class="language-plaintext highlighter-rouge">jekyll-postcss-v2</code> in <code class="language-plaintext highlighter-rouge">Gemfile</code>/<code class="language-plaintext highlighter-rouge">Gemfile.lock</code> (<code class="language-plaintext highlighter-rouge">S8A/jekyll-postcss-v2</code> on branch <code class="language-plaintext highlighter-rouge">feature/change_hook_to_site_post_write</code>). Do not replace it with the upstream gem unless the user asks.</li>
+</ul>
+
+<h2 id="commands">Commands</h2>
+<ul>
+  <li>Install deps with <code class="language-plaintext highlighter-rouge">bundle install</code> and <code class="language-plaintext highlighter-rouge">npm install</code>.</li>
+  <li>Local dev without Docker: <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve --drafts</code>.</li>
+  <li>Local dev with Docker: <code class="language-plaintext highlighter-rouge">docker compose up</code>. The container already runs <code class="language-plaintext highlighter-rouge">npm install &amp;&amp; jekyll serve --drafts</code>.</li>
+  <li>Production-style build: <code class="language-plaintext highlighter-rouge">JEKYLL_ENV=production NODE_ENV=production bundle exec jekyll build --verbose</code>.</li>
+  <li>CI deploys on pushes to <code class="language-plaintext highlighter-rouge">master</code>, using Ruby <code class="language-plaintext highlighter-rouge">3.3</code>, Node <code class="language-plaintext highlighter-rouge">20</code>, and apt packages listed in <code class="language-plaintext highlighter-rouge">.apt</code>.</li>
+</ul>
+
+<h2 id="repo-map">Repo Map</h2>
+<ul>
+  <li>Content collections are defined in <code class="language-plaintext highlighter-rouge">_config.yml</code>: <code class="language-plaintext highlighter-rouge">_open_source</code>, <code class="language-plaintext highlighter-rouge">_websites</code>, <code class="language-plaintext highlighter-rouge">_desktop</code>, <code class="language-plaintext highlighter-rouge">_mathematics</code>, <code class="language-plaintext highlighter-rouge">_misc_projects</code>, plus <code class="language-plaintext highlighter-rouge">_posts</code> for the blog.</li>
+  <li><code class="language-plaintext highlighter-rouge">projects.html</code> and the home page derive project listings from <code class="language-plaintext highlighter-rouge">site.documents</code> and <code class="language-plaintext highlighter-rouge">_data/project_collections.yml</code>; highlighted project cards come from collection documents with <code class="language-plaintext highlighter-rouge">highlight: true</code>.</li>
+  <li>Blog pagination is wired manually through <code class="language-plaintext highlighter-rouge">blog/index.html</code> and <code class="language-plaintext highlighter-rouge">_config.yml</code> (<code class="language-plaintext highlighter-rouge">paginate: 12</code>, <code class="language-plaintext highlighter-rouge">paginate_path: "/blog/:num/"</code>).</li>
+  <li>Math notebook pages use <code class="language-plaintext highlighter-rouge">layout: jupyter-notebook</code>, which bypasses the default Tailwind layout and uses the committed <code class="language-plaintext highlighter-rouge">assets/css/jupyter-*.css</code> files instead.</li>
+</ul>
+
+<h2 id="editing-gotchas">Editing Gotchas</h2>
+<ul>
+  <li>Do not edit <code class="language-plaintext highlighter-rouge">_site/</code>; it is generated and ignored.</li>
+  <li>Default page chrome lives in <code class="language-plaintext highlighter-rouge">_layouts/default.html</code>; the Tailwind stylesheet and bundled JS are linked there.</li>
+  <li>Local responsive images are usually rendered with `<img class="" srcset="" sizes="" src="" alt="" loading="eager" /></li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">, which depends on </code>jekyll-thumbnail-img` to generate width variants. Preserve that pattern when changing image markup.</p>

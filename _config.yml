@@ -52,7 +52,7 @@ exclude:
   - postcss.config.js
   - package.json
   - package-lock.json
-  - WARP.md
+  - AGENTS.md
 
 # Front Matter defaults
 defaults:

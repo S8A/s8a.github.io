@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GForce v2.0.11</title>
+  <title>GForce v2.0.13</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
   </style>
@@ -29,8 +29,8 @@
               <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 20px;">
                 <tr>
                   <td style="color: #1a1a1a; text-align: center; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
-                    <h1 style="font-size: 24px; font-weight: 700; line-height: 1.4;">Descubre la versión 2.0.11 de GForce 🚀</h1>
-                    <p>22/04/2026</p>
+                    <h1 style="font-size: 24px; font-weight: 700; line-height: 1.4;">Descubre la versión 2.0.13 de GForce 🚀</h1>
+                    <p>09/05/2026</p>
                   </td>
                 </tr>
               </table>
@@ -57,7 +57,9 @@
                   <td style="padding: 8px 0 8px 16px; color: #333333; font-size: 14px; font-weight: 400; line-height: 1.5; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
                     <ul>
                       
-                        <li>Desvincular datos de cliente: En el panel de detalle, si el contacto tiene datos de cliente asociados, en la parte inferior de esa sección se mostrará un botón gris que dice "Desvincular del contacto". Presionar este botón desvinculará el ID de cliente del registro de contacto para permitir buscar de nuevo por CI/RIF en caso de que se haya asociado el cliente equivocado.</li>
+                        <li>Métrica de tiempo de atención: En el dashboard para supervisores ahora se muestra el tiempo de atención promedio del equipo, siendo definido como la duración media desde que un chat lo empezó a atender un agente del equipo hasta que lo finalizó o lo transfirió a otro equipo. Como contraste, el tiempo de resolución cuenta desde el inicio de la conversación hasta que fue finalizado por un agente del equipo, por lo que incluye el tiempo que estuvo en espera y tiempo que fue atendido por el bot y otros equipos.</li>
+                      
+                        <li>Nuevo flujo del panel de detalle: Ahora, si se encuentran los datos del cliente por su número de teléfono, se habilita inmediatamente la pestaña de contratos (y por consiguiente las de facturas y tickets), sin tener que asociar los datos al contacto primero. Además, se provee un botón para buscar otro cliente por su cédula o RIF en caso de que los datos encontrados no sean los correctos, por ejemplo, si el teléfono ya no le pertenece a ese cliente. La función de asociar datos de cliente al contacto permanece como opción para hacer que se obtenga el cliente desde GOffice directamente por su ID en lugar de buscarlo por teléfono o manualmente por CI/RIF.</li>
                       
                     </ul>
                   </td>
@@ -75,19 +77,7 @@
                   <td style="padding: 8px 0 8px 16px; color: #333333; font-size: 14px; font-weight: 400; line-height: 1.5; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
                     <ul>
                       
-                        <li>Vista "Sin asignar": Se renombró la vista "Sin atender" a "Sin asignar" para reflejar mejor lo que realmente se muestra en esa vista, que son los chats en la lista de espera del equipo porque no tienen agente asignado.</li>
-                      
-                        <li>Tiempos relativos: Ahora se actualizan en vivo los textos de tiempos relativos ("ahora", "hace 1m", "15m") que se muestran en la lista de contactos (para la fecha de último mensaje) y en el dashboard de supervisores (para el tiempo en el estado, la fecha de última actividad, y el tiempo de espera de respuesta).</li>
-                      
-                        <li>Atajo de teclado para almacenamiento compartido: El menú de almacenamiento compartido del chat ahora se puede desplegar y ocultar mediante el atajo de teclado Ctrl&nbsp;G.</li>
-                      
-                        <li>Scroll infinito para contratos y facturas: Ahora se aplica scroll infinito en las pestañas de contratos y facturas del panel de detalle para poder ver todos los ítems de clientes que tengan más de 10 contratos o facturas. Esto ya estaba aplicado en la pestaña de tickets.</li>
-                      
-                        <li>Presentación de montos decimales: Los montos de facturas y saldos ahora se muestran con un máximo de dos decimales para mantener la consistencia y evitar confusiones.</li>
-                      
-                        <li>Presentación de datos de cliente: Ahora el nombre y el correo electrónico del cliente ya no se muestran todo en mayúsculas, sino de forma natural para cada caso, es decir, con mayúscula al principio de cada palabra del nombre, mientras que el correo se queda todo en minúsculas.</li>
-                      
-                        <li>Ajustes visuales al panel de detalle: Se aplicaron algunas mejoras y correcciones visuales al panel de detalle del chat, especialmente cuando se visualiza en una ventana estrecha o en un teléfono o tablet.</li>
+                        <li>Mejoras visuales al panel de detalle: Ahora la cabecera del panel de detalle donde se encuentran las diferentes pestañas (cliente, contratos, facturas, y tickets) se queda fija al hacer scroll al contenido. Además, se corrigió el espaciado y las divisiones de los elementos para mayor armonía visual.</li>
                       
                     </ul>
                   </td>
@@ -105,9 +95,9 @@
                   <td style="padding: 8px 0 8px 16px; color: #333333; font-size: 14px; font-weight: 400; line-height: 1.5; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
                     <ul>
                       
-                        <li>Fecha de último mensaje: Las fechas de último mensaje de los ítems de la lista de contactos no se estaban actualizando correctamente al llegar o enviarse mensajes, requiriendo recargar la página. Ahora sí se actualizan para reflejar el verdadero último mensaje conforme se envían y reciben mensajes en la conversación.</li>
+                        <li>Envío de imágenes: Se corrigió un bug que causaba que las imágenes enviadas de forma directa se subieran al almacenamiento compartido del equipo.</li>
                       
-                        <li>Navegación de dashboard a vistas de supervisión: Se corrigió un bug que impedía específicamente la navegación desde el dashboard directamente a las vistas de supervisión, lo cual obligaba a pasar primero a cualquier otra vista de chat.</li>
+                        <li>Pestaña inicial del panel de detalle: El panel de detalle ya no se cambia automáticamente a la pestaña de contratos si el contacto tiene datos de cliente asociados, sino que se inicializa de forma consistente en la primera pestaña con los datos del contacto y cliente.</li>
                       
                     </ul>
                   </td>

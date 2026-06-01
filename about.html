@@ -47,6 +47,11 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
 </section>
 
 <section class="py-6 print:break-inside-avoid">
+  <h2 class="text-2xl font-bold mb-4">Summary</h2>
+  <p>{{ site.data.about.summary.cv }}</p>
+</section>
+
+<section class="py-6 print:break-inside-avoid">
   <h2 class="text-2xl font-bold mb-4">Skills</h2>
   <ul class="ml-8 mb-0 list-disc list-outside">
     {%- for skill in site.data.about.skills -%}

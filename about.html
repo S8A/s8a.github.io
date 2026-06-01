@@ -66,7 +66,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
     {%- for job in site.data.work_experience -%}
       <div x-data="{ expanded: false }" class="px-4 py-3 border-l-4 border-blue-600 dark:border-blue-500">
         <h3 class="text-xl font-medium">
-          {{ job.title }} &ndash; {% if job.company_url %}<a href="{{- job.company_url -}}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">{{- job.company -}}</a>{% else %}{{- job.company -}}{% endif %}
+          {% if job.company_url %}<a href="{{- job.company_url -}}" class="underline text-blue-600 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400 transition-colors">{{- job.company -}}</a>{% else %}{{- job.company -}}{% endif %} &ndash; {{ job.title }}
         </h3>
         <p class="text-sm text-gray-600 dark:text-gray-400">
           {%- assign period_start = job.period_start | date: "%B %Y" -%}
@@ -79,14 +79,15 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
           {%- endcapture -%}
           {{- period_start | append: "-" | append: period_end | split: "-" | uniq | join: " &ndash; " -}}
         </p>
-        {%- if job.key_points.size > 1 -%}
+        {% assign bullets = job.details | default: job.key_points %}
+        {%- if bullets.size > 1 -%}
           <ul class="ml-4 mb-0 list-disc list-outside">
-            {%- for item in job.key_points -%}
+            {%- for item in bullets -%}
               <li>{{- item -}}</li>
             {%- endfor -%}
           </ul>
         {%- else -%}
-          <p>{{- job.key_points[0] -}}</p>
+          <p>{{- bullets[0] -}}</p>
         {%- endif -%}
         {%- if job.skills_keywords and job.skills_keywords.size > 0 -%}
           <p class="mt-2"><b>Key skills:</b> {{ job.skills_keywords | join: ", " }}.</p>

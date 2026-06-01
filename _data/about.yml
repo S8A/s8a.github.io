@@ -1,3 +1,12 @@
+summary:
+  home: >
+    Information systems engineer and software developer with 4+ years of experience.
+    Primarily working on backend development using Python (FastAPI, Django).
+  cv: >
+    Software developer with 4+ years of backend experience using Python (FastAPI, Django).
+    Built systems ranging from monolithic SPAs for small businesses to a real‑time
+    multi‑agent chat handling 18k+ messages per day. Also experienced with frontend
+    development, infrastructure, stakeholder communication, and leading small teams.
 birth_date: 2000-09-07
 country_of_birth: Venezuela
 country_of_residence: Venezuela

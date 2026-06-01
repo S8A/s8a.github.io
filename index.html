@@ -11,7 +11,7 @@ main_class_extra: divide-y divide-gray-950/5 dark:divide-white/10
   <div class="w-full sm:w-auto prose dark:prose-invert prose-h1:mb-6 prose-lead:text-balance prose-lead:text-gray-800 dark:prose-lead:text-gray-200 max-w-none">
     <h1>Samuel Ochoa</h1>
     <p class="lead">
-      Information systems engineer and software developer from Venezuela. Primarily working on backend web development using Python frameworks like Django and FastAPI.
+    {{ site.data.about.summary.home }}
     </p>
     <div class="flex items-center gap-2">
       {%- for contact in site.data.contact -%}

@@ -9,70 +9,68 @@
     - FastAPI
     - React
     - TypeScript
-  description: >
-    I developed a WhatsApp chat bot for customers of From Roraima, a currency
-    exchange company, using FastAPI for the backend, as well as a React frontend
-    for the company's employees to review and manage operations, transactions,
-    and more.
   key_points:
-    - Developed a WhatsApp chat bot to allow customers to deposit, convert, and
-      withdraw funds in different fiat and crypto currencies.
-    - Built a management web application for the company's employees to review
-      and manage operations, transactions, and more.
-- title: Backend and infrastructure developer
-  company: Telecomunicaciones G-Network, C.A.
+    - Built a WhatsApp chatbot for customers of a currency exchange company, as
+      well as a React managemnet UI for the company's employees.
+  details:
+    - Built a chatbot using the WhatsApp Business API that handles deposit,
+      withdrawal, and conversion requests across 5+ fiat currencies as well as
+      USDT. Initially written in Express.js then rewritten from scratch in
+      FastAPI. Also implemented a separate React + TypeScript management
+      dashboard for employees to review and approve transactions.
+- title: Backend developer, Department Lead
+  company: Telecomunicaciones G-Network
   company_url: https://www.gnetworkve.com/
   period_start: March 2025
   highlight: true
   skills_keywords:
     - Python
     - FastAPI
-    - Django REST Framework
     - FastStream
     - SQLAlchemy
     - WhatsApp API
     - Socket.IO
+    - Django REST Framework
     - RabbitMQ
     - PostgreSQL
     - Min.IO
     - Docker
     - Kubernetes
-  description: >
-    I am currently leading the development of the backend for the next version
-    of the company's system, as well as being in charge of the design and
-    implementation of the infrastructure for the new system.
   key_points:
-    - Leading the architecture, development, and deployment of the company's
-      new event-driven backend microservices.
-    - Developed the entire user/authentication microservice with LDAP integration,
-      as well as multiple utility libraries.
-    - Building a new automated chat bot and real-time multi-agent chat system
-      integrated with WhatsApp.
-- title: Co-founder and computer technician
-  company: Daykron Tech, C.A.
+    - Developed the backend for a new real-time multi-agent chat system that
+      handles +18k WhatsApp messages per day.
+    - Leading a team of six developers in building the company's new internal
+      software projects.
+    - Set up two Kubernetes clusters on-premises for the new microservices, as
+      well as two Min.IO servers for file object storage.
+  details:
+    - Developed the event-driven FastAPI backends for a new real-time
+      multi-agent chat system that handles over 18 thousand WhatsApp messages
+      per day, integrates with existing systems for customer data and payment
+      operations, and provides live and historical metrics for supervisors.
+    - Leading a team of six developers (myself included) in the development of
+      the company’s new internal software projects, guiding the overall
+      architecture, setting quality standards, and reviewing the work.
+    - Set up two Kubernetes clusters on premises for deploying the new
+      microservices across development, staging and production environments, as
+      well as two single-node Min.IO servers for file object storage.
+- title: Co-founder (side business)
+  company: Daykron Tech
   period_start: January 2024
   skills_keywords:
     - Windows
     - Linux
     - VMWare
     - Clonezilla
-  description: >
-    I founded the company Daykron Tech with my father to provide technical
-    service for computer systems, as well as retail sales of computers,
-    routers, security cameras, and more.
   key_points:
+    - Co-founded the company with my father for selling IT products and
+      providing technical support services.
+  details:
     - Co-founded the company with my father for selling IT products and
       providing technical support services.
     - Set up 14 replacement computers for the UMC's Navigation Simulator,
       enabling the resumption of proper practical training for Maritime
       Engineering students.
-  sections:
-    - title: Renovation of the Navigation Simulator of the UMC
-      items:
-        - I carried out the installation and configuration of the Navigation
-          Simulator program (Eca Sindel) on 14 new computers acquired by the
-          dean, thus allowing its reactivation for the radar and navigation
-          courses of Maritime Engineering students.
 - title: Full-stack developer
   company: Bitmotto
   company_url: https://www.bitmotto.com/
@@ -88,86 +86,20 @@
     - PostgreSQL
     - Docker
     - Nuxt.js
-  description: >
-    I was involved in the development of multiple projects for
-    Bitmotto's business customers, working both backend and frontend:
-    single-page style web applications built with Django, Vue.js, and
-    Inertia.js; and custom modules for the Odoo business management software
-    platform. I've participated in almost all stages of the development cycle,
-    and I've often been responsible for designing and implementing integrations
-    between different systems. Previously, I worked on the development of
-    Bitmotto's white-label crypto exchange and remittance platforms.
   key_points:
-    - Built single-page style web applications using Django and Vue.js for
-      various business customers.
-    - Developed apps and customizations for Odoo (business software platform)
-      requested by business customers.
-    - Implemented integrations between our systems and with third-party
-      services through APIs.
-  sections:
-    - title: Yummy Rides integration for Odoo
-      items:
-        - Developed an Odoo module that integrates Yummy Rides, a Venezuelan
-          delivery service, as a delivery carrier for sale orders created
-          from the Sales and eCommerce apps, handling the operations for
-          getting the estimated rate, creating the actual delivery order,
-          automatically tracking the delivery status, and generating a custom
-          shipping label in PDF format.
-        - Created a complementary module that implements a Leaflet map
-          as an Owl component, allowing e-commerce customers to select the exact
-          location of the delivery address on the map (as Yummy uses GPS
-          coordinates for the source and destination addresses), as well as
-          automatically finding the coordinates from the address fields or
-          filling the address fields from the coordinates.
-    - title: OTC Management System
-      items:
-        - Developed a Django web application for Wedlake International S.A., a
-          Panamanian currency exchange company with subsidiaries across Latin
-          America, which allows them to keep track of the operations that they
-          carry out, check the balances of their accounts and their clients',
-          and view graphs of certain metrics.
-        - Refactored the system to create a new user type with limited
-          permissions for account brokers, add the feature of uploading
-          documents linked to orders, and implement a new composite order
-          type for making a deposit and a withdrawal from different accounts
-          in a single operation.
-    - title: Legalys Platform
-      items:
-        - Worked on the development of Corpus, a Django web application
-          consisting of a multi-step form for Legalys's company registration
-          service. I played a key role in the design and implementation of the
-          database models, improving the integration with Stripe for payment
-          processing, and implementing several features.
-        - Re-implemented Orbis, Legalys's multi-step form for their Panama
-          immigration processing service, which was originally made in Odoo, as
-          a module in the Legalys Platform in order to provide a better user
-          interface for their clients.
-        - Contributed to the development of a new Know Your Customer (KYC)
-          module, which allows clients to update their company information and
-          upload documents for review by Legalys to comply with KYC
-          regulations.
-        - Implemented bidirectional data synchronization between Odoo and the
-          Legalys Platform, allowing Legalys to review the submitted form data
-          in Odoo, send data back to the platform, grant platform access by
-          clicking a button, and keep the records and documents in Odoo, where
-          they manage the rest of their business processes.
-    - title: Megasoft Payment Gateway integration for Odoo
-      items:
-        - Participated in the implementation of a certified Odoo integration
-          with Megasoft's payment processing platform, the most widely used in
-          Venezuela. Venezuelan companies that use Odoo will be able to use the
-          integration to receive credit card, mobile, and Zelle payments, while
-          Bitmotto will receive a percentage of the amounts processed.
-    - title: Modern Portals for Odoo
-      items:
-        - Built an Odoo module that provides a backend based on FastAPI with JWT
-          authentication, as well as a separate Nuxt.js frontend, in less than
-          two weeks. This will allow Bitmotto to quickly develop modern web
-          frontends on top of Odoo for clients.
-    - title: Bitmotto's own projects (Django Easystart, OTC, Remittance)
-      items:
-        - Expanded and refactored all unit tests, increasing test coverage to
-          over 94% while reducing total test time to under 4 minutes.
+    - Worked on the development of three full-featured Django + Vue.js web apps
+      for businesses.
+    - Developed a wide variety of integrations between our systems and with
+      third parties (CRMs, payments, delivery).
+  details:
+    - Worked on three full-featured Django + Vue.js web applications for
+      businesses, including multi-step forms for legal services and a currency
+      exchange transaction accounting system.
+    - Developed a wide variety of integrations between systems through HTTP
+      APIs, including data synchronization from our Django web apps to CRM
+      systems (Odoo, Zoho), Django and Odoo integrations with payment processors
+      (Stripe, Megasoft Payment Gateway), and an Odoo integration with a
+      delivery service (Yummy Rides).
 - title: Freelance job
   company: Totto Market
   company_url: https://www.instagram.com/tottomarket/
@@ -177,12 +109,6 @@
     - Python
     - Django
     - Heroku
-  description: >
-    I developed a simple Django web application for Totto Market, a local
-    convenience store specialized in gluten-free products, and deployed it on
-    Heroku. The web application consisted of a product list, a list of customers
-    with outstanding debts to pay, and forms for uploading the data, which is
-    exported from the business's accounting software at the end of each day.
   key_points:
     - Developed and deployed a simple web application for a convenience store
       to allow them to publish their product list.
@@ -195,13 +121,9 @@
     - Python
     - Django REST Framework
     - Vue.js
-  description: >
-    I worked on the implementation of part of the database models, backend API
-    code, and frontend UI for the crypto exchange platform's pro version,
-    Cryptobuyer Pro.
   key_points:
-    - Worked on the development of the pro version of the company's crypto
-      exchange platform.
+    - Worked on REST API endpoints, views, database models, and automated tests
+      in Django for the Pro version of the crypto exchange platform.
 - title: Freelance job
   company: TelComSis
   company_url: http://www.telcomsis.com.ve/
@@ -212,16 +134,13 @@
     - Django
     - MQTT
     - JavaScript
-  description: >
-    I developed a management system for facial recognition doorway devices for
-    TelComSis, a biometric tech company. The system consists of a program
-    that communicates with the devices through MQTT messages to record and
-    sync their data automatically, along with a Django web application to
-    manage the records of persons, accesses granted and denied, snapshots, etc.
   key_points:
-    - Developed a management system for facial recognition doorway devices
-      consisting of a program that automatically communicates with them through
-      MQTT and a Django web application for managing their records.
+    - Built a management system for facial recognition dooway devices,
+      consisting of a control program and a managemnt web app.
+  details:
+    - Built a management system for facial recognition doorway devices,
+      consisting of a Django web-app as user interface plus a Python program to
+      automatically exchange commands with the devices.
 - title: Technical support
   company: Universidad Marítima del Caribe (UMC)
   company_url: http://www.umc.edu.ve/
@@ -230,13 +149,6 @@
   skills_keywords:
     - Linux
     - Windows
-  description: >
-    I was employed as technical support for the computer labs and the
-    navigation simulator at the UMC since I was in the 4th semester, until my
-    resignation after completing the 9th and final semester. My work consisted
-    of solving computer malfunctions, creating backups, keeping
-    track of the computer labs' inventory, and keeping the labs' computers'
-    software up to date.
   key_points:
     - Performed maintenance tasks and troubleshooting for the university's
       computer labs and Navigation Simulator.

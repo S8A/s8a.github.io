@@ -1,0 +1,47 @@
+{
+  "subject": "G-Force v2.0.15: Novedades, mejoras y correcciones",
+  "template_id": "7dnvo4dy32x45r86",
+  "from_email": "desarrollo@gnetworkve.com",
+  "to_emails": [
+    "desarrollo@gnetworkve.com"
+  ],
+  "personalization_data": {
+    "gforce_version": "v2.0.15",
+    "release_date": "29/06/2026",
+    "sections": [
+      {
+        "title": "💬 Chat",
+        "items": [
+          "⚡ Lista de contactos rediseñada: Etiquetas de equipo eliminadas. Tiempo relativo de último mensaje más abreviado y con tooltip para mostrar fecha y hora exacta. Punto rojo en la esquina del avatar ahora indica si el contacto está esperando respuesta y muestra el tiempo de espera en tooltip. Franja roja indica que el chat no se ha abierto desde que se asignó y se mantiene así hasta que se abra por primera vez. Espaciado y alineación corregidos en todo el panel.",
+          "⚡ Modal de almacenamiento compartido mejorado: Checks para seleccionar los archivos a enviar. Campo de búsqueda para filtrar por nombre de archivo. Botones para desplegar detalles de archivo y mostrar acciones adicionales para descargar y eliminar (solo los supervisores del equipo pueden eliminar). El botón de Enviar indica cuántos archivos fueron seleccionados.",
+          "🆕 Botón de llamada: En la vista de chat, si el contacto tiene un número de teléfono de Venezuela, el agente asignado tendrá disponible un botón de teléfono (📞) para realizar una llamada telefónica con una aplicación adecuada para ello (3CX).",
+          "⚡ Buscar agentes al transferir: El selector de agentes en el modal de transferir chat ahora también es un buscador, permitiendo escribir para filtrar las opciones de acuerdo al texto ingresado.",
+          "⚡ Modal de creación de ticket simplificado: Como el panel de detalle ya permite buscar clientes por CI/RIF y seleccionar qué contrato gestionar, se volvió redundante esta funcionalidad en el modal de creación de ticket. Por lo tanto, ahora el modal de crear ticket muestra de forma fija los datos del cliente y contrato que se esté gestionando en el panel de detalle.",
+          "🛠️ Nombre completo del cliente: En el panel de detalle ahora se muestra de nuevo el nombre completo en los datos del cliente. Esto corrige un cambio erróneo introducido en una actualización anterior en el que se recortaba a la primera palabra del nombre y del apellido.",
+          "🛠️ Cuadro de texto de respuestas rápidas: Se corrigió un bug que causaba que se desbordara el cuadro de texto para escribir el texto de una respuesta rápida nueva o modificar el texto de una existente. Ahora el cuadro se expande de forma razonable y se puede hacer scroll dentro del cuadro si el texto lo excede.",
+          "🛠️ Inconsistencias en el panel de detalle: Se corrigió la lógica del panel de detalle para solventar unos bugs que causaban que en ciertos casos se mezclaran los datos de cliente asociados a un contacto con los de otro, particularmente si alguno de los dos falló al cargar o si se pasaba de un contacto a otro con el panel de detalle abierto en una pestaña diferente a la primera.",
+          "🆕 Acción de copiar mensaje: En la vista de chat, los mensajes ahora muestran un ícono de flecha en la esquina superior derecha cuando se pone el cursor encima, el cual despliega un menú que hasta ahora provee solo la acción de copiar el texto del mensaje. Pronto se implementará la funcionalidad de responder mensajes.",
+          "⚡ Permiso para pagar facturas: Ahora el botón de Pagar de las facturas en el panel de detalle se muestra solo para los usuarios que tengan el permiso correspondiente, el cual se otorgó solo a los agentes de los equipos de Atención al Cliente y de Ventas.",
+          "🛠️ Visualización de mensajes interactivos: Se corrigieron los componentes de mensajes interactivos de botones de respuesta y de lista de opciones para que de nuevo se visualicen tal como en WhatsApp. Esto corrige un cambio erróneo introducido en una actualización anterior.",
+          "🛠️ Detalles visuales del dashboard: Se corrigió el parpadeo de las tablas que ocurría cuando se actualizaban en vivo los datos, el espaciado entre las tarjetas de los KPI del equipo y la consistencia en la nomenclatura del estado Disponible (en lugar de En línea).",
+          "🛠️ Paginación de contactos en lotes de 20: Ahora la lista de contactos hace peticiones de lotes de 20 ítems en lugar de 10, corrigiendo un bug que causaba que la lista quedara corta en pantallas muy grandes.",
+          "🛠️ Caso borde de botón de envío de plantilla: Se ocultó el botón de enviar plantilla para los agentes que pertenecen a ningún equipo, para evitar inconsistencias en la asignación de la conversación iniciada de esta manera. Esto es un caso borde que solo afecta a los usuarios propios del equipo de desarrollo."
+        ]
+      },
+      {
+        "title": "🪪 Registro de clientes",
+        "items": []
+      },
+      {
+        "title": "🖥️ General",
+        "items": [
+          "🆕 Cambio de contraseña: Se implementó la funcionalidad de cambio de contraseña, tanto desde el formulario de inicio de sesión como desde el menú de usuario una vez ingresado. El sistema enviará un código temporal a su correo electrónico para autorizar el cambio. Exhortamos a todos los usuarios a cambiar su contraseña por una diferente a la que les asignamos nosotros.",
+          "🆕 Mapa de disponibilidad de cajas NAP: Se agregó un ícono de mapa a la barra superior, a la izquierda del menú de usuario, el cual abre un mapa interactivo en pantalla completa para consultar las cajas NAP en cualquier zona, con filtros geográficos (estado, municipio, parroquia y sector) y la posibilidad de darle clic a una caja NAP para ver una tarjeta con los detalles resumidos de la caja.",
+          "🆕 Selector de sede: El indicador de la sede o sucursal del usuario ahora permite seleccionar otra opción de la lista de sedes disponibles. Por los momentos, esto no tiene ninguna utilidad, pues solo será relevante una vez que se despliegue el nuevo registro de clientes.",
+          "⚡ Enlace a formulario de feedback: Se movió el enlace al formulario de feedback (Reportar error) del panel de navegación al menú de usuario.",
+          "🛠️ Desbordamiento del nombre de usuario: Se corrigió un bug en el que los nombres de usuario muy largos se desbordaban en el menú de usuario."
+        ]
+      }
+    ]
+  }
+}

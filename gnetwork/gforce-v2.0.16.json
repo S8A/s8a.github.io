@@ -1,0 +1,30 @@
+{
+  "subject": "G-Force v2.0.16: Novedades, mejoras y correcciones",
+  "template_id": "7dnvo4dy32x45r86",
+  "from_email": "desarrollo@gnetworkve.com",
+  "to_emails": [
+    "desarrollo@gnetworkve.com"
+  ],
+  "personalization_data": {
+    "gforce_version": "v2.0.16",
+    "release_date": "03/07/2026",
+    "sections": [
+      {
+        "title": "💬 Chat",
+        "items": [
+          "🆕 Reiniciar conversación: Ahora los chats muestran un aviso cuando han pasado más de 24 horas desde el último mensaje entrante del contacto, explicando que WhatsApp no permite que se le envíen mensajes normales en esta situación y mostrando un botón de \"Reiniciar conversación\". Al presionar este botón, se enviará la plantilla de saludo dirigida a \"estimado cliente\" y usando el nombre del agente.",
+          "🛠️ Bug de envío de imagen: Se corrigió un bug que causaba que no hiciera nada la opción para enviar una imagen directamente (sin usar el almacenamiento compartido).",
+          "⚡ Vista de gestión: El enlace de Gestión en el panel de navegación principal ahora lleva a una nueva vista con cuatro tarjetas correspondientes a diferentes secciones: Agentes, Equipos, Horarios y Ajustes. Por el momento, solo la vista de gestión de agentes está habilitada, mostrando la tabla de agentes que ya existía. Próximamente se irán implementando las otras vistas de gestión. Estas vistas están habilitadas solo para los usuarios que tengan los permisos correspondientes a cada una."
+        ]
+      },
+      {
+        "title": "🪪 Registro de clientes",
+        "items": []
+      },
+      {
+        "title": "🖥️ General",
+        "items": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "subject": "G-Force v2.0.17: Novedades, mejoras y correcciones",
+  "template_id": "7dnvo4dy32x45r86",
+  "from_email": "desarrollo@gnetworkve.com",
+  "to_emails": [
+    "desarrollo@gnetworkve.com"
+  ],
+  "personalization_data": {
+    "gforce_version": "v2.0.17",
+    "release_date": "09/07/2026",
+    "sections": [
+      {
+        "title": "💬 Chat",
+        "items": [
+          "🛠️ Rendimiento de la vista de chat: Se corrigió un bug que hacía que se enviaran eventos para marcar mensajes como leídos de forma repetitiva al servidor, causando a su vez que este enviase de vuelta eventos para actualizar la lista de contactos innecesariamente, afectando el rendimiento de la vista de chat.",
+          "⚡ Nuevo modal de transferencia: Se reorganizó el modal de transferir chat en dos pestañas, una para transferir a un equipo y la otra para transferir a un agente específico de un equipo. Las opciones de equipos en la primera pestaña y de agentes en la segunda ahora se muestran como listas siempre visibles con botones de transferir en cada ítem. Además, la lista de agentes muestra el estado actual de cada uno, y los agentes desconectados tienen su botón de transferir desactivado de una vez, evitando intentos fallidos.",
+          "🛠️ Eventos de conversación: Se corrigió la visualización de los de conversación creada y finalizada al agregarlos en vivo a la vista de chat. Antes de esta corrección ocurría que, al finalizar un chat, apareciera brevemente un mensaje diciendo que el tipo de mensaje CONVERSATION_EVENT no está soportado, y de igual manera si de casualidad se observaba un chat finalizado al mismo tiempo que el contacto volvía a escribir, iniciando una nueva conversación.",
+          "🛠️ Vistas de gestión: Se aplicaron varias correcciones en las vistas de gestión, particularmente en la tabla de horarios, los modales de detalle y edición de horario y de agente, y el modal de gestión de almacenamiento compartido de equipo.",
+          "🛠️ Cierre de sesión: Ahora, al cerrar sesión, se limpian todos los datos almacenados localmente, corrigiendo algunos bugs menores que ocurrían específicamente al salir de una cuenta y luego entrar con otra."
+        ]
+      },
+      {
+        "title": "🪪 Registro de clientes",
+        "items": []
+      },
+      {
+        "title": "🖥️ General",
+        "items": []
+      }
+    ]
+  }
+}

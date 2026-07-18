@@ -1,0 +1,234 @@
+---
+layout: default
+title: Quick Replies Builder
+description: Temporary tool to build a JSON array of quick replies.
+main_class_max_width: xl:max-w-7xl
+---
+
+<div
+  x-data="{
+    storageKey: 'quickRepliesBuilderItems',
+    title: '',
+    text: '',
+    items: [],
+    errors: {},
+    copyStatus: '',
+    copiedItemTitle: '',
+    copiedItemTimeout: null,
+    init() {
+      const savedItems = localStorage.getItem(this.storageKey);
+
+      if (!savedItems) {
+        return;
+      }
+
+      try {
+        const parsedItems = JSON.parse(savedItems);
+
+        if (Array.isArray(parsedItems)) {
+          this.items = parsedItems.filter((item) => item && typeof item.title === 'string' && typeof item.text === 'string');
+        }
+      } catch {
+        localStorage.removeItem(this.storageKey);
+      }
+    },
+    persistItems() {
+      localStorage.setItem(this.storageKey, JSON.stringify(this.items));
+    },
+    validate() {
+      const nextErrors = {};
+      const normalizedTitle = this.title.trim();
+      const normalizedText = this.text.trim();
+      const lowerTitle = normalizedTitle.toLocaleLowerCase();
+
+      if (!normalizedTitle) {
+        nextErrors.title = 'Title is required.';
+      } else if (normalizedTitle.length > 255) {
+        nextErrors.title = 'Title must be 255 characters or fewer.';
+      } else if (this.items.some((item) => item.title.toLocaleLowerCase() === lowerTitle)) {
+        nextErrors.title = 'Title must be unique.';
+      }
+
+      if (!normalizedText) {
+        nextErrors.text = 'Text is required.';
+      } else if (normalizedText.length > 2000) {
+        nextErrors.text = 'Text must be 2000 characters or fewer.';
+      }
+
+      this.errors = nextErrors;
+
+      return Object.keys(nextErrors).length === 0;
+    },
+    addItem() {
+      this.copyStatus = '';
+
+      if (!this.validate()) {
+        return;
+      }
+
+      this.items.push({
+        title: this.title.trim(),
+        text: this.text.trim(),
+      });
+      this.persistItems();
+
+      this.title = '';
+      this.text = '';
+      this.errors = {};
+    },
+    deleteItem(title) {
+      this.copyStatus = '';
+      this.items = this.items.filter((item) => item.title !== title);
+      this.persistItems();
+      this.validate();
+    },
+    clearItems() {
+      this.copyStatus = '';
+      this.items = [];
+      this.persistItems();
+      this.validate();
+    },
+    async copyJson() {
+      this.copyStatus = '';
+
+      try {
+        await navigator.clipboard.writeText(JSON.stringify(this.items, null, 2));
+        this.copyStatus = 'JSON copied.';
+      } catch {
+        this.copyStatus = 'Copy failed.';
+      }
+    },
+    async copyItem(item) {
+      try {
+        await navigator.clipboard.writeText(item.text);
+        clearTimeout(this.copiedItemTimeout);
+        this.copiedItemTitle = item.title;
+        this.copiedItemTimeout = window.setTimeout(() => {
+          if (this.copiedItemTitle === item.title) {
+            this.copiedItemTitle = '';
+          }
+        }, 900);
+      } catch {
+        this.copyStatus = 'Copy failed.';
+      }
+    },
+  }"
+  class="space-y-8"
+>
+  <header class="space-y-2">
+    <h1 class="text-3xl font-bold tracking-tight">Quick Replies Builder</h1>
+    <p class="text-gray-700 dark:text-gray-300">Build plain JSON array of quick reply objects with unique titles.</p>
+  </header>
+
+  <div class="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.35fr)]">
+    <section class="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+      <h2 class="text-xl font-semibold">Form</h2>
+      <form class="mt-5 space-y-5" x-on:submit.prevent="addItem()">
+        <div class="space-y-2">
+          <div class="flex items-center justify-between gap-3">
+            <label for="quick-reply-title" class="font-medium">Title</label>
+            <span class="text-sm text-gray-500 dark:text-gray-400" x-text="`${title.length}/255`"></span>
+          </div>
+          <input
+            id="quick-reply-title"
+            x-model="title"
+            x-on:input="validate()"
+            type="text"
+            maxlength="255"
+            required
+            class="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-base outline-none transition focus:border-blue-500 focus:ring-4 focus:ring-blue-500/15 dark:border-gray-700 dark:bg-gray-950 dark:focus:border-blue-400 dark:focus:ring-blue-400/15"
+            placeholder="Refund approved"
+          >
+          <p x-show="errors.title" x-text="errors.title" class="text-sm text-red-600 dark:text-red-400"></p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="flex items-center justify-between gap-3">
+            <label for="quick-reply-text" class="font-medium">Text</label>
+            <span class="text-sm text-gray-500 dark:text-gray-400" x-text="`${text.length}/2000`"></span>
+          </div>
+          <textarea
+            id="quick-reply-text"
+            x-model="text"
+            x-on:input="validate()"
+            maxlength="2000"
+            required
+            rows="10"
+            class="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-base outline-none transition focus:border-blue-500 focus:ring-4 focus:ring-blue-500/15 dark:border-gray-700 dark:bg-gray-950 dark:focus:border-blue-400 dark:focus:ring-blue-400/15"
+            placeholder="Hello, thanks for contacting us..."
+          ></textarea>
+          <p x-show="errors.text" x-text="errors.text" class="text-sm text-red-600 dark:text-red-400"></p>
+        </div>
+
+        <button
+          type="submit"
+          class="inline-flex cursor-pointer items-center justify-center rounded-xl bg-blue-600 px-5 py-3 font-medium text-white transition hover:bg-blue-500 focus:outline-none focus:ring-4 focus:ring-blue-500/20 dark:bg-blue-500 dark:hover:bg-blue-400"
+        >
+          Add item
+        </button>
+      </form>
+    </section>
+
+    <section class="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+        <div>
+          <h2 class="text-xl font-semibold">List</h2>
+          <p class="text-sm text-gray-600 dark:text-gray-400"><span x-text="items.length"></span> item<span x-show="items.length !== 1">s</span></p>
+        </div>
+        <div class="flex flex-wrap items-center gap-3">
+          <button
+            type="button"
+            x-on:click="clearItems()"
+            class="inline-flex cursor-pointer items-center justify-center rounded-xl border border-gray-300 px-4 py-2 font-medium text-gray-900 transition hover:border-red-500 hover:text-red-600 focus:outline-none focus:ring-4 focus:ring-red-500/15 dark:border-gray-700 dark:text-gray-100 dark:hover:border-red-400 dark:hover:text-red-400"
+          >
+            Clear list
+          </button>
+          <button
+            type="button"
+            x-on:click="copyJson()"
+            class="inline-flex cursor-pointer items-center justify-center rounded-xl border border-gray-300 px-4 py-2 font-medium text-gray-900 transition hover:border-blue-500 hover:text-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-500/15 dark:border-gray-700 dark:text-gray-100 dark:hover:border-blue-400 dark:hover:text-blue-400"
+          >
+            Copy JSON
+          </button>
+          <span x-show="copyStatus" x-text="copyStatus" class="text-sm text-gray-600 dark:text-gray-400"></span>
+        </div>
+      </div>
+
+      <div class="mt-5 max-h-[32rem] overflow-y-auto">
+        <div x-show="items.length === 0" class="flex min-h-56 items-center justify-center rounded-xl border border-gray-200 bg-white/70 px-6 text-center text-gray-500 dark:border-gray-800 dark:bg-gray-900/70 dark:text-gray-400">
+          Add quick replies from form. JSON array appears here as cards.
+        </div>
+
+        <div x-show="items.length > 0" class="space-y-4">
+          <template x-for="item in items" :key="item.title">
+            <article class="relative rounded-xl border border-gray-300 bg-gray-50 p-4 shadow-md shadow-gray-200/70 dark:border-gray-700 dark:bg-gray-950 dark:shadow-black/20">
+              <div class="absolute top-3 right-3 flex items-center gap-2">
+                <button
+                  type="button"
+                  x-on:click="copyItem(item)"
+                  x-bind:class="copiedItemTitle === item.title ? 'scale-110 border-green-500 text-green-600 dark:border-green-400 dark:text-green-400' : ''"
+                  class="inline-flex size-8 cursor-pointer items-center justify-center rounded-full border border-gray-300 bg-white text-sm font-semibold text-gray-600 transition duration-200 hover:border-blue-500 hover:text-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-500/15 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 dark:hover:border-blue-400 dark:hover:text-blue-400"
+                  aria-label="Copy item"
+                  title="Copy item"
+                  x-text="copiedItemTitle === item.title ? '✓' : '⧉'"
+                >
+                </button>
+                <button
+                  type="button"
+                  x-on:click="deleteItem(item.title)"
+                  class="inline-flex size-8 cursor-pointer items-center justify-center rounded-full border border-gray-300 bg-white text-sm font-semibold text-gray-600 transition hover:border-red-500 hover:text-red-600 focus:outline-none focus:ring-4 focus:ring-red-500/15 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 dark:hover:border-red-400 dark:hover:text-red-400"
+                  aria-label="Delete item"
+                  title="Delete item"
+                >
+                  ×
+                </button>
+              </div>
+              <h3 class="text-lg font-semibold" x-text="item.title"></h3>
+              <p class="mt-2 whitespace-pre-line text-gray-700 dark:text-gray-300" x-text="item.text"></p>
+            </article>
+          </template>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

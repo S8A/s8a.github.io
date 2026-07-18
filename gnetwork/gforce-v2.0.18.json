@@ -1,0 +1,34 @@
+{
+  "subject": "G-Force v2.0.18: Novedades, mejoras y correcciones",
+  "template_id": "7dnvo4dy32x45r86",
+  "from_email": "desarrollo@gnetworkve.com",
+  "to_emails": [
+    "desarrollo@gnetworkve.com"
+  ],
+  "personalization_data": {
+    "gforce_version": "v2.0.18",
+    "release_date": "18/07/2026",
+    "sections": [
+      {
+        "title": "💬 Chat",
+        "items": [
+          "⚡ Respuestas rápidas mejoradas: Ahora las respuestas rápidas tienen títulos y pueden tener dos niveles de visibilidad: compartidas para el equipo completo o privadas para el agente que las creó. Por lo tanto, el menú de respuestas rápidas fue rediseñado totalmente. En la próxima actualización se creará una interfaz de gestión para los supervisores, permitiéndoles visualizar y gestionar todas las respuestas rápidas compartidas y privadas de su equipo, incluyendo pasarlas de privadas a compartidas y viceversa. Siguiendo la solicitud de los supervisores, todas las respuestas rápidas existentes fueron eliminadas, y se crearon 82 nuevas para Atención al Cliente y 40 para Soporte.",
+          "🆕 Canales de la empresa: Se reestructuró la base de datos para registrar los diferentes canales de comunicación de la empresa, para en el futuro poder tener varios números de WhatsApp integrados en el sistema. Ahora se muestra el canal de la empresa por el cual se comunica cada contacto en el panel de detalle, así como en la tabla de contactos esperando respuesta del dashboard para supervisores y en la de contactos recurrentes en la respectiva vista de estadísticas. Por los momentos, solo se tendrá un único canal (nombrado G-Net Autogestión), pues se requieren más cambios internos para poder enviar y recibir mensajes con varias cuentas de WhatsApp.",
+          "⚙️ Ajuste a cambios en API de WhatsApp: Meta recientemente desplegó varios cambios importantes en la API de WhatsApp, notablemente la posibilidad de recibir mensajes de contactos incluyendo su nombre de usuario en lugar de su número de teléfono. Por lo tanto, se tuvo que implementar varios cambios internos en G-Force para manejar esa posibilidad y seguir enviando y recibiendo mensajes sin problema en el futuro.",
+          "❌ Menú de estado de agentes: Se eliminó el menú de estado de agentes que se encontraba al lado del selector de estado en la lista de contactos. Dicho menú resultó obsoleto o redundante ahora que el estado actual de los agentes se muestra tanto en el modal de transferir chat para los operadores como en el dashboard para supervisores.",
+          "🛠️ Modal de transferir chat: Se aplicaron correcciones al diseño del modal de transferir contacto, particularmente en cuanto al tamaño del texto y los botones.",
+          "🛠️ Permanencia de modales: Se corrigió el comportamiento de los modales de acciones del chat (transferir, finalizar, tomar) para que permanezcan en pantalla incluso si pierden el enfoque, por ejemplo, al cambiar de pestaña o al tratar de tomar una captura de pantalla.",
+          "🛠️ Bug de acceso a menús con chat desactivado: Se corrigió un bug que causaba que se pudiera acceder específicamente mediante atajos del teclado a los menús de almacenamiento compartido y de respuestas rápidas en chats en los que está desactivado el envío de mensajes (conversación finalizada o fuera de ventana de 24 h de WhatsApp)."
+        ]
+      },
+      {
+        "title": "🪪 Registro de clientes",
+        "items": []
+      },
+      {
+        "title": "🖥️ General",
+        "items": []
+      }
+    ]
+  }
+}

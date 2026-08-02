@@ -1,0 +1,67 @@
+{
+  "subject": "G-Force v3.0.0: Novedades, mejoras y correcciones",
+  "template_id": "7dnvo4dy32x45r86",
+  "from_email": "desarrollo@gnetworkve.com",
+  "to_emails": [
+    "desarrollo@gnetworkve.com"
+  ],
+  "personalization_data": {
+    "gforce_version": "v3.0.0",
+    "release_date": "31/07/2026",
+    "sections": [
+      {
+        "title": "💬 Chat: General",
+        "items": [
+          "🆕 Roles de equipos: Las membresías de los agentes en los equipos fueron reestructuradas, quedando separadas en tres roles discretos: operadores, supervisores y administradores. Los operadores son los agentes del equipo que atienden chats. Los supervisores son los agentes del equipo que pueden supervisar a los operadores y visualizar estadísticas. Los administradores son los agentes que pueden gestionar los parámetros, integrantes y contenido común del equipo.",
+          "🆕 Equipos de bots: Los equipos ahora pueden ser de dos tipos según sus operadores sean humanos o bots, mientras que los supervisores y administradores deben ser siempre humanos. El privilegio especial de supervisión de bot se eliminó, siendo reemplazado por tener el rol de supervisor en algún equipo de bots. G-Net, la única agente bot por ahora, fue asignada a un nuevo equipo llamado Bots y se ajustaron los datos históricos apropiadamente, permitiendo supervisarla en vivo mejor y ver sus estadísticas como cualquier otro equipo.",
+          "⚙️ Mejoras internas: Se implementaron muchas mejoras internas tanto en el backend como en el frontend. Entre estas, destaca que ahora el backend le provee al frontend la lista exacta de acciones de chat que el usuario tiene disponible para cada contacto en cada vista, de manera que la lógica del frontend se simplifica inmensamente y se facilitan las actualizaciones futuras."
+        ]
+      },
+      {
+        "title": "💬 Chat: Operadores",
+        "items": [
+          "⚡ Consolidación de acciones de panel de mensaje: Se redujeron los botones dentro del campo de mensaje del chat a solo dos: el de abrir el menú de respuestas rápidas y uno nuevo con ícono ➕ que despliega un menú que contiene las acciones de adjuntar archivo, almacenamiento compartido y selector de emojis.",
+          "🆕 Responder mensajes: Se agregó la acción de responder a los mensajes en el chat, permitiendo marcar el mensaje específico al que se está respondiendo para mayor claridad y precisión en la comunicación.",
+          "🆕 Clic para saltar al mensaje respondido: Se implementó la funcionalidad de darle clic a una previsualización de mensaje respondido por otro mensaje para desplazar la vista de chat al mensaje resaltado automáticamente. La única limitación al salto es si el mensaje respondido es muy antiguo, a menos que anteriormente se haya desplazado hacia arriba en el historial de mensajes lo suficiente para tenerlo en memoria.",
+          "🛠️ Previsualizaciones de mensajes respondidos: Se corrigieron los componentes de mensajes para que todos muestren las previsualizaciones de mensajes respondidos de forma correcta y consistente.",
+          "⚡ Búsqueda inteligente de teléfonos: Al usar los campos de búsqueda de las listas de contacto, ahora el sistema detecta cuando el texto ingresado es un número de teléfono con mucha más flexibilidad en cuanto al formato: con o sin código internacional, paréntesis, guiones, puntos y espacios.",
+          "🆕 Envío directo de videos y documentos: Se pueden adjuntar videos o documentos para enviar directamente a un contacto, es decir, sin subirlas al almacenamiento compartido y mostrando una vista de previsualización con un campo de comentario opcional, tal como ya se podía hacer con las imágenes. Los videos se muestran con sus respectivos controles de reproducción en la previsualización, mientras que los documentos solo muestran el nombre de archivo.",
+          "🆕 Soltar o pegar archivos para enviar: Ahora se puede arrastrar y soltar un archivo en el área de chat o copiar y pegar un archivo en el campo de mensaje para abrir la interfaz de envío directo del archivo en cuestión, sea imagen, video o documento.",
+          "⚡ Botón de enviar plantilla: El botón para enviar mensaje de plantilla e iniciar chat fue movido a la parte inferior de la lista de contactos, al lado del selector de estado, y ahora es de color rojo y tiene un ícono más representativo de la acción que realiza.",
+          "🆕 Equipo predeterminado: Los operadores pueden tener configurado un equipo predeterminado para la asignación de conversaciones que inicien mediante mensaje de plantilla. El botón de enviar plantilla ahora se muestra solo para los operadores que tengan equipo predeterminado definido.",
+          "⚡ Panel de detalle rediseñado: Se mejoró el diseño del panel de detalle en cuanto a colores, espaciado, proporciones y organización, para una experiencia más agradable y consistente.",
+          "🆕 Pestaña de G-TV+: Se agregó una nueva pestaña al panel de detalle del chat para visualizar los datos de las cuentas G-TV+ del contrato seleccionado actualmente, gestionar las pantallas de la cuenta y generar nuevas claves de acceso.",
+          "🛠️ Modal de transferir chat: Se vuelve a permitir transferir el chat al equipo que ya tiene asignado, a fin de que el sistema lo reasigne a otro agente o lo deje en espera. Se desactiva el botón de transferir al mismo agente que ya está asignado, a menos que sea en otro equipo. Además, se volvió a hacer que el modal se cierre automáticamente una vez hecha la transferencia.",
+          "🆕 Tiempo de gracia para eliminar archivos compartidos: Los operadores ahora podrán eliminar los archivos que hayan subido al almacenamiento compartido por error dentro de un tiempo de gracia de 1 minuto."
+        ]
+      },
+      {
+        "title": "💬 Chat: Supervisores",
+        "items": [
+          "🆕 Filtrar chats del equipo por operador: En las vistas de chat de Supervisión, se agregó un menú de filtro al lado del campo de búsqueda de la lista de contactos, con un selector opcional de operadores para mostrar solo los chats asignados al que se seleccione. El selector despliega como opciones todos los operadores del equipo con sus respectivos contadores de chats asignados, calculados cada vez que se abre el menú.",
+          "🆕 Filtrar dashboard del equipo por operador: Se agregó un selector opcional de operadores al dashboard, permitiendo a los supervisores visualizar los KPIs del operador específico seleccionado, ocultar a los demás operadores de la tabla de monitoreo y filtrar la tabla de chats esperando respuesta a aquellos asignados a dicho operador, manteniendo todos los datos actualizados en tiempo real.",
+          "⚡ Íconos de tipo de equipo: Los ítems de equipos en el submenú de navegación de Supervisión ahora tienen íconos para indicar cuáles equipos son de humanos y cuáles equipos son de bots.",
+          "🛠️ Bug en selectores de fechas para estadísticas: Se corrigió un bug en el que se enviaba el rango de fechas de manera incorrecta al hacer las peticiones al servidor para las diferentes estadísticas. Esto causaba que el día final del rango seleccionado no estuviera incluido en los datos y que fuera imposible obtener estadísticas para un solo día."
+        ]
+      },
+      {
+        "title": "💬 Chat: Administradores",
+        "items": [
+          "⚡ Gestión de agentes: La columna de equipos de la tabla de agentes fue separada en tres columnas para distinguir las membresías de cada agente como operador, supervisor y administrador de diferentes equipos. Los modales de detalle y modificación de agente fueron rediseñados siguiendo el mismo patrón. Nuevas acciones para desactivar y reactivar agentes del sistema. El acceso a esta vista depende de un permiso otorgado a ciertos usuarios selectos, mientras que las acciones de crear y modificar dependen de otro permiso más exclusivo aún por motivos de seguridad.",
+          "⚡ Gestión de equipos: Los administradores pueden acceder y ver todos los equipos, pero solo podrán gestionar aquellos en los que sean administradores. Nueva columna de tabla para el tipo de operador (humanos o bots) de cada equipo. El modal de modificar permite modificar el horario del equipo directamente. Se eliminó el parámetro de política de eliminación de archivos compartidos. Nuevo modal para gestionar los agentes que integran el equipo en sus diferentes roles, permitiendo visualizar, agregar y eliminar operadores, supervisores y administradores. Se eliminó el modal de almacenamiento compartido porque ahora hay una nueva vista separada para eso.",
+          "🆕 Gestión de almacenamiento compartido: Los administradores pueden acceder y gestionar los archivos compartidos de los equipos que administran. Presenta una tabla con los datos de todos los archivos compartidos del equipo seleccionado y campo de búsqueda; acciones de detalle, previsualizar, descargar y eliminar para cada ítem; y un botón para subir archivos nuevos.",
+          "🆕 Gestión de respuestas rápidas: Los administradores pueden acceder y gestionar las respuestas rápidas de los equipos que administran. Presenta una tabla con los datos de todas las respuestas rápidas del equipo seleccionado, tanto compartidas como privadas; acciones de detalle, modificar, eliminar, compartir y dejar de compartir para cada ítem; y un botón para crear una nueva respuesta rápida compartida.",
+          "❌ Gestión de horarios: Se eliminó la vista de gestión de horarios y la funcionalidad fue movida a la vista de gestión de equipos. Esto es debido a que se reimplementaron los horarios de forma que ya no son independientes y reutilizables, sino atados única y directamente a cada equipo, de manera que los administradores pueden modificar los horarios de sus respectivos equipos sin afectar a los demás y con mayor facilidad."
+        ]
+      },
+      {
+        "title": "🪪 Registro de clientes",
+        "items": []
+      },
+      {
+        "title": "🖥️ General",
+        "items": []
+      }
+    ]
+  }
+}

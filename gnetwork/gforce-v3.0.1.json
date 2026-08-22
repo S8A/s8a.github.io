@@ -1,0 +1,49 @@
+{
+  "subject": "G-Force v3.0.1: Novedades, mejoras y correcciones",
+  "template_id": "7dnvo4dy32x45r86",
+  "from_email": "desarrollo@gnetworkve.com",
+  "to_emails": [
+    "desarrollo@gnetworkve.com"
+  ],
+  "personalization_data": {
+    "gforce_version": "v3.0.1",
+    "release_date": "21/08/2026",
+    "sections": [
+      {
+        "title": "💬 Chat: General",
+        "items": [
+          "⚡ Vista inicial según roles del agente: Los agentes que son operadores en algún equipo ahora inician en la vista de chats asignados. Los que no son operadores, pero sí supervisores, inician en el dashboard. Los que no son operadores ni supervisores, pero sí administradores, inician en la vista de gestión.",
+          "⚙️ Mejoras internas variadas, tanto en backend como en frontend."
+        ]
+      },
+      {
+        "title": "💬 Chat: Operadores",
+        "items": [
+          "🆕 Adjuntar archivos a mensajes internos: El campo de mensaje interno ahora tiene un botón para adjuntar una imagen, video o documento al mensaje interno que se va a enviar.",
+          "🆕 Detalles de mensaje: Se agregó una opción a cada mensaje para ver un modal con sus detalles, principalmente las fechas y horas en las que fue enviado, entregado y leído.",
+          "⚡ Rediseño de mensajes: Todos los tipos de mensaje tienen una nueva apariencia más fresca y con mejor uso del espacio. Además, cada mensaje incluye el avatar de su remitente a un lado, mostrando su nombre al poner el cursor encima y permitiendo copiar su ID al darle clic.",
+          "⚡ Áreas de escritura de mensajes: El campo de mensaje normal ahora desaparece completamente cuando está inhabilitado el envío de mensajes. El campo de mensaje interno ahora tiene una etiqueta de \"Interno\" y, al abrirse, reemplaza completamente el campo de mensaje normal en lugar de desplazarlo hacia arriba."
+        ]
+      },
+      {
+        "title": "💬 Chat: Supervisores",
+        "items": [
+          "🆕 Cambiar estado de operadores desde el dashboard: El dashboard para supervisores ahora permite cambiar el estado de los operadores de su equipo. Para ello, la etiqueta del estado actual de cada operador ahora tiene un ícono para desplegar el menú de opciones y, al seleccionar el estado deseado, se aplicará el cambio inmediatamente.",
+          "⚡ Fecha actual en el dashboard: El dashboard ahora muestra una etiqueta al lado del título de la página para indicar la fecha actual, de manera que no haya ambigüedad respecto al período que abarcan los datos mostrados."
+        ]
+      },
+      {
+        "title": "💬 Chat: Administradores",
+        "items": []
+      },
+      {
+        "title": "🪪 Registro de clientes",
+        "items": []
+      },
+      {
+        "title": "🖥️ General",
+        "items": []
+      }
+    ]
+  }
+}

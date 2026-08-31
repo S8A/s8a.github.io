@@ -8,6 +8,7 @@
   "personalization_data": {
     "gforce_version": "v2.0.17",
     "release_date": "09/07/2026",
+    "summary": "Se mejora el rendimiento de la vista de chat y se reorganiza el modal de transferir chat en pestañas para equipos y agentes. También se corrigen eventos de conversación, vistas de gestión y limpieza de datos al cerrar sesión.",
     "sections": [
       {
         "title": "💬 Chat",

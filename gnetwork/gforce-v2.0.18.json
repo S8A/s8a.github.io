@@ -8,6 +8,7 @@
   "personalization_data": {
     "gforce_version": "v2.0.18",
     "release_date": "18/07/2026",
+    "summary": "Las respuestas rápidas ahora tienen títulos y pueden ser compartidas con el equipo o privadas para el agente que las creó. Se reestructura la base de datos para registrar canales de la empresa y se aplican ajustes para los cambios de la API de WhatsApp. Se elimina el menú de estado de agentes. Además, se corrigen el modal de transferir chat, la permanencia de modales y el acceso a menús en chats con el envío de mensajes desactivado.",
     "sections": [
       {
         "title": "💬 Chat",

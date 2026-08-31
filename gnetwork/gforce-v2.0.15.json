@@ -8,6 +8,7 @@
   "personalization_data": {
     "gforce_version": "v2.0.15",
     "release_date": "29/06/2026",
+    "summary": "Se rediseñan la lista de contactos y el modal de almacenamiento compartido. Se agregan un botón de llamada, búsqueda de agentes al transferir y una acción para copiar mensajes. También se simplifica el modal de creación de ticket y se controla el permiso para pagar facturas. Se implementan cambio de contraseña, mapa de disponibilidad de cajas NAP y selector de sede. Además, se corrigen datos de clientes, mensajes interactivos, dashboard y paginación.",
     "sections": [
       {
         "title": "💬 Chat",

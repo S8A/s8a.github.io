@@ -8,6 +8,7 @@
   "personalization_data": {
     "gforce_version": "v3.0.0",
     "release_date": "31/07/2026",
+    "summary": "Se reestructuran los equipos en roles de operador, supervisor y administrador, y se dividen en equipos de humanos o de bots. Para operadores, se agregan respuestas a mensajes, búsqueda inteligente de teléfonos, envío directo de videos y documentos, y la posibilidad de arrastrar o pegar archivos. Supervisores pueden filtrar chats y dashboard por operador. Administradores pueden gestionar agentes, equipos (incluyendo sus horarios), almacenamiento compartido y respuestas rápidas.",
     "sections": [
       {
         "title": "💬 Chat: General",

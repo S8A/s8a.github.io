@@ -8,6 +8,7 @@
   "personalization_data": {
     "gforce_version": "v2.0.10",
     "release_date": "19/04/2026",
+    "summary": "Se implementan vistas de chat separadas (Sin atender, Asignadas, Supervisión, Bot y Finalizadas), además de contadores y un dashboard para supervisores actualizado en tiempo real. El panel de detalle ahora permite personalizar nombres, buscar clientes por CI/RIF y gestionar contratos, facturas y tickets. Se incorporan respuestas rápidas, menú de agentes, emojis e integración de Google Maps. También se aplican mejoras visuales, de rendimiento y seguridad.",
     "sections": [
       {
         "title": "💬 Chat",

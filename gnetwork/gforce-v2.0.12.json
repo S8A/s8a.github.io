@@ -8,6 +8,7 @@
   "personalization_data": {
     "gforce_version": "v2.0.12",
     "release_date": "24/04/2026",
+    "summary": "Se refactoriza el frontend para simplificar el código y facilitar su mantenimiento. Además, se corrigen la visualización del nombre del agente en los mensajes salientes, la visualización de imágenes cuadradas y el menú de acciones del chat.",
     "sections": [
       {
         "title": "💬 Chat",

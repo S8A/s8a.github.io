@@ -8,6 +8,7 @@
   "personalization_data": {
     "gforce_version": "v2.0.13",
     "release_date": "09/05/2026",
+    "summary": "Se agrega al dashboard para supervisores la métrica de tiempo de atención promedio del equipo. El panel de detalle ahora habilita inmediatamente las pestañas de contratos, facturas y tickets cuando encuentra los datos del cliente por teléfono. También permite buscar otro cliente por CI/RIF y mantiene la opción de asociar los datos al contacto. Además, se corrigen el envío de imágenes y la pestaña inicial del panel de detalle.",
     "sections": [
       {
         "title": "💬 Chat",

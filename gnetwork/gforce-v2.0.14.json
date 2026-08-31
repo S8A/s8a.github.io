@@ -8,6 +8,7 @@
   "personalization_data": {
     "gforce_version": "v2.0.14",
     "release_date": "09/06/2026",
+    "summary": "Se agrega un apartado de estadísticas con vistas de productividad de equipo, contactos recurrentes y productividad individual, cada una con métricas, tablas y gráficos para el rango seleccionado. También se implementan una página de inicio y la visualización de mensajes de solicitud de ubicación. Se mejoran tablas, prefijos de documentos de identidad y tipografía. Además, se corrigen contactos duplicados, agentes asignados, búsqueda de chats, números resaltados e íconos de botones.",
     "sections": [
       {
         "title": "💬 Chat",

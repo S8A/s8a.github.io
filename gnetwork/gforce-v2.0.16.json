@@ -8,6 +8,7 @@
   "personalization_data": {
     "gforce_version": "v2.0.16",
     "release_date": "07/07/2026",
+    "summary": "Se agrega la opción de reiniciar conversación cuando han pasado más de 24 horas desde el último mensaje entrante. También se implementa una nueva vista de gestión con secciones para agentes, equipos y horarios. Los agentes ahora pueden cambiar su estado a desconectado aunque tengan chats asignados. Además, se corrigen el envío directo de imágenes y la creación de tickets con datos de cliente no vinculados al contacto.",
     "sections": [
       {
         "title": "💬 Chat",

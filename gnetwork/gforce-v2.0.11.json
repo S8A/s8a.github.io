@@ -8,6 +8,7 @@
   "personalization_data": {
     "gforce_version": "v2.0.11",
     "release_date": "22/04/2026",
+    "summary": "Se agrega la opción de desvincular los datos de cliente asociados a un contacto. La vista Sin atender se renombra como Sin asignar. Se incorporan actualización en vivo de tiempos relativos, un atajo para el almacenamiento compartido y scroll infinito para contratos y facturas. También mejoran la presentación de montos y datos de cliente, y se corrigen las fechas de último mensaje y la navegación hacia las vistas de Supervisión.",
     "sections": [
       {
         "title": "💬 Chat",

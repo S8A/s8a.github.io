@@ -8,6 +8,7 @@
   "personalization_data": {
     "gforce_version": "v3.0.1",
     "release_date": "21/08/2026",
+    "summary": "La vista inicial ahora depende de los roles del agente: los operadores comienzan en chats asignados, los supervisores en el dashboard y los administradores en gestión. Los operadores pueden adjuntar archivos a mensajes internos y consultar los detalles de cada mensaje. Además, se rediseñan los mensajes y las áreas de escritura. El dashboard ahora muestra la fecha actual y permite a los supervisores cambiar el estado de los operadores.",
     "sections": [
       {
         "title": "💬 Chat: General",

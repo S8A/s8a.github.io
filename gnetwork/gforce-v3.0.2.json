@@ -1,0 +1,52 @@
+{
+  "subject": "G-Force v3.0.2: Novedades, mejoras y correcciones",
+  "template_id": "7dnvo4dy32x45r86",
+  "from_email": "desarrollo@gnetworkve.com",
+  "to_emails": [
+    "desarrollo@gnetworkve.com"
+  ],
+  "personalization_data": {
+    "gforce_version": "v3.0.2",
+    "release_date": "14/09/2026",
+    "summary": "Se optimiza la transferencia de archivos para aliviar la carga del sistema. Se aplican correcciones al refrescamiento de sesión, la vista de supervisión y funcionalidades variadas para operadores. También se aplican mejoras a las gráficas de estadísticas y a varios elementos visuales.",
+    "sections": [
+      {
+        "title": "💬 Chat: General",
+        "items": [
+          "⚙️ Subida y descarga de archivos: Ahora se generan URLs temporales para subir y descargar archivos directamente del servidor de almacenamiento, quitándole al backend del chat la carga de intermediar la transmisión de bytes desde y hacia dicho servidor.",
+          "🛠️ Refrescamiento de sesión: Se corrigió un bug que ocasionaba que en ciertos casos no se refrescara la sesión y se cerrara inesperadamente.",
+          "⚡ Mejoras de diseño: Se aplicaron diversas mejoras de diseño a todos los selectores y menús, los mensajes de ubicación y el modal de detalles de mensaje."
+        ]
+      },
+      {
+        "title": "💬 Chat: Operadores",
+        "items": [
+          "🛠️ Enlaces de Google Maps: Se aplicó la configuración que hacía falta en el visualizador de mensajes de ubicación para poder hacer clic directo para abrir los enlaces de Google Maps en una nueva pestaña.",
+          "🛠️ Envío de plantillas: Ahora los botones de enviar plantilla para iniciar y para reiniciar conversación se desactivan si el agente no está disponible.",
+          "🛠️ Envío de videos: Se corrigió un bug que causaba que los videos se trataran de enviar con el tipo de mensaje incorrecto.",
+          "🛠️ Descarga de documentos: Se volvió a habilitar la funcionalidad de darle clic directamente al documento adjunto del mensaje para descargarlo. Se mantiene todavía la opción de descargar en el menú de acciones."
+        ]
+      },
+      {
+        "title": "💬 Chat: Supervisores",
+        "items": [
+          "🛠️ Vistas de supervisión con operador seleccionado: Se corrigió un bug que ocasionaba que se mezclaran chats de otros operadores del equipo cuando se tiene seleccionado un operador específico en la vista de supervisión."
+        ]
+      },
+      {
+        "title": "💬 Chat: Administradores",
+        "items": [
+          "⚡ Gráficas de línea: En las vistas de estadísticas, al seleccionar una o varias métricas específicas en un gráfico de línea, el eje vertical de este se ajustará al nuevo rango de valores para permitir una mejor visualización."
+        ]
+      },
+      {
+        "title": "🪪 Registro de clientes",
+        "items": []
+      },
+      {
+        "title": "🖥️ General",
+        "items": []
+      }
+    ]
+  }
+}
